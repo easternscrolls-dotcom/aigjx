@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ $img := .Params.image }}
+{{ $layout := "textonly" }}{{ with $img }}{{ $layout = .layout | default "textonly" }}{{ end }}
+
+<article class="entry layout-{{ $layout }}" itemscope itemtype="https://schema.org/WebPage">
+  <nav class="crumbs" aria-label="breadcrumb">
+    <a href="{{ .Site.Home.RelPermalink }}">{{ i18n "breadcrumb_home" }}</a>
+    <span>/</span>
+    <a href="{{ .Site.BaseURL }}{{ .Section }}/">{{ .Section }}</a>
+  </nav>
+
+  <h1>{{ .Title }}</h1>
+  <p class="meta">
+    {{ i18n "updated" }} <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time>
+    {{ with .Params.region }}· {{ . }}{{ end }}
+    · {{ .WordCount }} {{ i18n "reading_time" }}
+  </p>
+
+  {{/* 图片布局随机切换：hero 顶部大图 / side 侧边插图 / textonly 极简无图 */}}
+  {{ if and (ne $layout "textonly") $img.src }}
+  <figure class="img-{{ $layout }}">
+    <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" width="800" height="450">
+  </figure>
+  {{ end }}
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.outbound }}
+  <p class="cta">
+    <a href="{{ . }}" rel="{{ $.Site.Params.outboundRel }}" target="_blank">{{ i18n "visit_official" }}</a>
+  </p>
+  {{ end }}
+
+  {{ partial "related.html" . }}
+</article>
+{{ end }}

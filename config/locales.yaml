@@ -1,0 +1,42 @@
+# ============================================================
+# 目标地区语种配置
+# 每个语种在三套免费翻译源里的语言代码可能不同，这里统一映射，
+# 保证“分语种隔离翻译”，杜绝语种错乱混排。
+# ============================================================
+
+locales:
+  - code: "en"                # 内部代号 / Hugo 语言键 / content 子目录名
+    hugo_lang: "en-US"        # HTML lang 属性与 hreflang
+    name: "English (US)"
+    region: "United States"
+    google: "en"              # translate.googleapis.com 语言码
+    edge: "en"                # Edge 翻译语言码
+    deeplx: "EN"              # DeepLX 语言码
+    currency_symbol: "$"
+    currency_code: "USD"
+    payment_channels: ["free trial", "freemium", "no credit card required", "free plan"]
+    date_format: "January 2, 2006"
+
+  - code: "es"
+    hugo_lang: "es-MX"
+    name: "Español (México)"
+    region: "México"
+    google: "es"
+    edge: "es"
+    deeplx: "ES"
+    currency_symbol: "MX$"
+    currency_code: "MXN"
+    payment_channels: ["prueba gratuita", "freemium", "sin tarjeta de crédito", "plan gratuito"]
+    date_format: "2 de January de 2006"
+
+  - code: "id"
+    hugo_lang: "id-ID"
+    name: "Bahasa Indonesia"
+    region: "Indonesia"
+    google: "id"
+    edge: "id"
+    deeplx: "ID"
+    currency_symbol: "Rp"
+    currency_code: "IDR"
+    payment_channels: ["uji coba gratis", "freemium", "tanpa kartu kredit", "paket gratis"]
+    date_format: "2 January 2006"

@@ -1,0 +1,77 @@
+# ============================================================
+# RSS 素材源（多备用设计）
+# 规则：同一 topic 下自上而下按 priority 使用；
+#   - 单源连续 N 天 404 / 空数据 → 自动休眠并切换到下一个备用源
+#   - 休眠到期自动复活重试，无需人工干预
+# RSSHub 公共实例本身免费；如公共实例限流，把 rsshub_mirrors 里换成
+# 你自己 fork 的免费实例即可，代码无需改动。
+# ============================================================
+
+rsshub_mirrors:
+  - "https://rsshub.app"
+  - "https://rsshub.rssforever.com"
+  - "https://rss.injahow.cn"
+
+topics:
+  ai_tools:
+    section: "tools"          # 生成页面所在的 Hugo section（保证目录层级 ≤2）
+    # 聚焦"免费 AI 在线工具"：Product Hunt（免费工具密集）+ HN 关键词流（free/online）+ Reddit 兜底
+    sources:
+      - id: "ph_ai"
+        priority: 1
+        type: "rss"
+        url: "https://rsshub.app/producthunt/today"
+        note: "Product Hunt 每日榜（免费 AI 工具密集，RSSHub 路由）"
+      - id: "hn_free_ai"
+        priority: 2
+        type: "rss"
+        url: "https://hnrss.org/newest?q=free+ai+tool"
+        note: "Hacker News 关键词流：free ai tool（官方免费 RSS）"
+      - id: "hn_ai_tool"
+        priority: 3
+        type: "rss"
+        url: "https://hnrss.org/newest?q=ai+tool"
+        note: "Hacker News 关键词流：ai tool（官方免费 RSS）"
+      - id: "reddit_ai"
+        priority: 4
+        type: "rss"
+        url: "https://www.reddit.com/r/artificial/top/.rss?t=day"
+        note: "Reddit 官方免费 RSS，备用兜底"
+
+  mobile_game_quest:
+    section: "guides"
+    sources:
+      - id: "gamedev_rss"
+        priority: 1
+        type: "rss"
+        url: "https://rsshub.app/gcores/category/3"
+        note: "示例：机核游戏资讯（RSSHub）"
+      - id: "hn_games"
+        priority: 2
+        type: "rss"
+        url: "https://hnrss.org/newest?q=game"
+        note: "Hacker News 关键词流"
+      - id: "reddit_gaming"
+        priority: 3
+        type: "rss"
+        url: "https://www.reddit.com/r/AndroidGaming/top/.rss?t=day"
+        note: "Reddit 官方 RSS"
+
+  webnovel_list:
+    section: "books"
+    sources:
+      - id: "gutenberg_new"
+        priority: 1
+        type: "rss"
+        url: "https://www.gutenberg.org/cache/epub/feeds/today.rss"
+        note: "古登堡计划新书（公共领域，版权安全）"
+      - id: "hn_books"
+        priority: 2
+        type: "rss"
+        url: "https://hnrss.org/newest?q=book"
+        note: "Hacker News 关键词流"
+      - id: "reddit_books"
+        priority: 3
+        type: "rss"
+        url: "https://www.reddit.com/r/books/top/.rss?t=day"
+        note: "Reddit 官方 RSS"

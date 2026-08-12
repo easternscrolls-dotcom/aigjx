@@ -1,0 +1,22 @@
+{{/* 底部相关推荐聚合：优先使用流水线写入的 related，不足时用同 section 最新页面补齐 */}}
+{{ $items := .Params.related | default slice }}
+{{ if lt (len $items) 3 }}
+  {{ $extra := slice }}
+  {{ range first 5 (where .Site.RegularPages "Section" .Section) }}
+    {{ if ne .Permalink $.Permalink }}
+      {{ $extra = $extra | append (dict "title" .Title "url" .RelPermalink "anchor" .Title) }}
+    {{ end }}
+  {{ end }}
+  {{ $items = $items | append $extra }}
+{{ end }}
+
+{{ if $items }}
+<aside class="related">
+  <h2>{{ i18n "related" }}</h2>
+  <ul>
+    {{ range first 6 $items }}
+    <li><a href="{{ .url }}">{{ .anchor | default .title }}</a></li>
+    {{ end }}
+  </ul>
+</aside>
+{{ end }}

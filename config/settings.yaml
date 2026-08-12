@@ -1,0 +1,106 @@
+# ============================================================
+# 全局参数配置 —— 改这里就能改行为，不需要动 Python 代码
+# ============================================================
+
+site:
+  # Cloudflare Pages 绑定成功后把这里换成你的正式域名（结尾必须带 /）
+  base_url: "https://autoguide-station.pages.dev/"
+  brand: "AutoGuide"
+  # 站点题材：mobile_game_quest | ai_tools | webnovel_list
+  # 决定使用 config/sources.yaml 中哪一组 RSS 源、以及页面 section 名
+  topic: "ai_tools"
+  # 分销/推广链接的 UTM 后缀（无则留空字符串）
+  utm_suffix: "?utm_source=autoguide&utm_medium=referral"
+
+schedule:
+  # Actions 每天会被 cron 触发多次，脚本按“日期哈希”只在其中一个时段真正执行，
+  # 从而实现执行时间每日浮动 ±2 小时，且不浪费 Actions 分钟额度。
+  candidate_slots_utc: [1, 3, 5]
+  # 命中时段后再随机静默等待 0~jitter_seconds 秒，进一步打散请求指纹
+  jitter_seconds: 900
+
+collect:
+  per_source_limit: 25        # 单个 RSS 源单次最多取多少条
+  max_items_per_day: 60       # 每日进入生产线的素材上限（控制 Actions 时长）
+  summary_max_chars: 200      # 简介强制截断字符数（硬红线）
+  title_max_chars: 90
+  retry_times: 3              # 单源失败重试次数
+  retry_backoff: [3, 8, 20]   # 重试间隔（秒）
+  request_timeout: 20
+  sleep_between_sources: [2, 6]   # 源与源之间随机休眠区间（秒）
+  source_fail_days_to_sleep: 2    # 连续失败 N 天则自动休眠该源
+  source_sleep_days: 7            # 休眠天数，到期自动复活
+  seen_id_keep_days: 45           # 已抓取 ID 缓存保留天数
+
+translate:
+  # 免费无密钥翻译源轮询顺序；单源报错自动冷却并切换下一源
+  providers: ["google_free", "edge_free", "deeplx_public"]
+  cooldown_minutes: 30
+  batch_size: 50                 # 每批 50 条
+  sleep_between_batches: [2, 5]  # 批间随机休眠（秒）
+  sleep_between_calls: [0.4, 1.2]
+  request_timeout: 20
+  max_chars_per_call: 1800
+  cache_keep_days: 120
+  # DeepLX 公共节点（社区免费自建实例，无需密钥）。失效时巡检脚本会自动标记，
+  # 你只需往列表里补新的公共节点即可，代码无需改动。
+  deeplx_endpoints:
+    - "https://deeplx.vercel.app/translate"
+    - "https://api.deeplx.org/translate"
+
+keywords:
+  # 每月自动挖词的种子词（脚本会在其后做 a-z / 疑问词 / 对比词 扩展）
+  # 已聚焦"免费 AI 在线工具"：强调 free / online / no sign up / browser-based
+  seeds:
+    - "free ai tool"
+    - "free ai image generator"
+    - "free ai writing tool"
+    - "free online ai"
+    - "ai tool no sign up"
+  question_prefixes: ["how to", "what is", "why is", "is it safe to", "can i"]
+  comparison_patterns: ["{s} vs", "{s} alternative", "{s} or"]
+  audience_patterns: ["{s} for beginners", "{s} for students", "{s} for small business"]
+  payment_patterns: ["{s} free trial", "{s} no credit card", "{s} oxxo", "{s} dana", "{s} gopay"]
+  max_new_per_run: 400
+  request_timeout: 15
+  sleep_between_calls: [1.5, 4.0]
+
+generate:
+  target_words_range: [300, 900]   # 页面字数随机浮动区间（硬红线：<300 不生成）
+  min_words: 300
+  faq_pick_range: [5, 8]           # 每页随机抽 5~8 条 FAQ
+  keywords_per_item: [5, 10]       # 每条素材匹配 5~10 条不重复长尾词
+  internal_links_range: [3, 5]     # 每页随机插入 3~5 条同题材内链
+  image_layouts: ["hero", "side", "textonly"]
+  # 组件随机重组池：脚本会随机打乱顺序、随机丢弃可选组件，实现千页千面
+  required_components: ["intro", "faq"]
+  optional_components: ["pros", "cons", "table", "outro"]
+  max_pages_per_run: 40
+  min_pages_per_day: 3             # 低于此值触发二次全流程重跑
+
+compliance:
+  similarity_max: 0.10        # 译文与原素材相似度 > 10% 直接丢弃
+  similarity_soft: 0.08       # 进入软阈值则自动截取片段降低重合度
+  soft_trim_chars: 90
+  eu_locales: []              # 需要删减现金收益描述的语种代码，如 ["de", "fr"]
+  piracy_terms:
+    - "download"
+    - "full story"
+    - "free resource"
+    - "resource pack"
+    - "crack"
+    - "torrent"
+    - "mod apk"
+
+selfheal:
+  article_keep_days: 240      # 超过天数的旧文章自动清理，压缩构建体积
+  cache_file_keep_days: 60
+  backup_keep_weeks: 8
+  hugo_binary: "hugo"         # 本地构建预检使用的可执行名
+  build_precheck: true        # 推送前本地构建预检，失败则回滚，防止线上空白
+
+publish:
+  git_user_name: "autoguide-bot"
+  git_user_email: "autoguide-bot@users.noreply.github.com"
+  commit_prefix: "chore(auto): "
+  branch: "main"

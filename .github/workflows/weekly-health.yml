@@ -1,0 +1,52 @@
+# ============================================================
+# 每周巡检：翻译源连通性 / sitemap 与模板齐备 / 词库完整性 /
+#           清理超龄内容与缓存 / 备份全套 CSV
+# 每周一 UTC 06:10 运行；缺失文件自动生成兜底模板后提交
+# ============================================================
+name: weekly-health
+
+on:
+  schedule:
+    - cron: "10 6 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: weekly-health
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUTF8: "1"
+
+jobs:
+  health:
+    name: 巡检与备份
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: 安装 Hugo（构建预检）
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.128.0"
+          extended: true
+      - name: 执行巡检 + 备份 + 推送
+        run: python -m pipeline.run_weekly
+      - name: 上传巡检报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report-${{ github.run_id }}
+          path: data/state/health_report.json
+          retention-days: 30
+          if-no-files-found: ignore

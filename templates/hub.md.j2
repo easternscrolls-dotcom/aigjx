@@ -1,0 +1,33 @@
+{# ============================================================
+   榜单聚合页模板（ItemList Schema）——主题集群入口
+   仅做条目罗列与结构化，不含解读文案
+   ============================================================ #}
+---
+title: "{{ title }}"
+description: "{{ description }}"
+slug: "{{ slug }}"
+date: {{ date }}
+lastmod: {{ date }}
+draft: false
+type: "hub"
+schema_type: "ItemList"
+group: "{{ group }}"
+region: "{{ region }}"
+keywords:
+  - "{{ keyword | yaml }}"
+items:
+{% for it in items %}
+  - title: "{{ it.title | yaml }}"
+    url: "{{ it.url }}"
+    keyword: "{{ it.keyword | yaml }}"
+{% endfor %}
+pipeline:
+  count: {{ items | length }}
+  lang: "{{ hugo_lang }}"
+---
+
+## {{ keyword }}
+
+{% for it in items %}
+{{ loop.index }}. [{{ it.title }}]({{ it.url }}) — {{ it.keyword | titlecase }}
+{% endfor %}

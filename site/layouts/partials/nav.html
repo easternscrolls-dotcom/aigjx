@@ -1,0 +1,9 @@
+<header class="site-header">
+  <a class="brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.brand }}</a>
+  <nav class="langs" aria-label="language">
+    {{ range .Site.Home.AllTranslations }}
+    <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"
+       {{ if eq .Language.Lang $.Site.Language.Lang }}class="on" aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a>
+    {{ end }}
+  </nav>
+</header>

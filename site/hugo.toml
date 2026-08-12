@@ -1,0 +1,81 @@
+# ============================================================
+# Hugo 站点配置（多语言 / 扁平目录 / 分语种 sitemap）
+# baseURL 由 Actions 构建时用 -b 参数覆盖，也可直接改这里
+# ============================================================
+
+baseURL = "https://autoguide-station.pages.dev/"
+title = "AutoGuide"
+enableRobotsTXT = true
+enableEmoji = false
+canonifyURLs = false
+# 目录层级 ≤ 2：禁用分类法，避免自动生成 /tags/xxx/ 这类深层目录
+disableKinds = ["taxonomy", "term", "RSS"]
+summaryLength = 30
+timeZone = "UTC"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[pagination]
+  pagerSize = 24
+
+[permalinks]
+  # /<lang>/<section>/<slug>/ —— 正好两层，符合扁平结构要求
+  tools = "/:section/:slug/"
+  guides = "/:section/:slug/"
+  books = "/:section/:slug/"
+  hub = "/hub/:slug/"
+
+[outputs]
+  home = ["HTML", "SITEMAP"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[markup.goldmark.renderer]
+  unsafe = false      # 不允许原始 HTML，防止素材残留标签污染页面
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+    title = "AutoGuide"
+    [languages.en.params]
+      region = "United States"
+      currency = "USD"
+
+  [languages.es]
+    languageCode = "es-MX"
+    languageName = "Español"
+    contentDir = "content/es"
+    weight = 2
+    title = "AutoGuide"
+    [languages.es.params]
+      region = "México"
+      currency = "MXN"
+
+  [languages.id]
+    languageCode = "id-ID"
+    languageName = "Bahasa Indonesia"
+    contentDir = "content/id"
+    weight = 3
+    title = "AutoGuide"
+    [languages.id.params]
+      region = "Indonesia"
+      currency = "IDR"
+
+[params]
+  brand = "AutoGuide"
+  description = "Multilingual guide directory."
+  # 分销外链统一属性，白帽合规必备
+  outboundRel = "nofollow sponsored noopener"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.6

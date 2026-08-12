@@ -1,0 +1,20 @@
+{{ define "main" }}
+<h1>{{ .Title | default .Section }}</h1>
+{{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
+
+{{ $pages := .Paginate (.Pages.ByLastmod.Reverse) }}
+{{ if $pages.Pages }}
+<ul class="cards">
+  {{ range $pages.Pages }}
+  <li class="card">
+    <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
+    <p>{{ .Description | truncate 150 }}</p>
+    <p class="muted">{{ i18n "updated" }} {{ .Lastmod.Format "2006-01-02" }}</p>
+  </li>
+  {{ end }}
+</ul>
+{{ template "_internal/pagination.html" . }}
+{{ else }}
+<p>{{ i18n "no_content" }}</p>
+{{ end }}
+{{ end }}

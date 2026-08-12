@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+{{ range .Site.Home.AllTranslations }}
+Sitemap: {{ .Permalink }}sitemap.xml
+{{- end }}

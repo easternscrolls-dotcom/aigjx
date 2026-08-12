@@ -1,0 +1,79 @@
+/* 轻量样式：无外部字体、无 JS，利于 Core Web Vitals 与移动端加载 */
+:root {
+  --fg: #1c1f23;
+  --muted: #5d6673;
+  --bg: #ffffff;
+  --line: #e6e9ee;
+  --accent: #1f6feb;
+  --card: #fbfcfe;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 8px 18px 48px; }
+
+.site-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; max-width: 760px; margin: 0 auto; padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 700; text-decoration: none; color: var(--fg); }
+.langs a { margin-left: 10px; font-size: 14px; color: var(--muted); text-decoration: none; }
+.langs a.on { color: var(--accent); font-weight: 600; }
+
+h1 { font-size: 28px; line-height: 1.3; margin: 22px 0 10px; }
+h2 { font-size: 21px; margin: 30px 0 10px; }
+h3 { font-size: 17px; margin: 22px 0 8px; }
+
+a { color: var(--accent); }
+p, li { overflow-wrap: break-word; }
+
+.meta, .muted { color: var(--muted); font-size: 14px; }
+.lead { font-size: 18px; color: var(--muted); }
+
+.crumbs { font-size: 13px; color: var(--muted); margin-top: 14px; }
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs span { margin: 0 6px; }
+
+figure { margin: 18px 0; }
+figure img { width: 100%; height: auto; border-radius: 8px; display: block; }
+.img-side { float: right; width: 42%; margin: 6px 0 14px 18px; }
+@media (max-width: 620px) { .img-side { float: none; width: 100%; margin: 14px 0; } }
+
+.content table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 15px; }
+.content th, .content td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+.content th { background: var(--card); }
+.content blockquote {
+  margin: 18px 0; padding: 10px 14px; border-left: 3px solid var(--line);
+  color: var(--muted); background: var(--card);
+}
+.content ul { padding-left: 20px; }
+
+.cta { margin: 26px 0; }
+.cta a {
+  display: inline-block; padding: 11px 18px; border-radius: 8px;
+  background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+}
+
+.cards { list-style: none; padding: 0; display: grid; gap: 14px; }
+.card { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; background: var(--card); }
+.card h2, .card h3 { margin: 0 0 6px; font-size: 17px; }
+.card a { text-decoration: none; }
+.card p { margin: 4px 0 0; font-size: 14px; }
+
+.related { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 14px; }
+.related ul { padding-left: 20px; }
+
+.site-footer {
+  max-width: 760px; margin: 0 auto; padding: 20px 18px 40px;
+  border-top: 1px solid var(--line); color: var(--muted); font-size: 13px;
+}
+
+.pagination { display: flex; gap: 10px; list-style: none; padding: 18px 0 0; }

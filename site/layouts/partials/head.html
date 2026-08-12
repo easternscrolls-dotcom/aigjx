@@ -1,0 +1,25 @@
+{{/* 头部：Meta / canonical / hreflang / Schema。全部自动生成，无需手改 */}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ i18n "home_tagline" }}{{ else }}{{ .Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+{{/* 站点级 hreflang：各语种首页 + x-default，避免错误的页面级配对 */}}
+{{ range .Site.Home.AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ end }}
+<link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}">
+
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
+{{ with .Params.image }}{{ with .src }}<meta property="og:image" content="{{ . }}">{{ end }}{{ end }}
+<meta name="twitter:card" content="summary">
+
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+{{ partial "schema.html" . }}
