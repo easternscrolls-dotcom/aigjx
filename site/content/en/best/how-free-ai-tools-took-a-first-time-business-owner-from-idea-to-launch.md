@@ -46,7 +46,7 @@ related:
     anchor: "Cheap Ai Subscription Monthly Plan"
 outbound: "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGxhd210azRCUkVaaXNfaUt0Wmp2YjNmd3A4RGx5QXhxU2QtR3J0RGllVzhaakVTVC1KTWl3Ry1oWXUydUc4Vk5LM0V6bGRPaWpVWlhlUHllM3VSNHJvOVp1X2cycDFVYVBldFB3NUNYQWhJLVNGYmpzbHI1dU95bmYwMjBwcldxZUFEOVdGUHo4ZjI4SDJCWUNpb2NoUQ?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/how-free-ai-tools-took-a-first-time-business-owner-from-idea-to-launch/"
+  - "/tools/how-free-ai-tools-took-a-first-time-business-owner-from-idea-to-launch/"
 pipeline:
   source: "gn_free_ai"
   words: 498

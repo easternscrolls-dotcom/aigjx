@@ -46,7 +46,7 @@ related:
     anchor: "Bayar Alat Ai Pakai Gopay"
 outbound: "https://www.google.com/search?q=Apakah%20Anda%20memercayai%20asisten%20AI%20yang%20mengetahui%20seluruh%20hidup%20Anda%3F%20official"
 aliases:
-  - "/id/tools/apakah-anda-memercayai-asisten-ai-yang-mengetahui-seluruh-hidup-anda/"
+  - "/tools/apakah-anda-memercayai-asisten-ai-yang-mengetahui-seluruh-hidup-anda/"
 community:
   - title: "Apakah Anda memercayai asisten AI yang mengetahui  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlm0sp/would_you_trust_an_ai_assistant_that_knows_your/?utm_source=autoguide&utm_medium=referral"

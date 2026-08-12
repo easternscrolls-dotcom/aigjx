@@ -40,7 +40,7 @@ related:
     anchor: "Ai Tools for Small Business Owners"
 outbound: "https://www.google.com/search?q=Is%20more%20reasoning%20necessarily%20better%3F%20official"
 aliases:
-  - "/en/tools/is-more-reasoning-necessarily-better/"
+  - "/tools/is-more-reasoning-necessarily-better/"
 community:
   - title: "Is more reasoning necessarily better? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlq4zw/is_more_reasoning_necessarily_better/?utm_source=autoguide&utm_medium=referral"

@@ -54,7 +54,7 @@ related:
     anchor: "Alat Tulis Ai vs Editor Manusia"
 outbound: "https://www.google.com/search?q=Ai%20mana%20yang%20terbaik%20untuk%20merencanakan%20sesuatu%3F%20official"
 aliases:
-  - "/id/tools/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu/"
+  - "/tools/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu/"
 community:
   - title: "Ai mana yang terbaik untuk merencanakan sesuatu? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlp4iq/which_ai_is_best_for_planing_stuff/?utm_source=autoguide&utm_medium=referral"

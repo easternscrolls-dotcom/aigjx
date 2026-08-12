@@ -53,7 +53,7 @@ related:
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://news.google.com/rss/articles/CBMiekFVX3lxTE53LUoyeGZVd1RsYVhXLV9obFZtdGdFdGdQYndubXlEMnR2d0ZhejY5bTdfLTkwcGFFd3MyaXdaNjZpS3piN0NWNjMwN2RKX3N5VWt6T0Y2eXQtekFxZnB5em93bXdtZS1zbHZmbjJsNHhKTHhVZ0dMVzNn?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/id/tools/ai-dan-alat-produktivitas-pada-tahun-2026-alternatif-apa-yang-tersedia/"
+  - "/tools/ai-dan-alat-produktivitas-pada-tahun-2026-alternatif-apa-yang-tersedia/"
 pipeline:
   source: "gn_es_free"
   words: 421

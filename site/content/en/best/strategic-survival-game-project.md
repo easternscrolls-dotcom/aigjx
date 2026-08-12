@@ -55,7 +55,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=Strategic%20survival%20game%20project%20official"
 aliases:
-  - "/en/tools/strategic-survival-game-project/"
+  - "/tools/strategic-survival-game-project/"
 community:
   - title: "Strategic survival game project — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfnz3/strategic_survival_game_project/?utm_source=autoguide&utm_medium=referral"

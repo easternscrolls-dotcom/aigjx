@@ -55,7 +55,7 @@ related:
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://www.google.com/search?q=Robo%20de%20rastros%20de%20razonamiento%20de%20API%20patentadas%20de%20LLM%20official"
 aliases:
-  - "/es/tools/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
+  - "/tools/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
 community:
   - title: "Robo de rastros de razonamiento de API patentadas  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm4i7d/stealing_reasoning_traces_from_proprietary_llm/?utm_source=autoguide&utm_medium=referral"

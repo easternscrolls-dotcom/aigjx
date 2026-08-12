@@ -54,7 +54,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=What%20could%20actually%20help%20with%20the%20deepfake%20problem%3F%20official"
 aliases:
-  - "/en/tools/what-could-actually-help-with-the-deepfake-problem/"
+  - "/tools/what-could-actually-help-with-the-deepfake-problem/"
 community:
   - title: "What could actually help with the deepfake problem — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm660f/what_could_actually_help_with_the_deepfake_problem/?utm_source=autoguide&utm_medium=referral"

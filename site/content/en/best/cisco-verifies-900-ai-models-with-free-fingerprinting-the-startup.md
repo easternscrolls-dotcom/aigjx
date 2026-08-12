@@ -46,7 +46,7 @@ related:
     anchor: "Ai Tool Free Trial No Credit Card"
 outbound: "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZXdTSlQyZjhfZmcyOV9haGJNcXhJNEU4cW41YTN4ZXdxZl9aanphMC1vR3J1dUlJaGpHY3ZHTWljQjBoV2k4cGhiTkcxRUFyWEt3WlNFcmxnSHA5M1RMWkVuNk55bFJoOTBKWnFtVHVhdUd0dmtYTlcyRzU5T1lNaC1BSzUySGg2MUFoei1nRmVSQQ?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/cisco-verifies-900-ai-models-with-free-fingerprinting-the-startup/"
+  - "/tools/cisco-verifies-900-ai-models-with-free-fingerprinting-the-startup/"
 pipeline:
   source: "gn_es_free"
   words: 437

@@ -56,7 +56,7 @@ related:
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://www.google.com/search?q=Tantangan%20%2A%20dapatkah%20generator%20video%20AI%20yang%20diperbarui%20tetap%20membuat%20video%20bahan%20bakar%20mimpi%20buruk...%20official"
 aliases:
-  - "/id/tools/tantangan-dapatkah-generator-video-ai-yang-diperbarui-tetap-membuat/"
+  - "/tools/tantangan-dapatkah-generator-video-ai-yang-diperbarui-tetap-membuat/"
 community:
   - title: "Tantangan * dapatkah generator video AI yang diper — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm48x4/challenge_can_updated_ai_video_generators_still/?utm_source=autoguide&utm_medium=referral"

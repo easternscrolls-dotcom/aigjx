@@ -38,7 +38,7 @@ faq:
     answer: "Untuk Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen AI — Kini Penjualannya Lebih Banyak Dari Mereka 2,1x, mata uang yang tampil bergantung pada region yang terdeteksi dan pengaturan akun. Bisa ada biaya konversi bila penagihan memakai mata uang lain."
 outbound: "https://www.google.com/search?q=Kavak%20Menggantikan%2015%20Spesialis%20Penjualan%20Manusia%20Dengan%20Satu%20Agen%20AI%20%E2%80%94%20Kini%20Penjualannya%20Lebih%20Banyak%20Dari%20Mereka%202%2C1x%20official"
 aliases:
-  - "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+  - "/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
 community:
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vldh7d/kavak_replaced_15_human_sales_specialists_with/?utm_source=autoguide&utm_medium=referral"

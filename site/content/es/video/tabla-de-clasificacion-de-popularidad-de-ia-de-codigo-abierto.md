@@ -53,7 +53,7 @@ related:
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://www.google.com/search?q=Tabla%20de%20clasificaci%C3%B3n%20de%20popularidad%20de%20IA%20de%20c%C3%B3digo%20abierto%20official"
 aliases:
-  - "/es/tools/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
+  - "/tools/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
 community:
   - title: "Tabla de clasificación de popularidad de IA de cód — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlie3h/open_source_ai_popularity_leaderboard/?utm_source=autoguide&utm_medium=referral"

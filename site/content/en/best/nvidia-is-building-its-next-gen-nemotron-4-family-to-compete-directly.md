@@ -49,7 +49,7 @@ related:
     anchor: "Ai Tool Free Trial No Credit Card"
 outbound: "https://www.google.com/search?q=NVIDIA%20is%20building%20its%20next-gen%20Nemotron%204%20family%20to%20compete%20directly%20with%20leading...%20official"
 aliases:
-  - "/en/tools/nvidia-is-building-its-next-gen-nemotron-4-family-to-compete-directly/"
+  - "/tools/nvidia-is-building-its-next-gen-nemotron-4-family-to-compete-directly/"
 community:
   - title: "NVIDIA is building its next-gen Nemotron 4 family  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/?utm_source=autoguide&utm_medium=referral"

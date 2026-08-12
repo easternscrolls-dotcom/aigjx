@@ -48,7 +48,7 @@ related:
     anchor: "Free Tier Limits Explained"
 outbound: "https://www.google.com/search?q=Warning%20fear%20mongering%20hack%20writer%20-%20311%20in%20New%20Orleans%20using%20AI%20to%20answer%20calls.%20official"
 aliases:
-  - "/en/tools/warning-fear-mongering-hack-writer-311-in-new-orleans-using-ai-to/"
+  - "/tools/warning-fear-mongering-hack-writer-311-in-new-orleans-using-ai-to/"
 community:
   - title: "Warning fear mongering hack writer - 311 in New Or — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmcchp/warning_fear_mongering_hack_writer_311_in_new/?utm_source=autoguide&utm_medium=referral"

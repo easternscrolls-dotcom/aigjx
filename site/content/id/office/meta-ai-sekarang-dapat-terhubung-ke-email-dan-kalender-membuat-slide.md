@@ -51,7 +51,7 @@ related:
     anchor: "Panduan Setup Cepat Untuk Pemula"
 outbound: "https://www.google.com/search?q=Meta%20AI%20sekarang%20dapat%20terhubung%20ke%20email%20dan%20kalender%2C%20membuat%20slide%2C%20dan%20menjalankan%20tugas%20berulang%20official"
 aliases:
-  - "/id/tools/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
+  - "/tools/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
 community:
   - title: "Meta AI sekarang dapat terhubung ke email dan kale — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm4723/meta_ai_can_now_connect_to_email_and_calendars/?utm_source=autoguide&utm_medium=referral"

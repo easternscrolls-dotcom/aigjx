@@ -41,8 +41,6 @@ related:
     url: "/es/video/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/"
     anchor: "Pagar Herramienta de Ia Con Spei"
 outbound: "https://www.google.com/search?q=Autopistas%20de%20IA%20y%20la%20muerte%20de%20%22moverse%20r%C3%A1pido%20y%20romper%20cosas%22%20official"
-aliases:
-  - "/es/tools/autopistas-de-ia-y-la-muerte-de-moverse-rapido-y-romper-cosas/"
 community:
   - title: "Autopistas de IA y la muerte de \"moverse rápido y  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/?utm_source=autoguide&utm_medium=referral"

@@ -50,8 +50,6 @@ related:
     url: "/es/video/que-ia-es-mejor-para-planificar-cosas/"
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://www.google.com/search?q=Recib%C3%AD%20muchas%20preguntas%20sobre%20c%C3%B3mo%20funciona%20la%20orquestaci%C3%B3n%20de%20agentes%20actualizada%20en%20Row-Bot...%20official"
-aliases:
-  - "/es/tools/recibi-muchas-preguntas-sobre-como-funciona-la-orquestacion-de-agentes/"
 community:
   - title: "Recibí muchas preguntas sobre cómo funciona la orq — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vle36y/i_got_a_lot_of_questions_on_how_updated_agent/?utm_source=autoguide&utm_medium=referral"

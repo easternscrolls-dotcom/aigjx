@@ -49,7 +49,7 @@ related:
     anchor: "Bayar Alat Ai Pakai Gopay"
 outbound: "https://www.google.com/search?q=Saya%20mendapat%20banyak%20pertanyaan%20tentang%20cara%20kerja%20orkestrasi%20agen%20yang%20diperbarui%20di%20Row-Bot...%20official"
 aliases:
-  - "/id/tools/saya-mendapat-banyak-pertanyaan-tentang-cara-kerja-orkestrasi-agen-yang/"
+  - "/tools/saya-mendapat-banyak-pertanyaan-tentang-cara-kerja-orkestrasi-agen-yang/"
 community:
   - title: "Saya mendapat banyak pertanyaan tentang cara kerja — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vle36y/i_got_a_lot_of_questions_on_how_updated_agent/?utm_source=autoguide&utm_medium=referral"

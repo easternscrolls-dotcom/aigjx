@@ -46,8 +46,6 @@ related:
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Bayar Langganan Ai Pakai Dana"
 outbound: "https://www.google.com/search?q=Menulis%20pelajaran%20yang%20dipelajari%20oleh%20gerakan%20iklim%20dengan%20cara%20yang%20sulit...%20official"
-aliases:
-  - "/id/tools/menulis-pelajaran-yang-dipelajari-oleh-gerakan-iklim-dengan-cara-yang/"
 community:
   - title: "Menulis pelajaran yang dipelajari oleh gerakan ikl — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5fet/wrote_up_lessons_the_climate_movement_learned_the/?utm_source=autoguide&utm_medium=referral"

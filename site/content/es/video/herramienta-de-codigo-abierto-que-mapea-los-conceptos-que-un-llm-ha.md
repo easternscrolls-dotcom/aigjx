@@ -50,7 +50,7 @@ related:
     anchor: "Herramienta de Ia vs Editor Humano"
 outbound: "https://www.google.com/search?q=Herramienta%20de%20c%C3%B3digo%20abierto%20que%20mapea%20los%20conceptos%20que%20un%20LLM%20ha%20aprendido%20en%20un%20%C3%A1rbol%20navegable...%20official"
 aliases:
-  - "/es/tools/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha/"
+  - "/tools/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha/"
 community:
   - title: "Herramienta de código abierto que mapea los concep — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/?utm_source=autoguide&utm_medium=referral"

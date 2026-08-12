@@ -29,18 +29,23 @@
 
   {{ with .Params.outbound }}
   <p class="cta">
-    <a href="{{ . }}" rel="{{ $.Site.Params.outboundRel }}" target="_blank">{{ i18n "visit_official" }}</a>
+    <a href="{{ . }}" rel="{{ $.Params.outbound_rel | default "nofollow noopener" }}" target="_blank">{{ i18n "visit_official" }}</a>
   </p>
   {{ end }}
 
   {{ partial "related.html" . }}
+  {{ partial "similar.html" . }}
 
   {{ with .Params.community }}
-  <section class="community" aria-label="community">
-    <h2>{{ i18n "community_title" }}</h2>
+  <section class="community" aria-label="community" itemscope itemtype="https://schema.org/DiscussionForumPosting">
+    <h2 itemprop="name">{{ i18n "community_title" }}</h2>
     <ul>
     {{ range . }}
-      <li><a href="{{ .url }}" rel="nofollow noopener" target="_blank">{{ .title }}</a></li>
+      <li itemscope itemtype="https://schema.org/DiscussionForumPosting">
+        <a href="{{ .url }}" itemprop="url" rel="nofollow noopener" target="_blank">
+          <span itemprop="headline">{{ .title }}</span>
+        </a>
+      </li>
     {{ end }}
     </ul>
   </section>

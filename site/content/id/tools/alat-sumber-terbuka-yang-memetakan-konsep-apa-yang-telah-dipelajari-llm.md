@@ -51,8 +51,6 @@ related:
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://www.google.com/search?q=Alat%20sumber%20terbuka%20yang%20memetakan%20konsep%20apa%20yang%20telah%20dipelajari%20LLM%20ke%20dalam%20pohon%20yang%20dapat%20dijelajahi...%20official"
-aliases:
-  - "/id/tools/alat-sumber-terbuka-yang-memetakan-konsep-apa-yang-telah-dipelajari-llm/"
 community:
   - title: "Alat sumber terbuka yang memetakan konsep apa yang — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/?utm_source=autoguide&utm_medium=referral"

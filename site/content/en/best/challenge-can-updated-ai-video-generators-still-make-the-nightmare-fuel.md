@@ -52,7 +52,7 @@ related:
     anchor: "Regional Availability List"
 outbound: "https://www.google.com/search?q=Challenge%20%2A%20can%20updated%20AI%20video%20generators%20still%20make%20the%20nightmare%20fuel%20vids%20of%20the...%20official"
 aliases:
-  - "/en/tools/challenge-can-updated-ai-video-generators-still-make-the-nightmare-fuel/"
+  - "/tools/challenge-can-updated-ai-video-generators-still-make-the-nightmare-fuel/"
 community:
   - title: "Challenge * can updated AI video generators still  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm48x4/challenge_can_updated_ai_video_generators_still/?utm_source=autoguide&utm_medium=referral"

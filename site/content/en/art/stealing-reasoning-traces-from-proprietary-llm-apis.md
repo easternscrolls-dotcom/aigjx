@@ -45,7 +45,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=Stealing%20Reasoning%20Traces%20from%20Proprietary%20LLM%20APIs%20official"
 aliases:
-  - "/en/tools/stealing-reasoning-traces-from-proprietary-llm-apis/"
+  - "/tools/stealing-reasoning-traces-from-proprietary-llm-apis/"
 community:
   - title: "Stealing Reasoning Traces from Proprietary LLM API — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm4i7d/stealing_reasoning_traces_from_proprietary_llm/?utm_source=autoguide&utm_medium=referral"

@@ -57,7 +57,7 @@ related:
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://www.google.com/search?q=%C2%BFQu%C3%A9%20IA%20es%20mejor%20para%20planificar%20cosas%3F%20official"
 aliases:
-  - "/es/tools/que-ia-es-mejor-para-planificar-cosas/"
+  - "/tools/que-ia-es-mejor-para-planificar-cosas/"
 community:
   - title: "¿Qué IA es mejor para planificar cosas? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlp4iq/which_ai_is_best_for_planing_stuff/?utm_source=autoguide&utm_medium=referral"

@@ -53,7 +53,7 @@ related:
     anchor: "Ai Writing Tool vs Human Editor"
 outbound: "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUl1dUZLVy15WFQyNGJlOG9sbDhVWXYtQzBuMDY2WjR3U1h0SHRDY3lZcVVqYndoOXF6Q240UkdvWklvdTlJd3g2bXVSbXB1cENNTFFMVjJIeXpiWUVRbGRkanB6eWFCd3pSdkN1OHFMSVpzT3p0bGdHTlVwUUc4SkhrR0JEQ3p6ZzJoY29CdkNwOVBzOTdDeGVOVFR5SGZYV2ExRmVjaFhnNUNm?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/5-hidden-costs-of-free-legal-ai-tools-that-could-impact-your-practice/"
+  - "/tools/5-hidden-costs-of-free-legal-ai-tools-that-could-impact-your-practice/"
 pipeline:
   source: "gn_free_ai"
   words: 618

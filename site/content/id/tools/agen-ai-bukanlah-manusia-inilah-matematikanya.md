@@ -35,8 +35,6 @@ related:
     url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Generator Gambar Ai vs Foto Stok"
 outbound: "https://www.google.com/search?q=Agen%20AI%20Bukanlah%20Manusia.%20Inilah%20Matematikanya.%20official"
-aliases:
-  - "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
 community:
   - title: "Agen AI Bukanlah Manusia. Inilah Matematikanya. — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlud9g/ai_agents_are_not_people_heres_the_math/?utm_source=autoguide&utm_medium=referral"

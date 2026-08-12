@@ -38,8 +38,6 @@ faq:
   - question: "¿Los precios se muestran en MX$?"
     answer: "En Kavak reemplazó a 15 especialistas en ventas humanas por un agente de inteligencia artificial; ahora vende 2,1 veces más que ellos, la moneda mostrada depende de la región detectada y de la configuración de la cuenta. Puede haber cargos por conversión si la facturación usa otra moneda."
 outbound: "https://www.google.com/search?q=Kavak%20reemplaz%C3%B3%20a%2015%20especialistas%20en%20ventas%20humanas%20por%20un%20agente%20de%20inteligencia%20artificial%3B%20ahora%20vende%202%2C1%20veces%20m%C3%A1s%20que%20ellos%20official"
-aliases:
-  - "/es/tools/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de/"
 community:
   - title: "Kavak reemplazó a 15 especialistas en ventas human — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vldh7d/kavak_replaced_15_human_sales_specialists_with/?utm_source=autoguide&utm_medium=referral"

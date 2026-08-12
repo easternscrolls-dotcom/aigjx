@@ -42,7 +42,7 @@ related:
     anchor: "Pagar Suscripcion de Ia Con Oxxo"
 outbound: "https://www.google.com/search?q=La%20arquitectura%20de%20IA%20multinodal%20analiza%20la%20pol%C3%ADtica%20official"
 aliases:
-  - "/es/tools/la-arquitectura-de-ia-multinodal-analiza-la-politica/"
+  - "/tools/la-arquitectura-de-ia-multinodal-analiza-la-politica/"
 community:
   - title: "La arquitectura de IA multinodal analiza la políti — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vley4b/multinodal_ai_architecture_discusses_politics/?utm_source=autoguide&utm_medium=referral"

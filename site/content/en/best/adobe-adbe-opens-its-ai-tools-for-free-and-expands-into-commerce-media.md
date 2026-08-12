@@ -50,7 +50,7 @@ related:
     anchor: "Ai Apps for Freelancers Working Solo"
 outbound: "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZnFXbUlqcTVkUEx3MmlXR19BellVR1pERkhfX2Rrd2lDOGJ4eW55VHRhSmJCUTg3WnM2aC1IQWRlLWttTmtrRXBGdGVrRjNGU3BIa2M0YW5yZ0pLZ0ZkMy1iUHJFMTZFZEZZQ3ZRUV9rdDNNejVGV0FNYUV1QnR1S1Q4bVBEdTM5MHFSMG51eVNDZ2s?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/adobe-adbe-opens-its-ai-tools-for-free-and-expands-into-commerce-media/"
+  - "/tools/adobe-adbe-opens-its-ai-tools-for-free-and-expands-into-commerce-media/"
 pipeline:
   source: "gn_free_ai"
   words: 491

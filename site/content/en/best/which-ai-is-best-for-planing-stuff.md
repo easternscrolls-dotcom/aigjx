@@ -52,7 +52,7 @@ related:
     anchor: "Free Tier Limits Explained"
 outbound: "https://www.google.com/search?q=Which%20ai%20is%20best%20for%20planing%20stuff%3F%20official"
 aliases:
-  - "/en/tools/which-ai-is-best-for-planing-stuff/"
+  - "/tools/which-ai-is-best-for-planing-stuff/"
 community:
   - title: "Which ai is best for planing stuff? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlp4iq/which_ai_is_best_for_planing_stuff/?utm_source=autoguide&utm_medium=referral"

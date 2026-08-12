@@ -45,7 +45,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=What%27s%20an%20AI%20capability%20you%20thought%20was%20hype%20until%20you%20actually%20used%20it%3F%20official"
 aliases:
-  - "/en/tools/what-s-an-ai-capability-you-thought-was-hype-until-you-actually-used-it/"
+  - "/tools/what-s-an-ai-capability-you-thought-was-hype-until-you-actually-used-it/"
 community:
   - title: "What's an AI capability you thought was hype until — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfpxs/whats_an_ai_capability_you_thought_was_hype_until/?utm_source=autoguide&utm_medium=referral"

@@ -46,7 +46,7 @@ related:
     anchor: "Aplikasi Ai Untuk Pekerja Lepas"
 outbound: "https://www.google.com/search?q=Apakah%20lebih%20banyak%20alasan%20tentu%20lebih%20baik%3F%20official"
 aliases:
-  - "/id/tools/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
+  - "/tools/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
 community:
   - title: "Apakah lebih banyak alasan tentu lebih baik? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlq4zw/is_more_reasoning_necessarily_better/?utm_source=autoguide&utm_medium=referral"

@@ -50,7 +50,7 @@ related:
     anchor: "Daftar Ketersediaan Per Wilayah"
 outbound: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDJOOUdqUTVhQjcwcFUtUU51LU9mYl81VXVGRi1RT2dJbi12VjY3VVdBU0dWV3RxWklhUWpzaU9nWnh4TXE2OHRZMzBWejhLc0tfSHBKTVdzUml4bnNWSXZDcGFzanZzUEZQbWJxbEJnY0pVamlTU19JX0RIdG94Q200OEc4VmFva1dyR1BWcURQcFNKMDBhMmpPbElLaVpFN1M3Zk13QWFnelNZWFI2NGJfdmpod0JtU25iWkgwNGM?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/id/tools/openai-meluncurkan-chatgpt-untuk-dokter-alat-ai-gratis-untuk-dokter/"
+  - "/tools/openai-meluncurkan-chatgpt-untuk-dokter-alat-ai-gratis-untuk-dokter/"
 pipeline:
   source: "gn_free_ai"
   words: 372

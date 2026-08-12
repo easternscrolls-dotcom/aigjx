@@ -47,7 +47,7 @@ related:
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkkyaWtuQ1NJME85OHBBQzNGZ3VNNnRTUl9qZDRoSlp3X1cxQmUtazBFVTVLbDR3c2dLWGtHWkZ1aGdURTdMeUM2NEpIZjAtZnRIYXVJNmdGMEIwZU55TFJMNWVDWEV0OXcxeFNuX2oxNFJCamctMUh2eWZaZW9JcUxidkh0cnAyOXFydWFQbWVPTlVZVWNaMG1tZ2VOZmp5d2c?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/es/tools/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza/"
+  - "/tools/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza/"
 pipeline:
   source: "gn_es_free"
   words: 408

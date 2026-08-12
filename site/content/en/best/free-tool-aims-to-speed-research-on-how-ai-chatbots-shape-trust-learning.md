@@ -51,7 +51,7 @@ related:
     anchor: "Regional Availability List"
 outbound: "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JTGx6Vy1EZjZnRWZXX1ZQT1E1QnQwYUsxOERpUlZLVGlnWm5DSjUwY3JKMWNzZWVKeWRFaHJJaEF4WXFQUUVtbTA3Z1ZDTjhoUERWR1BibW5UTktZUVhlaC1qUDl3OTY4dnEzV1FoV3ZoYi1sWHc?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/free-tool-aims-to-speed-research-on-how-ai-chatbots-shape-trust-learning/"
+  - "/tools/free-tool-aims-to-speed-research-on-how-ai-chatbots-shape-trust-learning/"
 pipeline:
   source: "gn_free_ai"
   words: 548

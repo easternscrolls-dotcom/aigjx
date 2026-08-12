@@ -51,8 +51,6 @@ related:
     url: "/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/"
     anchor: "Herramientas de Ia para Principiantes Paso a Paso"
 outbound: "https://www.google.com/search?q=Proyecto%20de%20juego%20estrat%C3%A9gico%20de%20supervivencia.%20official"
-aliases:
-  - "/es/tools/proyecto-de-juego-estrategico-de-supervivencia/"
 community:
   - title: "Proyecto de juego estratégico de supervivencia. — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfnz3/strategic_survival_game_project/?utm_source=autoguide&utm_medium=referral"

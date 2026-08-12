@@ -53,7 +53,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=The%20Breakdown%3A%20OpenAI%20official"
 aliases:
-  - "/en/tools/the-breakdown-openai/"
+  - "/tools/the-breakdown-openai/"
 community:
   - title: "The Breakdown: OpenAI — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vliv6l/the_breakdown_openai/?utm_source=autoguide&utm_medium=referral"

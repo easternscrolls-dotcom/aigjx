@@ -22,7 +22,7 @@ import subprocess
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
 
-from . import config, utils
+from . import config, sitemaps, utils
 
 LOG = utils.get_logger("publish")
 
@@ -116,6 +116,13 @@ def publish(message_extra: str = "") -> Dict[str, Any]:
             {"at": utils.iso_now(), "status": "rolled_back", "reason": "hugo build failed"})
         utils.save_state(BUILD_STATE, state)
         return {"pushed": False, "reason": "build-failed-rolled-back"}
+
+    # 内容变更已落盘 → 依据最新内容重新生成分层 sitemap + robots.txt
+    try:
+        counts = sitemaps.build()
+        LOG.info("分层 sitemap 生成：%s", counts)
+    except Exception as exc:  # noqa: BLE001
+        LOG.warning("sitemap 生成失败（不阻塞发布）：%s", exc)
 
     configure_identity()
     _run(["git", "add", "--"] + existing)

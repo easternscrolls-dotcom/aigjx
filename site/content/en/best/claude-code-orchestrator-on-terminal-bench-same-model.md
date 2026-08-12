@@ -49,7 +49,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=Claude%20Code%20Orchestrator%20on%20Terminal-Bench%3A%20Same%20model...%20official"
 aliases:
-  - "/en/tools/claude-code-orchestrator-on-terminal-bench-same-model/"
+  - "/tools/claude-code-orchestrator-on-terminal-bench-same-model/"
 community:
   - title: "Claude Code Orchestrator on Terminal-Bench: Same m — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm7a6t/claude_code_orchestrator_on_terminalbench_same/?utm_source=autoguide&utm_medium=referral"

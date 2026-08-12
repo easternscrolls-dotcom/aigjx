@@ -48,8 +48,6 @@ related:
     url: "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
     anchor: "Bayar Alat Ai Pakai Gopay"
 outbound: "https://www.google.com/search?q=Arsitektur%20AI%20multi-nodal%20membahas%20Politik%20official"
-aliases:
-  - "/id/tools/arsitektur-ai-multi-nodal-membahas-politik/"
 community:
   - title: "Arsitektur AI multi-nodal membahas Politik — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vley4b/multinodal_ai_architecture_discusses_politics/?utm_source=autoguide&utm_medium=referral"

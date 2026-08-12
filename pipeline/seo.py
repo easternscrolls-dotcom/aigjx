@@ -197,6 +197,24 @@ class LinkPool:
                         "anchor": utils.title_case(anchor)[:60]})
         return out
 
+    def sample_same_vertical(self, rng: random.Random, vertical: str, count: int,
+                            exclude_slug: str, anchors: Sequence[str] = None) -> List[Dict[str, str]]:
+        """同垂直赛道交叉内链（快赢 #3）：仅取 /<lang>/<vertical>/ 下的其他页面。"""
+        pool = [e for e in self.entries
+                if e["url"].split("/")[2] == vertical
+                and not e["url"].endswith("/%s/" % exclude_slug)]
+        if not pool:
+            return []
+        rng.shuffle(pool)
+        chosen = pool[:max(0, count)]
+        anchor_list = list(anchors) or [e["title"] for e in chosen]
+        out = []
+        for idx, entry in enumerate(chosen):
+            anchor = anchor_list[idx % len(anchor_list)] if anchor_list else entry["title"]
+            out.append({"title": entry["title"], "url": entry["url"],
+                        "anchor": utils.title_case(anchor)[:60]})
+        return out
+
 
 # ---------------------------------------------------------------- 聚合页
 def build_hub_pages(lang: str, section: str, pages: List[Dict[str, Any]],

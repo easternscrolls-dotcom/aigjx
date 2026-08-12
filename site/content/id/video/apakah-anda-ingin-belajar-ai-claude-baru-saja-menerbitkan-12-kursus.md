@@ -47,7 +47,7 @@ related:
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZDFyZTJDb0ZndnR2b3ljSmZtYU5CeDhsMzdnQnBVdW56WDlPUlJOVVRkZUhiZ3FSTXZnaEF0ZlA0dWNUejJzRExTU0x5WFp3RkNrUEJVUF9Sei1mWGc0Ql8yaU45WU9NNDU3X0d5TjlIdFBkZXRfUnRzRzVFeU5uMWptUGdOb2dGeDNQT2FKUzRKZk1FbUJtVVFfM3JQUVBOS3NmVWJIQnpWSWZSdHZVcE9UTC0?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/id/tools/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus/"
+  - "/tools/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus/"
 pipeline:
   source: "gn_es_free"
   words: 336

@@ -48,8 +48,6 @@ related:
     url: "/es/video/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/"
     anchor: "Prueba Gratuita de Ia Sin Tarjeta de Credito"
 outbound: "https://www.google.com/search?q=%C2%BFLas%20reglas%20de%20transparencia%20de%20la%20IA%20frenar%C3%A1n%20la%20adopci%C3%B3n%20de%20la%20IA%20empresarial%20o%20har%C3%A1n%20que%20su%20escalamiento%20sea%20m%C3%A1s%20seguro%3F%20official"
-aliases:
-  - "/es/tools/las-reglas-de-transparencia-de-la-ia-frenaran-la-adopcion-de-la-ia/"
 community:
   - title: "¿Las reglas de transparencia de la IA frenarán la  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm66ca/are_ai_transparency_rules_going_to_slow/?utm_source=autoguide&utm_medium=referral"

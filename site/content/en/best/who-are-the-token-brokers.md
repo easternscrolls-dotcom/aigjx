@@ -53,7 +53,7 @@ related:
     anchor: "Cheap Ai Subscription Monthly Plan"
 outbound: "https://www.google.com/search?q=Who%20Are%20the%20Token%20Brokers%3F%20official"
 aliases:
-  - "/en/tools/who-are-the-token-brokers/"
+  - "/tools/who-are-the-token-brokers/"
 community:
   - title: "Who Are the Token Brokers? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"

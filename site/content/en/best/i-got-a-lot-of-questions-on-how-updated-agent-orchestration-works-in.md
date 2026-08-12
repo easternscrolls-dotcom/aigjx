@@ -56,7 +56,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=I%20got%20a%20lot%20of%20questions%20on%20how%20updated%20agent%20orchestration%20works%20in%20Row-Bot...%20official"
 aliases:
-  - "/en/tools/i-got-a-lot-of-questions-on-how-updated-agent-orchestration-works-in/"
+  - "/tools/i-got-a-lot-of-questions-on-how-updated-agent-orchestration-works-in/"
 community:
   - title: "I got a lot of questions on how updated agent orch — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vle36y/i_got_a_lot_of_questions_on_how_updated_agent/?utm_source=autoguide&utm_medium=referral"

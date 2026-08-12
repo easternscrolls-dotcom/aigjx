@@ -45,7 +45,7 @@ related:
     anchor: "Bayar Alat Ai Pakai Gopay"
 outbound: "https://www.google.com/search?q=NVIDIA%20sedang%20membangun%20keluarga%20Nemotron%204%20generasi%20berikutnya%20untuk%20bersaing%20langsung%20dengan...%20official"
 aliases:
-  - "/id/tools/nvidia-sedang-membangun-keluarga-nemotron-4-generasi-berikutnya-untuk/"
+  - "/tools/nvidia-sedang-membangun-keluarga-nemotron-4-generasi-berikutnya-untuk/"
 community:
   - title: "NVIDIA sedang membangun keluarga Nemotron 4 genera — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/?utm_source=autoguide&utm_medium=referral"

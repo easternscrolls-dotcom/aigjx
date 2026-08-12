@@ -52,7 +52,7 @@ related:
     anchor: "Herramienta de Ia vs Editor Humano"
 outbound: "https://www.google.com/search?q=Claude%20Code%20Orchestrator%20en%20Terminal-Bench%3A%20Mismo%20modelo...%20official"
 aliases:
-  - "/es/tools/claude-code-orchestrator-en-terminal-bench-mismo-modelo/"
+  - "/tools/claude-code-orchestrator-en-terminal-bench-mismo-modelo/"
 community:
   - title: "Claude Code Orchestrator en Terminal-Bench: Mismo  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm7a6t/claude_code_orchestrator_on_terminalbench_same/?utm_source=autoguide&utm_medium=referral"

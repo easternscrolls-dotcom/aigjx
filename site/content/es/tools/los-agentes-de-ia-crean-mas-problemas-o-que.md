@@ -50,8 +50,6 @@ related:
     url: "/es/video/escribi-las-lecciones-que-el-movimiento-climatico-aprendio-de-la-manera/"
     anchor: "Limites Del Plan Gratuito Explicados"
 outbound: "https://www.google.com/search?q=%C2%BFLos%20agentes%20de%20IA%20crean%20m%C3%A1s%20problemas%20o%20qu%C3%A9%3F%20official"
-aliases:
-  - "/es/tools/los-agentes-de-ia-crean-mas-problemas-o-que/"
 community:
   - title: "¿Los agentes de IA crean más problemas o qué? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5at9/does_ai_agents_create_more_problems_or_what/?utm_source=autoguide&utm_medium=referral"

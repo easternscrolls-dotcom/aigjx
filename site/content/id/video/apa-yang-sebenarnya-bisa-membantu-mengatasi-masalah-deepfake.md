@@ -50,7 +50,7 @@ related:
     anchor: "Bagaimana Cara Pakai Alat Ai Gratis"
 outbound: "https://www.google.com/search?q=Apa%20yang%20sebenarnya%20bisa%20membantu%20mengatasi%20masalah%20deepfake%3F%20official"
 aliases:
-  - "/id/tools/apa-yang-sebenarnya-bisa-membantu-mengatasi-masalah-deepfake/"
+  - "/tools/apa-yang-sebenarnya-bisa-membantu-mengatasi-masalah-deepfake/"
 community:
   - title: "Apa yang sebenarnya bisa membantu mengatasi masala — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm660f/what_could_actually_help_with_the_deepfake_problem/?utm_source=autoguide&utm_medium=referral"

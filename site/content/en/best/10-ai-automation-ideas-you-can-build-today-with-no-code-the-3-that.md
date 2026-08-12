@@ -47,7 +47,7 @@ related:
     anchor: "Ai Tool Payment Options Paypal"
 outbound: "https://www.google.com/search?q=10%20AI%20automation%20ideas%20you%20can%20build%20today%20with%20no%20code%3A%20the%203%20that%20actually%20saved%20me%20time%20official"
 aliases:
-  - "/en/tools/10-ai-automation-ideas-you-can-build-today-with-no-code-the-3-that/"
+  - "/tools/10-ai-automation-ideas-you-can-build-today-with-no-code-the-3-that/"
 community:
   - title: "10 AI automation ideas you can build today with no — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmck3c/10_ai_automation_ideas_you_can_build_today_with/?utm_source=autoguide&utm_medium=referral"

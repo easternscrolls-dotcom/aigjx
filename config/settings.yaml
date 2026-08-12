@@ -129,3 +129,22 @@ monetization:
     en: "Open official page"
     es: "Abrir página oficial"
     id: "Buka halaman resmi"
+
+# ============================================================
+# 图片 alt 本地化词库（快赢 #5）：按语种 + 垂直赛道绑定核心词，拿图片搜索流量
+#   core_keyword     ：通用兜底核心词（按语种）
+#   vertical_core    ：各垂直赛道封面/正文图 alt 绑定的核心词（按语种）
+# 改这里即可调整 alt 文案，无需动代码。
+# ============================================================
+alt:
+  core_keyword:
+    en: "free ai tool"
+    es: "herramienta ia gratis"
+    id: "alat ai gratis"
+  vertical_core:
+    art:    {en: "free ai image generator", es: "generador de imágenes ia gratis", id: "generator gambar ai gratis"}
+    video:  {en: "free ai video tool", es: "herramienta de vídeo ia gratis", id: "alat video ai gratis"}
+    voice:  {en: "free ai voice generator", es: "generador de voz ia gratis", id: "generator suara ai gratis"}
+    office: {en: "free ai pdf tool", es: "herramienta de pdf ia gratis", id: "alat pdf ai gratis"}
+    best:   {en: "best free ai tools", es: "mejores herramientas ia gratis", id: "alat ai gratis terbaik"}
+    tools:  {en: "free ai tool", es: "herramienta ia gratis", id: "alat ai gratis"}

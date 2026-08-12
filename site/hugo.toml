@@ -5,7 +5,9 @@
 
 baseURL = "https://freeai.72tool.com/"
 title = "AutoGuide"
-enableRobotsTXT = true
+# robots.txt 改由流水线 pipeline/sitemaps.py 动态生成（site/static/robots.txt），
+# 以便批量声明分层 sitemap 路径；关闭 Hugo 内置生成避免二者冲突。
+enableRobotsTXT = false
 enableEmoji = false
 canonifyURLs = false
 # 目录层级 ≤ 2：禁用分类法，避免自动生成 /tags/xxx/ 这类深层目录

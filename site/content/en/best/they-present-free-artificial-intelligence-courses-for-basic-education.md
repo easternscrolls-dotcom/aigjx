@@ -43,7 +43,7 @@ related:
     anchor: "Cheap Ai Subscription Monthly Plan"
 outbound: "https://news.google.com/rss/articles/CBMilgFBVV95cUxONV93bUdwUFN6MWJaS3ZfUlUyc0JxMFpMR1lza2ZtZUlveHV5aHdmWXFEZDQzeWFUSkFIRmVKbERYSmZYaFd3YlBlbVJhU0JvUG9meWlITVVxVjNWQmhuSFFxUURpWjhqMENHVkpwdHl2Z200MXNORnUtZGJ4YmVCZ3pZOHNNdTdwS29BVjBNNEFjb1NoWXc?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/they-present-free-artificial-intelligence-courses-for-basic-education/"
+  - "/tools/they-present-free-artificial-intelligence-courses-for-basic-education/"
 pipeline:
   source: "gn_es_free"
   words: 417

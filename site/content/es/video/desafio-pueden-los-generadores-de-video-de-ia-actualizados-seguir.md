@@ -51,7 +51,7 @@ related:
     anchor: "Limites Del Plan Gratuito Explicados"
 outbound: "https://www.google.com/search?q=Desaf%C3%ADo%20%2A%20%C2%BFPueden%20los%20generadores%20de%20video%20de%20IA%20actualizados%20seguir%20haciendo%20que%20la%20pesadilla%20alimente%20los%20videos%20del...%20official"
 aliases:
-  - "/es/tools/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/"
+  - "/tools/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/"
 community:
   - title: "Desafío * ¿Pueden los generadores de video de IA a — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm48x4/challenge_can_updated_ai_video_generators_still/?utm_source=autoguide&utm_medium=referral"

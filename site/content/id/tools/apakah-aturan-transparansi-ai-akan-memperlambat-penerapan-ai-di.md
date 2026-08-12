@@ -49,8 +49,6 @@ related:
     url: "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://www.google.com/search?q=Apakah%20aturan%20transparansi%20AI%20akan%20memperlambat%20penerapan%20AI%20di%20perusahaan%E2%80%94atau%20membuatnya%20lebih%20aman%20untuk%20dikembangkan%3F%20official"
-aliases:
-  - "/id/tools/apakah-aturan-transparansi-ai-akan-memperlambat-penerapan-ai-di/"
 community:
   - title: "Apakah aturan transparansi AI akan memperlambat pe — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm66ca/are_ai_transparency_rules_going_to_slow/?utm_source=autoguide&utm_medium=referral"

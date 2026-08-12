@@ -49,7 +49,7 @@ related:
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://www.google.com/search?q=Jalan%20Raya%20AI%20dan%20Kematian%20%22Bergerak%20Cepat%20dan%20Hancurkan%20Segalanya%22%20official"
 aliases:
-  - "/id/tools/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya/"
+  - "/tools/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya/"
 community:
   - title: "Jalan Raya AI dan Kematian \"Bergerak Cepat dan Han — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/?utm_source=autoguide&utm_medium=referral"

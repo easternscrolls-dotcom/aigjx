@@ -26,6 +26,38 @@ from . import banners, compliance, config, keywords as kwmod, seo, utils
 
 LOG = utils.get_logger("generate")
 
+# 社区引用语境 FAQ（快赢 #2）：当页面含 Reddit/HN 引用时，追加 1~2 条社区语境问答
+# 到主 FAQ 池，复用真实社区出处、补充 UGC 长尾。注意：真正“抓取 Reddit 原帖提问”
+# 留待二期脚本（采集层 Reddit 问答提取反哺 FAQ 库）；此处仅用已掌握的社区出处链接。
+COMMUNITY_FAQ = {
+    "en": [
+        ("Is there an active community for {name}?",
+         "Yes — real user discussions and feedback for {name} are available on Reddit and "
+         "Hacker News. See the Community & References section below for the source threads."),
+        ("Where can I discuss {name} with other users?",
+         "Community threads and user reviews for {name} are linked in the Community & "
+         "References section at the bottom of this page."),
+    ],
+    "es": [
+        ("¿Hay una comunidad activa para {name}?",
+         "Sí — hay discusiones y opiniones reales de usuarios sobre {name} en Reddit y "
+         "Hacker News. Consulta la sección Comunidad y referencias más abajo."),
+        ("¿Dónde puedo hablar de {name} con otros usuarios?",
+         "Los hilos de la comunidad y las reseñas de {name} están en la sección Comunidad "
+         "y referencias al final de esta página."),
+    ],
+    "id": [
+        ("Apakah ada komunitas aktif untuk {name}?",
+         "Ya — diskusi dan ulasan pengguna nyata untuk {name} tersedia di Reddit dan "
+         "Hacker News. Lihat bagian Komunitas & Referensi di bawah."),
+        ("Di mana saya bisa mendiskusikan {name} dengan pengguna lain?",
+         "Utas komunitas dan ulasan {name} ada di bagian Komunitas & Referensi di bawah "
+         "halaman ini."),
+    ],
+}
+# 单页社区外链硬上限（快赢 #2.3）：避免出站过多稀释页面权重
+COMMUNITY_LINK_CAP = 8
+
 
 # ---------------------------------------------------------------- 资源加载
 def jinja_env() -> Environment:
@@ -192,16 +224,50 @@ def _unique_path(folder: Path, slug: str) -> Tuple[Path, str]:
     return folder / ("%s.md" % candidate), candidate
 
 
+def _vertical_alt(lang: str, vertical: str) -> str:
+    """垂直赛道核心词（按语种），用于封面图 alt，拿图片搜索流量（快赢 #5）。"""
+    vmap = config.get("alt.vertical_core", {}) or {}
+    return (vmap.get(vertical, {}) or {}).get(lang) \
+        or config.get("alt.core_keyword.%s" % lang, "free ai tool")
+
+
 def _ensure_section_index(lang: str, vertical: str) -> None:
-    """垂直板块落地页（_index.md）缺失时自动生成，使 /<lang>/<vertical>/ 可被收录。"""
+    """垂直板块落地页（_index.md）自动生成/升级，使 /<lang>/<vertical>/ 可被收录。
+
+    升级逻辑（幂等）：已存在但缺封面图的落地页，补一张绑定赛道核心词 alt 的
+    本地 SVG 封面（head.html 会将其用作 og:image，list.html 也会渲染）。
+    """
     idx = config.CONTENT_DIR / lang / vertical / "_index.md"
-    if idx.exists():
-        return
     label = kwmod.VERTICAL_LABELS.get(vertical, {}).get(lang, kwmod.VERTICAL_LABELS["tools"][lang])
     desc = utils.yaml_escape("%s — curated free AI tools, updated regularly." % label)
+    vcore = _vertical_alt(lang, vertical)
+
+    if idx.exists():
+        text = idx.read_text(encoding="utf-8")
+        if "image:" not in text:                 # 旧落地页补封面图（核心词 alt）
+            try:
+                img = banners.ensure_banner(label, lang, vertical, vertical)
+                if img:
+                    text = text.rstrip() + (
+                        "\nimage:\n  layout: \"hero\"\n  src: \"%s\"\n  alt: \"%s\"\n"
+                        % (img, utils.yaml_escape(vcore)))
+                    idx.write_text(text, encoding="utf-8")
+                    LOG.info("[%s] 垂直落地页补封面图 %s", lang, idx.parent)
+            except Exception as exc:  # noqa: BLE001
+                LOG.warning("[%s] 垂直落地页封面生成失败（跳过）: %s", lang, exc)
+        return
+
+    img_block = ""
+    try:
+        img = banners.ensure_banner(label, lang, vertical, vertical)
+        if img:
+            img_block = "image:\n  layout: \"hero\"\n  src: \"%s\"\n  alt: \"%s\"\n" \
+                        % (img, utils.yaml_escape(vcore))
+    except Exception as exc:  # noqa: BLE001
+        LOG.warning("[%s] 垂直落地页封面生成失败（降级无图）: %s", lang, exc)
     idx.write_text(
-        "---\ntitle: %s\ndescription: %s\ntype: \"section\"\n---\n"
-        % (utils.yaml_escape(label), desc), encoding="utf-8")
+        "---\ntitle: %s\ndescription: %s\ntype: \"section\"\n%s---\n"
+        % (utils.yaml_escape(label), desc, img_block), encoding="utf-8")
     LOG.info("[%s] 生成垂直板块落地页 %s", lang, idx.parent)
 
 
@@ -245,7 +311,10 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
 
     layout = pick(rng, config.get("generate.image_layouts", ["hero", "side", "textonly"]), "textonly")
     # 头图改为本地生成（见 build_page 中 ensure_banner），此处不再依赖外部图源
-    alt_text = utils.clean_text(" ".join(page_keywords[:2]) + " " + item["name"], 110)
+    # alt 绑定「长尾词[:2] + 垂直赛道核心词 + 工具名」，按语种取本地化核心词（快赢 #5）
+    vcore = _vertical_alt(lang, vertical)
+    alt_text = utils.clean_text(
+        " ".join(page_keywords[:2]) + " " + vcore + " " + item["name"], 130)
 
     link_count = rng.randint(*config.get("generate.internal_links_range", [3, 5]))
     related = link_pool.sample(rng, link_count, "", page_keywords[1:])
@@ -343,16 +412,41 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
         else:
             outbound = src_link
 
+    # 社区外链硬上限：超出截断，避免出站过多稀释页面权重（快赢 #2.3）
+    if len(community) > COMMUNITY_LINK_CAP:
+        community = community[:COMMUNITY_LINK_CAP]
+
+    # 社区语境 FAQ：复用社区出处，补充 UGC 长尾（真实提问提取留待二期脚本）
+    if community:
+        for q_tmpl, a_tmpl in COMMUNITY_FAQ.get(lang, [])[:2]:
+            chosen_faqs.append({
+                "q": q_tmpl.format(name=item["name"]),
+                "a": a_tmpl.format(name=item["name"]),
+            })
+
+    # 分销外链判定（快赢 #4）：仅当开启联盟模式且 CTA 确实指向专属推广链接时
+    # 才标 sponsored；否则（官方源站 / 品牌搜索）一律普通 nofollow，隔离权重。
+    # 直接算好 rel 字符串传给模板，避开 Hugo 对布尔 front-matter 参数的判定差异。
+    outbound_sponsored = bool(affiliate_mode and src_link and outbound == src_link)
+    outbound_rel = "nofollow sponsored noopener" if outbound_sponsored else "nofollow noopener"
+
     page_template = env.get_template("page.md.j2")
-    # 旧 /<lang>/tools/<slug>/ 路径别名（301 重定向），垂直路由迁移期防 404
-    # 垂直恰好为 tools 时不写别名（否则自指向）
-    aliases = ["/%s/tools/%s/" % (lang, final_slug)] if vertical != "tools" else []
+    # 旧 /<lang>/tools/<slug>/ 路径别名（301 重定向），垂直路由迁移期防 404。
+    # 注意：别名不要带语种前缀——Hugo 在 defaultContentLanguageInSubdir=true
+    # 下会自动加 /<lang>/，若这里再写 /en/tools/... 会变成 /en/en/tools/...（双前缀
+    # 且旧链接无法命中 301）。只写 /tools/<slug>/，Hugo 解析为 /<lang>/tools/<slug>/。
+    # 垂直恰好为 tools 时不写别名（否则自指向）。
+    aliases = ["/tools/%s/" % final_slug] if vertical != "tools" else []
+    # 同垂直赛道交叉内链（快赢 #3）：拉取同目录下 5 款工具做站内锚文本内链，
+    # 强化单一赛道主题集群、提升细分词排名，不改动目录结构。
+    similar = link_pool.sample_same_vertical(rng, vertical, 5, final_slug, page_keywords[1:])
     content = page_template.render(
         title=title, description=description, slug=final_slug,
         date=utils.iso_now(), lang=lang, hugo_lang=locale["hugo_lang"],
         keywords=page_keywords, schema_type=schema_type, faqs=chosen_faqs,
         layout=layout, image=image_src, alt=alt_text,
         related=related, outbound=outbound, community=community, aliases=aliases,
+        similar=similar, outbound_sponsored=outbound_sponsored, outbound_rel=outbound_rel,
         source_name=item.get("source_id", ""), region=region,
         word_count=verdict["words"], similarity=verdict["similarity"],
         group=kwmod.classify(main_kw), body=body,

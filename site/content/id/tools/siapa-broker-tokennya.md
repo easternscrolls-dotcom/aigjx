@@ -48,8 +48,6 @@ related:
     url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://www.google.com/search?q=Siapa%20Broker%20Tokennya%3F%20official"
-aliases:
-  - "/id/tools/siapa-broker-tokennya/"
 community:
   - title: "Siapa Broker Tokennya? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"

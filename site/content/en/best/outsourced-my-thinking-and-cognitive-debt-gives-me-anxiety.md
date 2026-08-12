@@ -53,7 +53,7 @@ related:
     anchor: "Why Is My Ai Tool Trial Expired"
 outbound: "https://www.google.com/search?q=Outsourced%20my%20thinking%20and%20cognitive%20debt%20gives%20me%20anxiety%20official"
 aliases:
-  - "/en/tools/outsourced-my-thinking-and-cognitive-debt-gives-me-anxiety/"
+  - "/tools/outsourced-my-thinking-and-cognitive-debt-gives-me-anxiety/"
 community:
   - title: "Outsourced my thinking and cognitive debt gives me — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/?utm_source=autoguide&utm_medium=referral"

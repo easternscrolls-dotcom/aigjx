@@ -58,7 +58,7 @@ related:
     anchor: "Suscripcion de Ia Barata Mensual"
 outbound: "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGxhd210azRCUkVaaXNfaUt0Wmp2YjNmd3A4RGx5QXhxU2QtR3J0RGllVzhaakVTVC1KTWl3Ry1oWXUydUc4Vk5LM0V6bGRPaWpVWlhlUHllM3VSNHJvOVp1X2cycDFVYVBldFB3NUNYQWhJLVNGYmpzbHI1dU95bmYwMjBwcldxZUFEOVdGUHo4ZjI4SDJCWUNpb2NoUQ?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/es/tools/como-las-herramientas-gratuitas-de-ia-llevaron-a-un-propietario-de/"
+  - "/tools/como-las-herramientas-gratuitas-de-ia-llevaron-a-un-propietario-de/"
 pipeline:
   source: "gn_free_ai"
   words: 573

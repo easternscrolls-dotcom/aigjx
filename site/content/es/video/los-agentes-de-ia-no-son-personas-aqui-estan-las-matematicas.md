@@ -39,7 +39,7 @@ related:
     anchor: "Herramienta de Ia vs Editor Humano"
 outbound: "https://www.google.com/search?q=Los%20agentes%20de%20IA%20no%20son%20personas.%20Aqu%C3%AD%20est%C3%A1n%20las%20matem%C3%A1ticas.%20official"
 aliases:
-  - "/es/tools/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/"
+  - "/tools/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/"
 community:
   - title: "Los agentes de IA no son personas. Aquí están las  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlud9g/ai_agents_are_not_people_heres_the_math/?utm_source=autoguide&utm_medium=referral"

@@ -38,7 +38,7 @@ faq:
     answer: "Treat it like any third-party service: review the privacy page, avoid reusing passwords, and keep sensitive files out of shared workspaces."
 outbound: "https://www.google.com/search?q=Kavak%20Replaced%2015%20Human%20Sales%20Specialists%20With%20One%20AI%20Agent%20%E2%80%94%20It%20Now%20Outsells%20Them%202.1x%20official"
 aliases:
-  - "/en/tools/kavak-replaced-15-human-sales-specialists-with-one-ai-agent-it-now/"
+  - "/tools/kavak-replaced-15-human-sales-specialists-with-one-ai-agent-it-now/"
 community:
   - title: "Kavak Replaced 15 Human Sales Specialists With One — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vldh7d/kavak_replaced_15_human_sales_specialists_with/?utm_source=autoguide&utm_medium=referral"

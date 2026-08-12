@@ -55,7 +55,7 @@ related:
     anchor: "What Is the Best Free Ai Image Generator"
 outbound: "https://www.google.com/search?q=Meta%20AI%20can%20now%20connect%20to%20email%20and%20calendars%2C%20create%20slides%2C%20and%20run%20recurring%20tasks%20official"
 aliases:
-  - "/en/tools/meta-ai-can-now-connect-to-email-and-calendars-create-slides-and-run/"
+  - "/tools/meta-ai-can-now-connect-to-email-and-calendars-create-slides-and-run/"
 community:
   - title: "Meta AI can now connect to email and calendars, cr — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm4723/meta_ai_can_now_connect_to_email_and_calendars/?utm_source=autoguide&utm_medium=referral"

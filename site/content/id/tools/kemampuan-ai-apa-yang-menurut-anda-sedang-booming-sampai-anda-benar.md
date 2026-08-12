@@ -45,8 +45,6 @@ related:
     url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://www.google.com/search?q=Kemampuan%20AI%20apa%20yang%20menurut%20Anda%20sedang%20booming%20sampai%20Anda%20benar-benar%20menggunakannya%3F%20official"
-aliases:
-  - "/id/tools/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar/"
 community:
   - title: "Kemampuan AI apa yang menurut Anda sedang booming  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfpxs/whats_an_ai_capability_you_thought_was_hype_until/?utm_source=autoguide&utm_medium=referral"

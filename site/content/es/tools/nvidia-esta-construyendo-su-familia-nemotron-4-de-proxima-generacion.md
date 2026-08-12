@@ -53,8 +53,6 @@ related:
     url: "/es/video/el-desglose-openai/"
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://www.google.com/search?q=NVIDIA%20est%C3%A1%20construyendo%20su%20familia%20Nemotron%204%20de%20pr%C3%B3xima%20generaci%C3%B3n%20para%20competir%20directamente%20con%20los%20l%C3%ADderes...%20official"
-aliases:
-  - "/es/tools/nvidia-esta-construyendo-su-familia-nemotron-4-de-proxima-generacion/"
 community:
   - title: "NVIDIA está construyendo su familia Nemotron 4 de  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/?utm_source=autoguide&utm_medium=referral"

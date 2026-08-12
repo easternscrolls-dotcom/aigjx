@@ -53,7 +53,7 @@ related:
     anchor: "Ai Tool Payment Options Paypal"
 outbound: "https://www.google.com/search?q=Am%20I%20stuck%20paying%20five%20subscriptions%20or%20is%20there%20one%20place%20with%20all%20the%20models%20%3F%20official"
 aliases:
-  - "/en/tools/am-i-stuck-paying-five-subscriptions-or-is-there-one-place-with-all-the/"
+  - "/tools/am-i-stuck-paying-five-subscriptions-or-is-there-one-place-with-all-the/"
 community:
   - title: "Am I stuck paying five subscriptions or is there o — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmbk69/am_i_stuck_paying_five_subscriptions_or_is_there/?utm_source=autoguide&utm_medium=referral"

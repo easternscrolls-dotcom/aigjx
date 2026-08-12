@@ -52,7 +52,7 @@ related:
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://www.google.com/search?q=El%20impuesto%20de%20seguridad%3A%20por%20qu%C3%A9%20los%20gastos%20generales%20de%20seguridad%20de%20la%20IA%20empresarial%20cuestan%20m%C3%A1s%20c%C3%A1lculo%20que%20real...%20official"
 aliases:
-  - "/es/tools/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/"
+  - "/tools/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/"
 community:
   - title: "El impuesto de seguridad: por qué los gastos gener — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm3jxj/the_guardrail_tax_why_enterprise_ai_safety/?utm_source=autoguide&utm_medium=referral"

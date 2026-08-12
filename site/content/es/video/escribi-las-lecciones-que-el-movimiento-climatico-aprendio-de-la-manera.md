@@ -51,7 +51,7 @@ related:
     anchor: "Pagar Suscripcion de Ia Con Oxxo"
 outbound: "https://www.google.com/search?q=Escrib%C3%AD%20las%20lecciones%20que%20el%20movimiento%20clim%C3%A1tico%20aprendi%C3%B3%20de%20la%20manera%20m%C3%A1s%20dif%C3%ADcil...%20official"
 aliases:
-  - "/es/tools/escribi-las-lecciones-que-el-movimiento-climatico-aprendio-de-la-manera/"
+  - "/tools/escribi-las-lecciones-que-el-movimiento-climatico-aprendio-de-la-manera/"
 community:
   - title: "Escribí las lecciones que el movimiento climático  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5fet/wrote_up_lessons_the_climate_movement_learned_the/?utm_source=autoguide&utm_medium=referral"

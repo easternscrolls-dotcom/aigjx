@@ -53,7 +53,7 @@ related:
     anchor: "How to Use Ai Writing Tool for Free"
 outbound: "https://www.google.com/search?q=Would%20you%20trust%20an%20AI%20assistant%20that%20knows%20your%20entire%20life%3F%20official"
 aliases:
-  - "/en/tools/would-you-trust-an-ai-assistant-that-knows-your-entire-life/"
+  - "/tools/would-you-trust-an-ai-assistant-that-knows-your-entire-life/"
 community:
   - title: "Would you trust an AI assistant that knows your en — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlm0sp/would_you_trust_an_ai_assistant_that_knows_your/?utm_source=autoguide&utm_medium=referral"

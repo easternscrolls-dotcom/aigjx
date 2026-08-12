@@ -55,7 +55,7 @@ related:
     anchor: "Free Tier Limits Explained"
 outbound: "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdnJjYmtwcElHTi1ZUUZwa2lucC1nVDZveW9LMTVxWmp1a3IycFpZWWgyd2k4cDVVRUxxZG8tdGQtRkd6S2gyLTRnRXFzMVdubHd6QlA3b2tDdFAtb0w2YXMwVTd4ZU1ib0xBVE43Ty1PNllueFZGLUF6dmdIM1dTbWdCdldQWTB4VlN4YlBVS18tT3BvQ3JLdDRtT3RCWVhmclF6VzF1Sy12UGJuNUJndVd1UXlhMGFaZ0VKaEpJa1R3QVhXR2xR0gHMAUFVX3lxTE1SXzRiZlpvS3VsemRGYjlHUlk3MVEyMFpOendCbTY0LUJSWXdQWENoTFgtbFlHanlsRkVtTEVzTHJrVkh4bWMyXy1SRl9iSENNWkJKNzhEckpIeGFmVGtaT1ZUbHEyZjhDb2lQZGpGRlV3QklRYm1FZmhYZWJGb0wyWkIyVXR2ZFRGZFBSbDRmVEZWRXNlTWYxZkc2NUM4RHpjUHVDRnM3bDR1cTE5bi1ub0lhcDF2N2VPVmRJQnB1U3ZXZkQ3ZWpsMjFRYQ?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/the-new-free-gemini-tool-that-you-can-now-use-advantages-and-operation/"
+  - "/tools/the-new-free-gemini-tool-that-you-can-now-use-advantages-and-operation/"
 pipeline:
   source: "gn_es_free"
   words: 611

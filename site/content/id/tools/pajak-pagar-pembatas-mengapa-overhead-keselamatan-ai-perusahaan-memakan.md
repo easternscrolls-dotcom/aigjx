@@ -46,8 +46,6 @@ related:
     url: "/id/video/papan-peringkat-popularitas-ai-sumber-terbuka/"
     anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
 outbound: "https://www.google.com/search?q=Pajak%20pagar%20pembatas%3A%20mengapa%20overhead%20keselamatan%20AI%20perusahaan%20memakan%20biaya%20komputasi%20lebih%20besar%20daripada%20biaya%20aktual...%20official"
-aliases:
-  - "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
 community:
   - title: "Pajak pagar pembatas: mengapa overhead keselamatan — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm3jxj/the_guardrail_tax_why_enterprise_ai_safety/?utm_source=autoguide&utm_medium=referral"

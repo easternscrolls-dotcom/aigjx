@@ -50,7 +50,7 @@ related:
     anchor: "Free Tier Limits Explained"
 outbound: "https://www.google.com/search?q=Are%20AI%20transparency%20rules%20going%20to%20slow%20enterprise%20AI%20adoption%E2%80%94or%20make%20it%20safer%20to%20scale%3F%20official"
 aliases:
-  - "/en/tools/are-ai-transparency-rules-going-to-slow-enterprise-ai-adoptionor-make/"
+  - "/tools/are-ai-transparency-rules-going-to-slow-enterprise-ai-adoptionor-make/"
 community:
   - title: "Are AI transparency rules going to slow enterprise — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm66ca/are_ai_transparency_rules_going_to_slow/?utm_source=autoguide&utm_medium=referral"

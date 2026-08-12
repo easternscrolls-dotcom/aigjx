@@ -55,7 +55,7 @@ related:
     anchor: "Ai Tools for Beginners Step By Step"
 outbound: "https://www.google.com/search?q=Open%20Source%20AI%20Popularity%20Leaderboard%20official"
 aliases:
-  - "/en/tools/open-source-ai-popularity-leaderboard/"
+  - "/tools/open-source-ai-popularity-leaderboard/"
 community:
   - title: "Open Source AI Popularity Leaderboard — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlie3h/open_source_ai_popularity_leaderboard/?utm_source=autoguide&utm_medium=referral"

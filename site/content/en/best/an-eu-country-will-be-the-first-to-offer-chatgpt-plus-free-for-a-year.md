@@ -51,7 +51,7 @@ related:
     anchor: "Ai Tool Payment Options Paypal"
 outbound: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQalBoSThYUjMyY21IeU9qcllJRHRKZGFMdFFQRXlESzk3X1pGd1labjJrVkpvNFp1VVpPSThjYlByV1Z1bnZVb3YwZndkYVZ1dFgyeVRDOTZ3Y0pPeVhRVnlTbUhITHNCUEh6aC1VQjNQTnRGLUpGdTZ5RGFEM25paXBoX1FpN2ZwNFl6QlN0SVhwMnppZmlqYTN0azBUbjlTTGxjbjRJNmllaHE4X0NvZFNucGRQS0VnYm84ZzdNXzhraGpqcnpjbWhSLTZoVTNQ0gHWAUFVX3lxTE1GYUhYclNjOFctRlJHcUh3RE00WmFzZGVvRmZFSm9EbW84U1BWOXpQMnczaC1kaXJIQ2dPUlVjYjZ5bU5sOGpqMlNNdUlFTzJCTjV3TVZjb3RBSE1GOUw5RFZCVTNPcHI5RmVUODItXzR4eXVCNDVscm9zQVZkalFSZk8xMHNIUE5NSkRQNXFZN3lsd0wzUU9PZ2hVWnpQYk5mYllCSW1XWXJvN1B4ZzIzaGtaUUlHalhrZ2o2VEw0Y0dWQm0tV09MVTB4U2oyVE9pallZekE?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/an-eu-country-will-be-the-first-to-offer-chatgpt-plus-free-for-a-year/"
+  - "/tools/an-eu-country-will-be-the-first-to-offer-chatgpt-plus-free-for-a-year/"
 pipeline:
   source: "gn_es_free"
   words: 538

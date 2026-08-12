@@ -49,7 +49,7 @@ related:
     anchor: "Suscripcion de Ia Barata Mensual"
 outbound: "https://www.google.com/search?q=%C2%BFCu%C3%A1l%20es%20una%20capacidad%20de%20IA%20que%20pensabas%20que%20era%20exagerada%20hasta%20que%20realmente%20la%20usaste%3F%20official"
 aliases:
-  - "/es/tools/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que/"
+  - "/tools/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que/"
 community:
   - title: "¿Cuál es una capacidad de IA que pensabas que era  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfpxs/whats_an_ai_capability_you_thought_was_hype_until/?utm_source=autoguide&utm_medium=referral"

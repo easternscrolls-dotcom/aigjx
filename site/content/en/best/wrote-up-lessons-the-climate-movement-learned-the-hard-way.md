@@ -49,7 +49,7 @@ related:
     anchor: "Cheap Ai Subscription Monthly Plan"
 outbound: "https://www.google.com/search?q=Wrote%20up%20lessons%20the%20climate%20movement%20learned%20the%20hard%20way...%20official"
 aliases:
-  - "/en/tools/wrote-up-lessons-the-climate-movement-learned-the-hard-way/"
+  - "/tools/wrote-up-lessons-the-climate-movement-learned-the-hard-way/"
 community:
   - title: "Wrote up lessons the climate movement learned the  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5fet/wrote_up_lessons_the_climate_movement_learned_the/?utm_source=autoguide&utm_medium=referral"

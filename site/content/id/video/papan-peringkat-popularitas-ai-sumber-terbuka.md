@@ -49,7 +49,7 @@ related:
     anchor: "Alat Tulis Ai vs Editor Manusia"
 outbound: "https://www.google.com/search?q=Papan%20Peringkat%20Popularitas%20AI%20Sumber%20Terbuka%20official"
 aliases:
-  - "/id/tools/papan-peringkat-popularitas-ai-sumber-terbuka/"
+  - "/tools/papan-peringkat-popularitas-ai-sumber-terbuka/"
 community:
   - title: "Papan Peringkat Popularitas AI Sumber Terbuka — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlie3h/open_source_ai_popularity_leaderboard/?utm_source=autoguide&utm_medium=referral"

@@ -47,7 +47,7 @@ related:
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nN1J3T29BYV83V2F4OXdJcWoydDNKT1h5QWMxQy1pMDZDYmtNam1rbS1LcGlkaHRtR0pWU0J1S0pNMjFSd3JocUhFaENLd1RYMWgw?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/es/tools/las-herramientas-de-inteligencia-artificial-por-las-que-vale-la-pena/"
+  - "/tools/las-herramientas-de-inteligencia-artificial-por-las-que-vale-la-pena/"
 pipeline:
   source: "gn_free_ai"
   words: 555

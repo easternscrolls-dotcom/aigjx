@@ -37,7 +37,7 @@ related:
     anchor: "Ai Image Generator vs Stock Photos"
 outbound: "https://www.google.com/search?q=AI%20Agents%20Are%20Not%20People.%20Here%E2%80%99s%20the%20Math.%20official"
 aliases:
-  - "/en/tools/ai-agents-are-not-people-heres-the-math/"
+  - "/tools/ai-agents-are-not-people-heres-the-math/"
 community:
   - title: "AI Agents Are Not People. Here’s the Math. — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlud9g/ai_agents_are_not_people_heres_the_math/?utm_source=autoguide&utm_medium=referral"

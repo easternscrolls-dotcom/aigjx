@@ -54,7 +54,7 @@ related:
     anchor: "Free Ai App Alternative to Paid Plan"
 outbound: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkkyaWtuQ1NJME85OHBBQzNGZ3VNNnRTUl9qZDRoSlp3X1cxQmUtazBFVTVLbDR3c2dLWGtHWkZ1aGdURTdMeUM2NEpIZjAtZnRIYXVJNmdGMEIwZU55TFJMNWVDWEV0OXcxeFNuX2oxNFJCamctMUh2eWZaZW9JcUxidkh0cnAyOXFydWFQbWVPTlVZVWNaMG1tZ2VOZmp5d2c?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/u-of-chile-opens-free-course-to-integrate-ai-into-teaching-universidad/"
+  - "/tools/u-of-chile-opens-free-course-to-integrate-ai-into-teaching-universidad/"
 pipeline:
   source: "gn_es_free"
   words: 548

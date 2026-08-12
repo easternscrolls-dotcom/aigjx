@@ -51,7 +51,7 @@ related:
     anchor: "Pagar Suscripcion de Ia Con Oxxo"
 outbound: "https://www.google.com/search?q=%C2%BFTengo%20que%20pagar%20cinco%20suscripciones%20o%20hay%20un%20lugar%20con%20todos%20los%20modelos%3F%20official"
 aliases:
-  - "/es/tools/tengo-que-pagar-cinco-suscripciones-o-hay-un-lugar-con-todos-los-modelos/"
+  - "/tools/tengo-que-pagar-cinco-suscripciones-o-hay-un-lugar-con-todos-los-modelos/"
 community:
   - title: "¿Tengo que pagar cinco suscripciones o hay un luga — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmbk69/am_i_stuck_paying_five_subscriptions_or_is_there/?utm_source=autoguide&utm_medium=referral"

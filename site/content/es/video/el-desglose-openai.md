@@ -54,7 +54,7 @@ related:
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://www.google.com/search?q=El%20desglose%3A%20OpenAI%20official"
 aliases:
-  - "/es/tools/el-desglose-openai/"
+  - "/tools/el-desglose-openai/"
 community:
   - title: "El desglose: OpenAI — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vliv6l/the_breakdown_openai/?utm_source=autoguide&utm_medium=referral"

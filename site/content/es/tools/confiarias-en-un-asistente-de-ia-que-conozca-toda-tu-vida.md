@@ -48,8 +48,6 @@ related:
     url: "/es/video/escribi-las-lecciones-que-el-movimiento-climatico-aprendio-de-la-manera/"
     anchor: "Limites Del Plan Gratuito Explicados"
 outbound: "https://www.google.com/search?q=%C2%BFConfiar%C3%ADas%20en%20un%20asistente%20de%20IA%20que%20conozca%20toda%20tu%20vida%3F%20official"
-aliases:
-  - "/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/"
 community:
   - title: "¿Confiarías en un asistente de IA que conozca toda — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlm0sp/would_you_trust_an_ai_assistant_that_knows_your/?utm_source=autoguide&utm_medium=referral"

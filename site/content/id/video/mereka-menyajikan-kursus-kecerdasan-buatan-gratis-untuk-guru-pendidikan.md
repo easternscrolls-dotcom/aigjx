@@ -43,7 +43,7 @@ related:
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://news.google.com/rss/articles/CBMilgFBVV95cUxONV93bUdwUFN6MWJaS3ZfUlUyc0JxMFpMR1lza2ZtZUlveHV5aHdmWXFEZDQzeWFUSkFIRmVKbERYSmZYaFd3YlBlbVJhU0JvUG9meWlITVVxVjNWQmhuSFFxUURpWjhqMENHVkpwdHl2Z200MXNORnUtZGJ4YmVCZ3pZOHNNdTdwS29BVjBNNEFjb1NoWXc?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/id/tools/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan/"
+  - "/tools/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan/"
 pipeline:
   source: "gn_es_free"
   words: 319

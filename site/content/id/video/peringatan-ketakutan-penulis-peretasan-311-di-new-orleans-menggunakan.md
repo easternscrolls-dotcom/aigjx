@@ -46,7 +46,7 @@ related:
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://www.google.com/search?q=Peringatan%20ketakutan%20penulis%20peretasan%20-%20311%20di%20New%20Orleans%20menggunakan%20AI%20untuk%20menjawab%20panggilan.%20official"
 aliases:
-  - "/id/tools/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan/"
+  - "/tools/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan/"
 community:
   - title: "Peringatan ketakutan penulis peretasan - 311 di Ne — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmcchp/warning_fear_mongering_hack_writer_311_in_new/?utm_source=autoguide&utm_medium=referral"

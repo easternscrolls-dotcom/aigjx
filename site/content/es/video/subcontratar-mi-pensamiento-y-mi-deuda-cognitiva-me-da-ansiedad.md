@@ -50,7 +50,7 @@ related:
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://www.google.com/search?q=Subcontratar%20mi%20pensamiento%20y%20mi%20deuda%20cognitiva%20me%20da%20ansiedad%20official"
 aliases:
-  - "/es/tools/subcontratar-mi-pensamiento-y-mi-deuda-cognitiva-me-da-ansiedad/"
+  - "/tools/subcontratar-mi-pensamiento-y-mi-deuda-cognitiva-me-da-ansiedad/"
 community:
   - title: "Subcontratar mi pensamiento y mi deuda cognitiva m — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/?utm_source=autoguide&utm_medium=referral"

@@ -49,8 +49,6 @@ related:
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
 outbound: "https://www.google.com/search?q=Pemikiran%20dan%20hutang%20kognitif%20saya%20yang%20dialihdayakan%20membuat%20saya%20cemas%20official"
-aliases:
-  - "/id/tools/pemikiran-dan-hutang-kognitif-saya-yang-dialihdayakan-membuat-saya-cemas/"
 community:
   - title: "Pemikiran dan hutang kognitif saya yang dialihdaya — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/?utm_source=autoguide&utm_medium=referral"

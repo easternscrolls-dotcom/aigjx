@@ -50,7 +50,7 @@ related:
     anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
 outbound: "https://www.google.com/search?q=10%20ide%20otomatisasi%20AI%20yang%20dapat%20Anda%20buat%20hari%20ini%20tanpa%20kode%3A%203%20ide%20yang%20benar-benar%20menghemat%20waktu%20saya%20official"
 aliases:
-  - "/id/tools/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide/"
+  - "/tools/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide/"
 community:
   - title: "10 ide otomatisasi AI yang dapat Anda buat hari in — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmck3c/10_ai_automation_ideas_you_can_build_today_with/?utm_source=autoguide&utm_medium=referral"

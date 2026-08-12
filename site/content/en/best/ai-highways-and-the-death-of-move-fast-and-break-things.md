@@ -55,7 +55,7 @@ related:
     anchor: "Regional Availability List"
 outbound: "https://www.google.com/search?q=AI%20Highways%20and%20the%20Death%20of%20%22Move%20Fast%20and%20Break%20Things%22%20official"
 aliases:
-  - "/en/tools/ai-highways-and-the-death-of-move-fast-and-break-things/"
+  - "/tools/ai-highways-and-the-death-of-move-fast-and-break-things/"
 community:
   - title: "AI Highways and the Death of \"Move Fast and Break  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/?utm_source=autoguide&utm_medium=referral"

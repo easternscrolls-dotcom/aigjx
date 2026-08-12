@@ -50,7 +50,7 @@ related:
     anchor: "Ai Image Generator vs Stock Photos"
 outbound: "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZk9nTTY3R3c4ZGtaRUhNSUMxYnRPcDVkZlVJZ3lUX0drMlVEbGtGR181WXpNa2ZXdHNtVnNGUnhpVmhVWTRyVG9vS2xPaTJvYnFpME9iNDY3MFJUWlFRRjN6NXNFOUk5WmtOU1VJclNlT1ZIUnV2ZzhFMGFCMHViRw?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/create-drone-style-aerial-tours-with-ai-for-free-and-in-2-minutes-ovacen/"
+  - "/tools/create-drone-style-aerial-tours-with-ai-for-free-and-in-2-minutes-ovacen/"
 pipeline:
   source: "gn_es_free"
   words: 467

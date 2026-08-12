@@ -39,8 +39,6 @@ related:
     url: "/es/tools/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de/"
     anchor: "Herramientas de Ia para Principiantes Paso a Paso"
 outbound: "https://www.google.com/search?q=%C2%BFEs%20necesariamente%20mejor%20razonar%20m%C3%A1s%3F%20official"
-aliases:
-  - "/es/tools/es-necesariamente-mejor-razonar-mas/"
 community:
   - title: "¿Es necesariamente mejor razonar más? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlq4zw/is_more_reasoning_necessarily_better/?utm_source=autoguide&utm_medium=referral"

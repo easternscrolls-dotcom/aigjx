@@ -53,8 +53,6 @@ related:
     url: "/id/office/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
     anchor: "Bagaimana Cara Pakai Alat Ai Gratis"
 outbound: "https://www.google.com/search?q=Mencuri%20Jejak%20Penalaran%20dari%20API%20LLM%20Kepemilikan%20official"
-aliases:
-  - "/id/tools/mencuri-jejak-penalaran-dari-api-llm-kepemilikan/"
 community:
   - title: "Mencuri Jejak Penalaran dari API LLM Kepemilikan — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm4i7d/stealing_reasoning_traces_from_proprietary_llm/?utm_source=autoguide&utm_medium=referral"

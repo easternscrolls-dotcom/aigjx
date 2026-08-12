@@ -50,8 +50,6 @@ related:
     url: "/id/video/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu/"
     anchor: "Alat Ai Untuk Bisnis Kecil"
 outbound: "https://www.google.com/search?q=Rinciannya%3A%20OpenAI%20official"
-aliases:
-  - "/id/tools/rinciannya-openai/"
 community:
   - title: "Rinciannya: OpenAI — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vliv6l/the_breakdown_openai/?utm_source=autoguide&utm_medium=referral"

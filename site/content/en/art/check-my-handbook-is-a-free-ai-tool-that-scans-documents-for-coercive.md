@@ -46,7 +46,7 @@ related:
     anchor: "Ai Tool Payment Options Paypal"
 outbound: "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tSXZSa0NrMS1qU0FrOXlDYkpBN0luMHJzRHZ2Rm92UnRPVkhtcVBEMm1DUW9yY1ZBX0ZJRUMtNkdjcGY1OVEzUVF5Tk45RFhWZGZBR2c0T3kwMk0zemFtMjcyQ0t3a1JjcC1rT1JjTQ?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/check-my-handbook-is-a-free-ai-tool-that-scans-documents-for-coercive/"
+  - "/tools/check-my-handbook-is-a-free-ai-tool-that-scans-documents-for-coercive/"
 pipeline:
   source: "gn_free_ai"
   words: 569

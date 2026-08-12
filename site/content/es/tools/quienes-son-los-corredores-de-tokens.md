@@ -51,8 +51,6 @@ related:
     url: "/es/video/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
     anchor: "Limites Del Plan Gratuito Explicados"
 outbound: "https://www.google.com/search?q=%C2%BFQui%C3%A9nes%20son%20los%20corredores%20de%20tokens%3F%20official"
-aliases:
-  - "/es/tools/quienes-son-los-corredores-de-tokens/"
 community:
   - title: "¿Quiénes son los corredores de tokens? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"

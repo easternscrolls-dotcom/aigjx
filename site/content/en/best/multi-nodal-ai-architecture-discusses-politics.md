@@ -50,7 +50,7 @@ related:
     anchor: "Ai Tool Payment Options Paypal"
 outbound: "https://www.google.com/search?q=%E2%80%8Emulti-nodal%20AI%20Architecture%20discusses%20Politics%20official"
 aliases:
-  - "/en/tools/multi-nodal-ai-architecture-discusses-politics/"
+  - "/tools/multi-nodal-ai-architecture-discusses-politics/"
 community:
   - title: "‎multi-nodal AI Architecture discusses Politics — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vley4b/multinodal_ai_architecture_discusses_politics/?utm_source=autoguide&utm_medium=referral"

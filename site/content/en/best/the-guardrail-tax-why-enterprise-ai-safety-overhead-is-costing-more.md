@@ -48,7 +48,7 @@ related:
     anchor: "Free Tier Limits Explained"
 outbound: "https://www.google.com/search?q=The%20guardrail%20tax%3A%20why%20enterprise%20AI%20safety%20overhead%20is%20costing%20more%20compute%20than%20actual...%20official"
 aliases:
-  - "/en/tools/the-guardrail-tax-why-enterprise-ai-safety-overhead-is-costing-more/"
+  - "/tools/the-guardrail-tax-why-enterprise-ai-safety-overhead-is-costing-more/"
 community:
   - title: "The guardrail tax: why enterprise AI safety overhe — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm3jxj/the_guardrail_tax_why_enterprise_ai_safety/?utm_source=autoguide&utm_medium=referral"

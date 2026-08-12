@@ -44,7 +44,7 @@ related:
     anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
 outbound: "https://www.google.com/search?q=Claude%20Code%20Orchestrator%20di%20Terminal-Bench%3A%20Model%20yang%20sama...%20official"
 aliases:
-  - "/id/tools/claude-code-orchestrator-di-terminal-bench-model-yang-sama/"
+  - "/tools/claude-code-orchestrator-di-terminal-bench-model-yang-sama/"
 community:
   - title: "Claude Code Orchestrator di Terminal-Bench: Model  — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm7a6t/claude_code_orchestrator_on_terminalbench_same/?utm_source=autoguide&utm_medium=referral"

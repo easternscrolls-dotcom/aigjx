@@ -52,7 +52,7 @@ related:
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=Does%20AI%20agents%20create%20more%20problems%20or%20what%3F%20official"
 aliases:
-  - "/en/tools/does-ai-agents-create-more-problems-or-what/"
+  - "/tools/does-ai-agents-create-more-problems-or-what/"
 community:
   - title: "Does AI agents create more problems or what? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5at9/does_ai_agents_create_more_problems_or_what/?utm_source=autoguide&utm_medium=referral"

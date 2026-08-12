@@ -44,7 +44,7 @@ related:
     anchor: "Cheap Ai Subscription Monthly Plan"
 outbound: "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZlZoTF9SejR4RTJaWV8yOG9NVFdGd09FZl9GMkxWbXJsdEV5eEMzUUtjZDRSOHBNdVpLSzIwVXQ4S1I5c2tnWjRtR05fZmZISVpZaTRCMVlfRG9zRXdWWnZlYzB3NXZSTjMzcWdwQVpJUl90NUVtQUhuYzN1MGJiSDhteng0Rjh4cEhQbk92dy1pY2QyRHozVXg3QXF0VmhtTHUwdzJlZzhkNTlVT21jcVY4YlU1T3hDWk5kNFFlbWdNM3FKdlRZVFdORVc3RWJIMkFQYVhFd1o?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/exiger-unveils-free-ai-tool-for-companies-to-find-forced-labor-in-their/"
+  - "/tools/exiger-unveils-free-ai-tool-for-companies-to-find-forced-labor-in-their/"
 pipeline:
   source: "gn_free_ai"
   words: 493

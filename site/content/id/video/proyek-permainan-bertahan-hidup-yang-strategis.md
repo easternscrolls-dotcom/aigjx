@@ -53,7 +53,7 @@ related:
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://www.google.com/search?q=Proyek%20permainan%20bertahan%20hidup%20yang%20strategis%20official"
 aliases:
-  - "/id/tools/proyek-permainan-bertahan-hidup-yang-strategis/"
+  - "/tools/proyek-permainan-bertahan-hidup-yang-strategis/"
 community:
   - title: "Proyek permainan bertahan hidup yang strategis — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfnz3/strategic_survival_game_project/?utm_source=autoguide&utm_medium=referral"

@@ -54,7 +54,7 @@ related:
     anchor: "Best Ai Tool or Built in Template"
 outbound: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nN1J3T29BYV83V2F4OXdJcWoydDNKT1h5QWMxQy1pMDZDYmtNam1rbS1LcGlkaHRtR0pWU0J1S0pNMjFSd3JocUhFaENLd1RYMWgw?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/en/tools/the-ai-tools-worth-paying-for-because-free-is-trash-vice/"
+  - "/tools/the-ai-tools-worth-paying-for-because-free-is-trash-vice/"
 pipeline:
   source: "gn_free_ai"
   words: 547

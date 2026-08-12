@@ -45,7 +45,7 @@ related:
     anchor: "Cheap Ai Subscription Monthly Plan"
 outbound: "https://www.google.com/search?q=Open-source%20tool%20that%20maps%20what%20concepts%20an%20LLM%20has%20learned%20into%20browsable%20tree...%20official"
 aliases:
-  - "/en/tools/open-source-tool-that-maps-what-concepts-an-llm-has-learned-into/"
+  - "/tools/open-source-tool-that-maps-what-concepts-an-llm-has-learned-into/"
 community:
   - title: "Open-source tool that maps what concepts an LLM ha — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/?utm_source=autoguide&utm_medium=referral"

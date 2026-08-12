@@ -54,7 +54,7 @@ related:
     anchor: "Aplikasi Ai Untuk Pekerja Lepas"
 outbound: "https://www.google.com/search?q=Apakah%20saya%20terjebak%20dalam%20membayar%20lima%20langganan%20atau%20apakah%20ada%20satu%20tempat%20dengan%20semua%20modelnya%3F%20official"
 aliases:
-  - "/id/tools/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu/"
+  - "/tools/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu/"
 community:
   - title: "Apakah saya terjebak dalam membayar lima langganan — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vmbk69/am_i_stuck_paying_five_subscriptions_or_is_there/?utm_source=autoguide&utm_medium=referral"

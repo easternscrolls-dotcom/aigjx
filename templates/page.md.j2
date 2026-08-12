@@ -38,10 +38,20 @@ related:
 {% endfor %}
 {% endif %}
 outbound: "{{ outbound }}"
+outbound_sponsored: {{ outbound_sponsored }}
+outbound_rel: "{{ outbound_rel }}"
 {% if aliases %}
 aliases:
 {% for a in aliases %}
   - "{{ a }}"
+{% endfor %}
+{% endif %}
+{% if similar %}
+similar:
+{% for s in similar %}
+  - title: "{{ s.title | yaml }}"
+    url: "{{ s.url }}"
+    anchor: "{{ s.anchor | yaml }}"
 {% endfor %}
 {% endif %}
 {% if community %}

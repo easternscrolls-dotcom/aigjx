@@ -51,7 +51,7 @@ related:
     anchor: "Lista de Disponibilidad Por Region"
 outbound: "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZlZoTF9SejR4RTJaWV8yOG9NVFdGd09FZl9GMkxWbXJsdEV5eEMzUUtjZDRSOHBNdVpLSzIwVXQ4S1I5c2tnWjRtR05fZmZISVpZaTRCMVlfRG9zRXdWWnZlYzB3NXZSTjMzcWdwQVpJUl90NUVtQUhuYzN1MGJiSDhteng0Rjh4cEhQbk92dy1pY2QyRHozVXg3QXF0VmhtTHUwdzJlZzhkNTlVT21jcVY4YlU1T3hDWk5kNFFlbWdNM3FKdlRZVFdORVc3RWJIMkFQYVhFd1o?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/es/tools/exiger-presenta-una-herramienta-de-inteligencia-artificial-gratuita/"
+  - "/tools/exiger-presenta-una-herramienta-de-inteligencia-artificial-gratuita/"
 pipeline:
   source: "gn_free_ai"
   words: 516

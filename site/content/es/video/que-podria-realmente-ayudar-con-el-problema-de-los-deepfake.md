@@ -47,7 +47,7 @@ related:
     anchor: "Pagar Suscripcion de Ia Con Oxxo"
 outbound: "https://www.google.com/search?q=%C2%BFQu%C3%A9%20podr%C3%ADa%20realmente%20ayudar%20con%20el%20problema%20de%20los%20deepfake%3F%20official"
 aliases:
-  - "/es/tools/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/"
+  - "/tools/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/"
 community:
   - title: "¿Qué podría realmente ayudar con el problema de lo — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm660f/what_could_actually_help_with_the_deepfake_problem/?utm_source=autoguide&utm_medium=referral"

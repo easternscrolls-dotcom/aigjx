@@ -50,7 +50,7 @@ related:
     anchor: "Panduan Setup Cepat Untuk Pemula"
 outbound: "https://www.google.com/search?q=Apakah%20agen%20AI%20menimbulkan%20lebih%20banyak%20masalah%20atau%20bagaimana%3F%20official"
 aliases:
-  - "/id/tools/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+  - "/tools/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
 community:
   - title: "Apakah agen AI menimbulkan lebih banyak masalah at — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5at9/does_ai_agents_create_more_problems_or_what/?utm_source=autoguide&utm_medium=referral"

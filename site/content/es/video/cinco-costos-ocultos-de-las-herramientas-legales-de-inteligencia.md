@@ -54,7 +54,7 @@ related:
     anchor: "Es Seguro Usar Aplicaciones de Ia Gratuitas"
 outbound: "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUl1dUZLVy15WFQyNGJlOG9sbDhVWXYtQzBuMDY2WjR3U1h0SHRDY3lZcVVqYndoOXF6Q240UkdvWklvdTlJd3g2bXVSbXB1cENNTFFMVjJIeXpiWUVRbGRkanB6eWFCd3pSdkN1OHFMSVpzT3p0bGdHTlVwUUc4SkhrR0JEQ3p6ZzJoY29CdkNwOVBzOTdDeGVOVFR5SGZYV2ExRmVjaFhnNUNm?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/es/tools/cinco-costos-ocultos-de-las-herramientas-legales-de-inteligencia/"
+  - "/tools/cinco-costos-ocultos-de-las-herramientas-legales-de-inteligencia/"
 pipeline:
   source: "gn_free_ai"
   words: 618

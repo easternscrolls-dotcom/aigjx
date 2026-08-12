@@ -53,7 +53,7 @@ related:
     anchor: "Herramientas de Ia para Negocios Pequenos"
 outbound: "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZDFyZTJDb0ZndnR2b3ljSmZtYU5CeDhsMzdnQnBVdW56WDlPUlJOVVRkZUhiZ3FSTXZnaEF0ZlA0dWNUejJzRExTU0x5WFp3RkNrUEJVUF9Sei1mWGc0Ql8yaU45WU9NNDU3X0d5TjlIdFBkZXRfUnRzRzVFeU5uMWptUGdOb2dGeDNQT2FKUzRKZk1FbUJtVVFfM3JQUVBOS3NmVWJIQnpWSWZSdHZVcE9UTC0?oc=5?utm_source=autoguide&utm_medium=referral"
 aliases:
-  - "/es/tools/quieres-aprender-ia-claude-acaba-de-publicar-12-cursos-gratuitos-con/"
+  - "/tools/quieres-aprender-ia-claude-acaba-de-publicar-12-cursos-gratuitos-con/"
 pipeline:
   source: "gn_es_free"
   words: 605

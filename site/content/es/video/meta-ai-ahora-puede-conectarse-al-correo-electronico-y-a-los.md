@@ -49,7 +49,7 @@ related:
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://www.google.com/search?q=Meta%20AI%20ahora%20puede%20conectarse%20al%20correo%20electr%C3%B3nico%20y%20a%20los%20calendarios%2C%20crear%20diapositivas%20y%20ejecutar%20tareas%20recurrentes%20official"
 aliases:
-  - "/es/tools/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/"
+  - "/tools/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/"
 community:
   - title: "Meta AI ahora puede conectarse al correo electróni — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm4723/meta_ai_can_now_connect_to_email_and_calendars/?utm_source=autoguide&utm_medium=referral"
