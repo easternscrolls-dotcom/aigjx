@@ -4,7 +4,7 @@
 
 site:
   # Cloudflare Pages 绑定成功后把这里换成你的正式域名（结尾必须带 /）
-  base_url: "https://autoguide-station.pages.dev/"
+  base_url: "https://freeai.72tool.com/"
   brand: "AutoGuide"
   # 站点题材：mobile_game_quest | ai_tools | webnovel_list
   # 决定使用 config/sources.yaml 中哪一组 RSS 源、以及页面 section 名

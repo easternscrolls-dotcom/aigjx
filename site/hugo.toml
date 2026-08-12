@@ -3,7 +3,7 @@
 # baseURL 由 Actions 构建时用 -b 参数覆盖，也可直接改这里
 # ============================================================
 
-baseURL = "https://autoguide-station.pages.dev/"
+baseURL = "https://freeai.72tool.com/"
 title = "AutoGuide"
 enableRobotsTXT = true
 enableEmoji = false
@@ -71,7 +71,7 @@ defaultContentLanguageInSubdir = true
 
 [params]
   brand = "AutoGuide"
-  description = "Multilingual guide directory."
+  description = "Free AI online tools directory — guides, comparisons and tips in English, Español and Bahasa Indonesia."
   # 分销外链统一属性，白帽合规必备
   outboundRel = "nofollow sponsored noopener"
 
