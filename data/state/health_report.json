@@ -1,0 +1,21 @@
+{
+  "at": "2026-08-12T09:53:47Z",
+  "topic": "ai_tools",
+  "csv": {
+    "longtail.csv": "ok(58 rows)",
+    "faq_bank.csv": "ok(48 rows)",
+    "snippets.csv": "ok(204 rows)",
+    "replacements.csv": "ok(38 rows)",
+    "banned_terms.csv": "ok(31 rows)"
+  },
+  "site": {
+    "sitemap.xml": "ok",
+    "robots.txt": "ok",
+    "sitemapindex.xml": "missing"
+  },
+  "content_counts": {
+    "en": 0,
+    "es": 0,
+    "id": 0
+  }
+}

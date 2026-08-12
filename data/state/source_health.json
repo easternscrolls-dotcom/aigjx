@@ -1,0 +1,24 @@
+{
+  "ph_ai": {
+    "fail_days": 1,
+    "last_fail_day": "2026-08-12",
+    "sleep_until": ""
+  },
+  "reddit_ai": {
+    "fail_days": 0,
+    "last_fail_day": "",
+    "sleep_until": "",
+    "last_ok_day": "2026-08-12"
+  },
+  "hn_free_ai": {
+    "fail_days": 0,
+    "last_fail_day": "",
+    "sleep_until": "",
+    "last_ok_day": "2026-08-12"
+  },
+  "hn_ai_tool": {
+    "fail_days": 1,
+    "last_fail_day": "2026-08-12",
+    "sleep_until": ""
+  }
+}
