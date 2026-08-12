@@ -184,7 +184,9 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
         "year": str(utils.utc_now().year), "month": seo.month_name(lang),
     }
 
-    summary = item["summary"]
+    # 双保险：采集层已清洗，这里再剥一次，确保任何历史/外部译文里的
+    # Reddit/HN 机器字段（"submitted by /u/... [link] [comments]" 等）不会进正文。
+    summary = utils.strip_source_cruft(item["summary"])
     faq_count = rng.randint(*config.get("generate.faq_pick_range", [5, 8]))
     chosen_faqs = [
         {"q": interpolate(f.get("question", ""), var_ctx),

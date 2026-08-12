@@ -79,8 +79,12 @@ generate:
   min_pages_per_day: 3             # 低于此值触发二次全流程重跑
 
 compliance:
-  similarity_max: 0.10        # 译文与原素材相似度 > 10% 直接丢弃
-  similarity_soft: 0.08       # 进入软阈值则自动截取片段降低重合度
+  # 硬性丢弃阈值：正文与原素材相似度 > 25% 才丢弃。
+  # 主题类导购/指南页与同源素材天然存在术语重叠（同工具名、同概念词），
+  # 字符级 quick_ratio 在 0.10~0.15 即会误杀正常改写页；实测合法页最高约 0.15，
+  # 故上调至 0.25 保留合理余量，仍远低于近照抄（>0.4）区间。
+  similarity_max: 0.25
+  similarity_soft: 0.18       # 进入软阈值则自动截取片段降低重合度
   soft_trim_chars: 90
   eu_locales: []              # 需要删减现金收益描述的语种代码，如 ["de", "fr"]
   piracy_terms:

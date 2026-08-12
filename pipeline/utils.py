@@ -259,6 +259,38 @@ def clean_text(text: str, max_chars: int = 0, drop_urls: bool = True) -> str:
     return text
 
 
+# ---------------------------------------------------------------- 采集源元数据清洗
+# Reddit / HN / RSSHub 常在标题或简介里夹带这些机器字段，若不剥离会：
+#   1) 直接泄漏进页面正文（"Article URL: Comments URL: Points: 1 # Comments: 0"）
+#   2) 进入 SEO description（"submitted by /u/xxx [link] [comments]"）
+#   3) 触发搜索引擎对“薄内容/垃圾”的降权。全部为免费公共源，属预期噪声。
+_SOURCE_CRUFT = re.compile(
+    r"submitted by\s+/u/[A-Za-z0-9_\-.]+"        # Reddit 作者署名
+    r"(?:\s*\[link\]\s*\[comments\])?"            # 其后可能跟 [link] [comments]
+    r"|\[link\]\s*\[comments\]"                   # 仅 [link] [comments]
+    r"|\[link\]|\[comments\]"                     # 单独标签
+    r"|Article URL:[^\n]*"                        # HN/RSSHub: Article URL: 整行尾
+    r"|Comments URL:[^\n]*"                       # ... Comments URL: 整行尾
+    r"|Points?:\s*\d+"                            # Points: 1
+    r"|#\s*Comments?:\s*\d+"                      # # Comments: 0
+    r"|Comments?:\s*\d+",                         # Comments: 0
+    re.IGNORECASE,
+)
+
+
+def strip_source_cruft(text: str) -> str:
+    """剥离采集源原始元数据（Reddit/HN 机器字段），只保留人类可读内容。
+
+    放在文本清洗链最前，确保翻译、截断、SEO 拼接拿到的都是干净文本。
+    """
+    if not text:
+        return ""
+    cleaned = _SOURCE_CRUFT.sub(" ", text)
+    # 去掉剥离后可能残留的多余连接符 / 连续空白
+    cleaned = re.sub(r"\s*[-–—|·]\s*$", " ", cleaned)
+    return _WS_RE.sub(" ", cleaned).strip(" -–—|·,;:")
+
+
 def is_garbage(text: str, min_len: int = 20) -> bool:
     """垃圾文本判定：过短、几乎无字母、疑似纯符号/纯乱码。"""
     if not text or len(text) < min_len:

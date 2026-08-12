@@ -21,31 +21,33 @@ from . import config, utils
 
 LOG = utils.get_logger("seo")
 
-# 标题句式池：{name} 素材名，{kw} 长尾词，{year} 年份，{region} 地区
+# 标题句式池：{name} 素材名，{region} 地区，{year} 年份。
+# 注意：不再注入长尾问句 {kw}（如 "why is my ... / can i use ..."），
+# 避免标题读感怪异、像关键词堆砌；长尾词保留在 keywords 字段做 SEO。
 TITLE_PATTERNS = {
     "en": [
-        "{name} Guide: {kw}",
-        "{name} — {kw} ({year})",
-        "{kw}: What {name} Offers",
+        "{name} — Free AI Tool Guide ({year})",
         "{name} Overview for {region}",
-        "{kw} | {name} Quick Look",
-        "{name}: {kw} Checklist",
+        "{name}: Features, Pricing & Alternatives",
+        "{name} ({year}) — What You Should Know",
+        "{name} Review for {region}",
+        "{name}: A {year} Quick Look",
     ],
     "es": [
-        "{name}: guía sobre {kw}",
-        "{name} — {kw} ({year})",
-        "{kw}: qué ofrece {name}",
+        "{name}: guía gratuita ({year})",
         "{name} en {region}: resumen",
-        "{kw} | {name} de un vistazo",
-        "{name}: lista de {kw}",
+        "{name}: funciones, precios y alternativas",
+        "{name} ({year}): lo que debes saber",
+        "{name}: análisis para {region}",
+        "{name}: un vistazo {year}",
     ],
     "id": [
-        "{name}: panduan {kw}",
-        "{name} — {kw} ({year})",
-        "{kw}: apa yang ditawarkan {name}",
+        "{name}: panduan gratis ({year})",
         "Ulasan {name} untuk {region}",
-        "{kw} | {name} sekilas",
-        "{name}: daftar {kw}",
+        "{name}: fitur, harga & alternatif",
+        "{name} ({year}): yang perlu diketahui",
+        "{name}: ulasan untuk {region}",
+        "{name}: sekilas {year}",
     ],
 }
 
@@ -77,7 +79,9 @@ MONTHS = {
            "Agustus", "September", "Oktober", "November", "Desember"],
 }
 
-SLUG_SHAPES = ["{name}", "{name}-{kwshort}", "{kwshort}-{name}", "{name}-{region}"]
+# slug 仅由素材名生成（干净、可读、稳定）；长尾词不污染 URL。
+# 同名碰撞由 generate._unique_path 自动加 -2/-3 处理。
+SLUG_SHAPES = ["{name}"]
 
 
 def month_name(lang: str) -> str:
@@ -101,11 +105,8 @@ def build_description(rng: random.Random, lang: str, name: str, summary: str,
 
 
 def build_slug(rng: random.Random, name: str, keyword: str, region: str) -> str:
-    shape = rng.choice(SLUG_SHAPES)
-    kwshort = "-".join(utils.slugify(keyword).split("-")[:3])
-    raw = shape.format(name=utils.slugify(name), kwshort=kwshort,
-                       region=utils.slugify(region))
-    return utils.slugify(raw, 72)
+    """slug 仅由干净的素材名生成，不拼接长尾词或地区，避免关键词堆砌。"""
+    return utils.slugify(name, 72)
 
 
 def decide_schema(rng: random.Random, has_faq: bool, has_table: bool) -> str:

@@ -3,9 +3,9 @@
 ## {{ h2.h2_intro }}
 {% endif %}
 
-{{ item.name }} — {{ summary }}
+{{ item.name }}
 
-{{ transitions[0:1] | join('') }} {{ vars.region }}{% if payments %} ({{ payments }}){% endif %}.
+{{ transitions[0:1] | join('') }} For readers in {{ vars.region }}, availability and pricing can shift, so recheck the official page before you commit.
 
 {% if keywords | length > 1 %}
 *{{ keywords[1:4] | map('titlecase') | join(' · ') }}*

@@ -152,8 +152,10 @@ def _normalize(entry: Dict[str, Any], source: Dict[str, Any]) -> Optional[Dict[s
     title_max = int(config.get("collect.title_max_chars", 90))
     summary_max = int(config.get("collect.summary_max_chars", 200))
 
-    name = utils.clean_text(entry.get("title", ""), title_max)
-    summary = utils.clean_text(_entry_summary(entry), summary_max)
+    # 先剥离采集源原始元数据（Reddit/HN 机器字段），再做常规清洗与截断，
+    # 这样翻译与 SEO 拼接拿到的 summary 不再夹带 "submitted by /u/..." 等噪声。
+    name = utils.clean_text(utils.strip_source_cruft(entry.get("title", "")), title_max)
+    summary = utils.clean_text(utils.strip_source_cruft(_entry_summary(entry)), summary_max)
     link = _entry_link(entry)
 
     if not name or not summary or not link:
