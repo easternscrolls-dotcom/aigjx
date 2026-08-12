@@ -101,7 +101,7 @@ def publish(message_extra: str = "") -> Dict[str, Any]:
         LOG.error("未安装 git，跳过发布（本地调试可忽略）")
         return {"pushed": False, "reason": "git-missing"}
 
-    watch_paths = ["site/content", "data/keywords", "data/faq", "data/snippets",
+    watch_paths = ["site/content", "site/static", "data/keywords", "data/faq", "data/snippets",
                    "data/localization", "data/blacklist", "data/state", "backup"]
     existing = [p for p in watch_paths if (config.ROOT / p).exists()]
 

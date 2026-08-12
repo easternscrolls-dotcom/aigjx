@@ -37,6 +37,36 @@ topics:
         type: "rss"
         url: "https://www.reddit.com/r/artificial/top/.rss?t=day"
         note: "Reddit 官方免费 RSS，备用兜底"
+      - id: "gn_free_ai"
+        priority: 5
+        type: "rss"
+        url: "https://news.google.com/rss/search?q=free+ai+tool&hl=en-US&gl=US&ceid=US:en"
+        note: "Google News 免费AI工具资讯（官方RSS，已验证200可用）"
+      - id: "gn_es_free"
+        priority: 6
+        type: "rss"
+        url: "https://news.google.com/rss/search?q=herramienta+ia+gratis&hl=es-MX&gl=MX&ceid=MX:es"
+        note: "Google News 西语免费AI工具（已验证可用）"
+      - id: "gn_id_free"
+        priority: 7
+        type: "rss"
+        url: "https://news.google.com/rss/search?q=alat+ai+gratis&hl=id-ID&gl=ID&ceid=ID:id"
+        note: "Google News 印尼语免费AI工具（已验证可用）"
+      - id: "toolify_ai"
+        priority: 8
+        type: "rss"
+        url: "https://www.toolify.ai/rss.xml"
+        note: "Toolify 榜单（已探测403，大概率自动休眠，保留待验证）"
+      - id: "alternativeto_ai"
+        priority: 9
+        type: "rss"
+        url: "https://alternativeto.net/feed/?tag=artificial%20intelligence"
+        note: "AlternativeTo（已探测403，大概率自动休眠，保留待验证）"
+      - id: "futurepedia_ai"
+        priority: 10
+        type: "rss"
+        url: "https://www.futurepedia.io/rss.xml"
+        note: "Futurepedia（已探测404，大概率自动休眠，保留待验证）"
 
   mobile_game_quest:
     section: "guides"

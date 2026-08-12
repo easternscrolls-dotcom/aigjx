@@ -18,10 +18,11 @@ from __future__ import annotations
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple
+from urllib.parse import quote as _url_quote
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
-from . import compliance, config, keywords as kwmod, seo, utils
+from . import banners, compliance, config, keywords as kwmod, seo, utils
 
 LOG = utils.get_logger("generate")
 
@@ -112,21 +113,54 @@ COMPONENT_TEMPLATES = {
 
 
 def build_component_order(rng) -> List[str]:
-    """随机重组引擎：决定本页出现哪些组件、以什么顺序出现。
+    """随机重组引擎（含 6 个月权重轮换）：决定本页出现哪些组件、以什么顺序。
 
-    规则：开篇固定首位（阅读体验），FAQ 必出但位置随机，其余可选组件随机取舍与排序。
+    规则：开篇固定首位；FAQ 必出但位置随机；其余可选组件按当前月份选中的
+    weight_preset 做加权取舍与排序，实现周期性结构轮换、降低模板撞车。
     """
     required = list(config.get("generate.required_components", ["intro", "faq"]))
     optional = list(config.get("generate.optional_components", ["pros", "cons", "table", "outro"]))
+    presets = config.get("generate.weight_presets", None)
+    rotation = int(config.get("generate.rotation_months", 0) or 0)
+    weights = None
+    if presets and rotation:
+        idx = ((utils.utc_now().year * 12 + utils.utc_now().month) // rotation) % len(presets)
+        weights = presets[idx % len(presets)]
+
     take = rng.randint(2, len(optional)) if optional else 0
-    chosen = pick_many(rng, optional, take)
+    if weights:
+        chosen = _weighted_sample(rng, optional, weights, take)
+    else:
+        chosen = pick_many(rng, optional, take)
     body_parts = [c for c in required if c != "intro"] + chosen
-    rng.shuffle(body_parts)
+    if weights:
+        # 按权重降序排，同权重随机打散
+        body_parts.sort(key=lambda c: (-float(weights.get(c, 1)), rng.random()))
+    else:
+        rng.shuffle(body_parts)
     order = (["intro"] if "intro" in required else []) + body_parts
     # outro 若入选则强制置尾，保证结构自然
     if "outro" in order:
         order = [c for c in order if c != "outro"] + ["outro"]
     return order
+
+
+def _weighted_sample(rng, items: Sequence[str], weights: Dict[str, float], k: int) -> List[str]:
+    """按权重不放回抽取 k 个（缺省权重 1）。"""
+    pool = [(it, max(0.01, float(weights.get(it, 1)))) for it in items]
+    chosen: List[str] = []
+    while len(chosen) < k and pool:
+        total = sum(w for _, w in pool)
+        r = rng.random() * total
+        acc = 0.0
+        pick = 0
+        for i, (it, w) in enumerate(pool):
+            acc += w
+            if r <= acc:
+                pick = i
+                break
+        chosen.append(pool.pop(pick)[0])
+    return chosen
 
 
 def render_body(env: Environment, order: Sequence[str], ctx: Dict[str, Any],
@@ -196,9 +230,8 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
     chosen_faqs = [f for f in chosen_faqs if f["q"] and f["a"]]
 
     layout = pick(rng, config.get("generate.image_layouts", ["hero", "side", "textonly"]), "textonly")
-    if layout != "textonly" and not item.get("image"):
-        layout = "textonly"     # 无图源时自动降级为极简布局
-    alt_text = utils.clean_text("%s %s" % (utils.title_case(main_kw), item["name"]), 110)
+    # 头图改为本地生成（见 build_page 中 ensure_banner），此处不再依赖外部图源
+    alt_text = utils.clean_text(" ".join(page_keywords[:2]) + " " + item["name"], 110)
 
     link_count = rng.randint(*config.get("generate.internal_links_range", [3, 5]))
     related = link_pool.sample(rng, link_count, "", page_keywords[1:])
@@ -260,13 +293,31 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
     folder.mkdir(parents=True, exist_ok=True)
     path, final_slug = _unique_path(folder, slug)
 
+    # 本地 SVG 头图（摆脱外链热依赖）；生成失败则降级为无图布局
+    image_src = ""
+    if layout != "textonly":
+        try:
+            image_src = banners.ensure_banner(item["name"], lang, final_slug, kwmod.classify(main_kw))
+        except Exception as exc:  # noqa: BLE001
+            LOG.warning("[%s] 头图生成失败，降级无图: %s", lang, exc)
+            layout = "textonly"
+            image_src = ""
+    # 分销/变现外链：enabled+affiliate 时用映射链接，否则占位跳源站（带 utm + nofollow sponsored）
+    mon = config.get("monetization", {}) or {}
+    if mon.get("enabled") and str(mon.get("mode")) == "affiliate" and item.get("affiliate_url"):
+        outbound = item["affiliate_url"]
+    elif str(mon.get("mode")) == "search":
+        outbound = "https://www.google.com/search?q=" + _url_quote(item["name"] + " official")
+    else:
+        outbound = item.get("affiliate_url", "")
+
     page_template = env.get_template("page.md.j2")
     content = page_template.render(
         title=title, description=description, slug=final_slug,
         date=utils.iso_now(), lang=lang, hugo_lang=locale["hugo_lang"],
         keywords=page_keywords, schema_type=schema_type, faqs=chosen_faqs,
-        layout=layout, image=item.get("image", ""), alt=alt_text,
-        related=related, outbound=item.get("affiliate_url", ""),
+        layout=layout, image=image_src, alt=alt_text,
+        related=related, outbound=outbound,
         source_name=item.get("source_id", ""), region=region,
         word_count=verdict["words"], similarity=verdict["similarity"],
         group=kwmod.classify(main_kw), body=body,

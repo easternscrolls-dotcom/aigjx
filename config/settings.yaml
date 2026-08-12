@@ -77,6 +77,13 @@ generate:
   optional_components: ["pros", "cons", "table", "outro"]
   max_pages_per_run: 40
   min_pages_per_day: 3             # 低于此值触发二次全流程重跑
+  # 每 N 个月自动轮换一套组件权重组合，降低全网模板撞车概率（纯配置驱动、零数据）
+  rotation_months: 6
+  weight_presets:
+    - {pros: 3, cons: 2, table: 2, outro: 1}
+    - {pros: 2, cons: 3, table: 1, outro: 2}
+    - {pros: 1, cons: 1, table: 3, outro: 2}
+    - {pros: 3, cons: 1, table: 2, outro: 3}
 
 compliance:
   # 硬性丢弃阈值：正文与原素材相似度 > 25% 才丢弃。
@@ -108,3 +115,17 @@ publish:
   git_user_email: "autoguide-bot@users.noreply.github.com"
   commit_prefix: "chore(auto): "
   branch: "main"
+
+# ============================================================
+# 变现 / 分销链接（占位阶段：enabled=false，CTA 跳源站并带 UTM + nofollow sponsored）
+# 后续拿到联盟 ID 后：把 mode 改为 "affiliate"，并在 data/affiliate/map.csv 填
+# "source_id,affiliate_url" 映射，再将 enabled 改为 true 即可自动挂载。
+# ============================================================
+monetization:
+  enabled: false
+  mode: "source"                   # source=跳源站(带utm) | search=品牌搜索 | affiliate=用 map.csv 映射
+  affiliate_csv: "data/affiliate/map.csv"
+  cta_text:
+    en: "Open official page"
+    es: "Abrir página oficial"
+    id: "Buka halaman resmi"

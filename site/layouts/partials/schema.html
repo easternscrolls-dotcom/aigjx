@@ -42,6 +42,20 @@
         "datePublished" (.Date.Format "2006-01-02")
         "reviewBody" .Description) | jsonify | safeJS }}
   </script>
+{{ else if eq $type "Article" }}
+  {{ $imgURL := "" }}{{ with .Params.image }}{{ with .src }}{{ $imgURL = absURL . }}{{ end }}{{ end }}
+  <script type="application/ld+json">
+    {{ (dict "@context" "https://schema.org" "@type" "Article"
+        "headline" .Title
+        "description" .Description
+        "author" (dict "@type" "Organization" "name" $brand)
+        "publisher" (dict "@type" "Organization" "name" $brand)
+        "datePublished" (.Date.Format "2006-01-02")
+        "dateModified" (.Lastmod.Format "2006-01-02")
+        "inLanguage" .Site.Language.LanguageCode
+        "mainEntityOfPage" .Permalink
+        "image" $imgURL) | jsonify | safeJS }}
+  </script>
 {{ end }}
 
 {{ if .IsPage }}

@@ -2,8 +2,8 @@
 title: "Herramienta de código abierto que mapea los conceptos que un LLM ha..."
 description: "Creé HyperSAE, una herramienta de interpretación de código abierto que extrae lo que un LLM \"sabe\" y lo organiza en mapas conceptuales en forma de árbol..."
 slug: "herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha"
-date: 2026-08-12T10:52:29Z
-lastmod: 2026-08-12T10:52:29Z
+date: 2026-08-12T12:10:55Z
+lastmod: 2026-08-12T12:10:55Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -16,9 +16,9 @@ keywords:
   - "suscripcion de ia barata mensual"
   - "lista de disponibilidad por region"
 image:
-  layout: "textonly"
-  src: ""
-  alt: "Es Seguro Usar Aplicaciones de Ia Gratuitas Herramienta de código abierto que mapea los conceptos que un LLM..."
+  layout: "side"
+  src: "/banners/es/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha.svg"
+  alt: "es seguro usar aplicaciones de ia gratuitas herramienta de ia vs editor humano Herramienta de código abierto..."
 faq:
   - question: "¿Qué revisar antes de registrarme?"
     answer: "Para Herramienta de código abierto que mapea los conceptos que un LLM ha aprendido en un árbol navegable..., confirma disponibilidad regional, el precio actual en MX$, los métodos de pago aceptados y si el plan gratuito cubre tu caso."
@@ -64,16 +64,6 @@ Usa la lista como checklist, no como asesoría. For readers in México, availabi
 
 *Herramienta de Ia vs Editor Humano · Herramientas de Ia para Estudiantes Con Poco Presupuesto · Suscripcion de Ia Barata Mensual*
 
-## Por qué lo eligen
-
-Las condiciones cambian seguido, tómalo como punto de partida.
-
-- Funciona sin pasos de configuración extra
-- Crear cuenta no requiere una verificación larga
-- La interfaz está disponible en el idioma local
-- La configuración en celular suele tomar pocos minutos
-- La documentación se lee de una sola vez
-
 ## Límites a tener en cuenta
 
 Los datos están agrupados para leerlos en menos de un minuto.
@@ -83,6 +73,16 @@ Los datos están agrupados para leerlos en menos de un minuto.
 - El acceso sin conexión sigue siendo limitado
 
 > La disponibilidad depende de las reglas regionales del proveedor.
+
+## Por qué lo eligen
+
+Las condiciones cambian seguido, tómalo como punto de partida.
+
+- Funciona sin pasos de configuración extra
+- Crear cuenta no requiere una verificación larga
+- La interfaz está disponible en el idioma local
+- La configuración en celular suele tomar pocos minutos
+- La documentación se lee de una sola vez
 
 ## Dudas comunes
 
