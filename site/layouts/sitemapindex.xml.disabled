@@ -1,0 +1,14 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{/*
+  分语种独立 sitemap 索引：/en/sitemap.xml、/es/sitemap.xml、/id/sitemap.xml
+  Hugo v0.146 起 .Sites 已移除，改用官方推荐的 .Site.Homes
+  每个 home 的 .Permalink 形如 https://example.com/en/，直接拼接 sitemap.xml
+*/}}
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- range .Site.Homes }}
+  <sitemap>
+    <loc>{{ .Permalink }}sitemap.xml</loc>
+    <lastmod>{{ now.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
+  </sitemap>
+{{- end }}
+</sitemapindex>
