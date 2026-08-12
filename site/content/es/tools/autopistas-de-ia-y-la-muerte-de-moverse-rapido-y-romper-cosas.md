@@ -2,8 +2,8 @@
 title: "Autopistas de IA y la muerte de \"moverse rápido y romper cosas\"..."
 description: "Datos rápidos de Autopistas de IA y la muerte de \"moverse rápido y romper cosas\": Si te lo perdiste: un enjambre de agentes de IA inéditos supuestamente..."
 slug: "autopistas-de-ia-y-la-muerte-de-moverse-rapido-y-romper-cosas"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -35,12 +35,17 @@ related:
     url: "/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/"
     anchor: "Alternativa Gratuita a Plan de Pago de Ia"
   - title: "¿Qué podría realmente ayudar con el problema de los deepfake..."
-    url: "/es/tools/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/"
+    url: "/es/video/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/"
     anchor: "Apps de Ia para Freelancers"
   - title: "El impuesto de seguridad: por qué los gastos generales de seguridad..."
-    url: "/es/tools/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/"
+    url: "/es/video/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/"
     anchor: "Pagar Herramienta de Ia Con Spei"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Autopistas%20de%20IA%20y%20la%20muerte%20de%20%22moverse%20r%C3%A1pido%20y%20romper%20cosas%22%20official"
+aliases:
+  - "/es/tools/autopistas-de-ia-y-la-muerte-de-moverse-rapido-y-romper-cosas/"
+community:
+  - title: "Autopistas de IA y la muerte de \"moverse rápido y  — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 438
@@ -102,5 +107,5 @@ Guarda esta ficha: los datos se actualizan conforme cambian las fuentes.
 
 ## Sigue explorando
 - [Alternativa Gratuita a Plan de Pago de Ia](/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/)
-- [Apps de Ia para Freelancers](/es/tools/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/)
-- [Pagar Herramienta de Ia Con Spei](/es/tools/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/)
+- [Apps de Ia para Freelancers](/es/video/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/)
+- [Pagar Herramienta de Ia Con Spei](/es/video/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de/)

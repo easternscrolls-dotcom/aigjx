@@ -34,5 +34,16 @@
   {{ end }}
 
   {{ partial "related.html" . }}
+
+  {{ with .Params.community }}
+  <section class="community" aria-label="community">
+    <h2>{{ i18n "community_title" }}</h2>
+    <ul>
+    {{ range . }}
+      <li><a href="{{ .url }}" rel="nofollow noopener" target="_blank">{{ .title }}</a></li>
+    {{ end }}
+    </ul>
+  </section>
+  {{ end }}
 </article>
 {{ end }}

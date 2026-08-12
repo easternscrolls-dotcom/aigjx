@@ -2,8 +2,8 @@
 title: "¿Quiénes son los corredores de tokens?: un vistazo 2026"
 description: "Datos rápidos de ¿Quiénes son los corredores de tokens?: enviado por /u/thisguy123123 [enlace] [comentarios] Incluye notas de puedo usar herramientas de ia..."
 slug: "quienes-son-los-corredores-de-tokens"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:32Z
+lastmod: 2026-08-12T13:44:32Z
 draft: false
 type: "entry"
 schema_type: "ItemList"
@@ -39,18 +39,23 @@ faq:
     answer: "En esta categoría es común un plan gratuito para uso básico y funciones avanzadas en planes de pago. Revisa la sección de precios en la página oficial."
 related:
   - title: "Tabla de clasificación de popularidad de IA de código abierto: un..."
-    url: "/es/tools/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
+    url: "/es/video/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
     anchor: "Generador de Imagenes Ia vs Banco de Fotos"
   - title: "Kavak reemplazó a 15 especialistas en ventas humanas por un agente..."
     url: "/es/tools/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de/"
     anchor: "Herramientas de Ia para Principiantes Paso a Paso"
   - title: "Desafío * ¿Pueden los generadores de video de IA actualizados..."
-    url: "/es/tools/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/"
+    url: "/es/video/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/"
     anchor: "Suscripcion de Ia Barata Mensual"
   - title: "Robo de rastros de razonamiento de API patentadas de LLM en México..."
-    url: "/es/tools/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
+    url: "/es/video/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
     anchor: "Limites Del Plan Gratuito Explicados"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=%C2%BFQui%C3%A9nes%20son%20los%20corredores%20de%20tokens%3F%20official"
+aliases:
+  - "/es/tools/quienes-son-los-corredores-de-tokens/"
+community:
+  - title: "¿Quiénes son los corredores de tokens? — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 594
@@ -137,7 +142,7 @@ En esta categoría es común un plan gratuito para uso básico y funciones avanz
 Si el plan gratuito te alcanza, empieza ahí y sube de plan solo cuando un límite te frene.
 
 ## Lecturas relacionadas
-- [Generador de Imagenes Ia vs Banco de Fotos](/es/tools/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/)
+- [Generador de Imagenes Ia vs Banco de Fotos](/es/video/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/)
 - [Herramientas de Ia para Principiantes Paso a Paso](/es/tools/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de/)
-- [Suscripcion de Ia Barata Mensual](/es/tools/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/)
-- [Limites Del Plan Gratuito Explicados](/es/tools/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/)
+- [Suscripcion de Ia Barata Mensual](/es/video/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/)
+- [Limites Del Plan Gratuito Explicados](/es/video/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/)

@@ -38,6 +38,19 @@ related:
 {% endfor %}
 {% endif %}
 outbound: "{{ outbound }}"
+{% if aliases %}
+aliases:
+{% for a in aliases %}
+  - "{{ a }}"
+{% endfor %}
+{% endif %}
+{% if community %}
+community:
+{% for c in community %}
+  - title: "{{ c.title | yaml }}"
+    url: "{{ c.url }}"
+{% endfor %}
+{% endif %}
 pipeline:
   source: "{{ source_name }}"
   words: {{ word_count }}

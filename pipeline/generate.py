@@ -18,7 +18,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple
-from urllib.parse import quote as _url_quote
+from urllib.parse import quote as _url_quote, urlparse
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
@@ -192,13 +192,25 @@ def _unique_path(folder: Path, slug: str) -> Tuple[Path, str]:
     return folder / ("%s.md" % candidate), candidate
 
 
+def _ensure_section_index(lang: str, vertical: str) -> None:
+    """垂直板块落地页（_index.md）缺失时自动生成，使 /<lang>/<vertical>/ 可被收录。"""
+    idx = config.CONTENT_DIR / lang / vertical / "_index.md"
+    if idx.exists():
+        return
+    label = kwmod.VERTICAL_LABELS.get(vertical, {}).get(lang, kwmod.VERTICAL_LABELS["tools"][lang])
+    desc = utils.yaml_escape("%s — curated free AI tools, updated regularly." % label)
+    idx.write_text(
+        "---\ntitle: %s\ndescription: %s\ntype: \"section\"\n---\n"
+        % (utils.yaml_escape(label), desc), encoding="utf-8")
+    LOG.info("[%s] 生成垂直板块落地页 %s", lang, idx.parent)
+
+
 def build_page(item: Dict[str, Any], lang: str, env: Environment,
                pools: Dict[str, List[str]], snippets: Dict[str, List[str]],
                faqs: List[Dict[str, str]], repl: List[Tuple[re.Pattern, str]],
                link_pool: seo.LinkPool) -> Optional[Dict[str, Any]]:
     """生成单个页面。返回页面元数据；被合规拦截则返回 None。"""
     locale = config.locale_by_code(lang)
-    section = config.topic_section()
     # 确定性随机：同一素材重跑结构稳定，不同素材结构各异
     rng = utils.seeded_random("%s|%s|%s" % (item["id"], lang, config.current_topic()))
 
@@ -207,6 +219,8 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
     if not page_keywords:
         page_keywords = [utils.slugify(item["name"]).replace("-", " ")]
     main_kw = page_keywords[0]
+    # 题材垂直分类 → 站内垂直板块路由（/en/art/ 等），与关键词“类型”分类无关
+    vertical = kwmod.classify_vertical(item["name"], page_keywords)
 
     region = locale.get("region", "")
     payments = ", ".join(locale.get("payment_channels", []) or [])
@@ -289,8 +303,9 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
     slug = seo.build_slug(rng, item["name"], main_kw, region)
     schema_type = seo.decide_schema(rng, bool(chosen_faqs), "table" in order)
 
-    folder = config.CONTENT_DIR / lang / section
+    folder = config.CONTENT_DIR / lang / vertical
     folder.mkdir(parents=True, exist_ok=True)
+    _ensure_section_index(lang, vertical)
     path, final_slug = _unique_path(folder, slug)
 
     # 本地 SVG 头图（摆脱外链热依赖）；生成失败则降级为无图布局
@@ -302,32 +317,52 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
             LOG.warning("[%s] 头图生成失败，降级无图: %s", lang, exc)
             layout = "textonly"
             image_src = ""
-    # 分销/变现外链：enabled+affiliate 时用映射链接，否则占位跳源站（带 utm + nofollow sponsored）
+    # 分发/变现外链 + 社区讨论外链分区（合规策略：Reddit/HN 不抢占顶部核心位）
     mon = config.get("monetization", {}) or {}
-    if mon.get("enabled") and str(mon.get("mode")) == "affiliate" and item.get("affiliate_url"):
-        outbound = item["affiliate_url"]
-    elif str(mon.get("mode")) == "search":
-        outbound = "https://www.google.com/search?q=" + _url_quote(item["name"] + " official")
+    affiliate_mode = bool(mon.get("enabled")) and str(mon.get("mode")) == "affiliate"
+    src_link = item.get("affiliate_url", "")
+    origin_host = (urlparse(item.get("origin_url", "") or src_link).netloc or "").lower()
+    is_reddit = "reddit.com" in origin_host or origin_host.endswith("redd.it")
+    is_hn = "ycombinator" in origin_host
+    is_community = is_reddit or is_hn
+    community = []
+    if is_community:
+        # 社区帖统一沉到页面底部「Community & References」专区，顶部不挂 reddit 外链
+        label = ("%s — Reddit" if is_reddit else "%s — Hacker News") % item["name"][:50]
+        community.append({"title": label, "url": src_link})
+        if affiliate_mode and src_link:
+            outbound = src_link
+        else:
+            outbound = "https://www.google.com/search?q=" + _url_quote(item["name"] + " official")
     else:
-        outbound = item.get("affiliate_url", "")
+        # 普通资讯源：顶部直达源站（带 utm + nofollow sponsored），底部不再重复
+        if affiliate_mode and src_link:
+            outbound = src_link
+        elif str(mon.get("mode")) == "search":
+            outbound = "https://www.google.com/search?q=" + _url_quote(item["name"] + " official")
+        else:
+            outbound = src_link
 
     page_template = env.get_template("page.md.j2")
+    # 旧 /<lang>/tools/<slug>/ 路径别名（301 重定向），垂直路由迁移期防 404
+    # 垂直恰好为 tools 时不写别名（否则自指向）
+    aliases = ["/%s/tools/%s/" % (lang, final_slug)] if vertical != "tools" else []
     content = page_template.render(
         title=title, description=description, slug=final_slug,
         date=utils.iso_now(), lang=lang, hugo_lang=locale["hugo_lang"],
         keywords=page_keywords, schema_type=schema_type, faqs=chosen_faqs,
         layout=layout, image=image_src, alt=alt_text,
-        related=related, outbound=outbound,
+        related=related, outbound=outbound, community=community, aliases=aliases,
         source_name=item.get("source_id", ""), region=region,
         word_count=verdict["words"], similarity=verdict["similarity"],
         group=kwmod.classify(main_kw), body=body,
     )
     path.write_text(content, encoding="utf-8")
-    link_pool.add(title, final_slug)
-    LOG.info("[%s] 生成 %s（%d 词，组件=%s，布局=%s，Schema=%s）",
-             lang, path.name, verdict["words"], "+".join(order), layout, schema_type)
+    link_pool.add(title, vertical, final_slug)
+    LOG.info("[%s] 生成 %s（%d 词，垂直=%s，组件=%s，布局=%s，Schema=%s）",
+             lang, path.name, verdict["words"], vertical, "+".join(order), layout, schema_type)
 
-    return {"title": title, "url": "/%s/%s/%s/" % (lang, section, final_slug),
+    return {"title": title, "url": "/%s/%s/%s/" % (lang, vertical, final_slug),
             "slug": final_slug, "description": description, "group": kwmod.classify(main_kw),
             "keyword": main_kw, "words": verdict["words"], "path": str(path)}
 

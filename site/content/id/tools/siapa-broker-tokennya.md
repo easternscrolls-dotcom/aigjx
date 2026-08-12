@@ -2,8 +2,8 @@
 title: "Siapa Broker Tokennya?: panduan gratis (2026)"
 description: "dikirimkan oleh /u/thisguy123123 [tautan] [komentar] Poin penting tentang kenapa uji coba ai saya berakhir untuk pembaca di Indonesia."
 slug: "siapa-broker-tokennya"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -36,18 +36,23 @@ faq:
     answer: "Paket berbayar Siapa Broker Tokennya? umumnya bisa dibatalkan dari pengaturan akun. Ketentuan pengembalian dana berbeda-beda; baca dulu sebelum upgrade."
 related:
   - title: "Apakah lebih banyak alasan tentu lebih baik?: panduan gratis (2026)"
-    url: "/id/tools/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
+    url: "/id/video/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
     anchor: "Generator Gambar Ai vs Foto Stok"
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
-    url: "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Alat Ai Untuk Pemula Langkah Demi Langkah"
   - title: "Kemampuan AI apa yang menurut Anda sedang booming sampai Anda..."
     url: "/id/tools/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar/"
     anchor: "Bayar Langganan Ai Pakai Dana"
   - title: "Apakah agen AI menimbulkan lebih banyak masalah atau bagaimana?..."
-    url: "/id/tools/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+    url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
     anchor: "Batas Paket Gratis Dijelaskan"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Siapa%20Broker%20Tokennya%3F%20official"
+aliases:
+  - "/id/tools/siapa-broker-tokennya/"
+community:
+  - title: "Siapa Broker Tokennya? — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 315

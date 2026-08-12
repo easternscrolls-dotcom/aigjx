@@ -1,0 +1,8 @@
+{{- /* 正文 Markdown 外链统一加 rel=nofollow noopener（合规策略：隔绝权重损耗、
+           Reddit/HN/新闻源等出站外链不传递 PageRank）。内部链接（相对路径）保持原样。 */ -}}
+{{- $dest := .Destination -}}
+{{- if or (hasPrefix $dest "http://") (hasPrefix $dest "https://") -}}
+<a href="{{ $dest | safeURL }}" rel="nofollow noopener" target="_blank">{{ .Text | safeHTML }}</a>
+{{- else -}}
+<a href="{{ $dest }}">{{ .Text | safeHTML }}</a>
+{{- end -}}

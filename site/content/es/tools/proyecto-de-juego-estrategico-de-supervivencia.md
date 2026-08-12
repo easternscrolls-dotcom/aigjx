@@ -2,8 +2,8 @@
 title: "Proyecto de juego estratégico de supervivencia..."
 description: "Datos rápidos de Proyecto de juego estratégico de supervivencia.: Creé un juego Whack-a-Mole para acostumbrarme a usar la IA y hoy estoy en el proceso de..."
 slug: "proyecto-de-juego-estrategico-de-supervivencia"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -36,21 +36,26 @@ faq:
     answer: "La disponibilidad sigue las reglas regionales del proveedor y esas reglas cambian con el tiempo. La página oficial indica las ubicaciones vigentes para México."
 related:
   - title: "Los agentes de IA no son personas. Aquí están las matemáticas..."
-    url: "/es/tools/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/"
+    url: "/es/video/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/"
     anchor: "Generador de Imagenes Ia vs Banco de Fotos"
   - title: "Robo de rastros de razonamiento de API patentadas de LLM en México..."
-    url: "/es/tools/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
+    url: "/es/video/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
     anchor: "Apps de Ia para Freelancers"
   - title: "Herramienta de código abierto que mapea los conceptos que un LLM ha..."
-    url: "/es/tools/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha/"
+    url: "/es/video/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha/"
     anchor: "Prueba Gratuita de Ia Sin Tarjeta de Credito"
   - title: "Meta AI ahora puede conectarse al correo electrónico y a los..."
-    url: "/es/tools/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/"
+    url: "/es/video/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/"
     anchor: "Guia Rapida de Configuracion Inicial"
   - title: "¿Confiarías en un asistente de IA que conozca toda tu vida?: un..."
     url: "/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/"
     anchor: "Herramientas de Ia para Principiantes Paso a Paso"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlfnz3/strategic_survival_game_project/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Proyecto%20de%20juego%20estrat%C3%A9gico%20de%20supervivencia.%20official"
+aliases:
+  - "/es/tools/proyecto-de-juego-estrategico-de-supervivencia/"
+community:
+  - title: "Proyecto de juego estratégico de supervivencia. — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlfnz3/strategic_survival_game_project/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 434
@@ -106,8 +111,8 @@ La disponibilidad sigue las reglas regionales del proveedor y esas reglas cambia
 Si el plan gratuito te alcanza, empieza ahí y sube de plan solo cuando un límite te frene.
 
 ## Lecturas relacionadas
-- [Generador de Imagenes Ia vs Banco de Fotos](/es/tools/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/)
-- [Apps de Ia para Freelancers](/es/tools/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/)
-- [Prueba Gratuita de Ia Sin Tarjeta de Credito](/es/tools/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha/)
-- [Guia Rapida de Configuracion Inicial](/es/tools/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/)
+- [Generador de Imagenes Ia vs Banco de Fotos](/es/video/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/)
+- [Apps de Ia para Freelancers](/es/video/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/)
+- [Prueba Gratuita de Ia Sin Tarjeta de Credito](/es/video/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha/)
+- [Guia Rapida de Configuracion Inicial](/es/video/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/)
 - [Herramientas de Ia para Principiantes Paso a Paso](/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/)

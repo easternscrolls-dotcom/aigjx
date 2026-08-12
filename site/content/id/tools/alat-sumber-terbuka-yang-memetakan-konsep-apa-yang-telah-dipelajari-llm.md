@@ -2,8 +2,8 @@
 title: "Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari..."
 description: "Fakta singkat Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari LLM ke dalam pohon yang dapat dijelajahi...: Saya membuat HyperSAE..."
 slug: "alat-sumber-terbuka-yang-memetakan-konsep-apa-yang-telah-dipelajari-llm"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -39,18 +39,23 @@ faq:
     answer: "Paket gratis Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari LLM ke dalam pohon yang dapat dijelajahi... biasanya tidak memerlukannya, sedangkan upgrade berbayar iya. Konfirmasi di layar pembayaran sebelum mengisi data."
 related:
   - title: "Apakah agen AI menimbulkan lebih banyak masalah atau bagaimana?..."
-    url: "/id/tools/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+    url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
     anchor: "Generator Gambar Ai vs Foto Stok"
   - title: "Arsitektur AI multi-nodal membahas Politik: sekilas 2026"
     url: "/id/tools/arsitektur-ai-multi-nodal-membahas-politik/"
     anchor: "Aplikasi Ai Untuk Pekerja Lepas"
   - title: "Ulasan Claude Code Orchestrator di Terminal-Bench: Model yang..."
-    url: "/id/tools/claude-code-orchestrator-di-terminal-bench-model-yang-sama/"
+    url: "/id/video/claude-code-orchestrator-di-terminal-bench-model-yang-sama/"
     anchor: "Bayar Alat Ai Pakai Gopay"
   - title: "Agen AI Bukanlah Manusia. Inilah Matematikanya.: sekilas 2026"
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Batas Paket Gratis Dijelaskan"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Alat%20sumber%20terbuka%20yang%20memetakan%20konsep%20apa%20yang%20telah%20dipelajari%20LLM%20ke%20dalam%20pohon%20yang%20dapat%20dijelajahi...%20official"
+aliases:
+  - "/id/tools/alat-sumber-terbuka-yang-memetakan-konsep-apa-yang-telah-dipelajari-llm/"
+community:
+  - title: "Alat sumber terbuka yang memetakan konsep apa yang — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 537
@@ -123,7 +128,7 @@ Paket gratis Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari
 Bandingkan dua atau tiga pilihan sebelum memutuskan, dan cek ketentuan terbaru di halaman resmi.
 
 ## Bacaan terkait
-- [Generator Gambar Ai vs Foto Stok](/id/tools/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/)
+- [Generator Gambar Ai vs Foto Stok](/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/)
 - [Aplikasi Ai Untuk Pekerja Lepas](/id/tools/arsitektur-ai-multi-nodal-membahas-politik/)
-- [Bayar Alat Ai Pakai Gopay](/id/tools/claude-code-orchestrator-di-terminal-bench-model-yang-sama/)
+- [Bayar Alat Ai Pakai Gopay](/id/video/claude-code-orchestrator-di-terminal-bench-model-yang-sama/)
 - [Batas Paket Gratis Dijelaskan](/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/)

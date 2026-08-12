@@ -150,29 +150,36 @@ class LinkPool:
         self._scan()
 
     def _scan(self) -> None:
-        folder = config.CONTENT_DIR / self.lang / self.section
-        if not folder.exists():
+        # 扫描该语种下所有垂直板块子目录（排除聚合 hub 与语言根），
+        # 保证内链 URL 指向真实路径，垂直路由后不出现 404。
+        lang_dir = config.CONTENT_DIR / self.lang
+        if not lang_dir.exists():
             return
-        for path in folder.glob("*.md"):
-            title = ""
-            try:
-                with path.open("r", encoding="utf-8") as fh:
-                    for line in fh:
-                        if line.startswith("title:"):
-                            title = line.split(":", 1)[1].strip().strip('"')
-                            break
-            except OSError:
+        for sub in lang_dir.iterdir():
+            if not sub.is_dir() or sub.name in ("hub",):
                 continue
-            if title:
-                self.entries.append({
-                    "title": title,
-                    "url": "/%s/%s/%s/" % (self.lang, self.section, path.stem),
-                })
+            for path in sub.glob("*.md"):
+                if path.name == "_index.md":
+                    continue
+                title = ""
+                try:
+                    with path.open("r", encoding="utf-8") as fh:
+                        for line in fh:
+                            if line.startswith("title:"):
+                                title = line.split(":", 1)[1].strip().strip('"')
+                                break
+                except OSError:
+                    continue
+                if title:
+                    self.entries.append({
+                        "title": title,
+                        "url": "/%s/%s/%s/" % (self.lang, sub.name, path.stem),
+                    })
         LOG.info("[%s] 内链池载入 %d 条已有页面", self.lang, len(self.entries))
 
-    def add(self, title: str, slug: str) -> None:
+    def add(self, title: str, vertical: str, slug: str) -> None:
         self.entries.append({"title": title,
-                             "url": "/%s/%s/%s/" % (self.lang, self.section, slug)})
+                             "url": "/%s/%s/%s/" % (self.lang, vertical, slug)})
 
     def sample(self, rng: random.Random, count: int, exclude_slug: str,
                anchors: Sequence[str]) -> List[Dict[str, str]]:

@@ -2,8 +2,8 @@
 title: "Kemampuan AI apa yang menurut Anda sedang booming sampai Anda..."
 description: "Kemampuan AI apa yang menurut Anda sedang booming sampai Anda benar-benar menggunakannya? Saya duluan: orkestrasi agen..."
 slug: "kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "ItemList"
@@ -42,9 +42,14 @@ related:
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Alat Ai Untuk Pelajar Hemat Biaya"
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
-    url: "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Langganan Ai Murah Bulanan"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlfpxs/whats_an_ai_capability_you_thought_was_hype_until/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Kemampuan%20AI%20apa%20yang%20menurut%20Anda%20sedang%20booming%20sampai%20Anda%20benar-benar%20menggunakannya%3F%20official"
+aliases:
+  - "/id/tools/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar/"
+community:
+  - title: "Kemampuan AI apa yang menurut Anda sedang booming  — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlfpxs/whats_an_ai_capability_you_thought_was_hype_until/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 467

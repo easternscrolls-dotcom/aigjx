@@ -16,6 +16,9 @@ other = "Actualizado"
 [visit_official]
 other = "Abrir página oficial"
 
+[community_title]
+other = "Comunidad y referencias"
+
 [browse_all]
 other = "Ver todas las fichas"
 

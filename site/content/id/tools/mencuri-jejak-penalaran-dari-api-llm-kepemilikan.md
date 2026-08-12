@@ -2,8 +2,8 @@
 title: "Ulasan Mencuri Jejak Penalaran dari API LLM Kepemilikan untuk..."
 description: "Fakta singkat Mencuri Jejak Penalaran dari API LLM Kepemilikan: Penalaran kepemilikan dapat dipulihkan dari jejak terenkripsinya..."
 slug: "mencuri-jejak-penalaran-dari-api-llm-kepemilikan"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "ItemList"
@@ -38,21 +38,26 @@ faq:
     answer: "Ketersediaan mengikuti aturan regional penyedia dan aturan itu bisa berubah. Halaman resmi mencantumkan lokasi yang didukung untuk Indonesia."
 related:
   - title: "Ulasan Claude Code Orchestrator di Terminal-Bench: Model yang..."
-    url: "/id/tools/claude-code-orchestrator-di-terminal-bench-model-yang-sama/"
+    url: "/id/video/claude-code-orchestrator-di-terminal-bench-model-yang-sama/"
     anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
   - title: "Apakah agen AI menimbulkan lebih banyak masalah atau bagaimana?..."
-    url: "/id/tools/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+    url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
     anchor: "Alat Ai Untuk Pemula Langkah Demi Langkah"
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
-    url: "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
   - title: "Pemikiran dan hutang kognitif saya yang dialihdayakan membuat saya..."
     url: "/id/tools/pemikiran-dan-hutang-kognitif-saya-yang-dialihdayakan-membuat-saya-cemas/"
     anchor: "Panduan Setup Cepat Untuk Pemula"
   - title: "Meta AI sekarang dapat terhubung ke email dan kalender..."
-    url: "/id/tools/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
+    url: "/id/office/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
     anchor: "Bagaimana Cara Pakai Alat Ai Gratis"
-outbound: "https://www.reddit.com/r/artificial/comments/1vm4i7d/stealing_reasoning_traces_from_proprietary_llm/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Mencuri%20Jejak%20Penalaran%20dari%20API%20LLM%20Kepemilikan%20official"
+aliases:
+  - "/id/tools/mencuri-jejak-penalaran-dari-api-llm-kepemilikan/"
+community:
+  - title: "Mencuri Jejak Penalaran dari API LLM Kepemilikan — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vm4i7d/stealing_reasoning_traces_from_proprietary_llm/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 366

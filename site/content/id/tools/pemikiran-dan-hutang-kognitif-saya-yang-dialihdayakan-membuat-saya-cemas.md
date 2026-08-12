@@ -2,8 +2,8 @@
 title: "Pemikiran dan hutang kognitif saya yang dialihdayakan membuat saya..."
 description: "Saya seorang pengembang. Di perusahaan saya, saya adalah adaptor awal LLM, kebetulan saya menjadi \"orang AI\" di departemen saya..."
 slug: "pemikiran-dan-hutang-kognitif-saya-yang-dialihdayakan-membuat-saya-cemas"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -34,10 +34,10 @@ faq:
     answer: "Checkout lokal untuk Pemikiran dan hutang kognitif saya yang dialihdayakan membuat saya cemas biasanya menerima uji coba gratis, freemium, tanpa kartu kredit, paket gratis. Daftar pastinya tergantung jenis akun dan bisa berbeda antara web dan ponsel."
 related:
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
-    url: "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
   - title: "Papan Peringkat Popularitas AI Sumber Terbuka: fitur..."
-    url: "/id/tools/papan-peringkat-popularitas-ai-sumber-terbuka/"
+    url: "/id/video/papan-peringkat-popularitas-ai-sumber-terbuka/"
     anchor: "Alat Ai Untuk Pelajar Hemat Biaya"
   - title: "Pajak pagar pembatas: mengapa overhead keselamatan AI perusahaan..."
     url: "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
@@ -48,7 +48,12 @@ related:
   - title: "Agen AI Bukanlah Manusia. Inilah Matematikanya.: sekilas 2026"
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Pemikiran%20dan%20hutang%20kognitif%20saya%20yang%20dialihdayakan%20membuat%20saya%20cemas%20official"
+aliases:
+  - "/id/tools/pemikiran-dan-hutang-kognitif-saya-yang-dialihdayakan-membuat-saya-cemas/"
+community:
+  - title: "Pemikiran dan hutang kognitif saya yang dialihdaya — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 362

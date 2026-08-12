@@ -1,0 +1,19 @@
+feat(seo): 站内垂直板块路由 + Reddit 外链合规化（零重构快赢）
+
+一、站内垂直板块（子目录内，非子域名矩阵）
+- keywords.classify_vertical：按素材名+长尾词整词归类到 art/video/voice/office/best/tools，
+  整词匹配避免 art 误中 start/part、整站 free 误中 best；
+- generate 写入 content/<lang>/<vertical>/，自动生成垂直落地页 _index.md；
+- LinkPool 改为扫描语种下所有垂直子目录并存储真实 URL，内链不再 404；
+- 旧 /<lang>/tools/<slug>/ 写入 aliases 做 301 重定向，迁移期防断链。
+
+二、Reddit 外链合规化（路线A 待决策项落地）
+- 新增 layouts/_default/_markup/render-link.html：正文所有外链统一 rel=nofollow noopener；
+- 单页底部新增「Community & References」专区，仅承载 Reddit/HN 源链接（nofollow）；
+- 顶部 CTA 改为官方/Google 搜索兜底，绝不指向 Reddit 线程；
+- collect._is_spam_community：仅对 Reddit/HN 源过滤明显广告/水帖，保留真实测评。
+
+三、i18n：en/es/id 增加 community_title。
+
+验证：hugo --minify --gc 通过，369 HTML；外链图 0、正文外链全 nofollow、
+Reddit 链接沉底且 nofollow、垂直落地页可收录、分语种 sitemap 完整、aliases 重定向生效。

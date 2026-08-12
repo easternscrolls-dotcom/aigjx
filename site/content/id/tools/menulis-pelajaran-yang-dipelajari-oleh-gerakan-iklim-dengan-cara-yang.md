@@ -2,8 +2,8 @@
 title: "Menulis pelajaran yang dipelajari oleh gerakan iklim dengan cara..."
 description: "Fakta singkat Menulis pelajaran yang dipelajari oleh gerakan iklim dengan cara yang sulit...: ​ dikirimkan oleh /u/evertoexcel [tautan] [komentar] Termasuk..."
 slug: "menulis-pelajaran-yang-dipelajari-oleh-gerakan-iklim-dengan-cara-yang"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -37,15 +37,20 @@ faq:
     answer: "Perlakukan seperti layanan pihak ketiga lainnya: baca halaman privasi, jangan pakai ulang kata sandi, dan hindari menaruh berkas sensitif di ruang kerja bersama."
 related:
   - title: "Apakah lebih banyak alasan tentu lebih baik?: panduan gratis (2026)"
-    url: "/id/tools/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
+    url: "/id/video/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
     anchor: "Generator Gambar Ai vs Foto Stok"
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
-    url: "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Alat Ai Untuk Bisnis Kecil"
   - title: "Agen AI Bukanlah Manusia. Inilah Matematikanya.: sekilas 2026"
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Bayar Langganan Ai Pakai Dana"
-outbound: "https://www.reddit.com/r/artificial/comments/1vm5fet/wrote_up_lessons_the_climate_movement_learned_the/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Menulis%20pelajaran%20yang%20dipelajari%20oleh%20gerakan%20iklim%20dengan%20cara%20yang%20sulit...%20official"
+aliases:
+  - "/id/tools/menulis-pelajaran-yang-dipelajari-oleh-gerakan-iklim-dengan-cara-yang/"
+community:
+  - title: "Menulis pelajaran yang dipelajari oleh gerakan ikl — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vm5fet/wrote_up_lessons_the_climate_movement_learned_the/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 367

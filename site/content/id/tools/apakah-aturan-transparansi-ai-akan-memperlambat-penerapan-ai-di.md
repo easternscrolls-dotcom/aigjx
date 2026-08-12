@@ -2,8 +2,8 @@
 title: "Apakah aturan transparansi AI akan memperlambat penerapan AI di..."
 description: "Fakta singkat Apakah aturan transparansi AI akan memperlambat penerapan AI di perusahaan—atau membuatnya lebih aman untuk dikembangkan?: Aturan baru dari UE..."
 slug: "apakah-aturan-transparansi-ai-akan-memperlambat-penerapan-ai-di"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -43,12 +43,17 @@ related:
     url: "/id/tools/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar/"
     anchor: "Generator Gambar Ai vs Foto Stok"
   - title: "Meta AI sekarang dapat terhubung ke email dan kalender..."
-    url: "/id/tools/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
+    url: "/id/office/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
     anchor: "Aplikasi Ai Untuk Pekerja Lepas"
   - title: "Pajak pagar pembatas: mengapa overhead keselamatan AI perusahaan..."
     url: "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
     anchor: "Langganan Ai Murah Bulanan"
-outbound: "https://www.reddit.com/r/artificial/comments/1vm66ca/are_ai_transparency_rules_going_to_slow/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Apakah%20aturan%20transparansi%20AI%20akan%20memperlambat%20penerapan%20AI%20di%20perusahaan%E2%80%94atau%20membuatnya%20lebih%20aman%20untuk%20dikembangkan%3F%20official"
+aliases:
+  - "/id/tools/apakah-aturan-transparansi-ai-akan-memperlambat-penerapan-ai-di/"
+community:
+  - title: "Apakah aturan transparansi AI akan memperlambat pe — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vm66ca/are_ai_transparency_rules_going_to_slow/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 536
@@ -124,5 +129,5 @@ Simpan entri ini — data diperbarui mengikuti sumbernya.
 
 ## Lainnya di seri ini
 - [Generator Gambar Ai vs Foto Stok](/id/tools/kemampuan-ai-apa-yang-menurut-Anda-sedang-booming-sampai-Anda-benar/)
-- [Aplikasi Ai Untuk Pekerja Lepas](/id/tools/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/)
+- [Aplikasi Ai Untuk Pekerja Lepas](/id/office/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/)
 - [Langganan Ai Murah Bulanan](/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/)

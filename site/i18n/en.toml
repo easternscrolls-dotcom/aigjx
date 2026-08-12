@@ -17,6 +17,9 @@ other = "Updated"
 [visit_official]
 other = "Open official page"
 
+[community_title]
+other = "Community & References"
+
 [browse_all]
 other = "Browse all entries"
 

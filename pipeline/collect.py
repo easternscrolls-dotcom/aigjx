@@ -18,8 +18,10 @@ from __future__ import annotations
 
 import argparse
 import random
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import urlparse
 
 import feedparser
 import requests
@@ -115,6 +117,24 @@ def _fetch_with_fallback(source: Dict[str, Any]) -> Optional[List[Dict[str, Any]
 
 
 # ---------------------------------------------------------------- 素材整理
+# Reddit / Hacker News 轻量过滤：仅对社区源，命中明显广告/水帖特征则丢弃，
+# 保留真实工具测评与用户问答帖（不彻底屏蔽 Reddit 数据源，符合合规策略）。
+_SPAM_REDDIT = re.compile(
+    r"(?i)\b(discount|coupon|promo code|buy now|free money|earn \$|earn cash|"
+    r"earn money|sign[- ]?up bonus|referral|airdrop|crypto|giveaway|dm me|"
+    r"link in bio|limited time|act now|join my|my course|make money|get paid|"
+    r"affiliate|sponsor|casino|\bbet\b|payday loan|onlyfans)\b"
+)
+
+
+def _is_spam_community(name: str, summary: str, link: str) -> bool:
+    host = (urlparse(link).netloc or "").lower()
+    if not ("reddit.com" in host or host.endswith("redd.it") or "ycombinator" in host):
+        return False
+    text = "%s %s" % (name or "", summary or "")
+    return bool(_SPAM_REDDIT.search(text))
+
+
 def _entry_link(entry: Dict[str, Any]) -> str:
     link = entry.get("link") or ""
     if not link:
@@ -157,6 +177,10 @@ def _normalize(entry: Dict[str, Any], source: Dict[str, Any]) -> Optional[Dict[s
     name = utils.clean_text(utils.strip_source_cruft(entry.get("title", "")), title_max)
     summary = utils.clean_text(utils.strip_source_cruft(_entry_summary(entry)), summary_max)
     link = _entry_link(entry)
+
+    if _is_spam_community(name, summary, link):
+        LOG.info("丢弃：Reddit/HN 疑似广告或水帖 -> %s", name[:40])
+        return None
 
     if not name or not summary or not link:
         LOG.info("丢弃：字段缺失（name=%s summary=%s link=%s）",

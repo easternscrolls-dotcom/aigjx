@@ -20,6 +20,7 @@
 
 from __future__ import annotations
 
+import re
 import string
 from typing import Any, Dict, List, Sequence
 
@@ -57,6 +58,68 @@ def classify(keyword: str) -> str:
     if any(w in low for w in _AUDIENCE_WORDS):
         return "audience"
     return "general"
+
+
+# 题材垂直分类（用于站内垂直板块路由：/en/art/ /en/video/ ...）。
+# 与上面的关键词“类型”分类（question/comparison...）是两个维度，互不干扰。
+# 注意：必须用整词匹配（re 分词），否则 "art" 会误中 start/part、整站又都含 free，
+# 导致几乎全部页面被误分到 art / best。
+_VERTICAL_TOKENS = {
+    "best":   {"best", "top", "list", "lists", "alternative", "alternatives",
+               "ranking", "popular", "most"},
+    "art":    {"image", "images", "img", "art", "draw", "drawing", "paint", "painter",
+               "illustration", "illustrate", "design", "logo", "photo", "photoreal",
+               "anime", "comic", "portrait", "artwork", "sketch", "tattoo", "render",
+               "painting"},
+    "video":  {"video", "videos", "clip", "reel", "reels", "animation", "animated",
+               "film", "movie", "editing", "editor", "subtitle", "caption", "deepfake",
+               "motion", "footage"},
+    "voice":  {"voice", "tts", "speech", "speak", "speaker", "dub", "dubbing", "narrative",
+               "narrator", "podcast", "accent", "singer", "song", "audio", "sound",
+               "voiceover"},
+    "office": {"pdf", "doc", "docs", "word", "excel", "sheet", "spreadsheet", "slide",
+               "slides", "presentation", "office", "note", "notes", "summary",
+               "summaries", "transcribe", "transcription", "ocr", "writing", "essay",
+               "grammar", "resume", "email", "document", "documents"},
+}
+_VERTICAL_PHRASES = {
+    "video": ("face swap",),
+    "voice": ("text to speech", "text-to-speech", "voice over", "voice-over"),
+    "office": ("ai writing",),
+}
+
+
+def classify_vertical(name: str, keywords: Sequence[str] = None) -> str:
+    """按素材名 + 主长尾词归类到垂直赛道；无法识别则归入通用 tools。
+
+    用整词集合匹配（非子串），避免 art/best 等短词误中无关词。
+    """
+    blob = " %s %s " % ((name or "").lower(), " ".join(keywords or []).lower())
+    tokens = set(re.findall(r"[a-z0-9]+", blob))
+    for vertical in ("best", "art", "video", "voice", "office"):
+        if _VERTICAL_TOKENS[vertical] & tokens:
+            return vertical
+        for phrase in _VERTICAL_PHRASES.get(vertical, ()):
+            if phrase in blob:
+                return vertical
+    return "tools"
+
+
+# 各垂直板块的多语种落地页标题（用于自动生成的 _index.md）。
+VERTICAL_LABELS = {
+    "art":    {"en": "AI Art & Image Tools", "es": "Herramientas de arte e imágenes con IA",
+               "id": "Alat Gambar & Seni AI"},
+    "video":  {"en": "AI Video Tools", "es": "Herramientas de vídeo con IA",
+               "id": "Alat Video AI"},
+    "voice":  {"en": "AI Voice & TTS Tools", "es": "Herramientas de voz con IA",
+               "id": "Alat Suara & TTS AI"},
+    "office": {"en": "AI Office & PDF Tools", "es": "Herramientas de oficina y PDF con IA",
+               "id": "Alat Kantor & PDF AI"},
+    "best":   {"en": "Best Free AI Tools", "es": "Mejores herramientas IA gratis",
+               "id": "Alat AI Gratis Terbaik"},
+    "tools":  {"en": "AI Tools", "es": "Herramientas de IA", "id": "Alat AI"},
+}
+
 
 
 # ---------------------------------------------------------------- 免费数据源

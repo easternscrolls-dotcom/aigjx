@@ -2,8 +2,8 @@
 title: "Agen AI Bukanlah Manusia. Inilah Matematikanya.: sekilas 2026"
 description: "Fakta singkat Agen AI Bukanlah Manusia. Inilah Matematikanya.: dikirimkan oleh /u/Independent-Key-1621 [tautan] [komentar] Termasuk catatan bagaimana cara..."
 slug: "agen-ai-bukanlah-manusia-inilah-matematikanya"
-date: 2026-08-12T12:10:55Z
-lastmod: 2026-08-12T12:10:55Z
+date: 2026-08-12T13:44:33Z
+lastmod: 2026-08-12T13:44:33Z
 draft: false
 type: "entry"
 schema_type: "FAQPage"
@@ -32,9 +32,14 @@ faq:
     answer: "Entri Agen AI Bukanlah Manusia. Inilah Matematikanya. diperbarui saat sumbernya merilis perubahan, jadi cek ulang halaman resmi untuk hal yang sensitif waktu."
 related:
   - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
-    url: "/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Generator Gambar Ai vs Foto Stok"
-outbound: "https://www.reddit.com/r/artificial/comments/1vlud9g/ai_agents_are_not_people_heres_the_math/?utm_source=autoguide&utm_medium=referral"
+outbound: "https://www.google.com/search?q=Agen%20AI%20Bukanlah%20Manusia.%20Inilah%20Matematikanya.%20official"
+aliases:
+  - "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
+community:
+  - title: "Agen AI Bukanlah Manusia. Inilah Matematikanya. — Reddit"
+    url: "https://www.reddit.com/r/artificial/comments/1vlud9g/ai_agents_are_not_people_heres_the_math/?utm_source=autoguide&utm_medium=referral"
 pipeline:
   source: "reddit_ai"
   words: 323
@@ -94,4 +99,4 @@ Entri Agen AI Bukanlah Manusia. Inilah Matematikanya. diperbarui saat sumbernya 
 Simpan entri ini — data diperbarui mengikuti sumbernya.
 
 ## Lainnya di seri ini
-- [Generator Gambar Ai vs Foto Stok](/id/tools/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/)
+- [Generator Gambar Ai vs Foto Stok](/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/)
