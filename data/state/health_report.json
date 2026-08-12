@@ -1,5 +1,5 @@
 {
-  "at": "2026-08-12T12:19:00Z",
+  "at": "2026-08-12T13:59:08Z",
   "topic": "ai_tools",
   "csv": {
     "longtail.csv": "ok(58 rows)",
@@ -14,8 +14,8 @@
     "sitemapindex.xml": "missing"
   },
   "content_counts": {
-    "en": 26,
-    "es": 26,
-    "id": 26
+    "en": 0,
+    "es": 11,
+    "id": 12
   }
 }
