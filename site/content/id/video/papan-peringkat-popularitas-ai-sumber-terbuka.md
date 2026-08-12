@@ -19,7 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/papan-peringkat-popularitas-ai-sumber-terbuka.svg"
-  alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok Papan Peringkat Popularitas AI Sumber..."
+  alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat video ai gratis Papan Peringkat Popularitas AI Sumber..."
 faq:
   - question: "Apakah Papan Peringkat Popularitas AI Sumber Terbuka punya opsi gratis?"
     answer: "Di kategori ini paket gratis untuk pemakaian dasar cukup umum, sementara fitur lanjutan ada di paket berbayar. Cek bagian harga di halaman resmi."
@@ -48,6 +48,8 @@ related:
     url: "/id/video/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
     anchor: "Alat Tulis Ai vs Editor Manusia"
 outbound: "https://www.google.com/search?q=Papan%20Peringkat%20Popularitas%20AI%20Sumber%20Terbuka%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/papan-peringkat-popularitas-ai-sumber-terbuka/"
 community:
@@ -58,8 +60,23 @@ pipeline:
   words: 427
   similarity: 0.0286
   lang: "id-ID"
+similar:
+  - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    anchor: "Generator Gambar Ai vs Foto Stok"
+  - title: "10 ide otomatisasi AI yang dapat Anda buat hari ini tanpa kode: 3..."
+    url: "/id/video/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide/"
+    anchor: "Alat Ai Untuk Pemula Langkah Demi Langkah"
+  - title: "Ai mana yang terbaik untuk merencanakan sesuatu?: sekilas 2026"
+    url: "/id/video/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Apakah saya terjebak dalam membayar lima langganan atau apakah ada..."
+    url: "/id/video/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu/"
+    anchor: "Daftar Ketersediaan Per Wilayah"
+  - title: "Apakah agen AI menimbulkan lebih banyak masalah atau bagaimana?..."
+    url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+    anchor: "Alat Tulis Ai vs Editor Manusia"
 ---
-
 ## Apa yang dibahas di sini
 
 Papan Peringkat Popularitas AI Sumber Terbuka

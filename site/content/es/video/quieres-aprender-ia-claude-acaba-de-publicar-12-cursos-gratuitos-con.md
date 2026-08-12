@@ -19,7 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/quieres-aprender-ia-claude-acaba-de-publicar-12-cursos-gratuitos-con.svg"
-  alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano ¿Quieres aprender IA..."
+  alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis ¿Quieres aprender IA..."
 faq:
   - question: "¿Cuáles son las alternativas principales?"
     answer: "Suele haber varias opciones comparables a ¿Quieres aprender IA? Claude acaba de publicar 12 cursos gratuitos con certificado.... Compara precios en MX$, soporte de idioma y disponibilidad regional antes de decidir."
@@ -52,6 +52,8 @@ related:
     url: "/es/video/los-agentes-de-ia-no-son-personas-aqui-estan-las-matematicas/"
     anchor: "Herramientas de Ia para Negocios Pequenos"
 outbound: "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZDFyZTJDb0ZndnR2b3ljSmZtYU5CeDhsMzdnQnBVdW56WDlPUlJOVVRkZUhiZ3FSTXZnaEF0ZlA0dWNUejJzRExTU0x5WFp3RkNrUEJVUF9Sei1mWGc0Ql8yaU45WU9NNDU3X0d5TjlIdFBkZXRfUnRzRzVFeU5uMWptUGdOb2dGeDNQT2FKUzRKZk1FbUJtVVFfM3JQUVBOS3NmVWJIQnpWSWZSdHZVcE9UTC0?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/quieres-aprender-ia-claude-acaba-de-publicar-12-cursos-gratuitos-con/"
 pipeline:
@@ -59,8 +61,23 @@ pipeline:
   words: 605
   similarity: 0.0519
   lang: "es-MX"
+similar:
+  - title: "Desafío * ¿Pueden los generadores de video de IA actualizados..."
+    url: "/es/video/desafio-pueden-los-generadores-de-video-de-ia-actualizados-seguir/"
+    anchor: "Herramienta de Ia vs Editor Humano"
+  - title: "Subcontratar mi pensamiento y mi deuda cognitiva me da ansiedad..."
+    url: "/es/video/subcontratar-mi-pensamiento-y-mi-deuda-cognitiva-me-da-ansiedad/"
+    anchor: "Apps de Ia para Freelancers"
+  - title: "¿Qué IA es mejor para planificar cosas? en México: resumen"
+    url: "/es/video/que-ia-es-mejor-para-planificar-cosas/"
+    anchor: "Pagar Herramienta de Ia Con Spei"
+  - title: "Claude Code Orchestrator en Terminal-Bench: Mismo modelo...: guía..."
+    url: "/es/video/claude-code-orchestrator-en-terminal-bench-mismo-modelo/"
+    anchor: "Limites Del Plan Gratuito Explicados"
+  - title: "U. de Chile abre curso gratuito para integrar la IA en la enseñanza..."
+    url: "/es/video/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza/"
+    anchor: "Herramientas de Ia para Negocios Pequenos"
 ---
-
 ## La versión corta
 
 ¿Quieres aprender IA? Claude acaba de publicar 12 cursos gratuitos con certificado...

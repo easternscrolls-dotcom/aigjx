@@ -22,7 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/proyek-permainan-bertahan-hidup-yang-strategis.svg"
-  alt: "bisakah pakai alat ai tanpa kartu kredit alat tulis ai vs editor manusia Proyek permainan bertahan hidup yang..."
+  alt: "bisakah pakai alat ai tanpa kartu kredit alat tulis ai vs editor manusia alat video ai gratis Proyek permainan bertahan hidup..."
 faq:
   - question: "Apakah antarmukanya berbahasa Indonesia?"
     answer: "Untuk Proyek permainan bertahan hidup yang strategis, bahasa lokal cukup umum tetapi tidak selalu ada, dan sebagian menu bisa tetap berbahasa Inggris. Halaman resmi biasanya mencantumkan daftar bahasa."
@@ -52,6 +52,8 @@ related:
     url: "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://www.google.com/search?q=Proyek%20permainan%20bertahan%20hidup%20yang%20strategis%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/proyek-permainan-bertahan-hidup-yang-strategis/"
 community:
@@ -62,8 +64,23 @@ pipeline:
   words: 449
   similarity: 0.0926
   lang: "id-ID"
+similar:
+  - title: "Apa yang sebenarnya bisa membantu mengatasi masalah deepfake?..."
+    url: "/id/video/apa-yang-sebenarnya-bisa-membantu-mengatasi-masalah-deepfake/"
+    anchor: "Alat Tulis Ai vs Editor Manusia"
+  - title: "Papan Peringkat Popularitas AI Sumber Terbuka: fitur..."
+    url: "/id/video/papan-peringkat-popularitas-ai-sumber-terbuka/"
+    anchor: "Alat Ai Untuk Bisnis Kecil"
+  - title: "Apakah Anda memercayai asisten AI yang mengetahui seluruh hidup..."
+    url: "/id/video/apakah-anda-memercayai-asisten-ai-yang-mengetahui-seluruh-hidup-anda/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Ulasan NVIDIA sedang membangun keluarga Nemotron 4 generasi..."
+    url: "/id/video/nvidia-sedang-membangun-keluarga-nemotron-4-generasi-berikutnya-untuk/"
+    anchor: "Batas Paket Gratis Dijelaskan"
+  - title: "Apakah saya terjebak dalam membayar lima langganan atau apakah ada..."
+    url: "/id/video/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu/"
+    anchor: "Bayar Langganan Ai Pakai Dana"
 ---
-
 ## Ringkasan singkat
 
 Proyek permainan bertahan hidup yang strategis

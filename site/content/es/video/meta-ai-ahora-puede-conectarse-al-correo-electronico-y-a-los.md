@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los.svg"
-  alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano Meta AI ahora puede conectarse al..."
+  alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis Meta AI ahora puede..."
 faq:
   - question: "¿Necesito tarjeta para empezar?"
     answer: "El plan gratuito de Meta AI ahora puede conectarse al correo electrónico y a los calendarios, crear diapositivas y ejecutar tareas recurrentes normalmente no la pide; las mejoras de pago sí. Confirma el requisito en la pantalla de pago antes de ingresar datos."
@@ -48,6 +48,8 @@ related:
     url: "/es/video/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://www.google.com/search?q=Meta%20AI%20ahora%20puede%20conectarse%20al%20correo%20electr%C3%B3nico%20y%20a%20los%20calendarios%2C%20crear%20diapositivas%20y%20ejecutar%20tareas%20recurrentes%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los/"
 community:
@@ -58,8 +60,23 @@ pipeline:
   words: 649
   similarity: 0.0832
   lang: "es-MX"
+similar:
+  - title: "Tabla de clasificación de popularidad de IA de código abierto: un..."
+    url: "/es/video/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
+    anchor: "Herramienta de Ia vs Editor Humano"
+  - title: "U. de Chile abre curso gratuito para integrar la IA en la enseñanza..."
+    url: "/es/video/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza/"
+    anchor: "Apps de Ia para Freelancers"
+  - title: "¿Cuál es una capacidad de IA que pensabas que era exagerada hasta..."
+    url: "/es/video/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que/"
+    anchor: "Prueba Gratuita de Ia Sin Tarjeta de Credito"
+  - title: "La nueva herramienta gratis de Gemini que ya puedes usar: ventajas..."
+    url: "/es/video/la-nueva-herramienta-gratis-de-gemini-que-ya-puedes-usar-ventajas-y/"
+    anchor: "Guia Rapida de Configuracion Inicial"
+  - title: "El desglose: OpenAI: funciones, precios y alternativas"
+    url: "/es/video/el-desglose-openai/"
+    anchor: "Herramienta de Ia vs Editor Humano"
 ---
-
 ## Qué cubre esta ficha
 
 Meta AI ahora puede conectarse al correo electrónico y a los calendarios, crear diapositivas y ejecutar tareas recurrentes

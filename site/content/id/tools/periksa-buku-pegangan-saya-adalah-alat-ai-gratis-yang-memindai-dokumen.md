@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "textonly"
   src: ""
-  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai Periksa Buku Pegangan Saya Adalah..."
+  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat ai gratis Periksa Buku Pegangan Saya Adalah Alat..."
 faq:
   - question: "Apakah antarmukanya berbahasa Indonesia?"
     answer: "Untuk Periksa Buku Pegangan Saya Adalah Alat AI Gratis yang Memindai Dokumen untuk Aturan Koersif - NLRB Edge, bahasa lokal cukup umum tetapi tidak selalu ada, dan sebagian menu bisa tetap berbahasa Inggris. Halaman resmi biasanya mencantumkan daftar bahasa."
@@ -50,13 +50,30 @@ related:
     url: "/id/video/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
     anchor: "Batas Paket Gratis Dijelaskan"
 outbound: "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tSXZSa0NrMS1qU0FrOXlDYkpBN0luMHJzRHZ2Rm92UnRPVkhtcVBEMm1DUW9yY1ZBX0ZJRUMtNkdjcGY1OVEzUVF5Tk45RFhWZGZBR2c0T3kwMk0zemFtMjcyQ0t3a1JjcC1rT1JjTQ?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 pipeline:
   source: "gn_free_ai"
   words: 484
   similarity: 0.0491
   lang: "id-ID"
+similar:
+  - title: "Kemampuan AI apa yang menurut Anda sedang booming sampai Anda..."
+    url: "/id/tools/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar/"
+    anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
+  - title: "Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari..."
+    url: "/id/tools/alat-sumber-terbuka-yang-memetakan-konsep-apa-yang-telah-dipelajari-llm/"
+    anchor: "Aplikasi Ai Untuk Pekerja Lepas"
+  - title: "Ulasan Mencuri Jejak Penalaran dari API LLM Kepemilikan untuk..."
+    url: "/id/tools/mencuri-jejak-penalaran-dari-api-llm-kepemilikan/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Arsitektur AI multi-nodal membahas Politik: sekilas 2026"
+    url: "/id/tools/arsitektur-ai-multi-nodal-membahas-politik/"
+    anchor: "Batas Paket Gratis Dijelaskan"
+  - title: "Menulis pelajaran yang dipelajari oleh gerakan iklim dengan cara..."
+    url: "/id/tools/menulis-pelajaran-yang-dipelajari-oleh-gerakan-iklim-dengan-cara-yang/"
+    anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
 ---
-
 ## Ringkasan singkat
 
 Periksa Buku Pegangan Saya Adalah Alat AI Gratis yang Memindai Dokumen untuk Aturan Koersif - NLRB Edge

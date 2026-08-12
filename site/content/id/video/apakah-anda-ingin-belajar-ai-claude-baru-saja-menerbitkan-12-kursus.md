@@ -23,7 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus.svg"
-  alt: "apakah aman pakai aplikasi ai gratis generator gambar ai vs foto stok Apakah Anda ingin belajar AI..."
+  alt: "apakah aman pakai aplikasi ai gratis generator gambar ai vs foto stok alat video ai gratis Apakah Anda ingin belajar AI..."
 faq:
   - question: "Seberapa sering entri ini diperbarui?"
     answer: "Entri Apakah Anda ingin belajar AI? Claude baru saja menerbitkan 12 kursus gratis dengan sertifikat... diperbarui saat sumbernya merilis perubahan, jadi cek ulang halaman resmi untuk hal yang sensitif waktu."
@@ -46,6 +46,8 @@ related:
     url: "/id/video/nvidia-sedang-membangun-keluarga-nemotron-4-generasi-berikutnya-untuk/"
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZDFyZTJDb0ZndnR2b3ljSmZtYU5CeDhsMzdnQnBVdW56WDlPUlJOVVRkZUhiZ3FSTXZnaEF0ZlA0dWNUejJzRExTU0x5WFp3RkNrUEJVUF9Sei1mWGc0Ql8yaU45WU9NNDU3X0d5TjlIdFBkZXRfUnRzRzVFeU5uMWptUGdOb2dGeDNQT2FKUzRKZk1FbUJtVVFfM3JQUVBOS3NmVWJIQnpWSWZSdHZVcE9UTC0?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus/"
 pipeline:
@@ -53,8 +55,23 @@ pipeline:
   words: 336
   similarity: 0.0834
   lang: "id-ID"
+similar:
+  - title: "Apakah saya terjebak dalam membayar lima langganan atau apakah ada..."
+    url: "/id/video/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu/"
+    anchor: "Generator Gambar Ai vs Foto Stok"
+  - title: "Apakah lebih banyak alasan tentu lebih baik?: panduan gratis (2026)"
+    url: "/id/video/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
+    anchor: "Alat Ai Untuk Pemula Langkah Demi Langkah"
+  - title: "Jalan Raya AI dan Kematian \\\"Bergerak Cepat dan Hancurkan..."
+    url: "/id/video/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    anchor: "Batas Paket Gratis Dijelaskan"
+  - title: "Mereka menyajikan kursus kecerdasan buatan gratis untuk guru..."
+    url: "/id/video/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan/"
+    anchor: "Alat Tulis Ai vs Editor Manusia"
 ---
-
 ## Apa yang dibahas di sini
 
 Apakah Anda ingin belajar AI? Claude baru saja menerbitkan 12 kursus gratis dengan sertifikat...

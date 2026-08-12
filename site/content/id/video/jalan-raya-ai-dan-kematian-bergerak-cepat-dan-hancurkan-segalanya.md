@@ -23,7 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya.svg"
-  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai Jalan Raya AI dan Kematian..."
+  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat video ai gratis..."
 faq:
   - question: "Berapa lama proses setup?"
     answer: "Untuk Jalan Raya AI dan Kematian \"Bergerak Cepat dan Hancurkan Segalanya\", setup dasar umumnya selesai dalam beberapa menit lewat browser ponsel. Verifikasi tambahan bisa menambah waktu."
@@ -48,6 +48,8 @@ related:
     url: "/id/video/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu/"
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://www.google.com/search?q=Jalan%20Raya%20AI%20dan%20Kematian%20%22Bergerak%20Cepat%20dan%20Hancurkan%20Segalanya%22%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya/"
 community:
@@ -58,8 +60,23 @@ pipeline:
   words: 457
   similarity: 0.1019
   lang: "id-ID"
+similar:
+  - title: "Apakah Anda memercayai asisten AI yang mengetahui seluruh hidup..."
+    url: "/id/video/apakah-anda-memercayai-asisten-ai-yang-mengetahui-seluruh-hidup-anda/"
+    anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
+  - title: "Ai mana yang terbaik untuk merencanakan sesuatu?: sekilas 2026"
+    url: "/id/video/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu/"
+    anchor: "Alat Ai Untuk Bisnis Kecil"
+  - title: "AI dan alat produktivitas pada tahun 2026: alternatif apa yang..."
+    url: "/id/video/ai-dan-alat-produktivitas-pada-tahun-2026-alternatif-apa-yang-tersedia/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Apakah Anda ingin belajar AI? Claude baru saja menerbitkan 12..."
+    url: "/id/video/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus/"
+    anchor: "Batas Paket Gratis Dijelaskan"
+  - title: "Proyek permainan bertahan hidup yang strategis: panduan gratis..."
+    url: "/id/video/proyek-permainan-bertahan-hidup-yang-strategis/"
+    anchor: "Alat Tulis Ai vs Editor Manusia"
 ---
-
 ## Sekilas info
 
 Jalan Raya AI dan Kematian "Bergerak Cepat dan Hancurkan Segalanya"

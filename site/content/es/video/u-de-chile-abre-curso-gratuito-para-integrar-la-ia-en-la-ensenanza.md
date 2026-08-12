@@ -20,7 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza.svg"
-  alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano U..."
+  alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano herramienta de vídeo ia gratis U..."
 faq:
   - question: "¿Puedo cancelar después?"
     answer: "Los planes de pago de U. de Chile abre curso gratuito para integrar la IA en la enseñanza - Universidad de Chile normalmente permiten cancelar desde la configuración de la cuenta. Los plazos de reembolso varían; revisa los términos antes de mejorar el plan."
@@ -46,6 +46,8 @@ related:
     url: "/es/video/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/"
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkkyaWtuQ1NJME85OHBBQzNGZ3VNNnRTUl9qZDRoSlp3X1cxQmUtazBFVTVLbDR3c2dLWGtHWkZ1aGdURTdMeUM2NEpIZjAtZnRIYXVJNmdGMEIwZU55TFJMNWVDWEV0OXcxeFNuX2oxNFJCamctMUh2eWZaZW9JcUxidkh0cnAyOXFydWFQbWVPTlVZVWNaMG1tZ2VOZmp5d2c?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza/"
 pipeline:
@@ -53,8 +55,23 @@ pipeline:
   words: 408
   similarity: 0.0675
   lang: "es-MX"
+similar:
+  - title: "Escribí las lecciones que el movimiento climático aprendió de la..."
+    url: "/es/video/escribi-las-lecciones-que-el-movimiento-climatico-aprendio-de-la-manera/"
+    anchor: "Herramienta de Ia vs Editor Humano"
+  - title: "Cinco costos ocultos de las herramientas legales de inteligencia..."
+    url: "/es/video/cinco-costos-ocultos-de-las-herramientas-legales-de-inteligencia/"
+    anchor: "Herramientas de Ia para Estudiantes Con Poco Presupuesto"
+  - title: "¿Cuál es una capacidad de IA que pensabas que era exagerada hasta..."
+    url: "/es/video/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que/"
+    anchor: "Pagar Herramienta de Ia Con Spei"
+  - title: "La nueva herramienta gratis de Gemini que ya puedes usar: ventajas..."
+    url: "/es/video/la-nueva-herramienta-gratis-de-gemini-que-ya-puedes-usar-ventajas-y/"
+    anchor: "Guia Rapida de Configuracion Inicial"
+  - title: "OpenAI lanza ChatGPT para médicos, una herramienta de inteligencia..."
+    url: "/es/video/openai-lanza-chatgpt-para-medicos-una-herramienta-de-inteligencia/"
+    anchor: "Que Es El Mejor Generador de Imagenes Con Ia"
 ---
-
 ## Panorama
 
 U. de Chile abre curso gratuito para integrar la IA en la enseñanza - Universidad de Chile

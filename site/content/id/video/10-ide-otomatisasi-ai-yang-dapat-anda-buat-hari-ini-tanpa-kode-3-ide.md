@@ -20,7 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide.svg"
-  alt: "bagaimana cara pakai alat ai gratis alternatif gratis untuk paket berbayar ai 10 ide otomatisasi AI yang..."
+  alt: "bagaimana cara pakai alat ai gratis alternatif gratis untuk paket berbayar ai alat video ai gratis 10 ide otomatisasi AI yang..."
 faq:
   - question: "Apakah harga ditampilkan dalam Rp?"
     answer: "Untuk 10 ide otomatisasi AI yang dapat Anda buat hari ini tanpa kode: 3 ide yang benar-benar menghemat waktu saya, mata uang yang tampil bergantung pada region yang terdeteksi dan pengaturan akun. Bisa ada biaya konversi bila penagihan memakai mata uang lain."
@@ -49,6 +49,8 @@ related:
     url: "/id/video/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya/"
     anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
 outbound: "https://www.google.com/search?q=10%20ide%20otomatisasi%20AI%20yang%20dapat%20Anda%20buat%20hari%20ini%20tanpa%20kode%3A%203%20ide%20yang%20benar-benar%20menghemat%20waktu%20saya%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide/"
 community:
@@ -59,8 +61,23 @@ pipeline:
   words: 584
   similarity: 0.0674
   lang: "id-ID"
+similar:
+  - title: "Peringatan ketakutan penulis peretasan - 311 di New Orleans..."
+    url: "/id/video/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan/"
+    anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
+  - title: "Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen..."
+    url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
+    anchor: "Alat Ai Untuk Pemula Langkah Demi Langkah"
+  - title: "Apa yang sebenarnya bisa membantu mengatasi masalah deepfake?..."
+    url: "/id/video/apa-yang-sebenarnya-bisa-membantu-mengatasi-masalah-deepfake/"
+    anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
+  - title: "Apakah lebih banyak alasan tentu lebih baik?: panduan gratis (2026)"
+    url: "/id/video/apakah-lebih-banyak-alasan-tentu-lebih-baik/"
+    anchor: "Daftar Ketersediaan Per Wilayah"
+  - title: "Apakah agen AI menimbulkan lebih banyak masalah atau bagaimana?..."
+    url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+    anchor: "Batas Paket Gratis Dijelaskan"
 ---
-
 ## Versi singkatnya
 
 10 ide otomatisasi AI yang dapat Anda buat hari ini tanpa kode: 3 ide yang benar-benar menghemat waktu saya

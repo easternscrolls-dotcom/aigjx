@@ -21,7 +21,7 @@ keywords:
 image:
   layout: "textonly"
   src: ""
-  alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok Menulis pelajaran yang dipelajari oleh..."
+  alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat ai gratis Menulis pelajaran yang dipelajari oleh gerakan..."
 faq:
   - question: "Apakah harga ditampilkan dalam Rp?"
     answer: "Untuk Menulis pelajaran yang dipelajari oleh gerakan iklim dengan cara yang sulit..., mata uang yang tampil bergantung pada region yang terdeteksi dan pengaturan akun. Bisa ada biaya konversi bila penagihan memakai mata uang lain."
@@ -46,6 +46,8 @@ related:
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Bayar Langganan Ai Pakai Dana"
 outbound: "https://www.google.com/search?q=Menulis%20pelajaran%20yang%20dipelajari%20oleh%20gerakan%20iklim%20dengan%20cara%20yang%20sulit...%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 community:
   - title: "Menulis pelajaran yang dipelajari oleh gerakan ikl — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vm5fet/wrote_up_lessons_the_climate_movement_learned_the/?utm_source=autoguide&utm_medium=referral"
@@ -54,8 +56,23 @@ pipeline:
   words: 367
   similarity: 0.0292
   lang: "id-ID"
+similar:
+  - title: "Adobe (ADBE) Membuka Alat AI-nya Secara Gratis Dan Berekspansi ke..."
+    url: "/id/tools/adobe-adbe-membuka-alat-ai-nya-secara-gratis-dan-berekspansi-ke-media/"
+    anchor: "Generator Gambar Ai vs Foto Stok"
+  - title: "Alat AI yang Layak Dibayar (Karena Gratis Itu Sampah) - VICE..."
+    url: "/id/tools/alat-ai-yang-layak-dibayar-karena-gratis-itu-sampah-vice/"
+    anchor: "Alat Ai Untuk Bisnis Kecil"
+  - title: "AS Chile membuka kursus gratis untuk mengintegrasikan AI ke dalam..."
+    url: "/id/tools/as-chile-membuka-kursus-gratis-untuk-mengintegrasikan-ai-ke-dalam/"
+    anchor: "Bayar Langganan Ai Pakai Dana"
+  - title: "Pajak pagar pembatas: mengapa overhead keselamatan AI perusahaan..."
+    url: "/id/tools/pajak-pagar-pembatas-mengapa-overhead-keselamatan-ai-perusahaan-memakan/"
+    anchor: "Panduan Setup Cepat Untuk Pemula"
+  - title: "Bagaimana alat AI gratis membawa pemilik bisnis pemula mulai dari..."
+    url: "/id/tools/bagaimana-alat-ai-gratis-membawa-pemilik-bisnis-pemula-mulai-dari-ide/"
+    anchor: "Alat Ai Untuk Pelajar Hemat Biaya"
 ---
-
 ## Sekilas info
 
 Menulis pelajaran yang dipelajari oleh gerakan iklim dengan cara yang sulit...

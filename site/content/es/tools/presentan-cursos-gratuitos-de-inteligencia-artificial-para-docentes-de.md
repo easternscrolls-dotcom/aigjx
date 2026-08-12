@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/presentan-cursos-gratuitos-de-inteligencia-artificial-para-docentes-de.svg"
-  alt: "como usar una herramienta de ia gratis generador de imagenes ia vs banco de fotos Presentan cursos gratuitos..."
+  alt: "como usar una herramienta de ia gratis generador de imagenes ia vs banco de fotos herramienta ia gratis Presentan cursos..."
 faq:
   - question: "¿Los precios se muestran en MX$?"
     answer: "En Presentan cursos gratuitos de inteligencia artificial para docentes de educación básica..., la moneda mostrada depende de la región detectada y de la configuración de la cuenta. Puede haber cargos por conversión si la facturación usa otra moneda."
@@ -49,13 +49,30 @@ related:
     url: "/es/video/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza/"
     anchor: "Generador de Imagenes Ia vs Banco de Fotos"
 outbound: "https://news.google.com/rss/articles/CBMilgFBVV95cUxONV93bUdwUFN6MWJaS3ZfUlUyc0JxMFpMR1lza2ZtZUlveHV5aHdmWXFEZDQzeWFUSkFIRmVKbERYSmZYaFd3YlBlbVJhU0JvUG9meWlITVVxVjNWQmhuSFFxUURpWjhqMENHVkpwdHl2Z200MXNORnUtZGJ4YmVCZ3pZOHNNdTdwS29BVjBNNEFjb1NoWXc?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 pipeline:
   source: "gn_es_free"
   words: 481
   similarity: 0.0749
   lang: "es-MX"
+similar:
+  - title: "Cisco verifica 900 modelos IA con fingerprinting gratuito - El..."
+    url: "/es/tools/cisco-verifica-900-modelos-ia-con-fingerprinting-gratuito-el-ecosistema/"
+    anchor: "Generador de Imagenes Ia vs Banco de Fotos"
+  - title: "Recibí muchas preguntas sobre cómo funciona la orquestación de..."
+    url: "/es/tools/recibi-muchas-preguntas-sobre-como-funciona-la-orquestacion-de-agentes/"
+    anchor: "Herramientas de Ia para Principiantes Paso a Paso"
+  - title: "¿Quiénes son los corredores de tokens?: un vistazo 2026"
+    url: "/es/tools/quienes-son-los-corredores-de-tokens/"
+    anchor: "Pagar Herramienta de Ia Con Spei"
+  - title: "Proyecto de juego estratégico de supervivencia..."
+    url: "/es/tools/proyecto-de-juego-estrategico-de-supervivencia/"
+    anchor: "Lista de Disponibilidad Por Region"
+  - title: "¿Confiarías en un asistente de IA que conozca toda tu vida?: un..."
+    url: "/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/"
+    anchor: "Generador de Imagenes Ia vs Banco de Fotos"
 ---
-
 ## Antes de empezar
 
 Presentan cursos gratuitos de inteligencia artificial para docentes de educación básica...

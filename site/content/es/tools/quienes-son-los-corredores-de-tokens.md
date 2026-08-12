@@ -19,7 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/quienes-son-los-corredores-de-tokens.svg"
-  alt: "puedo usar herramientas de ia sin tarjeta generador de imagenes ia vs banco de fotos ¿Quiénes son los..."
+  alt: "puedo usar herramientas de ia sin tarjeta generador de imagenes ia vs banco de fotos herramienta ia gratis ¿Quiénes son los..."
 faq:
   - question: "¿Para quién es más útil?"
     answer: "Sobre todo para quien quiere un vistazo rápido a ¿Quiénes son los corredores de tokens? antes de invertir tiempo o dinero."
@@ -51,6 +51,8 @@ related:
     url: "/es/video/robo-de-rastros-de-razonamiento-de-api-patentadas-de-llm/"
     anchor: "Limites Del Plan Gratuito Explicados"
 outbound: "https://www.google.com/search?q=%C2%BFQui%C3%A9nes%20son%20los%20corredores%20de%20tokens%3F%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 community:
   - title: "¿Quiénes son los corredores de tokens? — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlj132/who_are_the_token_brokers/?utm_source=autoguide&utm_medium=referral"
@@ -59,8 +61,23 @@ pipeline:
   words: 594
   similarity: 0.0226
   lang: "es-MX"
+similar:
+  - title: "Cisco verifica 900 modelos IA con fingerprinting gratuito - El..."
+    url: "/es/tools/cisco-verifica-900-modelos-ia-con-fingerprinting-gratuito-el-ecosistema/"
+    anchor: "Generador de Imagenes Ia vs Banco de Fotos"
+  - title: "10 ideas de automatización de IA que puedes crear hoy sin código..."
+    url: "/es/tools/10-ideas-de-automatizacion-de-ia-que-puedes-crear-hoy-sin-codigo-las-3/"
+    anchor: "Herramientas de Ia para Principiantes Paso a Paso"
+  - title: "Check My Handbook es una herramienta de inteligencia artificial..."
+    url: "/es/tools/check-my-handbook-es-una-herramienta-de-inteligencia-artificial/"
+    anchor: "Suscripcion de Ia Barata Mensual"
+  - title: "¿Los agentes de IA crean más problemas o qué? en México: resumen"
+    url: "/es/tools/los-agentes-de-ia-crean-mas-problemas-o-que/"
+    anchor: "Limites Del Plan Gratuito Explicados"
+  - title: "¿Es necesariamente mejor razonar más?: funciones..."
+    url: "/es/tools/es-necesariamente-mejor-razonar-mas/"
+    anchor: "Por Que Expiro Mi Prueba Gratuita de Ia"
 ---
-
 ## Resumen rápido
 
 ¿Quiénes son los corredores de tokens?

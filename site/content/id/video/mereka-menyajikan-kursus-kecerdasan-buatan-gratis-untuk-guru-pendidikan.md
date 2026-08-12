@@ -19,7 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan.svg"
-  alt: "bagaimana cara pakai alat ai gratis alat tulis ai vs editor manusia Mereka menyajikan kursus kecerdasan..."
+  alt: "bagaimana cara pakai alat ai gratis alat tulis ai vs editor manusia alat video ai gratis Mereka menyajikan kursus kecerdasan..."
 faq:
   - question: "Bisakah dibatalkan nanti?"
     answer: "Paket berbayar Mereka menyajikan kursus kecerdasan buatan gratis untuk guru pendidikan dasar... umumnya bisa dibatalkan dari pengaturan akun. Ketentuan pengembalian dana berbeda-beda; baca dulu sebelum upgrade."
@@ -42,6 +42,8 @@ related:
     url: "/id/tools/periksa-buku-pegangan-saya-adalah-alat-ai-gratis-yang-memindai-dokumen/"
     anchor: "Langganan Ai Murah Bulanan"
 outbound: "https://news.google.com/rss/articles/CBMilgFBVV95cUxONV93bUdwUFN6MWJaS3ZfUlUyc0JxMFpMR1lza2ZtZUlveHV5aHdmWXFEZDQzeWFUSkFIRmVKbERYSmZYaFd3YlBlbVJhU0JvUG9meWlITVVxVjNWQmhuSFFxUURpWjhqMENHVkpwdHl2Z200MXNORnUtZGJ4YmVCZ3pZOHNNdTdwS29BVjBNNEFjb1NoWXc?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan/"
 pipeline:
@@ -49,8 +51,23 @@ pipeline:
   words: 319
   similarity: 0.0992
   lang: "id-ID"
+similar:
+  - title: "Peringatan ketakutan penulis peretasan - 311 di New Orleans..."
+    url: "/id/video/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan/"
+    anchor: "Alat Tulis Ai vs Editor Manusia"
+  - title: "Apakah agen AI menimbulkan lebih banyak masalah atau bagaimana?..."
+    url: "/id/video/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana/"
+    anchor: "Alat Ai Untuk Pemula Langkah Demi Langkah"
+  - title: "Jalan Raya AI dan Kematian \\\"Bergerak Cepat dan Hancurkan..."
+    url: "/id/video/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Ulasan NVIDIA sedang membangun keluarga Nemotron 4 generasi..."
+    url: "/id/video/nvidia-sedang-membangun-keluarga-nemotron-4-generasi-berikutnya-untuk/"
+    anchor: "Daftar Ketersediaan Per Wilayah"
+  - title: "10 ide otomatisasi AI yang dapat Anda buat hari ini tanpa kode: 3..."
+    url: "/id/video/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide/"
+    anchor: "Uji Coba Gratis Ai Tanpa Kartu Kredit"
 ---
-
 ## Sekilas info
 
 Mereka menyajikan kursus kecerdasan buatan gratis untuk guru pendidikan dasar...

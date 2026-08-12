@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/las-herramientas-de-inteligencia-artificial-por-las-que-vale-la-pena.svg"
-  alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano Las herramientas de inteligencia..."
+  alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis Las herramientas de..."
 faq:
   - question: "¿La interfaz está en español?"
     answer: "En Las herramientas de inteligencia artificial por las que vale la pena pagar (porque lo gratis es basura) - VICE, el idioma local es habitual pero no universal, y algunos menús pueden quedar en inglés. La página oficial suele listar los idiomas soportados."
@@ -46,6 +46,8 @@ related:
     url: "/es/video/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que/"
     anchor: "Guia Rapida de Configuracion Inicial"
 outbound: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nN1J3T29BYV83V2F4OXdJcWoydDNKT1h5QWMxQy1pMDZDYmtNam1rbS1LcGlkaHRtR0pWU0J1S0pNMjFSd3JocUhFaENLd1RYMWgw?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/las-herramientas-de-inteligencia-artificial-por-las-que-vale-la-pena/"
 pipeline:
@@ -53,8 +55,23 @@ pipeline:
   words: 555
   similarity: 0.0309
   lang: "es-MX"
+similar:
+  - title: "¿Cuál es una capacidad de IA que pensabas que era exagerada hasta..."
+    url: "/es/video/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que/"
+    anchor: "Herramienta de Ia vs Editor Humano"
+  - title: "OpenAI lanza ChatGPT para médicos, una herramienta de inteligencia..."
+    url: "/es/video/openai-lanza-chatgpt-para-medicos-una-herramienta-de-inteligencia/"
+    anchor: "Herramientas de Ia para Estudiantes Con Poco Presupuesto"
+  - title: "Una herramienta gratuita tiene como objetivo acelerar la..."
+    url: "/es/video/una-herramienta-gratuita-tiene-como-objetivo-acelerar-la-investigacion/"
+    anchor: "Pagar Suscripcion de Ia Con Oxxo"
+  - title: "¿Tengo que pagar cinco suscripciones o hay un lugar con todos los..."
+    url: "/es/video/tengo-que-pagar-cinco-suscripciones-o-hay-un-lugar-con-todos-los-modelos/"
+    anchor: "Guia Rapida de Configuracion Inicial"
+  - title: "Tabla de clasificación de popularidad de IA de código abierto: un..."
+    url: "/es/video/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto/"
+    anchor: "Herramienta de Ia vs Editor Humano"
 ---
-
 ## Panorama
 
 Las herramientas de inteligencia artificial por las que vale la pena pagar (porque lo gratis es basura) - VICE

@@ -20,7 +20,7 @@ keywords:
 image:
   layout: "textonly"
   src: ""
-  alt: "por que expiro mi prueba gratuita de ia generador de imagenes ia vs banco de fotos Proyecto de juego..."
+  alt: "por que expiro mi prueba gratuita de ia generador de imagenes ia vs banco de fotos herramienta ia gratis Proyecto de juego..."
 faq:
   - question: "¿Puedo cancelar después?"
     answer: "Los planes de pago de Proyecto de juego estratégico de supervivencia. normalmente permiten cancelar desde la configuración de la cuenta. Los plazos de reembolso varían; revisa los términos antes de mejorar el plan."
@@ -51,6 +51,8 @@ related:
     url: "/es/tools/confiarias-en-un-asistente-de-ia-que-conozca-toda-tu-vida/"
     anchor: "Herramientas de Ia para Principiantes Paso a Paso"
 outbound: "https://www.google.com/search?q=Proyecto%20de%20juego%20estrat%C3%A9gico%20de%20supervivencia.%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 community:
   - title: "Proyecto de juego estratégico de supervivencia. — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlfnz3/strategic_survival_game_project/?utm_source=autoguide&utm_medium=referral"
@@ -59,8 +61,23 @@ pipeline:
   words: 434
   similarity: 0.1058
   lang: "es-MX"
+similar:
+  - title: "Cisco verifica 900 modelos IA con fingerprinting gratuito - El..."
+    url: "/es/tools/cisco-verifica-900-modelos-ia-con-fingerprinting-gratuito-el-ecosistema/"
+    anchor: "Generador de Imagenes Ia vs Banco de Fotos"
+  - title: "Kavak reemplazó a 15 especialistas en ventas humanas por un agente..."
+    url: "/es/tools/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de/"
+    anchor: "Apps de Ia para Freelancers"
+  - title: "Adobe (ADBE) abre sus herramientas de inteligencia artificial de..."
+    url: "/es/tools/adobe-adbe-abre-sus-herramientas-de-inteligencia-artificial-de-forma/"
+    anchor: "Prueba Gratuita de Ia Sin Tarjeta de Credito"
+  - title: "Check My Handbook es una herramienta de inteligencia artificial..."
+    url: "/es/tools/check-my-handbook-es-una-herramienta-de-inteligencia-artificial/"
+    anchor: "Guia Rapida de Configuracion Inicial"
+  - title: "Presentan cursos gratuitos de inteligencia artificial para docentes..."
+    url: "/es/tools/presentan-cursos-gratuitos-de-inteligencia-artificial-para-docentes-de/"
+    anchor: "Herramientas de Ia para Principiantes Paso a Paso"
 ---
-
 ## Resumen rápido
 
 Proyecto de juego estratégico de supervivencia.

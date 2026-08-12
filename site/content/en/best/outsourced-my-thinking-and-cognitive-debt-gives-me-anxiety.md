@@ -19,7 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/outsourced-my-thinking-and-cognitive-debt-gives-me-anxiety.svg"
-  alt: "can i use ai tools without a credit card best ai tool or built in template Outsourced my thinking and..."
+  alt: "can i use ai tools without a credit card best ai tool or built in template best free ai tools Outsourced my thinking and..."
 faq:
   - question: "Is there a mobile version?"
     answer: "Most of Outsourced my thinking and cognitive debt gives me anxiety works through a mobile browser, and some versions ship a dedicated app. Feature parity between the two is not guaranteed."
@@ -52,6 +52,8 @@ related:
     url: "/en/art/is-more-reasoning-necessarily-better/"
     anchor: "Why Is My Ai Tool Trial Expired"
 outbound: "https://www.google.com/search?q=Outsourced%20my%20thinking%20and%20cognitive%20debt%20gives%20me%20anxiety%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/outsourced-my-thinking-and-cognitive-debt-gives-me-anxiety/"
 community:
@@ -62,8 +64,23 @@ pipeline:
   words: 556
   similarity: 0.0939
   lang: "en-US"
+similar:
+  - title: "Does AI agents create more problems or what?: Features..."
+    url: "/en/best/does-ai-agents-create-more-problems-or-what/"
+    anchor: "Best Ai Tool or Built in Template"
+  - title: "AI and productivity tools in 2026: what alternatives are there to..."
+    url: "/en/best/ai-and-productivity-tools-in-2026-what-alternatives-are-there-to/"
+    anchor: "Ai Apps for Freelancers Working Solo"
+  - title: "I got a lot of questions on how updated agent orchestration works..."
+    url: "/en/best/i-got-a-lot-of-questions-on-how-updated-agent-orchestration-works-in/"
+    anchor: "Ai Tool Payment Options Paypal"
+  - title: "Open-source tool that maps what concepts an LLM has learned into..."
+    url: "/en/best/open-source-tool-that-maps-what-concepts-an-llm-has-learned-into/"
+    anchor: "Regional Availability List"
+  - title: "Claude Code Orchestrator on Terminal-Bench: Same model....."
+    url: "/en/best/claude-code-orchestrator-on-terminal-bench-same-model/"
+    anchor: "Why Is My Ai Tool Trial Expired"
 ---
-
 ## At a Glance
 
 Outsourced my thinking and cognitive debt gives me anxiety

@@ -22,7 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/as-chile-membuka-kursus-gratis-untuk-mengintegrasikan-ai-ke-dalam.svg"
-  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai AS Chile membuka kursus gratis..."
+  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat ai gratis AS Chile membuka kursus gratis untuk..."
 faq:
   - question: "Bisakah dibatalkan nanti?"
     answer: "Paket berbayar AS Chile membuka kursus gratis untuk mengintegrasikan AI ke dalam pengajaran - Universidad de Chile umumnya bisa dibatalkan dari pengaturan akun. Ketentuan pengembalian dana berbeda-beda; baca dulu sebelum upgrade."
@@ -50,13 +50,30 @@ related:
     url: "/id/tools/cisco-memverifikasi-900-model-ai-dengan-sidik-jari-gratis-ekosistem/"
     anchor: "Panduan Setup Cepat Untuk Pemula"
 outbound: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZkkyaWtuQ1NJME85OHBBQzNGZ3VNNnRTUl9qZDRoSlp3X1cxQmUtazBFVTVLbDR3c2dLWGtHWkZ1aGdURTdMeUM2NEpIZjAtZnRIYXVJNmdGMEIwZU55TFJMNWVDWEV0OXcxeFNuX2oxNFJCamctMUh2eWZaZW9JcUxidkh0cnAyOXFydWFQbWVPTlVZVWNaMG1tZ2VOZmp5d2c?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 pipeline:
   source: "gn_es_free"
   words: 457
   similarity: 0.0491
   lang: "id-ID"
+similar:
+  - title: "Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari..."
+    url: "/id/tools/alat-sumber-terbuka-yang-memetakan-konsep-apa-yang-telah-dipelajari-llm/"
+    anchor: "Alternatif Gratis Untuk Paket Berbayar Ai"
+  - title: "Siapa Broker Tokennya?: panduan gratis (2026)"
+    url: "/id/tools/siapa-broker-tokennya/"
+    anchor: "Aplikasi Ai Untuk Pekerja Lepas"
+  - title: "Ulasan Alat Gemini gratis baru yang kini dapat Anda gunakan..."
+    url: "/id/tools/alat-gemini-gratis-baru-yang-kini-dapat-anda-gunakan-kelebihan-dan/"
+    anchor: "Langganan Ai Murah Bulanan"
+  - title: "Bagaimana alat AI gratis membawa pemilik bisnis pemula mulai dari..."
+    url: "/id/tools/bagaimana-alat-ai-gratis-membawa-pemilik-bisnis-pemula-mulai-dari-ide/"
+    anchor: "Panduan Setup Cepat Untuk Pemula"
+  - title: "Adobe (ADBE) Membuka Alat AI-nya Secara Gratis Dan Berekspansi ke..."
+    url: "/id/tools/adobe-adbe-membuka-alat-ai-nya-secara-gratis-dan-berekspansi-ke-media/"
+    anchor: "Alat Ai Untuk Bisnis Kecil"
 ---
-
 ## Gambaran
 
 AS Chile membuka kursus gratis untuk mengintegrasikan AI ke dalam pengajaran - Universidad de Chile

@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide.svg"
-  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai Meta AI sekarang dapat terhubung..."
+  alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat pdf ai gratis Meta AI sekarang dapat terhubung ke..."
 faq:
   - question: "Apakah harga ditampilkan dalam Rp?"
     answer: "Untuk Meta AI sekarang dapat terhubung ke email dan kalender, membuat slide, dan menjalankan tugas berulang, mata uang yang tampil bergantung pada region yang terdeteksi dan pengaturan akun. Bisa ada biaya konversi bila penagihan memakai mata uang lain."
@@ -50,6 +50,8 @@ related:
     url: "/id/tools/agen-ai-bukanlah-manusia-inilah-matematikanya/"
     anchor: "Panduan Setup Cepat Untuk Pemula"
 outbound: "https://www.google.com/search?q=Meta%20AI%20sekarang%20dapat%20terhubung%20ke%20email%20dan%20kalender%2C%20membuat%20slide%2C%20dan%20menjalankan%20tugas%20berulang%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide/"
 community:
@@ -60,8 +62,8 @@ pipeline:
   words: 575
   similarity: 0.0886
   lang: "id-ID"
----
 
+---
 ## Sekilas info
 
 Meta AI sekarang dapat terhubung ke email dan kalender, membuat slide, dan menjalankan tugas berulang

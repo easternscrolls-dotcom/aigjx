@@ -20,7 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/check-my-handbook-es-una-herramienta-de-inteligencia-artificial.svg"
-  alt: "por que expiro mi prueba gratuita de ia generador de imagenes ia vs banco de fotos Check My Handbook es una..."
+  alt: "por que expiro mi prueba gratuita de ia generador de imagenes ia vs banco de fotos herramienta ia gratis Check My Handbook es una..."
 faq:
   - question: "¿Los precios se muestran en MX$?"
     answer: "En Check My Handbook es una herramienta de inteligencia artificial gratuita que escanea documentos en busca de reglas coercitivas - NLRB Edge, la moneda mostrada depende de la región detectada y de la configuración de la cuenta. Puede haber cargos por conversión si la facturación usa otra moneda."
@@ -51,13 +51,30 @@ related:
     url: "/es/video/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake/"
     anchor: "Herramientas de Ia para Principiantes Paso a Paso"
 outbound: "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tSXZSa0NrMS1qU0FrOXlDYkpBN0luMHJzRHZ2Rm92UnRPVkhtcVBEMm1DUW9yY1ZBX0ZJRUMtNkdjcGY1OVEzUVF5Tk45RFhWZGZBR2c0T3kwMk0zemFtMjcyQ0t3a1JjcC1rT1JjTQ?oc=5?utm_source=autoguide&utm_medium=referral"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 pipeline:
   source: "gn_free_ai"
   words: 589
   similarity: 0.0435
   lang: "es-MX"
+similar:
+  - title: "NVIDIA está construyendo su familia Nemotron 4 de próxima..."
+    url: "/es/tools/nvidia-esta-construyendo-su-familia-nemotron-4-de-proxima-generacion/"
+    anchor: "Generador de Imagenes Ia vs Banco de Fotos"
+  - title: "Kavak reemplazó a 15 especialistas en ventas humanas por un agente..."
+    url: "/es/tools/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de/"
+    anchor: "Herramientas de Ia para Negocios Pequenos"
+  - title: "Recibí muchas preguntas sobre cómo funciona la orquestación de..."
+    url: "/es/tools/recibi-muchas-preguntas-sobre-como-funciona-la-orquestacion-de-agentes/"
+    anchor: "Pagar Herramienta de Ia Con Spei"
+  - title: "Crea recorridos aéreos estilo dron con IA gratis ¡Y en 2 minutos..."
+    url: "/es/tools/crea-recorridos-aereos-estilo-dron-con-ia-gratis-y-en-2-minutos-ovacen/"
+    anchor: "Guia Rapida de Configuracion Inicial"
+  - title: "Cisco verifica 900 modelos IA con fingerprinting gratuito - El..."
+    url: "/es/tools/cisco-verifica-900-modelos-ia-con-fingerprinting-gratuito-el-ecosistema/"
+    anchor: "Herramientas de Ia para Principiantes Paso a Paso"
 ---
-
 ## La versión corta
 
 Check My Handbook es una herramienta de inteligencia artificial gratuita que escanea documentos en busca de reglas coercitivas - NLRB Edge

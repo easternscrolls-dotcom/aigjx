@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "textonly"
   src: ""
-  alt: "how to use ai writing tool for free ai writing tool vs human editor What's an AI capability you thought was..."
+  alt: "how to use ai writing tool for free ai writing tool vs human editor free ai video tool What's an AI capability you thought was..."
 faq:
   - question: "Does What's an AI capability you thought was hype until you actually used it? have a free option?"
     answer: "Many listings in this category keep a free tier for basic use and reserve advanced options for paid plans. Check the pricing section on the official page before signing up."
@@ -44,6 +44,8 @@ related:
     url: "/en/art/is-more-reasoning-necessarily-better/"
     anchor: "Quick Setup Guide for First Time Users"
 outbound: "https://www.google.com/search?q=What%27s%20an%20AI%20capability%20you%20thought%20was%20hype%20until%20you%20actually%20used%20it%3F%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 aliases:
   - "/tools/what-s-an-ai-capability-you-thought-was-hype-until-you-actually-used-it/"
 community:
@@ -54,8 +56,11 @@ pipeline:
   words: 383
   similarity: 0.1465
   lang: "en-US"
+similar:
+  - title: "Kavak Replaced 15 Human Sales Specialists With One AI Agent — It..."
+    url: "/en/video/kavak-replaced-15-human-sales-specialists-with-one-ai-agent-it-now/"
+    anchor: "Ai Writing Tool vs Human Editor"
 ---
-
 ## What This Entry Covers
 
 What's an AI capability you thought was hype until you actually used it?

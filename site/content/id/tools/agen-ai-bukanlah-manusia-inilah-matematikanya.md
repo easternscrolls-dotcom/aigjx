@@ -18,7 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/agen-ai-bukanlah-manusia-inilah-matematikanya.svg"
-  alt: "bagaimana cara pakai alat ai gratis generator gambar ai vs foto stok Agen AI Bukanlah Manusia..."
+  alt: "bagaimana cara pakai alat ai gratis generator gambar ai vs foto stok alat ai gratis Agen AI Bukanlah Manusia..."
 faq:
   - question: "Metode pembayaran apa yang bisa dipakai?"
     answer: "Checkout lokal untuk Agen AI Bukanlah Manusia. Inilah Matematikanya. biasanya menerima uji coba gratis, freemium, tanpa kartu kredit, paket gratis. Daftar pastinya tergantung jenis akun dan bisa berbeda antara web dan ponsel."
@@ -35,6 +35,8 @@ related:
     url: "/id/video/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai/"
     anchor: "Generator Gambar Ai vs Foto Stok"
 outbound: "https://www.google.com/search?q=Agen%20AI%20Bukanlah%20Manusia.%20Inilah%20Matematikanya.%20official"
+outbound_sponsored: false
+outbound_rel: "nofollow noopener"
 community:
   - title: "Agen AI Bukanlah Manusia. Inilah Matematikanya. — Reddit"
     url: "https://www.reddit.com/r/artificial/comments/1vlud9g/ai_agents_are_not_people_heres_the_math/?utm_source=autoguide&utm_medium=referral"
@@ -43,8 +45,23 @@ pipeline:
   words: 323
   similarity: 0.042
   lang: "id-ID"
+similar:
+  - title: "Siapa Broker Tokennya?: panduan gratis (2026)"
+    url: "/id/tools/siapa-broker-tokennya/"
+    anchor: "Generator Gambar Ai vs Foto Stok"
+  - title: "Alat sumber terbuka yang memetakan konsep apa yang telah dipelajari..."
+    url: "/id/tools/alat-sumber-terbuka-yang-memetakan-konsep-apa-yang-telah-dipelajari-llm/"
+    anchor: "Aplikasi Ai Untuk Pekerja Lepas"
+  - title: "Buat tur udara bergaya drone dengan AI gratis dan dalam 2 menit..."
+    url: "/id/tools/buat-tur-udara-bergaya-drone-dengan-ai-gratis-dan-dalam-2-menit-ovacen/"
+    anchor: "Bayar Alat Ai Pakai Gopay"
+  - title: "Rinciannya: OpenAI: sekilas 2026"
+    url: "/id/tools/rinciannya-openai/"
+    anchor: "Daftar Ketersediaan Per Wilayah"
+  - title: "Peringatan ketakutan penulis peretasan - 311 di New Orleans..."
+    url: "/id/tools/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan/"
+    anchor: "Generator Gambar Ai vs Foto Stok"
 ---
-
 ## Sebelum mulai
 
 Agen AI Bukanlah Manusia. Inilah Matematikanya.
