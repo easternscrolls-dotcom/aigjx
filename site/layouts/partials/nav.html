@@ -1,9 +1,15 @@
 <header class="site-header">
-  <a class="brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.brand }}</a>
-  <nav class="langs" aria-label="language">
-    {{ range .Site.Home.AllTranslations }}
-    <a href="{{ .RelPermalink }}" hreflang="{{ .Language.LanguageCode }}"
-       {{ if eq .Language.Lang $.Site.Language.Lang }}class="on" aria-current="true"{{ end }}>{{ .Language.LanguageName }}</a>
-    {{ end }}
-  </nav>
+  <div class="wrap nav-inner">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
+      <a href="{{ "/tools/" | relURL }}">Tools</a>
+      <a href="{{ "/categories/" | relURL }}">Categories</a>
+      <a href="{{ "/about/" | relURL }}">About</a>
+    </nav>
+    <div class="search" data-search role="search">
+      <input data-search-input type="search" placeholder="Search tools…" aria-label="Search tools">
+      <div data-search-results class="search-results" hidden></div>
+    </div>
+  </div>
 </header>

@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.LanguageCode | default .Site.Language.Lang }}">
+<html lang="en">
 <head>
   {{ partial "head.html" . }}
 </head>
 <body>
   {{ partial "nav.html" . }}
-  <main class="wrap">
+  <main id="main">
     {{ block "main" . }}{{ end }}
   </main>
-  <footer class="site-footer">
-    <p>{{ i18n "disclaimer" }}</p>
-    <p class="muted">&copy; {{ now.Year }} {{ .Site.Params.brand }}</p>
-  </footer>
+  {{ partial "footer.html" . }}
+  <script src="{{ "js/search.js" | relURL }}" defer></script>
 </body>
 </html>

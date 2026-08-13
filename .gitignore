@@ -1,21 +1,7 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.env
-
-# Hugo 构建产物（由 Actions / Cloudflare 构建，不入库）
+# Hugo build output — Cloudflare Pages builds this from source, do not commit.
 site/public/
-site/resources/
-.hugo_build.lock
 
-# 流水线运行期中间产物（体积会持续膨胀，避免拖慢构建）
-data/raw/*.json
-data/translated/*.json
-data/cache/*.json
-!data/**/.gitkeep
-
-# 系统垃圾
+# OS / editor noise
 .DS_Store
+*.swp
 Thumbs.db

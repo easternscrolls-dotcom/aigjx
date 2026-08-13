@@ -1,37 +1,34 @@
 {{ define "main" }}
-<h1>{{ .Site.Title }}</h1>
-<p class="lead">{{ i18n "home_tagline" }} — {{ .Site.Language.Params.region }}</p>
-
-{{ $hubs := where .Site.RegularPages "Section" "hub" }}
-{{ if $hubs }}
-<section>
-  <h2>{{ i18n "collections" }}</h2>
-  <ul class="cards">
-    {{ range first 8 ($hubs.ByLastmod.Reverse) }}
-    <li class="card">
-      <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
-      <p class="muted">{{ .Description | truncate 120 }}</p>
-    </li>
-    {{ end }}
-  </ul>
+<section class="hero">
+  <div class="wrap">
+    <h1>Discover AI Agents &amp; Automation Tools</h1>
+    <p class="lead">{{ .Site.Params.description }}</p>
+    <div class="search hero-search" data-search role="search">
+      <input data-search-input type="search" placeholder="Search agents, frameworks, tools…" aria-label="Search">
+      <div data-search-results class="search-results" hidden></div>
+    </div>
+  </div>
 </section>
-{{ end }}
 
-<section>
-  <h2>{{ i18n "latest" }}</h2>
-  {{ $entries := where .Site.RegularPages "Section" "!=" "hub" }}
-  {{ if $entries }}
-  <ul class="cards">
-    {{ range first 24 ($entries.ByLastmod.Reverse) }}
-    <li class="card">
-      <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
-      <p>{{ .Description | truncate 140 }}</p>
-      <p class="muted">{{ i18n "updated" }} {{ .Lastmod.Format "2006-01-02" }}</p>
-    </li>
+<section class="wrap section">
+  <h2>Browse by Category</h2>
+  <div class="cat-grid">
+    {{ range .Site.Taxonomies.categories.ByCount }}
+    <a class="cat-card" href="{{ .Page.RelPermalink }}">
+      <span class="cat-name">{{ .Page.Title }}</span>
+      <span class="cat-count">{{ .Count }}</span>
+    </a>
     {{ end }}
-  </ul>
-  {{ else }}
-  <p>{{ i18n "no_content" }}</p>
-  {{ end }}
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>Featured Tools</h2>
+  <div class="tool-grid">
+    {{ range first 9 (where .Site.RegularPages "Section" "tools") }}
+      {{ partial "tool-card.html" . }}
+    {{ end }}
+  </div>
+  <p class="more"><a href="{{ "/tools/" | relURL }}">View all tools →</a></p>
 </section>
 {{ end }}
