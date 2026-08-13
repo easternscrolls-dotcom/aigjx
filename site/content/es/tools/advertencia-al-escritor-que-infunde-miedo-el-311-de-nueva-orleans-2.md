@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/advertencia-al-escritor-que-infunde-miedo-el-311-de-nueva-orleans-2.svg"
+  og: "/banners/es/advertencia-al-escritor-que-infunde-miedo-el-311-de-nueva-orleans-2.png"
   alt: "como usar una herramienta de ia gratis alternativa gratuita a plan de pago de ia herramienta ia gratis Advertencia al escritor..."
 faq:
   - question: "¿Es seguro usar Advertencia al escritor que infunde miedo: el 311 de Nueva Orleans utiliza IA para responder llamadas.?"

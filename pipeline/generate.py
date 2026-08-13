@@ -386,6 +386,15 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
             LOG.warning("[%s] 头图生成失败，降级无图: %s", lang, exc)
             layout = "textonly"
             image_src = ""
+    # 社交分享 PNG（与 SVG 同确定性配色/文案，纯 Pillow 零系统依赖）；
+    # FB/LinkedIn/X 不支持 SVG 的 og:image，故单独导出 PNG。缺失 PIL 时返回空串，模板回退 SVG。
+    og_src = ""
+    if layout != "textonly" and image_src:
+        try:
+            og_src = banners.ensure_banner_png(item["name"], lang, final_slug, kwmod.classify(main_kw))
+        except Exception as exc:  # noqa: BLE001
+            LOG.warning("[%s] OG PNG 生成失败，回退 SVG: %s", lang, exc)
+            og_src = ""
     # 分发/变现外链 + 社区讨论外链分区（合规策略：Reddit/HN 不抢占顶部核心位）
     mon = config.get("monetization", {}) or {}
     affiliate_mode = bool(mon.get("enabled")) and str(mon.get("mode")) == "affiliate"
@@ -444,10 +453,11 @@ def build_page(item: Dict[str, Any], lang: str, env: Environment,
         title=title, description=description, slug=final_slug,
         date=utils.iso_now(), lang=lang, hugo_lang=locale["hugo_lang"],
         keywords=page_keywords, schema_type=schema_type, faqs=chosen_faqs,
-        layout=layout, image=image_src, alt=alt_text,
+        layout=layout, image=image_src, alt=alt_text, og_image=og_src,
         related=related, outbound=outbound, community=community, aliases=aliases,
         similar=similar, outbound_sponsored=outbound_sponsored, outbound_rel=outbound_rel,
         source_name=item.get("source_id", ""), region=region,
+        translation_key=item["id"],
         word_count=verdict["words"], similarity=verdict["similarity"],
         group=kwmod.classify(main_kw), body=body,
     )

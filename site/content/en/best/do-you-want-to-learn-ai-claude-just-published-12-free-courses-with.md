@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/do-you-want-to-learn-ai-claude-just-published-12-free-courses-with.svg"
+  og: "/banners/en/do-you-want-to-learn-ai-claude-just-published-12-free-courses-with.png"
   alt: "can i use ai tools without a credit card best ai tool or built in template best free ai tools Do you want to learn AI..."
 faq:
   - question: "What should I check before signing up?"

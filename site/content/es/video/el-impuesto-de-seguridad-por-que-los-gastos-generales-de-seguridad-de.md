@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de.svg"
+  og: "/banners/es/el-impuesto-de-seguridad-por-que-los-gastos-generales-de-seguridad-de.png"
   alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis El impuesto de..."
 faq:
   - question: "¿El impuesto de seguridad: por qué los gastos generales de seguridad de la IA empresarial cuestan más cálculo que real... tiene opción gratuita?"

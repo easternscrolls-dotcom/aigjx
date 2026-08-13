@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/tengo-que-pagar-cinco-suscripciones-o-hay-un-lugar-con-todos-los-modelos.svg"
+  og: "/banners/es/tengo-que-pagar-cinco-suscripciones-o-hay-un-lugar-con-todos-los-modelos.png"
   alt: "que es el mejor generador de imagenes con ia herramienta de ia vs editor humano herramienta de vídeo ia gratis ¿Tengo que pagar..."
 faq:
   - question: "¿Con qué frecuencia se actualiza esta ficha?"

@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/como-las-herramientas-gratuitas-de-ia-llevaron-a-un-propietario-de.svg"
+  og: "/banners/es/como-las-herramientas-gratuitas-de-ia-llevaron-a-un-propietario-de.png"
   alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano herramienta de vídeo ia gratis Cómo las herramientas..."
 faq:
   - question: "¿Es seguro usar Cómo las herramientas gratuitas de IA llevaron a un propietario de negocio por primera vez desde la idea hasta el lanzamiento en 60 días...?"

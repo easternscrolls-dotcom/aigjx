@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/open-source-tool-that-maps-what-concepts-an-llm-has-learned-into.svg"
+  og: "/banners/en/open-source-tool-that-maps-what-concepts-an-llm-has-learned-into.png"
   alt: "how to use ai writing tool for free best ai tool or built in template best free ai tools Open-source tool that maps what concepts..."
 faq:
   - question: "Can I cancel later?"

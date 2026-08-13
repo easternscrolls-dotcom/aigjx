@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/alat-gratis-ini-bertujuan-untuk-mempercepat-penelitian-tentang.svg"
+  og: "/banners/id/alat-gratis-ini-bertujuan-untuk-mempercepat-penelitian-tentang.png"
   alt: "apakah aman pakai aplikasi ai gratis generator gambar ai vs foto stok alat ai gratis Alat gratis ini bertujuan untuk mempercepat..."
 faq:
   - question: "Apakah Alat gratis ini bertujuan untuk mempercepat penelitian tentang bagaimana chatbot AI membentuk kepercayaan, pembelajaran... aman dipakai?"

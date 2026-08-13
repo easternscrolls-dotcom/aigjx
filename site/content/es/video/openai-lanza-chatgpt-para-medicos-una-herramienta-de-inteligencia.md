@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/openai-lanza-chatgpt-para-medicos-una-herramienta-de-inteligencia.svg"
+  og: "/banners/es/openai-lanza-chatgpt-para-medicos-una-herramienta-de-inteligencia.png"
   alt: "es seguro usar aplicaciones de ia gratuitas herramienta de ia vs editor humano herramienta de vídeo ia gratis OpenAI lanza..."
 faq:
   - question: "¿Qué revisar antes de registrarme?"

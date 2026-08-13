@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/how-free-ai-tools-took-a-first-time-business-owner-from-idea-to-launch.svg"
+  og: "/banners/en/how-free-ai-tools-took-a-first-time-business-owner-from-idea-to-launch.png"
   alt: "what is the best free ai image generator ai image generator vs stock photos best free ai tools How free AI tools took a..."
 faq:
   - question: "Is How free AI tools took a first-time business owner from idea to launch in 60 days... available in United States?"

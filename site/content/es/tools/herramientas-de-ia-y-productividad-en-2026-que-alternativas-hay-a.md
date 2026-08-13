@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/herramientas-de-ia-y-productividad-en-2026-que-alternativas-hay-a.svg"
+  og: "/banners/es/herramientas-de-ia-y-productividad-en-2026-que-alternativas-hay-a.png"
   alt: "como usar una herramienta de ia gratis generador de imagenes ia vs banco de fotos herramienta ia gratis Herramientas de IA y..."
 faq:
   - question: "¿Qué revisar antes de registrarme?"

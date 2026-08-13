@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/fatiga-de-la-ia.svg"
+  og: "/banners/es/fatiga-de-la-ia.png"
   alt: "es seguro usar aplicaciones de ia gratuitas herramienta de ia vs editor humano herramienta de vídeo ia gratis ¿Fatiga de la IA?"
 faq:
   - question: "¿¿Fatiga de la IA? tiene opción gratuita?"

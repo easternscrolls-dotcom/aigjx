@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/quienes-son-los-corredores-de-tokens.svg"
+  og: "/banners/es/quienes-son-los-corredores-de-tokens.png"
   alt: "puedo usar herramientas de ia sin tarjeta generador de imagenes ia vs banco de fotos herramienta ia gratis ¿Quiénes son los..."
 faq:
   - question: "¿Para quién es más útil?"

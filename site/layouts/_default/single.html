@@ -19,7 +19,7 @@
   {{/* 图片布局随机切换：hero 顶部大图 / side 侧边插图 / textonly 极简无图 */}}
   {{ if and (ne $layout "textonly") $img.src }}
   <figure class="img-{{ $layout }}">
-    <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="lazy" decoding="async" width="800" height="450">
+    <img src="{{ $img.src }}" alt="{{ $img.alt }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
   </figure>
   {{ end }}
 

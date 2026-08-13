@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/did-anyone-catch-this-nvidia-put-together-a-500b-financing-deal-with.svg"
+  og: "/banners/en/did-anyone-catch-this-nvidia-put-together-a-500b-financing-deal-with.png"
   alt: "can i use ai tools without a credit card ai image generator vs stock photos free ai image generator Did anyone catch this..."
 faq:
   - question: "What should I check before signing up?"

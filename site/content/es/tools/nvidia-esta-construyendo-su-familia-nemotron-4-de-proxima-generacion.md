@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/nvidia-esta-construyendo-su-familia-nemotron-4-de-proxima-generacion.svg"
+  og: "/banners/es/nvidia-esta-construyendo-su-familia-nemotron-4-de-proxima-generacion.png"
   alt: "puedo usar herramientas de ia sin tarjeta alternativa gratuita a plan de pago de ia herramienta ia gratis NVIDIA está..."
 faq:
   - question: "¿Hay límites de uso?"

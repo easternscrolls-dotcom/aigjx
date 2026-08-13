@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/seorang-agen-ai-secara-mandiri-menemukan-celah-keamanan-di-proyek.svg"
+  og: "/banners/id/seorang-agen-ai-secara-mandiri-menemukan-celah-keamanan-di-proyek.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit generator gambar ai vs foto stok alat ai gratis seorang agen AI secara mandiri menemukan..."
 faq:
   - question: "Apakah antarmukanya berbahasa Indonesia?"

@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake.svg"
+  og: "/banners/es/que-podria-realmente-ayudar-con-el-problema-de-los-deepfake.png"
   alt: "puedo usar herramientas de ia sin tarjeta alternativa gratuita a plan de pago de ia herramienta de vídeo ia gratis ¿Qué podría..."
 faq:
   - question: "¿¿Qué podría realmente ayudar con el problema de los deepfake? tiene opción gratuita?"

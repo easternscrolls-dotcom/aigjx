@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/i-let-ai-agents-run-day-to-day-operations-for-my-food-company.svg"
+  og: "/banners/en/i-let-ai-agents-run-day-to-day-operations-for-my-food-company.png"
   alt: "can i use ai tools without a credit card free ai app alternative to paid plan best free ai tools I let AI agents run day-to-day..."
 faq:
   - question: "How often is this entry updated?"

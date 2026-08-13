@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha.svg"
+  og: "/banners/es/herramienta-de-codigo-abierto-que-mapea-los-conceptos-que-un-llm-ha.png"
   alt: "es seguro usar aplicaciones de ia gratuitas herramienta de ia vs editor humano herramienta de vídeo ia gratis Herramienta de..."
 faq:
   - question: "¿Qué revisar antes de registrarme?"

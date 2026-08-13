@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los.svg"
+  og: "/banners/es/meta-ai-ahora-puede-conectarse-al-correo-electronico-y-a-los.png"
   alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis Meta AI ahora puede..."
 faq:
   - question: "¿Necesito tarjeta para empezar?"

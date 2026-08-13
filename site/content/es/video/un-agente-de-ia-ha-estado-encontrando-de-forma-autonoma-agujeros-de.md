@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/un-agente-de-ia-ha-estado-encontrando-de-forma-autonoma-agujeros-de.svg"
+  og: "/banners/es/un-agente-de-ia-ha-estado-encontrando-de-forma-autonoma-agujeros-de.png"
   alt: "es seguro usar aplicaciones de ia gratuitas alternativa gratuita a plan de pago de ia herramienta de vídeo ia gratis un agente de..."
 faq:
   - question: "¿Es seguro usar un agente de IA ha estado encontrando de forma autónoma agujeros de seguridad en importantes proyectos de código abierto...?"

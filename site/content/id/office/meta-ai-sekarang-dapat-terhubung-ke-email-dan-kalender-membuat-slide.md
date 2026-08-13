@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide.svg"
+  og: "/banners/id/meta-ai-sekarang-dapat-terhubung-ke-email-dan-kalender-membuat-slide.png"
   alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat pdf ai gratis Meta AI sekarang dapat terhubung ke..."
 faq:
   - question: "Apakah harga ditampilkan dalam Rp?"

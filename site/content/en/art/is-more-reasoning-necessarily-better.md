@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/is-more-reasoning-necessarily-better.svg"
+  og: "/banners/en/is-more-reasoning-necessarily-better.png"
   alt: "is it safe to use free ai apps ai image generator vs stock photos free ai image generator Is more reasoning necessarily better..."
 faq:
   - question: "Is the interface in the local language?"

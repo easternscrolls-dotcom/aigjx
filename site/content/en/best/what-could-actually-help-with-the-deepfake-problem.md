@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/what-could-actually-help-with-the-deepfake-problem.svg"
+  og: "/banners/en/what-could-actually-help-with-the-deepfake-problem.png"
   alt: "what is the best free ai image generator ai image generator vs stock photos best free ai tools What could actually help with the..."
 faq:
   - question: "Is there a mobile version?"

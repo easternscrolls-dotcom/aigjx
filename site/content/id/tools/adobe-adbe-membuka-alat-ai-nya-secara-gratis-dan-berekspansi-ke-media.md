@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/adobe-adbe-membuka-alat-ai-nya-secara-gratis-dan-berekspansi-ke-media.svg"
+  og: "/banners/id/adobe-adbe-membuka-alat-ai-nya-secara-gratis-dan-berekspansi-ke-media.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit alternatif gratis untuk paket berbayar ai alat ai gratis Adobe (ADBE) Membuka Alat..."
 faq:
   - question: "Apakah antarmukanya berbahasa Indonesia?"

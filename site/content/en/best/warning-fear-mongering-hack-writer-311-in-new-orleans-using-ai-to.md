@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/warning-fear-mongering-hack-writer-311-in-new-orleans-using-ai-to.svg"
+  og: "/banners/en/warning-fear-mongering-hack-writer-311-in-new-orleans-using-ai-to.png"
   alt: "is it safe to use free ai apps free ai app alternative to paid plan best free ai tools Warning fear mongering tips writer - 311..."
 faq:
   - question: "Does it work for small teams?"

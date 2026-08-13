@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/strategic-survival-game-project.svg"
+  og: "/banners/en/strategic-survival-game-project.png"
   alt: "how to use ai writing tool for free free ai app alternative to paid plan best free ai tools Strategic survival game project..."
 faq:
   - question: "What should I check before signing up?"

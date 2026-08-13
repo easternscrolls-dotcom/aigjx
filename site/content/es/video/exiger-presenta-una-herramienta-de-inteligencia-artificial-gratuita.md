@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/exiger-presenta-una-herramienta-de-inteligencia-artificial-gratuita.svg"
+  og: "/banners/es/exiger-presenta-una-herramienta-de-inteligencia-artificial-gratuita.png"
   alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano herramienta de vídeo ia gratis Exiger presenta una..."
 faq:
   - question: "¿Exiger presenta una herramienta de inteligencia artificial gratuita para que las empresas encuentren trabajo forzoso en sus cadenas de suministro... tiene opción gratuita?"

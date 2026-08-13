@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/cisco-memverifikasi-900-model-ai-dengan-sidik-jari-gratis-ekosistem.svg"
+  og: "/banners/id/cisco-memverifikasi-900-model-ai-dengan-sidik-jari-gratis-ekosistem.png"
   alt: "apa generator gambar ai terbaik gratis alternatif gratis untuk paket berbayar ai alat ai gratis Cisco memverifikasi 900 model AI..."
 faq:
   - question: "Metode pembayaran apa yang bisa dipakai?"

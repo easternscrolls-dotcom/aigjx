@@ -7,22 +7,36 @@
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 
-{{/* 站点级 hreflang：各语种首页 + x-default，避免错误的页面级配对 */}}
+{{/* hreflang：仅声明真实存在的译文配对，避免无关页互链（错位比缺失更糟）。
+     首页输出各语种首页；内页逐页输出自身 + .Translations 真实译文 + x-default→en 译文。 */}}
+{{ $xdefault := .Site.BaseURL }}
+{{ if .IsHome }}
 {{ range .Site.Home.AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
 {{ end }}
-<link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}">
+{{ else }}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ end }}
+{{ $defLang := .Site.Params.defaultLang | default "en" }}
+{{ if eq .Language.Lang $defLang }}{{ $xdefault = .Permalink }}{{ end }}
+{{ range .Translations }}{{ if eq .Language.Lang $defLang }}{{ $xdefault = .Permalink }}{{ end }}{{ end }}
+{{ range .Translations }}<meta property="og:locale:alternate" content="{{ .Language.LanguageCode }}">
+{{ end }}
+{{ end }}
+<link rel="alternate" hreflang="x-default" href="{{ $xdefault }}">
 
-{{/* 构建期静态校验标记：输出各语种首页 URL（与已发出的 hreflang <link> 一致），便于 grep 定位缺失/错误 hreflang 配对（用 meta 而非注释，避免被 minify 剥离） */}}
-<meta name="hreflang-check" content="{{ range .Site.Home.AllTranslations }}{{ .Language.Lang }}={{ .RelPermalink }} {{ end }}">
+{{/* 构建期静态校验标记：输出本页实际 hreflang 配对（meta 而非注释，避免被 minify 剥离） */}}
+<meta name="hreflang-check" content="{{ .Language.Lang }}={{ .RelPermalink }} {{ range .Translations }}{{ .Language.Lang }}={{ .RelPermalink }} {{ end }}x-default={{ $xdefault }}">
 
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:locale" content="{{ .Site.Language.LanguageCode }}">
-{{ with .Params.image }}{{ with .src }}<meta property="og:image" content="{{ . }}">{{ end }}{{ end }}
+{{ with .Params.image }}{{ $img := . }}{{ with $img.og }}<meta property="og:image" content="{{ absURL . }}">{{ else }}{{ with $img.src }}<meta property="og:image" content="{{ absURL . }}">{{ end }}{{ end }}{{ end }}
 <meta name="twitter:card" content="summary">
 
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+{{ with resources.Get "css/main.css" }}{{ with . | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}{{ end }}
 {{ partial "schema.html" . }}

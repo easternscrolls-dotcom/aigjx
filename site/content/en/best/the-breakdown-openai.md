@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/the-breakdown-openai.svg"
+  og: "/banners/en/the-breakdown-openai.png"
   alt: "can i use ai tools without a credit card free ai app alternative to paid plan best free ai tools The Breakdown: OpenAI (2026) —..."
 faq:
   - question: "Is The Breakdown: OpenAI available in United States?"

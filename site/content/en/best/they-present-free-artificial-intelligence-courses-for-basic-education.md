@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/they-present-free-artificial-intelligence-courses-for-basic-education.svg"
+  og: "/banners/en/they-present-free-artificial-intelligence-courses-for-basic-education.png"
   alt: "why is my ai tool trial expired best ai tool or built in template best free ai tools They present free artificial intelligence..."
 faq:
   - question: "Do I need a credit card to start?"

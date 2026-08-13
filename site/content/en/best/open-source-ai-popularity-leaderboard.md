@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/open-source-ai-popularity-leaderboard.svg"
+  og: "/banners/en/open-source-ai-popularity-leaderboard.png"
   alt: "what is the best free ai image generator ai writing tool vs human editor best free ai tools Open Source AI Popularity Leaderboard..."
 faq:
   - question: "Is there any usage limit?"

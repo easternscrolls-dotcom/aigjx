@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan.svg"
+  og: "/banners/id/mereka-menyajikan-kursus-kecerdasan-buatan-gratis-untuk-guru-pendidikan.png"
   alt: "bagaimana cara pakai alat ai gratis alat tulis ai vs editor manusia alat video ai gratis Mereka menyajikan kursus kecerdasan..."
 faq:
   - question: "Bisakah dibatalkan nanti?"

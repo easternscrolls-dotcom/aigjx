@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/challenge-can-updated-ai-video-generators-still-make-the-nightmare-fuel.svg"
+  og: "/banners/en/challenge-can-updated-ai-video-generators-still-make-the-nightmare-fuel.png"
   alt: "why is my ai tool trial expired ai image generator vs stock photos best free ai tools Challenge * can updated AI video generators..."
 faq:
   - question: "What are the main alternatives?"

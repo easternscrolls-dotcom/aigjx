@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/recibi-muchas-preguntas-sobre-como-funciona-la-orquestacion-de-agentes.svg"
+  og: "/banners/es/recibi-muchas-preguntas-sobre-como-funciona-la-orquestacion-de-agentes.png"
   alt: "es seguro usar aplicaciones de ia gratuitas generador de imagenes ia vs banco de fotos herramienta ia gratis Recibí muchas..."
 faq:
   - question: "¿Hay versión móvil?"

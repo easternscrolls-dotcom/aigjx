@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/free-tool-aims-to-speed-research-on-how-ai-chatbots-shape-trust-learning.svg"
+  og: "/banners/en/free-tool-aims-to-speed-research-on-how-ai-chatbots-shape-trust-learning.png"
   alt: "why is my ai tool trial expired ai writing tool vs human editor best free ai tools Free tool aims to speed research on how AI..."
 faq:
   - question: "Is Free tool aims to speed research on how AI chatbots shape trust, learning... available in United States?"

@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/es-necesariamente-mejor-razonar-mas.svg"
+  og: "/banners/es/es-necesariamente-mejor-razonar-mas.png"
   alt: "es seguro usar aplicaciones de ia gratuitas alternativa gratuita a plan de pago de ia herramienta ia gratis ¿Es necesariamente..."
 faq:
   - question: "¿Necesito tarjeta para empezar?"

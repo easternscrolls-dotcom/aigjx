@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/quieres-aprender-ia-claude-acaba-de-publicar-12-cursos-gratuitos-con.svg"
+  og: "/banners/es/quieres-aprender-ia-claude-acaba-de-publicar-12-cursos-gratuitos-con.png"
   alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis ¿Quieres aprender IA..."
 faq:
   - question: "¿Cuáles son las alternativas principales?"

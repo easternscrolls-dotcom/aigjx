@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/ai-highways-and-the-death-of-move-fast-and-break-things.svg"
+  og: "/banners/en/ai-highways-and-the-death-of-move-fast-and-break-things.png"
   alt: "how to use ai writing tool for free ai writing tool vs human editor best free ai tools..."
 faq:
   - question: "How long does setup take?"

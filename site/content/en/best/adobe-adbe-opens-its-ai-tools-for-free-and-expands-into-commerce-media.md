@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/adobe-adbe-opens-its-ai-tools-for-free-and-expands-into-commerce-media.svg"
+  og: "/banners/en/adobe-adbe-opens-its-ai-tools-for-free-and-expands-into-commerce-media.png"
   alt: "what is the best free ai image generator free ai app alternative to paid plan best free ai tools Adobe (ADBE) Opens Its AI Tools..."
 faq:
   - question: "Is the interface in the local language?"

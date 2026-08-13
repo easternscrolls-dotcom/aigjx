@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/cisco-verifica-900-modelos-ia-con-fingerprinting-gratuito-el-ecosistema.svg"
+  og: "/banners/es/cisco-verifica-900-modelos-ia-con-fingerprinting-gratuito-el-ecosistema.png"
   alt: "que es el mejor generador de imagenes con ia generador de imagenes ia vs banco de fotos herramienta ia gratis Cisco verifica 900..."
 faq:
   - question: "¿Qué métodos de pago funcionan?"

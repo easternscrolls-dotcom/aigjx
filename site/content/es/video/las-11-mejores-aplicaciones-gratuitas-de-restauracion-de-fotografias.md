@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/las-11-mejores-aplicaciones-gratuitas-de-restauracion-de-fotografias.svg"
+  og: "/banners/es/las-11-mejores-aplicaciones-gratuitas-de-restauracion-de-fotografias.png"
   alt: "como usar una herramienta de ia gratis herramienta de ia vs editor humano herramienta de vídeo ia gratis Las 11 mejores..."
 faq:
   - question: "¿Es seguro usar Las 11 mejores aplicaciones GRATUITAS de restauración de fotografías antiguas con IA 4K 2026 (más reciente) - perfectcorp.com?"

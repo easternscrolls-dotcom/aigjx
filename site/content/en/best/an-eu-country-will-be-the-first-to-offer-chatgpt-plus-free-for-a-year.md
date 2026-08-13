@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/an-eu-country-will-be-the-first-to-offer-chatgpt-plus-free-for-a-year.svg"
+  og: "/banners/en/an-eu-country-will-be-the-first-to-offer-chatgpt-plus-free-for-a-year.png"
   alt: "what is the best free ai image generator ai writing tool vs human editor best free ai tools An EU country will be the first to..."
 faq:
   - question: "Does An EU country will be the first to offer ChatGPT Plus free for a year: before... have a free option?"

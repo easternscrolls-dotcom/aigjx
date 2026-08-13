@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/tantangan-dapatkah-generator-video-ai-yang-diperbarui-tetap-membuat.svg"
+  og: "/banners/id/tantangan-dapatkah-generator-video-ai-yang-diperbarui-tetap-membuat.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit alternatif gratis untuk paket berbayar ai alat video ai gratis Ulasan Tantangan *..."
 faq:
   - question: "Metode pembayaran apa yang bisa dipakai?"

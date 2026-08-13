@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/cisco-verifies-900-ai-models-with-free-fingerprinting-the-startup.svg"
+  og: "/banners/en/cisco-verifies-900-ai-models-with-free-fingerprinting-the-startup.png"
   alt: "why is my ai tool trial expired best ai tool or built in template best free ai tools Cisco verifies 900 AI models with free..."
 faq:
   - question: "What are the main alternatives?"

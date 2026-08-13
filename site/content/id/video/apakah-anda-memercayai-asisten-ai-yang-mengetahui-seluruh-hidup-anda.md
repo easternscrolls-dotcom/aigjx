@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/apakah-anda-memercayai-asisten-ai-yang-mengetahui-seluruh-hidup-anda.svg"
+  og: "/banners/id/apakah-anda-memercayai-asisten-ai-yang-mengetahui-seluruh-hidup-anda.png"
   alt: "apakah aman pakai aplikasi ai gratis alat tulis ai vs editor manusia alat video ai gratis Apakah Anda memercayai asisten AI yang..."
 faq:
   - question: "Apakah Apakah Anda memercayai asisten AI yang mengetahui seluruh hidup Anda? punya opsi gratis?"

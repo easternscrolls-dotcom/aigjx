@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/buat-tur-udara-bergaya-drone-dengan-ai-gratis-dan-dalam-2-menit-ovacen.svg"
+  og: "/banners/id/buat-tur-udara-bergaya-drone-dengan-ai-gratis-dan-dalam-2-menit-ovacen.png"
   alt: "apa generator gambar ai terbaik gratis generator gambar ai vs foto stok alat ai gratis Buat tur udara bergaya drone dengan AI..."
 faq:
   - question: "Apa alternatif utamanya?"

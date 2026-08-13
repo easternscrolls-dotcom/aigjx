@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/una-herramienta-gratuita-tiene-como-objetivo-acelerar-la-investigacion.svg"
+  og: "/banners/es/una-herramienta-gratuita-tiene-como-objetivo-acelerar-la-investigacion.png"
   alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano herramienta de vídeo ia gratis Una herramienta..."
 faq:
   - question: "¿Puedo cancelar después?"

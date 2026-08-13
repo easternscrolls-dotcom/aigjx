@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/10-ideas-de-automatizacion-de-ia-que-puedes-crear-hoy-sin-codigo-las-3.svg"
+  og: "/banners/es/10-ideas-de-automatizacion-de-ia-que-puedes-crear-hoy-sin-codigo-las-3.png"
   alt: "que es el mejor generador de imagenes con ia generador de imagenes ia vs banco de fotos herramienta ia gratis 10 ideas de..."
 faq:
   - question: "¿Hay límites de uso?"

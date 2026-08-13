@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/opinion-the-hidden-cost-of-chinas-free-a-i-the-new-york-times.svg"
+  og: "/banners/en/opinion-the-hidden-cost-of-chinas-free-a-i-the-new-york-times.png"
   alt: "how to use ai writing tool for free ai image generator vs stock photos best free ai tools Opinion | The Hidden Cost of China’s..."
 faq:
   - question: "Do I need a credit card to start?"

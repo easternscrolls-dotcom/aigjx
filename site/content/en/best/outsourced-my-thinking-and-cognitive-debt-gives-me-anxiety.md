@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/outsourced-my-thinking-and-cognitive-debt-gives-me-anxiety.svg"
+  og: "/banners/en/outsourced-my-thinking-and-cognitive-debt-gives-me-anxiety.png"
   alt: "can i use ai tools without a credit card best ai tool or built in template best free ai tools Outsourced my thinking and..."
 faq:
   - question: "Is there a mobile version?"

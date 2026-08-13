@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/am-i-stuck-paying-five-subscriptions-or-is-there-one-place-with-all-the.svg"
+  og: "/banners/en/am-i-stuck-paying-five-subscriptions-or-is-there-one-place-with-all-the.png"
   alt: "is it safe to use free ai apps free ai app alternative to paid plan best free ai tools Am I stuck paying five subscriptions or is..."
 faq:
   - question: "Which payment methods work?"

@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/an-ai-agent-has-been-autonomously-finding-security-holes-in-major-open.svg"
+  og: "/banners/en/an-ai-agent-has-been-autonomously-finding-security-holes-in-major-open.png"
   alt: "can i use ai tools without a credit card best ai tool or built in template best free ai tools an AI agent has been autonomously..."
 faq:
   - question: "What are the main alternatives?"

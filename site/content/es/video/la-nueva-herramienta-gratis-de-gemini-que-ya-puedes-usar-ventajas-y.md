@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/la-nueva-herramienta-gratis-de-gemini-que-ya-puedes-usar-ventajas-y.svg"
+  og: "/banners/es/la-nueva-herramienta-gratis-de-gemini-que-ya-puedes-usar-ventajas-y.png"
   alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis La nueva herramienta..."
 faq:
   - question: "¿Cuánto tarda la configuración?"

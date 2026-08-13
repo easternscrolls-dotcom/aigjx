@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/claude-code-orchestrator-di-terminal-bench-model-yang-sama.svg"
+  og: "/banners/id/claude-code-orchestrator-di-terminal-bench-model-yang-sama.png"
   alt: "kenapa uji coba ai saya berakhir alat tulis ai vs editor manusia alat video ai gratis Ulasan Claude Code Orchestrator di..."
 faq:
   - question: "Berapa lama proses setup?"

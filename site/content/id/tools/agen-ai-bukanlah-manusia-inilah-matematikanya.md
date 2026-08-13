@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/agen-ai-bukanlah-manusia-inilah-matematikanya.svg"
+  og: "/banners/id/agen-ai-bukanlah-manusia-inilah-matematikanya.png"
   alt: "bagaimana cara pakai alat ai gratis generator gambar ai vs foto stok alat ai gratis Agen AI Bukanlah Manusia..."
 faq:
   - question: "Metode pembayaran apa yang bisa dipakai?"

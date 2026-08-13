@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/check-my-handbook-es-una-herramienta-de-inteligencia-artificial.svg"
+  og: "/banners/es/check-my-handbook-es-una-herramienta-de-inteligencia-artificial.png"
   alt: "por que expiro mi prueba gratuita de ia generador de imagenes ia vs banco de fotos herramienta ia gratis Check My Handbook es una..."
 faq:
   - question: "¿Los precios se muestran en MX$?"

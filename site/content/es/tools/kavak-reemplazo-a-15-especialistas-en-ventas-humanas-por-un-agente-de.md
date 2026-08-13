@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de.svg"
+  og: "/banners/es/kavak-reemplazo-a-15-especialistas-en-ventas-humanas-por-un-agente-de.png"
   alt: "puedo usar herramientas de ia sin tarjeta generador de imagenes ia vs banco de fotos herramienta ia gratis Kavak reemplazó a 15..."
 faq:
   - question: "¿Kavak reemplazó a 15 especialistas en ventas humanas por un agente de inteligencia artificial; ahora vende 2,1 veces más que ellos tiene opción gratuita?"

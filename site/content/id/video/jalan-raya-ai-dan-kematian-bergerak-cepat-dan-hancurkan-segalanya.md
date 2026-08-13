@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya.svg"
+  og: "/banners/id/jalan-raya-ai-dan-kematian-bergerak-cepat-dan-hancurkan-segalanya.png"
   alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat video ai gratis..."
 faq:
   - question: "Berapa lama proses setup?"

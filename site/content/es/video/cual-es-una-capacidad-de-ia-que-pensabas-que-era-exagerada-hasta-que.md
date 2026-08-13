@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que.svg"
+  og: "/banners/es/cual-es-una-capacidad-de-ia-que-pensabas-que-era-exagerada-hasta-que.png"
   alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis ¿Cuál es una capacidad..."
 faq:
   - question: "¿Cuáles son las alternativas principales?"

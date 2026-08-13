@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/siapa-broker-tokennya.svg"
+  og: "/banners/id/siapa-broker-tokennya.png"
   alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat ai gratis Siapa Broker Tokennya?: panduan gratis (2026)"
 faq:
   - question: "Metode pembayaran apa yang bisa dipakai?"

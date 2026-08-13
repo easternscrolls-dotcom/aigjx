@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan.svg"
+  og: "/banners/id/peringatan-ketakutan-penulis-peretasan-311-di-new-orleans-menggunakan.png"
   alt: "bagaimana cara pakai alat ai gratis alternatif gratis untuk paket berbayar ai alat video ai gratis Peringatan ketakutan penulis..."
 faq:
   - question: "Apakah Peringatan ketakutan penulis peretasan - 311 di New Orleans menggunakan AI untuk menjawab panggilan. tersedia di Indonesia?"

@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/ai-agents-are-not-people-heres-the-math.svg"
+  og: "/banners/en/ai-agents-are-not-people-heres-the-math.png"
   alt: "why is my ai tool trial expired ai image generator vs stock photos free ai image generator AI Agents Are Not People..."
 faq:
   - question: "Is it safe to use AI Agents Are Not People. Here’s the Math.?"

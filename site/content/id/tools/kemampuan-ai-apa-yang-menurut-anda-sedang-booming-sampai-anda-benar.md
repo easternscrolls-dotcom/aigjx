@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar.svg"
+  og: "/banners/id/kemampuan-ai-apa-yang-menurut-anda-sedang-booming-sampai-anda-benar.png"
   alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat ai gratis Kemampuan AI apa yang menurut Anda sedang..."
 faq:
   - question: "Paling cocok untuk siapa?"

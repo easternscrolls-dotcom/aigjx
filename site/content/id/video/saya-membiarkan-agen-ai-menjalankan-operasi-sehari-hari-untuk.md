@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/saya-membiarkan-agen-ai-menjalankan-operasi-sehari-hari-untuk.svg"
+  og: "/banners/id/saya-membiarkan-agen-ai-menjalankan-operasi-sehari-hari-untuk.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit generator gambar ai vs foto stok alat video ai gratis Saya membiarkan agen AI..."
 faq:
   - question: "Berapa lama proses setup?"

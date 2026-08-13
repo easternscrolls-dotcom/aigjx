@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/deje-que-agentes-de-ia-dirigieran-las-operaciones-diarias-de-mi-empresa.svg"
+  og: "/banners/es/deje-que-agentes-de-ia-dirigieran-las-operaciones-diarias-de-mi-empresa.png"
   alt: "por que expiro mi prueba gratuita de ia generador de imagenes ia vs banco de fotos herramienta ia gratis Dejé que agentes de IA..."
 faq:
   - question: "¿Sirve para equipos pequeños?"

@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu.svg"
+  og: "/banners/id/ai-mana-yang-terbaik-untuk-merencanakan-sesuatu.png"
   alt: "apa generator gambar ai terbaik gratis alat tulis ai vs editor manusia alat video ai gratis Ai mana yang terbaik untuk..."
 faq:
   - question: "Bisakah dibatalkan nanti?"

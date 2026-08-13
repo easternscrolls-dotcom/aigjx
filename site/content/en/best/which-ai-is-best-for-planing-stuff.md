@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/which-ai-is-best-for-planing-stuff.svg"
+  og: "/banners/en/which-ai-is-best-for-planing-stuff.png"
   alt: "is it safe to use free ai apps best ai tool or built in template best free ai tools Which ai is best for planing stuff..."
 faq:
   - question: "Which payment methods work?"

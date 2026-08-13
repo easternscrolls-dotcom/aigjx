@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/los-agentes-de-ia-crean-mas-problemas-o-que.svg"
+  og: "/banners/es/los-agentes-de-ia-crean-mas-problemas-o-que.png"
   alt: "como usar una herramienta de ia gratis alternativa gratuita a plan de pago de ia herramienta ia gratis ¿Los agentes de IA crean..."
 faq:
   - question: "¿Para quién es más útil?"

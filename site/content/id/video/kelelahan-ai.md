@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/kelelahan-ai.svg"
+  og: "/banners/id/kelelahan-ai.png"
   alt: "apa generator gambar ai terbaik gratis alat tulis ai vs editor manusia alat video ai gratis Kelelahan AI?"
 faq:
   - question: "Apakah Kelelahan AI? punya opsi gratis?"

@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/sebuah-negara-ue-akan-menjadi-negara-pertama-yang-menawarkan-chatgpt.svg"
+  og: "/banners/id/sebuah-negara-ue-akan-menjadi-negara-pertama-yang-menawarkan-chatgpt.png"
   alt: "apa generator gambar ai terbaik gratis generator gambar ai vs foto stok alat ai gratis Ulasan Sebuah negara UE akan menjadi..."
 faq:
   - question: "Paling cocok untuk siapa?"

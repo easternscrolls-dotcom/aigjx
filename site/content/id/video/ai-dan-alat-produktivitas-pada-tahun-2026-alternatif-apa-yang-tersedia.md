@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/ai-dan-alat-produktivitas-pada-tahun-2026-alternatif-apa-yang-tersedia.svg"
+  og: "/banners/id/ai-dan-alat-produktivitas-pada-tahun-2026-alternatif-apa-yang-tersedia.png"
   alt: "apa generator gambar ai terbaik gratis alat tulis ai vs editor manusia alat video ai gratis AI dan alat produktivitas pada tahun..."
 faq:
   - question: "Apa alternatif utamanya?"

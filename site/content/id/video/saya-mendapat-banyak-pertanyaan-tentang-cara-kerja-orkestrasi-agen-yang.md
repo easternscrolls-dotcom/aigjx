@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/saya-mendapat-banyak-pertanyaan-tentang-cara-kerja-orkestrasi-agen-yang.svg"
+  og: "/banners/id/saya-mendapat-banyak-pertanyaan-tentang-cara-kerja-orkestrasi-agen-yang.png"
   alt: "bagaimana cara pakai alat ai gratis alat tulis ai vs editor manusia alat video ai gratis Saya mendapat banyak pertanyaan tentang..."
 faq:
   - question: "Berapa lama proses setup?"

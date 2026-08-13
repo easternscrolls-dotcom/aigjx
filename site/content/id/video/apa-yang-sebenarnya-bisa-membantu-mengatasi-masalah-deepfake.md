@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/apa-yang-sebenarnya-bisa-membantu-mengatasi-masalah-deepfake.svg"
+  og: "/banners/id/apa-yang-sebenarnya-bisa-membantu-mengatasi-masalah-deepfake.png"
   alt: "kenapa uji coba ai saya berakhir alat tulis ai vs editor manusia alat video ai gratis Apa yang sebenarnya bisa membantu mengatasi..."
 faq:
   - question: "Apakah ada versi ponsel?"

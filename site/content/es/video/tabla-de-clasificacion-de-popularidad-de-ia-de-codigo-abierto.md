@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto.svg"
+  og: "/banners/es/tabla-de-clasificacion-de-popularidad-de-ia-de-codigo-abierto.png"
   alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano herramienta de vídeo ia gratis Tabla de..."
 faq:
   - question: "¿Con qué frecuencia se actualiza esta ficha?"

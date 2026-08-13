@@ -76,6 +76,8 @@ defaultContentLanguageInSubdir = true
   description = "Free AI online tools directory — guides, comparisons and tips in English, Español and Bahasa Indonesia."
   # 分销外链统一属性，白帽合规必备
   outboundRel = "nofollow sponsored noopener"
+  # 默认语种（用于 hreflang x-default 指向）；与 defaultContentLanguage 保持一致
+  defaultLang = "en"
 
 [sitemap]
   changefreq = "weekly"

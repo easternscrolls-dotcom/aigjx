@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/nvidia-is-building-its-next-gen-nemotron-4-family-to-compete-directly.svg"
+  og: "/banners/en/nvidia-is-building-its-next-gen-nemotron-4-family-to-compete-directly.png"
   alt: "can i use ai tools without a credit card best ai tool or built in template best free ai tools NVIDIA is building its next-gen..."
 faq:
   - question: "Which payment methods work?"

@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/alguien-capto-esto-nvidia-cerro-un-acuerdo-de-financiacion-de-500-000.svg"
+  og: "/banners/es/alguien-capto-esto-nvidia-cerro-un-acuerdo-de-financiacion-de-500-000.png"
   alt: "puedo usar herramientas de ia sin tarjeta alternativa gratuita a plan de pago de ia herramienta ia gratis ¿Alguien captó esto..."
 faq:
   - question: "¿Los precios se muestran en MX$?"

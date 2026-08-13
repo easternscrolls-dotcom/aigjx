@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/las-herramientas-de-inteligencia-artificial-por-las-que-vale-la-pena.svg"
+  og: "/banners/es/las-herramientas-de-inteligencia-artificial-por-las-que-vale-la-pena.png"
   alt: "por que expiro mi prueba gratuita de ia herramienta de ia vs editor humano herramienta de vídeo ia gratis Las herramientas de..."
 faq:
   - question: "¿La interfaz está en español?"

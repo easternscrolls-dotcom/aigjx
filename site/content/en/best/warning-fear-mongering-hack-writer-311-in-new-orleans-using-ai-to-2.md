@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/warning-fear-mongering-hack-writer-311-in-new-orleans-using-ai-to-2.svg"
+  og: "/banners/en/warning-fear-mongering-hack-writer-311-in-new-orleans-using-ai-to-2.png"
   alt: "can i use ai tools without a credit card ai writing tool vs human editor best free ai tools Warning fear mongering tips writer..."
 faq:
   - question: "What should I check before signing up?"

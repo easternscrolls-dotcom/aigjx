@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/rinciannya-openai.svg"
+  og: "/banners/id/rinciannya-openai.png"
   alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat ai gratis Rinciannya: OpenAI: sekilas 2026"
 faq:
   - question: "Apakah harga ditampilkan dalam Rp?"

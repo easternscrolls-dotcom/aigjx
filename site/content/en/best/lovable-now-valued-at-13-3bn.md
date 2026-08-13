@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/lovable-now-valued-at-13-3bn.svg"
+  og: "/banners/en/lovable-now-valued-at-13-3bn.png"
   alt: "what is the best free ai image generator ai image generator vs stock photos best free ai tools Lovable now valued at $13.3bn"
 faq:
   - question: "Is there any usage limit?"

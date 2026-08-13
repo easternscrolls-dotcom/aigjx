@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/openai-launches-chatgpt-for-clinicians-a-free-ai-tool-for-physicians.svg"
+  og: "/banners/en/openai-launches-chatgpt-for-clinicians-a-free-ai-tool-for-physicians.png"
   alt: "is it safe to use free ai apps ai image generator vs stock photos best free ai tools OpenAI launches ChatGPT for Clinicians..."
 faq:
   - question: "Which payment methods work?"

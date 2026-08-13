@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/create-drone-style-aerial-tours-with-ai-for-free-and-in-2-minutes-ovacen.svg"
+  og: "/banners/en/create-drone-style-aerial-tours-with-ai-for-free-and-in-2-minutes-ovacen.png"
   alt: "is it safe to use free ai apps ai image generator vs stock photos best free ai tools Create drone-style aerial tours with AI for..."
 faq:
   - question: "How long does setup take?"

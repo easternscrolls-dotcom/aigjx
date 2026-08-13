@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/proyek-permainan-bertahan-hidup-yang-strategis.svg"
+  og: "/banners/id/proyek-permainan-bertahan-hidup-yang-strategis.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit alat tulis ai vs editor manusia alat video ai gratis Proyek permainan bertahan hidup..."
 faq:
   - question: "Apakah antarmukanya berbahasa Indonesia?"

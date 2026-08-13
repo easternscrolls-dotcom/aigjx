@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana.svg"
+  og: "/banners/id/apakah-agen-ai-menimbulkan-lebih-banyak-masalah-atau-bagaimana.png"
   alt: "apakah aman pakai aplikasi ai gratis generator gambar ai vs foto stok alat video ai gratis Apakah agen AI menimbulkan lebih..."
 faq:
   - question: "Metode pembayaran apa yang bisa dipakai?"

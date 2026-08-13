@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/multi-nodal-ai-architecture-discusses-politics.svg"
+  og: "/banners/en/multi-nodal-ai-architecture-discusses-politics.png"
   alt: "how to use ai writing tool for free best ai tool or built in template best free ai tools ‎multi-nodal AI Architecture discusses..."
 faq:
   - question: "How long does setup take?"

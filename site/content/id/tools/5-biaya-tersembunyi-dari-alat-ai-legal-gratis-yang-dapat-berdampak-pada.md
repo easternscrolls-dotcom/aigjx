@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/5-biaya-tersembunyi-dari-alat-ai-legal-gratis-yang-dapat-berdampak-pada.svg"
+  og: "/banners/id/5-biaya-tersembunyi-dari-alat-ai-legal-gratis-yang-dapat-berdampak-pada.png"
   alt: "bagaimana cara pakai alat ai gratis generator gambar ai vs foto stok alat ai gratis 5 biaya tersembunyi dari alat AI legal..."
 faq:
   - question: "Berapa lama proses setup?"

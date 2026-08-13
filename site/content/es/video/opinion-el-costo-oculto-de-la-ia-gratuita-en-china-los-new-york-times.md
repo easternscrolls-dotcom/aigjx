@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/opinion-el-costo-oculto-de-la-ia-gratuita-en-china-los-new-york-times.svg"
+  og: "/banners/es/opinion-el-costo-oculto-de-la-ia-gratuita-en-china-los-new-york-times.png"
   alt: "puedo usar herramientas de ia sin tarjeta generador de imagenes ia vs banco de fotos herramienta de vídeo ia gratis Opinión | El..."
 faq:
   - question: "¿La interfaz está en español?"

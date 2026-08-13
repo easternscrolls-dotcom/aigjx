@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/opini-biaya-tersembunyi-dari-a-i-gratis-tiongkok-waktu-new-york.svg"
+  og: "/banners/id/opini-biaya-tersembunyi-dari-a-i-gratis-tiongkok-waktu-new-york.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit alat tulis ai vs editor manusia alat video ai gratis Opini | Biaya Tersembunyi dari A.I..."
 faq:
   - question: "Paling cocok untuk siapa?"

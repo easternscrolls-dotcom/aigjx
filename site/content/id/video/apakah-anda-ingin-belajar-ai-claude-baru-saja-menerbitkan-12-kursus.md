@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus.svg"
+  og: "/banners/id/apakah-anda-ingin-belajar-ai-claude-baru-saja-menerbitkan-12-kursus.png"
   alt: "apakah aman pakai aplikasi ai gratis generator gambar ai vs foto stok alat video ai gratis Apakah Anda ingin belajar AI..."
 faq:
   - question: "Seberapa sering entri ini diperbarui?"

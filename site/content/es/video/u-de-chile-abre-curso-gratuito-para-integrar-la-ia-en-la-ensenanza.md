@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza.svg"
+  og: "/banners/es/u-de-chile-abre-curso-gratuito-para-integrar-la-ia-en-la-ensenanza.png"
   alt: "puedo usar herramientas de ia sin tarjeta herramienta de ia vs editor humano herramienta de vídeo ia gratis U..."
 faq:
   - question: "¿Puedo cancelar después?"

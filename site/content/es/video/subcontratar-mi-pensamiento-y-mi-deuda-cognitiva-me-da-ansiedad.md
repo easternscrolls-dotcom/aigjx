@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/subcontratar-mi-pensamiento-y-mi-deuda-cognitiva-me-da-ansiedad.svg"
+  og: "/banners/es/subcontratar-mi-pensamiento-y-mi-deuda-cognitiva-me-da-ansiedad.png"
   alt: "como usar una herramienta de ia gratis herramienta de ia vs editor humano herramienta de vídeo ia gratis Subcontratar mi..."
 faq:
   - question: "¿Necesito tarjeta para empezar?"

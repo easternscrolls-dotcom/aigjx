@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/autopistas-de-ia-y-la-muerte-de-moverse-rapido-y-romper-cosas.svg"
+  og: "/banners/es/autopistas-de-ia-y-la-muerte-de-moverse-rapido-y-romper-cosas.png"
   alt: "es seguro usar aplicaciones de ia gratuitas alternativa gratuita a plan de pago de ia herramienta ia gratis..."
 faq:
   - question: "¿Es seguro usar Autopistas de IA y la muerte de \"moverse rápido y romper cosas\"?"

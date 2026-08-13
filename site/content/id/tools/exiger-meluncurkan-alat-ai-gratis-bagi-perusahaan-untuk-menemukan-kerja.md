@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/exiger-meluncurkan-alat-ai-gratis-bagi-perusahaan-untuk-menemukan-kerja.svg"
+  og: "/banners/id/exiger-meluncurkan-alat-ai-gratis-bagi-perusahaan-untuk-menemukan-kerja.png"
   alt: "apa generator gambar ai terbaik gratis alternatif gratis untuk paket berbayar ai alat ai gratis Exiger Meluncurkan Alat AI Gratis..."
 faq:
   - question: "Apakah Exiger Meluncurkan Alat AI Gratis bagi Perusahaan untuk Menemukan Kerja Paksa di Rantai Pasokan Mereka... tersedia di Indonesia?"

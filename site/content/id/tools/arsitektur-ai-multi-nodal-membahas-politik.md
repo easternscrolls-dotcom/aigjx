@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/arsitektur-ai-multi-nodal-membahas-politik.svg"
+  og: "/banners/id/arsitektur-ai-multi-nodal-membahas-politik.png"
   alt: "bagaimana cara pakai alat ai gratis generator gambar ai vs foto stok alat ai gratis Arsitektur AI multi-nodal membahas Politik..."
 faq:
   - question: "Apakah perlu kartu kredit untuk mulai?"

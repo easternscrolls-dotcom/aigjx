@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/presentan-cursos-gratuitos-de-inteligencia-artificial-para-docentes-de.svg"
+  og: "/banners/es/presentan-cursos-gratuitos-de-inteligencia-artificial-para-docentes-de.png"
   alt: "como usar una herramienta de ia gratis generador de imagenes ia vs banco de fotos herramienta ia gratis Presentan cursos..."
 faq:
   - question: "¿Los precios se muestran en MX$?"

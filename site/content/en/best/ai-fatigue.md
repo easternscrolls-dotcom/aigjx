@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/ai-fatigue.svg"
+  og: "/banners/en/ai-fatigue.png"
   alt: "how to use ai writing tool for free free ai app alternative to paid plan best free ai tools AI Fatigue?"
 faq:
   - question: "Is the interface in the local language?"

@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/apakah-lebih-banyak-alasan-tentu-lebih-baik.svg"
+  og: "/banners/id/apakah-lebih-banyak-alasan-tentu-lebih-baik.png"
   alt: "apa generator gambar ai terbaik gratis alat tulis ai vs editor manusia alat video ai gratis Apakah lebih banyak alasan tentu..."
 faq:
   - question: "Apa yang perlu dicek sebelum mendaftar?"

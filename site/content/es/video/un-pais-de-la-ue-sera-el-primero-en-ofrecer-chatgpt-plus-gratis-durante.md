@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/un-pais-de-la-ue-sera-el-primero-en-ofrecer-chatgpt-plus-gratis-durante.svg"
+  og: "/banners/es/un-pais-de-la-ue-sera-el-primero-en-ofrecer-chatgpt-plus-gratis-durante.png"
   alt: "puedo usar herramientas de ia sin tarjeta generador de imagenes ia vs banco de fotos herramienta de vídeo ia gratis Un país de la..."
 faq:
   - question: "¿La interfaz está en español?"

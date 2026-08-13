@@ -7,6 +7,7 @@
 title: "{{ title | yaml }}"
 description: "{{ description | yaml }}"
 slug: "{{ slug }}"
+translationKey: "{{ translation_key }}"
 date: {{ date }}
 lastmod: {{ date }}
 draft: false
@@ -21,6 +22,7 @@ keywords:
 image:
   layout: "{{ layout }}"
   src: "{{ image }}"
+  og: "{{ og_image }}"
   alt: "{{ alt | yaml }}"
 {% if faqs %}
 faq:

@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide.svg"
+  og: "/banners/id/10-ide-otomatisasi-ai-yang-dapat-anda-buat-hari-ini-tanpa-kode-3-ide.png"
   alt: "bagaimana cara pakai alat ai gratis alternatif gratis untuk paket berbayar ai alat video ai gratis 10 ide otomatisasi AI yang..."
 faq:
   - question: "Apakah harga ditampilkan dalam Rp?"

@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/claude-code-orchestrator-on-terminal-bench-same-model.svg"
+  og: "/banners/en/claude-code-orchestrator-on-terminal-bench-same-model.png"
   alt: "can i use ai tools without a credit card best ai tool or built in template best free ai tools Claude Code Orchestrator on..."
 faq:
   - question: "Are prices shown in $?"

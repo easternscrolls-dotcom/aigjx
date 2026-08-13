@@ -18,6 +18,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/kavak-replaced-15-human-sales-specialists-with-one-ai-agent-it-now.svg"
+  og: "/banners/en/kavak-replaced-15-human-sales-specialists-with-one-ai-agent-it-now.png"
   alt: "how to use ai writing tool for free ai writing tool vs human editor free ai video tool Kavak Replaced 15 Human Sales Specialists..."
 faq:
   - question: "Does Kavak Replaced 15 Human Sales Specialists With One AI Agent — It Now Outsells Them 2.1x have a free option?"

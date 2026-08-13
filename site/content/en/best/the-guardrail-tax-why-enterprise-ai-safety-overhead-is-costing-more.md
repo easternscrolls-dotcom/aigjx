@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/the-guardrail-tax-why-enterprise-ai-safety-overhead-is-costing-more.svg"
+  og: "/banners/en/the-guardrail-tax-why-enterprise-ai-safety-overhead-is-costing-more.png"
   alt: "what is the best free ai image generator best ai tool or built in template best free ai tools The guardrail tax: why enterprise..."
 faq:
   - question: "How long does setup take?"

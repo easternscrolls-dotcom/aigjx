@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/es/lovable-ahora-valorado-en-13-300-millones-de-dolares.svg"
+  og: "/banners/es/lovable-ahora-valorado-en-13-300-millones-de-dolares.png"
   alt: "es seguro usar aplicaciones de ia gratuitas herramienta de ia vs editor humano herramienta de vídeo ia gratis Lovable ahora..."
 faq:
   - question: "¿Los precios se muestran en MX$?"

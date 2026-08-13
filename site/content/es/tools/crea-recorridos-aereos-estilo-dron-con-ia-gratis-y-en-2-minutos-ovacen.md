@@ -21,6 +21,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/es/crea-recorridos-aereos-estilo-dron-con-ia-gratis-y-en-2-minutos-ovacen.svg"
+  og: "/banners/es/crea-recorridos-aereos-estilo-dron-con-ia-gratis-y-en-2-minutos-ovacen.png"
   alt: "como usar una herramienta de ia gratis alternativa gratuita a plan de pago de ia herramienta ia gratis Crea recorridos aéreos..."
 faq:
   - question: "¿Es seguro usar Crea recorridos aéreos estilo dron con IA gratis ¡Y en 2 minutos! - OVACEN?"

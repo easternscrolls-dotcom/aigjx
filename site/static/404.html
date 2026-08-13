@@ -5,7 +5,28 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>404 — AutoGuide</title>
 <meta name="robots" content="noindex">
-<link rel="stylesheet" href="/css/main.css">
+<style>
+  :root{--fg:#1a1a1a;--muted:#6b7280;--accent:#2563eb;--bg:#f7f8fa;border:0}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);line-height:1.6}
+  .site-header{padding:16px 24px;border-bottom:1px solid #e5e7eb}
+  .brand{font-weight:700;color:var(--fg);text-decoration:none;font-size:18px}
+  .wrap{max-width:720px;margin:48px auto;padding:0 24px}
+  h1{font-size:32px;margin:0 0 8px}
+  #nf-desc{color:var(--muted);margin:0 0 28px}
+  #nf-search{display:flex;gap:8px;margin:0 0 28px;flex-wrap:wrap}
+  #nf-search input[type=search]{flex:1;min-width:200px;padding:10px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:15px}
+  #nf-search button{padding:10px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-size:15px;cursor:pointer}
+  #nf-rec-title{font-weight:600;margin:0 0 12px}
+  .cards{list-style:none;padding:0;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+  .card{border:1px solid #e5e7eb;border-radius:10px;background:#fff;transition:border-color .15s}
+  .card:hover{border-color:var(--accent)}
+  .card a{display:block;padding:16px;color:var(--fg);text-decoration:none}
+  .card h2{font-size:16px;margin:0}
+  #nf-home{display:inline-block;margin-top:28px;color:var(--accent);text-decoration:none}
+  .site-footer{margin-top:56px;padding:24px;border-top:1px solid #e5e7eb;color:var(--muted);font-size:13px}
+  .muted{opacity:.7}
+</style>
 </head>
 <body>
 <header class="site-header">

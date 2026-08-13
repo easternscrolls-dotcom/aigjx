@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/en/meta-ai-can-now-connect-to-email-and-calendars-create-slides-and-run.svg"
+  og: "/banners/en/meta-ai-can-now-connect-to-email-and-calendars-create-slides-and-run.png"
   alt: "why is my ai tool trial expired ai writing tool vs human editor best free ai tools Meta AI can now connect to email and..."
 faq:
   - question: "Who is this best suited for?"

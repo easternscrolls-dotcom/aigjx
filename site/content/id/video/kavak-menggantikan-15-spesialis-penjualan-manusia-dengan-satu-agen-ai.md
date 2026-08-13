@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai.svg"
+  og: "/banners/id/kavak-menggantikan-15-spesialis-penjualan-manusia-dengan-satu-agen-ai.png"
   alt: "apa generator gambar ai terbaik gratis alat tulis ai vs editor manusia alat video ai gratis Kavak Menggantikan 15 Spesialis..."
 faq:
   - question: "Apakah Kavak Menggantikan 15 Spesialis Penjualan Manusia Dengan Satu Agen AI — Kini Penjualannya Lebih Banyak Dari Mereka 2,1x tersedia di Indonesia?"

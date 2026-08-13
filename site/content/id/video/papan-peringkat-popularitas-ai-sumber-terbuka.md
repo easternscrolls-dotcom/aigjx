@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/papan-peringkat-popularitas-ai-sumber-terbuka.svg"
+  og: "/banners/id/papan-peringkat-popularitas-ai-sumber-terbuka.png"
   alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat video ai gratis Papan Peringkat Popularitas AI Sumber..."
 faq:
   - question: "Apakah Papan Peringkat Popularitas AI Sumber Terbuka punya opsi gratis?"

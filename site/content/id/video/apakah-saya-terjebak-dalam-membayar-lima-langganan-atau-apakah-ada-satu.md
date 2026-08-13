@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu.svg"
+  og: "/banners/id/apakah-saya-terjebak-dalam-membayar-lima-langganan-atau-apakah-ada-satu.png"
   alt: "apa generator gambar ai terbaik gratis alat tulis ai vs editor manusia alat video ai gratis Apakah saya terjebak dalam membayar..."
 faq:
   - question: "Paling cocok untuk siapa?"

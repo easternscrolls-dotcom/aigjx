@@ -19,6 +19,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/alat-ai-yang-layak-dibayar-karena-gratis-itu-sampah-vice.svg"
+  og: "/banners/id/alat-ai-yang-layak-dibayar-karena-gratis-itu-sampah-vice.png"
   alt: "kenapa uji coba ai saya berakhir generator gambar ai vs foto stok alat ai gratis Alat AI yang Layak Dibayar (Karena Gratis Itu..."
 faq:
   - question: "Bisakah dibatalkan nanti?"

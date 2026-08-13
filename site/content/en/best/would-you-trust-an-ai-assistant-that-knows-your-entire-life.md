@@ -23,6 +23,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/en/would-you-trust-an-ai-assistant-that-knows-your-entire-life.svg"
+  og: "/banners/en/would-you-trust-an-ai-assistant-that-knows-your-entire-life.png"
   alt: "what is the best free ai image generator ai writing tool vs human editor best free ai tools Would you trust an AI assistant that..."
 faq:
   - question: "Does it work for small teams?"

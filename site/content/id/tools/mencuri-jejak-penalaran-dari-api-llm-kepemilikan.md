@@ -20,6 +20,7 @@ keywords:
 image:
   layout: "side"
   src: "/banners/id/mencuri-jejak-penalaran-dari-api-llm-kepemilikan.svg"
+  og: "/banners/id/mencuri-jejak-penalaran-dari-api-llm-kepemilikan.png"
   alt: "bisakah pakai alat ai tanpa kartu kredit alternatif gratis untuk paket berbayar ai alat ai gratis Ulasan Mencuri Jejak Penalaran..."
 faq:
   - question: "Seberapa sering entri ini diperbarui?"

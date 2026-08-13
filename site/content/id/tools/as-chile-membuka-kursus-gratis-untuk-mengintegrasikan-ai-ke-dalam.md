@@ -22,6 +22,7 @@ keywords:
 image:
   layout: "hero"
   src: "/banners/id/as-chile-membuka-kursus-gratis-untuk-mengintegrasikan-ai-ke-dalam.svg"
+  og: "/banners/id/as-chile-membuka-kursus-gratis-untuk-mengintegrasikan-ai-ke-dalam.png"
   alt: "kenapa uji coba ai saya berakhir alternatif gratis untuk paket berbayar ai alat ai gratis AS Chile membuka kursus gratis untuk..."
 faq:
   - question: "Bisakah dibatalkan nanti?"
