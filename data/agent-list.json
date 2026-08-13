@@ -1,0 +1,447 @@
+{
+  "_comment": "AgentHub 数据文件 —— 全站唯一数据源。后续自动化脚本只修改本文件，无需改动任何前端代码。字段说明见 README.md。",
+  "site": {
+    "name": "AgentHub",
+    "title": "AgentHub - AI智能体自动化工具大全",
+    "subtitle": "全网独家垂直 AI 智能体 Agent 工具导航，只收录自动化 Agent，不混杂绘图与通用写作 AI",
+    "description": "AgentHub 是垂直的 AI 智能体 Agent 工具导航站，精选本地开源 Agent 框架、浏览器网页 Agent、低代码工作流 Agent、跨境商用 Agent 与 Agent 配套辅助工具，提供免费开源、云端付费、本地离线三类标签与直达官网入口。",
+    "keywords": "AI智能体, Agent工具, 自动化Agent, 智能体导航, AI Agent大全, 本地开源Agent, 浏览器自动化, 工作流自动化, 跨境电商Agent, 外贸邮件自动回复, n8n, Dify, AutoGPT, 智能体框架推荐",
+    "baseUrl": "https://freeai.72tool.com",
+    "icp": ""
+  },
+  "categories": [
+    {
+      "id": "local",
+      "name": "本地开源 Agent 框架",
+      "icon": "🖥️",
+      "desc": "可本地部署、离线运行的智能体框架与开发平台，数据私有、可自托管。",
+      "longTail": "本地开源智能体框架推荐, 离线AI Agent部署, 自托管Agent平台"
+    },
+    {
+      "id": "browser",
+      "name": "浏览器网页 Agent",
+      "icon": "🌐",
+      "desc": "自动填表、批量采集、自动发帖、数据抓取的浏览器自动化与网页 Agent 工具。",
+      "longTail": "浏览器自动化Agent, 网页自动填表工具, 批量数据采集Agent"
+    },
+    {
+      "id": "workflow",
+      "name": "低代码工作流 Agent",
+      "icon": "🔗",
+      "desc": "可视化拖拽、任务调度、自动化流程机器人，无需写代码串起多平台任务。",
+      "longTail": "低代码自动化工作流, 任务调度机器人, 无代码流程自动化工具"
+    },
+    {
+      "id": "crossborder",
+      "name": "跨境商用 Agent",
+      "icon": "🌏",
+      "desc": "面向 TikTok 素材、亚马逊选品、外贸邮件自动回复等跨境出海场景的商业化 Agent。",
+      "longTail": "跨境电商Agent, TikTok素材生成, 亚马逊选品机器人, 外贸邮件自动回复"
+    },
+    {
+      "id": "tools",
+      "name": "Agent 配套辅助工具",
+      "icon": "🛠️",
+      "desc": "API 中转、本地大模型对接、任务脚本与 Agent 部署教程等周边辅助工具。",
+      "longTail": "API中转平台, 本地大模型对接, Agent部署教程, 大模型API聚合"
+    }
+  ],
+  "agents": [
+    {
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "category": "local",
+      "summary": "开源自主 AI 智能体，可把一句话目标自动拆解为多步任务并循环执行。",
+      "type": "open-source",
+      "tags": ["自主智能体", "任务规划", "开源"],
+      "scenarios": ["个人自动化", "本地部署", "任务拆解"],
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "qwen-agent",
+      "name": "Qwen Agent",
+      "category": "local",
+      "summary": "阿里开源的 Agent 应用框架，内置工具调用、代码解释与多智能体编排能力。",
+      "type": "open-source",
+      "tags": ["通义千问", "工具调用", "国产开源"],
+      "scenarios": ["国产大模型", "本地部署", "工具编排"],
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "category": "local",
+      "summary": "开源 LLM 应用开发平台，可视化编排 Agent、RAG 与工作流，支持私有化部署。",
+      "type": "open-source",
+      "tags": ["LLMOps", "可视化编排", "RAG"],
+      "scenarios": ["企业私有化", "Agent编排", "知识库问答"],
+      "url": "https://github.com/langgenius/dify",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "flowise",
+      "name": "Flowise",
+      "category": "local",
+      "summary": "拖拽式低代码构建 LLM Agent 与对话流，开源可自托管，适合快速原型。",
+      "type": "open-source",
+      "tags": ["拖拽构建", "低代码", "自托管"],
+      "scenarios": ["快速原型", "本地部署", "对话流"],
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "langchain",
+      "name": "LangChain",
+      "category": "local",
+      "summary": "主流 Agent 开发框架，提供链式调用、工具集成与记忆管理，生态庞大。",
+      "type": "open-source",
+      "tags": ["开发框架", "工具集成", "记忆管理"],
+      "scenarios": ["开发者构建", "复杂Agent", "工具链"],
+      "url": "https://github.com/langchain-ai/langchain",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "category": "local",
+      "summary": "多智能体协作框架，让多个角色 Agent 分工配合完成复杂任务。",
+      "type": "open-source",
+      "tags": ["多智能体", "角色协作", "任务分配"],
+      "scenarios": ["团队协作模拟", "复杂任务", "自动化流程"],
+      "url": "https://github.com/crewAIInc/crewAI",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "metagpt",
+      "name": "MetaGPT",
+      "category": "local",
+      "summary": "把软件公司 SOP 注入多智能体的开源框架，一句话生成需求到代码的产物。",
+      "type": "open-source",
+      "tags": ["多智能体", "SOP", "代码生成"],
+      "scenarios": ["软件自动化", "需求拆解", "本地部署"],
+      "url": "https://github.com/geekan/MetaGPT",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "openmanus",
+      "name": "OpenManus",
+      "category": "local",
+      "summary": "开源通用智能体，复刻 Manus 思路，可自主操作浏览器与执行通用任务。",
+      "type": "open-source",
+      "tags": ["通用智能体", "浏览器操作", "开源"],
+      "scenarios": ["通用任务", "浏览器自动化", "本地部署"],
+      "url": "https://github.com/OpenManus/OpenManus",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "autogen",
+      "name": "Microsoft AutoGen",
+      "category": "local",
+      "summary": "微软开源的多 Agent 对话框架，支持 Agent 间协作与人工介入的自动化。",
+      "type": "open-source",
+      "tags": ["微软", "多Agent对话", "可介入"],
+      "scenarios": ["研究实验", "多Agent协作", "本地运行"],
+      "url": "https://github.com/microsoft/autogen",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "category": "browser",
+      "summary": "开源网页 Agent，用自然语言驱动浏览器自动点击、填表与抓取数据。",
+      "type": "open-source",
+      "tags": ["网页自动化", "自然语言", "开源"],
+      "scenarios": ["自动填表", "网页采集", "流程演示"],
+      "url": "https://github.com/browser-use/browser-use",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "multion",
+      "name": "MultiOn",
+      "category": "browser",
+      "summary": "云端网页 Agent，替你在浏览器里自动完成下单、预订、填表等在线任务。",
+      "type": "cloud-paid",
+      "tags": ["云端Agent", "自动下单", "网页操作"],
+      "scenarios": ["在线任务", "自动预订", "表单提交"],
+      "url": "https://www.multion.ai/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "axiom",
+      "name": "Axiom.ai",
+      "category": "browser",
+      "summary": "桌面端浏览器与桌面自动化工具，录制操作为机器人，批量采集与填表。",
+      "type": "cloud-paid",
+      "tags": ["桌面自动化", "录制机器人", "批量采集"],
+      "scenarios": ["电商采集", "表单批量", "重复操作"],
+      "url": "https://axiom.ai/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "bardeen",
+      "name": "Bardeen",
+      "category": "browser",
+      "summary": "浏览器插件式自动化，预置 Playbook 一键完成爬取、填表与跨应用同步。",
+      "type": "cloud-paid",
+      "tags": ["浏览器插件", "Playbook", "跨应用"],
+      "scenarios": ["销售自动化", "网页采集", "快捷流程"],
+      "url": "https://www.bardeen.ai/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "skyvern",
+      "name": "Skyvern",
+      "category": "browser",
+      "summary": "开源 AI 浏览器自动化，用视觉与 LLM 理解页面并自动完成交互任务。",
+      "type": "open-source",
+      "tags": ["视觉自动化", "开源", "LLM驱动"],
+      "scenarios": ["表单提交", "数据抽取", "RPA替代"],
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "godmode",
+      "name": "Godmode",
+      "category": "browser",
+      "summary": "网页端通用 Agent 沙盒，通过提示循环驱动浏览器完成开放式任务（示例：当前链接已失效，仅作置灰演示）。",
+      "type": "cloud-paid",
+      "tags": ["网页沙盒", "通用Agent", "演示"],
+      "scenarios": ["任务实验", "提示循环"],
+      "url": "https://godmode.space/",
+      "status": "dead",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "category": "workflow",
+      "summary": "开源工作流自动化平台，节点拖拽连接 API 与本地服务，支持自托管。",
+      "type": "open-source",
+      "tags": ["工作流", "节点编排", "自托管"],
+      "scenarios": ["API串联", "定时任务", "私有部署"],
+      "url": "https://n8n.io/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "category": "workflow",
+      "summary": "老牌低代码自动化，连接数千款 SaaS，用 Zap 串起跨应用触发与动作。",
+      "type": "cloud-paid",
+      "tags": ["SaaS连接", "触发器", "无代码"],
+      "scenarios": ["跨应用同步", "通知自动化", "轻量流程"],
+      "url": "https://zapier.com/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "category": "workflow",
+      "summary": "可视化自动化平台，用场景（Scenario）拖拽连接模块实现复杂数据流转。",
+      "type": "cloud-paid",
+      "tags": ["可视化", "场景编排", "数据流"],
+      "scenarios": ["数据同步", "复杂流程", "API聚合"],
+      "url": "https://www.make.com/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "activepieces",
+      "name": "Activepieces",
+      "category": "workflow",
+      "summary": "开源无代码自动化，界面现代、可自托管，专注团队内部流程自动化。",
+      "type": "open-source",
+      "tags": ["无代码", "自托管", "团队自动化"],
+      "scenarios": ["内部流程", "私有部署", "审批流"],
+      "url": "https://www.activepieces.com/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "pipedream",
+      "name": "Pipedream",
+      "category": "workflow",
+      "summary": "面向开发者的工作流平台，支持代码与无代码混合，事件驱动自动化。",
+      "type": "cloud-paid",
+      "tags": ["开发者", "事件驱动", "API"],
+      "scenarios": ["Webhook流", "代码自动化", "集成"],
+      "url": "https://pipedream.com/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "gumloop",
+      "name": "Gumloop",
+      "category": "workflow",
+      "summary": "可视化 AI 工作流，把 LLM 节点拼成可复用自动化，适合运营与增长场景。",
+      "type": "cloud-paid",
+      "tags": ["AI工作流", "可视化", "增长"],
+      "scenarios": ["内容自动化", "运营流程", "数据处理"],
+      "url": "https://www.gumloop.com/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "creatify",
+      "name": "Creatify",
+      "category": "crossborder",
+      "summary": "AI 广告视频生成 Agent，输入产品链接即可产出 TikTok 风格短视频素材。",
+      "type": "cloud-paid",
+      "tags": ["TikTok素材", "广告视频", "出海"],
+      "scenarios": ["短视频广告", "社媒投放", "跨境电商"],
+      "url": "https://creatify.ai/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "category": "crossborder",
+      "summary": "AI 数字人视频平台，多语种口播 avatar，常用于跨境营销与本地化讲解。",
+      "type": "cloud-paid",
+      "tags": ["数字人", "多语种", "营销视频"],
+      "scenarios": ["跨境讲解", "本地化视频", "广告素材"],
+      "url": "https://www.heygen.com/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "kua-ai",
+      "name": "Kua.ai",
+      "category": "crossborder",
+      "summary": "电商内容 Agent，自动生成亚马逊、TikTok 等平台的产品文案与选品建议。",
+      "type": "cloud-paid",
+      "tags": ["电商文案", "亚马逊", "选品"],
+      "scenarios": ["listing优化", "选品分析", "内容生成"],
+      "url": "https://kua.ai/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "instantly",
+      "name": "Instantly.ai",
+      "category": "crossborder",
+      "summary": "冷邮件自动化平台，批量发送外贸开发信并做域名预热与送达率管理。",
+      "type": "cloud-paid",
+      "tags": ["冷邮件", "外贸开发", "送达率"],
+      "scenarios": ["外贸拓客", "邮件群发", "线索培育"],
+      "url": "https://instantly.ai/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "smartlead",
+      "name": "Smartlead.ai",
+      "category": "crossborder",
+      "summary": "邮件外发聚合平台，多邮箱轮换发送外贸开发信，主打高送达与防封。",
+      "type": "cloud-paid",
+      "tags": ["邮件轮换", "防封", "外贸"],
+      "scenarios": ["外贸邮件", "outreach", "线索触达"],
+      "url": "https://smartlead.ai/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "category": "tools",
+      "summary": "本地大模型运行框架，一行命令在电脑上跑 Llama、Qwen 等开源模型。",
+      "type": "local-offline",
+      "tags": ["本地大模型", "离线运行", "开源"],
+      "scenarios": ["本地推理", "隐私部署", "Agent底座"],
+      "url": "https://ollama.com/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "lm-studio",
+      "name": "LM Studio",
+      "category": "tools",
+      "summary": "桌面端本地模型加载器，图形界面管理并运行 GGUF 模型，支持离线推理。",
+      "type": "local-offline",
+      "tags": ["桌面应用", "GGUF", "离线"],
+      "scenarios": ["本地体验", "模型管理", "私有问答"],
+      "url": "https://lmstudio.ai/",
+      "status": "active",
+      "added": "2026-08-12"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "category": "tools",
+      "summary": "大模型 API 聚合中转，一个接口调用数百种模型，按量计费统一结算。",
+      "type": "cloud-paid",
+      "tags": ["API中转", "模型聚合", "统一接口"],
+      "scenarios": ["Agent接入", "模型切换", "成本优化"],
+      "url": "https://openrouter.ai/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "siliconflow",
+      "name": "硅基流动 SiliconFlow",
+      "category": "tools",
+      "summary": "国内大模型 API 云服务平台，提供 Qwen、DeepSeek 等模型的高性价比中转。",
+      "type": "cloud-paid",
+      "tags": ["国内API", "性价比", "DeepSeek"],
+      "scenarios": ["国内合规", "Agent接入", "推理加速"],
+      "url": "https://siliconflow.cn/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "category": "tools",
+      "summary": "网页采集与自动化平台，提供现成 Actor 脚本抓取电商、社媒等公开数据。",
+      "type": "cloud-paid",
+      "tags": ["数据采集", "Actor", "爬虫"],
+      "scenarios": ["公开数据", "竞品监控", "任务脚本"],
+      "url": "https://apify.com/",
+      "status": "active",
+      "added": "2026-08-13"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "category": "tools",
+      "summary": "开源模型与 Agent 部署社区，可托管 Spaces 直接上线演示与推理服务。",
+      "type": "cloud-paid",
+      "tags": ["模型社区", "Spaces", "部署"],
+      "scenarios": ["模型托管", "Agent部署", "演示上线"],
+      "url": "https://huggingface.co/",
+      "status": "active",
+      "added": "2026-08-13"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-08-13",
+      "added": ["Flowise", "LangChain", "CrewAI", "MetaGPT", "OpenManus", "AutoGen", "Axiom", "Bardeen", "Skyvern", "Make", "Activepieces", "Pipedream", "Gumloop", "Kua.ai", "Instantly", "Smartlead", "OpenRouter", "SiliconFlow", "Apify", "Hugging Face"],
+      "note": "第二批扩充：补齐浏览器/工作流/跨境/辅助工具四大板块。"
+    },
+    {
+      "date": "2026-08-12",
+      "added": ["AutoGPT", "Qwen Agent", "Dify", "Browser Use", "MultiOn", "Godmode", "n8n", "Zapier", "Creatify", "HeyGen", "Ollama", "LM Studio"],
+      "note": "站点初始化，首批收录本地开源与跨境商用 Agent 工具。"
+    }
+  ]
+}

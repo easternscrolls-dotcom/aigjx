@@ -1,0 +1,30 @@
+# ============================================================================
+# Cloudflare Pages _headers —— 缓存策略 + 安全响应头
+# 说明：Cloudflare 会自动对文本资源（HTML/CSS/JS/JSON）开启 Brotli/Gzip 压缩，
+#       无需手动声明压缩头。这里只做缓存分级与基础安全头。
+# ============================================================================
+
+# 静态资源：长期缓存（带内容哈希或由部署刷新，文件名不变则长缓存安全）
+/css/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/js/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/data/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+# 数据文件允许跨页 fetch（同源，其实不需要；保留以备 CDN 前置）
+/data/agent-list.json
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+# HTML 页面：短缓存，保证内容更新后快速生效
+/*.html
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
+# 全站基础安全头
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin

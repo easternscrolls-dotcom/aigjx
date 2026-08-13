@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+  404.html —— 友好错误页（Cloudflare Pages 对未匹配路径自动返回此页）
+  设计：大号状态码 + 一句说明 + 返回首页按钮。无弹窗、无广告。
+  注意：本页放在站点根目录，相对路径引用 css/app.js 与 data 保持一致。
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>页面未找到 - AgentHub</title>
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#4f46e5" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-category="home" data-page="home">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="AgentHub 首页">
+        <span class="logo">🤖</span>
+        <span>AgentHub<small>AI智能体自动化工具大全</small></span>
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换深浅色">🌙</button>
+    </div>
+  </header>
+
+  <section class="notfound">
+    <div class="code">404</div>
+    <h1>这个页面走丢了 🛰️</h1>
+    <p>你访问的链接不存在或已被移动。试试搜索，或直接返回首页。</p>
+    <div class="search-box" style="max-width:420px;margin:0 auto 18px;">
+      <span class="ico">🔍</span>
+      <input type="search" data-search placeholder="搜索 Agent 工具…" aria-label="搜索" />
+    </div>
+    <a class="btn-go" href="index.html">返回 AgentHub 首页 →</a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>AgentHub · 垂直 AI 智能体 Agent 工具导航</p>
+      <p>© 2026 AgentHub</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

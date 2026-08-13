@@ -1,7 +1,3 @@
-# Hugo build output — Cloudflare Pages builds this from source, do not commit.
-site/public/
-
-# OS / editor noise
-.DS_Store
-*.swp
+*.DS_Store
 Thumbs.db
+.site-cache/

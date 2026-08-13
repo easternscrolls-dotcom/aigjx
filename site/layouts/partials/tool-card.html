@@ -1,6 +1,0 @@
-<article class="tool-card">
-  <h3 class="tool-name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-  <p class="tool-desc">{{ .Description }}</p>
-  {{ with .Params.categories }}<div class="tool-cats">{{ range . }}<a class="chip" href="{{ (printf "/categories/%s" (urlize .)) | relURL }}">{{ . }}</a>{{ end }}</div>{{ end }}
-  {{ with .Params.pricing }}<span class="tool-price">{{ . }}</span>{{ end }}
-</article>

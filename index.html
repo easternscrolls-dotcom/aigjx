@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+  AgentHub 首页（index.html）
+  结构：顶栏(标题+搜索+主题切换) → 四大分类导航+侧边辅助 → Hero(大搜索) → 分类快捷卡片 → 工具网格 → 页脚
+  本页 data-category="home" data-page="home"：JS 会渲染全部工具 + 分类卡片。
+  SEO：每页独立 <title> / description / keywords（见 <head>）。
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgentHub - AI智能体自动化工具大全 | 垂直 Agent 导航</title>
+  <meta name="description" content="AgentHub 是垂直的 AI 智能体 Agent 工具导航站，精选本地开源 Agent 框架、浏览器网页 Agent、低代码工作流 Agent、跨境商用 Agent 与配套辅助工具，提供免费开源、云端付费、本地离线三类标签与直达官网入口。" />
+  <meta name="keywords" content="AI智能体, Agent工具, 自动化Agent, 智能体导航, AI Agent大全, 本地开源Agent, 浏览器自动化, 工作流自动化, 跨境电商Agent, 外贸邮件自动回复, n8n, Dify, AutoGPT" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://freeai.72tool.com/" />
+  <meta name="theme-color" content="#4f46e5" />
+  <!-- 开放图谱（社交分享） -->
+  <meta property="og:title" content="AgentHub - AI智能体自动化工具大全" />
+  <meta property="og:description" content="垂直 AI 智能体 Agent 工具导航，只收录自动化 Agent。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://freeai.72tool.com/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<!-- body 上的 data-category / data-page 供 app.js 识别当前页面 -->
+<body data-category="home" data-page="home">
+
+  <!-- ===== 顶栏 ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="AgentHub 首页">
+        <span class="logo">🤖</span>
+        <span>AgentHub<small>AI智能体自动化工具大全</small></span>
+      </a>
+      <!-- 顶栏搜索框：data-search 标记，与 Hero 搜索框实时同步 -->
+      <div class="search-box">
+        <span class="ico">🔍</span>
+        <input type="search" data-search placeholder="搜索 Agent 工具、场景、标签…" aria-label="搜索" />
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换深浅色">🌙</button>
+    </div>
+  </header>
+
+  <!-- ===== 四大核心分类导航 + 侧边辅助 ===== -->
+  <nav class="cat-nav" aria-label="分类导航">
+    <div class="cat-nav-inner">
+      <a class="cat-link" data-cat="local" href="local.html">🖥️ 本地开源框架 <span class="badge">0</span></a>
+      <a class="cat-link" data-cat="browser" href="browser.html">🌐 浏览器网页 <span class="badge">0</span></a>
+      <a class="cat-link" data-cat="workflow" href="workflow.html">🔗 低代码工作流 <span class="badge">0</span></a>
+      <a class="cat-link" data-cat="crossborder" href="crossborder.html">🌏 跨境商用 <span class="badge">0</span></a>
+      <a class="cat-link side" data-cat="tools" href="tools.html">🛠️ 配套辅助 <span class="badge">0</span></a>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <h1>AI 智能体 Agent 工具大全</h1>
+    <p>全网独家垂直导航 —— 只收录自动化 Agent，不混杂绘图与通用写作 AI。开源免费、云端付费、本地离线，一键直达官网。</p>
+    <div class="hero-search">
+      <span class="ico">🔍</span>
+      <input type="search" data-search placeholder="搜索 Agent 工具、场景、标签…" aria-label="搜索" />
+    </div>
+  </section>
+
+  <!-- ===== 主体：分类卡片 + 工具网格（含右侧栏） ===== -->
+  <div class="layout grid-2">
+    <main>
+      <!-- 首页分类快捷入口 -->
+      <div class="section-title"><h2>按场景浏览</h2><span class="desc">点击进入对应分类</span></div>
+      <div class="cat-cards" id="catCards"><!-- JS 注入分类卡片 --></div>
+
+      <!-- 全部工具 -->
+      <div class="section-title"><h2>全部收录工具</h2><span class="desc">持续更新中</span></div>
+      <div class="toolbar">
+        <label><input type="checkbox" id="hideDead" /> 隐藏失效链接</label>
+        <span class="result-count" id="resultCount">加载中…</span>
+      </div>
+      <div class="cards" id="agentGrid"><!-- JS 注入工具卡片 --></div>
+    </main>
+
+    <!-- 右侧分类栏（侧边辅助 + 全部分类计数） -->
+    <aside class="sidebar" aria-label="分类侧边栏">
+      <h3>全部分类</h3>
+      <a href="local.html">🖥️ 本地开源 Agent 框架 <span class="count" data-count="local">0</span></a>
+      <a href="browser.html">🌐 浏览器网页 Agent <span class="count" data-count="browser">0</span></a>
+      <a href="workflow.html">🔗 低代码工作流 Agent <span class="count" data-count="workflow">0</span></a>
+      <a href="crossborder.html">🌏 跨境商用 Agent <span class="count" data-count="crossborder">0</span></a>
+      <a href="tools.html">🛠️ Agent 配套辅助工具 <span class="count" data-count="tools">0</span></a>
+      <h3 style="margin-top:18px;">实用页面</h3>
+      <a href="update.html">📅 更新日志</a>
+      <a href="https://freeai.72tool.com/sitemap.xml">🗺️ 站点地图</a>
+    </aside>
+  </div>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>AgentHub · 垂直 AI 智能体 Agent 工具导航 · 数据驱动纯静态站点，无广告、零后端</p>
+      <p>收录标准：仅自动化 Agent 工具，不含绘图 / 通用写作 AI。价格与可用性以各官网为准。</p>
+      <p>© 2026 AgentHub · <a href="update.html">更新日志</a> · <a href="https://freeai.72tool.com/sitemap.xml">Sitemap</a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

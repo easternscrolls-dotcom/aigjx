@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://freeai.72tool.com/sitemap.xml
