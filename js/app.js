@@ -27,11 +27,38 @@
     'local-offline': 'tag-local-offline'
   };
 
+  /* 部署难度 & 国内可访问性：根据既有字段(type/category/url/tags)纯前端推导，
+     不新增 JSON 字段、不改动 data/agent-list.json 数据结构。 */
+  var DIFF_MAP = {
+    'cloud-paid':    { label: '免部署',   level: 'easy' },
+    'open-source':   { label: '需部署',   level: 'medium' },
+    'local-offline': { label: '本地部署', level: 'hard' }
+  };
+  // 国内可访问性启发式：域名白/黑名单 + 类型兜底（仅作参考，非实时探测）
+  var ACCESS_OK   = ['github.com', 'gitee.com', 'gitcode.com'];
+  var ACCESS_WARN = ['huggingface.co', 'hf.space', 'openai.com', 'anthropic.com',
+                     'google.com', 'google.dev', 'vercel.app', 'replit.app', 'firecrawl.dev'];
+  function hostOf(url) {
+    try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return ''; }
+  }
+  function diffInfo(a) { return DIFF_MAP[a.type] || { label: '—', level: 'medium' }; }
+  function accessInfo(a) {
+    var h = hostOf(a.url);
+    var ok = ACCESS_OK.some(function (d) { return h === d || h.endsWith('.' + d); });
+    if (ok) return { label: '国内可访问', cls: 'acc-ok' };
+    var warn = ACCESS_WARN.some(function (d) { return h === d || h.endsWith('.' + d); });
+    if (warn) return { label: '可能受限', cls: 'acc-warn' };
+    if (a.type === 'local-offline') return { label: '本地可用', cls: 'acc-ok' };
+    if (a.type === 'open-source')   return { label: '自部署可控', cls: 'acc-unknown' };
+    return { label: '视网络环境', cls: 'acc-unknown' };
+  }
+
   // 全局状态：data 为 JSON，category 来自 <body data-category>，query 为搜索词
   var state = {
     data: null,
     category: document.body.getAttribute('data-category') || 'all',
-    query: ''
+    query: '',
+    filters: new Set()   // 多条件筛选：open-source / local-offline / crossborder / no-code
   };
 
   /* ---------- 1. 主题切换 ---------- */
@@ -84,6 +111,8 @@
     var typeClass = TYPE_CLASS[a.type] || '';
     var tags = (a.tags || []).map(function (t) { return '<span class="chip">' + esc(t) + '</span>'; }).join('');
     var scen = (a.scenarios || []).map(function (s) { return '<span class="chip scenario">' + esc(s) + '</span>'; }).join('');
+    var di = diffInfo(a);          // 部署难度（按 type 推导）
+    var ai = accessInfo(a);        // 国内可访问性（按域名+type 推导）
     var btn = dead
       ? '<span class="btn-go">链接失效</span>'
       : '<a class="btn-go" href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">直达官网 ↗</a>';
@@ -94,6 +123,10 @@
           '<span class="tag-type ' + typeClass + '">' + typeLabel + '</span>' +
         '</div>' +
         '<p class="summary">' + esc(a.summary || '') + '</p>' +
+        '<div class="card-meta">' +
+          '<span class="badge-meta diff-' + di.level + '">部署：' + di.label + '</span>' +
+          '<span class="badge-meta ' + ai.cls + '">国内：' + ai.label + '</span>' +
+        '</div>' +
         '<div class="tags">' + tags + scen + '</div>' +
         '<div class="foot">' +
           (dead ? '<span class="dead-flag">已失效</span>' : '') +
@@ -119,6 +152,12 @@
         return hay.indexOf(q) !== -1;
       });
     }
+    // “隐藏失效”开关：勾选则剔除失效链接（前端过滤，不动数据）
+    if (getHideDead()) {
+      list = list.filter(function (a) { return a.status !== 'dead'; });
+    }
+    // 多条件筛选（免费开源/本地离线/跨境专用/零代码，OR 逻辑取并集）
+    list = list.filter(passFilters);
     var countEl = document.getElementById('resultCount');
     if (countEl) countEl.textContent = list.length + ' 个工具';
     if (!list.length) {
@@ -148,6 +187,56 @@
     if (!t) return;
     t.addEventListener('change', function () {
       document.body.classList.toggle('hide-dead', t.checked);
+    });
+  }
+
+  /* ---------- 6b. 移动端汉堡菜单 ---------- */
+  function initNavToggle() {
+    var btn = document.getElementById('navToggle');
+    var menu = document.getElementById('catNavLinks');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+
+  /* ---------- 6c. 多条件筛选（纯前端，不改动 JSON 结构） ---------- */
+  function getHideDead() {
+    var t = document.getElementById('hideDead');
+    return !!(t && t.checked);
+  }
+  function isNoCode(a) {
+    if (a.category === 'workflow') return true;
+    var blob = ((a.tags || []).concat(a.scenarios || []).concat([a.summary || ''])).join(' ');
+    return /(no-?code|low-?code|零代码|无代码|拖拽|可视化)/i.test(blob);
+  }
+  // 任一选中条件满足即保留（OR 并集），未选任何条件则全部通过
+  function passFilters(a) {
+    if (state.filters.size === 0) return true;
+    if (state.filters.has('open-source') && a.type === 'open-source') return true;
+    if (state.filters.has('local-offline') && a.type === 'local-offline') return true;
+    if (state.filters.has('crossborder') && a.category === 'crossborder') return true;
+    if (state.filters.has('no-code') && isNoCode(a)) return true;
+    return false;
+  }
+  function initFilters() {
+    var bar = document.getElementById('filters');
+    if (!bar) return;
+    var chips = bar.querySelectorAll('.chip.filter');
+    Array.prototype.forEach.call(chips, function (ch) {
+      ch.addEventListener('click', function () {
+        var f = ch.getAttribute('data-filter');
+        if (state.filters.has(f)) { state.filters.delete(f); ch.classList.remove('active'); }
+        else { state.filters.add(f); ch.classList.add('active'); }
+        renderGrid();
+      });
+    });
+    var reset = document.getElementById('filterReset');
+    if (reset) reset.addEventListener('click', function () {
+      state.filters.clear();
+      Array.prototype.forEach.call(chips, function (ch) { ch.classList.remove('active'); });
+      renderGrid();
     });
   }
 
@@ -207,6 +296,8 @@
         }
         initSearch();
         initDeadToggle();
+        initNavToggle();
+        initFilters();
       })
       .catch(function (err) {
         var wrap = document.getElementById('agentGrid');

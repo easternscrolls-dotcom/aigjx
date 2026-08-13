@@ -238,3 +238,48 @@ body.hide-dead .card.dead { display: none; }   /* “隐藏失效”开关触发
 @media (max-width: 420px) {
   .cards { grid-template-columns: 1fr; }
 }
+
+/* ---------- 13. 多条件筛选栏（免费开源/本地离线/跨境专用/零代码） ---------- */
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 6px 0 4px; }
+.filters-label { font-size: 13px; color: var(--text-soft); }
+.chip.filter { cursor: pointer; user-select: none; transition: background .15s, color .15s, border-color .15s; }
+.chip.filter:hover { border-color: var(--primary); color: var(--text); }
+.chip.filter.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.chip.filter-reset { cursor: pointer; background: transparent; }
+.chip.filter-reset:hover { color: var(--primary); border-color: var(--primary); }
+
+/* ---------- 14. 移动端汉堡菜单 ---------- */
+.nav-toggle { display: none; }   /* 桌面端隐藏，由 cat-nav-inner 直接展示 */
+@media (max-width: 760px) {
+  .cat-nav { position: relative; }
+  .nav-toggle {
+    display: inline-flex; align-items: center; gap: 6px; margin: 8px 18px;
+    padding: 8px 14px; border-radius: 9px; border: 1px solid var(--border);
+    background: var(--bg-soft); color: var(--text); font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  .cat-nav-inner {
+    display: none; flex-direction: column; align-items: stretch; gap: 6px; padding: 0 18px 12px;
+  }
+  .cat-nav-inner.open { display: flex; }   /* 点击汉堡后展开 */
+  .cat-link { justify-content: flex-start; }
+}
+
+/* ---------- 15. 卡片新增双标签：部署难度 / 国内可访问性 ---------- */
+.card-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.badge-meta {
+  font-size: 11px; padding: 2px 8px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--bg-soft); color: var(--text-soft);
+}
+.diff-easy   { background: #e7f7ec; color: #1a7f43; border-color: transparent; }
+.diff-medium { background: #fff4e0; color: #b8760a; border-color: transparent; }
+.diff-hard   { background: #eaf0ff; color: #3a5bd9; border-color: transparent; }
+.acc-ok      { background: #e7f7ec; color: #1a7f43; border-color: transparent; }
+.acc-warn    { background: #fef0e6; color: #c2630a; border-color: transparent; }
+.acc-unknown { background: var(--bg-soft); color: var(--text-soft); border-color: transparent; }
+html[data-theme="dark"] .diff-easy   { background: #14331f; color: #5fd98c; }
+html[data-theme="dark"] .diff-medium { background: #3a2c12; color: #f0c07a; }
+html[data-theme="dark"] .diff-hard   { background: #1c2540; color: #9db0ff; }
+html[data-theme="dark"] .acc-ok      { background: #14331f; color: #5fd98c; }
+html[data-theme="dark"] .acc-warn    { background: #3a2512; color: #f0a766; }
+html[data-theme="dark"] .acc-unknown { background: var(--bg-soft); color: var(--text-soft); }
+

@@ -4,4 +4,4 @@ User-agent: *
 Allow: /
 
 # 站点地图（由 scripts/generate-sitemap.js 生成）
-Sitemap: https://freeai.72tool.com/sitemap.xml
+Sitemap: https://aiagent.72tool.com/sitemap.xml

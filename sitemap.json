@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-08-13T08:08:06.508Z",
-  "baseUrl": "https://freeai.72tool.com",
+  "generatedAt": "2026-08-13T10:46:02.466Z",
+  "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
-      "url": "https://freeai.72tool.com/",
+      "url": "https://aiagent.72tool.com/",
       "priority": "1.0",
       "changefreq": "daily"
     },
     {
-      "url": "https://freeai.72tool.com/local.html",
+      "url": "https://aiagent.72tool.com/local.html",
       "priority": "0.9",
       "changefreq": "daily"
     },
     {
-      "url": "https://freeai.72tool.com/browser.html",
+      "url": "https://aiagent.72tool.com/browser.html",
       "priority": "0.9",
       "changefreq": "daily"
     },
     {
-      "url": "https://freeai.72tool.com/workflow.html",
+      "url": "https://aiagent.72tool.com/workflow.html",
       "priority": "0.9",
       "changefreq": "daily"
     },
     {
-      "url": "https://freeai.72tool.com/crossborder.html",
+      "url": "https://aiagent.72tool.com/crossborder.html",
       "priority": "0.9",
       "changefreq": "daily"
     },
     {
-      "url": "https://freeai.72tool.com/tools.html",
+      "url": "https://aiagent.72tool.com/tools.html",
       "priority": "0.8",
       "changefreq": "weekly"
     },
     {
-      "url": "https://freeai.72tool.com/update.html",
+      "url": "https://aiagent.72tool.com/update.html",
       "priority": "0.6",
       "changefreq": "weekly"
     }
@@ -42,27 +42,27 @@
     {
       "id": "local",
       "name": "本地开源 Agent 框架",
-      "url": "https://freeai.72tool.com/local.html"
+      "url": "https://aiagent.72tool.com/local.html"
     },
     {
       "id": "browser",
       "name": "浏览器网页 Agent",
-      "url": "https://freeai.72tool.com/browser.html"
+      "url": "https://aiagent.72tool.com/browser.html"
     },
     {
       "id": "workflow",
       "name": "低代码工作流 Agent",
-      "url": "https://freeai.72tool.com/workflow.html"
+      "url": "https://aiagent.72tool.com/workflow.html"
     },
     {
       "id": "crossborder",
       "name": "跨境商用 Agent",
-      "url": "https://freeai.72tool.com/crossborder.html"
+      "url": "https://aiagent.72tool.com/crossborder.html"
     },
     {
       "id": "tools",
       "name": "Agent 配套辅助工具",
-      "url": "https://freeai.72tool.com/tools.html"
+      "url": "https://aiagent.72tool.com/tools.html"
     }
   ],
   "stats": {

@@ -11,12 +11,12 @@
   <meta name="description" content="Agent 配套辅助工具导航：API 中转、本地大模型对接、任务脚本与 Agent 部署教程，如 Ollama、OpenRouter、硅基流动。" />
   <meta name="keywords" content="API中转平台, 本地大模型对接, Agent部署教程, Ollama, OpenRouter, 硅基流动" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://freeai.72tool.com/tools.html" />
+  <link rel="canonical" href="https://aiagent.72tool.com/tools.html" />
   <meta name="theme-color" content="#4f46e5" />
   <meta property="og:title" content="Agent 配套辅助工具 - AgentHub" />
   <meta property="og:description" content="Agent 配套辅助工具导航：API 中转、本地大模型对接、任务脚本与 Agent 部署教程，如 Ollama、OpenRouter、硅基流动。" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://freeai.72tool.com/tools.html" />
+  <meta property="og:url" content="https://aiagent.72tool.com/tools.html" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body data-category="tools" data-page="category">
@@ -36,18 +36,26 @@
   </header>
 
   <nav class="cat-nav" aria-label="分类导航">
-    <div class="cat-nav-inner">
+    <button class="nav-toggle" id="navToggle" aria-label="展开/收起分类菜单" aria-expanded="false">☰ 分类</button>
+    <div class="cat-nav-inner" id="catNavLinks">
       <a class="cat-link" data-cat="local" href="local.html">🖥️ 本地开源框架 <span class="badge">0</span></a>
       <a class="cat-link" data-cat="browser" href="browser.html">🌐 浏览器网页 <span class="badge">0</span></a>
       <a class="cat-link" data-cat="workflow" href="workflow.html">🔗 低代码工作流 <span class="badge">0</span></a>
       <a class="cat-link" data-cat="crossborder" href="crossborder.html">🌏 跨境商用 <span class="badge">0</span></a>
-      <a class="cat-link side" data-cat="tools" href="tools.html">🛠️ 配套辅助 <span class="badge">0</span></a>
     </div>
   </nav>
 
   <div class="layout grid-2">
     <main>
       <div class="section-title"><h2>Agent 配套辅助工具</h2><span class="desc">Agent 配套辅助工具导航：API 中转、本地大模型对接、任务脚本与 Agent 部署教程，如 Ollama、OpenRouter、硅基流动。</span></div>
+            <div class="filters" id="filters" role="group" aria-label="多条件筛选">
+        <span class="filters-label">筛选：</span>
+        <button type="button" class="chip filter" data-filter="open-source">免费开源</button>
+        <button type="button" class="chip filter" data-filter="local-offline">本地离线</button>
+        <button type="button" class="chip filter" data-filter="crossborder">跨境专用</button>
+        <button type="button" class="chip filter" data-filter="no-code">零代码</button>
+        <button type="button" class="chip filter-reset" id="filterReset">重置</button>
+      </div>
       <div class="toolbar">
         <label><input type="checkbox" id="hideDead" /> 隐藏失效链接</label>
         <span class="result-count" id="resultCount">加载中…</span>
@@ -64,7 +72,7 @@
       <a href="tools.html">🛠️ Agent 配套辅助工具 <span class="count" data-count="tools">0</span></a>
       <h3 style="margin-top:18px;">实用页面</h3>
       <a href="update.html">📅 更新日志</a>
-      <a href="https://freeai.72tool.com/sitemap.xml">🗺️ 站点地图</a>
+      <a href="https://aiagent.72tool.com/sitemap.xml">🗺️ 站点地图</a>
     </aside>
   </div>
 
@@ -72,7 +80,7 @@
     <div class="container">
       <p>AgentHub · 垂直 AI 智能体 Agent 工具导航 · 数据驱动纯静态站点，无广告、零后端</p>
       <p>收录标准：仅自动化 Agent 工具，不含绘图 / 通用写作 AI。价格与可用性以各官网为准。</p>
-      <p>© 2026 AgentHub · <a href="update.html">更新日志</a> · <a href="https://freeai.72tool.com/sitemap.xml">Sitemap</a></p>
+      <p>© 2026 AgentHub · <a href="update.html">更新日志</a> · <a href="https://aiagent.72tool.com/sitemap.xml">Sitemap</a></p>
     </div>
   </footer>
 

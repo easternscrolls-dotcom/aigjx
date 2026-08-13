@@ -94,7 +94,7 @@ node scripts/generate-sitemap.js
 > ⚠️ 旧版这里是 `cd site && hugo --minify` → `site/public`，**与本纯静态架构不兼容**，
 > 部署前务必在 Cloudflare 控制台把构建命令与输出目录改成上表。
 
-推送后 Cloudflare 自动拉取并上线，域名（如 `freeai.72tool.com`）无需改动。
+推送后 Cloudflare 自动拉取并上线，域名（如 `aiagent.72tool.com`）无需改动。
 
 ---
 

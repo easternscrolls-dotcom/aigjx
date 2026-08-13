@@ -55,7 +55,7 @@ function xmlEscape(s) {
 
 function build() {
   const data = loadData();
-  const base = (data.site && data.site.baseUrl || 'https://freeai.72tool.com').replace(/\/$/, '');
+  const base = (data.site && data.site.baseUrl || 'https://aiagent.72tool.com').replace(/\/$/, '');
   const lastmodDefault = today();
   // 取最新一条 changelog 日期作为内容更新时间（没有则用今天）
   const logDates = (data.changelog || []).map(x => x.date).filter(Boolean).sort().reverse();
