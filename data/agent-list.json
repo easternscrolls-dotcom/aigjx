@@ -53,8 +53,16 @@
       "category": "local",
       "summary": "开源自主 AI 智能体，可把一句话目标自动拆解为多步任务并循环执行。",
       "type": "open-source",
-      "tags": ["自主智能体", "任务规划", "开源"],
-      "scenarios": ["个人自动化", "本地部署", "任务拆解"],
+      "tags": [
+        "自主智能体",
+        "任务规划",
+        "开源"
+      ],
+      "scenarios": [
+        "个人自动化",
+        "本地部署",
+        "任务拆解"
+      ],
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "status": "active",
       "added": "2026-08-12"
@@ -65,8 +73,16 @@
       "category": "local",
       "summary": "阿里开源的 Agent 应用框架，内置工具调用、代码解释与多智能体编排能力。",
       "type": "open-source",
-      "tags": ["通义千问", "工具调用", "国产开源"],
-      "scenarios": ["国产大模型", "本地部署", "工具编排"],
+      "tags": [
+        "通义千问",
+        "工具调用",
+        "国产开源"
+      ],
+      "scenarios": [
+        "国产大模型",
+        "本地部署",
+        "工具编排"
+      ],
       "url": "https://github.com/QwenLM/Qwen-Agent",
       "status": "active",
       "added": "2026-08-12"
@@ -77,11 +93,20 @@
       "category": "local",
       "summary": "开源 LLM 应用开发平台，可视化编排 Agent、RAG 与工作流，支持私有化部署。",
       "type": "open-source",
-      "tags": ["LLMOps", "可视化编排", "RAG"],
-      "scenarios": ["企业私有化", "Agent编排", "知识库问答"],
+      "tags": [
+        "LLMOps",
+        "可视化编排",
+        "RAG"
+      ],
+      "scenarios": [
+        "企业私有化",
+        "Agent编排",
+        "知识库问答"
+      ],
       "url": "https://github.com/langgenius/dify",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## Dify 使用教程\n\n### 小节标题：环境准备\n\n1. 下载并安装 Dify：访问 Dify 官网，下载适合您操作系统的安装包。\n2. 启动 Dify：运行安装包，按照提示完成安装。\n3. 登录 Dify：打开 Dify 应用，使用您的账号登录。\n\n### 小节标题：创建项目\n\n1. 创建新项目：在 Dify 主界面，点击“创建项目”按钮。\n2. 输入项目名称：在弹出的对话框中，输入项目名称并选择合适的分类。\n3. 选择项目模板：根据您的需求，选择合适的模板进行项目初始化。\n\n### 小节标题：配置模型\n\n1. 添加模型：在项目设置中，点击“模型”标签，然后点击“添加模型”。\n2. 选择模型类型：在弹出的对话框中，选择您要使用的模型类型（如 Agent、RAG 等）。\n3. 配置模型参数：根据所选模型类型，配置相应的参数。\n\n### 小节标题：编排工作流\n\n1. 拖拽组件：在“工作流”标签下，拖拽所需的组件到工作流编辑区域。\n2. 连接组件：将组件之间的输入输出端口进行连接，形成工作流。\n3. 调试工作流：点击“运行”按钮，观察工作流运行效果，如有问题可进行调整。"
     },
     {
       "id": "flowise",
@@ -89,8 +114,16 @@
       "category": "local",
       "summary": "拖拽式低代码构建 LLM Agent 与对话流，开源可自托管，适合快速原型。",
       "type": "open-source",
-      "tags": ["拖拽构建", "低代码", "自托管"],
-      "scenarios": ["快速原型", "本地部署", "对话流"],
+      "tags": [
+        "拖拽构建",
+        "低代码",
+        "自托管"
+      ],
+      "scenarios": [
+        "快速原型",
+        "本地部署",
+        "对话流"
+      ],
       "url": "https://github.com/FlowiseAI/Flowise",
       "status": "active",
       "added": "2026-08-13"
@@ -101,8 +134,16 @@
       "category": "local",
       "summary": "主流 Agent 开发框架，提供链式调用、工具集成与记忆管理，生态庞大。",
       "type": "open-source",
-      "tags": ["开发框架", "工具集成", "记忆管理"],
-      "scenarios": ["开发者构建", "复杂Agent", "工具链"],
+      "tags": [
+        "开发框架",
+        "工具集成",
+        "记忆管理"
+      ],
+      "scenarios": [
+        "开发者构建",
+        "复杂Agent",
+        "工具链"
+      ],
       "url": "https://github.com/langchain-ai/langchain",
       "status": "active",
       "added": "2026-08-13"
@@ -113,8 +154,16 @@
       "category": "local",
       "summary": "多智能体协作框架，让多个角色 Agent 分工配合完成复杂任务。",
       "type": "open-source",
-      "tags": ["多智能体", "角色协作", "任务分配"],
-      "scenarios": ["团队协作模拟", "复杂任务", "自动化流程"],
+      "tags": [
+        "多智能体",
+        "角色协作",
+        "任务分配"
+      ],
+      "scenarios": [
+        "团队协作模拟",
+        "复杂任务",
+        "自动化流程"
+      ],
       "url": "https://github.com/crewAIInc/crewAI",
       "status": "active",
       "added": "2026-08-13"
@@ -125,8 +174,16 @@
       "category": "local",
       "summary": "把软件公司 SOP 注入多智能体的开源框架，一句话生成需求到代码的产物。",
       "type": "open-source",
-      "tags": ["多智能体", "SOP", "代码生成"],
-      "scenarios": ["软件自动化", "需求拆解", "本地部署"],
+      "tags": [
+        "多智能体",
+        "SOP",
+        "代码生成"
+      ],
+      "scenarios": [
+        "软件自动化",
+        "需求拆解",
+        "本地部署"
+      ],
       "url": "https://github.com/geekan/MetaGPT",
       "status": "active",
       "added": "2026-08-13"
@@ -137,8 +194,16 @@
       "category": "local",
       "summary": "开源通用智能体，复刻 Manus 思路，可自主操作浏览器与执行通用任务。",
       "type": "open-source",
-      "tags": ["通用智能体", "浏览器操作", "开源"],
-      "scenarios": ["通用任务", "浏览器自动化", "本地部署"],
+      "tags": [
+        "通用智能体",
+        "浏览器操作",
+        "开源"
+      ],
+      "scenarios": [
+        "通用任务",
+        "浏览器自动化",
+        "本地部署"
+      ],
       "url": "https://github.com/OpenManus/OpenManus",
       "status": "active",
       "added": "2026-08-13"
@@ -149,8 +214,16 @@
       "category": "local",
       "summary": "微软开源的多 Agent 对话框架，支持 Agent 间协作与人工介入的自动化。",
       "type": "open-source",
-      "tags": ["微软", "多Agent对话", "可介入"],
-      "scenarios": ["研究实验", "多Agent协作", "本地运行"],
+      "tags": [
+        "微软",
+        "多Agent对话",
+        "可介入"
+      ],
+      "scenarios": [
+        "研究实验",
+        "多Agent协作",
+        "本地运行"
+      ],
       "url": "https://github.com/microsoft/autogen",
       "status": "active",
       "added": "2026-08-13"
@@ -161,11 +234,20 @@
       "category": "browser",
       "summary": "开源网页 Agent，用自然语言驱动浏览器自动点击、填表与抓取数据。",
       "type": "open-source",
-      "tags": ["网页自动化", "自然语言", "开源"],
-      "scenarios": ["自动填表", "网页采集", "流程演示"],
+      "tags": [
+        "网页自动化",
+        "自然语言",
+        "开源"
+      ],
+      "scenarios": [
+        "自动填表",
+        "网页采集",
+        "流程演示"
+      ],
       "url": "https://github.com/browser-use/browser-use",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## 小节标题：安装与启动\n\n1. 访问 [Browser Use 官网](https://browseruse.com/) 下载最新版本的 Browser Use。\n2. 双击下载的安装包，按照提示完成安装。\n3. 打开 Browser Use 软件，点击“新建项目”开始使用。\n\n## 小节标题：创建任务\n\n1. 在“任务列表”中，点击“新建任务”。\n2. 输入任务名称，例如“登录网页”。\n3. 在“任务脚本”编辑区，使用自然语言编写任务脚本，例如：“打开网页 http://www.example.com，输入用户名和密码，点击登录按钮”。\n\n## 小节标题：编辑与运行\n\n1. 在“任务脚本”编辑区，根据需要修改和优化脚本。\n2. 点击“运行”按钮，Browser Use 将按照脚本执行任务。\n3. 观察任务执行过程，确保任务按预期完成。\n\n## 小节标题：数据抓取与导出\n\n1. 在任务执行过程中，如果需要抓取网页数据，可以使用“抓取数据”功能。\n2. 在“抓取数据”编辑区，选择需要抓取的数据字段。\n3. 点击“导出数据”按钮，将抓取的数据保存为 CSV 或 Excel 格式。"
     },
     {
       "id": "multion",
@@ -173,8 +255,16 @@
       "category": "browser",
       "summary": "云端网页 Agent，替你在浏览器里自动完成下单、预订、填表等在线任务。",
       "type": "cloud-paid",
-      "tags": ["云端Agent", "自动下单", "网页操作"],
-      "scenarios": ["在线任务", "自动预订", "表单提交"],
+      "tags": [
+        "云端Agent",
+        "自动下单",
+        "网页操作"
+      ],
+      "scenarios": [
+        "在线任务",
+        "自动预订",
+        "表单提交"
+      ],
       "url": "https://www.multion.ai/",
       "status": "active",
       "added": "2026-08-12"
@@ -185,8 +275,16 @@
       "category": "browser",
       "summary": "桌面端浏览器与桌面自动化工具，录制操作为机器人，批量采集与填表。",
       "type": "cloud-paid",
-      "tags": ["桌面自动化", "录制机器人", "批量采集"],
-      "scenarios": ["电商采集", "表单批量", "重复操作"],
+      "tags": [
+        "桌面自动化",
+        "录制机器人",
+        "批量采集"
+      ],
+      "scenarios": [
+        "电商采集",
+        "表单批量",
+        "重复操作"
+      ],
       "url": "https://axiom.ai/",
       "status": "active",
       "added": "2026-08-13"
@@ -197,8 +295,16 @@
       "category": "browser",
       "summary": "浏览器插件式自动化，预置 Playbook 一键完成爬取、填表与跨应用同步。",
       "type": "cloud-paid",
-      "tags": ["浏览器插件", "Playbook", "跨应用"],
-      "scenarios": ["销售自动化", "网页采集", "快捷流程"],
+      "tags": [
+        "浏览器插件",
+        "Playbook",
+        "跨应用"
+      ],
+      "scenarios": [
+        "销售自动化",
+        "网页采集",
+        "快捷流程"
+      ],
       "url": "https://www.bardeen.ai/",
       "status": "active",
       "added": "2026-08-13"
@@ -209,8 +315,16 @@
       "category": "browser",
       "summary": "开源 AI 浏览器自动化，用视觉与 LLM 理解页面并自动完成交互任务。",
       "type": "open-source",
-      "tags": ["视觉自动化", "开源", "LLM驱动"],
-      "scenarios": ["表单提交", "数据抽取", "RPA替代"],
+      "tags": [
+        "视觉自动化",
+        "开源",
+        "LLM驱动"
+      ],
+      "scenarios": [
+        "表单提交",
+        "数据抽取",
+        "RPA替代"
+      ],
       "url": "https://github.com/Skyvern-AI/skyvern",
       "status": "active",
       "added": "2026-08-13"
@@ -221,8 +335,15 @@
       "category": "browser",
       "summary": "网页端通用 Agent 沙盒，通过提示循环驱动浏览器完成开放式任务（示例：当前链接已失效，仅作置灰演示）。",
       "type": "cloud-paid",
-      "tags": ["网页沙盒", "通用Agent", "演示"],
-      "scenarios": ["任务实验", "提示循环"],
+      "tags": [
+        "网页沙盒",
+        "通用Agent",
+        "演示"
+      ],
+      "scenarios": [
+        "任务实验",
+        "提示循环"
+      ],
       "url": "https://godmode.space/",
       "status": "dead",
       "added": "2026-08-12"
@@ -233,8 +354,16 @@
       "category": "workflow",
       "summary": "开源工作流自动化平台，节点拖拽连接 API 与本地服务，支持自托管。",
       "type": "open-source",
-      "tags": ["工作流", "节点编排", "自托管"],
-      "scenarios": ["API串联", "定时任务", "私有部署"],
+      "tags": [
+        "工作流",
+        "节点编排",
+        "自托管"
+      ],
+      "scenarios": [
+        "API串联",
+        "定时任务",
+        "私有部署"
+      ],
       "url": "https://n8n.io/",
       "status": "active",
       "added": "2026-08-12"
@@ -245,11 +374,20 @@
       "category": "workflow",
       "summary": "老牌低代码自动化，连接数千款 SaaS，用 Zap 串起跨应用触发与动作。",
       "type": "cloud-paid",
-      "tags": ["SaaS连接", "触发器", "无代码"],
-      "scenarios": ["跨应用同步", "通知自动化", "轻量流程"],
+      "tags": [
+        "SaaS连接",
+        "触发器",
+        "无代码"
+      ],
+      "scenarios": [
+        "跨应用同步",
+        "通知自动化",
+        "轻量流程"
+      ],
       "url": "https://zapier.com/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## Zapier 使用教程\n\n### 小节一：创建 Zap\n\n1. 访问 Zapier 官网，注册或登录账户。\n2. 点击“创建 Zap”按钮，选择你想要连接的两个应用。\n3. 选择触发器应用和动作应用，然后点击“继续”。\n\n### 小节二：设置触发器\n\n1. 在触发器应用中选择一个事件作为触发条件，例如“新建联系人”。\n2. 配置触发器参数，确保数据正确。\n3. 点击“继续”。\n\n### 小节三：设置动作\n\n1. 在动作应用中选择一个动作，例如“创建任务”。\n2. 配置动作参数，确保数据正确。\n3. 点击“继续”。\n\n### 小节四：测试与激活\n\n1. 测试 Zap，确保触发器和动作都能正常工作。\n2. 点击“激活 Zap”，开始自动执行。\n3. 可根据需要调整 Zap 的设置，如频率、条件等。"
     },
     {
       "id": "make",
@@ -257,10 +395,18 @@
       "category": "workflow",
       "summary": "可视化自动化平台，用场景（Scenario）拖拽连接模块实现复杂数据流转。",
       "type": "cloud-paid",
-      "tags": ["可视化", "场景编排", "数据流"],
-      "scenarios": ["数据同步", "复杂流程", "API聚合"],
+      "tags": [
+        "可视化",
+        "场景编排",
+        "数据流"
+      ],
+      "scenarios": [
+        "数据同步",
+        "复杂流程",
+        "API聚合"
+      ],
       "url": "https://www.make.com/",
-      "status": "active",
+      "status": "dead",
       "added": "2026-08-13"
     },
     {
@@ -269,8 +415,16 @@
       "category": "workflow",
       "summary": "开源无代码自动化，界面现代、可自托管，专注团队内部流程自动化。",
       "type": "open-source",
-      "tags": ["无代码", "自托管", "团队自动化"],
-      "scenarios": ["内部流程", "私有部署", "审批流"],
+      "tags": [
+        "无代码",
+        "自托管",
+        "团队自动化"
+      ],
+      "scenarios": [
+        "内部流程",
+        "私有部署",
+        "审批流"
+      ],
       "url": "https://www.activepieces.com/",
       "status": "active",
       "added": "2026-08-13"
@@ -281,8 +435,16 @@
       "category": "workflow",
       "summary": "面向开发者的工作流平台，支持代码与无代码混合，事件驱动自动化。",
       "type": "cloud-paid",
-      "tags": ["开发者", "事件驱动", "API"],
-      "scenarios": ["Webhook流", "代码自动化", "集成"],
+      "tags": [
+        "开发者",
+        "事件驱动",
+        "API"
+      ],
+      "scenarios": [
+        "Webhook流",
+        "代码自动化",
+        "集成"
+      ],
       "url": "https://pipedream.com/",
       "status": "active",
       "added": "2026-08-13"
@@ -293,8 +455,16 @@
       "category": "workflow",
       "summary": "可视化 AI 工作流，把 LLM 节点拼成可复用自动化，适合运营与增长场景。",
       "type": "cloud-paid",
-      "tags": ["AI工作流", "可视化", "增长"],
-      "scenarios": ["内容自动化", "运营流程", "数据处理"],
+      "tags": [
+        "AI工作流",
+        "可视化",
+        "增长"
+      ],
+      "scenarios": [
+        "内容自动化",
+        "运营流程",
+        "数据处理"
+      ],
       "url": "https://www.gumloop.com/",
       "status": "active",
       "added": "2026-08-13"
@@ -305,8 +475,16 @@
       "category": "crossborder",
       "summary": "AI 广告视频生成 Agent，输入产品链接即可产出 TikTok 风格短视频素材。",
       "type": "cloud-paid",
-      "tags": ["TikTok素材", "广告视频", "出海"],
-      "scenarios": ["短视频广告", "社媒投放", "跨境电商"],
+      "tags": [
+        "TikTok素材",
+        "广告视频",
+        "出海"
+      ],
+      "scenarios": [
+        "短视频广告",
+        "社媒投放",
+        "跨境电商"
+      ],
       "url": "https://creatify.ai/",
       "status": "active",
       "added": "2026-08-12"
@@ -317,8 +495,16 @@
       "category": "crossborder",
       "summary": "AI 数字人视频平台，多语种口播 avatar，常用于跨境营销与本地化讲解。",
       "type": "cloud-paid",
-      "tags": ["数字人", "多语种", "营销视频"],
-      "scenarios": ["跨境讲解", "本地化视频", "广告素材"],
+      "tags": [
+        "数字人",
+        "多语种",
+        "营销视频"
+      ],
+      "scenarios": [
+        "跨境讲解",
+        "本地化视频",
+        "广告素材"
+      ],
       "url": "https://www.heygen.com/",
       "status": "active",
       "added": "2026-08-12"
@@ -329,11 +515,20 @@
       "category": "crossborder",
       "summary": "电商内容 Agent，自动生成亚马逊、TikTok 等平台的产品文案与选品建议。",
       "type": "cloud-paid",
-      "tags": ["电商文案", "亚马逊", "选品"],
-      "scenarios": ["listing优化", "选品分析", "内容生成"],
+      "tags": [
+        "电商文案",
+        "亚马逊",
+        "选品"
+      ],
+      "scenarios": [
+        "listing优化",
+        "选品分析",
+        "内容生成"
+      ],
       "url": "https://kua.ai/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Kua.ai 使用教程\n\n### 小节标题：快速上手 Kua.ai\n\n1. 注册账号\n   - 访问 Kua.ai 官网，点击“注册”按钮。\n   - 使用邮箱或手机号进行注册，填写相关信息并完成验证。\n\n2. 登录系统\n   - 在首页输入注册的邮箱和密码，点击“登录”。\n   - 登录成功后，进入个人中心。\n\n3. 创建项目\n   - 在个人中心，点击“创建项目”按钮。\n   - 选择平台（如亚马逊、TikTok）和产品类别。\n   - 填写产品信息，包括产品名称、描述、关键词等。\n\n4. 生成文案\n   - 点击“生成文案”按钮。\n   - 选择文案类型（如产品描述、广告语、促销文案）。\n   - 点击“生成”按钮，系统将自动生成文案。\n\n### 小节标题：高级功能使用\n\n1. 选品建议\n   - 在创建项目时，勾选“选品建议”选项。\n   - 系统将根据产品信息，提供相关选品建议。\n\n2. 文案优化\n   - 生成文案后，可对文案进行编辑和优化。\n   - 点击“编辑”按钮，修改文案内容。\n   - 保存修改后的文案。\n\n3. 导出文案\n   - 生成或编辑后的文案，可导出为多种格式（如TXT、PDF）。\n   - 点击“导出”按钮，选择导出格式，下载文案。\n\n### 小节标题：常见问题解答\n\n1. 如何提高文案质量？\n   - 在创建项目时，提供详细的产品信息。\n   - 多次尝试不同的文案类型和关键词。\n\n2. 如何获取更多选品建议？\n   - 在创建项目时，尽量提供详细的产品信息。\n   - 关注行业动态，了解市场趋势。\n\n3. 如何联系客服？\n   - 在"
     },
     {
       "id": "instantly",
@@ -341,8 +536,16 @@
       "category": "crossborder",
       "summary": "冷邮件自动化平台，批量发送外贸开发信并做域名预热与送达率管理。",
       "type": "cloud-paid",
-      "tags": ["冷邮件", "外贸开发", "送达率"],
-      "scenarios": ["外贸拓客", "邮件群发", "线索培育"],
+      "tags": [
+        "冷邮件",
+        "外贸开发",
+        "送达率"
+      ],
+      "scenarios": [
+        "外贸拓客",
+        "邮件群发",
+        "线索培育"
+      ],
       "url": "https://instantly.ai/",
       "status": "active",
       "added": "2026-08-13"
@@ -353,8 +556,16 @@
       "category": "crossborder",
       "summary": "邮件外发聚合平台，多邮箱轮换发送外贸开发信，主打高送达与防封。",
       "type": "cloud-paid",
-      "tags": ["邮件轮换", "防封", "外贸"],
-      "scenarios": ["外贸邮件", "outreach", "线索触达"],
+      "tags": [
+        "邮件轮换",
+        "防封",
+        "外贸"
+      ],
+      "scenarios": [
+        "外贸邮件",
+        "outreach",
+        "线索触达"
+      ],
       "url": "https://smartlead.ai/",
       "status": "active",
       "added": "2026-08-13"
@@ -365,8 +576,16 @@
       "category": "tools",
       "summary": "本地大模型运行框架，一行命令在电脑上跑 Llama、Qwen 等开源模型。",
       "type": "local-offline",
-      "tags": ["本地大模型", "离线运行", "开源"],
-      "scenarios": ["本地推理", "隐私部署", "Agent底座"],
+      "tags": [
+        "本地大模型",
+        "离线运行",
+        "开源"
+      ],
+      "scenarios": [
+        "本地推理",
+        "隐私部署",
+        "Agent底座"
+      ],
       "url": "https://ollama.com/",
       "status": "active",
       "added": "2026-08-12"
@@ -377,8 +596,16 @@
       "category": "tools",
       "summary": "桌面端本地模型加载器，图形界面管理并运行 GGUF 模型，支持离线推理。",
       "type": "local-offline",
-      "tags": ["桌面应用", "GGUF", "离线"],
-      "scenarios": ["本地体验", "模型管理", "私有问答"],
+      "tags": [
+        "桌面应用",
+        "GGUF",
+        "离线"
+      ],
+      "scenarios": [
+        "本地体验",
+        "模型管理",
+        "私有问答"
+      ],
       "url": "https://lmstudio.ai/",
       "status": "active",
       "added": "2026-08-12"
@@ -389,8 +616,16 @@
       "category": "tools",
       "summary": "大模型 API 聚合中转，一个接口调用数百种模型，按量计费统一结算。",
       "type": "cloud-paid",
-      "tags": ["API中转", "模型聚合", "统一接口"],
-      "scenarios": ["Agent接入", "模型切换", "成本优化"],
+      "tags": [
+        "API中转",
+        "模型聚合",
+        "统一接口"
+      ],
+      "scenarios": [
+        "Agent接入",
+        "模型切换",
+        "成本优化"
+      ],
       "url": "https://openrouter.ai/",
       "status": "active",
       "added": "2026-08-13"
@@ -401,8 +636,16 @@
       "category": "tools",
       "summary": "国内大模型 API 云服务平台，提供 Qwen、DeepSeek 等模型的高性价比中转。",
       "type": "cloud-paid",
-      "tags": ["国内API", "性价比", "DeepSeek"],
-      "scenarios": ["国内合规", "Agent接入", "推理加速"],
+      "tags": [
+        "国内API",
+        "性价比",
+        "DeepSeek"
+      ],
+      "scenarios": [
+        "国内合规",
+        "Agent接入",
+        "推理加速"
+      ],
       "url": "https://siliconflow.cn/",
       "status": "active",
       "added": "2026-08-13"
@@ -413,11 +656,20 @@
       "category": "tools",
       "summary": "网页采集与自动化平台，提供现成 Actor 脚本抓取电商、社媒等公开数据。",
       "type": "cloud-paid",
-      "tags": ["数据采集", "Actor", "爬虫"],
-      "scenarios": ["公开数据", "竞品监控", "任务脚本"],
+      "tags": [
+        "数据采集",
+        "Actor",
+        "爬虫"
+      ],
+      "scenarios": [
+        "公开数据",
+        "竞品监控",
+        "任务脚本"
+      ],
       "url": "https://apify.com/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Apify 使用教程\n\n### 小节标题：快速上手 Apify\n\n1. **注册账号**\n   - 访问 Apify 官网（https://www.apify.com/）。\n   - 点击“注册”按钮，使用邮箱或社交媒体账号登录。\n\n2. **创建新项目**\n   - 登录后，点击左侧菜单栏的“项目”。\n   - 点击“创建新项目”按钮，输入项目名称和描述。\n\n3. **选择 Actor**\n   - 在项目页面，点击“添加 Actor”。\n   - 从 Apify 官方库中选择一个现成的 Actor 脚本，例如“E-commerce Product Scraper”。\n\n4. **配置 Actor**\n   - 选择 Actor 后，系统会自动生成配置界面。\n   - 根据需要填写爬取目标网站的信息，如 URL、选择要采集的数据等。\n\n5. **运行 Actor**\n   - 完成配置后，点击“运行”按钮。\n   - 系统会自动开始执行 Actor 脚本，采集所需数据。\n\n### 小节标题：高级使用技巧\n\n1. **自定义 Actor**\n   - 如果现成的 Actor 脚本无法满足需求，可以创建自定义 Actor。\n   - 在项目页面点击“添加 Actor”，选择“自定义 Actor”。\n   - 使用 JavaScript 或 Python 编写代码，实现数据采集逻辑。\n\n2. **数据存储与处理**\n   - Apify 支持多种数据存储方式，如数据库、CSV 文件等。\n   - 在 Actor 脚本中，使用 Apify SDK 的数据存储功能，将采集到的数据"
     },
     {
       "id": "huggingface",
@@ -425,23 +677,539 @@
       "category": "tools",
       "summary": "开源模型与 Agent 部署社区，可托管 Spaces 直接上线演示与推理服务。",
       "type": "cloud-paid",
-      "tags": ["模型社区", "Spaces", "部署"],
-      "scenarios": ["模型托管", "Agent部署", "演示上线"],
+      "tags": [
+        "模型社区",
+        "Spaces",
+        "部署"
+      ],
+      "scenarios": [
+        "模型托管",
+        "Agent部署",
+        "演示上线"
+      ],
       "url": "https://huggingface.co/",
       "status": "active",
       "added": "2026-08-13"
+    },
+    {
+      "name": "skills",
+      "category": "local",
+      "type": "open-source",
+      "summary": "开源技能库，支持本地化部署",
+      "tags": [
+        "技能库",
+        "开源",
+        "本地化"
+      ],
+      "scenarios": [
+        "技能模块开发",
+        "自定义技能集成",
+        "技能库管理"
+      ],
+      "tutorial": "## 使用 Skills 工具\n\n### 1. 克隆仓库\n\n1. 打开终端或命令行。\n2. 输入 `git clone [仓库地址]` 并回车。\n3. 克隆完成后，进入仓库目录。\n\n### 2. 安装依赖\n\n1. 输入 `pip install -r requirements.txt` 并回车。\n2. 等待依赖安装完成。\n\n### 3. 运行示例\n\n1. 输入 `python example.py` 并回车。\n2. 查看示例代码运行结果。\n\n### 4. 开发自定义技能\n\n1. 在 `skills` 目录下创建新的 Python 文件。\n2. 编写技能逻辑。\n3. 在 `example.py` 中导入并使用新技能。",
+      "url": "https://github.com/anthropics/skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "skills",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "macro",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "统一团队工作空间，集成邮件、聊天、文档、任务、智能代理等功能。",
+      "tags": [
+        "团队协作",
+        "AI记忆",
+        "工作流"
+      ],
+      "scenarios": [
+        "跨部门沟通",
+        "项目管理",
+        "自动化办公"
+      ],
+      "tutorial": "## 使用 Macro 进行团队协作\n1.  **创建账户**：在 [Macro 官网](https://www.macro.com) 注册并登录。\n2.  **添加应用**：点击左侧菜单，选择添加所需的电子邮件、聊天、文档等应用。\n3.  **配置共享AI记忆**：在设置中启用共享AI记忆，确保团队成员之间的信息同步。\n4.  **协作任务分配**：使用任务功能分配任务给团队成员，并跟踪进度。\n5.  **智能代理设置**：配置智能代理自动处理重复性任务，如邮件筛选、日程提醒等。",
+      "url": "https://github.com/macro-inc/macro",
+      "status": "active",
+      "is_violation": false,
+      "id": "macro",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "spiderfoot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化OSINT，威胁情报与攻击面映射",
+      "tags": [
+        "OSINT",
+        "威胁情报",
+        "攻击面",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网络安全监控",
+        "威胁情报分析",
+        "攻击面评估"
+      ],
+      "tutorial": "## SpiderFoot 使用教程\n\n### 1. 安装与启动\n1. 下载并安装SpiderFoot。\n2. 运行SpiderFoot，选择相应的扫描目标。\n3. 点击开始扫描。\n\n### 2. 配置扫描参数\n1. 在扫描设置中，可以配置扫描深度、扫描范围等参数。\n2. 根据需要选择扫描的搜索引擎、数据库等。\n3. 点击保存设置。\n\n### 3. 查看扫描结果\n1. 扫描完成后，查看扫描结果。\n2. SpiderFoot会自动识别目标的相关信息，如IP地址、域名、邮箱等。\n3. 可以根据结果进行进一步的分析。\n\n### 4. 导出报告\n1. 将扫描结果导出为CSV、PDF等格式。\n2. 可以用于生成报告或提交给相关人员。",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "status": "active",
+      "is_violation": false,
+      "id": "spiderfoot",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "holaOS",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式开源AI代理工作空间，跨工具、应用、浏览器和文件运行AI代理。",
+      "tags": [
+        "AI代理",
+        "开源",
+        "跨平台",
+        "集成"
+      ],
+      "scenarios": [
+        "跨工具协作",
+        "自动化任务",
+        "数据共享"
+      ],
+      "tutorial": "## holaOS 使用教程\n\n### 1. 安装与启动\n1. 下载并安装 holaOS。\n2. 打开 holaOS 并创建一个新的工作空间。\n3. 选择要运行的 AI 代理，如 Claude Code 或 Codex。\n\n### 2. 配置代理\n1. 在工作空间中配置代理的参数和设置。\n2. 设置代理的共享内存，以便跨应用和数据共享。\n3. 选择内置模型或上传自己的模型（BYOK）。\n\n### 3. 运行代理\n1. 在工具、应用、浏览器或文件中选择要执行的操作。\n2. 启动 AI 代理并监控其执行过程。\n3. 查看代理执行结果并进行必要的调整。\n\n### 4. 集成与扩展\n1. 通过 MCP 集成超过 100 个工具和应用。\n2. 根据需要扩展 holaOS 的功能。",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "status": "active",
+      "is_violation": false,
+      "id": "holaos",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "obsidian-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为 Obsidian 教育智能体使用 CLI 和开放格式",
+      "tags": [
+        "Obsidian",
+        "CLI",
+        "Markdown",
+        "JSON"
+      ],
+      "scenarios": [
+        "知识管理",
+        "文档自动化",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 Obsidian-Skills 教育智能体\n\n### 1. 安装 Obsidian-Skills\n\n1. 打开 Obsidian 应用。\n2. 在插件市场中搜索 'obsidian-skills'。\n3. 安装插件。\n\n### 2. 配置智能体\n\n1. 在插件设置中找到 'obsidian-skills'。\n2. 按照提示配置智能体参数，如 CLI 路径、文件格式等。\n3. 保存配置。\n\n### 3. 创建技能\n\n1. 在插件界面创建新的技能。\n2. 选择 'Obsidian CLI' 作为技能类型。\n3. 输入命令和参数，例如 'md' 来生成 Markdown 文件。\n4. 保存技能。\n\n### 4. 使用技能\n\n1. 在 Obsidian 中选择需要执行操作的文件或目录。\n2. 右键点击，选择 'obsidian-skills' 插件。\n3. 执行你创建的技能。",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "obsidian-skills",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "agency-agents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式AI代理平台，提供多样化专家服务",
+      "tags": [
+        "AI代理",
+        "自动化操作",
+        "社区管理",
+        "数据采集"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "内容生成",
+        "数据分析"
+      ],
+      "tutorial": "## 使用Agency Agents进行社交媒体管理\n1. 在Agency Agents中选择适合的AI代理，如Reddit社区管理代理。\n2. 配置代理的参数，例如关键词、回复频率等。\n3. 启动代理，让代理自动在Reddit上发帖、回复和互动。\n4. 监控代理的执行情况，根据需要调整配置。",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "status": "active",
+      "is_violation": false,
+      "id": "agency-agents",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "ragflow",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "融合RAG与Agent能力的开源检索增强生成引擎，提升LLM上下文层",
+      "tags": [
+        "RAG",
+        "LLM",
+        "生成",
+        "检索"
+      ],
+      "scenarios": [
+        "自然语言处理",
+        "知识图谱",
+        "问答系统"
+      ],
+      "tutorial": "## RAGFlow使用教程\n\n### 1. 安装与配置\n\n1. 下载RAGFlow源代码。\n2. 安装依赖库，如PyTorch、transformers等。\n3. 配置环境变量，确保RAGFlow可以正常运行。\n\n### 2. 数据准备\n\n1. 收集或准备用于训练的数据集。\n2. 格式化数据，确保数据符合RAGFlow的输入要求。\n3. 将数据集导入到RAGFlow中。\n\n### 3. 训练模型\n\n1. 选择合适的模型架构和参数。\n2. 使用RAGFlow提供的API进行模型训练。\n3. 监控训练过程，确保模型性能稳定提升。\n\n### 4. 应用模型\n\n1. 使用训练好的模型进行预测。\n2. 根据预测结果进行相应的业务处理。\n3. 评估模型性能，持续优化。",
+      "url": "https://github.com/infiniflow/ragflow",
+      "status": "active",
+      "is_violation": false,
+      "id": "ragflow",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "agent-data",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页数据采集Agent，无需代码自动抓取信息。",
+      "tags": [
+        "数据采集",
+        "网页抓取",
+        "RPA"
+      ],
+      "scenarios": [
+        "电商数据分析",
+        "市场调研",
+        "信息监控"
+      ],
+      "tutorial": "## 使用Agent-Data进行数据采集\n\n1. 下载并安装Agent-Data。\n2. 打开Agent-Data，选择目标网页进行数据采集。\n3. 设置采集规则，包括所需数据的字段和格式。\n4. 点击开始采集，Agent-Data将自动抓取数据。\n5. 采集完成后，导出数据到本地文件。",
+      "url": "https://huggingface.co/spaces/avvnire/agent-data",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-data",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Phinq",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理行为监控，防止误操作。",
+      "tags": [
+        "AI 监控",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "RPA 流程监控",
+        "AI 代理管理"
+      ],
+      "tutorial": "## Phinq 使用教程\n\n### 1. 安装 Phinq\n\n从 [Phinq 官网](https://www.producthunt.com/products/phinq) 下载并安装 Phinq 扩展或插件。\n\n### 2. 配置代理\n\n在 Phinq 的设置中配置你的代理，包括代理服务器地址和端口。\n\n### 3. 监控 AI 代理\n\n启动你的 AI 代理，Phinq 将开始监控其行为，确保不会发生误操作。\n\n### 4. 查看报告\n\nPhinq 会生成报告，显示 AI 代理的行为和任何潜在的风险。",
+      "url": "https://www.producthunt.com/products/phinq",
+      "status": "dead",
+      "is_violation": false,
+      "id": "phinq",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "apra-fleet",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨机运行AI代理舰队",
+      "tags": [
+        "AI代理",
+        "跨机运行",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用APRA-Fleet进行AI代理舰队部署\n1. 下载并安装APRA-Fleet客户端。\n2. 在客户端中配置你的机器和网络设置。\n3. 创建AI代理并分配任务。\n4. 启动代理舰队，监控运行状态。\n5. 根据需要调整配置和任务。",
+      "url": "https://www.producthunt.com/products/apra-fleet",
+      "status": "dead",
+      "is_violation": false,
+      "id": "apra-fleet",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Qencode MCP",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 视频转码与处理浏览器插件",
+      "tags": [
+        "视频转码",
+        "AI 处理",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "视频内容制作",
+        "视频编辑",
+        "在线视频平台"
+      ],
+      "tutorial": "## Qencode MCP 使用教程\n\n### 1. 安装插件\n\n1. 访问 Qencode MCP 官网下载插件。\n2. 打开浏览器扩展程序页面，点击 '加载已解压的扩展程序'，选择下载的插件文件夹。\n3. 插件安装完成后，在浏览器地址栏旁边会出现 Qencode MCP 图标。\n\n### 2. 选择视频文件\n\n1. 在需要转码的视频文件上点击 Qencode MCP 图标。\n2. 选择要转码的视频文件。\n3. 选择输出格式和参数设置。\n\n### 3. 开始转码\n\n1. 点击 '开始转码' 按钮。\n2. 视频转码完成后，下载转换后的视频文件。\n\n### 4. 视频处理\n\n1. 在转码过程中，可以调整视频的分辨率、编码格式等参数。\n2. 支持批量处理多个视频文件。",
+      "url": "https://www.producthunt.com/products/qencode",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qencode-mcp",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Pickle Browser",
+      "category": "browser",
+      "type": "local-offline",
+      "summary": "本地运行的浏览器网页Agent",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Pickle Browser 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Pickle Browser 安装包。\n2. 双击安装包进行安装。\n3. 安装完成后，运行 Pickle Browser。\n\n### 2. 创建新任务\n\n1. 在 Pickle Browser 中点击 '新建任务'。\n2. 输入任务名称，选择任务类型（如网页抓取、自动化测试等）。\n3. 点击 '下一步'。\n\n### 3. 编排任务步骤\n\n1. 在任务编辑器中，拖拽操作步骤到工作区。\n2. 设置每个步骤的参数，如目标网页、数据提取规则等。\n3. 保存并测试任务。\n\n### 4. 运行任务\n\n1. 点击 '运行' 按钮。\n2. 观察任务执行过程，确保任务按预期执行。\n3. 任务完成后，可以导出结果数据。",
+      "url": "https://www.producthunt.com/products/pickle-browser",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pickle-browser",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "WebBrain",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "面向大众的侧边栏网页Agent",
+      "tags": [
+        "网页自动化",
+        "侧边栏工具",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "网页交互"
+      ],
+      "tutorial": "## WebBrain 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [WebBrain 官网](https://www.producthunt.com/products/webbrain) 下载并安装 WebBrain。\n2. 打开 WebBrain，启动侧边栏。\n\n### 2. 创建任务\n\n1. 在侧边栏中点击 '+' 创建新任务。\n2. 选择任务类型，如数据采集或表单填写。\n3. 设置任务参数，如目标网页和采集字段。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 开始执行任务。\n2. 在侧边栏中实时监控任务进度。\n3. 任务完成后，导出采集数据。\n\n### 4. 保存与分享\n\n1. 完成任务后，保存任务配置。\n2. 可将任务分享给他人或团队使用。",
+      "url": "https://www.producthunt.com/products/webbrain",
+      "status": "dead",
+      "is_violation": false,
+      "id": "webbrain",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Mem Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "拒绝遗漏任务的AI助手",
+      "tags": [
+        "AI",
+        "自动化",
+        "效率提升"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Mem Agent 使用教程\n\n### 1. 安装与启动\n\n1. 访问Mem Agent官网下载并安装最新版本。\n2. 运行程序，首次使用需要进行简单的账户注册和登录。\n\n### 2. 创建任务\n\n1. 在Mem Agent界面点击创建新任务。\n2. 选择任务类型，如网页自动化、数据采集等。\n3. 输入任务参数，如目标网址、数据提取规则等。\n\n### 3. 运行与监控\n\n1. 点击运行任务，Mem Agent开始执行。\n2. 在监控界面查看任务执行进度和结果。\n3. 如有需要，可随时暂停或停止任务。\n\n### 4. 结果导出\n\n1. 任务完成后，可导出结果数据，支持多种格式。\n2. 对导出的数据进行进一步分析和处理。",
+      "url": "https://www.producthunt.com/products/mem-2-0",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mem-agent",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Oasis",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "人类与智能代理协同工作平台",
+      "tags": [
+        "协同工作",
+        "智能代理",
+        "工作平台"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化任务"
+      ],
+      "tutorial": "## Oasis 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Oasis 官网，点击注册按钮。\n2. 填写注册信息，包括用户名、邮箱和密码。\n3. 完成验证邮件，返回官网登录。\n\n### 2. 创建团队\n\n1. 登录后，点击创建团队按钮。\n2. 输入团队名称和描述。\n3. 邀请团队成员加入。\n\n### 3. 分配任务\n\n1. 在团队页面，点击创建任务按钮。\n2. 输入任务详情，包括任务名称、描述和截止日期。\n3. 分配任务给团队成员。\n\n### 4. 智能代理协作\n\n1. 创建智能代理，配置任务规则。\n2. 智能代理自动执行任务，提高工作效率。\n3. 监控任务进度，及时调整策略。",
+      "url": "https://www.producthunt.com/products/oasis-6",
+      "status": "dead",
+      "is_violation": false,
+      "id": "oasis",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Coarena by Coasty",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "真实世界工作场景的智能代理竞技场",
+      "tags": [
+        "智能代理",
+        "工作场景",
+        "数据采集",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Coarena by Coasty 使用教程\n\n1. 注册并登录Coarena平台\n\n2. 创建一个新的代理项目，并配置代理的启动参数和目标网页\n\n3. 编写代理脚本，实现所需的功能，如数据采集、模拟点击等\n\n4. 运行代理，观察代理在真实网页上的行为\n\n5. 分析结果，优化代理脚本，直至达到预期效果",
+      "url": "https://www.producthunt.com/products/coarena-by-coasty",
+      "status": "dead",
+      "is_violation": false,
+      "id": "coarena-by-coasty",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Execlave",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI代理与真实世界之间的桥梁",
+      "tags": [
+        "AI代理",
+        "网页交互",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Execlave 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Execlave 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 Execlave 平台。\n\n### 2. 创建代理\n\n1. 登录后，点击创建代理按钮。\n2. 输入代理名称，选择代理类型，配置相关参数。\n3. 点击创建，等待代理生成。\n\n### 3. 编写脚本\n\n1. 在代理详情页面，选择脚本编辑器。\n2. 使用 Execlave 提供的脚本语言编写自动化脚本。\n3. 保存并测试脚本，确保其按预期工作。\n\n### 4. 运行代理\n\n1. 在代理详情页面，点击运行按钮。\n2. 观察代理执行过程，确保其完成所有任务。\n\n### 5. 查看结果\n\n1. 代理运行完成后，查看执行结果。\n2. 如有需要，可以对代理进行优化和调整。",
+      "url": "https://www.producthunt.com/products/execlave",
+      "status": "dead",
+      "is_violation": false,
+      "id": "execlave",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "BearDrive",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "团队AI代理共享文件夹开源工具",
+      "tags": [
+        "共享",
+        "团队",
+        "AI代理",
+        "开源"
+      ],
+      "scenarios": [
+        "团队协作",
+        "数据共享",
+        "AI应用管理"
+      ],
+      "tutorial": "## BearDrive 使用教程\n\n### 1. 安装与配置\n\n1. 访问 [BearDrive 官网](https://www.producthunt.com/products/beardrive) 下载并安装 BearDrive。\n2. 创建一个新的共享文件夹，并邀请团队成员加入。\n3. 配置文件夹的访问权限，确保团队成员可以访问所需的数据。\n\n### 2. 上传与共享\n\n1. 将需要共享的文件上传到 BearDrive 的共享文件夹中。\n2. 选择合适的共享设置，如公开访问或仅限团队成员。\n3. 点击“共享”按钮，将文件分享给团队成员。\n\n### 3. 文件管理\n\n1. 在 BearDrive 中，你可以查看、编辑和删除共享的文件。\n2. 使用搜索功能快速找到所需的文件。\n3. 对文件进行分类和标签管理，方便后续查找。\n\n### 4. 安全性\n\n1. BearDrive 提供数据加密和访问控制，确保文件安全。\n2. 定期备份共享文件夹，防止数据丢失。\n3. 监控文件夹访问记录，及时发现异常行为。",
+      "url": "https://www.producthunt.com/products/beardrive",
+      "status": "dead",
+      "is_violation": false,
+      "id": "beardrive",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Chat Agent by Trigger.dev",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "关闭标签后持续运行的AI聊天工具",
+      "tags": [
+        "AI聊天",
+        "持续运行",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "在线客服",
+        "聊天机器人",
+        "用户互动"
+      ],
+      "tutorial": "## 使用Chat Agent by Trigger.dev\n\n1. 访问 [Trigger.dev官网](https://www.trigger.dev) 并注册账户。\n2. 登录账户后，选择创建一个新的聊天代理。\n3. 在设置中配置聊天代理的参数，如语言、回复风格等。\n4. 将生成的聊天代理代码嵌入到你的网页中。\n5. 用户访问你的网页时，即可与聊天代理进行交互。",
+      "url": "https://www.producthunt.com/products/trigger-dev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "chat-agent-by-trigger-dev",
+      "added": "2026-08-14"
+    },
+    {
+      "name": "Ballet",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "确保每次工作流程都能达到相同结果",
+      "tags": [
+        "工作流",
+        "自动化",
+        "重复任务"
+      ],
+      "scenarios": [
+        "企业内部流程自动化",
+        "跨部门协作",
+        "日常任务自动化"
+      ],
+      "tutorial": "## 使用Ballet进行工作流程自动化\n\n1. **创建工作流程**\n   - 登录Ballet平台，点击创建新的工作流程。\n   - 选择需要自动化的任务类型，如邮件发送、数据采集等。\n\n2. **配置任务参数**\n   - 根据任务类型，填写相应的参数，如邮件地址、数据源等。\n   - 设置触发条件，如定时执行、事件触发等。\n\n3. **测试工作流程**\n   - 在测试环境中运行工作流程，确保各项任务按预期执行。\n   - 根据测试结果调整参数或流程。\n\n4. **部署工作流程**\n   - 将测试通过的工作流程部署到生产环境。\n   - 监控工作流程的运行状态，确保自动化任务持续执行。",
+      "url": "https://www.producthunt.com/products/ballet",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ballet",
+      "added": "2026-08-14"
     }
   ],
   "changelog": [
     {
       "date": "2026-08-13",
-      "added": ["Flowise", "LangChain", "CrewAI", "MetaGPT", "OpenManus", "AutoGen", "Axiom", "Bardeen", "Skyvern", "Make", "Activepieces", "Pipedream", "Gumloop", "Kua.ai", "Instantly", "Smartlead", "OpenRouter", "SiliconFlow", "Apify", "Hugging Face"],
+      "added": [
+        "Flowise",
+        "LangChain",
+        "CrewAI",
+        "MetaGPT",
+        "OpenManus",
+        "AutoGen",
+        "Axiom",
+        "Bardeen",
+        "Skyvern",
+        "Make",
+        "Activepieces",
+        "Pipedream",
+        "Gumloop",
+        "Kua.ai",
+        "Instantly",
+        "Smartlead",
+        "OpenRouter",
+        "SiliconFlow",
+        "Apify",
+        "Hugging Face"
+      ],
       "note": "第二批扩充：补齐浏览器/工作流/跨境/辅助工具四大板块。"
     },
     {
       "date": "2026-08-12",
-      "added": ["AutoGPT", "Qwen Agent", "Dify", "Browser Use", "MultiOn", "Godmode", "n8n", "Zapier", "Creatify", "HeyGen", "Ollama", "LM Studio"],
+      "added": [
+        "AutoGPT",
+        "Qwen Agent",
+        "Dify",
+        "Browser Use",
+        "MultiOn",
+        "Godmode",
+        "n8n",
+        "Zapier",
+        "Creatify",
+        "HeyGen",
+        "Ollama",
+        "LM Studio"
+      ],
       "note": "站点初始化，首批收录本地开源与跨境商用 Agent 工具。"
+    },
+    {
+      "date": "2026-08-14",
+      "added": [
+        "skills",
+        "macro",
+        "spiderfoot",
+        "holaOS",
+        "obsidian-skills",
+        "agency-agents",
+        "ragflow",
+        "agent-data",
+        "Phinq",
+        "apra-fleet",
+        "Qencode MCP",
+        "Pickle Browser",
+        "WebBrain",
+        "Mem Agent",
+        "Oasis",
+        "Coarena by Coasty",
+        "Execlave",
+        "BearDrive",
+        "Chat Agent by Trigger.dev",
+        "Ballet"
+      ],
+      "invalidated": 1,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
     }
   ]
 }
