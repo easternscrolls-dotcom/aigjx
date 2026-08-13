@@ -6,7 +6,10 @@
 #  · 触发②：在仓库 Actions 页面点 “Run workflow” 可手动一键触发
 #  · 全程云端执行：电脑关机也照常运行；零服务器、零付费
 #    （GitHub Actions 免费额度 2000 分钟/月，本流程约 3~6 分钟/天，长期够用）
-#  · 流程：采集(GitHub/HF/Firecrawl) → AI清洗(智谱GLM-4-Flash) → 更新 data/agent-list.json
+#  · 流程：采集(GitHub Trending / HuggingFace / ProductHunt RSS / Firecrawl)
+#          → AI清洗(智谱GLM-4-Flash，4大分类差异化文案 + 灰色/翻墙内容违规检测)
+#          → 增量追加 data/agent-list.json（仅 append 新工具，不重写）
+#          → 每日旋转复检链接，404 自动标记 dead
 #          → 重新生成 sitemap → 提交推送 → Cloudflare Pages 自动构建部署
 #  · 部署方式：本仓库已连 Cloudflare Pages（Git 集成），push 即触发自动部署，
 #    故无需额外部署步骤；部署后线上自动出现新工具。
@@ -25,7 +28,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - name: ① 检出代码
         uses: actions/checkout@v4
@@ -43,10 +46,10 @@ jobs:
       - name: ④ 安装 Python 依赖（仅免费开源包，见 requirements.txt）
         run: pip install -r requirements.txt
 
-      - name: ⑤ 运行爬取 + AI 清洗 + 更新数据
+      - name: ⑤ 运行爬取 + AI 清洗 + 违规过滤 + 链接复检 + 增量更新
         env:
           # ↓↓↓ 免费密钥填写位置（GitHub 仓库 Settings → Secrets and variables → Actions）↓↓↓
-          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}          # 智谱 GLM-4-Flash 免费 Key（必填，否则无 AI 清洗，走兜底启发式）
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}          # 智谱 GLM-4-Flash 免费 Key（必填，否则无 AI 清洗/违规检测，走兜底启发式）
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}  # Firecrawl 免费 Key（选填，留空则跳过该数据源）
           CRAWL_TARGET_URL: ${{ secrets.CRAWL_TARGET_URL }}    # 海外 AI 社区上新页 URL（选填，配合 Firecrawl 使用）
         run: python crawl.py

@@ -7,17 +7,20 @@ crawl.py —— AgentHub 全自动数据采集 + AI 清洗 + 数据更新脚本
 设计目标：零付费、零后端、零服务器，配合 GitHub Actions 每日定时运行（电脑关机也照常执行）。
 
 整体流程（与 .github/workflows/daily-crawl.yml 一一对应）：
-  步骤1  数据源采集（无反爬风险、优先官方/免费源）
+  步骤1  多源采集（无反爬风险、优先官方/免费源，全部失败优雅跳过）
           · GitHub Trending 每日热门（读公开 HTML，GitHub 无官方 Trending API，故抓取页面）
           · Hugging Face Spaces API（免费 JSON 接口，筛选 agent 相关空间）
+          · ProductHunt RSS（官方 Atom Feed，无需密钥，抓取 AI 工具上新）
           · Firecrawl 免费抓取接口（可选，每月 1000 次免费额度，需 FIRECRAWL_API_KEY）
   步骤2  AI 自动处理（智谱 GLM-4-Flash 免费大模型，需 ZHIPU_API_KEY）
-          · 英文简介翻译 + 生成中文一句话简介
+          · 英文简介翻译 + 按「分类定位」差异化生成中文一句话简介
           · 自动分类到 4 大板块 + 配套辅助
           · 自动打标签（开源免费 / 云端付费 / 本地离线）
+          · 智谱免费 AI 违规检测：过滤翻墙 / VPN / 代理 / 破解 / 色情 / 赌博 / 黑产等灰色内容
           · 自动去重（对比现有 data/agent-list.json，只新增未收录）
           · 自动校验链接有效性（失效标记 status=dead，前端自动灰色置灰）
-  步骤3  合并写入 data/agent-list.json，并追加更新日志 changelog（update.html 自动展示）
+  步骤2.6 每日链接复检：旋转批次复检既有 active 工具，404 自动降级为 dead（仅改 status，不重写）
+  步骤3  增量追加写入 data/agent-list.json（仅 append 新工具，完整保留既有记录），并追加更新日志 changelog
   步骤4  （部署由 GitHub Actions 完成：重新生成 sitemap + 提交 + Cloudflare 自动上线）
   步骤5  输出 crawl-YYYYMMDD.log 执行日志（Workflow 上传为 artifact 留存 30 天，供每月人工核查）
 
@@ -54,6 +57,11 @@ MAX_NEW_PER_RUN = 20
 # 两次 GLM 调用之间的间隔（秒），避免触发免费模型限流（智谱免费版有 RPM 限制）
 AI_CALL_INTERVAL = 1.5
 
+# 每日链接复检：对「既有 active 工具」按 (index % CYCLE) == (年内第几天 % CYCLE) 旋转抽样，
+# 单日最多复检 LINK_RECHECK_BATCH 个，约等于每 CYCLE 天把全量轮一遍，控制请求量。
+LINK_RECHECK_CYCLE_DAYS = 7
+LINK_RECHECK_BATCH = 12
+
 # 分类与类型白名单（必须与此站 categories[].id、前端 TYPE_LABEL 完全一致）
 VALID_CATEGORIES = ['local', 'browser', 'workflow', 'crossborder', 'tools']
 VALID_TYPES = ['open-source', 'cloud-paid', 'local-offline']
@@ -63,6 +71,14 @@ AGENT_KEYWORDS = [
     'agent', 'autonomous', 'automation', 'automate', 'llm-agent', 'multi-agent',
     'browser-use', 'web agent', 'rpa', 'workflow', 'orchestration', '智能体',
     '自动化', '自主', 'agentic', 'copilot', 'task automation'
+]
+
+# 违规/灰色内容关键词（命中即预筛拦截，无需消耗 AI 额度）
+VIOLATION_KEYWORDS = [
+    'vpn', '翻墙', '科学上网', '翻墙代理', '机场节点', '破解', 'crack', '破解版',
+    '注册机', 'keygen', '激活码', '盗版', '色情', '成人', '赌博', '博彩', '私彩',
+    'bc.game', '彩票', '刷单', '刷量', '刷评', '灰产', '黑产', '黑客攻击', 'ddos',
+    '网赚', '资金盘', '杀猪盘', 'hack tool', 'exploit kit', '钓鱼', '引流欺诈'
 ]
 
 # ------------------------- 日志 -------------------------
@@ -117,6 +133,7 @@ def fetch_github_trending():
 def fetch_huggingface():
     """读取 Hugging Face Spaces 公开 API，筛选近期更新、含 agent 关键词的空间。
     免费、无需密钥；返回按最近修改排序的 spaces 列表（JSON）。
+    增强：先取 lastModified 排序的 60 个，再按关键词过滤，保证新鲜度与相关性。
     """
     url = 'https://huggingface.co/api/spaces?sort=lastModified&direction=-1&limit=60'
     out = []
@@ -137,6 +154,35 @@ def fetch_huggingface():
         LOG.info('[采集] Hugging Face 命中 %d 个候选', len(out))
     except Exception as e:
         LOG.warning('[采集] Hugging Face 失败：%s', e)
+    return out
+
+def fetch_producthunt():
+    """抓取 ProductHunt 官方 Atom RSS（无需密钥），发现最新 AI Agent 工具。
+    说明：RSS 的 <link> 指向 ProductHunt 帖子页；本函数会优先从简介 HTML 中
+    抽取工具的真实官网链接，抽不到则回退到 PH 帖子页（仍为可访问链接）。
+    """
+    url = 'https://www.producthunt.com/feed'
+    out = []
+    try:
+        r = requests.get(url, headers={'User-Agent': UA}, timeout=REQUEST_TIMEOUT)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, 'html.parser')
+        for e in soup.select('entry'):
+            title = e.select_one('title')
+            name = title.get_text(strip=True) if title else ''
+            link = e.select_one('link')
+            ph_url = link.get('href') if link else ''
+            summary = e.select_one('summary') or e.select_one('content')
+            raw = summary.get_text(strip=True) if summary else ''
+            # 从简介 HTML 里抽取第一个非 producthunt 的外链作为真实官网
+            m = re.search(r'href="(https?://(?!www\.producthunt\.com)[^"]+)"', raw)
+            real = m.group(1) if m else ''
+            final_url = real or ph_url
+            if name and _match_agent(name + ' ' + raw):
+                out.append({'name': name, 'url': final_url, 'raw_desc': raw, 'source': 'producthunt'})
+        LOG.info('[采集] ProductHunt RSS 命中 %d 个候选', len(out))
+    except Exception as e:
+        LOG.warning('[采集] ProductHunt RSS 失败：%s', e)
     return out
 
 def fetch_firecrawl(target_url):
@@ -216,17 +262,30 @@ def _extract_json(text):
             pass
     return None
 
-# 单工具清洗的系统提示词（限定 JSON schema，避免模型自由发挥）
+# 各分类的「差异化文案风格」提示：让 GLM 生成贴合分类定位的一句话简介
+CATEGORY_HINTS = {
+    'local':       '本地开源框架：强调可本地/私有化部署、数据不出域、自托管、适合开发者二次开发',
+    'browser':     '浏览器网页Agent：强调自动操作网页、自动填表、数据采集、RPA、无需写代码',
+    'workflow':    '低代码工作流Agent：强调可视化拖拽编排、连接 SaaS、自动化重复业务流程',
+    'crossborder': '跨境商用Agent：强调面向跨境电商/外贸、Listing 生成、邮件自动回复、多语言客服',
+    'tools':       '配套辅助：强调为 Agent 提供模型/算力/数据/托管等基础设施支撑',
+}
+_HINT_TEXT = '；'.join('%s（%s）' % (k, v) for k, v in CATEGORY_HINTS.items())
+
+# 单工具清洗的系统提示词（限定 JSON schema，避免模型自由发挥；内置差异化文案 + 违规检测）
 ENRICH_SYSTEM = (
-    '你是 AgentHub 导航站的 AI 编辑。根据工具名称与简介，严格只输出一个 JSON 对象，'
-    '字段：category(必填, 取值 local/browser/workflow/crossborder/tools)、'
+    '你是 AgentHub 导航站的 AI 编辑。根据工具名称与简介，严格只输出一个 JSON 对象，字段：'
+    'category(必填, 取值 local/browser/workflow/crossborder/tools)、'
     'type(必填, 取值 open-source/cloud-paid/local-offline)、'
-    'summary_cn(必填, 一句中文简介, 不超过 40 字)、'
-    'tags(中文标签数组, 2-4 个)、scenarios(适用场景数组, 1-3 个)。不要任何解释文字。'
+    'summary_cn(必填, 一句中文简介, 不超过 40 字, 必须体现该分类的定位风格)、'
+    'tags(中文标签数组, 2-4 个)、scenarios(适用场景数组, 1-3 个)、'
+    'is_violation(布尔, 若工具涉及翻墙/VPN/代理/破解/注册机/色情/赌博/黑产等灰色违规内容则为 true)。'
+    '不要任何解释文字。'
+    '【各分类简介文案风格】' + _HINT_TEXT
 )
 
 def enrich_tool(cand):
-    """对单个候选做 AI 翻译/分类/打标签；无 key 时回退到关键词启发式（仅调试用）。"""
+    """对单个候选做 AI 翻译/分类/打标签/违规检测；无 key 时回退到关键词启发式（仅调试用）。"""
     name = cand['name']
     raw = cand.get('raw_desc', '')
     ai = call_glm(ENRICH_SYSTEM, '工具名称：%s\n原始简介：%s\n来源：%s' % (name, raw, cand.get('source', '')))
@@ -245,10 +304,13 @@ def enrich_tool(cand):
             'tags': (ai.get('tags') or [])[:4],
             'scenarios': (ai.get('scenarios') or [])[:3],
             'url': cand['url'],
-            'status': 'active'
+            'status': 'active',
+            'is_violation': bool(ai.get('is_violation'))   # 智谱免费 AI 违规检测结论
         }
     # —— 无 AI key 的本地回退（不会翻译，仅用于没有密钥时跑通流程）——
-    return heuristic_enrich(cand)
+    h = heuristic_enrich(cand)
+    h['is_violation'] = False
+    return h
 
 def heuristic_enrich(cand):
     """无 AI key 时的关键词启发式分类（兜底，不翻译）。"""
@@ -292,6 +354,15 @@ def ai_extract_from_text(text):
         return out
     return []
 
+# ------------------------- 步骤2.3：违规/灰色内容过滤 -------------------------
+def keyword_violation(cand):
+    """违规关键词预筛（无需 AI 调用）。命中翻墙/VPN/破解/色情/赌博/黑产等即拦截。返回 (是否违规, 理由)。"""
+    text = ' '.join([str(cand.get('name', '')), str(cand.get('raw_desc', '')), str(cand.get('url', ''))]).lower()
+    for k in VIOLATION_KEYWORDS:
+        if k in text:
+            return True, '命中违规关键词「%s」' % k
+    return False, ''
+
 # ------------------------- 步骤2.4/2.5：去重 + 链接校验 -------------------------
 def normalize_url(u):
     return (u or '').strip().lower().rstrip('/')
@@ -317,12 +388,35 @@ def check_link(url):
     except Exception:
         return False
 
-# ------------------------- 步骤3：合并写入 -------------------------
+# ------------------------- 步骤2.6：每日旋转复检既有链接 -------------------------
+def revalidate_existing(data):
+    """按日旋转批次复检「既有 active 工具」的链接有效性，404 自动降级为 dead。
+    仅修改 status 字段，不重写任何既有记录；返回本次新标记的失效数量。
+    """
+    active = [a for a in data['agents'] if a.get('status', 'active') == 'active']
+    if not active:
+        return 0
+    doy = beijing_date().timetuple().tm_yday
+    rotation = doy % LINK_RECHECK_CYCLE_DAYS
+    batch = [a for i, a in enumerate(active) if (i % LINK_RECHECK_CYCLE_DAYS) == rotation]
+    batch = batch[:LINK_RECHECK_BATCH]
+    changed = 0
+    for a in batch:
+        if not check_link(a.get('url', '')):
+            a['status'] = 'dead'
+            changed += 1
+            LOG.info('[失效] 链接不可达，标记 dead：%s (%s)', a.get('name'), a.get('url'))
+    if batch:
+        LOG.info('[复检] 当日抽样复检 %d 个活跃工具，新标记失效 %d 个', len(batch), changed)
+    return changed
+
+# ------------------------- 步骤3：增量合并写入 -------------------------
 def load_data():
     with open(DATA_FILE, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def save_data(data):
+    """写入数据文件。调用方保证只追加新工具 / 仅改 status，不重写既有条目。"""
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -334,25 +428,37 @@ def slugify(name):
 # ------------------------- 主流程 -------------------------
 def main():
     LOG.info('========== AgentHub 每日自动爬取开始 ==========')
-    existing = load_data()['agents']
-    LOG.info('[数据] 现有工具 %d 个', len(existing))
+    data = load_data()
+    existing = data['agents']
+    LOG.info('[数据] 现有工具 %d 个（沿用既有数据，增量追加，不重写）', len(existing))
 
-    # —— 步骤1：多源采集 ——
+    # —— 步骤1：多源采集（GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl）——
     candidates = []
     candidates += fetch_github_trending()
     candidates += fetch_huggingface()
+    candidates += fetch_producthunt()
     candidates += fetch_firecrawl(os.environ.get('CRAWL_TARGET_URL', '').strip())
+    LOG.info('[采集] 合计候选 %d 个', len(candidates))
 
     # —— 步骤2.4：去重（剔除已收录）——
     candidates = [c for c in candidates if not is_duplicate(c, existing)]
     LOG.info('[去重] 过滤后待处理候选 %d 个', len(candidates))
 
-    # —— 步骤2：逐个 AI 清洗 + 链接校验 ——
+    # —— 步骤2：逐个违规预筛 + AI 清洗 + 违规检测 + 链接校验 ——
     added = []
     for c in candidates[:MAX_NEW_PER_RUN]:
+        # 违规关键词预筛（无 API 调用，先挡掉明显灰色内容）
+        viol, reason = keyword_violation(c)
+        if viol:
+            LOG.info('[违规过滤] %s：%s', c.get('name'), reason)
+            continue
         try:
             tool = enrich_tool(c)
             time.sleep(AI_CALL_INTERVAL)          # 礼貌间隔，避免触发限流
+            # 智谱 AI 违规检测结论（翻墙 / 灰产等）
+            if tool.get('is_violation'):
+                LOG.info('[违规过滤] %s：AI 判定为灰色/翻墙/违规内容，已跳过', tool['name'])
+                continue
             alive = check_link(tool['url'])
             tool['status'] = 'active' if alive else 'dead'   # 步骤2.5：失效标记
             tool['id'] = slugify(tool['name'])
@@ -366,21 +472,28 @@ def main():
         except Exception as e:
             LOG.warning('[错误] 处理候选 %s 失败：%s', c.get('name'), e)
 
-    if not added:
-        LOG.info('========== 本次无新增工具，结束 ==========')
+    # —— 步骤2.6：每日旋转复检既有链接，404 标记 dead（仅改 status）——
+    reval_changed = revalidate_existing(data)
+
+    if not added and reval_changed == 0:
+        LOG.info('========== 本次无新增、无失效变更，结束 ==========')
         return
 
-    # —— 步骤3：合并写入 JSON + 追加更新日志 ——
-    data = load_data()
-    data['agents'].extend(added)
-    note = '每日自动爬取：GitHub Trending + Hugging Face + Firecrawl 采集，智谱 GLM-4-Flash 清洗分类。'
+    # —— 步骤3：增量追加写入 JSON（仅 append 新工具，不动既有条目）+ 追加更新日志 ——
+    if added:
+        data['agents'].extend(added)
+    note = ('每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；'
+            '智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；'
+            '新增工具链接校验 + 每日旋转复检失效标记。')
     data.setdefault('changelog', []).append({
         'date': beijing_date().isoformat(),
         'added': [a['name'] for a in added],
+        'invalidated': reval_changed,
         'note': note
     })
     save_data(data)
-    LOG.info('========== 成功写入 %d 个新工具，结束 ==========', len(added))
+    LOG.info('========== 增量写入：新增 %d 个工具（失效标记 %d 处），结束 ==========',
+             len(added), reval_changed)
 
 if __name__ == '__main__':
     main()
