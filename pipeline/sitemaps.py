@@ -132,9 +132,18 @@ def build() -> Dict[str, int]:
 
 
 def _write_robots(base: str, static: Path, counts: Dict[str, int]) -> None:
-    """robots.txt 批量声明所有 sitemap 路径（原生分语种 + 本次分层）。"""
+    """robots.txt 批量声明所有 sitemap 路径（原生分语种 + 本次分层），并补充精细化爬虫管控。"""
     base = base.rstrip("/")
-    lines = ["User-agent: *", "Allow: /", ""]
+    lines = ["User-agent: *", "Allow: /",
+             # 屏蔽构建缓存/测试/查询缓存路径，减少无效抓取与 Cloudflare 带宽消耗
+             "Disallow: /tmp/",
+             "Disallow: /admin/",
+             "Disallow: /*?cache=",
+             # 平缓抓取频率，保护源站带宽（Bing 等支持，Google 以 Search Console 为准）
+             "Crawl-delay: 2",
+             ""]
+    # 图片爬虫专项：放开封面/横幅 SVG 抓取，承接图片搜索流量
+    lines += ["User-agent: Googlebot-Image", "Allow: /", ""]
     # 原生分语种 sitemap（Hugo 自动生成，覆盖完整）
     for path in ("sitemap.xml", "en/sitemap.xml", "es/sitemap.xml", "id/sitemap.xml"):
         lines.append("Sitemap: %s/%s" % (base, path))
@@ -145,7 +154,7 @@ def _write_robots(base: str, static: Path, counts: Dict[str, int]) -> None:
     lines.append("")
     (static / "robots.txt").write_text("\n".join(lines), encoding="utf-8")
     declared = sum(1 for n in counts if counts[n]) + 4
-    LOG.info("生成 robots.txt（声明 %d 份 sitemap）", declared)
+    LOG.info("生成 robots.txt（声明 %d 份 sitemap + 爬虫管控规则）", declared)
 
 
 if __name__ == "__main__":

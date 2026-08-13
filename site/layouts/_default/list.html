@@ -7,9 +7,22 @@
 
 {{ $pages := .Paginate (.Pages.ByLastmod.Reverse) }}
 {{ if $pages.Pages }}
+
+{{/* 垂直分类页筛选标签：基于页面 keywords 推导 Free / Open Source / No Signup，纯前端静态过滤，无后端、无内容回填 */}}
+<div class="filters" role="group" aria-label="Filter tools">
+  <button type="button" data-f="free">Free</button>
+  <button type="button" data-f="oss">Open Source</button>
+  <button type="button" data-f="nosignup">No Signup</button>
+  <button type="button" data-f="all" class="active">All</button>
+</div>
+
 <ul class="cards">
   {{ range $pages.Pages }}
-  <li class="card">
+  {{- $hay := (delimit (.Keywords | default slice) " " | lower) | printf "%s %s" (lower .Title) -}}
+  {{- $free := findRE "free" $hay -}}
+  {{- $oss := findRE "open.?source" $hay -}}
+  {{- $no := findRE "no[ -]?sign|no credit" $hay -}}
+  <li class="card" data-free="{{ if $free }}1{{ else }}0{{ end }}" data-oss="{{ if $oss }}1{{ else }}0{{ end }}" data-nosignup="{{ if $no }}1{{ else }}0{{ end }}">
     <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
     <p>{{ .Description | truncate 150 }}</p>
     <p class="muted">{{ i18n "updated" }} {{ .Lastmod.Format "2006-01-02" }}</p>
@@ -17,6 +30,20 @@
   {{ end }}
 </ul>
 {{ template "_internal/pagination.html" . }}
+
+<script>
+(function(){
+  var btns = document.querySelectorAll('.filters button');
+  function apply(f){
+    document.querySelectorAll('.cards .card').forEach(function(c){
+      var show = (f === 'all') || (c.getAttribute('data-' + f) === '1');
+      c.style.display = show ? '' : 'none';
+    });
+    btns.forEach(function(b){ b.classList.toggle('active', b.getAttribute('data-f') === f); });
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ apply(b.getAttribute('data-f')); }); });
+})();
+</script>
 {{ else }}
 <p>{{ i18n "no_content" }}</p>
 {{ end }}

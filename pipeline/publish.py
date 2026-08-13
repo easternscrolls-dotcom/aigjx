@@ -22,7 +22,7 @@ import subprocess
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
 
-from . import config, sitemaps, utils
+from . import config, sitemaps, utils, check_links
 
 LOG = utils.get_logger("publish")
 
@@ -80,6 +80,18 @@ def build_precheck() -> bool:
                    "--destination", str(config.SITE_DIR / "public")],
                   cwd=config.SITE_DIR)
     ok = result["code"] == 0
+    if ok:
+        # 构建期全量内链校验：失效内链直接阻断发布，提前规避线上 404（快赢 #5.3）
+        try:
+            broken = check_links.check(config.SITE_DIR / "public")
+            if broken:
+                LOG.warning("内链校验发现 %d 个失效链接，阻断发布（前 %d 条）：%s",
+                            len(broken), min(len(broken), 5), broken[:5])
+                ok = False
+            else:
+                LOG.info("内链校验通过：无失效链接")
+        except Exception as exc:  # noqa: BLE001
+            LOG.warning("内链校验异常（不阻塞发布）：%s", exc)
     LOG.info("构建预检%s", "通过" if ok else "失败")
     return ok
 

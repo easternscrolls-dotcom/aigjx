@@ -1,5 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /*?cache=
+Crawl-delay: 2
+
+User-agent: Googlebot-Image
+Allow: /
 
 Sitemap: https://freeai.72tool.com/sitemap.xml
 Sitemap: https://freeai.72tool.com/en/sitemap.xml

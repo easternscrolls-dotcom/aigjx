@@ -43,7 +43,7 @@
     {{ range . }}
       <li itemscope itemtype="https://schema.org/DiscussionForumPosting">
         <a href="{{ .url }}" itemprop="url" rel="nofollow noopener" target="_blank">
-          <span itemprop="headline">{{ .title }}</span>
+          <span itemprop="headline">{{ .title | truncate 120 }}</span>
         </a>
       </li>
     {{ end }}
