@@ -115,4 +115,59 @@ node scripts/generate-sitemap.js
 
 ---
 
+## 七、全自动无人值守流水线（每日自动更新）
+
+> 目标：零投入、无需服务器、电脑关机也照常运行。每天凌晨自动爬取新 Agent 工具、
+> AI 清洗内容、更新 `data/agent-list.json`、重新生成 sitemap、部署上线，并记录日志。
+
+### 7.1 涉及文件
+
+| 文件 | 作用 |
+| --- | --- |
+| `.github/workflows/daily-crawl.yml` | GitHub Actions 定时流水线（每日北京 02:00 + 手动触发） |
+| `crawl.py` | 采集 + AI 清洗 + 数据合并脚本（仅依赖 requests / beautifulsoup4） |
+| `requirements.txt` | Python 依赖（免费开源） |
+
+### 7.2 免费密钥填写（必做一步）
+
+进 GitHub 仓库 **Settings → Secrets and variables → Actions → New repository secret**：
+
+| Secret 名 | 来源（全部免费） | 是否必填 |
+| --- | --- | --- |
+| `ZHIPU_API_KEY` | [智谱开放平台](https://open.bigmodel.cn) 注册 → 开通 **GLM-4-Flash**（永久免费）→ 复制 API Key | **必填**（无则走兜底启发式，不翻译） |
+| `FIRECRAWL_API_KEY` | [Firecrawl](https://www.firecrawl.dev) 注册，免费版每月 1000 次 | 选填（留空跳过该源） |
+| `CRAWL_TARGET_URL` | 海外 AI 工具社区上新页 URL，如 `https://theresanaiforthat.com` | 选填（配合 Firecrawl） |
+
+> 免费额度评估：GitHub Actions 2000 分钟/月，本流程约 3~6 分钟/天；GLM-4-Flash 永久免费；
+> Firecrawl 1000 次/月。`crawl.py` 已做每日上限（最多新增 20 个）+ 调用间隔，长期稳定运行。
+
+### 7.3 触发方式
+
+- **定时**：每天北京时间 02:00 自动运行（流水线 `cron: '0 18 * * *'` 为 UTC 时间）。
+- **手动**：仓库 **Actions → 每日 Agent 工具自动爬取与部署 → Run workflow** 一键触发。
+
+### 7.4 执行逻辑（对应需求五步）
+
+1. **采集**：GitHub Trending 每日榜单（抓公开页，无官方 API）+ Hugging Face Spaces API + Firecrawl（可选）。
+2. **AI 处理**：智谱 GLM-4-Flash 翻译英文简介、生成中文一句话、自动分类（本地/浏览器/工作流/跨境/配套）、
+   打标签（开源免费/云端付费/本地离线）、**去重**（对比现有 JSON 只新增未收录）、**链接校验**（失效标 `dead`）。
+3. **更新数据**：合并写入 `data/agent-list.json`，并在 `changelog` 追加当日记录（`update.html` 自动展示）。
+4. **构建&部署**：重跑 `node scripts/generate-sitemap.js` 生成最新 sitemap → 提交推送 → Cloudflare Pages（Git 集成）自动上线。
+5. **日志留存**：每次运行输出 `crawl-YYYYMMDD.log`，作为 Workflow Artifact 保留 30 天，方便每月人工核查违规/失效链接。
+
+### 7.5 Cloudflare Pages 构建设置（与新站匹配）
+
+本站为纯静态、无 Hugo，Cloudflare Pages 构建设置必须是：
+
+| 设置项 | 值 |
+| --- | --- |
+| 生产分支 | `main` |
+| **构建命令** | `node scripts/generate-sitemap.js` （或留空） |
+| **输出目录** | `/`（仓库根目录） |
+
+> 若此前连的是旧 Hugo 构建（`cd site && hugo --minify` → `site/public`），请改成上表，否则部署失败。
+> Git 集成下，流水线 `git push` 即触发 Cloudflare 自动重建上线，无需额外部署步骤。
+
+---
+
 © 2026 AgentHub · 数据驱动纯静态导航 · 无广告 · 零后端

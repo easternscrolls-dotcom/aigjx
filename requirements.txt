@@ -1,0 +1,4 @@
+# AgentHub 全自动流水线依赖 —— 全部免费、开源、pip 可装
+# 仅 crawl.py 使用；GitHub Actions 在步骤④ `pip install -r requirements.txt` 安装
+requests>=2.31.0          # HTTP 请求：采集 GitHub / HuggingFace / Firecrawl + 调用智谱 GLM
+beautifulsoup4>=4.12.0    # HTML 解析：解析 GitHub Trending 页面（使用内置 html.parser，无需 lxml）

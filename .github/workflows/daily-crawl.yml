@@ -1,0 +1,76 @@
+# ============================================================================
+#  AgentHub 全自动无人值守流水线  (.github/workflows/daily-crawl.yml)
+# ----------------------------------------------------------------------------
+#  · 触发①：每日 北京时间 02:00 自动运行
+#            cron '0 18 * * *' = UTC 18:00 = 北京时间次日 02:00（GitHub 定时按 UTC）
+#  · 触发②：在仓库 Actions 页面点 “Run workflow” 可手动一键触发
+#  · 全程云端执行：电脑关机也照常运行；零服务器、零付费
+#    （GitHub Actions 免费额度 2000 分钟/月，本流程约 3~6 分钟/天，长期够用）
+#  · 流程：采集(GitHub/HF/Firecrawl) → AI清洗(智谱GLM-4-Flash) → 更新 data/agent-list.json
+#          → 重新生成 sitemap → 提交推送 → Cloudflare Pages 自动构建部署
+#  · 部署方式：本仓库已连 Cloudflare Pages（Git 集成），push 即触发自动部署，
+#    故无需额外部署步骤；部署后线上自动出现新工具。
+# ============================================================================
+name: 每日 Agent 工具自动爬取与部署
+
+on:
+  schedule:
+    - cron: '0 18 * * *'        # UTC 18:00 = 北京时间次日 02:00
+  workflow_dispatch: {}         # 允许手动一键触发（Actions 页 → Run workflow）
+
+# 授予提交权限：把更新后的 data/agent-list.json 写回 main 分支，从而触发 Cloudflare 部署
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: ① 检出代码
+        uses: actions/checkout@v4
+
+      - name: ② 设置 Python（采集 + AI 清洗脚本运行环境）
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: ③ 设置 Node（用于重新生成 sitemap.xml / sitemap.json）
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: ④ 安装 Python 依赖（仅免费开源包，见 requirements.txt）
+        run: pip install -r requirements.txt
+
+      - name: ⑤ 运行爬取 + AI 清洗 + 更新数据
+        env:
+          # ↓↓↓ 免费密钥填写位置（GitHub 仓库 Settings → Secrets and variables → Actions）↓↓↓
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}          # 智谱 GLM-4-Flash 免费 Key（必填，否则无 AI 清洗，走兜底启发式）
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}  # Firecrawl 免费 Key（选填，留空则跳过该数据源）
+          CRAWL_TARGET_URL: ${{ secrets.CRAWL_TARGET_URL }}    # 海外 AI 社区上新页 URL（选填，配合 Firecrawl 使用）
+        run: python crawl.py
+
+      - name: ⑥ 重新生成 sitemap（收录本次新增工具）
+        run: node scripts/generate-sitemap.js
+
+      - name: ⑦ 提交数据变更并推送（触发 Cloudflare Pages 自动部署）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/agent-list.json sitemap.xml sitemap.json
+          if git diff --cached --quiet; then
+            echo "✅ 本次无新增工具，无需提交"
+          else
+            git commit -m "chore(data): 每日自动爬取新增 Agent 工具 [skip ci]"
+            git push origin HEAD:main
+            echo "🚀 已推送，Cloudflare Pages 将自动构建上线"
+          fi
+
+      - name: ⑧ 上传执行日志（保留 30 天，供每月人工核查违规/失效链接）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawl-log-${{ github.run_id }}
+          path: crawl-*.log
+          retention-days: 30
