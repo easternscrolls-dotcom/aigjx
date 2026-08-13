@@ -62,6 +62,10 @@ AI_CALL_INTERVAL = 1.5
 LINK_RECHECK_CYCLE_DAYS = 7
 LINK_RECHECK_BATCH = 12
 
+# 教程回填：对「缺少 tutorial 字段」的既有工具，按日旋转批次用智谱 GLM 生成教程，
+# 单日最多回填 TUTORIAL_BACKFILL_BATCH 个，逐步把存量工具详情页升级为 AI 教程。
+TUTORIAL_BACKFILL_BATCH = 5
+
 # 分类与类型白名单（必须与此站 categories[].id、前端 TYPE_LABEL 完全一致）
 VALID_CATEGORIES = ['local', 'browser', 'workflow', 'crossborder', 'tools']
 VALID_TYPES = ['open-source', 'cloud-paid', 'local-offline']
@@ -262,6 +266,27 @@ def _extract_json(text):
             pass
     return None
 
+def call_glm_text(system_prompt, user_prompt):
+    """调用智谱 GLM-4-Flash，返回模型原始文本（不做 JSON 提取），用于纯文本生成（如教程）。
+    无 key 时返回 None。"""
+    key = os.environ.get('ZHIPU_API_KEY', '').strip()
+    if not key:
+        return None
+    try:
+        r = requests.post(
+            'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+            headers={'Authorization': 'Bearer %s' % key, 'Content-Type': 'application/json'},
+            json={'model': 'glm-4-flash', 'temperature': 0.4,
+                  'messages': [{'role': 'system', 'content': system_prompt},
+                               {'role': 'user', 'content': user_prompt}]},
+            timeout=40
+        )
+        r.raise_for_status()
+        return r.json()['choices'][0]['message']['content'].strip()
+    except Exception as e:
+        LOG.warning('[AI] GLM 文本调用失败：%s', e)
+        return None
+
 # 各分类的「差异化文案风格」提示：让 GLM 生成贴合分类定位的一句话简介
 CATEGORY_HINTS = {
     'local':       '本地开源框架：强调可本地/私有化部署、数据不出域、自托管、适合开发者二次开发',
@@ -279,6 +304,8 @@ ENRICH_SYSTEM = (
     'type(必填, 取值 open-source/cloud-paid/local-offline)、'
     'summary_cn(必填, 一句中文简介, 不超过 40 字, 必须体现该分类的定位风格)、'
     'tags(中文标签数组, 2-4 个)、scenarios(适用场景数组, 1-3 个)、'
+    'tutorial(必填, 200-500 字中文使用教程, 用 mini-markdown: 以 "## 小节标题" 分 2-4 节, '
+    '含 "1. 2. 3." 编号上手步骤, 纯中文, 不要代码块)、'
     'is_violation(布尔, 若工具涉及翻墙/VPN/代理/破解/注册机/色情/赌博/黑产等灰色违规内容则为 true)。'
     '不要任何解释文字。'
     '【各分类简介文案风格】' + _HINT_TEXT
@@ -303,6 +330,7 @@ def enrich_tool(cand):
             'summary': (ai.get('summary_cn') or raw)[:60],
             'tags': (ai.get('tags') or [])[:4],
             'scenarios': (ai.get('scenarios') or [])[:3],
+            'tutorial': (ai.get('tutorial') or '').strip()[:700],
             'url': cand['url'],
             'status': 'active',
             'is_violation': bool(ai.get('is_violation'))   # 智谱免费 AI 违规检测结论
@@ -331,6 +359,9 @@ def heuristic_enrich(cand):
     return {
         'name': name, 'category': cat, 'type': typ,
         'summary': cand.get('raw_desc', '')[:60], 'tags': [], 'scenarios': [],
+        'tutorial': ('## 快速上手\n1. 访问官网了解功能与定价。\n'
+                     '2. 按官方文档完成注册与基础配置。\n'
+                     '3. 接入你的数据与场景，跑通第一个自动化任务。'),
         'url': cand['url'], 'status': 'active'
     }
 
@@ -410,6 +441,41 @@ def revalidate_existing(data):
         LOG.info('[复检] 当日抽样复检 %d 个活跃工具，新标记失效 %d 个', len(batch), changed)
     return changed
 
+# ------------------------- 步骤2.7：存量工具教程回填（旋转批次） -------------------------
+TUTORIAL_SYSTEM = (
+    '你是 AgentHub 导航站的教程编辑。根据工具名称、分类、类型、简介与标签，'
+    '写一段 200-500 字中文使用教程，使用 mini-markdown：以 "## 小节标题" 开头分 2-4 个小节，'
+    '含 "1. 2. 3." 编号上手步骤；纯中文、不要代码块、不要解释文字，只输出教程正文。'
+)
+def backfill_tutorials(data):
+    """对缺少 tutorial 字段的既有工具，按日旋转批次用智谱 GLM 生成教程（仅当配置了 ZHIPU_API_KEY）。
+    返回本次回填的篇数；直接把 tutorial 写入 data['agents'] 对应条目（主流程统一 save_data 落盘）。"""
+    if not os.environ.get('ZHIPU_API_KEY', '').strip():
+        return 0
+    doy = beijing_date().timetuple().tm_yday
+    rotation = doy % LINK_RECHECK_CYCLE_DAYS
+    # 在【全量 agents 绝对下标】上旋转，保证每个工具都有稳定槽位、7 天内必被覆盖一次；
+    # 旋转后再按缺失 tutorial 过滤，避免对已填工具重复调用（也避免对收缩子列表旋转导致的“饿死”）。
+    batch = [a for i, a in enumerate(data['agents'])
+             if not a.get('tutorial') and (i % LINK_RECHECK_CYCLE_DAYS) == rotation]
+    batch = batch[:TUTORIAL_BACKFILL_BATCH]
+    if not batch:
+        return 0
+    done = 0
+    for a in batch:
+        prompt = '工具名称：%s\n分类：%s\n类型：%s\n简介：%s\n标签：%s' % (
+            a.get('name', ''), a.get('category', ''), a.get('type', ''),
+            a.get('summary', ''), '、'.join(a.get('tags', []) or []))
+        text = call_glm_text(TUTORIAL_SYSTEM, prompt)
+        if text:
+            a['tutorial'] = text[:700]
+            done += 1
+            LOG.info('[教程回填] %s', a.get('name'))
+        time.sleep(AI_CALL_INTERVAL)
+    if done:
+        LOG.info('[教程回填] 当日回填 %d 篇教程', done)
+    return done
+
 # ------------------------- 步骤3：增量合并写入 -------------------------
 def load_data():
     with open(DATA_FILE, 'r', encoding='utf-8') as f:
@@ -474,9 +540,11 @@ def main():
 
     # —— 步骤2.6：每日旋转复检既有链接，404 标记 dead（仅改 status）——
     reval_changed = revalidate_existing(data)
+    # —— 步骤2.7：存量工具教程回填（旋转批次，仅当配置了 ZHIPU_API_KEY）——
+    tut_filled = backfill_tutorials(data)
 
-    if not added and reval_changed == 0:
-        LOG.info('========== 本次无新增、无失效变更，结束 ==========')
+    if not added and reval_changed == 0 and tut_filled == 0:
+        LOG.info('========== 本次无新增、无失效变更、无教程回填，结束 ==========')
         return
 
     # —— 步骤3：增量追加写入 JSON（仅 append 新工具，不动既有条目）+ 追加更新日志 ——
@@ -484,7 +552,9 @@ def main():
         data['agents'].extend(added)
     note = ('每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；'
             '智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；'
-            '新增工具链接校验 + 每日旋转复检失效标记。')
+            '新增工具链接校验 + 每日旋转复检失效标记')
+    if tut_filled:
+        note += '；当日 AI 教程回填 %d 篇' % tut_filled
     data.setdefault('changelog', []).append({
         'date': beijing_date().isoformat(),
         'added': [a['name'] for a in added],

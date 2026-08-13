@@ -23,6 +23,10 @@
 /*.html
   Cache-Control: public, max-age=300, stale-while-revalidate=86400
 
+# 工具独立详情页（tools/<id>.html）：同样短缓存，跟随 sitemap 与数据同步更新
+/tools/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
+
 # 全站基础安全头
 /*
   X-Content-Type-Options: nosniff

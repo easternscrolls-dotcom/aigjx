@@ -113,9 +113,12 @@
     var scen = (a.scenarios || []).map(function (s) { return '<span class="chip scenario">' + esc(s) + '</span>'; }).join('');
     var di = diffInfo(a);          // 部署难度（按 type 推导）
     var ai = accessInfo(a);        // 国内可访问性（按域名+type 推导）
+    var aid = a.id || (a.name || 'tool').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     var btn = dead
       ? '<span class="btn-go">链接失效</span>'
       : '<a class="btn-go" href="' + esc(a.url) + '" target="_blank" rel="noopener noreferrer">直达官网 ↗</a>';
+    // 详情页内链（SEO 网状结构 + 站内停留）：指向 tools/<id>.html
+    var detail = '<a class="btn-detail" href="tools/' + esc(aid) + '.html">详情 ›</a>';
     return '' +
       '<article class="card' + (dead ? ' dead' : '') + '">' +
         '<div class="head">' +
@@ -131,6 +134,7 @@
         '<div class="foot">' +
           (dead ? '<span class="dead-flag">已失效</span>' : '') +
           btn +
+          detail +
         '</div>' +
       '</article>';
   }

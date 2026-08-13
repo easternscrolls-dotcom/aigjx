@@ -283,3 +283,39 @@ html[data-theme="dark"] .acc-ok      { background: #14331f; color: #5fd98c; }
 html[data-theme="dark"] .acc-warn    { background: #3a2512; color: #f0a766; }
 html[data-theme="dark"] .acc-unknown { background: var(--bg-soft); color: var(--text-soft); }
 
+/* ---------- 16. 工具独立详情页 ---------- */
+.layout.single { max-width: 880px; margin: 24px auto; padding: 0 18px; }
+.tool-detail { width: 100%; }
+.breadcrumb { font-size: 13px; color: var(--text-soft); margin: 4px 0 14px; }
+.breadcrumb a { color: var(--primary); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { color: var(--text); font-weight: 600; }
+
+.block { background: var(--bg-card, #fff); border: 1px solid var(--border); border-radius: 14px;
+         padding: 18px 20px; margin: 16px 0; }
+html[data-theme="dark"] .block { background: var(--bg-card, #161a2b); }
+.block h2 { font-size: 18px; margin: 0 0 10px; padding-left: 10px; border-left: 3px solid var(--primary); }
+.block h3 { font-size: 15px; margin: 14px 0 6px; color: var(--text); }
+.block p { line-height: 1.75; margin: 6px 0; color: var(--text); }
+.block ul, .block ol { margin: 6px 0 6px 22px; line-height: 1.8; }
+.block li { margin: 2px 0; }
+
+/* 卡片内 CTA 失效态 */
+.btn-go.disabled { display: inline-block; padding: 8px 14px; border-radius: 9px;
+  background: var(--bg-soft); color: var(--text-soft); border: 1px solid var(--border); cursor: not-allowed; }
+
+/* 同类推荐网格（内链） */
+.peer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.peer-card { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px;
+  border: 1px solid var(--border); border-radius: 11px; text-decoration: none;
+  background: var(--bg-soft); transition: border-color .15s, transform .15s; }
+.peer-card:hover { border-color: var(--primary); transform: translateY(-2px); }
+.peer-card .name { font-weight: 700; color: var(--text); }
+.peer-card .tag { font-size: 11px; color: var(--primary); }
+.peer-card .sum { font-size: 12px; color: var(--text-soft); line-height: 1.5; }
+
+/* 列表卡片上的「详情」入口（内链） */
+.btn-detail { display: inline-block; margin-left: 8px; padding: 8px 12px; border-radius: 9px;
+  border: 1px solid var(--border); color: var(--primary); text-decoration: none; font-weight: 600; font-size: 13px; }
+.btn-detail:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+

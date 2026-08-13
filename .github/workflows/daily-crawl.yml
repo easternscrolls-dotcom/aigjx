@@ -9,8 +9,10 @@
 #  · 流程：采集(GitHub Trending / HuggingFace / ProductHunt RSS / Firecrawl)
 #          → AI清洗(智谱GLM-4-Flash，4大分类差异化文案 + 灰色/翻墙内容违规检测)
 #          → 增量追加 data/agent-list.json（仅 append 新工具，不重写）
-#          → 每日旋转复检链接，404 自动标记 dead
-#          → 重新生成 sitemap → 提交推送 → Cloudflare Pages 自动构建部署
+#          → 每日旋转复检链接，404 自动标记 dead + 存量工具教程回填
+#          → 生成每个工具独立详情页 tools/<id>.html（专属TDK + H2/H3 + 同类内链）
+#          → 重新生成 sitemap（含工具详情页）→ 主动推送 Google/Bing/百度 收录
+#          → 提交推送 → Cloudflare Pages 自动构建部署
 #  · 部署方式：本仓库已连 Cloudflare Pages（Git 集成），push 即触发自动部署，
 #    故无需额外部署步骤；部署后线上自动出现新工具。
 # ============================================================================
@@ -54,14 +56,23 @@ jobs:
           CRAWL_TARGET_URL: ${{ secrets.CRAWL_TARGET_URL }}    # 海外 AI 社区上新页 URL（选填，配合 Firecrawl 使用）
         run: python crawl.py
 
-      - name: ⑥ 重新生成 sitemap（收录本次新增工具）
+      - name: ⑥ 生成每个工具独立详情页（专属 TDK + H2/H3 + 同类内链）
+        run: python scripts/generate-tool-pages.py
+
+      - name: ⑦ 重新生成 sitemap（含工具详情页，供搜索引擎逐条收录）
         run: node scripts/generate-sitemap.js
 
-      - name: ⑦ 提交数据变更并推送（触发 Cloudflare Pages 自动部署）
+      - name: ⑧ 主动推送搜索引擎收录（Google/Bing ping + 百度主动推送）
+        continue-on-error: true        # 收录失败不阻断部署
+        env:
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}   # 百度搜索资源平台 token（选填，未配则跳过）
+        run: python scripts/submit-engines.py
+
+      - name: ⑨ 提交数据变更并推送（触发 Cloudflare Pages 自动部署）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/agent-list.json sitemap.xml sitemap.json
+          git add data/agent-list.json sitemap.xml sitemap.json tools/
           if git diff --cached --quiet; then
             echo "✅ 本次无新增工具，无需提交"
           else
@@ -70,7 +81,7 @@ jobs:
             echo "🚀 已推送，Cloudflare Pages 将自动构建上线"
           fi
 
-      - name: ⑧ 上传执行日志（保留 30 天，供每月人工核查违规/失效链接）
+      - name: ⑩ 上传执行日志（保留 30 天，供每月人工核查违规/失效链接）
         if: always()
         uses: actions/upload-artifact@v4
         with:

@@ -61,8 +61,14 @@ function build() {
   const logDates = (data.changelog || []).map(x => x.date).filter(Boolean).sort().reverse();
   const contentLastmod = logDates[0] || lastmodDefault;
 
+  // 工具详情页：每个 agent 一个独立 URL（利于百度/谷歌逐条收录）
+  const toolPages = (data.agents || [])
+    .filter(a => a && a.id)
+    .map(a => ({ file: 'tools/' + a.id + '.html', priority: '0.7', changefreq: 'weekly' }));
+  const allPages = STATIC_PAGES.concat(toolPages);
+
   // ---- 1) sitemap.xml ----
-  const urls = STATIC_PAGES.map(p => {
+  const urls = allPages.map(p => {
     const isHome = p.file === 'index.html';
     const loc = isHome ? base + '/' : base + '/' + p.file;
     const lm = isHome ? contentLastmod : contentLastmod; // 全站随内容更新
@@ -90,7 +96,7 @@ ${urls}
   const json = {
     generatedAt: new Date().toISOString(),
     baseUrl: base,
-    pages: STATIC_PAGES.map(p => ({
+    pages: allPages.map(p => ({
       url: p.file === 'index.html' ? base + '/' : base + '/' + p.file,
       priority: p.priority,
       changefreq: p.changefreq
@@ -108,7 +114,7 @@ ${urls}
   };
   fs.writeFileSync(OUT_JSON, JSON.stringify(json, null, 2), 'utf8');
 
-  console.log('✅ sitemap.xml 生成成功：' + STATIC_PAGES.length + ' 个页面');
+  console.log('✅ sitemap.xml 生成成功：' + allPages.length + ' 个页面（含 ' + toolPages.length + ' 个工具详情页）');
   console.log('✅ sitemap.json 生成成功：共 ' + json.stats.totalAgents + ' 个工具，失效 ' + json.stats.deadLinks + ' 个');
 }
 

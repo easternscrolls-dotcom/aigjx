@@ -1,3 +1,8 @@
 *.DS_Store
 Thumbs.db
 .site-cache/
+
+# Python 构建/调试产物（不被提交）
+__pycache__/
+*.pyc
+crawl-*.log
