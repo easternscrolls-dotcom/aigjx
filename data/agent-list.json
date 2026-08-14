@@ -126,7 +126,8 @@
       ],
       "url": "https://github.com/FlowiseAI/Flowise",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## 小节标题：快速启动 Flowise\n\n1. 访问 Flowise 官网，下载最新版本的安装包。\n2. 解压安装包，按照提示完成安装。\n3. 打开 Flowise，创建一个新的项目。\n\n## 小节标题：熟悉界面\n\n1. 在 Flowise 界面中，左侧是组件库，右侧是工作区。\n2. 从组件库中选择一个组件，拖拽到工作区。\n3. 释放鼠标，组件会自动添加到工作区。\n\n## 小节标题：构建对话流\n\n1. 在工作区中，选择一个对话节点，拖拽到工作区。\n2. 双击对话节点，设置对话内容。\n3. 连接对话节点，构建对话流程。\n\n## 小节标题：测试与部署\n\n1. 点击右上角的“测试”按钮，预览对话流程。\n2. 满意后，点击“部署”按钮，将项目部署到服务器。\n3. 部署成功后，即可通过访问部署地址来使用你的对话系统。"
     },
     {
       "id": "langchain",
@@ -267,7 +268,8 @@
       ],
       "url": "https://www.multion.ai/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## MultiOn 使用教程\n\n### 小节标题：账户注册与登录\n\n1. 访问 MultiOn 官网，点击“注册”按钮。\n2. 填写注册信息，包括邮箱、密码等，完成注册。\n3. 收到注册邮件后，点击邮件中的链接激活账户。\n4. 返回 MultiOn 官网，使用邮箱和密码登录账户。\n\n### 小节标题：创建任务\n\n1. 登录 MultiOn 后，点击左侧菜单的“创建任务”。\n2. 选择任务类型，如“自动下单”、“填写表格”等。\n3. 根据任务需求，填写相关参数，如网站地址、关键词、填写内容等。\n4. 点击“保存”按钮，创建任务。\n\n### 小节标题：任务设置与调度\n\n1. 进入任务列表，找到已创建的任务。\n2. 点击任务右侧的“设置”按钮，对任务进行详细设置。\n3. 设置任务执行时间、频率等参数。\n4. 点击“保存”按钮，完成任务设置。\n\n### 小节标题：任务监控与执行\n\n1. 在任务列表中，查看任务执行状态。\n2. 如有需要，可对任务进行暂停、恢复或删除操作。\n3. 观察任务执行结果，确保任务按预期完成。"
     },
     {
       "id": "axiom",
@@ -407,7 +409,8 @@
       ],
       "url": "https://www.make.com/",
       "status": "dead",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## 小节标题：快速上手Make\n\n### 1. 注册与登录\n1. 访问Make官网，点击“注册”按钮。\n2. 填写注册信息，包括邮箱、密码等，完成注册。\n3. 使用注册邮箱接收验证邮件，点击链接激活账户。\n4. 返回官网，使用邮箱和密码登录。\n\n### 2. 创建新项目\n1. 登录后，点击页面右上角的“新建项目”按钮。\n2. 输入项目名称，选择项目模板（如“数据流转”、“文件处理”等）。\n3. 点击“创建项目”按钮，进入项目编辑页面。\n\n### 3. 添加场景\n1. 在项目编辑页面，点击左侧菜单栏的“场景”选项。\n2. 点击“添加场景”按钮，选择所需场景类型（如“数据源”、“数据处理”、“数据输出”等）。\n3. 根据场景需求，配置相关参数和设置。\n\n### 4. 连接模块\n1. 在场景编辑页面，找到所需模块，拖拽到场景画布上。\n2. 将模块拖拽到合适的位置，与其他模块进行连接。\n3. 点击连接线，设置连接参数，如数据类型、字段等。\n\n### 5. 运行与监控\n1. 完成场景编辑后，点击页面右上角的“运行”按钮。\n2. 观察运行状态，确保数据流转正常。\n3. 如有异常，可查看日志信息，定位问题并进行调整。"
     },
     {
       "id": "activepieces",
@@ -548,7 +551,8 @@
       ],
       "url": "https://instantly.ai/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Instantly.ai 使用教程\n\n### 小节一：账户注册与登录\n\n1. 访问 Instantly.ai 官网，点击“注册”按钮。\n2. 填写注册信息，包括邮箱、密码等，并同意服务条款。\n3. 点击“注册”完成账户创建。\n4. 使用注册邮箱接收验证邮件，点击链接完成邮箱验证。\n5. 返回 Instantly.ai 官网，使用邮箱和密码登录账户。\n\n### 小节二：创建邮件模板\n\n1. 登录后，进入“邮件模板”页面。\n2. 点击“新建模板”按钮，选择模板类型（如：外贸开发信）。\n3. 在编辑器中，根据需求添加文本、图片、链接等元素。\n4. 保存模板，并设置模板名称以便后续使用。\n\n### 小节三：批量发送邮件\n\n1. 进入“邮件发送”页面。\n2. 选择目标邮箱列表，可导入 CSV 文件或手动输入邮箱地址。\n3. 选择已创建的邮件模板，并设置发送时间（如：立即发送或定时发送）。\n4. 设置邮件发送频率（如：每天发送一次或每周发送一次）。\n5. 点击“发送”按钮，开始批量发送邮件。\n\n### 小节四：域名预热与送达率管理\n\n1. 进入“域名管理”页面。\n2. 添加新的域名，并设置域名类型（如：A记录、CNAME等）。\n3. 对域名进行预热，提高邮件送达率。\n4. 查看邮件送达率数据，分析邮件发送效果。\n5. 根据数据调整邮件发送策略，提高邮件送达率。"
     },
     {
       "id": "smartlead",
@@ -689,7 +693,8 @@
       ],
       "url": "https://huggingface.co/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Hugging Face 使用教程\n\n### 小节标题：账号注册与登录\n\n1. 访问 Hugging Face 官网（https://huggingface.co/）。\n2. 点击页面右上角的“Sign up”按钮。\n3. 选择注册方式，如使用邮箱或社交媒体账号。\n4. 按照提示填写相关信息，完成注册。\n5. 注册成功后，使用邮箱或社交媒体账号登录。\n\n### 小节标题：Spaces 创建与配置\n\n1. 登录后，点击页面右上角的“New Space”按钮。\n2. 输入 Spaces 名称，选择模板或自定义配置。\n3. 点击“Create”按钮，创建 Spaces。\n4. 进入 Spaces，配置模型、前端界面等。\n5. 保存配置，预览效果。\n\n### 小节标题：模型上传与部署\n\n1. 在 Spaces 中，点击“Upload”按钮。\n2. 选择要上传的模型文件，上传成功后，点击“Deploy”按钮。\n3. 选择部署方式，如 REST API 或 Gradio。\n4. 配置部署参数，如模型版本、服务端口等。\n5. 部署成功后，获取部署链接。\n\n### 小节标题：Spaces 使用与演示\n\n1. 复制部署链接，在浏览器中打开。\n2. 按照页面提示进行操作，如输入文本、选择模型等。\n3. 查看模型推理结果，如文本生成、图像识别等。\n4. 如有需要，可分享 Spaces 链接给他人。"
     },
     {
       "name": "skills",
@@ -1137,6 +1142,154 @@
       "is_violation": false,
       "id": "ballet",
       "added": "2026-08-14"
+    },
+    {
+      "name": "ego-lite",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理浏览器自动化利器，快速分享登录状态",
+      "tags": [
+        "自动化",
+        "AI代理",
+        "浏览器"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "AI协作",
+        "数据采集"
+      ],
+      "tutorial": "## ego-lite 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [ego-lite GitHub 仓库](https://github.com/egoist/ego-lite) 下载最新版本。\n2. 解压下载的文件，运行 `ego-lite` 命令启动应用。\n\n### 2. 配置代理\n\n1. 在应用设置中找到代理配置选项。\n2. 输入代理服务器地址和端口，保存设置。\n\n### 3. 创建自动化任务\n\n1. 点击新建任务按钮，选择要自动化的网页。\n2. 设置自动化步骤，如点击、输入等。\n3. 运行任务，观察自动化过程。\n\n### 4. 分享登录状态\n\n1. 在任务设置中找到分享登录状态选项。\n2. 输入AI代理的API密钥，保存设置。\n3. AI代理将自动登录并执行任务。",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "status": "active",
+      "is_violation": false,
+      "id": "ego-lite",
+      "added": "2026-08-15"
+    },
+    {
+      "name": "awesome-deepseek-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "强大的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "网页内容管理"
+      ],
+      "tutorial": "## 使用 awesome-deepseek-agent 进行网页自动化\n\n### 1. 安装与启动\n\n1. 下载 awesome-deepseek-agent 的安装包。\n2. 解压安装包并运行启动程序。\n3. 确保浏览器已安装对应的插件或扩展。\n\n### 2. 创建新任务\n\n1. 在主界面点击 '新建任务'。\n2. 选择要自动化的网页或网站。\n3. 设置任务参数，如目标元素、操作类型等。\n\n### 3. 运行任务\n\n1. 点击 '运行' 按钮开始自动化任务。\n2. 观察任务执行过程，确保一切正常。\n3. 任务完成后，可以导出结果数据。\n\n### 4. 调试与优化\n\n1. 如果任务执行不正常，可以进入调试模式查看错误信息。\n2. 根据错误信息调整任务设置或代码逻辑。\n3. 重复运行任务直到达到预期效果。",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "awesome-deepseek-agent",
+      "added": "2026-08-15"
+    },
+    {
+      "name": "ToolJet",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源网页Agent，自动操作网页，构建业务应用。",
+      "tags": [
+        "自动化",
+        "RPA",
+        "网页操作"
+      ],
+      "scenarios": [
+        "数据采集",
+        "业务流程自动化",
+        "内部工具开发"
+      ],
+      "tutorial": "## 使用ToolJet进行网页自动化\n\n### 1. 安装ToolJet\n\n- 访问ToolJet官网下载最新版本。\n- 解压下载的文件到本地目录。\n- 运行安装脚本进行安装。\n\n### 2. 创建新项目\n\n- 打开ToolJet应用。\n- 点击“创建新项目”按钮。\n- 输入项目名称并选择项目类型。\n\n### 3. 设计自动化流程\n\n- 在左侧菜单中选择“流程”选项。\n- 使用拖拽方式添加需要的操作节点。\n- 配置每个节点的参数。\n\n### 4. 运行和测试\n\n- 点击“运行”按钮测试自动化流程。\n- 检查流程是否按预期执行。\n\n### 5. 保存和部署\n\n- 保存项目。\n- 将项目部署到服务器或云平台。",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "status": "active",
+      "is_violation": false,
+      "id": "tooljet",
+      "added": "2026-08-15"
+    },
+    {
+      "name": "Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需编程",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据抓取",
+        "自动化测试",
+        "信息提取"
+      ],
+      "tutorial": "## Agent 使用教程\n\n1. 安装 Agent\n   - 下载 Agent 安装包\n   - 解压并运行安装程序\n   - 按照提示完成安装\n\n2. 创建新任务\n   - 打开 Agent 软件\n   - 点击 '创建新任务'\n   - 选择任务类型（如网页爬取、自动化测试等）\n\n3. 编排任务\n   - 拖拽组件到工作区\n   - 配置组件参数\n   - 连接组件以形成流程\n\n4. 运行任务\n   - 点击 '运行' 按钮\n   - 观察任务执行情况\n   - 查看任务结果",
+      "url": "https://huggingface.co/spaces/Maxmax0/Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent",
+      "added": "2026-08-15"
+    },
+    {
+      "name": "Freebuff",
+      "category": "tools",
+      "type": "cloud-paid",
+      "summary": "<p>\n            Free coding agents to kill Claude, Cursor, R",
+      "tags": [],
+      "scenarios": [],
+      "tutorial": "## 快速上手\n1. 访问官网了解功能与定价。\n2. 按官方文档完成注册与基础配置。\n3. 接入你的数据与场景，跑通第一个自动化任务。",
+      "url": "https://www.producthunt.com/products/freebuff-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "freebuff",
+      "added": "2026-08-15"
+    },
+    {
+      "name": "Gemini 3.7 Flash",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能编码与代理工具，高效自动化网页操作",
+      "tags": [
+        "自动化",
+        "编码",
+        "代理",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Gemini 3.7 Flash 使用教程\n\n### 1. 安装与登录\n\n1. 访问 Gemini 官网下载并安装 Gemini 3.7 Flash。\n2. 打开软件，使用您的账户登录。\n\n### 2. 创建新项目\n\n1. 在首页点击 '创建新项目'。\n2. 输入项目名称，选择项目类型，点击 '创建'。\n\n### 3. 编写自动化脚本\n\n1. 在项目页面，选择 '脚本' 选项卡。\n2. 使用提供的编程语言编写自动化脚本。\n3. 保存并运行脚本进行测试。\n\n### 4. 部署与监控\n\n1. 脚本测试无误后，点击 '部署'。\n2. 查看监控信息，确保自动化任务正常运行。",
+      "url": "https://www.producthunt.com/products/gemini-3-7-flash",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gemini-3-7-flash",
+      "added": "2026-08-15"
+    },
+    {
+      "name": "DeepSeek Harness",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "插件式浏览器网页Agent，可视化编排网页操作",
+      "tags": [
+        "插件化",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线服务自动化"
+      ],
+      "tutorial": "## DeepSeek Harness 使用教程\n\n### 1. 安装插件\n\n1. 访问 DeepSeek Harness 官网下载插件包。\n2. 解压插件包，将插件文件拖拽到浏览器扩展程序中安装。\n3. 重启浏览器，插件安装完成。\n\n### 2. 创建任务\n\n1. 打开 DeepSeek Harness，点击创建新任务。\n2. 选择要操作的网页，设置任务参数，如目标元素、操作类型等。\n3. 保存任务，任务创建完成。\n\n### 3. 运行任务\n\n1. 点击运行按钮，DeepSeek Harness 开始执行任务。\n2. 观察任务执行过程，确保操作正确。\n3. 任务完成后，查看结果数据。\n\n### 4. 保存与分享\n\n1. 保存任务，方便后续使用。\n2. 将任务分享给他人，共同使用。",
+      "url": "https://www.producthunt.com/products/deepseek",
+      "status": "dead",
+      "is_violation": false,
+      "id": "deepseek-harness",
+      "added": "2026-08-15"
     }
   ],
   "changelog": [
@@ -1209,6 +1362,20 @@
         "Ballet"
       ],
       "invalidated": 1,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
+    },
+    {
+      "date": "2026-08-15",
+      "added": [
+        "ego-lite",
+        "awesome-deepseek-agent",
+        "ToolJet",
+        "Agent",
+        "Freebuff",
+        "Gemini 3.7 Flash",
+        "DeepSeek Harness"
+      ],
+      "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
     }
   ]

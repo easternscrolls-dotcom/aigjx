@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:10:03.894Z",
+  "generatedAt": "2026-08-14T20:04:32.731Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -296,6 +296,41 @@
       "url": "https://aiagent.72tool.com/tools/ballet.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ego-lite.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/awesome-deepseek-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tooljet.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/freebuff.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gemini-3-7-flash.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/deepseek-harness.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -326,7 +361,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 52,
+    "totalAgents": 59,
     "byCategory": [
       {
         "id": "local",
@@ -336,7 +371,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 23
+        "count": 29
       },
       {
         "id": "workflow",
@@ -351,9 +386,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 6
+        "count": 7
       }
     ],
-    "deadLinks": 14
+    "deadLinks": 17
   }
 }

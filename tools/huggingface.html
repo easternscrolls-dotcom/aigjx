@@ -60,24 +60,44 @@
 
       <section class="block">
         <h2>使用教程</h2>
-        <h3>这个工具能做什么</h3>
-<p>开源模型与 Agent 部署社区，可托管 Spaces 直接上线演示与推理服务。</p>
-<h3>适合谁用</h3>
-<p>如果你正在寻找「Agent 配套辅助工具」类的自动化方案，Hugging Face 值得一试；常见场景包括：模型托管、Agent部署、演示上线。</p>
-<h3>快速上手步骤</h3>
+        <h3>Hugging Face 使用教程</h3>
+<p>### 小节标题：账号注册与登录</p>
 <ol>
-<li>打开官网 https://huggingface.co/，注册账号或克隆仓库（开源类可本地部署）。</li>
-<li>阅读官方文档，完成基础配置（API Key / 环境变量 / 工作流节点）。</li>
-<li>按你的业务场景接入数据源或外部 API，跑通第一个自动化任务。</li>
-<li>结合下方「同类 Agent 推荐」横向对比，挑选最契合你需求的方案。</li>
+<li>访问 Hugging Face 官网（https://huggingface.co/）。</li>
+<li>点击页面右上角的“Sign up”按钮。</li>
+<li>选择注册方式，如使用邮箱或社交媒体账号。</li>
+<li>按照提示填写相关信息，完成注册。</li>
+<li>注册成功后，使用邮箱或社交媒体账号登录。</li>
 </ol>
-<h3>小提示</h3>
-<p>本站对所有收录工具做统一标签（开源免费 / 云端付费 / 本地离线）与部署难度标注，对比选型更省心。</p>
+<p>### 小节标题：Spaces 创建与配置</p>
+<ol>
+<li>登录后，点击页面右上角的“New Space”按钮。</li>
+<li>输入 Spaces 名称，选择模板或自定义配置。</li>
+<li>点击“Create”按钮，创建 Spaces。</li>
+<li>进入 Spaces，配置模型、前端界面等。</li>
+<li>保存配置，预览效果。</li>
+</ol>
+<p>### 小节标题：模型上传与部署</p>
+<ol>
+<li>在 Spaces 中，点击“Upload”按钮。</li>
+<li>选择要上传的模型文件，上传成功后，点击“Deploy”按钮。</li>
+<li>选择部署方式，如 REST API 或 Gradio。</li>
+<li>配置部署参数，如模型版本、服务端口等。</li>
+<li>部署成功后，获取部署链接。</li>
+</ol>
+<p>### 小节标题：Spaces 使用与演示</p>
+<ol>
+<li>复制部署链接，在浏览器中打开。</li>
+<li>按照页面提示进行操作，如输入文本、选择模型等。</li>
+<li>查看模型推理结果，如文本生成、图像识别等。</li>
+<li>如有需要，可分享 Spaces 链接给他人。</li>
+</ol>
       </section>
 
       <section class="block">
         <h2>同类 Agent 配套辅助工具 推荐（站内导航）</h2>
-        <div class="peer-grid"><a class="peer-card" href="../tools/ollama.html"><span class="name">Ollama</span><span class="tag">本地离线</span><span class="sum">本地大模型运行框架，一行命令在电脑上跑 Llama、Qwen 等开源模型。</span></a><a class="peer-card" href="../tools/lm-studio.html"><span class="name">LM Studio</span><span class="tag">本地离线</span><span class="sum">桌面端本地模型加载器，图形界面管理并运行 GGUF 模型，支持离线推理。</span></a><a class="peer-card" href="../tools/openrouter.html"><span class="name">OpenRouter</span><span class="tag">云端付费</span><span class="sum">大模型 API 聚合中转，一个接口调用数百种模型，按量计费统一结算。</span></a><a class="peer-card" href="../tools/siliconflow.html"><span class="name">硅基流动 SiliconFlow</span><span class="tag">云端付费</span><span class="sum">国内大模型 API 云服务平台，提供 Qwen、DeepSeek 等模型的高性价</span></a><a class="peer-card" href="../tools/apify.html"><span class="name">Apify</span><span class="tag">云端付费</span><span class="sum">网页采集与自动化平台，提供现成 Actor 脚本抓取电商、社媒等公开数据。</span></a></div>
+        <div class="peer-grid"><a class="peer-card" href="../tools/ollama.html"><span class="name">Ollama</span><span class="tag">本地离线</span><span class="sum">本地大模型运行框架，一行命令在电脑上跑 Llama、Qwen 等开源模型。</span></a><a class="peer-card" href="../tools/lm-studio.html"><span class="name">LM Studio</span><span class="tag">本地离线</span><span class="sum">桌面端本地模型加载器，图形界面管理并运行 GGUF 模型，支持离线推理。</span></a><a class="peer-card" href="../tools/openrouter.html"><span class="name">OpenRouter</span><span class="tag">云端付费</span><span class="sum">大模型 API 聚合中转，一个接口调用数百种模型，按量计费统一结算。</span></a><a class="peer-card" href="../tools/siliconflow.html"><span class="name">硅基流动 SiliconFlow</span><span class="tag">云端付费</span><span class="sum">国内大模型 API 云服务平台，提供 Qwen、DeepSeek 等模型的高性价</span></a><a class="peer-card" href="../tools/apify.html"><span class="name">Apify</span><span class="tag">云端付费</span><span class="sum">网页采集与自动化平台，提供现成 Actor 脚本抓取电商、社媒等公开数据。</span></a><a class="peer-card" href="../tools/freebuff.html"><span class="name">Freebuff</span><span class="tag">云端付费</span><span class="sum">&lt;p&gt;
+            Free coding agents to ki</span></a></div>
       </section>
 
       <section class="block">
