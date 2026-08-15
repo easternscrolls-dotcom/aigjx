@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T20:04:32.731Z",
+  "generatedAt": "2026-08-15T19:02:43.546Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -331,6 +331,21 @@
       "url": "https://aiagent.72tool.com/tools/deepseek-harness.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cli-anything.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentflow-os.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/myagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -361,7 +376,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 59,
+    "totalAgents": 62,
     "byCategory": [
       {
         "id": "local",
@@ -371,7 +386,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 29
+        "count": 32
       },
       {
         "id": "workflow",

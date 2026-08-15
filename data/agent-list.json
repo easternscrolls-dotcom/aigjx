@@ -147,7 +147,8 @@
       ],
       "url": "https://github.com/langchain-ai/langchain",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## LangChain 使用教程\n\n### 小节一：安装与配置\n\n1. 下载 LangChain 的最新版本。\n2. 解压下载的文件到本地目录。\n3. 在终端中进入 LangChain 目录。\n4. 运行 `pip install -r requirements.txt` 安装依赖。\n\n### 小节二：创建项目\n\n1. 在 LangChain 目录下创建一个新的文件夹，命名为 `my_project`。\n2. 在 `my_project` 文件夹中创建一个名为 `main.py` 的 Python 文件。\n3. 在 `main.py` 中导入 LangChain 的相关模块。\n\n### 小节三：编写代码\n\n1. 在 `main.py` 中定义一个 LangChain 实例。\n2. 使用 `langchain` 提供的链式调用功能，添加所需的工具和插件。\n3. 使用 `langchain` 的记忆管理功能，实现数据的持久化存储。\n\n### 小节四：运行项目\n\n1. 在终端中进入 `my_project` 文件夹。\n2. 运行 `python main.py` 启动项目。\n3. 使用浏览器或其他工具访问项目地址，查看效果。"
     },
     {
       "id": "crewai",
@@ -289,7 +290,8 @@
       ],
       "url": "https://axiom.ai/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Axiom.ai 使用教程\n\n### 小节一：安装与启动\n\n1. 访问 Axiom.ai 官网，下载并安装最新版本的 Axiom.ai。\n2. 双击安装文件，按照提示完成安装过程。\n3. 打开 Axiom.ai，首次使用时需要注册账号并登录。\n\n### 小节二：录制操作\n\n1. 打开需要自动化的网页或应用，确保 Axiom.ai 已经连接到桌面。\n2. 点击界面上的“录制”按钮，开始录制操作。\n3. 在网页或应用中进行所需操作，如点击、输入等。\n4. 完成操作后，点击“停止录制”按钮。\n\n### 小节三：编辑与保存\n\n1. 录制完成后，Axiom.ai 会自动生成一个机器人脚本。\n2. 在脚本编辑区，可以查看和编辑录制的操作步骤。\n3. 根据需要调整操作顺序、参数等。\n4. 完成编辑后，点击“保存”按钮，将脚本保存到本地。\n\n### 小节四：运行与调试\n\n1. 点击“运行”按钮，启动机器人执行脚本。\n2. 观察机器人执行过程，确保操作符合预期。\n3. 如遇到问题，可以暂停运行，返回编辑界面进行调试。\n4. 调试完成后，再次运行机器人，直到问题解决。"
     },
     {
       "id": "bardeen",
@@ -430,7 +432,8 @@
       ],
       "url": "https://www.activepieces.com/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Activepieces 使用教程\n\n### 小节标题：准备工作\n\n1. 访问 Activepieces 官网，注册并登录账号。\n2. 创建一个新的项目，选择合适的命名和描述。\n3. 配置项目的基础信息，如项目名称、描述、时间范围等。\n\n### 小节标题：创建工作流\n\n1. 在项目页面，点击“创建工作流”按钮。\n2. 选择工作流的类型，如“定时任务”、“事件触发”等。\n3. 设置工作流的触发条件，例如时间、事件等。\n\n### 小节标题：配置工作流步骤\n\n1. 在工作流编辑页面，添加新的步骤。\n2. 选择步骤类型，如“发送邮件”、“数据库操作”等。\n3. 配置步骤的参数，如收件人、邮件内容、数据库连接等。\n\n### 小节标题：测试与部署\n\n1. 点击“测试”按钮，验证工作流是否按预期执行。\n2. 如果测试成功，点击“部署”按钮，将工作流部署到生产环境。\n3. 查看工作流的运行状态，确保其正常运行。"
     },
     {
       "id": "pipedream",
@@ -572,7 +575,8 @@
       ],
       "url": "https://smartlead.ai/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Smartlead.ai 使用教程\n\n### 小节标题：账户注册与登录\n\n1. 访问 Smartlead.ai 官网，点击“注册”按钮。\n2. 填写注册信息，包括邮箱、密码、手机号等，完成验证。\n3. 登录账户，进入 Smartlead.ai 主界面。\n\n### 小节标题：邮箱配置与轮换\n\n1. 在主界面，点击左侧菜单栏的“邮箱管理”。\n2. 点击“添加邮箱”，输入邮箱地址、密码，完成邮箱验证。\n3. 设置轮换规则，包括轮换频率、发送时间等。\n4. 保存设置，开始邮件轮换发送。\n\n### 小节标题：邮件编辑与发送\n\n1. 在主界面，点击左侧菜单栏的“邮件编辑”。\n2. 选择模板或手动编辑邮件内容。\n3. 填写收件人信息，设置邮件主题。\n4. 点击“发送”按钮，邮件将按照轮换规则发送。\n\n### 小节标题：数据统计与分析\n\n1. 在主界面，点击左侧菜单栏的“数据统计”。\n2. 查看邮件发送情况，包括送达率、打开率等。\n3. 分析数据，优化邮件内容和发送策略。"
     },
     {
       "id": "ollama",
@@ -1290,6 +1294,72 @@
       "is_violation": false,
       "id": "deepseek-harness",
       "added": "2026-08-15"
+    },
+    {
+      "name": "CLI-Anything",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "让所有软件成为 Agent 本地化",
+      "tags": [
+        "命令行",
+        "自动化",
+        "软件集成"
+      ],
+      "scenarios": [
+        "跨平台软件集成",
+        "自动化任务执行",
+        "命令行增强"
+      ],
+      "tutorial": "## CLI-Anything 使用教程\n\n### 1. 安装 CLI-Anything\n\n首先，您需要在您的计算机上安装 CLI-Anything。您可以通过以下命令进行安装：\n\n```bash\npip install clianything\n```\n\n### 2. 配置 CLI-Anything\n\n安装完成后，您需要配置 CLI-Anything。打开配置文件（通常位于 \".clianything\" 目录下），并按照以下格式添加您想要集成的软件：\n\n```json\n{\n  \"name\": \"软件名称\",\n  \"command\": \"软件命令\"\n}\n```\n\n### 3. 使用 CLI-Anything\n\n配置完成后，您可以通过以下命令使用 CLI-Anything：\n\n```bash\nclianything 软件名称\n```\n\nCLI-Anything 将自动执行您配置的软件命令。\n\n### 4. 高级功能\n\nCLI-Anything 支持多种高级功能，如参数传递、环境变量等。您可以在配置文件中添加更多细节来定制您的集成。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "status": "active",
+      "is_violation": false,
+      "id": "cli-anything",
+      "added": "2026-08-16"
+    },
+    {
+      "name": "agentflow-os",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## AgentFlow-OS 使用教程\n\n### 1. 安装与启动\n\n1. 下载 AgentFlow-OS 安装包。\n2. 解压安装包并运行程序。\n3. 点击“新建项目”开始创建新的自动化任务。\n\n### 2. 创建任务\n\n1. 选择要操作的网页。\n2. 使用拖拽方式添加操作步骤，如点击、输入等。\n3. 设置任务触发条件，如定时执行或特定事件触发。\n\n### 3. 运行与调试\n\n1. 点击“运行”按钮开始执行任务。\n2. 观察任务执行过程，如有错误可进行调试。\n3. 保存任务以便下次使用。\n\n### 4. 高级功能\n\n1. 支持自定义脚本，实现更复杂的自动化逻辑。\n2. 支持多任务并行执行，提高效率。\n3. 提供丰富的插件库，扩展功能。",
+      "url": "https://huggingface.co/spaces/muneeb01x/agentflow-os",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentflow-os",
+      "added": "2026-08-16"
+    },
+    {
+      "name": "myAgent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页操作，无需编程",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据抓取",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## myAgent 使用教程\n\n### 1. 安装与启动\n\n1. 下载 myAgent 安装包。\n2. 解压安装包并运行 myAgent。\n3. 点击“新建项目”开始创建新的自动化任务。\n\n### 2. 创建任务\n\n1. 选择网页自动化任务类型。\n2. 输入目标网页 URL。\n3. 使用拖拽方式添加操作步骤，如点击、填写表单等。\n\n### 3. 运行与调试\n\n1. 点击“运行”按钮执行任务。\n2. 观察任务执行过程，如有错误可进行调试。\n3. 保存任务以便后续使用。\n\n### 4. 集成与扩展\n\n1. myAgent 支持与其他工具集成。\n2. 可通过插件扩展功能。",
+      "url": "https://huggingface.co/spaces/upskill25/myAgent",
+      "status": "active",
+      "is_violation": false,
+      "id": "myagent",
+      "added": "2026-08-16"
     }
   ],
   "changelog": [
@@ -1377,6 +1447,16 @@
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
+    },
+    {
+      "date": "2026-08-16",
+      "added": [
+        "CLI-Anything",
+        "agentflow-os",
+        "myAgent"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 4 篇"
     }
   ]
 }
