@@ -168,7 +168,8 @@
       ],
       "url": "https://github.com/crewAIInc/crewAI",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## 小节标题：CrewAI 快速上手\n\n### 1. 安装与配置\n\n1. 下载 CrewAI 的源代码，解压到本地目录。\n2. 打开终端，进入 CrewAI 目录。\n3. 运行 `pip install -r requirements.txt` 命令，安装依赖库。\n4. 配置环境变量，确保 CrewAI 可以在终端中直接运行。\n\n### 2. 创建智能体角色\n\n1. 在 CrewAI 目录下，创建一个新的文件夹，命名为 `agents`。\n2. 在 `agents` 文件夹中，创建一个 Python 文件，命名为 `agent.py`。\n3. 在 `agent.py` 文件中，编写智能体的代码，实现角色的功能。\n4. 在 `agent.py` 文件的最后，添加 `from crewai.agent import Agent` 语句，并创建一个 `Agent` 类的实例。\n\n### 3. 配置任务分配\n\n1. 在 CrewAI 目录下，创建一个新的文件夹，命名为 `tasks`。\n2. 在 `tasks` 文件夹中，创建一个 Python 文件，命名为 `task.py`。\n3. 在 `task.py` 文件中，编写任务的代码，定义任务的具体内容和执行逻辑。\n4. 在 `task.py` 文件的最后，添加 `from crewai.task import Task` 语句，并创建一个 `Task` 类的实例。\n\n### 4. 运行 CrewAI\n\n1. 在终端中，进入 CrewAI 目录。\n2. 运行 `python run.py` 命令，启动 CrewAI。\n3. 观察终端输"
     },
     {
       "id": "metagpt",
@@ -311,7 +312,8 @@
       ],
       "url": "https://www.bardeen.ai/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Bardeen 使用教程\n\n### 小节一：安装与配置\n\n1. 打开您的浏览器，访问 Bardeen 官网（https://bardeen.io/）。\n2. 点击 \"Get Bardeen\" 按钮进行安装。\n3. 安装完成后，点击浏览器右上角的 Bardeen 图标，授权登录您的账户。\n4. 在 Bardeen 中，点击 \"Create New Playbook\" 创建一个新的 Playbook。\n\n### 小节二：创建 Playbook\n\n1. 在 Playbook 编辑器中，选择您需要使用的工具或应用。\n2. 添加 \"Web Scraping\" 功能，选择您需要爬取数据的网页。\n3. 设置爬取的数据字段，如标题、价格等。\n4. 添加 \"Form Filling\" 功能，选择需要填写的表单。\n5. 配置表单的填写规则，如姓名、邮箱等。\n\n### 小节三：跨应用同步\n\n1. 在 Playbook 中，添加 \"Cross-App Sync\" 功能。\n2. 选择您需要同步的应用，如 Google Sheets、Notion 等。\n3. 配置同步规则，如将爬取的数据同步到指定表格的指定列。\n4. 点击 \"Run Playbook\" 运行 Playbook。\n\n### 小节四：Playbook 管理\n\n1. 在 Bardeen 中，查看您的 Playbook 运行状态。\n2. 对 Playbook 进行编辑或删除操作。\n3. 将 Playbook 分享给他人，方便团队协作。"
     },
     {
       "id": "skyvern",
@@ -453,7 +455,8 @@
       ],
       "url": "https://pipedream.com/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Pipedream 使用教程\n\n### 小节标题：账户注册与登录\n\n1. 访问 Pipedream 官网（https://www.pipedream.com/）。\n2. 点击页面右上角的“注册”按钮。\n3. 输入邮箱地址、设置密码，并填写其他相关信息。\n4. 点击“注册”完成账户创建。\n5. 使用邮箱接收验证邮件，点击验证链接激活账户。\n6. 返回 Pipedream 网站，使用邮箱和密码登录。\n\n### 小节标题：创建工作流\n\n1. 登录后，点击页面左上角的“创建工作流”按钮。\n2. 选择一个触发器，例如“Webhook”或“API”。\n3. 配置触发器的参数，如 URL、请求方法等。\n4. 添加一个操作，选择一个操作类型，如“API 调用”或“数据库操作”。\n5. 配置操作参数，如目标 API 的 URL、请求头、请求体等。\n6. 保存工作流，并测试其功能。\n\n### 小节标题：工作流监控与调试\n\n1. 在工作流列表中找到刚刚创建的工作流。\n2. 点击工作流名称进入详情页面。\n3. 在详情页面，可以查看工作流的运行日志。\n4. 如果工作流运行失败，可以查看错误信息并进行调试。\n5. 修改工作流配置或操作，重新测试工作流。\n\n### 小节标题：工作流分享与集成\n\n1. 在工作流详情页面，点击“分享”按钮。\n2. 复制分享链接或生成 API 密钥。\n3. 将分享链接或 API 密钥集成到其他应用程序或服务中。\n4. 确保集成后的应用程序或服务可以正确触发工作流。"
     },
     {
       "id": "gumloop",
@@ -596,7 +599,8 @@
       ],
       "url": "https://ollama.com/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## Ollama 使用教程\n\n### 小节标题：安装与配置\n\n1. 下载 Ollama：访问 [Ollama 官网](https://ollama.io/)，根据你的操作系统下载相应的安装包。\n2. 安装依赖：打开终端或命令提示符，执行 `pip install -r requirements.txt` 命令，安装所有依赖。\n3. 配置环境变量：将 Ollama 的路径添加到系统环境变量中，以便在任何位置运行 Ollama。\n\n### 小节标题：运行模型\n\n1. 下载模型：在 Ollama 官网上下载你想要运行的模型，例如 Llama 或 Qwen。\n2. 解压模型：将下载的模型文件解压到本地目录。\n3. 运行模型：在终端或命令提示符中，进入模型所在的目录，执行 `ollama run model_name` 命令，其中 `model_name` 是模型文件名。\n\n### 小节标题：使用参数\n\n1. 设置模型参数：在运行模型时，你可以通过 `-p` 参数设置模型参数，例如 `-p max_length=100` 设置最大长度为 100。\n2. 设置输出格式：使用 `-o` 参数设置输出格式，例如 `-o json` 输出 JSON 格式。\n3. 设置设备：使用 `-d` 参数设置运行模型的设备，例如 `-d cpu` 使用 CPU 运行模型。\n\n### 小节标题：常见问题\n\n1. 问题：无法找到模型。\n   解决：请确保模型文件已正确下载并放置在正确的目录。\n2. 问题：运行模型时出现错误。\n   解决：检查模型是否支持你的操作系统和 Python 版本，并确保所有依赖都已正"
     },
     {
       "id": "lm-studio",
@@ -1360,6 +1364,143 @@
       "is_violation": false,
       "id": "myagent",
       "added": "2026-08-16"
+    },
+    {
+      "name": "First_agent_template",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "Hugging Face",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA应用"
+      ],
+      "tutorial": "## First_agent_template 使用教程\n\n1. 下载与安装\n   - 访问Hugging Face官网下载First_agent_template。\n   - 按照安装指南完成安装。\n\n2. 创建新项目\n   - 打开First_agent_template，创建一个新的项目。\n   - 选择合适的模板或从零开始。\n\n3. 编写自动化脚本\n   - 使用提供的API编写自动化脚本。\n   - 设置自动化任务，如数据采集或网页操作。\n\n4. 运行与测试\n   - 运行脚本并监控执行过程。\n   - 测试并调整脚本以满足需求。",
+      "url": "https://huggingface.co/spaces/WedAteeq/First_agent_template",
+      "status": "active",
+      "is_violation": false,
+      "id": "first-agent-template",
+      "added": "2026-08-17"
+    },
+    {
+      "name": "agents-course-final",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Hugging Face 浏览器网页Agent，自动操作网页，无需代码。",
+      "tags": [
+        "Hugging Face",
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "网页内容分析"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装Agent\n从Hugging Face官网下载并安装agents-course-final。\n\n### 2. 配置环境\n确保你的浏览器支持网页自动化，如Chrome或Firefox。\n\n### 3. 编写脚本\n使用JavaScript或Python编写自动化脚本，调用agents-course-final API。\n\n### 4. 运行脚本\n在浏览器中运行脚本，实现网页自动操作。",
+      "url": "https://huggingface.co/spaces/Abhijeet2812/agents-course-final",
+      "status": "active",
+      "is_violation": false,
+      "id": "agents-course-final",
+      "added": "2026-08-17"
+    },
+    {
+      "name": "AIREV_AGENT",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，实现网页操作自动化",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## AIREV_AGENT 使用教程\n\n### 1. 安装与启动\n\n1. 下载 AIREV_AGENT 安装包。\n2. 解压安装包并运行 AIREV_AGENT。\n3. 确保浏览器已安装对应的插件或扩展程序。\n\n### 2. 创建任务\n\n1. 打开 AIREV_AGENT，选择创建新任务。\n2. 输入任务名称和描述。\n3. 选择任务类型，如数据采集、表单填写等。\n\n### 3. 编排任务\n\n1. 在任务编辑器中，拖拽操作元素到工作区。\n2. 设置操作参数，如点击、输入等。\n3. 保存并测试任务。\n\n### 4. 运行与监控\n\n1. 点击运行按钮，启动任务。\n2. 在监控窗口中查看任务执行情况。\n3. 如有异常，可暂停或终止任务。",
+      "url": "https://huggingface.co/spaces/upskill25/AIREV_AGENT",
+      "status": "active",
+      "is_violation": false,
+      "id": "airev-agent",
+      "added": "2026-08-17"
+    },
+    {
+      "name": "Ezri-AI-Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码实现网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "Hugging Face"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## Ezri-AI-Agent 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Ezri-AI-Agent 安装包。\n2. 解压安装包并运行 Ezri-AI-Agent。\n3. 确保浏览器已安装相应的插件或扩展。\n\n### 2. 创建新任务\n\n1. 在 Ezri-AI-Agent 中点击 '新建任务'。\n2. 选择要操作的网页或网站。\n3. 设置任务参数，如目标元素、操作类型等。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 监控任务进度和状态。\n3. 如有需要，可实时调整任务参数。\n\n### 4. 保存与导出\n\n1. 任务完成后，点击 '保存' 保存任务。\n2. 可将任务导出为可重复使用的模板。",
+      "url": "https://huggingface.co/spaces/Meetezri/Ezri-AI-Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "ezri-ai-agent",
+      "added": "2026-08-17"
+    },
+    {
+      "name": "HarnessRouter Community Edition",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源的智能代理统一接口",
+      "tags": [
+        "代理",
+        "统一接口",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 HarnessRouter Community Edition 进行网页自动化\n\n1. 下载并安装 HarnessRouter Community Edition。\n2. 打开软件，创建一个新的项目。\n3. 在项目中配置目标网页的 URL 和需要自动化的操作步骤。\n4. 使用提供的可视化编辑器拖拽添加操作元素，如点击、输入等。\n5. 预览并运行自动化流程，确保无误后保存。\n6. 可以将自动化流程导出为脚本，用于后续的自动化任务。",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "status": "dead",
+      "is_violation": false,
+      "id": "harnessrouter-community-edition",
+      "added": "2026-08-17"
+    },
+    {
+      "name": "Chert",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速创建FaceTime视频代理",
+      "tags": [
+        "AI",
+        "视频",
+        "代理",
+        "FaceTime"
+      ],
+      "scenarios": [
+        "视频会议",
+        "在线教育",
+        "远程协作"
+      ],
+      "tutorial": "## Chert 使用教程\n\n### 1. 安装Chert\n\n从 [Chert GitHub 仓库](https://github.com/your-username/chert) 克隆或下载源代码。\n\n### 2. 配置环境\n\n确保你的开发环境已安装 Node.js 和 npm。\n\n### 3. 运行示例\n\n在终端中运行以下命令启动示例：\n\n```bash\nnode index.js\n```\n\n### 4. 集成到FaceTime\n\n按照官方文档进行配置，将 Chert 集成到 FaceTime 应用中。\n\n### 5. 测试\n\n在 FaceTime 中测试视频代理功能，确保一切运行正常。",
+      "url": "https://www.producthunt.com/products/chert",
+      "status": "dead",
+      "is_violation": false,
+      "id": "chert",
+      "added": "2026-08-17"
     }
   ],
   "changelog": [
@@ -1454,6 +1595,19 @@
         "CLI-Anything",
         "agentflow-os",
         "myAgent"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 4 篇"
+    },
+    {
+      "date": "2026-08-17",
+      "added": [
+        "First_agent_template",
+        "agents-course-final",
+        "AIREV_AGENT",
+        "Ezri-AI-Agent",
+        "HarnessRouter Community Edition",
+        "Chert"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 4 篇"

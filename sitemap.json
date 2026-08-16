@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T19:02:43.546Z",
+  "generatedAt": "2026-08-16T19:02:49.755Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -346,6 +346,36 @@
       "url": "https://aiagent.72tool.com/tools/myagent.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/first-agent-template.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agents-course-final.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/airev-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ezri-ai-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/harnessrouter-community-edition.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/chert.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -376,7 +406,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 62,
+    "totalAgents": 68,
     "byCategory": [
       {
         "id": "local",
@@ -386,7 +416,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 32
+        "count": 38
       },
       {
         "id": "workflow",
@@ -404,6 +434,6 @@
         "count": 7
       }
     ],
-    "deadLinks": 17
+    "deadLinks": 19
   }
 }
