@@ -189,7 +189,8 @@
       ],
       "url": "https://github.com/geekan/MetaGPT",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## MetaGPT 使用教程\n\n### 小节标题：安装与配置\n\n1. 下载 MetaGPT 的源代码，可以从 GitHub 仓库获取。\n2. 解压下载的文件，进入 MetaGPT 的根目录。\n3. 在终端中运行 `pip install -r requirements.txt` 命令，安装所有必要的依赖库。\n4. 配置环境变量，确保 MetaGPT 可以在命令行中直接运行。\n\n### 小节标题：创建新项目\n\n1. 在终端中运行 `python setup.py install` 命令，安装 MetaGPT。\n2. 创建一个新的项目文件夹，例如 `my_project`。\n3. 在项目文件夹中，运行 `python meta_gpt.py` 命令，启动 MetaGPT。\n4. 按照提示输入项目名称和描述，创建项目。\n\n### 小节标题：注入 SOP\n\n1. 在项目文件夹中，创建一个名为 `sop` 的子文件夹。\n2. 将你的 SOP 文件（例如 `.txt` 或 `.md` 格式）放入 `sop` 文件夹中。\n3. 在 MetaGPT 的主界面中，选择“注入 SOP”功能。\n4. 选择 SOP 文件夹，并确认注入。\n\n### 小节标题：生成代码\n\n1. 在 MetaGPT 的主界面中，选择“生成代码”功能。\n2. 选择需要生成的代码类型，例如 Python、Java 等。\n3. 输入生成代码的目录，并确认生成。\n4. MetaGPT 将根据 SOP 文件生成相应的代码，并保存在指定的目录中。"
     },
     {
       "id": "openmanus",
@@ -333,7 +334,8 @@
       ],
       "url": "https://github.com/Skyvern-AI/skyvern",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Skyvern 使用教程\n\n### 小节一：安装与启动\n\n1. 下载 Skyvern 安装包，根据操作系统选择合适的版本。\n2. 解压安装包，运行安装程序。\n3. 按照提示完成安装，启动 Skyvern。\n\n### 小节二：配置环境\n\n1. 打开 Skyvern，进入设置界面。\n2. 配置浏览器驱动，选择合适的浏览器和驱动路径。\n3. 设置 LLM 驱动，选择支持的 LLM 模型，配置 API 密钥。\n4. 保存设置，退出设置界面。\n\n### 小节三：创建自动化任务\n\n1. 在 Skyvern 中，点击“新建任务”按钮。\n2. 选择任务类型，如网页浏览、表单填写等。\n3. 输入目标网址，设置任务参数。\n4. 设计任务流程，包括页面跳转、元素点击等操作。\n5. 保存任务，开始运行。\n\n### 小节四：调试与优化\n\n1. 运行任务，观察自动化过程。\n2. 如有错误，查看日志信息，定位问题。\n3. 调整任务参数或流程，优化自动化效果。\n4. 重复调试，直至任务运行正常。"
     },
     {
       "id": "godmode",
@@ -476,7 +478,8 @@
       ],
       "url": "https://www.gumloop.com/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## 小节标题：Gumloop 基础操作\n\n1. 注册与登录\n   1. 访问 Gumloop 官网，点击“注册”或“登录”按钮。\n   2. 使用邮箱或社交媒体账号进行注册或登录。\n\n2. 创建工作流\n   1. 登录后，点击页面右上角的“创建工作流”按钮。\n   2. 输入工作流名称，选择合适的模板或从空白开始。\n   3. 点击“下一步”，进入工作流编辑界面。\n\n3. 添加 LLM 节点\n   1. 在工作流编辑界面，点击左侧的“LLM”节点库。\n   2. 选择需要的 LLM 节点，拖拽到工作流画布上。\n   3. 配置节点参数，如输入数据、输出格式等。\n\n4. 连接节点\n   1. 将一个节点的输出端与另一个节点的输入端相连，创建数据流。\n   2. 可以通过拖拽线段来连接节点，形成工作流。\n\n## 小节标题：工作流管理与优化\n\n1. 预览与测试\n   1. 点击工作流画布上的“预览”按钮，查看工作流运行结果。\n   2. 根据需要调整节点配置，优化工作流。\n\n2. 保存与分享\n   1. 完成工作流配置后，点击右上角的“保存”按钮。\n   2. 可以将工作流分享给团队成员或导出为模板。\n\n3. 调整与优化\n   1. 定期检查工作流运行情况，确保数据准确性和效率。\n   2. 根据业务需求，调整节点配置或添加新节点。"
     },
     {
       "id": "creatify",
@@ -620,7 +623,8 @@
       ],
       "url": "https://lmstudio.ai/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## LM Studio 使用教程\n\n### 小节一：软件安装与启动\n\n1. 下载 LM Studio 安装包，选择合适的版本进行安装。\n2. 完成安装后，双击桌面图标或开始菜单中的 LM Studio 快捷方式启动软件。\n3. 首次启动时，软件会提示注册或登录，请根据提示操作。\n\n### 小节二：模型加载与配置\n\n1. 打开软件后，点击左侧菜单栏的“模型管理”选项。\n2. 在模型管理界面，点击“添加模型”按钮，选择需要加载的 GGUF 模型文件。\n3. 模型加载完成后，在列表中可以看到加载的模型信息，点击模型名称可查看详细信息。\n4. 根据需要调整模型参数，如输入尺寸、输出尺寸等。\n\n### 小节三：模型运行与监控\n\n1. 在模型管理界面，选中需要运行的模型，点击“运行”按钮。\n2. 模型开始运行后，软件会显示运行进度和结果。\n3. 若需要暂停或停止模型运行，可点击相应的按钮操作。\n4. 运行完成后，软件会自动保存结果，并提供下载选项。\n\n### 小节四：离线推理与导出\n\n1. 在模型管理界面，选中需要导出的模型，点击“导出”按钮。\n2. 选择导出路径，设置导出参数，如输出尺寸、格式等。\n3. 导出完成后，模型将离线运行，无需网络连接。\n4. 如需在离线环境下使用模型，请确保已将模型导出到相应设备。"
     },
     {
       "id": "openrouter",
@@ -1501,6 +1505,177 @@
       "is_violation": false,
       "id": "chert",
       "added": "2026-08-17"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一键生成短视频，AI自动化工作流",
+      "tags": [
+        "视频生成",
+        "AI自动化",
+        "短视频制作"
+      ],
+      "scenarios": [
+        "内容创作者",
+        "营销人员",
+        "社交媒体运营"
+      ],
+      "tutorial": "## MoneyPrinterTurbo 使用教程\n\n1. 下载并安装 MoneyPrinterTurbo\n\n2. 打开软件，选择视频生成模式\n\n3. 输入主题或关键词，设置视频风格和长度\n\n4. 点击生成，等待AI处理\n\n5. 下载生成的短视频，用于社交媒体或营销",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "status": "active",
+      "is_violation": false,
+      "id": "moneyprinterturbo",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "ai-memory",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为智能代理提供长期记忆解决方案，促进不同供应商间的交接",
+      "tags": [
+        "AI",
+        "记忆",
+        "智能代理",
+        "交接"
+      ],
+      "scenarios": [
+        "智能客服",
+        "自动化测试",
+        "数据采集"
+      ],
+      "tutorial": "## 使用ai-memory进行智能代理记忆管理\n\n1. 下载并安装ai-memory库\n\n2. 在智能代理的代码中引入ai-memory模块\n\n3. 配置记忆存储参数，如数据库连接信息\n\n4. 使用ai-memory API进行数据存储和检索\n\n5. 在不同代理供应商间进行数据交接时，使用ai-memory确保数据一致性",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "status": "active",
+      "is_violation": false,
+      "id": "ai-memory",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "Anthropic-Cybersecurity-Skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理网络安全技能库，支持多种框架。",
+      "tags": [
+        "AI安全",
+        "技能库",
+        "框架支持",
+        "开源"
+      ],
+      "scenarios": [
+        "安全技能培训",
+        "自动化安全测试",
+        "安全事件响应"
+      ],
+      "tutorial": "## 安装与配置\n1. 访问 [agentskills.io](https://agentskills.io) 获取 Anthropic-Cybersecurity-Skills。\n2. 将技能库集成到 Claude Code, GitHub Copilot 等平台。\n3. 配置所需的框架，如 MITRE ATT&CK 或 NIST CSF 2.0。\n\n## 使用技能\n1. 选择一个安全领域，如入侵检测或漏洞扫描。\n2. 使用命令或API调用相应的技能。\n3. 分析技能执行结果，评估安全风险。\n\n## 集成与扩展\n1. 将技能库集成到现有的安全工具或平台。\n2. 根据需要扩展技能库，添加新的安全领域或技能。\n3. 定期更新技能库，以保持其与最新安全框架同步。",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "anthropic-cybersecurity-skills",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "Omni by xpander",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化AI代理管理，解放AI代理。",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "管理工具"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Omni by xpander 使用教程\n\n### 1. 安装Omni\n\n1. 访问Omni官网下载最新版本。\n2. 按照提示完成安装。\n3. 启动Omni并创建一个新的代理项目。\n\n### 2. 配置代理\n\n1. 在代理项目中，选择需要自动化的网页或应用。\n2. 使用Omni提供的拖拽式界面配置代理的行为和动作。\n3. 保存配置并测试代理。\n\n### 3. 运行代理\n\n1. 在代理项目中，点击运行按钮启动代理。\n2. 观察代理的运行状态，确保其按照预期工作。\n3. 如有需要，可以实时调整代理的配置。",
+      "url": "https://www.producthunt.com/products/omni-by-xpander",
+      "status": "dead",
+      "is_violation": false,
+      "id": "omni-by-xpander",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "Clears",
+      "category": "tools",
+      "type": "cloud-paid",
+      "summary": "<p>\n            Move beyond AI coding to Agentic Software De",
+      "tags": [],
+      "scenarios": [],
+      "tutorial": "## 快速上手\n1. 访问官网了解功能与定价。\n2. 按官方文档完成注册与基础配置。\n3. 接入你的数据与场景，跑通第一个自动化任务。",
+      "url": "https://www.producthunt.com/products/clears",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clears",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "Replay QA for Teams",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动化测试，加速团队验证速度",
+      "tags": [
+        "自动化测试",
+        "团队协作",
+        "质量保证"
+      ],
+      "scenarios": [
+        "软件测试",
+        "团队协作",
+        "产品迭代"
+      ],
+      "tutorial": "## 使用Replay QA for Teams进行自动化测试\n\n1. 注册并登录Replay QA for Teams平台。\n2. 创建一个新的测试项目，并选择要测试的网页或应用。\n3. 使用Replay浏览器插件录制测试脚本，包括用户操作和验证步骤。\n4. 保存并运行测试脚本，查看测试结果。\n5. 根据测试结果进行调试和优化。\n\n## 小节标题\n\n1. 创建测试项目\n2. 录制测试脚本\n3. 运行测试\n4. 分析结果",
+      "url": "https://www.producthunt.com/products/replayio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "replay-qa-for-teams",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "TinyFish",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的网页操作层",
+      "tags": [
+        "AI代理",
+        "网页操作",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## TinyFish 使用教程\n\n### 1. 安装TinyFish\n\n- 访问TinyFish官网下载最新版本。\n- 根据操作系统选择合适的安装包进行安装。\n\n### 2. 创建新项目\n\n- 打开TinyFish，点击“新建项目”按钮。\n- 输入项目名称，选择项目类型，点击“创建”。\n\n### 3. 编写脚本\n\n- 在项目编辑器中，使用可视化界面拖拽组件来构建脚本。\n- 可以选择各种组件，如点击、输入、等待等。\n\n### 4. 运行脚本\n\n- 点击“运行”按钮，TinyFish将按照脚本执行网页操作。\n- 观察运行结果，确保脚本按预期工作。\n\n### 5. 保存与分享\n\n- 完成脚本后，可以将其保存到本地或分享给他人。",
+      "url": "https://www.producthunt.com/products/tinyfish-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tinyfish",
+      "added": "2026-08-18"
+    },
+    {
+      "name": "Blender Agent Bridge",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Blender AI 工作流开源连接器",
+      "tags": [
+        "Blender",
+        "AI",
+        "工作流",
+        "连接器"
+      ],
+      "scenarios": [
+        "3D 设计自动化",
+        "动画制作辅助",
+        "AI 工作流集成"
+      ],
+      "tutorial": "## Blender Agent Bridge 使用教程\n\n### 1. 安装 Blender Agent Bridge\n\n1. 访问 [Blender Agent Bridge GitHub 仓库](https://github.com/your-username/Blender-Agent-Bridge)\n2. 下载并安装最新版本的 Blender Agent Bridge\n3. 在 Blender 中启用插件\n\n### 2. 配置 Blender Agent\n\n1. 打开 Blender 并创建一个新项目\n2. 在插件菜单中找到 Blender Agent Bridge 并配置相关参数\n3. 设置好代理后，可以开始使用 AI 工作流\n\n### 3. 创建 AI 工作流\n\n1. 在 Blender 中创建所需的 3D 对象和场景\n2. 使用 Blender Agent Bridge 提供的 AI 工具进行操作\n3. 观察并调整 AI 工作流的结果\n\n### 4. 导出结果\n\n1. 完成工作流后，导出所需的文件格式\n2. 检查结果是否符合预期\n3. 保存并分享你的作品",
+      "url": "https://www.producthunt.com/products/blender-agent-bridge",
+      "status": "dead",
+      "is_violation": false,
+      "id": "blender-agent-bridge",
+      "added": "2026-08-18"
     }
   ],
   "changelog": [
@@ -1608,6 +1783,21 @@
         "Ezri-AI-Agent",
         "HarnessRouter Community Edition",
         "Chert"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 4 篇"
+    },
+    {
+      "date": "2026-08-18",
+      "added": [
+        "MoneyPrinterTurbo",
+        "ai-memory",
+        "Anthropic-Cybersecurity-Skills",
+        "Omni by xpander",
+        "Clears",
+        "Replay QA for Teams",
+        "TinyFish",
+        "Blender Agent Bridge"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 4 篇"

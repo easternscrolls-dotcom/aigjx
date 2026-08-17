@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:02:49.755Z",
+  "generatedAt": "2026-08-17T19:20:56.364Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -376,6 +376,46 @@
       "url": "https://aiagent.72tool.com/tools/chert.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/moneyprinterturbo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-memory.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/anthropic-cybersecurity-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/omni-by-xpander.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clears.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/replay-qa-for-teams.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tinyfish.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/blender-agent-bridge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -406,7 +446,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 68,
+    "totalAgents": 76,
     "byCategory": [
       {
         "id": "local",
@@ -416,7 +456,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 38
+        "count": 45
       },
       {
         "id": "workflow",
@@ -431,9 +471,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 7
+        "count": 8
       }
     ],
-    "deadLinks": 19
+    "deadLinks": 24
   }
 }
