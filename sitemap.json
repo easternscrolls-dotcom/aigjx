@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T19:20:56.364Z",
+  "generatedAt": "2026-08-18T19:22:42.922Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -416,6 +416,86 @@
       "url": "https://aiagent.72tool.com/tools/blender-agent-bridge.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/munder-difflin.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openviking.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-agent-book.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/smart-query-routing-email-automation-system.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/workflow-save-tospace.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sign-language-ai-copilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/buscador-ventas-agentes.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/controller-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/meterless-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/salem-robotics.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gauge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/crewtower.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/open-index.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/shepherd-terminal.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/superflow-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/elevenlabs-mcp-in-claude.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -446,22 +526,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 76,
+    "totalAgents": 92,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 10
+        "count": 13
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 45
+        "count": 57
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 8
+        "count": 9
       },
       {
         "id": "crossborder",
@@ -474,6 +554,6 @@
         "count": 8
       }
     ],
-    "deadLinks": 24
+    "deadLinks": 33
   }
 }

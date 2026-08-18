@@ -65,7 +65,8 @@
       ],
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## AutoGPT 使用教程\n\n### 小节标题：安装与启动\n\n1. 下载 AutoGPT 的源代码，可以从 GitHub 仓库获取。\n2. 解压下载的文件，进入项目目录。\n3. 打开终端，运行 `pip install -r requirements.txt` 命令，安装项目所需的依赖库。\n4. 运行 `python main.py` 命令，启动 AutoGPT。\n\n### 小节标题：设置目标\n\n1. 在启动 AutoGPT 后，输入你的目标指令，例如：“帮我整理明天会议的资料”。\n2. 系统会自动将目标拆解为多个任务。\n3. 检查拆解的任务是否满足你的需求，如果不满意可以重新输入目标指令。\n\n### 小节标题：任务执行\n\n1. AutoGPT 会根据拆解的任务自动执行相应的操作。\n2. 观察终端输出，了解任务执行进度。\n3. 如果任务执行过程中遇到问题，可以查看终端输出，了解错误信息。\n\n### 小节标题：结果反馈\n\n1. 任务执行完成后，AutoGPT 会将结果展示在终端。\n2. 检查结果是否符合预期，如果满意可以继续使用 AutoGPT，如果不满意可以重新设置目标或修改任务。\n3. 如果需要保存结果，可以将输出内容复制到文本文件中。"
     },
     {
       "id": "qwen-agent",
@@ -210,7 +211,8 @@
       ],
       "url": "https://github.com/OpenManus/OpenManus",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## OpenManus 使用教程\n\n### 小节标题：安装与启动\n\n1. 下载 OpenManus 的安装包，解压到本地目录。\n2. 打开终端，进入 OpenManus 的安装目录。\n3. 运行 `./start.sh` 命令，启动 OpenManus。\n\n### 小节标题：基本操作\n\n1. 在 OpenManus 的控制台中输入 `help`，查看可用的命令。\n2. 使用 `open` 命令打开浏览器，例如 `open https://www.example.com`。\n3. 使用 `back` 和 `forward` 命令在浏览器中后退和前进。\n4. 使用 `type` 命令在浏览器中输入文本，例如 `type \"Hello, World!\"`。\n\n### 小节标题：任务执行\n\n1. 使用 `task` 命令创建任务，例如 `task \"打开网页并查找信息\"`。\n2. 使用 `run` 命令执行任务，例如 `run 1`。\n3. 观察控制台输出，了解任务执行情况。\n\n### 小节标题：高级功能\n\n1. 使用 `set` 命令设置 OpenManus 的配置，例如 `set language zh` 设置语言为中文。\n2. 使用 `script` 命令运行脚本，例如 `script my_script.js`。\n3. 使用 `log` 命令查看日志信息，例如 `log -l info` 查看信息级别的日志。"
     },
     {
       "id": "autogen",
@@ -354,7 +356,8 @@
       ],
       "url": "https://godmode.space/",
       "status": "dead",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## Godmode 使用教程\n\n### 小节一：账户注册与登录\n\n1. 访问 Godmode 官方网站，点击“注册”按钮。\n2. 填写注册信息，包括邮箱和密码，点击“注册”完成注册。\n3. 收到注册邮件后，点击邮件中的链接激活账户。\n4. 返回 Godmode 网站，使用邮箱和密码登录。\n\n### 小节二：创建新沙盒\n\n1. 登录后，点击页面右上角的“新建沙盒”按钮。\n2. 输入沙盒名称，选择浏览器类型（如 Chrome、Firefox 等）。\n3. 设置沙盒的权限，如允许访问本地文件、网络等。\n4. 点击“创建”按钮，完成沙盒创建。\n\n### 小节三：编写 Agent 脚本\n\n1. 在沙盒编辑器中，点击“新建脚本”按钮。\n2. 选择脚本语言（如 JavaScript、Python 等）。\n3. 编写 Agent 脚本，实现所需功能（如网页抓取、数据提取等）。\n4. 保存脚本，并设置脚本运行条件（如定时执行、触发条件等）。\n\n### 小节四：运行与监控\n\n1. 点击沙盒页面上的“运行”按钮，启动 Agent 脚本。\n2. 观察沙盒运行状态，包括脚本执行进度、错误信息等。\n3. 沙盒运行完成后，查看结果数据，如网页截图、提取信息等。\n4. 如需修改脚本，返回编辑器进行修改，再次运行沙盒。"
     },
     {
       "id": "n8n",
@@ -499,7 +502,8 @@
       ],
       "url": "https://creatify.ai/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## Creatify 使用教程\n\n## 小节标题：注册与登录\n1. 访问 Creatify 官网，点击“注册”按钮。\n2. 输入邮箱地址，设置密码，完成验证码验证。\n3. 登录账号，进入 Creatify 主界面。\n\n## 小节标题：上传产品链接\n1. 在主界面找到“上传产品”区域。\n2. 输入产品链接，点击“生成视频”按钮。\n3. 系统自动抓取产品信息，生成短视频素材。\n\n## 小节标题：编辑与导出\n1. 观察生成的短视频素材，根据需求进行编辑。\n2. 点击“编辑”按钮，调整视频时长、音乐、字幕等。\n3. 编辑完成后，点击“导出”按钮，选择导出格式和分辨率。\n4. 下载并保存编辑后的短视频素材。\n\n## 小节标题：分享与推广\n1. 将导出的短视频素材上传至 TikTok、Instagram 等社交媒体平台。\n2. 根据平台规则，添加产品描述、标签等信息。\n3. 分享视频，吸引潜在客户关注，助力跨境业务拓展。"
     },
     {
       "id": "heygen",
@@ -644,7 +648,8 @@
       ],
       "url": "https://openrouter.ai/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## OpenRouter 使用教程\n\n### 小节标题：快速上手 OpenRouter\n\n1. **注册账号**\n   - 访问 OpenRouter 官网，点击“注册”按钮。\n   - 填写注册信息，包括邮箱、密码等，完成注册。\n\n2. **创建项目**\n   - 登录 OpenRouter 后，点击“创建项目”。\n   - 输入项目名称，选择合适的计费模式，点击“创建”。\n\n3. **获取API密钥**\n   - 在项目详情页中，找到“API密钥”部分。\n   - 复制生成的API密钥，用于后续调用。\n\n### 小节标题：调用模型\n\n1. **选择模型**\n   - 在项目页面，点击“模型列表”。\n   - 查找所需模型，点击“使用”。\n\n2. **配置参数**\n   - 根据模型需求，配置输入参数。\n   - 可选参数可根据需要调整。\n\n3. **发送请求**\n   - 点击“发送请求”按钮。\n   - 系统将自动处理请求，并返回结果。\n\n### 小节标题：查看和管理调用记录\n\n1. **访问调用记录**\n   - 在项目页面，点击“调用记录”。\n   - 查看所有调用记录。\n\n2. **筛选记录**\n   - 使用筛选功能，按时间、模型、状态等条件筛选记录。\n\n3. **导出数据**\n   - 选择需要导出的记录，点击“导出”按钮。\n   - 下载导出的数据文件。"
     },
     {
       "id": "siliconflow",
@@ -1676,6 +1681,363 @@
       "is_violation": false,
       "id": "blender-agent-bridge",
       "added": "2026-08-18"
+    },
+    {
+      "name": "munder-difflin",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地多智能体集成工具",
+      "tags": [
+        "智能体",
+        "集成",
+        "本地部署"
+      ],
+      "scenarios": [
+        "智能体协同开发",
+        "本地系统集成"
+      ],
+      "tutorial": "## Munder-Difflin 使用教程\n\n### 1. 安装环境\n\n1. 确保你的系统满足 Munder-Difflin 的运行环境要求。\n2. 下载源代码并解压到本地目录。\n3. 安装依赖库，如 Python 的相关库。\n\n### 2. 配置智能体\n\n1. 在配置文件中定义智能体的属性和行为。\n2. 根据需求调整智能体的参数设置。\n3. 启动智能体，开始协同工作。\n\n### 3. 集成智能体\n\n1. 将智能体集成到你的本地系统中。\n2. 通过 API 或命令行与智能体交互。\n3. 监控智能体的运行状态，确保系统稳定运行。\n\n### 4. 调试与优化\n\n1. 对智能体进行调试，确保其按预期工作。\n2. 根据反馈调整智能体的行为和参数。\n3. 优化智能体的性能，提高系统效率。",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "status": "active",
+      "is_violation": false,
+      "id": "munder-difflin",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "OpenViking",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理自进化上下文数据库，统一代理记忆、知识 RAG 和技能。",
+      "tags": [
+        "AI 代理",
+        "数据库",
+        "知识图谱",
+        "技能学习"
+      ],
+      "scenarios": [
+        "智能客服",
+        "数据分析",
+        "知识管理"
+      ],
+      "tutorial": "## OpenViking 使用教程\n\n1. 下载与安装\n   - 访问 OpenViking 的 GitHub 仓库，下载最新版本的安装包。\n   - 根据系统环境选择合适的安装方式，进行安装。\n\n2. 数据准备\n   - 准备需要存储的数据，包括文本、图片、音频等。\n   - 将数据格式化为 OpenViking 所支持的格式，如 JSON、CSV 等。\n\n3. 数据导入\n   - 打开 OpenViking，选择数据导入功能。\n   - 选择已准备好的数据文件，进行导入。\n\n4. 模型训练\n   - 根据需求选择合适的模型进行训练。\n   - 设置训练参数，如学习率、迭代次数等。\n\n5. 模型应用\n   - 将训练好的模型应用于实际场景。\n   - 监控模型性能，进行调优。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "status": "active",
+      "is_violation": false,
+      "id": "openviking",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "ai-agent-book",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地开源框架，深入理解AI Agent设计原理与工程实践。",
+      "tags": [
+        "AI Agent",
+        "设计原理",
+        "工程实践",
+        "开源"
+      ],
+      "scenarios": [
+        "AI Agent开发",
+        "机器学习研究",
+        "数据科学"
+      ],
+      "tutorial": "## 使用ai-agent-book进行AI Agent学习\n1. 访问GitHub仓库：[ai-agent-book](https://github.com/)\n2. 下载全书正文、编译版PDF和代码\n3. 阅读全书正文，理解AI Agent的基本概念和设计原理\n4. 运行配套代码，实践AI Agent的工程应用\n5. 参与社区讨论，交流学习心得",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "status": "active",
+      "is_violation": false,
+      "id": "ai-agent-book",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Smart-Query-Routing-Email-Automation-System",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能邮件路由自动化系统，自动处理邮件。",
+      "tags": [
+        "邮件自动化",
+        "路由",
+        "智能处理"
+      ],
+      "scenarios": [
+        "企业邮件管理",
+        "客服自动化",
+        "邮件营销"
+      ],
+      "tutorial": "## Smart-Query-Routing-Email-Automation-System 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Smart-Query-Routing-Email-Automation-System 官网，注册账号并登录。\n2. 阅读并同意服务条款。\n\n### 2. 配置邮箱\n\n1. 在设置页面，添加您的邮箱账户。\n2. 输入邮箱地址和密码，点击验证。\n3. 等待系统验证邮箱并完成配置。\n\n### 3. 设置路由规则\n\n1. 在路由规则页面，创建新的规则。\n2. 选择邮件到达后的处理方式，如自动回复、转发等。\n3. 设置触发条件，如特定关键词、发件人等。\n\n### 4. 检查与测试\n\n1. 发送测试邮件到您的邮箱，检查自动化流程是否正常。\n2. 根据测试结果调整设置，确保邮件处理无误。",
+      "url": "https://huggingface.co/spaces/Noor2623/Smart-Query-Routing-Email-Automation-System",
+      "status": "active",
+      "is_violation": false,
+      "id": "smart-query-routing-email-automation-system",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "workflow-save-tospace",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "云端工作流保存至时空",
+      "tags": [
+        "工作流",
+        "云端存储",
+        "时空数据"
+      ],
+      "scenarios": [
+        "企业数据管理",
+        "历史数据备份",
+        "数据归档"
+      ],
+      "tutorial": "## 工作流保存至时空教程\n\n1. 登录时空数据平台\n   - 使用您的账号密码登录时空数据平台。\n\n2. 创建工作流\n   - 在平台中创建一个新的工作流，配置所需参数。\n\n3. 保存工作流\n   - 完成工作流配置后，点击保存按钮。\n\n4. 选择保存至时空\n   - 在保存选项中，选择保存至时空数据服务。\n\n5. 设置保存策略\n   - 配置数据保存的时间范围和频率。\n\n6. 确认保存\n   - 检查设置无误后，确认保存工作流至时空数据服务。",
+      "url": "https://huggingface.co/spaces/hmb/workflow-save-tospace",
+      "status": "active",
+      "is_violation": false,
+      "id": "workflow-save-tospace",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "sign-language-ai-copilot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助手语翻译浏览器插件",
+      "tags": [
+        "手语翻译",
+        "AI 辅助",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "在线教育",
+        "跨文化交流",
+        "辅助沟通"
+      ],
+      "tutorial": "## 使用指南\n\n1. 下载与安装\n   - 访问 [sign-language-ai-copilot 官网](https://www.sign-language-ai-copilot.com) 下载插件。\n   - 打开浏览器，进入插件设置，安装下载的插件。\n\n2. 配置插件\n   - 安装后，在浏览器扩展设置中找到 sign-language-ai-copilot 插件。\n   - 配置语言设置，选择需要翻译的手语语言。\n\n3. 使用插件\n   - 访问包含手语视频的网页。\n   - 插件会自动识别手语并实时翻译成所选语言。\n\n4. 调整设置\n   - 如有需要，可以调整插件的其他设置，如字体大小、翻译速度等。",
+      "url": "https://huggingface.co/spaces/har99/sign-language-ai-copilot",
+      "status": "active",
+      "is_violation": false,
+      "id": "sign-language-ai-copilot",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "BUSCADOR_VENTAS_AGENTES",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "电商数据分析",
+        "市场调研",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 BUSCADOR_VENTAS_AGENTES 进行网页自动化\n\n### 1. 安装与配置\n\n1. 下载并安装 BUSCADOR_VENTAS_AGENTES。\n2. 打开软件，进行必要的配置，如设置代理、选择目标网页等。\n\n### 2. 编写自动化脚本\n\n1. 在脚本编辑器中，使用提供的脚本语言编写自动化操作步骤。\n2. 可以设置条件判断、循环等逻辑，实现复杂操作。\n\n### 3. 运行与调试\n\n1. 运行脚本，观察自动化操作是否按预期执行。\n2. 如有错误，进行调试，修改脚本直至正确执行。\n\n### 4. 保存与分享\n\n1. 保存自动化脚本，以便后续使用。\n2. 可将脚本分享给其他用户，实现团队协作。",
+      "url": "https://huggingface.co/spaces/OBAMACARE2026/BUSCADOR_VENTAS_AGENTES",
+      "status": "active",
+      "is_violation": false,
+      "id": "buscador-ventas-agentes",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Controller AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建遵循流程的确定性代理",
+      "tags": [
+        "自动化",
+        "流程",
+        "代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Controller AI 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [Controller AI 官网](https://www.producthunt.com/products/insight-ai) 下载最新版本。\n2. 安装完成后，运行 Controller AI 应用程序。\n3. 确保浏览器已安装相应的扩展程序。\n\n### 2. 创建新代理\n\n1. 在 Controller AI 应用中，点击 '新建代理' 按钮。\n2. 输入代理名称和描述，然后点击 '创建'。\n3. 选择目标网页，Controller AI 将自动识别网页元素。\n\n### 3. 编排流程\n\n1. 在代理编辑器中，拖拽网页元素到流程编辑区域。\n2. 设置元素的操作，如点击、输入等。\n3. 保存并测试代理流程。\n\n### 4. 部署与监控\n\n1. 将代理部署到生产环境。\n2. 监控代理运行状态，确保流程按预期执行。",
+      "url": "https://www.producthunt.com/products/insight-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "controller-ai",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Meterless.ai",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地运行AI，掌控整个工作流程",
+      "tags": [
+        "AI本地化",
+        "工作流程",
+        "数据隐私"
+      ],
+      "scenarios": [
+        "企业内部AI应用",
+        "数据科学实验",
+        "个性化服务开发"
+      ],
+      "tutorial": "## Meterless.ai 使用教程\n\n### 1. 安装环境\n\n1. 下载Meterless.ai安装包。\n2. 解压安装包并运行安装脚本。\n3. 根据提示完成安装。\n\n### 2. 创建项目\n\n1. 打开Meterless.ai界面。\n2. 点击创建新项目。\n3. 输入项目名称并选择项目类型。\n\n### 3. 添加模型\n\n1. 在项目中点击添加模型。\n2. 选择合适的AI模型。\n3. 配置模型参数。\n\n### 4. 部署应用\n\n1. 在项目中点击部署。\n2. 选择部署环境。\n3. 配置部署参数。\n4. 部署成功后，即可使用AI模型。",
+      "url": "https://www.producthunt.com/products/meterless-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "meterless-ai",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Salem Robotics",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "部署自主机器人进行巡检和操作任务",
+      "tags": [
+        "机器人",
+        "自动化",
+        "巡检",
+        "操作"
+      ],
+      "scenarios": [
+        "工厂巡检",
+        "仓库管理",
+        "远程操作"
+      ],
+      "tutorial": "## 使用Salem Robotics进行机器人部署\n\n1. 注册并登录Salem Robotics平台\n\n2. 创建新的机器人项目，选择机器人类型和配置参数\n\n3. 编写机器人任务脚本，定义巡检路线和操作步骤\n\n4. 部署机器人到指定环境，开始执行任务\n\n5. 监控机器人运行状态，及时调整任务参数",
+      "url": "https://www.producthunt.com/products/salem-robotics",
+      "status": "dead",
+      "is_violation": false,
+      "id": "salem-robotics",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Gauge",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将Agent嵌入客户代码库，实现代码级跟踪",
+      "tags": [
+        "代码跟踪",
+        "Agent集成",
+        "性能监控"
+      ],
+      "scenarios": [
+        "代码质量监控",
+        "性能分析",
+        "开发流程优化"
+      ],
+      "tutorial": "## Gauge使用教程\n\n### 1. 安装Gauge\n\n首先，您需要在您的开发环境中安装Gauge。您可以通过以下命令进行安装：\n\n```bash\nnpm install -g gauge\n```\n\n### 2. 创建一个新的项目\n\n在您的项目目录下，创建一个新的Gauge项目：\n\n```bash\ngauge init\n```\n\n### 3. 编写测试脚本\n\n在项目目录中，创建一个新的测试文件，例如`test.spec`。在这个文件中，您可以编写测试脚本，使用Gauge提供的API进行测试。\n\n```gherkin\nFeature: Gauge测试示例\n  In order to test my application\n  As a developer\n  I want to use Gauge进行测试\n\n  Scenario: 测试成功\n    Given 测试环境已准备\n    When 执行测试脚本\n    Then 测试通过\n\n  Scenario: 测试失败\n    Given 测试环境已准备\n    When 执行测试脚本\n    Then 测试失败\n```\n\n### 4. 运行测试\n\n在命令行中，运行以下命令来执行测试：\n\n```bash\ngauge run\n```\n\n这将执行所有在`test.spec`文件中定义的测试场景。\n\n### 5. 查看测试结果\n\n测试完成后，您可以在Gauge的报告中查看测试结果，包括通过、失败和跳过的测试数量。",
+      "url": "https://www.producthunt.com/products/gauge",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gauge",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "CrewTower",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器端智能代理控制",
+      "tags": [
+        "代理控制",
+        "自动化操作",
+        "网页自动化"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## 使用CrewTower进行自动化操作\n\n1. 安装CrewTower插件\n\n   在您的浏览器中访问CrewTower官网，按照指示安装相应的插件。\n\n2. 配置代理\n\n   打开CrewTower插件，配置您的代理设置，包括代理服务器地址和端口。\n\n3. 编写自动化脚本\n\n   使用CrewTower提供的脚本编辑器，编写自动化脚本以控制代理。\n\n4. 运行脚本\n\n   点击运行按钮，CrewTower将按照脚本执行操作。\n\n5. 监控和调试\n\n   在脚本运行过程中，您可以实时监控代理的行为，并根据需要进行调试。",
+      "url": "https://www.producthunt.com/products/crew-tower",
+      "status": "dead",
+      "is_violation": false,
+      "id": "crewtower",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Open Index",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建智能代理，使用结构化上下文",
+      "tags": [
+        "智能代理",
+        "结构化上下文",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Open Index 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 Open Index。\n2. 运行 Open Index 应用程序。\n3. 确保浏览器插件已正确安装。\n\n### 2. 创建代理\n\n1. 在 Open Index 中点击 '创建代理'。\n2. 输入代理名称和描述。\n3. 选择目标网页并设置抓取规则。\n\n### 3. 运行代理\n\n1. 点击 '运行' 按钮开始代理任务。\n2. 观察代理运行状态和日志输出。\n3. 代理完成后，下载抓取的数据。\n\n### 4. 数据处理\n\n1. 使用 Open Index 内置工具处理抓取的数据。\n2. 可导出数据到 CSV、JSON 等格式。\n3. 可进行数据清洗和转换。",
+      "url": "https://www.producthunt.com/products/open-brain",
+      "status": "dead",
+      "is_violation": false,
+      "id": "open-index",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Shepherd Terminal",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为 Codex 和 Claude 提供侧边栏持久终端",
+      "tags": [
+        "终端",
+        "Codex",
+        "Claude",
+        "侧边栏"
+      ],
+      "scenarios": [
+        "AI 辅助开发",
+        "多任务处理",
+        "代码调试"
+      ],
+      "tutorial": "## Shepherd Terminal 使用教程\n\n1. 下载并安装 Shepherd Terminal。\n2. 打开 Shepherd Terminal，选择 Codex 或 Claude 作为左侧终端。\n3. 在左侧终端中输入命令或代码，右侧终端将显示结果。\n4. 使用侧边栏同时查看和操作 Codex 和 Claude。\n5. 保存你的工作，以便下次使用。",
+      "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
+      "status": "dead",
+      "is_violation": false,
+      "id": "shepherd-terminal",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "Superflow AI",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理检测网站发布前的问题",
+      "tags": [
+        "AI",
+        "网站检测",
+        "自动化"
+      ],
+      "scenarios": [
+        "网站发布前测试",
+        "用户体验优化",
+        "质量保证"
+      ],
+      "tutorial": "## Superflow AI 使用教程\n\n### 1. 安装插件\n\n1. 访问 Superflow AI 官网，下载并安装 Webflow 插件。\n2. 登录你的 Webflow 账户，进入网站编辑模式。\n3. 在左侧菜单栏找到 Superflow AI 插件并安装。\n\n### 2. 配置检测设置\n\n1. 安装插件后，点击插件图标进入设置页面。\n2. 根据需要配置检测规则和参数，例如检测类型、检测频率等。\n3. 保存设置。\n\n### 3. 开始检测\n\n1. 返回网站编辑模式，Superflow AI 将自动开始检测。\n2. 检测完成后，插件会显示检测结果和问题列表。\n3. 根据检测结果进行修改和优化。\n\n### 4. 持续监控\n\n1. Superflow AI 会持续监控网站，并在发现问题时及时通知。\n2. 定期检查检测结果，确保网站质量。",
+      "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
+      "status": "dead",
+      "is_violation": false,
+      "id": "superflow-ai",
+      "added": "2026-08-19"
+    },
+    {
+      "name": "ElevenLabs MCP in Claude",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "创建和管理ElevenLabs语音代理，实现聊天自动化",
+      "tags": [
+        "语音代理",
+        "聊天自动化",
+        "ElevenLabs",
+        "语音合成"
+      ],
+      "scenarios": [
+        "在线客服",
+        "聊天机器人",
+        "虚拟助手"
+      ],
+      "tutorial": "## 使用ElevenLabs MCP in Claude教程\n\n### 1. 注册ElevenLabs账户\n\n1. 访问ElevenLabs官网，注册一个账户。\n2. 完成注册流程，获取API密钥。\n\n### 2. 创建语音代理\n\n1. 登录ElevenLabs账户，进入MCP管理界面。\n2. 点击创建新的语音代理，选择ElevenLabs模型。\n3. 配置代理参数，如语言、声音等。\n\n### 3. 集成到聊天应用\n\n1. 在聊天应用中，调用ElevenLabs API。\n2. 使用创建的语音代理进行语音合成。\n3. 将合成的语音发送给用户。\n\n### 4. 测试与优化\n\n1. 在聊天应用中测试语音代理的功能。\n2. 根据反馈调整代理参数，优化语音质量。",
+      "url": "https://www.producthunt.com/products/elevenlabs-mcp-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "elevenlabs-mcp-in-claude",
+      "added": "2026-08-19"
     }
   ],
   "changelog": [
@@ -1801,6 +2163,29 @@
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 4 篇"
+    },
+    {
+      "date": "2026-08-19",
+      "added": [
+        "munder-difflin",
+        "OpenViking",
+        "ai-agent-book",
+        "Smart-Query-Routing-Email-Automation-System",
+        "workflow-save-tospace",
+        "sign-language-ai-copilot",
+        "BUSCADOR_VENTAS_AGENTES",
+        "Controller AI",
+        "Meterless.ai",
+        "Salem Robotics",
+        "Gauge",
+        "CrewTower",
+        "Open Index",
+        "Shepherd Terminal",
+        "Superflow AI",
+        "ElevenLabs MCP in Claude"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
     }
   ]
 }
