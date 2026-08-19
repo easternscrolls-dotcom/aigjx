@@ -60,19 +60,32 @@
 
       <section class="block">
         <h2>使用教程</h2>
-        <h3>这个工具能做什么</h3>
-<p>微软开源的多 Agent 对话框架，支持 Agent 间协作与人工介入的自动化。</p>
-<h3>适合谁用</h3>
-<p>如果你正在寻找「本地开源 Agent 框架」类的自动化方案，Microsoft AutoGen 值得一试；常见场景包括：研究实验、多Agent协作、本地运行。</p>
-<h3>快速上手步骤</h3>
+        <h3>Microsoft AutoGen 使用教程</h3>
+<p>### 小节标题：安装与配置</p>
 <ol>
-<li>打开官网 https://github.com/microsoft/autogen，注册账号或克隆仓库（开源类可本地部署）。</li>
-<li>阅读官方文档，完成基础配置（API Key / 环境变量 / 工作流节点）。</li>
-<li>按你的业务场景接入数据源或外部 API，跑通第一个自动化任务。</li>
-<li>结合下方「同类 Agent 推荐」横向对比，挑选最契合你需求的方案。</li>
+<li>访问 [Microsoft AutoGen 官方网站](https://github.com/microsoft/AutoGen) 下载最新版本的 AutoGen。</li>
+<li>解压下载的压缩包到本地目录。</li>
+<li>打开命令行工具，切换到 AutoGen 解压后的目录。</li>
+<li>运行 `pip install -r requirements.txt` 命令安装依赖包。</li>
 </ol>
-<h3>小提示</h3>
-<p>本站对所有收录工具做统一标签（开源免费 / 云端付费 / 本地离线）与部署难度标注，对比选型更省心。</p>
+<p>### 小节标题：创建新项目</p>
+<ol>
+<li>在命令行中，运行 `autogen create &lt;项目名称&gt;` 命令创建新项目。</li>
+<li>选择项目类型，例如“多Agent对话”或“可介入”。</li>
+<li>根据提示输入项目相关信息，如项目描述、版本号等。</li>
+</ol>
+<p>### 小节标题：编写代码</p>
+<ol>
+<li>在项目目录中，找到 `src` 文件夹，这是编写代码的地方。</li>
+<li>使用 Python 编写 Agent 的代码，包括 Agent 的行为、状态和消息处理。</li>
+<li>在 `config` 文件夹中，配置 Agent 之间的交互和人工介入规则。</li>
+</ol>
+<p>### 小节标题：运行与调试</p>
+<ol>
+<li>在命令行中，运行 `autogen run` 命令启动项目。</li>
+<li>观察 Agent 之间的交互和人工介入过程，确保一切正常。</li>
+<li>如有错误，查看日志文件 `logs` 中的错误信息，进行调试和修复。</li>
+</ol>
       </section>
 
       <section class="block">

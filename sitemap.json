@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:22:42.922Z",
+  "generatedAt": "2026-08-19T19:17:07.635Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -496,6 +496,76 @@
       "url": "https://aiagent.72tool.com/tools/elevenlabs-mcp-in-claude.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/superpowers.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/chat-ui-agent-demo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/telecom-egypt-agentic-rag-system.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/omnivibe.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/astute.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/origin-by-cursor.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hosted-agents-in-cluing.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sider-6-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cronloop-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/balsa-ui.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clipto-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentr-3-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/zyntax-ide.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/anycreature-by-gobkit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -526,7 +596,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 92,
+    "totalAgents": 106,
     "byCategory": [
       {
         "id": "local",
@@ -536,17 +606,17 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 57
+        "count": 68
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 9
+        "count": 11
       },
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 5
+        "count": 6
       },
       {
         "id": "tools",
@@ -554,6 +624,6 @@
         "count": 8
       }
     ],
-    "deadLinks": 33
+    "deadLinks": 44
   }
 }

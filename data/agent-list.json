@@ -86,7 +86,8 @@
       ],
       "url": "https://github.com/QwenLM/Qwen-Agent",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## Qwen Agent 快速上手\n\n### 1. 安装与配置\n\n1. 下载 Qwen Agent 的安装包，解压到本地目录。\n2. 打开终端，进入 Qwen Agent 的安装目录。\n3. 运行 `./install.sh` 命令进行安装。\n4. 安装完成后，根据提示配置环境变量。\n\n### 2. 创建项目\n\n1. 打开终端，进入 Qwen Agent 的安装目录。\n2. 运行 `qwen-agent init` 命令创建新项目。\n3. 输入项目名称，按回车键确认。\n4. 根据提示配置项目参数，如项目描述、版本等。\n\n### 3. 编写代码\n\n1. 进入项目目录，使用代码编辑器打开 `main.py` 文件。\n2. 根据需求编写代码，调用内置工具或实现自定义功能。\n3. 保存文件，返回终端。\n\n### 4. 运行项目\n\n1. 在终端中，进入项目目录。\n2. 运行 `qwen-agent run` 命令启动项目。\n3. 观察终端输出，确认项目运行正常。\n4. 若需要停止项目，按 `Ctrl + C` 组合键。"
     },
     {
       "id": "dify",
@@ -232,7 +233,8 @@
       ],
       "url": "https://github.com/microsoft/autogen",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## Microsoft AutoGen 使用教程\n\n### 小节标题：安装与配置\n\n1. 访问 [Microsoft AutoGen 官方网站](https://github.com/microsoft/AutoGen) 下载最新版本的 AutoGen。\n2. 解压下载的压缩包到本地目录。\n3. 打开命令行工具，切换到 AutoGen 解压后的目录。\n4. 运行 `pip install -r requirements.txt` 命令安装依赖包。\n\n### 小节标题：创建新项目\n\n1. 在命令行中，运行 `autogen create <项目名称>` 命令创建新项目。\n2. 选择项目类型，例如“多Agent对话”或“可介入”。\n3. 根据提示输入项目相关信息，如项目描述、版本号等。\n\n### 小节标题：编写代码\n\n1. 在项目目录中，找到 `src` 文件夹，这是编写代码的地方。\n2. 使用 Python 编写 Agent 的代码，包括 Agent 的行为、状态和消息处理。\n3. 在 `config` 文件夹中，配置 Agent 之间的交互和人工介入规则。\n\n### 小节标题：运行与调试\n\n1. 在命令行中，运行 `autogen run` 命令启动项目。\n2. 观察 Agent 之间的交互和人工介入过程，确保一切正常。\n3. 如有错误，查看日志文件 `logs` 中的错误信息，进行调试和修复。"
     },
     {
       "id": "browser-use",
@@ -377,7 +379,8 @@
       ],
       "url": "https://n8n.io/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## n8n 使用教程\n\n### 小节标题：准备工作\n\n1. 访问 n8n 官网（[https://www.n8n.io/](https://www.n8n.io/)），下载并安装 n8n。\n2. 打开 n8n，创建一个新的工作空间。\n3. 配置工作空间的连接，包括 API 密钥、数据库等。\n\n### 小节标题：创建工作流\n\n1. 在工作空间中，点击“创建工作流”按钮。\n2. 从左侧节点库中选择所需的节点，如 HTTP 节点、数据库节点等。\n3. 将选中的节点拖拽到工作流画布上。\n4. 双击节点，配置其参数，如 URL、请求方法等。\n\n### 小节标题：连接节点\n\n1. 将节点按照工作流逻辑连接起来，使用鼠标左键点击一个节点的输出端口，然后拖拽到下一个节点的输入端口。\n2. 可以使用条件节点来实现分支逻辑，根据条件判断执行不同的节点。\n3. 保存工作流。\n\n### 小节标题：运行与监控\n\n1. 点击工作流画布右上角的“运行”按钮，启动工作流。\n2. 观察工作流运行状态，包括节点执行成功、失败等信息。\n3. 如果需要，可以暂停或停止工作流。\n4. 定期检查工作流运行情况，确保工作流按预期执行。"
     },
     {
       "id": "zapier",
@@ -523,7 +526,8 @@
       ],
       "url": "https://www.heygen.com/",
       "status": "active",
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "tutorial": "## HeyGen 使用教程\n\n### 小节标题：账户注册与登录\n\n1. 访问 HeyGen 官网，点击“注册”按钮。\n2. 填写注册信息，包括邮箱、密码等，并勾选同意服务条款。\n3. 点击“注册”按钮，完成注册。\n4. 使用邮箱或手机号登录 HeyGen 平台。\n\n### 小节标题：创建数字人\n\n1. 登录后，点击左侧菜单栏的“数字人”选项。\n2. 点击“创建数字人”按钮，选择数字人模板或自定义创建。\n3. 根据提示填写数字人名称、性别、语言等基本信息。\n4. 选择数字人形象，包括发型、服装等。\n5. 点击“保存”按钮，完成数字人创建。\n\n### 小节标题：制作视频内容\n\n1. 在数字人列表中，选择已创建的数字人。\n2. 点击“制作视频”按钮，进入视频制作界面。\n3. 选择视频类型，如产品介绍、教程等。\n4. 添加文本内容，数字人将根据文本内容进行口播。\n5. 调整视频时长、背景音乐等参数。\n6. 点击“生成视频”按钮，等待视频制作完成。\n\n### 小节标题：下载与分享\n\n1. 视频制作完成后，点击“下载”按钮，选择视频格式和分辨率。\n2. 下载完成后，可点击“分享”按钮，将视频分享至社交媒体或发送给他人。\n3. 如需进一步编辑视频，可使用 HeyGen 提供的视频编辑工具。"
     },
     {
       "id": "kua-ai",
@@ -669,7 +673,8 @@
       ],
       "url": "https://siliconflow.cn/",
       "status": "active",
-      "added": "2026-08-13"
+      "added": "2026-08-13",
+      "tutorial": "## 硅基流动 SiliconFlow 使用教程\n\n### 小节标题：快速注册与登录\n\n1. 访问硅基流动官网（https://www.siliconflow.com/），点击“注册”按钮。\n2. 填写注册信息，包括邮箱、密码等，并同意服务条款。\n3. 激活邮箱中的验证链接，完成注册。\n4. 使用注册的邮箱和密码登录硅基流动平台。\n\n### 小节标题：选择模型与配置\n\n1. 登录后，进入模型选择页面。\n2. 在模型列表中找到 Qwen 或 DeepSeek 模型。\n3. 点击模型名称，进入模型详情页面。\n4. 根据需求配置模型参数，如请求频率、并发数等。\n\n### 小节标题：发起请求与获取结果\n\n1. 在模型详情页面，点击“发起请求”按钮。\n2. 输入请求内容，如问题、指令等。\n3. 点击“提交”按钮，等待模型处理。\n4. 查看处理结果，可复制或下载。\n\n### 小节标题：管理与应用\n\n1. 在个人中心，查看模型使用记录和余额。\n2. 可根据需求调整模型配置，优化使用体验。\n3. 如有更多需求，可联系客服获取帮助。"
     },
     {
       "id": "apify",
@@ -2038,6 +2043,320 @@
       "is_violation": false,
       "id": "elevenlabs-mcp-in-claude",
       "added": "2026-08-19"
+    },
+    {
+      "name": "superpowers",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## Superpowers 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [Superpowers 官网](https://superpowers.io/) 下载最新版本。\n2. 安装完成后，双击启动程序。\n3. 在欢迎界面选择 'New Project' 创建新项目。\n\n### 2. 创建自动化脚本\n\n1. 在左侧菜单选择 'New Action' 创建新操作。\n2. 选择 'Click' 操作，设置点击目标元素。\n3. 选择 'Wait' 操作，设置等待时间。\n\n### 3. 运行与调试\n\n1. 点击 'Run' 按钮运行脚本。\n2. 观察脚本执行过程，如有错误，可在控制台查看错误信息。\n3. 根据错误信息调整脚本。\n\n### 4. 保存与分享\n\n1. 完成脚本后，点击 'Save' 保存项目。\n2. 可以将项目分享给他人或上传到云端。",
+      "url": "https://github.com/obra/superpowers",
+      "status": "active",
+      "is_violation": false,
+      "id": "superpowers",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "chat-ui-agent-demo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于 Chat UI 的浏览器网页 Agent，实现网页交互与数据采集。",
+      "tags": [
+        "Chat UI",
+        "网页交互",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据抓取",
+        "用户界面自动化"
+      ],
+      "tutorial": "## 使用 Chat UI Agent 进行网页交互\n\n1. **安装 Agent**\n   - 下载并安装 Chat UI Agent。\n\n2. **配置网页元素**\n   - 在网页上定位目标元素，如按钮、输入框等。\n\n3. **编写交互脚本**\n   - 使用自然语言描述交互步骤，如点击按钮、输入文本等。\n\n4. **运行脚本**\n   - 运行脚本，观察 Agent 的交互过程。\n\n5. **结果验证**\n   - 验证交互结果是否符合预期。",
+      "url": "https://huggingface.co/spaces/Mike0021/chat-ui-agent-demo",
+      "status": "active",
+      "is_violation": false,
+      "id": "chat-ui-agent-demo",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Telecom_Egypt_Agentic_RAG_System",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "埃及电信代理RAG系统，跨境商用服务",
+      "tags": [
+        "埃及电信",
+        "代理服务",
+        "RAG系统",
+        "跨境业务"
+      ],
+      "scenarios": [
+        "跨境电商客服",
+        "多语言支持",
+        "邮件自动回复"
+      ],
+      "tutorial": "## 使用Telecom_Egypt_Agentic_RAG_System教程\n\n### 1. 注册与登录\n\n1. 访问埃及电信官方网站，注册账号。\n2. 使用注册的账号登录系统。\n3. 完成初始设置，包括语言偏好和业务权限。\n\n### 2. 创建代理账户\n\n1. 在系统内创建新的代理账户。\n2. 设置代理的权限和功能。\n3. 分配相应的资源和服务。\n\n### 3. 配置多语言支持\n\n1. 在系统设置中启用多语言功能。\n2. 选择支持的语言列表。\n3. 配置语言切换逻辑。\n\n### 4. 邮件自动回复\n\n1. 创建邮件模板。\n2. 设置触发条件和回复规则。\n3. 测试并启用自动回复功能。",
+      "url": "https://huggingface.co/spaces/Al-Aasar/Telecom_Egypt_Agentic_RAG_System",
+      "status": "active",
+      "is_violation": false,
+      "id": "telecom-egypt-agentic-rag-system",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "OmniVibe",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为智能代理创建者和使用者提供市场平台",
+      "tags": [
+        "智能代理",
+        "市场平台",
+        "用户社区",
+        "开发者工具"
+      ],
+      "scenarios": [
+        "智能代理开发",
+        "用户交流",
+        "资源整合"
+      ],
+      "tutorial": "## OmniVibe 使用教程\n\n1. 注册账户\n\n   访问 [OmniVibe 官网](https://www.omnivibe.com)，点击 'Sign Up' 创建账户。\n\n2. 浏览智能代理\n\n   登录后，浏览平台上的智能代理列表，了解不同代理的功能和特点。\n\n3. 创建智能代理\n\n   如果你是开发者，可以点击 'Create Agent' 开始创建你的智能代理。\n\n4. 交流互动\n\n   加入社区，与其他用户和开发者交流，获取帮助和灵感。\n\n5. 使用智能代理\n\n   在你的应用程序中集成你创建的智能代理，提升用户体验。",
+      "url": "https://www.producthunt.com/products/omnivibe",
+      "status": "dead",
+      "is_violation": false,
+      "id": "omnivibe",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Astute",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动化B2B品牌传播，新媒体创作者工具",
+      "tags": [
+        "自动化",
+        "品牌传播",
+        "新媒体",
+        "B2B"
+      ],
+      "scenarios": [
+        "品牌营销",
+        "内容创作",
+        "社交媒体管理"
+      ],
+      "tutorial": "## Astute 使用教程\n\n1. 注册并登录\n\n   访问 Astute 官网，注册账号并登录。\n\n2. 创建新项目\n\n   在控制台创建一个新的项目，为您的品牌或活动指定目标。\n\n3. 选择媒体创作者\n\n   从平台中选择合适的媒体创作者，他们将为您的品牌生成内容。\n\n4. 配置自动化流程\n\n   设置自动化流程，包括内容发布时间、频率等参数。\n\n5. 监控与优化\n\n   监控内容的表现，根据反馈调整策略。",
+      "url": "https://www.producthunt.com/products/astute-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "astute",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Origin by Cursor",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "专为代码代理构建的 Git 仓库",
+      "tags": [
+        "Git",
+        "代码代理",
+        "版本控制",
+        "开源"
+      ],
+      "scenarios": [
+        "代码版本管理",
+        "团队协作",
+        "项目追踪"
+      ],
+      "tutorial": "## 使用 Origin by Cursor 进行 Git 版本管理\n\n1. 注册并登录 Origin by Cursor\n\n2. 创建一个新的 Git 仓库或克隆现有的仓库\n\n3. 在仓库中添加、提交和推送代码更改\n\n4. 使用 Origin by Cursor 的代码审查和合并请求功能\n\n5. 查看仓库的分支、标签和提交历史",
+      "url": "https://www.producthunt.com/products/cursor",
+      "status": "dead",
+      "is_violation": false,
+      "id": "origin-by-cursor",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Hosted Agents in Cluing",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "一站式协作智能体构建与发布平台",
+      "tags": [
+        "智能协作",
+        "自动化",
+        "工作流"
+      ],
+      "scenarios": [
+        "团队协作",
+        "业务流程自动化",
+        "知识共享"
+      ],
+      "tutorial": "## 使用 Hosted Agents in Cluing 的步骤\n\n1. 1. 注册并登录 Cluing 平台\n\n   - 访问 Cluing 官网，注册账号并登录。\n\n2. 2. 创建智能体\n\n   - 在平台中创建一个新的智能体项目，并命名。\n\n3. 3. 编写智能体逻辑\n\n   - 使用 Cluing 提供的编辑器编写智能体的逻辑代码。\n\n4. 4. 测试智能体\n\n   - 在测试环境中运行智能体，确保其按预期工作。\n\n5. 5. 发布智能体\n\n   - 将测试通过的智能体发布到生产环境，供团队使用。",
+      "url": "https://www.producthunt.com/products/cluing",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hosted-agents-in-cluing",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Sider 6.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器AI助手，智能操作网页",
+      "tags": [
+        "AI助手",
+        "浏览器插件",
+        "智能操作"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Sider 6.0 使用教程\n\n### 1. 安装插件\n\n1. 访问Sider官网下载Chrome插件。\n2. 打开Chrome浏览器，进入扩展程序页面。\n3. 点击'加载已解压的扩展程序'，选择下载的插件文件夹。\n\n### 2. 配置插件\n\n1. 安装完成后，Sider插件会在浏览器侧边栏显示。\n2. 点击侧边栏中的'设置'，根据需要配置插件参数。\n\n### 3. 使用插件\n\n1. 在网页上选择需要操作的区域。\n2. 使用Sider提供的工具进行操作，如截图、复制、翻译等。\n3. 可以自定义快捷键，方便快速使用。",
+      "url": "https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sider-6-0",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Cronloop AI",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI循环任务代理，自动化重复工作流程",
+      "tags": [
+        "自动化",
+        "AI代理",
+        "工作流"
+      ],
+      "scenarios": [
+        "日常任务自动化",
+        "业务流程优化",
+        "数据收集"
+      ],
+      "tutorial": "## Cronloop AI 使用教程\n\n1. 注册并登录Cronloop AI平台。\n2. 创建一个新的任务，选择要执行的操作（如发送邮件、数据抓取等）。\n3. 设置任务的触发条件，如定时执行或基于特定事件。\n4. 配置任务的细节，如邮件内容、数据抓取规则等。\n5. 保存并启动任务，Cronloop AI将自动执行任务。",
+      "url": "https://www.producthunt.com/products/cronloop-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cronloop-ai",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Balsa UI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建设计系统，使用代理进行设计",
+      "tags": [
+        "设计系统",
+        "代理",
+        "UI构建"
+      ],
+      "scenarios": [
+        "网页设计",
+        "UI开发",
+        "设计系统搭建"
+      ],
+      "tutorial": "## Balsa UI 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Balsa UI 官网](https://www.producthunt.com/products/balsa-ui) 进行注册。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建设计系统\n\n1. 登录后，点击 'Create New System' 创建新的设计系统。\n2. 输入系统名称和描述，选择模板或自定义配置。\n\n### 3. 添加组件\n\n1. 在设计系统中，点击 'Add Component' 添加新的组件。\n2. 选择组件类型，如按钮、输入框等，并配置样式。\n\n### 4. 预览与导出\n\n1. 完成组件配置后，点击 'Preview' 预览设计系统。\n2. 满意后，点击 'Export' 导出设计系统文件。",
+      "url": "https://www.producthunt.com/products/balsa-ui",
+      "status": "dead",
+      "is_violation": false,
+      "id": "balsa-ui",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Clipto MCP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "从本地视频源自动提取剪辑",
+      "tags": [
+        "视频剪辑",
+        "自动提取",
+        "本地视频"
+      ],
+      "scenarios": [
+        "视频编辑",
+        "内容创作",
+        "数据分析"
+      ],
+      "tutorial": "## 使用 Clipto MCP 提取视频剪辑\n\n1. **安装 Clipto MCP**\n   - 下载并安装 Clipto MCP 软件。\n\n2. **选择视频文件**\n   - 打开软件，选择您想要提取剪辑的视频文件。\n\n3. **设置剪辑参数**\n   - 根据需求设置剪辑的开始时间和结束时间。\n\n4. **提取剪辑**\n   - 点击提取按钮，软件将自动从视频中提取剪辑。\n\n5. **导出剪辑**\n   - 提取完成后，导出剪辑到您指定的文件夹。",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clipto-mcp",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "AgentR 3.0",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI时代招聘评估工具，自动评估候选人",
+      "tags": [
+        "招聘",
+        "AI评估",
+        "自动化"
+      ],
+      "scenarios": [
+        "招聘流程自动化",
+        "候选人筛选",
+        "人才评估"
+      ],
+      "tutorial": "## AgentR 3.0 使用教程\n\n### 1. 创建评估任务\n\n1. 登录AgentR平台。\n2. 点击“创建新任务”按钮。\n3. 选择“招聘评估”模板。\n4. 输入任务名称和描述。\n\n### 2. 设置评估参数\n\n1. 选择评估模型和算法。\n2. 设置评估指标和权重。\n3. 上传候选人简历或直接导入。\n\n### 3. 运行评估任务\n\n1. 点击“运行任务”按钮。\n2. 系统自动进行评估。\n3. 查看评估结果和报告。\n\n### 4. 分析评估结果\n\n1. 根据评估结果筛选候选人。\n2. 生成候选人评估报告。\n3. 辅助招聘决策。",
+      "url": "https://www.producthunt.com/products/agentr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agentr-3-0",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "Zyntax IDE",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Android平台集成代码编辑、终端、Git和AI助手的IDE",
+      "tags": [
+        "代码编辑",
+        "终端",
+        "Git",
+        "AI助手"
+      ],
+      "scenarios": [
+        "移动开发",
+        "代码调试",
+        "版本控制"
+      ],
+      "tutorial": "## Zyntax IDE 使用教程\n\n### 1. 安装与启动\n\n1. 下载Zyntax IDE应用。\n2. 打开应用，选择合适的编程语言模板。\n3. 点击启动，进入IDE界面。\n\n### 2. 代码编辑\n\n1. 在编辑器中输入代码。\n2. 使用快捷键或菜单栏功能进行代码格式化、查找和替换。\n3. 保存文件，查看保存历史。\n\n### 3. 终端操作\n\n1. 在IDE中打开终端窗口。\n2. 使用终端执行命令，如Git操作、文件管理等。\n3. 关闭终端窗口。\n\n### 4. Git版本控制\n\n1. 在IDE中连接到Git仓库。\n2. 使用IDE提供的Git功能进行代码提交、分支管理、合并等操作。\n3. 断开与Git仓库的连接。",
+      "url": "https://www.producthunt.com/products/zyntax-coding-ide-for-android",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zyntax-ide",
+      "added": "2026-08-20"
+    },
+    {
+      "name": "anyCreature by Gobkit",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "召唤怪物，直接从你的代理中。",
+      "tags": [
+        "怪物召唤",
+        "代理工具",
+        "网页自动化"
+      ],
+      "scenarios": [
+        "网页游戏辅助",
+        "虚拟现实互动",
+        "角色扮演游戏"
+      ],
+      "tutorial": "## 安装 AnyCreature by Gobkit\n1. 访问 [Product Hunt](https://www.producthunt.com/products/anycreature?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed) 了解 AnyCreature by Gobkit 的详细信息。\n2. 下载并安装 Gobkit 插件到你的浏览器中。\n3. 打开 Gobkit，在插件市场中搜索并安装 AnyCreature by Gobkit。\n4. 在网页中激活 AnyCreature by Gobkit，开始召唤怪物。\n\n## 使用 AnyCreature by Gobkit\n1. 在网页中定位到你想召唤怪物的位置。\n2. 使用 Gobkit 的界面，选择合适的怪物并召唤。\n3. 观察怪物在网页上的表现，进行交互或游戏操作。\n4. 完成游戏或任务后，关闭 AnyCreature by Gobkit。",
+      "url": "https://www.producthunt.com/products/anycreature",
+      "status": "dead",
+      "is_violation": false,
+      "id": "anycreature-by-gobkit",
+      "added": "2026-08-20"
     }
   ],
   "changelog": [
@@ -2183,6 +2502,27 @@
         "Shepherd Terminal",
         "Superflow AI",
         "ElevenLabs MCP in Claude"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
+    },
+    {
+      "date": "2026-08-20",
+      "added": [
+        "superpowers",
+        "chat-ui-agent-demo",
+        "Telecom_Egypt_Agentic_RAG_System",
+        "OmniVibe",
+        "Astute",
+        "Origin by Cursor",
+        "Hosted Agents in Cluing",
+        "Sider 6.0",
+        "Cronloop AI",
+        "Balsa UI",
+        "Clipto MCP",
+        "AgentR 3.0",
+        "Zyntax IDE",
+        "anyCreature by Gobkit"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
