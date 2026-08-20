@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:17:07.635Z",
+  "generatedAt": "2026-08-20T19:47:35.878Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -566,6 +566,76 @@
       "url": "https://aiagent.72tool.com/tools/anycreature-by-gobkit.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/substrate.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/posthog.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-infra-guard.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hermes-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/financial-research-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/berd.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bitdrift-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/aloud.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/checksum-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/grok-4-6.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/meetstream-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/minimax-design.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cloudways-managed-ai-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/shape.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -596,7 +666,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 106,
+    "totalAgents": 120,
     "byCategory": [
       {
         "id": "local",
@@ -606,7 +676,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 68
+        "count": 81
       },
       {
         "id": "workflow",
@@ -621,9 +691,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 8
+        "count": 9
       }
     ],
-    "deadLinks": 44
+    "deadLinks": 53
   }
 }

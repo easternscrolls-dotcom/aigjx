@@ -2357,6 +2357,319 @@
       "is_violation": false,
       "id": "anycreature-by-gobkit",
       "added": "2026-08-20"
+    },
+    {
+      "name": "substrate",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页Agent核心系统",
+      "tags": [
+        "网页自动化",
+        "RPA",
+        "无代码"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## Substrate 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Substrate 安装包。\n2. 解压安装包并运行启动程序。\n3. 确保浏览器插件已安装并激活。\n\n### 2. 创建新任务\n\n1. 打开 Substrate 主界面。\n2. 点击 '新建任务' 按钮。\n3. 选择任务类型，如网页数据采集。\n\n### 3. 编排任务流程\n\n1. 在流程编辑器中拖拽组件到工作区。\n2. 设置组件参数，如目标网页、数据字段等。\n3. 连接组件以创建流程。\n\n### 4. 运行与监控\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 在监控窗口查看任务执行状态。\n3. 任务完成后，可导出结果数据。",
+      "url": "https://github.com/agent-substrate/substrate",
+      "status": "active",
+      "is_violation": false,
+      "id": "substrate",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "posthog",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 观察性分析工具，助力产品优化",
+      "tags": [
+        "数据分析",
+        "用户行为",
+        "产品优化"
+      ],
+      "scenarios": [
+        "用户行为分析",
+        "产品迭代",
+        "性能监控"
+      ],
+      "tutorial": "## PostHog 使用教程\n\n1. 注册并登录 PostHog 账户\n\n2. 创建项目并添加应用\n\n3. 在应用中集成 PostHog SDK\n\n4. 收集用户行为数据\n\n5. 通过 PostHog 分析用户行为\n\n6. 使用 AI 工具诊断问题\n\n7. 从 Slack、Web、桌面或 MCP 中进行操作",
+      "url": "https://github.com/PostHog/posthog",
+      "status": "active",
+      "is_violation": false,
+      "id": "posthog",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "AI-Infra-Guard",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI生态系统安全扫描平台",
+      "tags": [
+        "AI安全",
+        "红队测试",
+        "基础设施"
+      ],
+      "scenarios": [
+        "AI系统安全测试",
+        "网络安全审计",
+        "自动化安全评估"
+      ],
+      "tutorial": "## AI-Infra-Guard 使用教程\n\n### 1. 安装与配置\n\n1. 下载 AI-Infra-Guard 的源代码。\n2. 在本地环境中配置必要的依赖库。\n3. 运行安装脚本进行环境搭建。\n\n### 2. 执行扫描\n\n1. 使用 Agent Scan 功能对 AI 应用进行扫描。\n2. 运行 Skills Scan 检查AI技能的安全性。\n3. 执行 MCP scan 和 AI Infra scan 对基础设施进行安全评估。\n\n### 3. 结果分析\n\n1. 查看扫描报告，识别潜在的安全风险。\n2. 使用 LLM jailbreak evaluation 功能对大型语言模型进行破解评估。\n3. 根据分析结果进行安全加固。",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "status": "active",
+      "is_violation": false,
+      "id": "ai-infra-guard",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Hermes-Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，实现网页操作自动化",
+      "tags": [
+        "网页自动化",
+        "RPA",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "表单填写"
+      ],
+      "tutorial": "## Hermes-Agent 使用教程\n\n### 1. 安装与启动\n1. 下载 Hermes-Agent 安装包。\n2. 解压安装包并运行 Hermes-Agent。\n3. 点击启动按钮，进入主界面。\n\n### 2. 创建任务\n1. 在主界面选择创建新任务。\n2. 输入任务名称，选择任务类型（如网页自动化）。\n3. 添加目标网页 URL。\n\n### 3. 编写脚本\n1. 在脚本编辑区编写自动化脚本。\n2. 使用提供的 API 和函数实现网页操作。\n3. 保存并测试脚本。\n\n### 4. 运行任务\n1. 返回主界面，选择要运行的任务。\n2. 点击运行按钮，开始执行任务。\n3. 查看任务执行结果。",
+      "url": "https://huggingface.co/spaces/Jackken/Hermes-Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "hermes-agent",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "financial-research-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "金融研究自动化网页操作工具",
+      "tags": [
+        "金融",
+        "研究",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "金融数据分析",
+        "市场研究",
+        "自动化报告生成"
+      ],
+      "tutorial": "## 使用 Financial-Research-Agent 进行金融研究\n\n1. **安装与配置**\n   - 下载 Financial-Research-Agent 并安装到本地环境。\n   - 配置必要的网络和数据源连接。\n\n2. **网页操作自动化**\n   - 使用内置的网页操作API，如点击、滚动、输入等，来模拟用户操作。\n   - 编写脚本以自动抓取金融数据。\n\n3. **数据处理与分析**\n   - 利用内置的数据处理库对抓取的数据进行分析。\n   - 可视化分析结果，生成报告。\n\n4. **结果输出**\n   - 将分析结果输出为报告或数据文件。\n   - 可通过邮件或API接口发送结果。",
+      "url": "https://huggingface.co/spaces/karthikeyansett1/financial-research-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "financial-research-agent",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Berd",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 助手构建的趣味桌面应用",
+      "tags": [
+        "AI",
+        "桌面应用",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Berd 进行自动化操作\n\n1. 下载并安装 Berd 应用。\n2. 打开 Berd，选择你想要自动化的网页或应用。\n3. 使用 Berd 的拖拽工具记录下你想要自动化的操作步骤。\n4. 点击 '运行' 按钮开始自动化流程。\n5. 观察自动化操作的结果，并根据需要调整操作步骤。",
+      "url": "https://www.producthunt.com/products/berd",
+      "status": "dead",
+      "is_violation": false,
+      "id": "berd",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "bitdrift.ai",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "首个智能移动可观测性平台",
+      "tags": [
+        "移动应用",
+        "可观测性",
+        "数据分析",
+        "用户行为"
+      ],
+      "scenarios": [
+        "移动应用监控",
+        "用户行为分析",
+        "性能优化"
+      ],
+      "tutorial": "## 使用 BitDrift.ai 进行移动应用监控\n\n1. 注册并登录 BitDrift.ai 平台。\n2. 创建一个新的项目，选择要监控的移动应用。\n3. 配置监控参数，如监控频率、数据收集范围等。\n4. 启动监控任务，BitDrift.ai 将开始收集应用数据。\n5. 在控制台中查看实时监控数据和报告，分析应用性能和用户行为。\n6. 根据分析结果进行优化调整。",
+      "url": "https://www.producthunt.com/products/bitdrift",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bitdrift-ai",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Aloud",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "语音反馈转任务，自动化编码代理操作",
+      "tags": [
+        "语音识别",
+        "自动化",
+        "编码辅助"
+      ],
+      "scenarios": [
+        "代码审查",
+        "任务分配",
+        "团队协作"
+      ],
+      "tutorial": "## 使用Aloud进行语音反馈转任务\n\n1. **注册与登录**\n   - 访问Aloud官网，注册并登录账号。\n\n2. **设置语音识别**\n   - 在Aloud中配置你的语音识别服务，确保可以正确识别语音。\n\n3. **创建任务**\n   - 使用语音输入创建新的任务，例如“将第10行代码改为if语句”。\n\n4. **任务分配**\n   - 将创建的任务分配给你的编码代理，代理将自动执行任务。\n\n5. **监控与反馈**\n   - 监控代理执行任务的情况，并在必要时提供反馈。",
+      "url": "https://www.producthunt.com/products/aloud-4",
+      "status": "dead",
+      "is_violation": false,
+      "id": "aloud",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Checksum AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代码测试助手",
+      "tags": [
+        "代码测试",
+        "AI 辅助",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "开发辅助"
+      ],
+      "tutorial": "## Checksum AI 使用教程\n\n### 1. 安装与启动\n\n1. 访问Checksum AI官网下载并安装。\n2. 打开软件，进行简单的账户注册或登录。\n3. 启动软件，准备开始使用。\n\n### 2. 创建测试任务\n\n1. 在主界面点击创建新任务。\n2. 输入测试代码，选择测试环境。\n3. 点击提交，等待测试结果。\n\n### 3. 查看测试结果\n\n1. 测试完成后，系统会自动生成测试报告。\n2. 查看报告中的错误信息，定位问题所在。\n3. 根据报告进行代码优化。\n\n### 4. 保存与分享\n\n1. 将测试结果保存到本地或云端。\n2. 可以将测试报告分享给团队成员。\n3. 提高团队开发效率。",
+      "url": "https://www.producthunt.com/products/checksum-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "checksum-ai",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Grok 4.6",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为长期运行的代理提供前沿智能",
+      "tags": [
+        "自动化",
+        "智能代理",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## Grok 4.6 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Grok 4.6 安装包。\n2. 解压安装包并运行 Grok 应用程序。\n3. 确保应用程序启动成功。\n\n### 2. 创建代理\n\n1. 在 Grok 中点击 '创建代理' 按钮。\n2. 输入代理名称并选择代理类型。\n3. 点击 '创建' 按钮。\n\n### 3. 编写脚本\n\n1. 在代理编辑器中编写脚本，使用 Grok 提供的 API 进行网页操作。\n2. 保存脚本。\n\n### 4. 运行代理\n\n1. 在代理列表中选择要运行的代理。\n2. 点击 '运行' 按钮。\n3. 观察代理运行状态和输出结果。",
+      "url": "https://www.producthunt.com/products/grok-4-6-7",
+      "status": "dead",
+      "is_violation": false,
+      "id": "grok-4-6",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "MeetStream AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 会议代理的统一API和基础设施",
+      "tags": [
+        "AI",
+        "会议",
+        "自动化",
+        "API"
+      ],
+      "scenarios": [
+        "在线会议管理",
+        "远程协作",
+        "自动化会议流程"
+      ],
+      "tutorial": "## 使用MeetStream AI进行会议自动化\n\n1. 注册并登录MeetStream AI平台\n\n2. 创建一个新的会议代理项目，配置API密钥和会议设置\n\n3. 使用提供的API进行会议自动化操作，如自动记录会议、生成摘要、发送提醒等\n\n4. 通过可视化界面监控和管理会议代理的运行状态\n\n5. 定期检查API调用日志，确保会议代理按预期工作",
+      "url": "https://www.producthunt.com/products/meetstream-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "meetstream-ai",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "MiniMax Design",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开放式的网页自动化助手，助力创意实现。",
+      "tags": [
+        "网页自动化",
+        "创意工具",
+        "RPA"
+      ],
+      "scenarios": [
+        "内容创作",
+        "数据采集",
+        "自动化测试"
+      ],
+      "tutorial": "## MiniMax Design 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [MiniMax Design 官网](https://www.producthunt.com/products/minimax) 下载并安装软件。\n2. 打开软件，开始创建你的自动化任务。\n\n### 2. 创建任务\n\n1. 选择你想要自动化的网页元素。\n2. 设置自动化操作，如点击、填写表单等。\n3. 保存并运行任务。\n\n### 3. 监控与优化\n\n1. 观察任务执行情况，确保自动化流程正确无误。\n2. 根据需要调整自动化脚本，优化执行效率。\n\n### 4. 分享与协作\n\n1. 将创建的任务分享给团队成员。\n2. 与团队成员协作，共同完成自动化任务。",
+      "url": "https://www.producthunt.com/products/minimax",
+      "status": "dead",
+      "is_violation": false,
+      "id": "minimax-design",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Cloudways Managed AI Agents",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "一键部署 OpenClaw & Hermes，全托管AI代理服务",
+      "tags": [
+        "AI代理",
+        "全托管",
+        "OpenClaw",
+        "Hermes"
+      ],
+      "scenarios": [
+        "AI应用部署",
+        "自动化服务管理",
+        "云服务集成"
+      ],
+      "tutorial": "## 使用Cloudways Managed AI Agents教程\n\n1. 访问Cloudways官网，注册并登录账户。\n2. 在控制台选择创建新应用，选择OpenClaw或Hermes作为AI代理服务。\n3. 配置应用环境，包括数据库、域名等。\n4. 点击部署，Cloudways将自动完成所有设置和配置。\n5. 部署完成后，访问应用URL即可使用AI代理服务。\n6. 通过Cloudways提供的监控和管理工具，实时监控AI代理服务的运行状态。",
+      "url": "https://www.producthunt.com/products/cloudways",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cloudways-managed-ai-agents",
+      "added": "2026-08-21"
+    },
+    {
+      "name": "Shape",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "设计师与程序员的智能IDE",
+      "tags": [
+        "设计",
+        "编程",
+        "IDE",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页设计",
+        "代码开发",
+        "原型制作"
+      ],
+      "tutorial": "## Shape使用教程\n\n### 1. 安装Shape\n\n1. 访问Shape官网下载最新版本。\n2. 根据操作系统选择合适的安装包进行安装。\n3. 安装完成后，启动Shape。\n\n### 2. 创建新项目\n\n1. 在Shape中点击“新建项目”按钮。\n2. 选择项目类型，如网页设计或代码开发。\n3. 输入项目名称并创建项目。\n\n### 3. 开始设计\n\n1. 在左侧工具栏中选择所需的工具和组件。\n2. 将工具和组件拖拽到工作区进行布局和设计。\n3. 使用Shape提供的功能进行交互和效果设置。\n\n### 4. 预览和导出\n\n1. 点击预览按钮查看设计效果。\n2. 对设计满意后，导出为所需的格式，如HTML、CSS等。",
+      "url": "https://www.producthunt.com/products/shape-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "shape",
+      "added": "2026-08-21"
     }
   ],
   "changelog": [
@@ -2526,6 +2839,27 @@
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记；当日 AI 教程回填 5 篇"
+    },
+    {
+      "date": "2026-08-21",
+      "added": [
+        "substrate",
+        "posthog",
+        "AI-Infra-Guard",
+        "Hermes-Agent",
+        "financial-research-agent",
+        "Berd",
+        "bitdrift.ai",
+        "Aloud",
+        "Checksum AI",
+        "Grok 4.6",
+        "MeetStream AI",
+        "MiniMax Design",
+        "Cloudways Managed AI Agents",
+        "Shape"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
     }
   ]
 }
