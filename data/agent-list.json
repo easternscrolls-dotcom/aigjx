@@ -2670,6 +2670,162 @@
       "is_violation": false,
       "id": "shape",
       "added": "2026-08-21"
+    },
+    {
+      "name": "sast-recon-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页安全扫描工具",
+      "tags": [
+        "安全扫描",
+        "网页自动化",
+        "开源"
+      ],
+      "scenarios": [
+        "安全测试",
+        "网页监控",
+        "自动化测试"
+      ],
+      "tutorial": "## SAST-Recon-Agent 使用教程\n\n### 1. 安装与配置\n1. 下载 SAST-Recon-Agent。\n2. 解压文件并运行配置脚本。\n3. 配置代理服务器和目标网页地址。\n\n### 2. 扫描设置\n1. 选择扫描类型（如XSS、SQL注入等）。\n2. 设置扫描深度和频率。\n3. 启动扫描任务。\n\n### 3. 结果分析\n1. 查看扫描报告。\n2. 分析漏洞详情。\n3. 修复或报告漏洞。",
+      "url": "https://huggingface.co/spaces/Mmossad2124/sast-recon-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "sast-recon-agent",
+      "added": "2026-08-22"
+    },
+    {
+      "name": "voice-rag-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于语音识别的浏览器网页Agent，自动操作网页。",
+      "tags": [
+        "语音识别",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "在线客服",
+        "数据采集",
+        "自动填表"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装\n\n1. 下载voice-rag-agent。\n2. 解压文件到本地目录。\n3. 运行安装脚本。\n\n### 2. 配置\n\n1. 打开配置文件，设置API密钥。\n2. 配置目标网页的URL。\n3. 设置语音识别的触发条件。\n\n### 3. 运行\n\n1. 启动voice-rag-agent。\n2. 使用语音命令控制浏览器。\n3. 观察自动化操作结果。",
+      "url": "https://huggingface.co/spaces/nikhiljih/voice-rag-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "voice-rag-agent",
+      "added": "2026-08-22"
+    },
+    {
+      "name": "fx (by Vercel)",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Vercel开源的轻量级代码代理",
+      "tags": [
+        "代码代理",
+        "自动化",
+        "Vercel"
+      ],
+      "scenarios": [
+        "代码开发辅助",
+        "自动化测试",
+        "持续集成"
+      ],
+      "tutorial": "## fx 使用教程\n\n### 1. 安装 fx\n\n首先，您需要在您的开发环境中安装 fx。您可以通过 npm 或 yarn 来安装它。\n\n1. 使用 npm 安装：\n\n   ```bash\n   npm install -g fx\n   ```\n\n2. 使用 yarn 安装：\n\n   ```bash\n   yarn global add fx\n   ```\n\n### 2. 配置 fx\n\n安装完成后，您需要配置 fx。这通常涉及到设置您的 API 密钥和项目信息。\n\n1. 配置 API 密钥：\n\n   ```bash\n   fx login\n   ```\n\n   按照提示进行操作。\n\n2. 配置项目信息：\n\n   ```bash\n   fx set project <项目名>\n   ```\n\n### 3. 编写代码\n\n现在，您可以使用 fx 来编写和运行您的代码。\n\n1. 编写代码：\n\n   ```bash\n   fx run <命令>\n   ```\n\n   这将运行您指定的命令。\n\n2. 查看日志：\n\n   ```bash\n   fx logs\n   ```\n\n   这将显示您的代码运行日志。\n\n### 4. 集成到工作流\n\n您可以将 fx 集成到您的工作流中，以便自动化您的开发过程。\n\n1. 创建工作流文件：\n\n   ```bash\n   fx workflow create <文件名>\n   ```\n\n2. 添加步骤：\n\n   ```bash\n   fx workflow add-step <文件名> <步骤>\n   ```\n\n   这将添加一个步骤到您的工作流中。\n\n3",
+      "url": "https://www.producthunt.com/products/fx-by-vercel",
+      "status": "dead",
+      "is_violation": false,
+      "id": "fx-by-vercel",
+      "added": "2026-08-22"
+    },
+    {
+      "name": "Plow Latch",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "在Mac上运行具有受限访问权限的AI代理",
+      "tags": [
+        "AI代理",
+        "Mac",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Plow Latch 使用教程\n\n### 1. 安装Plow Latch\n\n1. 访问Plow Latch官网下载安装包。\n2. 双击安装包，按照提示完成安装。\n3. 打开Plow Latch应用。\n\n### 2. 创建AI代理\n\n1. 在Plow Latch中点击创建新代理。\n2. 输入代理名称和描述。\n3. 选择代理运行的环境和权限。\n\n### 3. 配置代理行为\n\n1. 在代理编辑器中，使用拖拽方式添加行为模块。\n2. 配置每个模块的参数。\n3. 预览代理行为，确保无误。\n\n### 4. 运行代理\n\n1. 点击运行按钮，启动代理。\n2. 观察代理运行状态，确保其按预期工作。\n\n### 5. 代理管理\n\n1. 在代理列表中，可以查看和管理所有代理。\n2. 可以编辑、停止或删除代理。",
+      "url": "https://www.producthunt.com/products/plow-latch",
+      "status": "dead",
+      "is_violation": false,
+      "id": "plow-latch",
+      "added": "2026-08-22"
+    },
+    {
+      "name": "Antigravity IDE Extensions",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "集成编辑器中的Antigravity代理",
+      "tags": [
+        "编辑器扩展",
+        "自动化",
+        "插件"
+      ],
+      "scenarios": [
+        "代码编辑自动化",
+        "开发效率提升",
+        "代码审查"
+      ],
+      "tutorial": "## 安装与配置\n1. 访问Antigravity IDE Extensions的官网或GitHub页面下载安装包。\n2. 在你的IDE中找到扩展或插件管理器，选择安装下载的扩展。\n3. 安装完成后，重启IDE以激活扩展。\n\n## 使用Antigravity代理\n1. 打开你的代码文件，选择需要自动化的部分。\n2. 使用扩展提供的工具栏或快捷键调用Antigravity代理功能。\n3. 配置代理的行为，如自动补全、代码审查等。\n4. 运行代理，观察自动化操作的结果。\n\n## 调试与优化\n1. 如果代理操作不符合预期，检查配置是否正确。\n2. 使用扩展提供的调试工具进行问题排查。\n3. 根据调试结果调整代理配置或行为。",
+      "url": "https://www.producthunt.com/products/google-antigravity",
+      "status": "dead",
+      "is_violation": false,
+      "id": "antigravity-ide-extensions",
+      "added": "2026-08-22"
+    },
+    {
+      "name": "Actx0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理内存基础设施，浏览器网页Agent。",
+      "tags": [
+        "AI",
+        "代理",
+        "内存",
+        "浏览器"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Actx0 使用教程\n\n### 1. 安装Actx0\n\n从[Actx0官网](https://www.producthunt.com/products/actx0)下载并安装Actx0。\n\n### 2. 创建新项目\n\n打开Actx0，创建一个新的项目，选择合适的代理类型和配置。\n\n### 3. 编写脚本\n\n使用Actx0提供的API编写脚本，实现自动化任务。\n\n### 4. 运行脚本\n\n运行脚本，观察自动化任务执行情况。\n\n### 5. 调试与优化\n\n根据执行结果，调试和优化脚本。",
+      "url": "https://www.producthunt.com/products/actx0",
+      "status": "dead",
+      "is_violation": false,
+      "id": "actx0",
+      "added": "2026-08-22"
+    },
+    {
+      "name": "OneCLI",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为员工提供安全沙箱化的专业助手代理",
+      "tags": [
+        "自动化",
+        "助手代理",
+        "安全",
+        "沙箱"
+      ],
+      "scenarios": [
+        "企业内部助手",
+        "客服自动化",
+        "办公自动化"
+      ],
+      "tutorial": "## OneCLI 使用教程\n\n### 1. 注册与登录\n\n1. 访问 OneCLI 官网，注册账号并登录。\n2. 首次登录后，系统会自动创建一个沙箱环境。\n\n### 2. 创建代理\n\n1. 在 OneCLI 控制台中，点击创建代理。\n2. 输入代理名称，选择代理类型（如网页代理、API 代理等）。\n3. 设置代理参数，如代理地址、端口等。\n\n### 3. 配置任务\n\n1. 在代理详情页，点击创建任务。\n2. 选择任务类型（如网页爬取、数据抓取等）。\n3. 设置任务参数，如目标网址、数据格式等。\n\n### 4. 运行与监控\n\n1. 点击运行任务，OneCLI 会自动执行任务。\n2. 在监控页面查看任务执行状态和结果。\n\n### 5. 保存与分享\n\n1. 任务完成后，可以保存任务模板。\n2. 将任务模板分享给其他员工使用。",
+      "url": "https://www.producthunt.com/products/onecli",
+      "status": "dead",
+      "is_violation": false,
+      "id": "onecli",
+      "added": "2026-08-22"
     }
   ],
   "changelog": [
@@ -2857,6 +3013,20 @@
         "MiniMax Design",
         "Cloudways Managed AI Agents",
         "Shape"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-22",
+      "added": [
+        "sast-recon-agent",
+        "voice-rag-agent",
+        "fx (by Vercel)",
+        "Plow Latch",
+        "Antigravity IDE Extensions",
+        "Actx0",
+        "OneCLI"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

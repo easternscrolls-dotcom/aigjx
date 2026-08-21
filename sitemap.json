@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:47:35.878Z",
+  "generatedAt": "2026-08-21T19:18:12.096Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -636,6 +636,41 @@
       "url": "https://aiagent.72tool.com/tools/shape.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sast-recon-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/voice-rag-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/fx-by-vercel.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/plow-latch.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/antigravity-ide-extensions.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/actx0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/onecli.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -666,7 +701,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 120,
+    "totalAgents": 127,
     "byCategory": [
       {
         "id": "local",
@@ -676,7 +711,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 81
+        "count": 88
       },
       {
         "id": "workflow",
@@ -694,6 +729,6 @@
         "count": 9
       }
     ],
-    "deadLinks": 53
+    "deadLinks": 58
   }
 }
