@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T19:18:12.096Z",
+  "generatedAt": "2026-08-22T18:18:46.852Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -671,6 +671,56 @@
       "url": "https://aiagent.72tool.com/tools/onecli.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/codex.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ecc.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/claude-code.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/andrej-karpathy-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/my-gaia-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/whatsapp-automation.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/medgemma-pcos-copilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/autoclaw.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/zero.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agents-never-sleep.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -701,7 +751,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 127,
+    "totalAgents": 137,
     "byCategory": [
       {
         "id": "local",
@@ -711,7 +761,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 88
+        "count": 98
       },
       {
         "id": "workflow",
@@ -729,6 +779,6 @@
         "count": 9
       }
     ],
-    "deadLinks": 58
+    "deadLinks": 61
   }
 }

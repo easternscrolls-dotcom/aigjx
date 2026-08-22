@@ -2826,6 +2826,229 @@
       "is_violation": false,
       "id": "onecli",
       "added": "2026-08-22"
+    },
+    {
+      "name": "codex",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "轻量级终端代码助手",
+      "tags": [
+        "代码",
+        "终端",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码调试",
+        "脚本编写",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Codex 进行代码编写\n1. 打开终端，安装 Codex。\n2. 输入 `codex` 命令，启动 Codex。\n3. 使用命令行编写代码，Codex 将实时预览代码效果。\n4. 保存代码，Codex 会自动生成相应的文件。",
+      "url": "https://github.com/openai/codex",
+      "status": "active",
+      "is_violation": false,
+      "id": "codex",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "ECC",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "性能优化智能代理系统，适用于 Claude Code 等智能工具",
+      "tags": [
+        "性能优化",
+        "智能代理",
+        "开源"
+      ],
+      "scenarios": [
+        "智能工具性能提升",
+        "多智能体协同"
+      ],
+      "tutorial": "## ECC 使用教程\n\n1. 下载并安装 ECC\n   - 访问 ECC 的 GitHub 仓库下载最新版本\n   - 按照安装指南完成安装\n\n2. 配置 ECC\n   - 打开 ECC 配置文件，设置智能体参数\n   - 配置网络和安全设置，确保数据安全\n\n3. 集成 ECC 到智能工具\n   - 将 ECC 集成到 Claude Code 或 Codex 等智能工具中\n   - 通过 API 调用或插件方式实现集成\n\n4. 测试和优化\n   - 运行测试用例，验证 ECC 的性能优化效果\n   - 根据测试结果调整配置，优化性能",
+      "url": "https://github.com/affaan-m/ECC",
+      "status": "active",
+      "is_violation": false,
+      "id": "ecc",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "claude-code",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "终端内智能编码助手，通过自然语言命令加速编码",
+      "tags": [
+        "代码助手",
+        "终端工具",
+        "自动化",
+        "Git"
+      ],
+      "scenarios": [
+        "代码审查",
+        "代码编写",
+        "Git操作"
+      ],
+      "tutorial": "## Claude Code 使用教程\n\n### 1. 安装 Claude Code\n\n安装 Claude Code 非常简单，只需在终端中运行以下命令：\n\n```bash\npip install claude-code\n```\n\n### 2. 连接到你的代码库\n\n安装完成后，使用以下命令连接到你的代码库：\n\n```bash\nclaude-code connect <你的代码库路径>\n```\n\n### 3. 执行代码任务\n\n通过自然语言命令，你可以执行各种代码任务，例如：\n\n```bash\nclaude-code explain function myFunction\n```\n\n这将解释 `myFunction` 函数的代码。\n\n### 4. 处理 Git 工作流\n\nClaude Code 还可以帮助你处理 Git 工作流，例如：\n\n```bash\nclaude-code commit -m \"提交信息\"\n```\n\n这将创建一个新的 Git 提交。",
+      "url": "https://github.com/anthropics/claude-code",
+      "status": "active",
+      "is_violation": false,
+      "id": "claude-code",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "优化 Claude Code 行为，提升 LLM 编码体验。",
+      "tags": [
+        "LLM",
+        "代码优化",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "代码生成",
+        "代码优化"
+      ],
+      "tutorial": "## 安装与使用\n1. 访问 [andrej-karpathy-skills](https://github.com/your-repository/andrej-karpathy-skills) 仓库。\n2. 克隆仓库到本地：`git clone https://github.com/your-repository/andrej-karpathy-skills`。\n3. 在本地编辑 `CLAUDE.md` 文件，根据需要调整 Claude Code 的行为。\n4. 保存文件后，在 Claude Code 中查看效果。\n\n## 高级使用\n1. 若需要自定义功能，可以修改 `CLAUDE.md` 中的相关配置。\n2. 了解 Claude Code 的具体功能，请参考官方文档。\n3. 如有疑问，可以加入社区讨论。",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "andrej-karpathy-skills",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "my-gaia-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动填表",
+        "网页测试"
+      ],
+      "tutorial": "## my-gaia-agent 使用教程\n\n### 1. 安装与启动\n\n1. 下载 my-gaia-agent 安装包。\n2. 解压安装包并运行启动程序。\n3. 确保浏览器已安装相应的插件或扩展。\n\n### 2. 创建任务\n\n1. 打开 my-gaia-agent，点击创建新任务。\n2. 选择要操作的网页和操作类型（如点击、输入、滚动等）。\n3. 设置操作参数，如元素选择器、输入内容等。\n\n### 3. 运行与调试\n\n1. 点击运行按钮，my-gaia-agent 将按照设置的任务自动操作网页。\n2. 观察操作结果，如有错误，可进行调试。\n3. 保存成功任务，以便后续使用。",
+      "url": "https://huggingface.co/spaces/Rickyr7/my-gaia-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "my-gaia-agent",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "whatsapp-automation",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化 WhatsApp 操作，无需编程",
+      "tags": [
+        "自动化",
+        "WhatsApp",
+        "消息",
+        "社交"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "客户服务",
+        "消息推送"
+      ],
+      "tutorial": "## WhatsApp 自动化使用教程\n\n### 1. 安装与配置\n\n1. 下载并安装 WhatsApp-Automation 工具。\n2. 配置 WhatsApp 账户信息，包括 API 密钥和消息模板。\n3. 确保网络连接稳定。\n\n### 2. 创建自动化任务\n\n1. 在工具中创建新的自动化任务。\n2. 选择要执行的操作，如发送消息、接收消息等。\n3. 设置触发条件，例如时间、事件等。\n\n### 3. 测试与运行\n\n1. 运行测试任务，确保自动化流程无误。\n2. 根据需要调整设置和条件。\n3. 启动自动化任务，监控运行状态。\n\n### 4. 监控与维护\n\n1. 定期检查任务执行情况，确保系统稳定。\n2. 更新工具和 WhatsApp 账户信息，以适应新需求。\n3. 处理任何异常情况，确保自动化流程持续运行。",
+      "url": "https://huggingface.co/spaces/AbudFFRH/whatsapp-automation",
+      "status": "active",
+      "is_violation": false,
+      "id": "whatsapp-automation",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "medgemma-pcos-copilot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "PCOS Copilot，基于Hugging Face的浏览器插件，自动完成医学文本。",
+      "tags": [
+        "医学文本",
+        "自动完成",
+        "Hugging Face",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "医学研究",
+        "临床笔记",
+        "文献阅读"
+      ],
+      "tutorial": "## 使用MedGemma-PCOS-Copilot教程\n1. 下载并安装MedGemma-PCOS-Copilot插件到您的浏览器。\n2. 打开浏览器并访问医学相关网站或文档。\n3. 使用鼠标选中需要自动完成的文本区域。\n4. 点击插件图标，选择自动完成功能。\n5. 插件将自动分析文本并提供可能的完成选项。\n6. 选择合适的选项并应用。",
+      "url": "https://huggingface.co/spaces/embedologist/medgemma-pcos-copilot",
+      "status": "active",
+      "is_violation": false,
+      "id": "medgemma-pcos-copilot",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "AutoClaw",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨桌面、浏览器和聊天的人工智能工作代理",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "工作流"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "聊天机器人"
+      ],
+      "tutorial": "## AutoClaw 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [AutoClaw 官网](https://www.producthunt.com/products/z-ai) 下载并安装 AutoClaw。\n2. 打开软件，您将看到一个简洁的界面，准备好开始配置您的自动化任务。\n\n### 2. 创建新任务\n\n1. 点击界面上的 '+' 按钮创建一个新的任务。\n2. 选择任务类型，如网页自动化或聊天机器人。\n3. 根据任务类型配置相应的参数和设置。\n\n### 3. 编排任务流程\n\n1. 使用拖拽的方式将不同的操作步骤添加到任务流程中。\n2. 例如，您可以添加点击按钮、填写表单、读取数据等操作。\n3. 调整步骤顺序，确保任务按照正确的流程执行。\n\n### 4. 运行与测试\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 观察任务执行过程，确保一切按预期进行。\n3. 如有需要，可以暂停或停止任务。\n\n### 5. 保存与分享\n\n1. 完成任务后，保存您的配置。\n2. 您可以将配置好的任务分享给其他用户或团队。",
+      "url": "https://www.producthunt.com/products/z-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "autoclaw",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "Zero",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理编程语言，适用于浏览器网页操作",
+      "tags": [
+        "AI",
+        "编程",
+        "浏览器",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Zero进行网页自动化\n\n1. 安装Zero\n   - 访问Zero官网下载并安装Zero。\n\n2. 创建新项目\n   - 打开Zero，创建一个新的项目。\n\n3. 编写脚本\n   - 使用Zero的语法编写自动化脚本，例如：\n     ```javascript\n     const { open, click } = require('zero');\n     open('https://www.example.com');\n     click('button');\n     ```\n\n4. 运行脚本\n   - 点击运行按钮，Zero将自动执行脚本。\n\n5. 查看结果\n   - 查看自动化操作的结果，并根据需要调整脚本。",
+      "url": "https://www.producthunt.com/products/zero-15",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zero",
+      "added": "2026-08-23"
+    },
+    {
+      "name": "Agents Never Sleep",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动填表",
+        "网页测试"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装\n\n1. 访问 [Agents Never Sleep](https://www.producthunt.com/products/agents-never-sleep) 官网下载。\n2. 按照提示完成安装。\n\n### 2. 创建任务\n\n1. 打开 Agents Never Sleep 软件。\n2. 点击 '新建任务'，选择要操作的网页。\n3. 拖拽操作元素，如点击、输入等，进行自动化操作。\n\n### 3. 运行任务\n\n1. 设置任务运行条件，如时间、频率等。\n2. 点击 '运行'，开始自动化操作。\n\n### 4. 查看结果\n\n1. 任务完成后，查看操作结果。\n2. 可导出操作数据，进行分析。",
+      "url": "https://www.producthunt.com/products/agents-never-sleep",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agents-never-sleep",
+      "added": "2026-08-23"
     }
   ],
   "changelog": [
@@ -3027,6 +3250,23 @@
         "Antigravity IDE Extensions",
         "Actx0",
         "OneCLI"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-23",
+      "added": [
+        "codex",
+        "ECC",
+        "claude-code",
+        "andrej-karpathy-skills",
+        "my-gaia-agent",
+        "whatsapp-automation",
+        "medgemma-pcos-copilot",
+        "AutoClaw",
+        "Zero",
+        "Agents Never Sleep"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
