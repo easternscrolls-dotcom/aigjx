@@ -3049,6 +3049,97 @@
       "is_violation": false,
       "id": "agents-never-sleep",
       "added": "2026-08-23"
+    },
+    {
+      "name": "maka",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地AI代理工作空间，记录模型消息、工具调用等日志。",
+      "tags": [
+        "AI代理",
+        "日志记录",
+        "本地化"
+      ],
+      "scenarios": [
+        "AI模型开发",
+        "数据记录",
+        "工作流管理"
+      ],
+      "tutorial": "## Maka 使用教程\n\n### 1. 安装Maka\n\n从GitHub克隆Maka仓库或使用包管理器安装。\n\n### 2. 创建新项目\n\n在Maka中创建一个新的工作空间，用于存储模型消息和工具调用日志。\n\n### 3. 添加模型消息\n\n在Maka中输入模型消息，并记录到日志中。\n\n### 4. 调用工具\n\n通过Maka调用外部工具，并将工具结果记录到日志中。\n\n### 5. 查看日志\n\n在Maka中查看记录的日志，包括模型消息、工具调用和终止事件。",
+      "url": "https://github.com/apache/maka",
+      "status": "active",
+      "is_violation": false,
+      "id": "maka",
+      "added": "2026-08-24"
+    },
+    {
+      "name": "openhuman",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "个人AI超级智能，构建本地记忆，智能调度代理和流程，深度研究。",
+      "tags": [
+        "AI",
+        "个人记忆",
+        "代理调度",
+        "工作流"
+      ],
+      "scenarios": [
+        "个人知识管理",
+        "自动化任务执行",
+        "数据深度分析"
+      ],
+      "tutorial": "## openhuman 使用教程\n\n### 1. 安装与启动\n1. 访问 [openhuman GitHub 仓库](https://github.com/openhuman/openhuman) 下载最新版本。\n2. 解压文件并运行安装脚本。\n3. 按照提示完成安装。\n\n### 2. 创建个人账户\n1. 打开 openhuman 应用程序。\n2. 点击 '注册' 创建新账户。\n3. 输入用户名、密码和邮箱地址。\n\n### 3. 配置数据源\n1. 在设置中找到 '数据源' 选项。\n2. 添加你的数据源，如日历、邮件等。\n3. 配置数据同步设置。\n\n### 4. 使用智能代理\n1. 在主界面找到 '智能代理' 选项。\n2. 选择你需要的代理功能，如邮件助手、日程提醒等。\n3. 配置代理设置并启动。",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "status": "active",
+      "is_violation": false,
+      "id": "openhuman",
+      "added": "2026-08-24"
+    },
+    {
+      "name": "ruflo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能多玩家集群管理，构建对话式AI系统。",
+      "tags": [
+        "智能集群",
+        "对话AI",
+        "自适应记忆",
+        "RAG集成"
+      ],
+      "scenarios": [
+        "自动化工作流程",
+        "智能客服",
+        "数据采集"
+      ],
+      "tutorial": "## Ruflo使用教程\n\n1. 下载并安装Ruflo：\n   - 访问Ruflo的GitHub页面下载最新版本。\n   - 按照安装指南完成安装。\n\n2. 创建智能集群：\n   - 打开Ruflo，创建一个新的集群。\n   - 配置集群参数，如节点数量、内存等。\n\n3. 编排自动化工作流程：\n   - 使用Ruflo的可视化编辑器设计工作流程。\n   - 拖拽组件，设置触发条件和执行动作。\n\n4. 集成RAG和Claude Code：\n   - 在集群设置中启用RAG和Claude Code集成。\n   - 配置API密钥和参数。\n\n5. 部署和监控：\n   - 部署集群并监控其运行状态。\n   - 调整配置以优化性能。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "status": "active",
+      "is_violation": false,
+      "id": "ruflo",
+      "added": "2026-08-24"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "汇聚官方及社区1000+技能，兼容多种Agent。",
+      "tags": [
+        "技能库",
+        "兼容性",
+        "社区贡献",
+        "多平台"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Awesome-Agent-Skills教程\n\n1. 下载并安装\n   - 访问GitHub仓库，下载最新版本的Awesome-Agent-Skills。\n   - 解压文件并确保所有依赖项已正确安装。\n\n2. 配置环境\n   - 根据你的Agent选择合适的配置文件。\n   - 确保所有技能包已正确导入到你的Agent环境中。\n\n3. 选择技能\n   - 浏览提供的技能列表，选择你需要的技能。\n   - 可以根据技能描述和标签进行筛选。\n\n4. 集成使用\n   - 在你的Agent脚本中导入并调用所选技能。\n   - 根据技能文档进行参数配置和调用。\n\n5. 测试与优化\n   - 运行测试脚本，验证技能的功能和性能。\n   - 根据测试结果进行优化。",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "awesome-agent-skills",
+      "added": "2026-08-24"
     }
   ],
   "changelog": [
@@ -3267,6 +3358,17 @@
         "AutoClaw",
         "Zero",
         "Agents Never Sleep"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-24",
+      "added": [
+        "maka",
+        "openhuman",
+        "ruflo",
+        "awesome-agent-skills"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

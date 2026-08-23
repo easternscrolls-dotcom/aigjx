@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:18:46.852Z",
+  "generatedAt": "2026-08-23T18:15:59.673Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -721,6 +721,26 @@
       "url": "https://aiagent.72tool.com/tools/agents-never-sleep.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/maka.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openhuman.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ruflo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/awesome-agent-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -751,17 +771,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 137,
+    "totalAgents": 141,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 13
+        "count": 14
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 98
+        "count": 101
       },
       {
         "id": "workflow",
