@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:15:59.673Z",
+  "generatedAt": "2026-08-24T18:27:06.172Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -741,6 +741,41 @@
       "url": "https://aiagent.72tool.com/tools/awesome-agent-skills.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/claude-obsidian.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cto-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-artifacts.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/trama.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/decawork.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/offloop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/phoenix.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -771,7 +806,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 141,
+    "totalAgents": 148,
     "byCategory": [
       {
         "id": "local",
@@ -781,12 +816,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 101
+        "count": 107
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 11
+        "count": 12
       },
       {
         "id": "crossborder",
@@ -799,6 +834,6 @@
         "count": 9
       }
     ],
-    "deadLinks": 61
+    "deadLinks": 65
   }
 }

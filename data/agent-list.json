@@ -3140,6 +3140,163 @@
       "is_violation": false,
       "id": "awesome-agent-skills",
       "added": "2026-08-24"
+    },
+    {
+      "name": "claude-obsidian",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Obsidian + Claude Code 的自组织 AI 第二大脑，构建个人知识图谱。",
+      "tags": [
+        "AI 笔记",
+        "知识管理",
+        "开源 Notion 替代"
+      ],
+      "scenarios": [
+        "个人知识管理",
+        "团队协作",
+        "知识库构建"
+      ],
+      "tutorial": "## Claude-Obsidian 使用教程\n\n1. 下载并安装 Claude-Obsidian。\n2. 配置 Obsidian 和 Claude Code 的连接。\n3. 将文档或资料拖入 Claude-Obsidian，AI 将自动读取、链接和归档。\n4. 通过 AI 功能优化笔记和知识结构。\n5. 使用 Markdown 格式编辑和整理知识图谱。",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "status": "active",
+      "is_violation": false,
+      "id": "claude-obsidian",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "CTO_agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## CTO_agent 使用教程\n\n### 1. 安装与启动\n1. 下载并安装 CTO_agent。\n2. 打开软件，选择需要自动化的网页。\n3. 点击启动，开始自动化操作。\n\n### 2. 设置自动化任务\n1. 在任务管理器中创建新任务。\n2. 选择需要自动化的操作，如点击、输入等。\n3. 设置操作条件，如时间间隔、循环次数等。\n\n### 3. 运行与监控\n1. 点击运行任务，监控任务执行情况。\n2. 如有异常，可暂停或停止任务。\n3. 保存任务，方便下次使用。",
+      "url": "https://huggingface.co/spaces/dpservis/CTO_agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "cto-agent",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "agent-artifacts",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Hugging Face 提供的浏览器网页 Agent，支持自动操作网页。",
+      "tags": [
+        "Hugging Face",
+        "网页操作",
+        "自动填表",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据抓取",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Agent-Artifacts 进行网页操作\n1. 访问 Hugging Face 官网，下载 Agent-Artifacts。\n2. 在浏览器中安装 Agent-Artifacts 扩展。\n3. 打开目标网页，使用扩展提供的工具进行操作。\n4. 通过配置文件定义操作步骤，如点击、填写表单等。\n5. 运行配置文件，观察网页操作结果。",
+      "url": "https://huggingface.co/spaces/lvwerra/agent-artifacts",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-artifacts",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "Trama",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "用普通语言创建 macOS 自动化脚本",
+      "tags": [
+        "自动化",
+        "MacOS",
+        "脚本",
+        "无代码"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "日常任务自动化"
+      ],
+      "tutorial": "## 使用 Trama 创建 macOS 自动化脚本\n\n### 1. 安装 Trama\n\n从 [Trama 官网](https://www.producthunt.com/products/trama-mac-automation-in-plain-language) 下载并安装 Trama 应用。\n\n### 2. 创建新脚本\n\n打开 Trama 应用，点击 'New Automation' 创建一个新的自动化脚本。\n\n### 3. 选择操作\n\n在左侧的操作列表中选择你想要自动化的操作，例如 'Open Application' 打开应用程序。\n\n### 4. 设置参数\n\n根据所选操作，设置相应的参数，例如应用程序的名称。\n\n### 5. 运行和测试\n\n点击 'Run' 按钮运行脚本，并观察自动化过程是否按预期进行。\n\n### 6. 保存和分享\n\n完成自动化脚本后，可以将其保存到本地或分享给他人使用。",
+      "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language",
+      "status": "dead",
+      "is_violation": false,
+      "id": "trama",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "Decawork",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "企业内部AI代理与工具控制平台",
+      "tags": [
+        "AI代理",
+        "企业工具",
+        "工作流管理"
+      ],
+      "scenarios": [
+        "企业内部自动化",
+        "AI工具集成",
+        "工作流程优化"
+      ],
+      "tutorial": "## Decawork 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Decawork 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录到 Decawork 平台。\n\n### 2. 创建新代理\n\n1. 在首页点击创建新代理按钮。\n2. 输入代理名称，选择代理类型，配置相关参数。\n3. 点击保存，创建新的AI代理。\n\n### 3. 配置工作流\n\n1. 在代理管理页面，选择需要配置的代理。\n2. 使用可视化拖拽工具，将不同的操作步骤拖拽到工作流中。\n3. 配置每个步骤的参数，设置触发条件。\n\n### 4. 测试与部署\n\n1. 点击测试按钮，检查工作流是否按预期执行。\n2. 确认无误后，点击部署按钮，将工作流投入生产环境。",
+      "url": "https://www.producthunt.com/products/decawork",
+      "status": "dead",
+      "is_violation": false,
+      "id": "decawork",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "Offloop",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "共享工作空间，人与AI协作完成任务",
+      "tags": [
+        "AI协作",
+        "工作空间",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化办公"
+      ],
+      "tutorial": "## Offloop 使用教程\n\n### 1. 创建账户\n\n1. 访问 Offloop 官网并注册账户。\n2. 完成邮箱验证。\n3. 登录账户。\n\n### 2. 创建项目\n\n1. 在首页点击 '创建项目'。\n2. 输入项目名称和描述。\n3. 选择项目成员。\n4. 点击 '创建'。\n\n### 3. 添加任务\n\n1. 在项目页面点击 '添加任务'。\n2. 输入任务名称和详情。\n3. 分配任务给团队成员。\n4. 设置截止日期。\n\n### 4. 使用AI代理\n\n1. 在任务详情页点击 '添加AI代理'。\n2. 选择合适的AI代理。\n3. 设置代理参数。\n4. 启动代理。\n\n### 5. 查看进度\n\n1. 在项目页面查看任务进度。\n2. 查看团队成员的实时工作状态。\n3. 评估任务完成情况。",
+      "url": "https://www.producthunt.com/products/offloop",
+      "status": "dead",
+      "is_violation": false,
+      "id": "offloop",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "Phoenix",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "专为 iOS、macOS 应用开发设计的 AI 编码代理",
+      "tags": [
+        "AI 编码",
+        "iOS 开发",
+        "macOS 开发",
+        "自动化"
+      ],
+      "scenarios": [
+        "移动应用开发",
+        "桌面应用开发",
+        "代码生成"
+      ],
+      "tutorial": "## 使用 Phoenix 进行 AI 编码\n\n### 1. 安装 Phoenix\n\n- 访问 [Phoenix 官网](https://www.producthunt.com/products/phoenix-10) 下载并安装 Phoenix。\n\n### 2. 创建新项目\n\n- 打开 Phoenix，点击 '创建新项目'。\n\n### 3. 选择编程语言\n\n- 在弹出的窗口中选择你需要的编程语言，如 Swift 或 Objective-C。\n\n### 4. 输入代码描述\n\n- 在文本框中输入你想要生成的代码的描述，如 '一个简单的登录界面'。\n\n### 5. 生成代码\n\n- 点击 '生成代码'，Phoenix 将根据你的描述生成相应的代码。\n\n### 6. 集成代码\n\n- 将生成的代码复制到你的项目中，并根据需要进行调整。",
+      "url": "https://www.producthunt.com/products/phoenix-10",
+      "status": "dead",
+      "is_violation": false,
+      "id": "phoenix",
+      "added": "2026-08-25"
     }
   ],
   "changelog": [
@@ -3369,6 +3526,20 @@
         "openhuman",
         "ruflo",
         "awesome-agent-skills"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-25",
+      "added": [
+        "claude-obsidian",
+        "CTO_agent",
+        "agent-artifacts",
+        "Trama",
+        "Decawork",
+        "Offloop",
+        "Phoenix"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
