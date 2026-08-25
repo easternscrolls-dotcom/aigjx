@@ -3297,6 +3297,271 @@
       "is_violation": false,
       "id": "phoenix",
       "added": "2026-08-25"
+    },
+    {
+      "name": "TradingAgents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多智能体LLM金融交易框架，自动操作网页。",
+      "tags": [
+        "金融交易",
+        "多智能体",
+        "LLM"
+      ],
+      "scenarios": [
+        "金融数据分析",
+        "自动化交易",
+        "量化投资"
+      ],
+      "tutorial": "## TradingAgents 使用教程\n\n### 1. 安装环境\n\n1. 确保安装了 Python 3.8 或更高版本。\n2. 使用 pip 安装依赖：\n    ```bash\n    pip install tradingagents\n    ```\n\n### 2. 创建智能体\n\n1. 导入 TradingAgents 库：\n    ```python\n    from tradingagents import Agent\n    ```\n2. 创建智能体实例：\n    ```python\n    agent = Agent(name='MyAgent')\n    ```\n\n### 3. 编写交易策略\n\n1. 定义交易策略函数：\n    ```python\n    def my_strategy(agent):\n        # 编写交易逻辑\n        pass\n    ```\n2. 调用策略函数：\n    ```python\n    my_strategy(agent)\n    ```\n\n### 4. 运行智能体\n\n1. 启动智能体：\n    ```python\n    agent.run()\n    ```",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "status": "active",
+      "is_violation": false,
+      "id": "tradingagents",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "awesome-llm-apps",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "免费开源的AI代理应用库",
+      "tags": [
+        "AI代理",
+        "开源",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 安装与配置\n1. 访问 [GitHub](https://github.com) 并搜索 'awesome-llm-apps'。\n2. 下载或克隆仓库到本地。\n3. 根据项目说明进行安装依赖。\n\n## 使用示例\n1. 在本地环境中启动应用。\n2. 选择一个AI代理进行测试。\n3. 观察代理的行为和输出。\n\n## 高级功能\n1. 根据需求自定义代理技能。\n2. 集成到现有的工作流程中。\n3. 使用RAG模型进行知识增强。",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "status": "active",
+      "is_violation": false,
+      "id": "awesome-llm-apps",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "ponytail",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "模拟懒散大牛的AI代理，减少不必要的代码编写。",
+      "tags": [
+        "AI代理",
+        "代码优化",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "代码重构",
+        "代码生成"
+      ],
+      "tutorial": "## ponytail 使用教程\n\n1. 下载并安装 ponytail。\n2. 配置你的开发环境，确保所有依赖项都已安装。\n3. 创建一个新的项目或打开一个现有项目。\n4. 在项目中引入 ponytail，并按照文档进行配置。\n5. 使用 ponytail 的API或命令行工具来分析你的代码，并获取优化建议。\n6. 根据ponytail的建议，对代码进行重构或优化。\n7. 持续使用 ponytail 来监控代码质量，并确保代码保持最佳状态。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "status": "active",
+      "is_violation": false,
+      "id": "ponytail",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "Agents-Course-Get-Your-Final-Certificate",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动获取课程最终证书的浏览器网页Agent",
+      "tags": [
+        "自动化",
+        "证书获取",
+        "教育工具"
+      ],
+      "scenarios": [
+        "在线课程学习",
+        "证书管理",
+        "教育机构"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装和配置\n\n1. 下载并安装 Agents-Course-Get-Your-Final-Certificate。\n2. 配置浏览器扩展，确保其已启用。\n3. 登录相关在线课程平台。\n\n### 2. 检测课程进度\n\n1. 打开课程页面，使用Agent检测课程进度。\n2. 确认所有课程内容已完成。\n\n### 3. 获取证书\n\n1. 使用Agent自动完成获取证书的流程。\n2. 下载并保存证书。\n\n### 4. 验证证书\n\n1. 使用课程平台提供的证书验证工具。\n2. 确认证书有效。",
+      "url": "https://huggingface.co/spaces/frenfox/Agents-Course-Get-Your-Final-Certificate",
+      "status": "active",
+      "is_violation": false,
+      "id": "agents-course-get-your-final-certificate",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "GdeDiek-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码实现网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## GdeDiek-agent 使用教程\n\n1. 下载与安装\n   - 访问 GdeDiek-agent 官网下载最新版本。\n   - 按照提示完成安装。\n\n2. 创建新任务\n   - 打开 GdeDiek-agent，点击 '新建任务'。\n   - 选择任务类型，如 '网页自动化'。\n\n3. 编排任务步骤\n   - 使用拖拽方式添加步骤，如 '点击按钮'、'填写表单'。\n   - 设置每个步骤的参数和条件。\n\n4. 运行与测试\n   - 点击 '运行' 按钮开始执行任务。\n   - 观察任务执行情况，确保无误。\n\n5. 保存与分享\n   - 任务执行完成后，保存任务。\n   - 可将任务分享给他人使用。",
+      "url": "https://huggingface.co/spaces/oberdiek/GdeDiek-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "gdediek-agent",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "gerador-de-rpa-2026",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页操作，无需编程",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Gerador-de-RPA-2026 进行自动化操作\n\n1. **安装与启动**\n   1. 下载并安装 Gerador-de-RPA-2026。\n   2. 打开软件，选择要自动化的网页。\n\n2. **录制操作**\n   1. 在网页上执行需要自动化的操作。\n   2. 软件自动记录操作步骤。\n\n3. **编辑与运行**\n   1. 检查并编辑录制的操作步骤。\n   2. 点击运行，自动化操作开始执行。\n\n4. **保存与分享**\n   1. 保存自动化脚本。\n   2. 可与他人分享或导入其他项目。",
+      "url": "https://huggingface.co/spaces/contabilidademart/gerador-de-rpa-2026",
+      "status": "active",
+      "is_violation": false,
+      "id": "gerador-de-rpa-2026",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "Hacktron Automations",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化漏洞发现与修复闭环",
+      "tags": [
+        "自动化",
+        "漏洞管理",
+        "安全修复"
+      ],
+      "scenarios": [
+        "安全审计",
+        "漏洞修复",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Hacktron Automations 进行漏洞管理\n\n1. **安装与配置**\n   - 访问 [Hacktron Automations 官网](https://www.producthunt.com/products/hacktron) 下载并安装软件。\n   - 根据提示完成配置，包括设置漏洞数据库和自动化任务。\n\n2. **发现漏洞**\n   - 使用内置扫描工具自动检测系统中的漏洞。\n   - 漏洞扫描完成后，系统会生成详细报告。\n\n3. **修复漏洞**\n   - 根据报告，选择需要修复的漏洞。\n   - 使用自动化工具进行漏洞修复。\n\n4. **监控与报告**\n   - 定期监控系统漏洞状态。\n   - 生成漏洞修复报告，跟踪修复进度。",
+      "url": "https://www.producthunt.com/products/hacktron",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hacktron-automations",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "Purchase API by Agentcard",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "一键API调用，代理在线购物",
+      "tags": [
+        "API",
+        "在线购物",
+        "代理服务",
+        "自动化购买"
+      ],
+      "scenarios": [
+        "电商自动化购买",
+        "批量商品采购",
+        "在线服务自动化"
+      ],
+      "tutorial": "## 使用Purchase API by Agentcard教程\n\n1. 注册并登录Agentcard平台\n\n2. 在平台中创建一个新的任务，选择“购买”作为任务类型\n\n3. 输入购买商品的相关信息，如商品链接、购买数量等\n\n4. 设置购买任务的条件，如价格阈值、购买时间等\n\n5. 调用Purchase API，开始自动化购买流程\n\n6. 查看购买结果，确保商品已成功购买",
+      "url": "https://www.producthunt.com/products/agent-card",
+      "status": "dead",
+      "is_violation": false,
+      "id": "purchase-api-by-agentcard",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "Ninjō AI",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "基于 Claude Code 的全渠道 AI 销售代理",
+      "tags": [
+        "AI销售",
+        "全渠道",
+        "自动化"
+      ],
+      "scenarios": [
+        "电商销售",
+        "客户服务",
+        "营销活动"
+      ],
+      "tutorial": "## 使用 Ninjō AI 进行 AI 销售代理\n\n### 1. 注册与登录\n\n1. 访问 Ninjō AI 官网并注册账号。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建销售代理\n\n1. 在系统首页点击创建销售代理。\n2. 输入代理名称和配置相关参数。\n3. 选择要运行的渠道，如网站、社交媒体等。\n\n### 3. 配置自动化流程\n\n1. 在配置界面，设置自动化销售流程。\n2. 定义触发条件，如客户访问、特定关键词等。\n3. 配置响应内容，如自动回复、推荐产品等。\n\n### 4. 测试与部署\n\n1. 在测试环境中运行代理，确保流程无误。\n2. 部署到生产环境，开始自动化销售。\n\n### 5. 监控与优化\n\n1. 定期检查代理运行状态。\n2. 根据销售数据优化配置。\n3. 提升销售效果。",
+      "url": "https://www.producthunt.com/products/ninjo-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ninj-ai",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "Agnost AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "捕捉评估中遗漏的代理失败",
+      "tags": [
+        "AI",
+        "监控",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Agnost AI 进行代理失败监控\n\n1. 下载并安装 Agnost AI\n\n2. 配置你的代理和目标网页\n\n3. 运行监控任务，设置失败条件\n\n4. 查看监控报告，分析失败原因\n\n5. 根据报告优化代理设置或网页结构",
+      "url": "https://www.producthunt.com/products/agnost-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agnost-ai",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "Flare",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "图形化IDE，交互式地图，用于智能编码",
+      "tags": [
+        "图形化编程",
+        "交互式地图",
+        "智能编码"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Flare使用教程\n\n### 1. 安装Flare\n\n- 访问Flare官网下载最新版本。\n- 根据操作系统选择合适的安装包进行安装。\n\n### 2. 创建新项目\n\n- 打开Flare，点击“新建项目”按钮。\n- 选择项目类型和配置参数。\n\n### 3. 设计交互流程\n\n- 使用拖拽方式将组件拖入画布。\n- 设置组件属性和交互逻辑。\n\n### 4. 运行和测试\n\n- 点击“运行”按钮，观察交互效果。\n- 根据需要调整组件和逻辑。\n\n### 5. 保存和分享\n\n- 保存项目文件。\n- 将项目分享给他人或上传至云端。",
+      "url": "https://www.producthunt.com/products/flare-11",
+      "status": "dead",
+      "is_violation": false,
+      "id": "flare",
+      "added": "2026-08-26"
+    },
+    {
+      "name": "akta.pro",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为代理商经济提供私有公司数据和信号API",
+      "tags": [
+        "数据API",
+        "代理商经济",
+        "私有数据"
+      ],
+      "scenarios": [
+        "数据采集",
+        "市场分析",
+        "商业智能"
+      ],
+      "tutorial": "## Akta.pro 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Akta.pro 官网并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. API 密钥获取\n\n1. 登录后，在个人设置中找到 API 密钥。\n2. 复制 API 密钥以备后续使用。\n\n### 3. 数据查询\n\n1. 在 Akta.pro 控制台中，选择所需的数据类型和查询条件。\n2. 使用 API 密钥进行数据查询。\n3. 查看查询结果。\n\n### 4. 数据应用\n\n1. 将获取的数据应用于市场分析、商业决策等场景。\n2. 定期更新数据以保持分析结果的准确性。",
+      "url": "https://www.producthunt.com/products/akta-pro",
+      "status": "dead",
+      "is_violation": false,
+      "id": "akta-pro",
+      "added": "2026-08-26"
     }
   ],
   "changelog": [
@@ -3540,6 +3805,25 @@
         "Decawork",
         "Offloop",
         "Phoenix"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-26",
+      "added": [
+        "TradingAgents",
+        "awesome-llm-apps",
+        "ponytail",
+        "Agents-Course-Get-Your-Final-Certificate",
+        "GdeDiek-agent",
+        "gerador-de-rpa-2026",
+        "Hacktron Automations",
+        "Purchase API by Agentcard",
+        "Ninjō AI",
+        "Agnost AI",
+        "Flare",
+        "akta.pro"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

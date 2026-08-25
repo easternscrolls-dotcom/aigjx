@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:27:06.172Z",
+  "generatedAt": "2026-08-25T18:27:35.224Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -776,6 +776,66 @@
       "url": "https://aiagent.72tool.com/tools/phoenix.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tradingagents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/awesome-llm-apps.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ponytail.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agents-course-get-your-final-certificate.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gdediek-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gerador-de-rpa-2026.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hacktron-automations.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/purchase-api-by-agentcard.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ninj-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agnost-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/flare.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/akta-pro.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -806,7 +866,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 148,
+    "totalAgents": 160,
     "byCategory": [
       {
         "id": "local",
@@ -816,7 +876,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 107
+        "count": 119
       },
       {
         "id": "workflow",
@@ -834,6 +894,6 @@
         "count": 9
       }
     ],
-    "deadLinks": 65
+    "deadLinks": 71
   }
 }
