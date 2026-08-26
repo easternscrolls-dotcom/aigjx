@@ -3562,6 +3562,274 @@
       "is_violation": false,
       "id": "akta-pro",
       "added": "2026-08-26"
+    },
+    {
+      "name": "archify",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建美观、可验证的架构、工作流、序列、数据流和生命周期图。",
+      "tags": [
+        "架构图",
+        "工作流",
+        "数据流",
+        "HTML"
+      ],
+      "scenarios": [
+        "软件开发",
+        "系统设计",
+        "项目管理"
+      ],
+      "tutorial": "## 使用 Archify 创建架构图\n\n1. **选择模板**\n   - 打开 Archify，选择一个适合您需求的模板。\n\n2. **添加元素**\n   - 使用工具栏中的元素添加到画布上。\n\n3. **自定义样式**\n   - 通过样式选项调整元素的颜色、大小和形状。\n\n4. **连接元素**\n   - 使用线条连接元素以表示关系。\n\n5. **添加动画**\n   - 为元素添加动画效果以增强视觉效果。\n\n6. **导出**\n   - 完成后，导出为 HTML 或其他格式。",
+      "url": "https://github.com/tt-a1i/archify",
+      "status": "active",
+      "is_violation": false,
+      "id": "archify",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "科学领域AI技能库，赋能AI科学家。",
+      "tags": [
+        "AI技能",
+        "科学数据",
+        "生物",
+        "化学"
+      ],
+      "scenarios": [
+        "生物研究",
+        "药物发现",
+        "化学分析"
+      ],
+      "tutorial": "## 使用Scientific-Agent-Skills进行科学数据分析\n1. 选择数据源\n   - 在Scientific-Agent-Skills中选择你需要的科学数据库，如生物学数据库。\n2. 创建技能\n   - 使用库中的技能进行数据查询和分析，例如使用“基因序列比对”技能。\n3. 分析结果\n   - 查看分析结果，并根据需要进一步调整技能参数。\n4. 导出数据\n   - 将分析结果导出为常用格式，如CSV或PDF。\n5. 集成其他工具\n   - 将分析结果集成到其他科学分析工具中，如生物信息学软件。",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "scientific-agent-skills",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "Mitra-heritage-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "网页交互"
+      ],
+      "tutorial": "## Mitra-heritage-agent 使用教程\n\n### 1. 安装与配置\n\n1. 下载并安装 Mitra-heritage-agent。\n2. 配置浏览器插件，确保插件已启用。\n3. 在浏览器中打开目标网页，准备进行自动化操作。\n\n### 2. 创建任务\n\n1. 在插件界面选择创建新任务。\n2. 选择任务类型，如数据采集或表单填写。\n3. 设置任务参数，如目标元素选择器、数据格式等。\n\n### 3. 运行任务\n\n1. 点击运行按钮，开始自动化操作。\n2. 观察任务执行过程，确保操作正确无误。\n3. 任务完成后，下载或导出结果数据。\n\n### 4. 调试与优化\n\n1. 如任务执行过程中出现问题，可查看日志进行调试。\n2. 根据需要调整任务参数，优化自动化流程。",
+      "url": "https://huggingface.co/spaces/Jaggernaut354/Mitra-heritage-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "mitra-heritage-agent",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "OpenComputer",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为智能代理提供类似 Firebase 的云端服务",
+      "tags": [
+        "智能代理",
+        "云端服务",
+        "Firebase",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## OpenComputer 使用教程\n\n### 1. 注册与登录\n\n1. 访问 OpenComputer 官网并注册账号。\n2. 使用注册的账号登录系统。\n\n### 2. 创建代理\n\n1. 在控制台选择创建新的代理。\n2. 输入代理名称和配置信息。\n3. 点击创建完成代理。\n\n### 3. 编写脚本\n\n1. 在代理编辑器中编写自动化脚本。\n2. 使用 OpenComputer 提供的 API 和函数。\n3. 保存并测试脚本。\n\n### 4. 部署与监控\n\n1. 将脚本部署到 OpenComputer 平台。\n2. 监控代理的运行状态和日志。\n3. 根据需要调整脚本和配置。",
+      "url": "https://www.producthunt.com/products/opencomputer",
+      "status": "dead",
+      "is_violation": false,
+      "id": "opencomputer",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "DeployHermes",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "雇佣具有角色、记忆和技能的持久 Hermes 代理",
+      "tags": [
+        "自动化",
+        "代理",
+        "技能管理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 DeployHermes 进行自动化操作\n\n1. 注册并登录 DeployHermes 平台\n\n2. 创建一个新的 Hermes 代理，设置其角色和技能\n\n3. 编写或上传自动化脚本，指定代理执行的任务\n\n4. 部署代理并监控其执行情况\n\n5. 根据需要调整代理的设置和技能，优化自动化流程",
+      "url": "https://www.producthunt.com/products/deployhermes",
+      "status": "dead",
+      "is_violation": false,
+      "id": "deployhermes",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "Screenify Studio",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI助手的Mac产品演示录制工具",
+      "tags": [
+        "AI演示",
+        "Mac录制",
+        "产品展示"
+      ],
+      "scenarios": [
+        "产品演示",
+        "教学视频制作",
+        "在线课程"
+      ],
+      "tutorial": "## 使用Screenify Studio录制产品演示\n1. 下载并安装Screenify Studio。\n2. 打开应用，选择录制模式。\n3. 设置录制区域和音频输入。\n4. 开始录制，进行产品演示。\n5. 演示结束后，保存并导出视频。\n6. 对视频进行编辑和优化，发布到平台。",
+      "url": "https://www.producthunt.com/products/screenify-studio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "screenify-studio",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "choclift for iPad",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "iPad触控栏控制Mac，无需代码",
+      "tags": [
+        "Mac控制",
+        "iPad触控",
+        "远程操作"
+      ],
+      "scenarios": [
+        "Mac远程控制",
+        "跨设备协作",
+        "自动化操作"
+      ],
+      "tutorial": "## 使用Choclift for iPad控制Mac\n\n1. 下载并安装Choclift for iPad应用。\n2. 在Mac上安装Choclift应用并启动。\n3. 在iPad上打开Choclift应用，连接到你的Mac。\n4. 使用iPad的触控栏进行Mac的操作，如文件管理、窗口切换等。\n5. 通过iPad的触控操作，实现Mac的远程控制和自动化。",
+      "url": "https://www.producthunt.com/products/choclift-workflow-sweetener",
+      "status": "dead",
+      "is_violation": false,
+      "id": "choclift-for-ipad",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "Warren",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为代码代理工作负载提供基础设施",
+      "tags": [
+        "自动化",
+        "代码代理",
+        "基础设施"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Warren 使用教程\n\n### 1. 安装 Warren\n\n首先，访问 [Warren 官网](https://www.producthunt.com/products/warren-5) 下载并安装 Warren。\n\n### 2. 创建新项目\n\n安装完成后，打开 Warren，创建一个新的项目。\n\n### 3. 配置代理\n\n在项目中配置代理，以便 Warren 能够自动操作网页。\n\n### 4. 编写脚本\n\n使用 Warren 提供的 API 编写脚本，实现自动化任务。\n\n### 5. 运行脚本\n\n完成脚本编写后，运行脚本以执行自动化任务。",
+      "url": "https://www.producthunt.com/products/warren-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "warren",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "Evidence Core",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建基于代码的实时分析",
+      "tags": [
+        "数据分析",
+        "自动化",
+        "网页分析"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动化测试",
+        "业务监控"
+      ],
+      "tutorial": "## Evidence Core 使用教程\n\n### 1. 安装 Evidence Core\n\n从 [Evidence Core 官网](https://www.producthunt.com/products/evidence) 下载并安装 Evidence Core。\n\n### 2. 创建项目\n\n打开 Evidence Core，创建一个新的项目，并设置项目名称和描述。\n\n### 3. 编写代码\n\n在 Evidence Core 的代码编辑器中编写代码，实现数据分析逻辑。\n\n### 4. 运行分析\n\n点击运行按钮，Evidence Core 将执行代码并生成分析结果。\n\n### 5. 查看结果\n\n分析完成后，查看生成的报告和可视化图表，了解数据情况。",
+      "url": "https://www.producthunt.com/products/evidence",
+      "status": "dead",
+      "is_violation": false,
+      "id": "evidence-core",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "Arena Agent Mode with GitHub",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速将想法变为现实，实现分钟级部署",
+      "tags": [
+        "自动化",
+        "工作流",
+        "GitHub"
+      ],
+      "scenarios": [
+        "项目协作",
+        "代码管理",
+        "开发效率提升"
+      ],
+      "tutorial": "## Arena Agent Mode with GitHub 使用教程\n\n1. 下载并安装 Arena Agent Mode。\n2. 在 GitHub 上创建或选择一个项目。\n3. 使用 Arena Agent Mode 的可视化界面配置工作流。\n4. 将配置好的工作流与 GitHub 项目关联。\n5. 触发工作流，实现自动化操作。",
+      "url": "https://www.producthunt.com/products/arena-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "arena-agent-mode-with-github",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "TaskShell 2.0",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "以Agent为中心的任务管理，提升生产力",
+      "tags": [
+        "任务管理",
+        "自动化",
+        "工作流"
+      ],
+      "scenarios": [
+        "企业内部任务管理",
+        "团队协作",
+        "项目管理"
+      ],
+      "tutorial": "## TaskShell 2.0 使用教程\n\n### 1. 创建任务\n1. 登录TaskShell 2.0平台。\n2. 点击“创建任务”按钮。\n3. 输入任务名称和描述。\n4. 设置任务优先级和截止日期。\n5. 分配任务给团队成员。\n\n### 2. 分配任务\n1. 在任务列表中找到需要分配的任务。\n2. 点击任务右侧的“分配”按钮。\n3. 选择团队成员并设置权限。\n4. 点击“确认”完成分配。\n\n### 3. 跟踪任务\n1. 在任务列表中查看任务进度。\n2. 点击任务名称进入任务详情页。\n3. 查看任务日志和团队成员的更新。\n4. 对任务进行评论和反馈。\n\n### 4. 完成任务\n1. 当任务完成时，点击任务右侧的“完成”按钮。\n2. 任务状态将更新为已完成。\n3. 可对任务进行评价和总结。",
+      "url": "https://www.producthunt.com/products/taskshell",
+      "status": "dead",
+      "is_violation": false,
+      "id": "taskshell-2-0",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "macadress",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "应用、网络和AI代理的MAC地址智能分析工具",
+      "tags": [
+        "MAC地址",
+        "网络分析",
+        "AI代理",
+        "应用监控"
+      ],
+      "scenarios": [
+        "网络管理",
+        "应用安全",
+        "数据采集"
+      ],
+      "tutorial": "## 使用macadress进行MAC地址分析\n\n1. 下载并安装macadress工具。\n2. 打开工具，选择要分析的MAC地址类型（如设备、网络等）。\n3. 输入或扫描目标MAC地址。\n4. 工具将自动分析MAC地址的相关信息，包括设备类型、制造商、网络状态等。\n5. 查看分析结果，了解MAC地址的详细信息。",
+      "url": "https://www.producthunt.com/products/macadress",
+      "status": "dead",
+      "is_violation": false,
+      "id": "macadress",
+      "added": "2026-08-27"
     }
   ],
   "changelog": [
@@ -3824,6 +4092,25 @@
         "Agnost AI",
         "Flare",
         "akta.pro"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-27",
+      "added": [
+        "archify",
+        "scientific-agent-skills",
+        "Mitra-heritage-agent",
+        "OpenComputer",
+        "DeployHermes",
+        "Screenify Studio",
+        "choclift for iPad",
+        "Warren",
+        "Evidence Core",
+        "Arena Agent Mode with GitHub",
+        "TaskShell 2.0",
+        "macadress"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
