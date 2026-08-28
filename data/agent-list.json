@@ -3830,6 +3830,254 @@
       "is_violation": false,
       "id": "macadress",
       "added": "2026-08-27"
+    },
+    {
+      "name": "go-modern-guidelines",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "辅助AI编写现代Go语言的浏览器插件",
+      "tags": [
+        "Go语言",
+        "代码辅助",
+        "AI编程"
+      ],
+      "scenarios": [
+        "代码审查",
+        "代码生成",
+        "编程辅助"
+      ],
+      "tutorial": "## 使用go-modern-guidelines进行Go语言代码辅助\n\n### 1. 安装插件\n\n1. 访问[GitHub](https://github.com/golang/go-modern-guidelines)下载插件。\n2. 打开你的浏览器扩展程序设置，选择添加已解压的扩展程序，选择下载的插件文件夹。\n\n### 2. 配置插件\n\n1. 在浏览器中打开Go代码编辑器。\n2. 在编辑器中打开插件设置，配置你的Go语言环境路径。\n\n### 3. 开始使用\n\n1. 编写Go语言代码。\n2. 插件会自动分析代码并提供现代Go语言的最佳实践建议。\n3. 根据建议优化你的代码。",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "status": "active",
+      "is_violation": false,
+      "id": "go-modern-guidelines",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "OpenMontage",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源视频制作系统，AI 辅助视频制作。",
+      "tags": [
+        "视频制作",
+        "AI 辅助",
+        "开源"
+      ],
+      "scenarios": [
+        "视频内容创作",
+        "AI 辅助制作"
+      ],
+      "tutorial": "## OpenMontage 使用教程\n\n### 1. 安装与启动\n1. 下载并安装 OpenMontage。\n2. 打开软件，进入主界面。\n3. 选择一个项目模板开始制作。\n\n### 2. 创建视频内容\n1. 在素材库中选择视频、音频、图片等素材。\n2. 使用拖拽功能将素材添加到时间轴上。\n3. 调整素材的时长、顺序等。\n\n### 3. 添加AI辅助\n1. 在工具栏中选择AI辅助工具。\n2. 根据提示输入相关信息。\n3. AI将自动生成视频内容。\n\n### 4. 导出视频\n1. 完成视频制作后，点击导出按钮。\n2. 选择导出格式和分辨率。\n3. 导出视频文件。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "status": "active",
+      "is_violation": false,
+      "id": "openmontage",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "claude-mem",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨会话持久化上下文，增强智能代理交互体验",
+      "tags": [
+        "AI",
+        "上下文持久化",
+        "智能代理",
+        "会话增强"
+      ],
+      "scenarios": [
+        "智能客服",
+        "代码助手",
+        "多任务协作"
+      ],
+      "tutorial": "## 使用 Claude-mem 进行跨会话持久化上下文教程\n\n### 1. 安装 Claude-mem\n\n首先，您需要在您的项目中安装 Claude-mem。可以通过以下命令进行安装：\n\n```bash\npip install claude-mem\n```\n\n### 2. 配置 Claude-mem\n\n安装完成后，您需要在您的项目中配置 Claude-mem。这通常涉及到设置一个上下文存储服务，例如 Redis 或内存数据库。以下是一个简单的配置示例：\n\n```python\nfrom claude_mem import ContextManager\ncontext_manager = ContextManager('redis://localhost:6379/0')\n```\n\n### 3. 使用 Claude-mem\n\n在您的会话中，您可以使用 Claude-mem 来捕获和存储上下文。以下是一个简单的使用示例：\n\n```python\ndef handle_session(session_id, user_input):\n    context = context_manager.get(session_id)\n    if context:\n        response = 'Hello, I remember you from last time.'\n    else:\n        response = 'Hello, I am Claude-mem.'\n    context_manager.set(session_id, user_input)\n    re",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "status": "active",
+      "is_violation": false,
+      "id": "claude-mem",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Claude技能资源库，定制AI工作流",
+      "tags": [
+        "AI",
+        "技能",
+        "资源",
+        "工作流"
+      ],
+      "scenarios": [
+        "AI应用开发",
+        "工作流程自动化",
+        "数据采集"
+      ],
+      "tutorial": "## 使用Awesome Claude Skills教程\n\n1. 下载并安装\n   - 访问GitHub仓库，下载Awesome Claude Skills。\n   - 解压文件，按照说明进行安装。\n\n2. 配置环境\n   - 确保你的开发环境已安装必要的依赖库。\n   - 配置 Claude API 密钥和环境变量。\n\n3. 创建工作流\n   - 使用提供的模板或自定义工作流。\n   - 添加Claude技能和资源，进行配置。\n\n4. 测试与运行\n   - 运行工作流，测试功能是否正常。\n   - 根据反馈调整配置和技能。\n\n5. 集成与应用\n   - 将工作流集成到现有系统中。\n   - 扩展功能，优化工作流程。",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "awesome-claude-skills",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "Skydive",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "构建跨工具的云代理",
+      "tags": [
+        "云代理",
+        "跨工具",
+        "自动化"
+      ],
+      "scenarios": [
+        "云服务集成",
+        "自动化工作流",
+        "数据同步"
+      ],
+      "tutorial": "## Skydive 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Skydive 官网](https://www.producthunt.com/products/skydive) 进行注册。\n2. 使用注册的账户登录系统。\n\n### 2. 创建代理\n\n1. 在控制台中点击 '创建代理'。\n2. 输入代理名称和描述。\n3. 选择要连接的工具和服务。\n\n### 3. 配置代理\n\n1. 根据需要配置代理的参数和设置。\n2. 测试代理是否正常工作。\n\n### 4. 集成与监控\n\n1. 将代理集成到你的工作流中。\n2. 监控代理的运行状态和性能。",
+      "url": "https://www.producthunt.com/products/skydive",
+      "status": "dead",
+      "is_violation": false,
+      "id": "skydive",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "Lenz",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 工作流中立的、多模型事实核查 API",
+      "tags": [
+        "AI",
+        "事实核查",
+        "API",
+        "工作流"
+      ],
+      "scenarios": [
+        "内容审核",
+        "数据验证",
+        "AI 辅助决策"
+      ],
+      "tutorial": "## Lenz 使用教程\n\n1. 注册并获取 API 密钥\n\n   访问 Lenz 官网，注册账号并获取 API 密钥。\n\n2. 集成 API 到你的工作流\n\n   在你的 AI 工作流中集成 Lenz API，使用获取的密钥进行身份验证。\n\n3. 发送请求进行事实核查\n\n   使用 Lenz API 发送请求，传入待核查的内容，获取核查结果。\n\n4. 分析核查结果\n\n   根据核查结果，对内容进行相应的处理或决策。",
+      "url": "https://www.producthunt.com/products/lenz-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "lenz",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "IQ Routing",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能路径感知的LLM路由，降低代理成本",
+      "tags": [
+        "智能路由",
+        "LLM",
+        "成本优化",
+        "代理管理"
+      ],
+      "scenarios": [
+        "网站导航",
+        "数据采集",
+        "自动化操作"
+      ],
+      "tutorial": "## 使用IQ Routing进行智能路由\n1. 下载并安装IQ Routing软件。\n2. 打开软件，配置路由规则和目标网站。\n3. 设置智能路径感知算法的参数，如延迟阈值、成本预算等。\n4. 启动路由服务，IQ Routing将自动根据设定的规则和算法进行代理选择和路径优化。\n5. 监控路由效果，根据需要调整参数以优化性能。",
+      "url": "https://www.producthunt.com/products/iq-routing",
+      "status": "dead",
+      "is_violation": false,
+      "id": "iq-routing",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "Traccia",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "中立AI代理控制平面，支持多平台。",
+      "tags": [
+        "AI代理",
+        "控制平面",
+        "多平台支持",
+        "自动化"
+      ],
+      "scenarios": [
+        "企业自动化流程",
+        "跨平台协作",
+        "AI代理管理"
+      ],
+      "tutorial": "## Traccia 使用教程\n\n1. 注册并登录Traccia平台。\n2. 创建一个新的代理项目，选择所需的平台和服务。\n3. 设计代理流程，使用可视化界面拖拽组件。\n4. 部署代理，监控运行状态。\n5. 根据需要调整和优化代理流程。",
+      "url": "https://www.producthunt.com/products/traccia",
+      "status": "dead",
+      "is_violation": false,
+      "id": "traccia",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "Pluto",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理打造专业个人资料",
+      "tags": [
+        "AI",
+        "个人资料",
+        "自动化"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "职业发展",
+        "个人品牌建设"
+      ],
+      "tutorial": "## 使用Pluto创建AI代理\n\n1. 注册并登录Pluto平台。\n2. 创建一个新的AI代理，选择合适的模板或自定义设置。\n3. 配置代理的个人信息和社交媒体账号。\n4. 设置自动化任务，如定期更新社交媒体内容。\n5. 查看代理的运行情况，并根据需要调整设置。",
+      "url": "https://www.producthunt.com/products/pluto-11",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pluto",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "GitNexus (Akon Labs)",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源网页Agent内核，自动化网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "开源",
+        "Agent"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## GitNexus 使用教程\n\n1. 下载并安装 GitNexus\n\n   访问 [GitNexus 官网](https://www.example.com/gitnexus) 下载最新版本，并按照提示完成安装。\n\n2. 创建新项目\n\n   打开 GitNexus，点击 '创建新项目'，输入项目名称并选择项目类型。\n\n3. 编写Agent脚本\n\n   在项目编辑器中，使用提供的编程语言编写Agent脚本，实现自动化任务。\n\n4. 运行Agent\n\n   点击 '运行' 按钮，GitNexus 将自动执行脚本，完成指定任务。\n\n5. 监控与调试\n\n   在日志窗口中查看Agent执行情况，如有错误，可进行调试。",
+      "url": "https://www.producthunt.com/products/gitnexus-akon-labs",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gitnexus-akon-labs",
+      "added": "2026-08-28"
+    },
+    {
+      "name": "Ojin",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "实时与拥有真实面容和声音的AI代理交流",
+      "tags": [
+        "AI代理",
+        "实时交流",
+        "虚拟形象",
+        "语音交互"
+      ],
+      "scenarios": [
+        "在线客服",
+        "虚拟助手",
+        "客户服务"
+      ],
+      "tutorial": "## Ojin使用教程\n\n### 1. 注册与登录\n\n1. 访问Ojin官网，点击注册按钮，使用邮箱或社交媒体账号注册。\n2. 完成注册流程后，使用注册的账号登录。\n\n### 2. 创建AI代理\n\n1. 登录后，进入Ojin的控制面板。\n2. 点击创建AI代理，填写相关信息，如代理名称、形象等。\n3. 设置代理的语音和面部表情，使其更符合需求。\n\n### 3. 配置交互功能\n\n1. 在代理设置中，配置交互功能，如自动回复、智能问答等。\n2. 可以设置关键词触发特定回复，提高交互的智能化。\n\n### 4. 测试与部署\n\n1. 在控制面板中测试AI代理的交互效果。\n2. 确认无误后，将AI代理部署到网站或应用中，开始提供服务。",
+      "url": "https://www.producthunt.com/products/ojin",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ojin",
+      "added": "2026-08-28"
     }
   ],
   "changelog": [
@@ -4111,6 +4359,24 @@
         "Arena Agent Mode with GitHub",
         "TaskShell 2.0",
         "macadress"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-28",
+      "added": [
+        "go-modern-guidelines",
+        "OpenMontage",
+        "claude-mem",
+        "awesome-claude-skills",
+        "Skydive",
+        "Lenz",
+        "IQ Routing",
+        "Traccia",
+        "Pluto",
+        "GitNexus (Akon Labs)",
+        "Ojin"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

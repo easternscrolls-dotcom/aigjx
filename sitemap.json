@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:36:55.384Z",
+  "generatedAt": "2026-08-28T01:58:15.781Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -896,6 +896,61 @@
       "url": "https://aiagent.72tool.com/tools/macadress.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/go-modern-guidelines.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openmontage.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/claude-mem.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/awesome-claude-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/skydive.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lenz.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/iq-routing.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/traccia.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pluto.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gitnexus-akon-labs.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ojin.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -926,7 +981,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 172,
+    "totalAgents": 183,
     "byCategory": [
       {
         "id": "local",
@@ -936,12 +991,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 130
+        "count": 139
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 13
+        "count": 14
       },
       {
         "id": "crossborder",
@@ -951,9 +1006,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 9
+        "count": 10
       }
     ],
-    "deadLinks": 80
+    "deadLinks": 87
   }
 }
