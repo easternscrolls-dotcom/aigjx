@@ -4078,6 +4078,278 @@
       "is_violation": false,
       "id": "ojin",
       "added": "2026-08-28"
+    },
+    {
+      "name": "GitNexus",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器端零服务器代码智能引擎，实现代码知识图谱。",
+      "tags": [
+        "代码探索",
+        "知识图谱",
+        "Git",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "代码库管理",
+        "代码分析",
+        "团队协作"
+      ],
+      "tutorial": "## GitNexus 使用教程\n\n### 1. 安装插件\n在浏览器扩展商店搜索并安装 GitNexus 插件。\n\n### 2. 添加代码库\n访问你的 Git 仓库（如 Github, Gitlab, Azure 或本地仓库），点击 GitNexus 插件图标，选择添加代码库。\n\n### 3. 生成知识图谱\n选择代码库后，GitNexus 将自动生成知识图谱，你可以通过图形界面进行交互式探索。\n\n### 4. 使用 Graph RAG Agent\n在知识图谱中，你可以使用内置的 Graph RAG Agent 进行更深入的代码分析。",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "status": "active",
+      "is_violation": false,
+      "id": "gitnexus",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Chrome开发者工具，用于编写代理代码",
+      "tags": [
+        "Chrome",
+        "开发者工具",
+        "代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "前端开发辅助",
+        "代码调试"
+      ],
+      "tutorial": "## 使用Chrome DevTools-mcp进行代理代码编写\n1. 安装Chrome DevTools-mcp\n   - 访问Chrome Web Store，搜索并安装Chrome DevTools-mcp扩展。\n2. 打开Chrome DevTools\n   - 打开Chrome浏览器，按下F12或右键选择“检查”打开开发者工具。\n3. 编写代理代码\n   - 在DevTools的Console中输入JavaScript代码，实现所需功能。\n4. 运行和调试\n   - 运行代码并观察效果，使用断点进行调试。\n5. 保存和分享\n   - 保存代码，并通过扩展或链接与他人分享。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "status": "active",
+      "is_violation": false,
+      "id": "chrome-devtools-mcp",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "agents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建实时语音AI代理的框架",
+      "tags": [
+        "AI",
+        "语音",
+        "自动化"
+      ],
+      "scenarios": [
+        "客服机器人",
+        "语音助手",
+        "智能交互"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装\n\n1. 下载 Agents 框架源代码。\n2. 使用 npm 或 yarn 进行安装依赖。\n\n### 2. 配置\n\n1. 编辑配置文件，设置API密钥和语音识别服务。\n2. 配置语音合成服务，如Google Text-to-Speech。\n\n### 3. 开发\n\n1. 编写代码实现语音识别和语音合成逻辑。\n2. 使用事件监听器处理用户输入和输出。\n\n### 4. 部署\n\n1. 将应用部署到服务器或云平台。\n2. 确保网络连接稳定，以支持实时交互。",
+      "url": "https://github.com/livekit/agents",
+      "status": "active",
+      "is_violation": false,
+      "id": "agents",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "stock-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "股票信息自动采集与分析浏览器插件",
+      "tags": [
+        "股票",
+        "数据采集",
+        "分析",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "股票市场分析",
+        "投资决策支持",
+        "量化交易"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装插件\n\n1. 访问 [stock-agent 插件页面](https://example.com/stock-agent-plugin)\n2. 点击 '添加到 Chrome' 或 '添加到 Firefox'\n3. 确认添加插件\n\n### 2. 配置插件\n\n1. 打开浏览器扩展页面\n2. 找到 stock-agent 插件\n3. 点击设置，配置所需参数，如股票代码、数据源等\n\n### 3. 开始采集\n\n1. 访问股票信息页面\n2. 插件自动识别页面并开始采集数据\n3. 数据采集完成后，插件会自动进行分析并展示结果",
+      "url": "https://huggingface.co/spaces/sweeet1/stock-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "stock-agent",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "Gaia-Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码实现网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "Hugging Face"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## Gaia-Agent 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Gaia-Agent 安装包。\n2. 解压安装包并运行 Gaia-Agent。\n3. 确保浏览器已安装相应的插件或扩展。\n\n### 2. 创建任务\n\n1. 打开 Gaia-Agent，选择创建新任务。\n2. 输入任务名称和描述。\n3. 选择目标网页和操作类型（如点击、输入、滚动等）。\n\n### 3. 编排操作\n\n1. 在操作列表中，拖拽操作步骤到编排区域。\n2. 设置每个操作的参数和条件。\n3. 保存编排后的任务。\n\n### 4. 运行与监控\n\n1. 点击运行任务，Gaia-Agent 将自动执行编排的操作。\n2. 在监控界面查看任务执行状态和日志。\n3. 如有异常，可暂停或终止任务。",
+      "url": "https://huggingface.co/spaces/Devil02047/Gaia-Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "gaia-agent",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "CTRL Micro",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac上的人工智能触觉控制平台",
+      "tags": [
+        "Mac",
+        "AI",
+        "触觉控制"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "AI交互",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用CTRL Micro进行自动化操作\n1. 下载并安装CTRL Micro应用。\n2. 打开CTRL Micro，选择你想要自动化的Mac应用或网页。\n3. 使用拖放方式录制操作步骤，如点击、滑动等。\n4. 保存并运行自动化脚本，CTRL Micro将按照你的步骤执行操作。\n5. 可以通过编辑脚本调整自动化流程。",
+      "url": "https://www.producthunt.com/products/ctrl-micro",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ctrl-micro",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "Spline V2",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "3D平台，适用于智能代理时代",
+      "tags": [
+        "3D",
+        "平台",
+        "智能代理",
+        "网页"
+      ],
+      "scenarios": [
+        "网页设计",
+        "3D建模",
+        "交互式展示"
+      ],
+      "tutorial": "## Spline V2 使用教程\n\n1. 注册与登录\n\n   访问Spline官网，注册账号并登录。\n\n2. 创建新项目\n\n   在个人工作区，点击创建新项目，选择合适的模板或从空白开始。\n\n3. 设计3D模型\n\n   使用Spline提供的工具和功能，开始设计你的3D模型。\n\n4. 导出与分享\n\n   完成设计后，导出模型并分享到社交媒体或与同事协作。",
+      "url": "https://www.producthunt.com/products/spline",
+      "status": "dead",
+      "is_violation": false,
+      "id": "spline-v2",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "screenpipe",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "记录电脑操作，为智能代理提供数据。",
+      "tags": [
+        "AI",
+        "自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据记录",
+        "智能代理训练"
+      ],
+      "tutorial": "## 使用 Screenpipe 记录电脑操作\n\n1. 下载并安装 Screenpipe。\n2. 打开 Screenpipe 应用，选择需要记录的操作。\n3. 点击开始录制，执行需要记录的操作。\n4. 录制完成后，保存录制文件。\n5. 使用录制文件训练智能代理，实现自动化操作。",
+      "url": "https://www.producthunt.com/products/screenpipe",
+      "status": "dead",
+      "is_violation": false,
+      "id": "screenpipe",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "Aramb",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "20分钟内构建、发布并盈利AI代理",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "盈利"
+      ],
+      "scenarios": [
+        "网站自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Aramb构建AI代理\n\n1. 注册并登录Aramb平台。\n2. 创建一个新的AI代理项目。\n3. 使用可视化编辑器设计代理流程，包括网页操作、数据采集等。\n4. 部署代理并监控其运行状态。\n5. 通过Aramb的内置功能将代理商业化。",
+      "url": "https://www.producthunt.com/products/aramb",
+      "status": "dead",
+      "is_violation": false,
+      "id": "aramb",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "Caddi",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一次工作，构建智能代理",
+      "tags": [
+        "自动化",
+        "智能代理",
+        "工作流",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Caddi 使用教程\n\n### 1. 创建新代理\n\n1. 打开 Caddi，点击 '新建代理'。\n2. 输入代理名称，选择代理类型。\n3. 点击 '下一步'。\n\n### 2. 设计工作流程\n\n1. 在工作流程编辑器中，拖拽元素到画布上。\n2. 设置元素的动作，如点击、输入等。\n3. 连接元素，形成完整的工作流程。\n\n### 3. 运行和测试\n\n1. 点击 '运行'，观察代理执行工作流程。\n2. 根据需要调整工作流程，确保代理按预期工作。\n3. 点击 '保存'，保存你的代理。",
+      "url": "https://www.producthunt.com/products/caddi-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "caddi",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "Firecrawl Developer Index",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "70M+编程代理资源索引，网页自动化工具",
+      "tags": [
+        "资源索引",
+        "编程代理",
+        "网页自动化"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动化测试",
+        "网页爬虫"
+      ],
+      "tutorial": "## 使用Firecrawl Developer Index\n\n1. 访问Firecrawl Developer Index网站\n   - 在浏览器中输入网址访问Firecrawl Developer Index。\n\n2. 浏览资源索引\n   - 网站首页展示丰富的编程代理资源，包括代码片段、库、工具等。\n\n3. 搜索特定资源\n   - 使用搜索框输入关键词，快速找到所需资源。\n\n4. 浏览资源详情\n   - 点击资源名称，查看详细信息，包括描述、使用方法等。\n\n5. 下载或使用资源\n   - 根据需要下载资源或直接在网站上使用。",
+      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+      "status": "dead",
+      "is_violation": false,
+      "id": "firecrawl-developer-index",
+      "added": "2026-08-29"
+    },
+    {
+      "name": "Almanac",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代理，第二大脑",
+      "tags": [
+        "智能代理",
+        "知识管理",
+        "数据收集",
+        "自动化"
+      ],
+      "scenarios": [
+        "知识管理",
+        "数据收集",
+        "自动化任务"
+      ],
+      "tutorial": "## Almanac 使用教程\n\n### 1. 安装 Almanac\n\n- 访问 [Almanac 官网](https://www.producthunt.com/products/almanac-5) 下载并安装 Almanac。\n\n### 2. 配置账户\n\n- 打开 Almanac，使用邮箱注册或登录。\n\n### 3. 添加数据源\n\n- 在 Almanac 中添加你想要收集数据的网站或服务。\n\n### 4. 创建任务\n\n- 设置任务规则，如关键词、时间等，Almanac 将自动收集相关数据。\n\n### 5. 查看和管理数据\n\n- 在 Almanac 中查看和管理收集到的数据。\n\n### 6. 导出数据\n\n- 将收集到的数据导出为需要的格式，如 CSV、Excel 等。",
+      "url": "https://www.producthunt.com/products/almanac-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "almanac",
+      "added": "2026-08-29"
     }
   ],
   "changelog": [
@@ -4377,6 +4649,25 @@
         "Pluto",
         "GitNexus (Akon Labs)",
         "Ojin"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-29",
+      "added": [
+        "GitNexus",
+        "chrome-devtools-mcp",
+        "agents",
+        "stock-agent",
+        "Gaia-Agent",
+        "CTRL Micro",
+        "Spline V2",
+        "screenpipe",
+        "Aramb",
+        "Caddi",
+        "Firecrawl Developer Index",
+        "Almanac"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
