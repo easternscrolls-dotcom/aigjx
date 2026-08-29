@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T01:21:58.150Z",
+  "generatedAt": "2026-08-29T20:11:25.340Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1011,6 +1011,36 @@
       "url": "https://aiagent.72tool.com/tools/almanac.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openmaic.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ods.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/router.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/farmagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/staats.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1041,7 +1071,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 195,
+    "totalAgents": 201,
     "byCategory": [
       {
         "id": "local",
@@ -1051,7 +1081,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 151
+        "count": 157
       },
       {
         "id": "workflow",
@@ -1069,6 +1099,6 @@
         "count": 10
       }
     ],
-    "deadLinks": 94
+    "deadLinks": 95
   }
 }

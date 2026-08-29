@@ -4350,6 +4350,140 @@
       "is_violation": false,
       "id": "almanac",
       "added": "2026-08-29"
+    },
+    {
+      "name": "OpenMAIC",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一键获取沉浸式多智能体学习体验",
+      "tags": [
+        "多智能体",
+        "互动课堂",
+        "学习体验",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "在线教育",
+        "远程教学",
+        "互动式学习"
+      ],
+      "tutorial": "## OpenMAIC 使用教程\n\n### 1. 安装插件\n\n1. 访问 [OpenMAIC GitHub 仓库](https://github.com/your-repo/openmaic)。\n2. 点击页面右上角的 'Code' 按钮。\n3. 选择 'Clone or download'，然后点击 'Download ZIP' 下载插件。\n4. 打开 Chrome 浏览器，进入 '扩展程序' 页面，点击 '加载已解压的扩展程序'，选择下载的 ZIP 文件。\n\n### 2. 配置环境\n\n1. 打开 OpenMAIC 插件，根据提示完成配置。\n2. 配置完成后，插件将自动启动。\n\n### 3. 开始学习\n\n1. 在浏览器中打开需要学习的页面。\n2. 点击 OpenMAIC 插件图标，选择相应的学习模式。\n3. 插件将自动进行多智能体交互，提供沉浸式学习体验。\n\n### 4. 保存学习记录\n\n1. 学习结束后，插件会自动保存学习记录。\n2. 可以在插件中查看和导出学习记录。",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "status": "active",
+      "is_violation": false,
+      "id": "openmaic",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "ODS",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将电脑变身为AI服务器，支持LLM推理、聊天UI、语音、代理、工作流等功能。",
+      "tags": [
+        "AI服务器",
+        "LLM推理",
+        "聊天UI",
+        "工作流"
+      ],
+      "scenarios": [
+        "AI应用开发",
+        "聊天机器人",
+        "自动化工作流"
+      ],
+      "tutorial": "## ODS使用教程\n\n### 1. 安装ODS\n从GitHub下载并安装ODS，按照官方文档进行配置。\n\n### 2. 配置LLM\n在ODS中配置你的LLM模型，包括模型路径、API密钥等。\n\n### 3. 创建聊天UI\n使用ODS提供的UI工具创建聊天界面，配置聊天逻辑。\n\n### 4. 部署工作流\n设计并部署你的工作流，实现自动化任务。\n\n### 5. 测试与优化\n测试你的AI服务器，根据反馈进行优化。",
+      "url": "https://github.com/Osmantic/ODS",
+      "status": "active",
+      "is_violation": false,
+      "id": "ods",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "agent-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI编码代理提供生产级工程技能。",
+      "tags": [
+        "AI编码",
+        "自动化",
+        "工程技能"
+      ],
+      "scenarios": [
+        "代码审查",
+        "代码生成",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用Agent Skills进行AI编码\n\n1. 安装Agent Skills\n   - 下载并安装Agent Skills插件或库。\n2. 配置环境\n   - 配置必要的开发环境，如Python、Node.js等。\n3. 创建项目\n   - 使用Agent Skills创建一个新的编码项目。\n4. 编写代码\n   - 使用AI代理编写代码，Agent Skills提供语法高亮、代码补全等功能。\n5. 运行和测试\n   - 运行代码并使用内置的测试工具进行测试。\n6. 部署\n   - 将代码部署到目标环境。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-skills",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "router",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能路由器，快速匹配模型处理请求",
+      "tags": [
+        "路由",
+        "模型匹配",
+        "性能优化"
+      ],
+      "scenarios": [
+        "自动数据处理",
+        "智能客服",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Router 工具\n\n### 1. 模型注册\n\n1. 在 Router 控制台中注册你的模型。\n2. 为每个模型设置相应的路由规则。\n3. 确保模型状态在线。\n\n### 2. 请求路由\n\n1. 发送请求到 Router 的指定端点。\n2. Router 根据路由规则，将请求路由到相应的模型。\n3. 模型处理请求并返回结果。\n\n### 3. 性能监控\n\n1. 查看 Router 的性能指标，如响应时间、错误率等。\n2. 根据监控结果优化模型和路由规则。\n\n### 4. 成本优化\n\n1. 通过调整路由规则，优化模型使用率。\n2. 观察成本变化，确保节省 40-70% 的成本。",
+      "url": "https://github.com/workweave/router",
+      "status": "active",
+      "is_violation": false,
+      "id": "router",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "FarmAgent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，简化网页操作。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## FarmAgent 使用教程\n\n1. 下载与安装\n   - 访问 [FarmAgent 官网](https://www.farmagent.com) 下载最新版本。\n   - 按照提示完成安装。\n\n2. 创建项目\n   - 打开 FarmAgent，点击 '新建项目'。\n   - 输入项目名称并选择项目类型。\n\n3. 编写脚本\n   - 在脚本编辑器中，使用拖拽方式添加操作步骤。\n   - 例如，添加 '打开网页'、'填写表单' 等步骤。\n\n4. 运行与调试\n   - 点击 '运行' 按钮执行脚本。\n   - 观察日志输出，进行调试。\n\n5. 保存与分享\n   - 完成后，保存项目。\n   - 可将项目分享给他人。",
+      "url": "https://huggingface.co/spaces/yasiremre/FarmAgent",
+      "status": "active",
+      "is_violation": false,
+      "id": "farmagent",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "Staats",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能网站状态查询助手",
+      "tags": [
+        "网站状态",
+        "智能助手",
+        "自动化"
+      ],
+      "scenarios": [
+        "网站监控",
+        "性能分析",
+        "数据采集"
+      ],
+      "tutorial": "## Staats 使用教程\n\n### 1. 安装 Staats\n\n首先，访问 Staats 的官方网站下载并安装 Staats。安装完成后，启动应用程序。\n\n### 2. 创建新任务\n\n在 Staats 的主界面，点击 '创建新任务' 按钮，输入需要监控的网站 URL。\n\n### 3. 设置监控频率\n\n选择监控频率，例如每天、每周或每月。根据需要设置提醒和警报。\n\n### 4. 查看监控结果\n\n任务设置完成后， Staats 将自动监控网站状态，并在发现问题时发送通知。\n\n### 5. 分析数据\n\n查看历史监控数据，分析网站性能和稳定性。",
+      "url": "https://www.producthunt.com/products/staats-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "staats",
+      "added": "2026-08-30"
     }
   ],
   "changelog": [
@@ -4668,6 +4802,19 @@
         "Caddi",
         "Firecrawl Developer Index",
         "Almanac"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-30",
+      "added": [
+        "OpenMAIC",
+        "ODS",
+        "agent-skills",
+        "router",
+        "FarmAgent",
+        "Staats"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
