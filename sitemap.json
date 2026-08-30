@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T20:11:25.340Z",
+  "generatedAt": "2026-08-30T20:18:44.336Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1041,6 +1041,36 @@
       "url": "https://aiagent.72tool.com/tools/staats.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/last30days-skill.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clearpath-backend.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/data-analysis-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/omlx.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/maritime.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/superagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1071,7 +1101,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 201,
+    "totalAgents": 207,
     "byCategory": [
       {
         "id": "local",
@@ -1081,7 +1111,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 157
+        "count": 163
       },
       {
         "id": "workflow",
@@ -1099,6 +1129,6 @@
         "count": 10
       }
     ],
-    "deadLinks": 95
+    "deadLinks": 98
   }
 }

@@ -4484,6 +4484,141 @@
       "is_violation": false,
       "id": "staats",
       "added": "2026-08-30"
+    },
+    {
+      "name": "last30days-skill",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨平台AI技能，研究Reddit、X、YouTube等平台上的任何主题，并生成总结。",
+      "tags": [
+        "AI",
+        "信息聚合",
+        "跨平台",
+        "总结"
+      ],
+      "scenarios": [
+        "内容研究",
+        "市场分析",
+        "趋势追踪"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装last30days-skill插件。\n2. 在浏览器中打开目标网站，如Reddit。\n3. 使用插件搜索感兴趣的主题。\n4. 插件将自动从多个平台收集相关信息。\n5. 插件生成并展示主题的总结。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "status": "active",
+      "is_violation": false,
+      "id": "last30days-skill",
+      "added": "2026-08-31"
+    },
+    {
+      "name": "clearpath-backend",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## 使用 Clearpath-Backend 进行网页自动化\n\n### 1. 安装依赖\n确保已安装 Python 和 pip，然后运行以下命令安装依赖：\n\n```bash\npip install clearpath-backend\n```\n\n### 2. 创建脚本\n创建一个 Python 脚本，例如 `script.py`，并导入 clearpath-backend：\n\n```python\nfrom clearpath_backend import *  # 导入所有功能\n```\n\n### 3. 编写自动化代码\n在脚本中编写自动化代码，例如：\n\n```python\n# 定义一个函数，用于打开网页\ndef open_website(url):\n    driver = create_driver()  # 创建浏览器驱动\n    driver.get(url)  # 打开网页\n\n# 调用函数\nopen_website('https://www.example.com')\n```\n\n### 4. 运行脚本\n在命令行中运行脚本：\n\n```bash\npython script.py\n```",
+      "url": "https://huggingface.co/spaces/wahb-ai/clearpath-backend",
+      "status": "active",
+      "is_violation": false,
+      "id": "clearpath-backend",
+      "added": "2026-08-31"
+    },
+    {
+      "name": "Data_Analysis_Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动分析网页数据，无需编程",
+      "tags": [
+        "数据分析",
+        "网页抓取",
+        "RPA"
+      ],
+      "scenarios": [
+        "电商数据分析",
+        "市场调研",
+        "自动化报告生成"
+      ],
+      "tutorial": "## Data_Analysis_Agent 使用教程\n\n### 1. 安装与配置\n1. 下载并安装 Data_Analysis_Agent。\n2. 配置浏览器插件，允许自动化操作。\n3. 登录账户，授权访问相关数据。\n\n### 2. 创建任务\n1. 打开网页，选择需要分析的数据区域。\n2. 点击插件按钮，创建新的分析任务。\n3. 设置分析参数，如数据类型、频率等。\n\n### 3. 运行与监控\n1. 启动任务，插件自动抓取数据。\n2. 查看任务进度和结果。\n3. 下载分析报告。\n\n### 4. 数据处理\n1. 对抓取的数据进行清洗和整理。\n2. 使用内置工具进行数据可视化。\n3. 生成报告并分享。",
+      "url": "https://huggingface.co/spaces/jegan249895/Data_Analysis_Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "data-analysis-agent",
+      "added": "2026-08-31"
+    },
+    {
+      "name": "oMLX",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "Mac 上的 LLM 服务器，缩短代理等待时间",
+      "tags": [
+        "Mac",
+        "LLM",
+        "服务器",
+        "性能提升"
+      ],
+      "scenarios": [
+        "Mac 用户",
+        "LLM 服务器优化",
+        "性能需求"
+      ],
+      "tutorial": "## oMLX 使用教程\n\n1. 下载并安装 oMLX\n   - 访问 [oMLX 官网](https://www.producthunt.com/products/omlx) 下载最新版本。\n   - 按照安装向导完成安装。\n\n2. 配置 oMLX\n   - 打开 oMLX 应用，根据提示完成配置。\n   - 设置 LLM 模型和相关参数。\n\n3. 测试性能\n   - 输入测试命令，观察代理等待时间从 90 秒缩短至 5 秒。\n   - 根据需要调整配置以优化性能。",
+      "url": "https://www.producthunt.com/products/omlx",
+      "status": "dead",
+      "is_violation": false,
+      "id": "omlx",
+      "added": "2026-08-31"
+    },
+    {
+      "name": "Maritime",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端AI代理专用电脑，每月起价1美元",
+      "tags": [
+        "AI代理",
+        "云端计算",
+        "付费服务"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Maritime使用教程\n\n### 1. 注册账号\n\n1. 访问Maritime官网，点击注册按钮。\n2. 填写注册信息，包括邮箱和密码。\n3. 完成邮箱验证。\n\n### 2. 创建代理\n\n1. 登录Maritime账户。\n2. 在控制面板中，点击创建新代理。\n3. 选择代理类型和配置参数。\n4. 点击创建。\n\n### 3. 配置任务\n\n1. 在代理详情页，点击配置任务。\n2. 选择任务类型，如网页自动化、数据采集等。\n3. 设置任务参数和执行条件。\n4. 点击保存并启动任务。\n\n### 4. 监控与维护\n\n1. 在控制面板中，查看代理运行状态。\n2. 根据需要调整配置或停止任务。\n3. 定期检查代理运行日志，确保正常运行。",
+      "url": "https://www.producthunt.com/products/maritime",
+      "status": "dead",
+      "is_violation": false,
+      "id": "maritime",
+      "added": "2026-08-31"
+    },
+    {
+      "name": "Superagent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "面向大众的 Claude 代码平台，轻松创建 AI 代理。",
+      "tags": [
+        "AI 代理",
+        "代码平台",
+        "自动化",
+        "开源"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Superagent 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Superagent 官网，点击 '注册' 创建账户。\n2. 使用邮箱验证激活账户。\n3. 登录账户，开始创建你的第一个 AI 代理。\n\n### 2. 创建代理\n\n1. 在首页点击 '创建代理'。\n2. 选择代理类型，如网页爬虫、自动化测试等。\n3. 按提示填写相关信息，如目标网页 URL、数据提取规则等。\n\n### 3. 编写代码\n\n1. 在代码编辑器中编写你的代理代码。\n2. 使用 Superagent 提供的 API 和库来简化开发。\n3. 保存并测试你的代理代码。\n\n### 4. 部署与监控\n\n1. 部署你的代理到 Superagent 平台。\n2. 监控代理运行状态，确保其正常运行。\n3. 根据需要调整和优化代理代码。",
+      "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+      "status": "dead",
+      "is_violation": false,
+      "id": "superagent",
+      "added": "2026-08-31"
     }
   ],
   "changelog": [
@@ -4815,6 +4950,19 @@
         "router",
         "FarmAgent",
         "Staats"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-08-31",
+      "added": [
+        "last30days-skill",
+        "clearpath-backend",
+        "Data_Analysis_Agent",
+        "oMLX",
+        "Maritime",
+        "Superagent"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
