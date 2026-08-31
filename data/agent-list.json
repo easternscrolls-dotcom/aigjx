@@ -4619,6 +4619,51 @@
       "is_violation": false,
       "id": "superagent",
       "added": "2026-08-31"
+    },
+    {
+      "name": "Video Agent by Fotor",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "通过聊天创建和编辑精准动态图形与视频",
+      "tags": [
+        "视频编辑",
+        "动态图形",
+        "AI聊天"
+      ],
+      "scenarios": [
+        "视频制作",
+        "社交媒体内容创作",
+        "广告宣传"
+      ],
+      "tutorial": "## 使用Video Agent by Fotor教程\n\n1. 注册并登录\n\n   访问 [Fotor官网](https://www.fotor.com/)，注册账号并登录。\n\n2. 创建新项目\n\n   在首页点击“创建新项目”，选择“视频编辑”或“动态图形”类型。\n\n3. 选择模板或自定义\n\n   选择一个模板开始，或从空白开始自定义设计。\n\n4. 使用AI聊天功能\n\n   使用内置的AI聊天功能获取创意建议或编辑指导。\n\n5. 编辑和导出\n\n   完成编辑后，导出视频或动态图形到你的设备或社交媒体平台。",
+      "url": "https://www.producthunt.com/products/fotor",
+      "status": "dead",
+      "is_violation": false,
+      "id": "video-agent-by-fotor",
+      "added": "2026-09-01"
+    },
+    {
+      "name": "Interactive Sessions",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI驱动全生命周期管理，可视化工作流编排",
+      "tags": [
+        "AI",
+        "SDLC",
+        "工作流",
+        "自动化"
+      ],
+      "scenarios": [
+        "软件开发",
+        "项目管理",
+        "业务流程自动化"
+      ],
+      "tutorial": "## 使用Interactive Sessions进行全生命周期管理\n\n1. 创建新项目\n   - 在Interactive Sessions中，点击创建新项目，输入项目名称和描述。\n2. 设计工作流\n   - 使用拖拽式界面设计工作流，包括代码编写、测试、部署等步骤。\n3. 集成AI代理\n   - 将AI代理集成到工作流中，实现自动化任务。\n4. 运行项目\n   - 点击运行按钮，Interactive Sessions将自动执行工作流中的所有步骤。\n5. 监控与报告\n   - 实时监控项目进度，查看报告和日志。",
+      "url": "https://www.producthunt.com/products/revolte",
+      "status": "dead",
+      "is_violation": false,
+      "id": "interactive-sessions",
+      "added": "2026-09-01"
     }
   ],
   "changelog": [
@@ -4963,6 +5008,15 @@
         "oMLX",
         "Maritime",
         "Superagent"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-01",
+      "added": [
+        "Video Agent by Fotor",
+        "Interactive Sessions"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

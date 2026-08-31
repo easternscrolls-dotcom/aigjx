@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T20:18:44.336Z",
+  "generatedAt": "2026-08-31T22:11:53.736Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1071,6 +1071,16 @@
       "url": "https://aiagent.72tool.com/tools/superagent.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/video-agent-by-fotor.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/interactive-sessions.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1101,7 +1111,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 207,
+    "totalAgents": 209,
     "byCategory": [
       {
         "id": "local",
@@ -1111,12 +1121,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 163
+        "count": 164
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 14
+        "count": 15
       },
       {
         "id": "crossborder",
@@ -1129,6 +1139,6 @@
         "count": 10
       }
     ],
-    "deadLinks": 98
+    "deadLinks": 100
   }
 }
