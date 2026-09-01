@@ -4664,6 +4664,183 @@
       "is_violation": false,
       "id": "interactive-sessions",
       "added": "2026-09-01"
+    },
+    {
+      "name": "video-use",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "使用代码代理编辑视频",
+      "tags": [
+        "视频编辑",
+        "自动化",
+        "代码操作"
+      ],
+      "scenarios": [
+        "视频剪辑",
+        "自动化处理",
+        "视频内容管理"
+      ],
+      "tutorial": "## 视频编辑代理使用教程\n\n### 1. 安装依赖\n确保你的开发环境已安装必要的库，如FFmpeg。\n\n### 2. 创建代理\n在代码中创建一个新的视频编辑代理实例。\n\n### 3. 加载视频\n使用代理的`load_video`方法加载你想要编辑的视频文件。\n\n### 4. 编辑视频\n使用代理提供的各种方法进行剪辑、添加特效等操作。\n\n### 5. 保存视频\n使用`save_video`方法保存编辑后的视频文件。",
+      "url": "https://github.com/browser-use/video-use",
+      "status": "active",
+      "is_violation": false,
+      "id": "video-use",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "awesome-design-md",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "分析流行品牌设计系统，生成匹配UI的浏览器网页Agent。",
+      "tags": [
+        "设计系统",
+        "UI生成",
+        "代码代理"
+      ],
+      "scenarios": [
+        "网页设计",
+        "前端开发",
+        "UI自动化"
+      ],
+      "tutorial": "## 使用Awesome-Design-MD生成匹配UI\n\n1. 下载并安装Awesome-Design-MD库。\n2. 在你的项目中创建一个DESIGN.md文件。\n3. 将你喜欢的品牌设计系统的DESIGN.md文件拖入你的项目。\n4. 使用命令行运行`generate_ui`命令，生成匹配的UI。\n5. 查看生成的UI并调整配置以符合你的需求。",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "status": "active",
+      "is_violation": false,
+      "id": "awesome-design-md",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "Kilo Code for JetBrains",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "JetBrains 集成，开源代码助手",
+      "tags": [
+        "代码助手",
+        "JetBrains",
+        "开源"
+      ],
+      "scenarios": [
+        "代码编辑辅助",
+        "自动化开发"
+      ],
+      "tutorial": "## Kilo Code for JetBrains 使用教程\n\n1. 下载并安装 Kilo Code for JetBrains 插件\n   - 访问 Kilo Code 官网下载插件\n   - 打开 JetBrains IDE，选择插件市场，搜索并安装\n\n2. 配置插件\n   - 在插件设置中配置相关参数\n   - 根据需要调整快捷键和功能\n\n3. 开始使用\n   - 在代码编辑器中使用 Kilo Code 功能\n   - 通过插件提供的功能提高开发效率\n\n4. 获取帮助\n   - 查阅官方文档获取更多帮助信息\n   - 加入社区交流，获取更多使用技巧",
+      "url": "https://www.producthunt.com/products/kilocode",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kilo-code-for-jetbrains",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "Murmell",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理的 Google Docs，无需电脑",
+      "tags": [
+        "AI写作",
+        "文档协作",
+        "云端工具"
+      ],
+      "scenarios": [
+        "团队协作",
+        "远程办公",
+        "内容创作"
+      ],
+      "tutorial": "## Murmell 使用教程\n\n1. 注册并登录 Murmell\n\n   访问 Murmell 官网，注册账号并登录。\n\n2. 创建新文档\n\n   点击 '新建文档'，开始创建你的 AI 写作项目。\n\n3. 选择 AI 模型\n\n   从提供的 AI 模型中选择适合你需求的模型，如文本生成、翻译等。\n\n4. 开始写作\n\n   输入你的写作提示，Murmell 将根据模型生成内容。\n\n5. 编辑与分享\n\n   对生成的文本进行编辑，完成后可以分享给团队成员或保存到云端。",
+      "url": "https://www.producthunt.com/products/murmell",
+      "status": "dead",
+      "is_violation": false,
+      "id": "murmell",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "ThunderPhone",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "构建可靠AI电话代理平台",
+      "tags": [
+        "AI电话",
+        "自动化",
+        "客服"
+      ],
+      "scenarios": [
+        "电话客服自动化",
+        "客户服务",
+        "业务流程自动化"
+      ],
+      "tutorial": "## ThunderPhone 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [ThunderPhone官网](https://www.thunderphone.com/) 进行注册。\n2. 使用注册信息登录账户。\n\n### 2. 创建电话代理\n\n1. 在控制面板中点击“创建电话代理”按钮。\n2. 输入代理名称和配置参数。\n3. 选择合适的AI模型和语音识别设置。\n\n### 3. 配置工作流\n\n1. 在工作流编辑器中拖放组件来构建电话流程。\n2. 设置电话接听、转接、挂断等逻辑。\n3. 添加AI回复和语音识别功能。\n\n### 4. 测试与部署\n\n1. 在测试环境中运行电话代理，确保其按预期工作。\n2. 部署到生产环境，开始处理电话请求。\n\n### 5. 监控与优化\n\n1. 查看电话代理的运行日志和性能指标。\n2. 根据反馈调整AI模型和工作流配置。",
+      "url": "https://www.producthunt.com/products/thunderphone",
+      "status": "dead",
+      "is_violation": false,
+      "id": "thunderphone",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "Keiki",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "构建并部署统一的AI客服代理",
+      "tags": [
+        "AI客服",
+        "多平台部署",
+        "自动化"
+      ],
+      "scenarios": [
+        "电商客服",
+        "客户服务自动化",
+        "多语言支持"
+      ],
+      "tutorial": "## Keiki 使用教程\n\n### 1. 创建账户\n\n1. 访问Keiki官网并注册账户。\n2. 完成邮箱验证。\n\n### 2. 设计AI代理\n\n1. 在Keiki平台上设计你的AI客服代理。\n2. 使用拖拽式界面配置对话流程。\n3. 添加多语言支持以覆盖更多用户。\n\n### 3. 部署代理\n\n1. 选择目标平台（如网站、应用等）。\n2. 将代理代码嵌入到目标平台。\n3. 测试并调整代理以优化用户体验。\n\n### 4. 监控与优化\n\n1. 监控代理的表现和用户反馈。\n2. 根据数据调整对话策略和知识库。\n3. 定期更新代理以保持其相关性。",
+      "url": "https://www.producthunt.com/products/keiki",
+      "status": "dead",
+      "is_violation": false,
+      "id": "keiki",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "Naseem",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac 上的原生 AI 助手，自动处理工作",
+      "tags": [
+        "AI",
+        "自动化",
+        "Mac",
+        "效率"
+      ],
+      "scenarios": [
+        "日常办公自动化",
+        "数据处理",
+        "任务管理"
+      ],
+      "tutorial": "## Naseem 使用教程\n\n1. 下载并安装 Naseem\n   - 访问 [Naseem 官网](https://www.producthunt.com/products/naseem-2) 下载最新版本。\n   - 按照提示完成安装。\n\n2. 配置 Naseem\n   - 打开 Naseem 应用，进行账户注册或登录。\n   - 根据提示完成初始设置，包括权限授权等。\n\n3. 创建任务\n   - 在 Naseem 中创建新的任务，例如自动整理邮件、文件管理等。\n   - 设置任务触发条件，如时间、事件等。\n\n4. 运行任务\n   - 检查任务设置，确保无误。\n   - 点击运行任务，Naseem 将自动执行。\n\n5. 监控与反馈\n   - 查看任务执行情况，确保工作顺利进行。\n   - 如有需要，可以调整任务设置。",
+      "url": "https://www.producthunt.com/products/naseem-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "naseem",
+      "added": "2026-09-02"
+    },
+    {
+      "name": "Cosmic Agent Plugins",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "连接 Cosmic 代理与任何服务的插件",
+      "tags": [
+        "插件",
+        "服务连接",
+        "Cosmic 代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "服务集成",
+        "数据采集"
+      ],
+      "tutorial": "## Cosmic Agent Plugins 使用教程\n\n### 1. 安装插件\n\n1. 访问 Cosmic Agent 的插件市场。\n2. 搜索并选择 Cosmic Agent Plugins 插件。\n3. 点击安装，按照提示完成安装过程。\n\n### 2. 配置插件\n\n1. 在 Cosmic Agent 中打开插件设置。\n2. 选择 Cosmic Agent Plugins 插件。\n3. 配置插件的连接参数，如服务地址、认证信息等。\n\n### 3. 创建任务\n\n1. 在 Cosmic Agent 中创建新的任务。\n2. 选择需要连接的服务，并配置任务的具体参数。\n3. 将 Cosmic Agent Plugins 插件添加到任务中，并设置触发条件。\n\n### 4. 运行任务\n\n1. 点击运行任务，观察任务执行情况。\n2. 查看任务日志，确保任务执行无误。\n\n通过以上步骤，您可以使用 Cosmic Agent Plugins 插件连接 Cosmic 代理与任何服务，实现自动化操作。",
+      "url": "https://www.producthunt.com/products/cosmic",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cosmic-agent-plugins",
+      "added": "2026-09-02"
     }
   ],
   "changelog": [
@@ -5017,6 +5194,21 @@
       "added": [
         "Video Agent by Fotor",
         "Interactive Sessions"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-02",
+      "added": [
+        "video-use",
+        "awesome-design-md",
+        "Kilo Code for JetBrains",
+        "Murmell",
+        "ThunderPhone",
+        "Keiki",
+        "Naseem",
+        "Cosmic Agent Plugins"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

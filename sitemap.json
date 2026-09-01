@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T22:11:53.736Z",
+  "generatedAt": "2026-09-01T20:20:36.864Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1081,6 +1081,46 @@
       "url": "https://aiagent.72tool.com/tools/interactive-sessions.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/video-use.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/awesome-design-md.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kilo-code-for-jetbrains.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/murmell.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/thunderphone.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/keiki.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/naseem.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cosmic-agent-plugins.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1111,7 +1151,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 209,
+    "totalAgents": 217,
     "byCategory": [
       {
         "id": "local",
@@ -1121,7 +1161,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 164
+        "count": 172
       },
       {
         "id": "workflow",
@@ -1139,6 +1179,6 @@
         "count": 10
       }
     ],
-    "deadLinks": 100
+    "deadLinks": 106
   }
 }
