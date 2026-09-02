@@ -4841,6 +4841,250 @@
       "is_violation": false,
       "id": "cosmic-agent-plugins",
       "added": "2026-09-02"
+    },
+    {
+      "name": "sie",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源推理服务器和集群，满足 Agent 所需模型。",
+      "tags": [
+        "模型推理",
+        "服务器",
+        "集群"
+      ],
+      "scenarios": [
+        "模型部署",
+        "服务器集群管理",
+        "AI 应用"
+      ],
+      "tutorial": "## 使用 Sie 进行模型推理\n\n1. 下载并安装 Sie\n   - 访问 [Sie GitHub 仓库](https://github.com/your-repo) 下载最新版本。\n   - 按照官方文档进行安装配置。\n\n2. 准备模型和输入数据\n   - 将你的模型文件放置在 Sie 的模型目录下。\n   - 准备输入数据，确保格式正确。\n\n3. 启动 Sie 服务\n   - 在命令行中运行 `sie serve` 命令启动服务。\n\n4. 进行推理\n   - 使用 API 或命令行工具发送请求到 Sie 服务，获取推理结果。\n\n5. 查看结果\n   - 查看输出结果，分析模型性能。",
+      "url": "https://github.com/superlinked/sie",
+      "status": "active",
+      "is_violation": false,
+      "id": "sie",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "atlas",
+      "category": "local",
+      "type": "open-source",
+      "summary": "多代理源代码管理，集中跟踪与查询变更",
+      "tags": [
+        "源代码管理",
+        "多代理协作",
+        "版本控制"
+      ],
+      "scenarios": [
+        "团队协作",
+        "代码审查",
+        "版本追踪"
+      ],
+      "tutorial": "## 使用 Atlas 进行源代码管理\n\n### 1. 安装 Atlas\n从 [GitHub](https://github.com/your-repo/atlas) 下载并安装 Atlas。\n\n### 2. 创建项目\n在 Atlas 中创建一个新的项目，并添加你的代码仓库。\n\n### 3. 添加代理\n将你的代码代理添加到项目中，以便集中管理。\n\n### 4. 跟踪变更\n查看每个代理的代码变更历史，并进行版本控制。\n\n### 5. 查询代码\n通过关键词或代理名称查询代码，快速定位所需信息。",
+      "url": "https://github.com/pacifio/atlas",
+      "status": "active",
+      "is_violation": false,
+      "id": "atlas",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "portless",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将端口号替换为稳定的本地URL，适用于人类和代理。",
+      "tags": [
+        "URL重定向",
+        "本地化访问",
+        "端口管理"
+      ],
+      "scenarios": [
+        "内部网络访问",
+        "跨平台协作",
+        "简化网络配置"
+      ],
+      "tutorial": "## 使用Portless进行端口替换\n\n1. 下载并安装Portless：\n   - 访问Portless的GitHub页面：[Portless](https://github.com/your-repo)\n   - 按照README中的说明进行安装。\n\n2. 配置Portless：\n   - 打开Portless配置文件，通常位于`~/.portless/config.yml`。\n   - 添加需要替换的端口号和对应的本地URL。\n\n3. 启动Portless服务：\n   - 在终端中运行`portless start`命令。\n\n4. 访问配置的URL：\n   - 使用浏览器访问配置的本地URL，即可访问原本需要端口号的服务。\n\n5. 停止Portless服务：\n   - 在终端中运行`portless stop`命令。",
+      "url": "https://github.com/vercel-labs/portless",
+      "status": "active",
+      "is_violation": false,
+      "id": "portless",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "humanizer",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI文本去AI化工具，提升文本自然度",
+      "tags": [
+        "AI文本处理",
+        "自然语言处理",
+        "文本润色"
+      ],
+      "scenarios": [
+        "内容审核",
+        "文本生成后处理",
+        "AI写作辅助"
+      ],
+      "tutorial": "## humanizer 使用教程\n\n1. 下载并安装 humanizer 库\n\n2. 导入 humanizer 库到你的 Python 项目中\n\n3. 使用 humanizer 对文本进行处理，例如：\n    ```python\n    from humanizer import humanize\n    text = 'This is an AI-generated text.'\n    humanized_text = humanize(text)\n    print(humanized_text)\n    ```\n\n4. 观察处理后的文本，检查AI生成的痕迹是否被去除",
+      "url": "https://github.com/blader/humanizer",
+      "status": "active",
+      "is_violation": false,
+      "id": "humanizer",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "Multi_Agent_Car_Damage_and_Fraud_Evaluation",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "跨境汽车损伤与欺诈评估工具",
+      "tags": [
+        "汽车损伤",
+        "欺诈检测",
+        "跨境贸易"
+      ],
+      "scenarios": [
+        "汽车保险",
+        "跨境物流",
+        "贸易风险管理"
+      ],
+      "tutorial": "## Multi_Agent_Car_Damage_and_Fraud_Evaluation 使用教程\n\n### 1. 数据准备\n\n1. 准备汽车损伤和欺诈相关的数据集。\n2. 确保数据格式符合工具要求。\n3. 将数据集上传至云端平台。\n\n### 2. 模型选择\n\n1. 根据业务需求选择合适的模型。\n2. 在平台上进行模型配置。\n3. 设置模型参数，如学习率、迭代次数等。\n\n### 3. 模型训练\n\n1. 启动模型训练过程。\n2. 监控训练进度和模型性能。\n3. 训练完成后，评估模型效果。\n\n### 4. 应用模型\n\n1. 使用训练好的模型进行预测。\n2. 根据预测结果进行决策。\n3. 定期更新模型以适应新数据。",
+      "url": "https://huggingface.co/spaces/towardsinnovationlab/Multi_Agent_Car_Damage_and_Fraud_Evaluation",
+      "status": "active",
+      "is_violation": false,
+      "id": "multi-agent-car-damage-and-fraud-evaluation",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "autonomous-antigravity-pr-294",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动填表",
+        "网页测试"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装Autonomous\n从 [Hugging Face](https://huggingface.co/autonomous-antigravity-pr-294) 下载并安装Autonomous。\n\n### 2. 创建新任务\n打开Autonomous，创建一个新的任务，选择要操作的网页。\n\n### 3. 编写脚本\n使用Autonomous的内置脚本语言编写操作步骤，如点击按钮、填写表单等。\n\n### 4. 运行任务\n运行脚本，Autonomous将自动执行网页操作。",
+      "url": "https://huggingface.co/spaces/m4rc0z/autonomous-antigravity-pr-294",
+      "status": "active",
+      "is_violation": false,
+      "id": "autonomous-antigravity-pr-294",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "Dial",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "快速为AI代理分配真实电话号码",
+      "tags": [
+        "AI电话",
+        "自动化",
+        "虚拟号码"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "市场调研",
+        "用户反馈"
+      ],
+      "tutorial": "## 使用Dial为AI代理分配电话号码\n\n1. 访问Dial官网并注册账户。\n2. 登录账户后，选择购买合适的电话号码套餐。\n3. 在账户管理页面，为你的AI代理分配一个电话号码。\n4. 设置电话号码的接听规则，如自动应答、语音识别等。\n5. 测试电话号码是否正常工作，确保AI代理可以正常接听电话。",
+      "url": "https://www.producthunt.com/products/dial-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dial",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "Userlens",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 产品采纳提升代理",
+      "tags": [
+        "AI",
+        "产品采纳",
+        "用户体验"
+      ],
+      "scenarios": [
+        "产品推广",
+        "用户行为分析",
+        "市场调研"
+      ],
+      "tutorial": "## 使用 Userlens 的步骤\n\n1. 下载并安装 Userlens\n\n2. 创建一个新的项目，并选择目标产品或服务\n\n3. 配置 Userlens 以收集用户交互数据\n\n4. 分析收集到的数据，以了解用户行为和产品使用情况\n\n5. 根据分析结果，优化产品设计和用户体验",
+      "url": "https://www.producthunt.com/products/userlens",
+      "status": "dead",
+      "is_violation": false,
+      "id": "userlens",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "Monid",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开放路由器，适用于网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线服务管理"
+      ],
+      "tutorial": "## Monid 使用教程\n\n### 1. 安装与配置\n1. 访问 Monid 官网下载并安装 Monid 软件。\n2. 运行软件并按照提示完成配置。\n3. 配置完成后，软件将自动启动。\n\n### 2. 创建任务\n1. 在 Monid 软件中点击 '新建任务'。\n2. 选择任务类型，如网页数据采集、自动化测试等。\n3. 输入任务参数，如目标网址、采集字段等。\n\n### 3. 运行任务\n1. 点击 '运行' 按钮开始执行任务。\n2. 观察任务执行进度和结果。\n3. 任务完成后，可以查看采集到的数据。\n\n### 4. 保存与导出\n1. 点击 '保存' 按钮保存任务。\n2. 点击 '导出' 按钮导出采集到的数据。",
+      "url": "https://www.producthunt.com/products/monid",
+      "status": "dead",
+      "is_violation": false,
+      "id": "monid",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "Stitch AI by Dynamic Mockups",
+      "category": "tools",
+      "type": "cloud-paid",
+      "summary": "首款刺绣数字化代理，刺绣设计自动化工具。",
+      "tags": [
+        "刺绣",
+        "数字化",
+        "设计",
+        "自动化"
+      ],
+      "scenarios": [
+        "刺绣设计",
+        "服装制造",
+        "个性化定制"
+      ],
+      "tutorial": "## 使用Stitch AI by Dynamic Mockups进行刺绣设计\n1. 上传刺绣图案：将您的刺绣图案上传到Stitch AI平台。\n2. 选择刺绣参数：设置刺绣的针法、颜色和密度等参数。\n3. 生成刺绣文件：系统将根据您的设置生成刺绣文件。\n4. 导出和打印：将生成的刺绣文件导出并打印，用于刺绣制作。",
+      "url": "https://www.producthunt.com/products/stitch-ai-by-dynamic-mockups",
+      "status": "dead",
+      "is_violation": false,
+      "id": "stitch-ai-by-dynamic-mockups",
+      "added": "2026-09-03"
+    },
+    {
+      "name": "Doop",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI协作设计工具，实时同一画布",
+      "tags": [
+        "AI设计",
+        "协作工具",
+        "实时编辑",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "团队协作设计",
+        "在线创意工作",
+        "远程设计会议"
+      ],
+      "tutorial": "## Doop 使用教程\n\n1. 打开浏览器，访问 Doop 官网并注册账号。\n2. 登录后，创建一个新的设计项目或加入已有的项目。\n3. 在画布上使用 AI 代理进行设计元素的选择和布局。\n4. 与团队成员实时协作，共同编辑和修改设计。\n5. 保存项目，并导出设计文件。",
+      "url": "https://www.producthunt.com/products/doop",
+      "status": "dead",
+      "is_violation": false,
+      "id": "doop",
+      "added": "2026-09-03"
     }
   ],
   "changelog": [
@@ -5209,6 +5453,24 @@
         "Keiki",
         "Naseem",
         "Cosmic Agent Plugins"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-03",
+      "added": [
+        "sie",
+        "atlas",
+        "portless",
+        "humanizer",
+        "Multi_Agent_Car_Damage_and_Fraud_Evaluation",
+        "autonomous-antigravity-pr-294",
+        "Dial",
+        "Userlens",
+        "Monid",
+        "Stitch AI by Dynamic Mockups",
+        "Doop"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

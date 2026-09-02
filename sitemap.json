@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:20:36.864Z",
+  "generatedAt": "2026-09-02T20:19:52.156Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1121,6 +1121,61 @@
       "url": "https://aiagent.72tool.com/tools/cosmic-agent-plugins.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sie.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/atlas.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/portless.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/humanizer.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/multi-agent-car-damage-and-fraud-evaluation.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/autonomous-antigravity-pr-294.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dial.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/userlens.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/monid.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/stitch-ai-by-dynamic-mockups.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/doop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1151,17 +1206,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 217,
+    "totalAgents": 228,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 14
+        "count": 15
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 172
+        "count": 180
       },
       {
         "id": "workflow",
@@ -1171,14 +1226,14 @@
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 6
+        "count": 7
       },
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 10
+        "count": 11
       }
     ],
-    "deadLinks": 106
+    "deadLinks": 111
   }
 }
