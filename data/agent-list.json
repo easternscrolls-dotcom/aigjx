@@ -5308,6 +5308,139 @@
       "is_violation": false,
       "id": "fillo",
       "added": "2026-09-04"
+    },
+    {
+      "name": "opencode",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源网页编程代理，自动操作网页。",
+      "tags": [
+        "编程",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页开发",
+        "自动化测试",
+        "数据采集"
+      ],
+      "tutorial": "## 使用Opencode进行网页编程自动化\n1. 下载并安装Opencode。\n2. 打开Opencode，选择目标网页进行操作。\n3. 使用Opencode内置的编程语言编写脚本，实现自动化功能。\n4. 运行脚本，观察网页操作结果。\n5. 根据需要调整脚本，优化自动化流程。",
+      "url": "https://github.com/anomalyco/opencode",
+      "status": "active",
+      "is_violation": false,
+      "id": "opencode",
+      "added": "2026-09-05"
+    },
+    {
+      "name": "q4-change-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持复杂网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## 使用 q4-change-agent 进行网页自动化\n\n### 1. 安装与启动\n1. 下载并安装 q4-change-agent。\n2. 打开应用程序，启动浏览器。\n\n### 2. 创建新任务\n1. 在左侧菜单中选择 '新建任务'。\n2. 选择目标网页，设置任务名称。\n\n### 3. 编写自动化脚本\n1. 在脚本编辑器中，使用 q4-change-agent 提供的 API 编写脚本。\n2. 脚本示例：\n    ```python\n    from q4_change_agent import Agent\n    agent = Agent()\n    agent.open('https://example.com')\n    agent.fill_form({'username': 'user', 'password': 'pass'})\n    agent.click_button('login')\n    ```\n\n### 4. 运行与调试\n1. 点击 '运行' 按钮执行脚本。\n2. 查看日志输出，进行调试。\n\n### 5. 保存与分享\n1. 完成任务后，保存脚本。\n2. 可以将脚本分享给他人使用。",
+      "url": "https://huggingface.co/spaces/panagiotis427/q4-change-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "q4-change-agent",
+      "added": "2026-09-05"
+    },
+    {
+      "name": "agentic-extractor",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动提取网页信息，无需代码",
+      "tags": [
+        "网页信息提取",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据自动化采集",
+        "数据爬取",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Agentic-Extractor 提取网页信息\n1. 下载并安装 Agentic-Extractor。\n2. 打开 Agentic-Extractor，输入目标网页 URL。\n3. 选择需要提取的信息类型，如标题、链接、文本等。\n4. 点击提取按钮，Agentic-Extractor 将自动提取网页信息。\n5. 查看提取结果，导出为所需格式。",
+      "url": "https://huggingface.co/spaces/sdudeja/agentic-extractor",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentic-extractor",
+      "added": "2026-09-05"
+    },
+    {
+      "name": "Omarchy",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "适用于代理时代的灵活操作系统",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Omarchy 使用教程\n\n1. 下载并安装 Omarchy\n   - 访问 Omarchy 官网下载最新版本。\n   - 按照安装向导完成安装。\n\n2. 创建新项目\n   - 打开 Omarchy，点击创建新项目。\n   - 输入项目名称并选择项目类型。\n\n3. 编写自动化脚本\n   - 使用 Omarchy 的可视化编辑器拖拽组件来构建自动化流程。\n   - 设置每个组件的参数和条件。\n\n4. 运行和测试\n   - 点击运行按钮，观察自动化流程的执行情况。\n   - 根据需要调整脚本，直到满足需求。\n\n5. 部署和监控\n   - 将自动化脚本部署到服务器或本地环境。\n   - 使用 Omarchy 的监控工具跟踪自动化流程的运行状态。",
+      "url": "https://www.producthunt.com/products/omarchy-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "omarchy",
+      "added": "2026-09-05"
+    },
+    {
+      "name": "Clockwork",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI 助手工作日历，自动化任务调度",
+      "tags": [
+        "AI日历",
+        "任务调度",
+        "自动化工作流"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "日常任务管理"
+      ],
+      "tutorial": "## 使用 Clockwork 进行任务调度\n\n1. 注册并登录 Clockwork\n\n2. 创建一个新的工作流，选择任务类型和执行时间\n\n3. 添加任务细节，如任务描述、执行频率等\n\n4. 设置触发条件，如特定事件或时间\n\n5. 保存并启动工作流，AI 助手将自动执行任务",
+      "url": "https://www.producthunt.com/products/clockwork-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clockwork",
+      "added": "2026-09-05"
+    },
+    {
+      "name": "Google Gemini 3.8 Flash and Cyber",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "新一代 Gemini，适用于代理、推理和网络安全。",
+      "tags": [
+        "代理",
+        "推理",
+        "网络安全",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "安全监控"
+      ],
+      "tutorial": "## Gemini 3.8 Flash and Cyber 使用教程\n\n### 1. 安装 Gemini\n\n1. 访问 Gemini 官网下载最新版本。\n2. 按照提示完成安装。\n3. 启动 Gemini 并登录账户。\n\n### 2. 配置代理\n\n1. 在 Gemini 设置中找到代理配置选项。\n2. 输入代理服务器地址和端口。\n3. 保存设置并测试代理连接。\n\n### 3. 使用推理功能\n\n1. 在 Gemini 中选择推理功能模块。\n2. 上传需要推理的数据。\n3. 设置推理参数并开始推理。\n\n### 4. 安全监控\n\n1. 在 Gemini 中开启安全监控功能。\n2. 设置监控规则和报警阈值。\n3. 监控网络安全状况并及时响应。",
+      "url": "https://www.producthunt.com/products/gemini-3-8-flash",
+      "status": "dead",
+      "is_violation": false,
+      "id": "google-gemini-3-8-flash-and-cyber",
+      "added": "2026-09-05"
     }
   ],
   "changelog": [
@@ -5711,6 +5844,19 @@
         "Tabbit AI",
         "Nex",
         "Fillo"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-05",
+      "added": [
+        "opencode",
+        "q4-change-agent",
+        "agentic-extractor",
+        "Omarchy",
+        "Clockwork",
+        "Google Gemini 3.8 Flash and Cyber"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
