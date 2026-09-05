@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:03:22.059Z",
+  "generatedAt": "2026-09-05T19:43:49.839Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1256,6 +1256,31 @@
       "url": "https://aiagent.72tool.com/tools/google-gemini-3-8-flash-and-cyber.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/everything-claude-code.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hyperprobe.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/reflexio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dif-sh.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gitwarren.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1286,7 +1311,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 244,
+    "totalAgents": 249,
     "byCategory": [
       {
         "id": "local",
@@ -1296,7 +1321,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 192
+        "count": 197
       },
       {
         "id": "workflow",
@@ -1314,6 +1339,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 120
+    "deadLinks": 124
   }
 }

@@ -5441,6 +5441,118 @@
       "is_violation": false,
       "id": "google-gemini-3-8-flash-and-cyber",
       "added": "2026-09-05"
+    },
+    {
+      "name": "everything-claude-code",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助开发工具，支持命令、技能和规则",
+      "tags": [
+        "AI 辅助",
+        "开发工具",
+        "浏览器插件",
+        "代码增强"
+      ],
+      "scenarios": [
+        "前端开发",
+        "后端开发",
+        "代码审查"
+      ],
+      "tutorial": "## 使用 Claude Code 工具进行 AI 辅助开发\n\n### 1. 安装插件\n- 打开浏览器扩展商店\n- 搜索并安装 Claude Code 插件\n\n### 2. 配置插件\n- 打开插件设置\n- 配置你的 API 密钥和偏好设置\n\n### 3. 创建代码代理\n- 在插件中创建新的代码代理\n- 设置代理的名称和描述\n\n### 4. 编写命令\n- 在代码编辑器中输入命令\n- Claude Code 将根据你的命令执行相应的操作\n\n### 5. 使用技能和规则\n- 在插件中创建技能和规则\n- 在代码中调用技能和规则以实现自动化",
+      "url": "https://github.com/WorldFlowAI/everything-claude-code",
+      "status": "active",
+      "is_violation": false,
+      "id": "everything-claude-code",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "Hyperprobe",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理调试生产环境，无需重新部署",
+      "tags": [
+        "调试",
+        "AI代理",
+        "生产环境",
+        "无需重启"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "持续集成",
+        "代码审查"
+      ],
+      "tutorial": "## Hyperprobe 使用教程\n\n### 1. 安装 Hyperprobe\n\n从 [Hyperprobe 官网](https://www.producthunt.com/products/hyperprobe) 下载并安装 Hyperprobe。\n\n### 2. 配置调试环境\n\n启动 Hyperprobe 并配置你的调试环境，包括目标应用和调试代理。\n\n### 3. 开始调试\n\n将 Hyperprobe 集成到你的开发流程中，开始调试生产环境中的问题。\n\n### 4. 分析结果\n\nHyperprobe 会提供详细的调试信息和日志，帮助你快速定位问题。",
+      "url": "https://www.producthunt.com/products/hyperprobe",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hyperprobe",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "Reflexio",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理行为学习，提升智能。",
+      "tags": [
+        "AI学习",
+        "自动化",
+        "智能代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Reflexio 使用教程\n\n### 1. 安装 Reflexio\n从 [官网](https://www.producthunt.com/products/reflexio-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed) 下载 Reflexio 安装包，按照提示完成安装。\n\n### 2. 创建新任务\n启动 Reflexio 后，点击创建新任务，选择要自动化的网页或流程。\n\n### 3. 编写脚本\n使用 Reflexio 的可视化编辑器，拖拽组件来编写自动化脚本。例如，可以添加点击、输入等操作。\n\n### 4. 运行和测试\n完成脚本编写后，运行任务进行测试，确保自动化流程符合预期。\n\n### 5. 保存和分享\n测试通过后，保存任务，并可选择分享给其他用户。",
+      "url": "https://www.producthunt.com/products/reflexio-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "reflexio",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "dif.sh",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Markdown 功能标志，为您的编码代理安装",
+      "tags": [
+        "Markdown",
+        "编程",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码注释管理",
+        "文档自动化",
+        "开发辅助"
+      ],
+      "tutorial": "## 使用 dif.sh 进行 Markdown 功能标志\n\n1. 访问 dif.sh 官网\n   - 打开浏览器，访问 dif.sh 官网，开始使用其 Markdown 功能。\n\n2. 创建新项目\n   - 在 dif.sh 上创建一个新的项目，以便开始使用 Markdown 功能。\n\n3. 添加 Markdown 文件\n   - 在项目中添加 Markdown 文件，并开始编写代码。\n\n4. 使用功能标志\n   - 在 Markdown 文件中，使用特定的功能标志来标记代码或注释。\n\n5. 保存并预览\n   - 保存文件后，预览 Markdown 文件，查看功能标志的效果。",
+      "url": "https://www.producthunt.com/products/dif-sh",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dif-sh",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "GitWarren",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "代码审查助手，与编码代理预审代码",
+      "tags": [
+        "代码审查",
+        "自动化",
+        "协作工具"
+      ],
+      "scenarios": [
+        "团队代码审查",
+        "持续集成",
+        "代码质量监控"
+      ],
+      "tutorial": "## 使用GitWarren进行代码审查\n\n1. 下载并安装GitWarren。\n2. 配置你的代码仓库以集成GitWarren。\n3. 在提交代码前，使用GitWarren进行代码审查。\n4. 代码审查完成后，根据反馈进行代码修改。\n5. 重新提交代码。",
+      "url": "https://www.producthunt.com/products/gitwarren",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gitwarren",
+      "added": "2026-09-06"
     }
   ],
   "changelog": [
@@ -5857,6 +5969,18 @@
         "Omarchy",
         "Clockwork",
         "Google Gemini 3.8 Flash and Cyber"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-06",
+      "added": [
+        "everything-claude-code",
+        "Hyperprobe",
+        "Reflexio",
+        "dif.sh",
+        "GitWarren"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
