@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T19:43:49.839Z",
+  "generatedAt": "2026-09-06T19:46:56.051Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1281,6 +1281,41 @@
       "url": "https://aiagent.72tool.com/tools/gitwarren.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/marketingskills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/open-science.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/autohedge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mi-hermes-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/deep-research-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentic-video-understanding-in-gemini.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kit-by-speakeasy.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1311,17 +1346,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 249,
+    "totalAgents": 256,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 16
+        "count": 17
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 197
+        "count": 203
       },
       {
         "id": "workflow",
@@ -1339,6 +1374,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 124
+    "deadLinks": 126
   }
 }
