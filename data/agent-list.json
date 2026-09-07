@@ -5711,6 +5711,251 @@
       "is_violation": false,
       "id": "kit-by-speakeasy",
       "added": "2026-09-07"
+    },
+    {
+      "name": "hyperframes",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "HTML视频渲染，适用于Agent。",
+      "tags": [
+        "HTML",
+        "视频渲染",
+        "Agent"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "视频内容展示",
+        "交互式内容"
+      ],
+      "tutorial": "## 使用Hyperframes进行HTML视频渲染\n\n1. 下载并安装Hyperframes。\n2. 在项目中引入Hyperframes库。\n3. 创建HTML页面，并使用Hyperframes的API来渲染视频。\n4. 配置视频源和渲染参数。\n5. 预览并测试渲染效果。\n\n## 高级使用\n\n1. 使用CSS样式自定义视频播放器的外观。\n2. 通过JavaScript添加交互功能，如播放、暂停、音量控制。\n3. 集成到现有的网页或应用程序中。\n4. 调试和优化渲染性能。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "status": "active",
+      "is_violation": false,
+      "id": "hyperframes",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "context-mode",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编码代理上下文窗口优化工具，减少沙盒输出，持久化会话记忆，跨17平台路由。",
+      "tags": [
+        "AI编码",
+        "上下文优化",
+        "跨平台"
+      ],
+      "scenarios": [
+        "代码开发辅助",
+        "跨平台协作",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装 context-mode 工具。\n2. 打开工具，选择需要优化的平台。\n3. 设置会话记忆和路由规则。\n4. 开始使用 AI 编码代理，工具将自动优化上下文窗口。\n5. 查看优化后的输出结果，并进行必要的调整。",
+      "url": "https://github.com/mksglu/context-mode",
+      "status": "active",
+      "is_violation": false,
+      "id": "context-mode",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "camofox-browser",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理隐形无头浏览器，绕过 Cloudflare 和反爬虫机制",
+      "tags": [
+        "无头浏览器",
+        "AI 代理",
+        "反爬虫"
+      ],
+      "scenarios": [
+        "自动化数据采集",
+        "网页自动化测试",
+        "AI 搜索引擎"
+      ],
+      "tutorial": "## 使用 Camofox-Browser 进行网页自动化\n\n### 1. 安装\n\n1. 下载 Camofox-Browser 的源代码。\n2. 使用 npm 或 yarn 进行安装：\n   ```bash\n   npm install camofox-browser\n   ```\n\n### 2. 配置\n\n1. 在你的项目中引入 Camofox-Browser。\n2. 配置你的代理服务器和用户代理。\n   ```javascript\n   const { CamofoxBrowser } = require('camofox-browser');\n   const browser = new CamofoxBrowser({\n     proxy: 'http://your.proxy.server:port',\n     userAgent: 'Your User Agent String'\n   });\n   ```\n\n### 3. 使用\n\n1. 使用 Camofox-Browser 进行网页自动化操作。\n2. 示例代码：\n   ```javascript\n   async function example() {\n     const page = await browser.newPage();\n     await page.goto('https://example.com');\n     const content = await page.content();\n     console.log(content);\n   }\n   ```\n\n### 4. 运行\n\n",
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "status": "active",
+      "is_violation": false,
+      "id": "camofox-browser",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "deer-flow",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "开源长周期超级代理，用于研究和创建。",
+      "tags": [
+        "自动化",
+        "工作流",
+        "超级代理",
+        "开源"
+      ],
+      "scenarios": [
+        "复杂任务自动化",
+        "数据研究",
+        "代码生成"
+      ],
+      "tutorial": "## 使用deer-flow进行自动化任务\n\n1. **创建沙盒**\n   - 打开deer-flow控制台，创建一个新的沙盒环境。\n\n2. **配置记忆和工具**\n   - 在沙盒中配置所需的记忆库和工具，以便于任务执行。\n\n3. **定义技能和子代理**\n   - 根据任务需求，定义相应的技能和子代理。\n\n4. **设置消息网关**\n   - 配置消息网关，确保任务执行过程中的信息流通。\n\n5. **执行任务**\n   - 启动任务，deer-flow将自动处理不同级别的任务。",
+      "url": "https://github.com/bytedance/deer-flow",
+      "status": "active",
+      "is_violation": false,
+      "id": "deer-flow",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "browser",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI自动化专属的无头浏览器",
+      "tags": [
+        "自动化",
+        "AI",
+        "无头浏览器",
+        "网页操作"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "网页爬虫"
+      ],
+      "tutorial": "## Lightpanda 使用教程\n\n### 1. 安装 Lightpanda\n\n首先，您需要在您的计算机上安装 Lightpanda。您可以从 GitHub 下载源代码，或者使用包管理器进行安装。\n\n### 2. 创建一个新项目\n\n在 Lightpanda 中，您需要创建一个新的项目。这可以通过点击界面上的 '+' 按钮，然后选择 'New Project' 完成。\n\n### 3. 编写自动化脚本\n\n在项目中，您可以使用 JavaScript 或 Python 编写自动化脚本。这些脚本将控制 Lightpanda 的行为，例如打开网页、填写表单、点击按钮等。\n\n### 4. 运行脚本\n\n编写完脚本后，您可以通过点击 'Run' 按钮来执行它。Lightpanda 将按照脚本中的指令自动操作。\n\n### 5. 监控和调试\n\n在自动化过程中，您可以通过 Lightpanda 的日志功能来监控和调试脚本。这有助于您发现并修复任何潜在的问题。",
+      "url": "https://github.com/lightpanda-io/browser",
+      "status": "active",
+      "is_violation": false,
+      "id": "browser",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "GAIA_Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "在线服务管理"
+      ],
+      "tutorial": "## GAIA_Agent 使用教程\n\n### 1. 安装与配置\n1. 下载并安装 GAIA_Agent。\n2. 配置浏览器插件，确保插件已启用。\n3. 在插件设置中配置目标网站和所需操作。\n\n### 2. 创建任务\n1. 打开插件界面，点击创建新任务。\n2. 选择任务类型，如数据抓取或自动化测试。\n3. 输入任务参数，如目标网页和抓取字段。\n\n### 3. 运行与监控\n1. 点击运行任务，插件将自动执行操作。\n2. 在插件界面实时监控任务进度。\n3. 任务完成后，下载结果数据。\n\n### 4. 保存与分享\n1. 保存任务配置，方便下次使用。\n2. 将任务分享给团队成员，实现协作。",
+      "url": "https://huggingface.co/spaces/abelardo8574/GAIA_Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "gaia-agent",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "url-intelligence-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能网页分析，无需代码",
+      "tags": [
+        "网页分析",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页内容分析",
+        "数据提取",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装url-intelligence-agent。\n2. 打开网页，选择需要分析的页面。\n3. 使用工具提供的功能，如内容提取、链接分析等。\n4. 查看分析结果，进行数据提取或进一步处理。\n\n## 小节标题\n\n1. 安装与配置\n2. 页面选择\n3. 功能使用\n4. 结果查看",
+      "url": "https://huggingface.co/spaces/vpicciuolo/url-intelligence-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "url-intelligence-agent",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "mynter-ai-copilot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助浏览器网页自动化工具",
+      "tags": [
+        "AI 辅助",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动填表",
+        "网页操作"
+      ],
+      "tutorial": "## mynter-ai-copilot 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 mynter-ai-copilot。\n2. 打开软件，进行初始化设置。\n3. 连接到你的浏览器，开始使用。\n\n### 2. 创建任务\n\n1. 在软件中创建一个新的任务。\n2. 选择需要自动化的网页元素。\n3. 设置自动化操作，如点击、填写表单等。\n\n### 3. 运行与监控\n\n1. 运行任务，观察自动化过程。\n2. 监控任务执行状态，确保自动化流程正确。\n3. 根据需要调整自动化脚本。\n\n### 4. 保存与分享\n\n1. 保存自动化任务。\n2. 可以将任务分享给他人或团队使用。",
+      "url": "https://huggingface.co/spaces/Juaninacio/mynter-ai-copilot",
+      "status": "active",
+      "is_violation": false,
+      "id": "mynter-ai-copilot",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "Nina by Antalpha",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "非托管AI加密货币研究、预测与交易工具",
+      "tags": [
+        "加密货币",
+        "AI交易",
+        "非托管"
+      ],
+      "scenarios": [
+        "加密货币市场研究",
+        "自动交易策略",
+        "加密货币投资"
+      ],
+      "tutorial": "## 使用Nina by Antalpha进行加密货币交易\n\n1. 注册并登录Nina by Antalpha平台。\n2. 完成账户设置，包括资金配置和安全认证。\n3. 选择或创建交易策略，Nina将根据预设的算法进行市场分析。\n4. 设置交易参数，如交易金额、止损点等。\n5. 启动交易，Nina将自动执行交易策略。\n6. 监控交易进度，并根据市场变化调整策略。",
+      "url": "https://www.producthunt.com/products/antalpha",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nina-by-antalpha",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "Airuncode",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地多代理编码运行",
+      "tags": [
+        "本地开发",
+        "多代理",
+        "编码工具"
+      ],
+      "scenarios": [
+        "个人开发",
+        "团队协作",
+        "代码测试"
+      ],
+      "tutorial": "## 使用Airuncode进行本地多代理编码运行\n1. 下载并安装Airuncode软件。\n2. 打开软件，创建一个新的项目。\n3. 在项目中配置所需的代理和编码环境。\n4. 编写或导入你的代码。\n5. 点击运行按钮，Airuncode将自动在本地运行多个代理进行编码任务。\n6. 查看运行结果，并根据需要进行调整。",
+      "url": "https://www.producthunt.com/products/airuncode",
+      "status": "dead",
+      "is_violation": false,
+      "id": "airuncode",
+      "added": "2026-09-08"
+    },
+    {
+      "name": "Tucky",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "屏幕边缘的笔记与AI助手",
+      "tags": [
+        "笔记",
+        "AI",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "日常笔记",
+        "在线学习",
+        "项目管理"
+      ],
+      "tutorial": "## Tucky 使用教程\n\n1. 下载并安装 Tucky 浏览器扩展。\n2. 打开浏览器，在屏幕边缘找到 Tucky 图标并点击打开。\n3. 在 Tucky 中创建新的笔记，开始记录信息。\n4. 使用内置的 AI 助手功能，如翻译、摘要等。\n5. 将笔记保存或同步到云端，方便随时访问。",
+      "url": "https://www.producthunt.com/products/tucky",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tucky",
+      "added": "2026-09-08"
     }
   ],
   "changelog": [
@@ -6153,6 +6398,24 @@
         "deep_research_agent",
         "Agentic Video Understanding in Gemini",
         "Kit by Speakeasy"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-08",
+      "added": [
+        "hyperframes",
+        "context-mode",
+        "camofox-browser",
+        "deer-flow",
+        "browser",
+        "GAIA_Agent",
+        "url-intelligence-agent",
+        "mynter-ai-copilot",
+        "Nina by Antalpha",
+        "Airuncode",
+        "Tucky"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

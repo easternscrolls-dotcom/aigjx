@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T19:46:56.051Z",
+  "generatedAt": "2026-09-07T20:57:17.263Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1316,6 +1316,61 @@
       "url": "https://aiagent.72tool.com/tools/kit-by-speakeasy.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hyperframes.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/context-mode.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/camofox-browser.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/deer-flow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/browser.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gaia-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/url-intelligence-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mynter-ai-copilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nina-by-antalpha.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/airuncode.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tucky.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1346,27 +1401,27 @@
     }
   ],
   "stats": {
-    "totalAgents": 256,
+    "totalAgents": 267,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 17
+        "count": 18
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 203
+        "count": 211
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 18
+        "count": 19
       },
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 7
+        "count": 8
       },
       {
         "id": "tools",
@@ -1374,6 +1429,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 126
+    "deadLinks": 129
   }
 }
