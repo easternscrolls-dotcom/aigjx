@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T20:57:17.263Z",
+  "generatedAt": "2026-09-08T20:30:48.535Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1371,6 +1371,41 @@
       "url": "https://aiagent.72tool.com/tools/tucky.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/i-have-adhd.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentic-reliability-framework-api.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kombai-gallery.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/switch.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kopai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/catenary.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openmarket.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1401,7 +1436,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 267,
+    "totalAgents": 274,
     "byCategory": [
       {
         "id": "local",
@@ -1411,7 +1446,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 211
+        "count": 217
       },
       {
         "id": "workflow",
@@ -1421,7 +1456,7 @@
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 8
+        "count": 9
       },
       {
         "id": "tools",
@@ -1429,6 +1464,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 129
+    "deadLinks": 134
   }
 }
