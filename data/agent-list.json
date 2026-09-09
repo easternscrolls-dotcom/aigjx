@@ -6114,6 +6114,207 @@
       "is_violation": false,
       "id": "openmarket",
       "added": "2026-09-09"
+    },
+    {
+      "name": "text-to-cad",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页CAD技能库",
+      "tags": [
+        "CAD",
+        "CAE",
+        "CAM",
+        "技能库"
+      ],
+      "scenarios": [
+        "在线设计",
+        "工程分析",
+        "制造模拟"
+      ],
+      "tutorial": "## 使用text-to-cad进行CAD操作\n\n1. 下载并安装text-to-cad库\n\n2. 在您的项目中引入text-to-cad库\n\n3. 使用API将文本转换为CAD模型\n\n4. 在浏览器中查看和编辑生成的CAD模型\n\n5. 保存或导出CAD模型",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "status": "active",
+      "is_violation": false,
+      "id": "text-to-cad",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "PI-Desktop",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地优先AI编码代理桌面端",
+      "tags": [
+        "AI编码",
+        "本地部署",
+        "Rust",
+        "Electron"
+      ],
+      "scenarios": [
+        "个人开发",
+        "团队协作",
+        "开源项目"
+      ],
+      "tutorial": "## 使用PI-Desktop进行AI编码\n1. 下载并安装PI-Desktop。\n2. 打开应用，选择合适的插件进行安装。\n3. 配置插件，如代码补全、智能提示等。\n4. 开始编写代码，PI-Desktop将提供实时AI辅助。\n5. 保存项目，PI-Desktop支持本地存储，确保数据安全。",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "status": "active",
+      "is_violation": false,
+      "id": "pi-desktop",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "catalogo-agente_Django",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Django 集成网页自动化工具，实现网页交互",
+      "tags": [
+        "Django",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "数据录入"
+      ],
+      "tutorial": "## 使用 catalogo-agente_Django 进行网页自动化\n\n### 1. 安装依赖\n确保已安装 Django 和 catalogo-agente 库。\n\n### 2. 创建 Django 项目\n使用 Django 创建一个新的项目。\n\n### 3. 配置 catalogo-agente\n在 Django 项目中配置 catalogo-agente，定义自动化任务。\n\n### 4. 编写自动化脚本\n编写 Python 脚本，使用 catalogo-agente API 实现网页交互功能。\n\n### 5. 运行自动化任务\n启动 Django 服务器，运行自动化任务。",
+      "url": "https://huggingface.co/spaces/AndersonIM/catalogo-agente_Django",
+      "status": "active",
+      "is_violation": false,
+      "id": "catalogo-agente-django",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "AgentsCourse",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页",
+      "tags": [
+        "网页自动化",
+        "RPA",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## AgentsCourse 使用教程\n\n### 1. 安装与启动\n1. 下载 AgentsCourse 安装包。\n2. 解压安装包并运行程序。\n3. 程序启动后，点击 '新建项目' 创建一个新的自动化任务。\n\n### 2. 创建任务\n1. 在新建的项目中，选择 '添加步骤'。\n2. 从步骤库中选择需要的网页操作步骤，如 '打开网页'、'点击按钮' 等。\n3. 设置步骤的参数，如目标网址、按钮 ID 等。\n\n### 3. 运行与调试\n1. 点击 '运行' 按钮开始执行任务。\n2. 观察任务执行过程，如有错误，可在调试窗口中查看错误信息。\n3. 根据错误信息调整步骤参数或添加新的步骤。\n\n### 4. 保存与分享\n1. 任务执行完成后，点击 '保存' 按钮保存项目。\n2. 可以将项目分享给其他用户或团队。",
+      "url": "https://huggingface.co/spaces/mohamed-hameed/AgentsCourse",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentscourse",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "Harden",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编码代理安全层",
+      "tags": [
+        "安全",
+        "AI编码",
+        "代理"
+      ],
+      "scenarios": [
+        "代码安全审查",
+        "自动化测试",
+        "AI应用安全"
+      ],
+      "tutorial": "## Harden 使用教程\n\n### 1. 安装Harden\n从[官网](https://www.producthunt.com/products/agent-integrity-foundation-aif)下载Harden，并按照安装指南完成安装。\n\n### 2. 配置代理\n打开Harden，配置你的代理设置，确保代理能够正常工作。\n\n### 3. 设置安全规则\n在Harden中设置安全规则，以保护你的AI编码代理免受潜在威胁。\n\n### 4. 开始监控\n启动Harden监控，实时监控AI编码代理的活动，确保其安全性。",
+      "url": "https://www.producthunt.com/products/agent-integrity-foundation-aif",
+      "status": "dead",
+      "is_violation": false,
+      "id": "harden",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "Muse by Meta",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "您的个人AI助手，完成各项任务",
+      "tags": [
+        "AI助手",
+        "自动化",
+        "任务管理"
+      ],
+      "scenarios": [
+        "日常办公自动化",
+        "个人事务管理",
+        "在线服务自动化"
+      ],
+      "tutorial": "## Muse by Meta 使用教程\n\n### 1. 注册与登录\n1. 访问 [Muse官网](https://www.producthunt.com/products/muse-22) 进行注册。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 配置个人助手\n1. 在Muse中设置您的个人偏好和任务类型。\n2. 添加您希望自动化的服务或应用。\n\n### 3. 创建任务\n1. 在Muse中输入您需要完成的任务。\n2. 选择任务类型和优先级。\n\n### 4. 查看进度\n1. 定期检查Muse的进度更新。\n2. 调整任务设置以优化效率。",
+      "url": "https://www.producthunt.com/products/muse-22",
+      "status": "dead",
+      "is_violation": false,
+      "id": "muse-by-meta",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "Mastra Factory",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "从问题到生产，由代理运行。",
+      "tags": [
+        "自动化",
+        "工作流",
+        "生产管理"
+      ],
+      "scenarios": [
+        "企业生产流程自动化",
+        "项目管理",
+        "跨部门协作"
+      ],
+      "tutorial": "## Mastra Factory 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Mastra Factory 官网并注册账号。\n2. 使用注册的邮箱和密码登录系统。\n3. 首次登录后，系统会引导你完成基础设置。\n\n### 2. 创建工作流\n\n1. 在主界面点击 '创建工作流' 按钮。\n2. 选择合适的工作流模板或从零开始设计。\n3. 使用拖拽方式添加任务节点，如审批、通知、数据收集等。\n\n### 3. 配置工作流\n\n1. 在每个任务节点配置具体参数，如审批人、通知方式等。\n2. 设置工作流的触发条件，如特定事件或时间。\n3. 保存并测试工作流，确保其按预期运行。\n\n### 4. 部署与监控\n\n1. 将配置好的工作流部署到生产环境中。\n2. 通过系统监控工作流的运行状态和性能。\n3. 根据需要调整工作流配置，优化流程。",
+      "url": "https://www.producthunt.com/products/mastra",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mastra-factory",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "49agents IDE",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨项目运行代理的2D IDE，减少疲劳",
+      "tags": [
+        "IDE",
+        "代理",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 49agents IDE 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装49agents IDE。\n2. 打开IDE，创建一个新的项目。\n3. 配置项目参数，如代理类型、目标网页等。\n\n### 2. 编写代理脚本\n\n1. 在IDE中编写代理脚本，使用可视化界面或代码编辑器。\n2. 脚本可以包含点击、输入、等待等操作。\n3. 保存并测试脚本，确保其按预期工作。\n\n### 3. 运行代理\n\n1. 在IDE中运行代理脚本。\n2. 观察代理在网页上的操作，确保自动化流程正确。\n3. 调整脚本或配置，直到达到满意的效果。",
+      "url": "https://www.producthunt.com/products/49agents-ide",
+      "status": "dead",
+      "is_violation": false,
+      "id": "49agents-ide",
+      "added": "2026-09-10"
+    },
+    {
+      "name": "Frigade Assist API",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 导航助手，引导用户点击操作",
+      "tags": [
+        "AI导航",
+        "用户交互",
+        "自动化操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "用户行为分析",
+        "RPA应用"
+      ],
+      "tutorial": "## 使用Frigade Assist API进行网页操作引导\n\n1. 注册并获取API密钥\n\n   访问Frigade官网，注册账号并获取API密钥。\n\n2. 配置API请求\n\n   在你的应用程序中配置API请求，包括API密钥和目标网页URL。\n\n3. 创建引导步骤\n\n   使用Frigade的API接口，定义用户需要点击的元素和操作步骤。\n\n4. 集成到应用\n\n   将API请求集成到你的应用程序中，实现自动化的用户引导功能。\n\n5. 测试与优化\n\n   在实际环境中测试引导效果，根据用户反馈进行优化。",
+      "url": "https://www.producthunt.com/products/frigade",
+      "status": "dead",
+      "is_violation": false,
+      "id": "frigade-assist-api",
+      "added": "2026-09-10"
     }
   ],
   "changelog": [
@@ -6588,6 +6789,22 @@
         "Kopai",
         "Catenary",
         "OpenMarket"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-10",
+      "added": [
+        "text-to-cad",
+        "PI-Desktop",
+        "catalogo-agente_Django",
+        "AgentsCourse",
+        "Harden",
+        "Muse by Meta",
+        "Mastra Factory",
+        "49agents IDE",
+        "Frigade Assist API"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
