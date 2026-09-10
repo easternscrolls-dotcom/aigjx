@@ -6315,6 +6315,140 @@
       "is_violation": false,
       "id": "frigade-assist-api",
       "added": "2026-09-10"
+    },
+    {
+      "name": "CloddsBot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI交易代理，自动跨1000+市场操作，实现边缘扫描、即时执行和风险管理。",
+      "tags": [
+        "AI交易",
+        "自动交易",
+        "跨市场"
+      ],
+      "scenarios": [
+        "加密货币交易",
+        "市场分析",
+        "风险管理"
+      ],
+      "tutorial": "## CloddsBot 使用教程\n\n1. 下载并安装 CloddsBot\n   - 访问 CloddsBot 的 GitHub 仓库，下载最新版本的 CloddsBot。\n   - 按照安装指南完成安装。\n\n2. 配置市场连接\n   - 在 CloddsBot 的配置文件中，添加你想要连接的市场和交易所的详细信息。\n   - 确保所有市场连接都是有效的。\n\n3. 设置交易策略\n   - 在 CloddsBot 中定义你的交易策略，包括入场和退出条件。\n   - 调整风险参数，如最大亏损和最大持仓量。\n\n4. 启动交易代理\n   - 启动 CloddsBot，让它开始自动扫描市场并执行交易。\n   - 监控交易日志，确保一切按预期进行。\n\n5. 管理和监控\n   - 定期检查 CloddsBot 的性能和交易结果。\n   - 根据市场变化调整交易策略。",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "status": "active",
+      "is_violation": false,
+      "id": "cloddsbot",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "armorpaint",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "图形创作工具，支持网页自动操作",
+      "tags": [
+        "图形创作",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页内容采集",
+        "自动化绘图任务",
+        "图形编辑"
+      ],
+      "tutorial": "## 使用 ArmorPaint 进行图形创作\n1. 下载并安装 ArmorPaint。\n2. 打开网页，选择需要自动化的图形创作任务。\n3. 在 ArmorPaint 中配置自动化脚本，如鼠标移动、点击等操作。\n4. 运行脚本，观察自动化效果。\n5. 保存并导出自动化后的图形作品。",
+      "url": "https://github.com/armory3d/armorpaint",
+      "status": "active",
+      "is_violation": false,
+      "id": "armorpaint",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "OmniRoute",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式AI编程助手，支持多模型调用",
+      "tags": [
+        "AI编程",
+        "多模型",
+        "代码助手"
+      ],
+      "scenarios": [
+        "代码开发",
+        "编程辅助",
+        "AI模型集成"
+      ],
+      "tutorial": "## 使用OmniRoute进行AI编程\n\n1. 注册并登录OmniRoute平台\n\n2. 在平台中选择需要的AI模型，如Kimi、Claude、GPT等\n\n3. 使用提供的接口进行API调用，将代码问题或任务提交给所选模型\n\n4. 模型将返回相应的代码或解决方案\n\n5. 可以通过Claude Code、Codex等工具进一步编辑和优化代码",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "status": "active",
+      "is_violation": false,
+      "id": "omniroute",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "hob",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "专业智能工作空间，集成代理栈",
+      "tags": [
+        "智能工作空间",
+        "代理集成",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Hob 使用教程\n\n### 1. 创建新项目\n\n- 登录 Hob 平台\n- 点击 '创建新项目' 按钮\n- 输入项目名称并选择项目类型\n\n### 2. 添加代理\n\n- 在项目设置中，点击 '添加代理'\n- 选择代理类型（如浏览器代理、API 代理等）\n- 配置代理参数并保存\n\n### 3. 编写自动化脚本\n\n- 在脚本编辑器中，选择合适的脚本语言（如 JavaScript、Python 等）\n- 编写自动化脚本，实现所需功能\n\n### 4. 运行和测试\n\n- 点击 '运行' 按钮执行脚本\n- 观察脚本执行结果，确保自动化流程正确\n\n### 5. 部署和监控\n\n- 将脚本部署到 Hob 平台\n- 监控脚本运行状态，确保自动化流程稳定运行",
+      "url": "https://www.producthunt.com/products/hob-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hob",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "Thousand",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于 Git 的文档协作工具，适用于人类和智能体。",
+      "tags": [
+        "文档",
+        "协作",
+        "Git",
+        "智能体"
+      ],
+      "scenarios": [
+        "团队协作",
+        "知识管理",
+        "文档共享"
+      ],
+      "tutorial": "## Thousand 使用教程\n\n1. 注册并登录\n   - 访问 [Thousand 官网](https://www.producthunt.com/products/thousand) 进行注册。\n   - 使用邮箱或社交媒体账号登录。\n\n2. 创建新文档\n   - 点击右上角的 '+' 创建新文档。\n   - 选择合适的模板或从空白文档开始。\n\n3. 编辑和协作\n   - 使用丰富的编辑器功能进行文档编辑。\n   - 邀请团队成员进行协作，实时查看编辑状态。\n\n4. 版本控制\n   - 使用 Git 版本控制功能，查看历史版本和进行版本回退。\n   - 通过分支管理，实现并行编辑。\n\n5. 导出和分享\n   - 将文档导出为 PDF、Word 等格式。\n   - 分享文档链接，方便团队成员访问。",
+      "url": "https://www.producthunt.com/products/thousand",
+      "status": "dead",
+      "is_violation": false,
+      "id": "thousand",
+      "added": "2026-09-11"
+    },
+    {
+      "name": "AI Observability by OpenObserve",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为智能代理和大型语言模型提供原生 OpenTelemetry 可观测性",
+      "tags": [
+        "AI",
+        "Observability",
+        "OpenTelemetry",
+        "LLM"
+      ],
+      "scenarios": [
+        "智能代理监控",
+        "大型语言模型性能分析",
+        "跨平台可观测性"
+      ],
+      "tutorial": "## 使用 AI Observability by OpenObserve 的步骤\n\n1. 安装 OpenObserve\n   - 下载并安装 OpenObserve\n   - 配置环境变量\n\n2. 配置 OpenTelemetry\n   - 设置数据收集器\n   - 配置指标和日志\n\n3. 集成到智能代理或 LLM\n   - 在代理或 LLM 中集成 OpenObserve\n   - 启用数据收集\n\n4. 监控和分析\n   - 使用 OpenTelemetry 控制台查看数据\n   - 分析性能和异常",
+      "url": "https://www.producthunt.com/products/openobserve",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ai-observability-by-openobserve",
+      "added": "2026-09-11"
     }
   ],
   "changelog": [
@@ -6805,6 +6939,19 @@
         "Mastra Factory",
         "49agents IDE",
         "Frigade Assist API"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-11",
+      "added": [
+        "CloddsBot",
+        "armorpaint",
+        "OmniRoute",
+        "hob",
+        "Thousand",
+        "AI Observability by OpenObserve"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
