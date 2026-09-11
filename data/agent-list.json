@@ -6449,6 +6449,186 @@
       "is_violation": false,
       "id": "ai-observability-by-openobserve",
       "added": "2026-09-11"
+    },
+    {
+      "name": "DeskcommCRM",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI销售操作系统，自托管CRM，集成WhatsApp。",
+      "tags": [
+        "CRM",
+        "AI",
+        "WhatsApp",
+        "销售"
+      ],
+      "scenarios": [
+        "在线客服",
+        "销售管理",
+        "客户关系维护"
+      ],
+      "tutorial": "## DeskcommCRM 使用教程\n\n### 1. 安装与配置\n1. 下载DeskcommCRM源代码。\n2. 在本地服务器上部署并配置。\n3. 配置WhatsApp集成。\n\n### 2. 创建账户与角色\n1. 登录系统后，创建管理员账户。\n2. 创建不同角色的用户，如销售代表、客服等。\n\n### 3. 设置自动化流程\n1. 在设置中配置自动化工作流程。\n2. 设置触发条件和响应动作。\n\n### 4. 使用WhatsApp进行沟通\n1. 在DeskcommCRM中添加WhatsApp账号。\n2. 使用系统发送和接收WhatsApp消息。",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "status": "active",
+      "is_violation": false,
+      "id": "deskcommcrm",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "MathModelAgent",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "自动完成数学建模，生成论文",
+      "tags": [
+        "数学建模",
+        "自动化",
+        "论文生成"
+      ],
+      "scenarios": [
+        "学术研究",
+        "论文写作",
+        "数学建模竞赛"
+      ],
+      "tutorial": "## MathModelAgent 使用教程\n\n### 1. 安装 Agent\n\n1. 访问 MathModelAgent 的 GitHub 仓库。\n2. 克隆仓库到本地。\n3. 运行安装脚本。\n\n### 2. 准备数据\n\n1. 收集相关数据。\n2. 格式化数据，确保数据质量。\n3. 将数据导入到 MathModelAgent。\n\n### 3. 模型构建\n\n1. 选择合适的建模方法。\n2. 使用 MathModelAgent 的技能库进行模型构建。\n3. 调整模型参数，优化模型。\n\n### 4. 论文生成\n\n1. 模型验证后，使用 MathModelAgent 生成论文。\n2. 检查论文格式和内容。\n3. 准备提交。",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "status": "active",
+      "is_violation": false,
+      "id": "mathmodelagent",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "hyperresearch",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动驱动的研究知识库，收集、搜索和综合网络研究。",
+      "tags": [
+        "研究",
+        "知识库",
+        "自动化",
+        "搜索"
+      ],
+      "scenarios": [
+        "学术研究",
+        "市场调研",
+        "知识管理"
+      ],
+      "tutorial": "## 使用 HyperResearch 进行研究\n\n1. **启动 HyperResearch**\n   - 访问 HyperResearch 官网并注册账号。\n   - 登录后，创建一个新的研究项目。\n\n2. **配置代理**\n   - 在设置中配置你的代理，包括搜索源和关键词。\n   - 确保代理能够访问你需要的网站。\n\n3. **开始研究**\n   - 点击“开始研究”按钮，HyperResearch 将自动开始收集数据。\n   - 查看进度和实时更新。\n\n4. **整理与分析**\n   - 研究完成后，对收集到的数据进行整理和分析。\n   - 使用内置工具生成报告。\n\n5. **分享与协作**\n   - 将研究成果分享给团队成员。\n   - 在知识库中保存和更新研究内容。",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "status": "active",
+      "is_violation": false,
+      "id": "hyperresearch",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "OpenResearch",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "并行运行研究代理，适用于模型测试",
+      "tags": [
+        "研究代理",
+        "模型测试",
+        "并行运行",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "学术研究",
+        "数据分析",
+        "模型验证"
+      ],
+      "tutorial": "## 使用 OpenResearch 进行模型测试\n1. 安装 OpenResearch 浏览器扩展。\n2. 打开目标网页，启动研究代理。\n3. 选择要测试的模型，配置参数。\n4. 点击运行，观察代理行为和模型输出。\n5. 分析结果，调整模型参数。",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "status": "active",
+      "is_violation": false,
+      "id": "openresearch",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "editor",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地开源3D建筑编辑器，支持CLI和MCP工具，适合人类和AI代理。",
+      "tags": [
+        "3D建模",
+        "建筑编辑",
+        "本地部署"
+      ],
+      "scenarios": [
+        "建筑可视化",
+        "室内设计",
+        "虚拟现实"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装\n   - 访问[GitHub](https://github.com)下载editor源代码。\n   - 按照README中的说明进行安装。\n\n2. 运行CLI\n   - 打开命令行工具。\n   - 输入`editor-cli`启动编辑器。\n\n3. 创建新项目\n   - 在CLI中创建一个新的3D建筑项目。\n   - 选择项目类型和配置选项。\n\n4. 使用MCP工具\n   - 利用MCP工具进行模型编辑和渲染。\n   - 通过CLI命令调用MCP工具。\n\n5. 保存和导出\n   - 完成编辑后，保存项目。\n   - 导出为常用格式，如FBX或OBJ。",
+      "url": "https://github.com/pascalorg/editor",
+      "status": "active",
+      "is_violation": false,
+      "id": "editor",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "Spaces",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "团队共享空间，与AI协作",
+      "tags": [
+        "团队协作",
+        "AI",
+        "共享空间"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化工作"
+      ],
+      "tutorial": "## Spaces 使用教程\n\n### 1. 创建团队空间\n\n1. 访问Spaces官网并注册账号。\n2. 创建一个新的团队空间，邀请团队成员加入。\n3. 设置空间权限和成员角色。\n\n### 2. 添加AI代理\n\n1. 在团队空间内，选择添加AI代理。\n2. 选择合适的AI代理模型，配置参数。\n3. 将AI代理部署到空间中。\n\n### 3. 使用AI代理\n\n1. 在团队空间中，通过聊天或命令与AI代理交互。\n2. AI代理将根据配置自动执行任务。\n3. 监控AI代理的执行情况和效果。",
+      "url": "https://www.producthunt.com/products/spaces-21",
+      "status": "dead",
+      "is_violation": false,
+      "id": "spaces",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "Cadenya",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端自动化代理循环，实现自动化操作",
+      "tags": [
+        "自动化",
+        "代理",
+        "云端服务"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Cadenya 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Cadenya 官网进行注册。\n2. 使用邮箱验证并登录。\n\n### 2. 创建代理\n\n1. 在控制台点击创建新代理。\n2. 输入代理名称和描述。\n3. 选择代理类型和配置参数。\n\n### 3. 编写脚本\n\n1. 使用 Cadenya 提供的脚本编辑器。\n2. 编写自动化任务脚本。\n3. 保存并测试脚本。\n\n### 4. 运行代理\n\n1. 在控制台选择要运行的代理。\n2. 点击运行按钮。\n3. 观察代理执行状态。",
+      "url": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cadenya",
+      "added": "2026-09-12"
+    },
+    {
+      "name": "Anysite.io",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "通过聊天构建和丰富B2B名单",
+      "tags": [
+        "B2B",
+        "名单管理",
+        "聊天工具",
+        "自动化"
+      ],
+      "scenarios": [
+        "客户数据管理",
+        "销售线索挖掘",
+        "市场调研"
+      ],
+      "tutorial": "## 安装与登录\n1. 访问 [Anysite.io](https://www.anysite.io) 官网\n2. 点击 'Sign Up' 或 'Log In' 进行注册或登录\n3. 使用邮箱或社交媒体账号完成登录\n## 创建B2B名单\n1. 在首页点击 'Create List' 创建新的名单\n2. 输入名单名称和描述\n3. 选择名单来源，如导入CSV文件或手动添加\n## 与聊天机器人互动\n1. 在名单详情页点击 'Chat' 开始与聊天机器人互动\n2. 通过聊天获取更多客户信息\n3. 将有用的信息添加到名单中\n## 导出名单\n1. 在名单详情页点击 'Export' 导出名单\n2. 选择导出格式，如CSV或Excel\n3. 下载并使用名单",
+      "url": "https://www.producthunt.com/products/anysite",
+      "status": "dead",
+      "is_violation": false,
+      "id": "anysite-io",
+      "added": "2026-09-12"
     }
   ],
   "changelog": [
@@ -6952,6 +7132,21 @@
         "hob",
         "Thousand",
         "AI Observability by OpenObserve"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-12",
+      "added": [
+        "DeskcommCRM",
+        "MathModelAgent",
+        "hyperresearch",
+        "OpenResearch",
+        "editor",
+        "Spaces",
+        "Cadenya",
+        "Anysite.io"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:15:58.261Z",
+  "generatedAt": "2026-09-11T20:15:32.373Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1481,6 +1481,46 @@
       "url": "https://aiagent.72tool.com/tools/ai-observability-by-openobserve.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/deskcommcrm.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mathmodelagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hyperresearch.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openresearch.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/editor.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/spaces.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cadenya.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/anysite-io.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1511,22 +1551,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 289,
+    "totalAgents": 297,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 19
+        "count": 20
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 230
+        "count": 236
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 20
+        "count": 21
       },
       {
         "id": "crossborder",
@@ -1539,6 +1579,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 142
+    "deadLinks": 145
   }
 }
