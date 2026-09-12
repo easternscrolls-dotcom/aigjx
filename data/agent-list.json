@@ -6629,6 +6629,141 @@
       "is_violation": false,
       "id": "anysite-io",
       "added": "2026-09-12"
+    },
+    {
+      "name": "YuE",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "前沿音乐生成与编辑工具",
+      "tags": [
+        "音乐生成",
+        "符号规划",
+        "自动编辑"
+      ],
+      "scenarios": [
+        "音乐创作",
+        "音乐编辑",
+        "音乐制作"
+      ],
+      "tutorial": "## 使用 YuE 进行音乐生成与编辑\n1. 访问 YuE 官网或 GitHub 仓库，下载并安装 YuE。\n2. 打开 YuE，选择音乐生成模式或编辑模式。\n3. 在音乐生成模式下，输入音乐风格、情绪等描述性信息，点击生成按钮。\n4. 在音乐编辑模式下，导入音乐文件，进行剪辑、混音等编辑操作。\n5. 保存编辑后的音乐作品，或分享到社交媒体。",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "status": "active",
+      "is_violation": false,
+      "id": "yue",
+      "added": "2026-09-13"
+    },
+    {
+      "name": "worktrunk",
+      "category": "local",
+      "type": "open-source",
+      "summary": "Git工作树管理CLI，适用于并行AI代理工作流",
+      "tags": [
+        "Git",
+        "工作树",
+        "AI代理",
+        "工作流"
+      ],
+      "scenarios": [
+        "Git版本控制",
+        "并行开发",
+        "AI工作流管理"
+      ],
+      "tutorial": "## 使用Worktrunk进行Git工作树管理\n\n1. 安装Worktrunk\n\n   - 使用pip安装：`pip install worktrunk`\n\n2. 创建工作树\n\n   - 创建一个新的工作树：`worktrunk create <branch>`\n\n3. 切换到工作树\n\n   - 切换到指定工作树：`worktrunk switch <branch>`\n\n4. 添加文件到工作树\n\n   - 将文件添加到工作树：`git add <file>`\n\n5. 提交更改\n\n   - 提交工作树中的更改：`git commit -m '提交信息'`\n\n6. 推送到远程仓库\n\n   - 将工作树更改推送到远程仓库：`git push`\n\n7. 删除工作树\n\n   - 删除工作树：`worktrunk remove <branch>`",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "status": "active",
+      "is_violation": false,
+      "id": "worktrunk",
+      "added": "2026-09-13"
+    },
+    {
+      "name": "pentagi",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化渗透测试AI代理系统",
+      "tags": [
+        "AI",
+        "渗透测试",
+        "自动化",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "安全测试",
+        "网络监控",
+        "漏洞扫描"
+      ],
+      "tutorial": "## 使用Pentagi进行渗透测试\n\n1. 下载并安装Pentagi浏览器扩展。\n2. 打开目标网站，使用Pentagi扩展进行扫描。\n3. 分析扫描结果，识别潜在的安全漏洞。\n4. 根据漏洞信息，制定修复策略。\n\n## 小节标题\n\n1. 安装与配置\n   - 下载Pentagi扩展并安装到浏览器。\n   - 确保浏览器扩展设置允许Pentagi访问网站。\n\n2. 扫描目标网站\n   - 在目标网站上启用Pentagi扩展。\n   - 选择扫描类型和范围，开始扫描。\n\n3. 分析扫描结果\n   - 查看扫描报告，识别安全漏洞。\n   - 了解漏洞的严重程度和可能的影响。\n\n4. 修复漏洞\n   - 根据扫描结果，采取相应的修复措施。\n   - 重复扫描，验证修复效果。",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "status": "active",
+      "is_violation": false,
+      "id": "pentagi",
+      "added": "2026-09-13"
+    },
+    {
+      "name": "Edu-AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页AI工具",
+      "tags": [
+        "AI",
+        "浏览器插件",
+        "自然语言处理"
+      ],
+      "scenarios": [
+        "在线教育",
+        "内容创作",
+        "数据分析"
+      ],
+      "tutorial": "## Edu-AI使用教程\n\n1. 下载并安装Edu-AI插件\n\n2. 打开浏览器，访问需要分析或生成内容的网页\n\n3. 点击Edu-AI插件图标，选择相应的功能\n\n4. 根据提示输入文本或选择网页内容\n\n5. 插件将自动处理并展示结果",
+      "url": "https://huggingface.co/spaces/Agent606/Edu-AI",
+      "status": "active",
+      "is_violation": false,
+      "id": "edu-ai",
+      "added": "2026-09-13"
+    },
+    {
+      "name": "finsql-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码自动操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## Finsql-Agent 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Finsql-Agent 安装包。\n2. 解压安装包并运行 Finsql-Agent。\n3. 确保浏览器已安装相应的插件。\n\n### 2. 创建任务\n\n1. 在 Finsql-Agent 中点击 '新建任务'。\n2. 选择要操作的网页或表单。\n3. 设置操作步骤，如点击、输入、等待等。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 在监控窗口查看任务执行状态。\n3. 如有异常，可暂停或终止任务。\n\n### 4. 保存与分享\n\n1. 完成任务后，点击 '保存' 保存任务。\n2. 可将任务分享给他人或团队使用。",
+      "url": "https://huggingface.co/spaces/Prashantm99/finsql-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "finsql-agent",
+      "added": "2026-09-13"
+    },
+    {
+      "name": "QApilot MCP for Android",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Android应用测试工具，集成于编码代理中",
+      "tags": [
+        "Android",
+        "测试",
+        "自动化"
+      ],
+      "scenarios": [
+        "移动应用测试",
+        "自动化测试",
+        "持续集成"
+      ],
+      "tutorial": "## QApilot MCP for Android 使用教程\n\n### 1. 安装 QApilot\n\n1. 访问 QApilot 官网下载最新版本。\n2. 解压下载的文件到本地目录。\n3. 运行安装程序进行安装。\n\n### 2. 配置 QApilot\n\n1. 打开 QApilot，进入设置界面。\n2. 配置测试设备，连接你的 Android 设备。\n3. 设置测试脚本，编写测试用例。\n\n### 3. 运行测试\n\n1. 点击运行按钮，开始执行测试脚本。\n2. 观察测试结果，分析测试数据。\n3. 根据测试结果调整测试脚本。",
+      "url": "https://www.producthunt.com/products/qapilot",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qapilot-mcp-for-android",
+      "added": "2026-09-13"
     }
   ],
   "changelog": [
@@ -7147,6 +7282,19 @@
         "Spaces",
         "Cadenya",
         "Anysite.io"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-13",
+      "added": [
+        "YuE",
+        "worktrunk",
+        "pentagi",
+        "Edu-AI",
+        "finsql-agent",
+        "QApilot MCP for Android"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
