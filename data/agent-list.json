@@ -6764,6 +6764,72 @@
       "is_violation": false,
       "id": "qapilot-mcp-for-android",
       "added": "2026-09-13"
+    },
+    {
+      "name": "open-code-review",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "高效、精准的混合架构代码审查工具",
+      "tags": [
+        "代码审查",
+        "混合架构",
+        "多语言支持"
+      ],
+      "scenarios": [
+        "软件开发团队",
+        "代码质量监控",
+        "跨团队协作"
+      ],
+      "tutorial": "## 使用 open-code-review 进行代码审查\n\n1. 下载并安装 open-code-review 工具。\n2. 配置项目路径和代码仓库地址。\n3. 选择需要审查的代码文件或目录。\n4. 启动代码审查流程，系统将自动分析代码并生成审查报告。\n5. 查看报告中的行级注释和建议，进行代码优化。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "active",
+      "is_violation": false,
+      "id": "open-code-review",
+      "added": "2026-09-14"
+    },
+    {
+      "name": "cognitive-agent-evaluator",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "评估认知型网页Agent性能",
+      "tags": [
+        "认知评估",
+        "网页Agent",
+        "性能分析"
+      ],
+      "scenarios": [
+        "网页性能测试",
+        "Agent性能监控",
+        "用户体验优化"
+      ],
+      "tutorial": "## 认知型网页Agent性能评估教程\n\n### 1. 安装与配置\n\n1. 下载并安装cognitive-agent-evaluator。\n2. 配置环境变量，确保evaluator可被调用。\n3. 准备待评估的网页Agent。\n\n### 2. 运行评估\n\n1. 使用命令行运行evaluator。\n2. 选择评估指标，如响应时间、准确率等。\n3. 观察评估结果。\n\n### 3. 分析结果\n\n1. 分析Agent性能瓶颈。\n2. 优化Agent代码或配置。\n3. 重复评估，验证优化效果。",
+      "url": "https://huggingface.co/spaces/neurodeveloper/cognitive-agent-evaluator",
+      "status": "active",
+      "is_violation": false,
+      "id": "cognitive-agent-evaluator",
+      "added": "2026-09-14"
+    },
+    {
+      "name": "freeagent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于浏览器的网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 FreeAgent 进行网页自动化\n\n### 1. 安装与启动\n\n1. 下载并安装 FreeAgent。\n2. 打开 FreeAgent 并启动。\n\n### 2. 创建新任务\n\n1. 点击 '新建任务' 按钮。\n2. 选择任务类型（如数据采集、网页测试等）。\n3. 输入任务名称。\n\n### 3. 编写脚本\n\n1. 在脚本编辑器中，使用 FreeAgent 提供的 API 编写自动化脚本。\n2. 脚本可以包括打开网页、填写表单、点击按钮等操作。\n3. 保存并测试脚本。\n\n### 4. 运行任务\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 观察任务执行结果。\n3. 根据需要调整脚本。",
+      "url": "https://huggingface.co/spaces/polats/freeagent",
+      "status": "active",
+      "is_violation": false,
+      "id": "freeagent",
+      "added": "2026-09-14"
     }
   ],
   "changelog": [
@@ -7295,6 +7361,16 @@
         "Edu-AI",
         "finsql-agent",
         "QApilot MCP for Android"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-14",
+      "added": [
+        "open-code-review",
+        "cognitive-agent-evaluator",
+        "freeagent"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

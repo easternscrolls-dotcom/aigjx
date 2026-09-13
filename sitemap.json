@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T19:54:09.346Z",
+  "generatedAt": "2026-09-13T20:01:17.941Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1551,6 +1551,21 @@
       "url": "https://aiagent.72tool.com/tools/qapilot-mcp-for-android.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/open-code-review.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cognitive-agent-evaluator.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/freeagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1581,7 +1596,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 303,
+    "totalAgents": 306,
     "byCategory": [
       {
         "id": "local",
@@ -1591,7 +1606,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 241
+        "count": 244
       },
       {
         "id": "workflow",
