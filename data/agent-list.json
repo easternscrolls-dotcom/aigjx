@@ -6830,6 +6830,141 @@
       "is_violation": false,
       "id": "freeagent",
       "added": "2026-09-14"
+    },
+    {
+      "name": "Agent-Reach",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一链式搜索全网，零API费用",
+      "tags": [
+        "AI搜索",
+        "社交媒体",
+        "数据采集"
+      ],
+      "scenarios": [
+        "社交媒体数据分析",
+        "内容监控",
+        "跨平台搜索"
+      ],
+      "tutorial": "## Agent-Reach 使用教程\n\n1. 安装 Agent-Reach\n\n   1.1 下载 Agent-Reach 的源代码。\n   1.2 使用 `pip install .` 命令进行安装。\n\n2. 配置搜索源\n\n   2.1 编辑 `config.yaml` 文件，添加你想要搜索的平台和关键词。\n   2.2 确保所有平台的 API 密钥正确无误。\n\n3. 执行搜索\n\n   3.1 使用 `agent-reach search [关键词]` 命令进行搜索。\n   3.2 查看搜索结果，支持多种格式输出。\n\n4. 数据处理\n\n   4.1 对搜索结果进行筛选和整理。\n   4.2 可导出为 CSV 或 JSON 格式，方便进一步分析。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-reach",
+      "added": "2026-09-15"
+    },
+    {
+      "name": "oh-my-hermes",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式Hermes Agent插件，提供编码智能、长期记忆系统及模型优化工作流包",
+      "tags": [
+        "插件",
+        "Hermes Agent",
+        "编码智能",
+        "工作流"
+      ],
+      "scenarios": [
+        "代码开发辅助",
+        "自动化工作流",
+        "智能记忆系统"
+      ],
+      "tutorial": "## 使用oh-my-hermes进行Hermes Agent插件配置\n1. 下载并安装oh-my-hermes插件\n2. 打开Hermes Agent，选择插件管理\n3. 搜索并安装oh-my-hermes\n4. 配置插件参数，如记忆系统设置、模型优化选项\n5. 在Hermes Agent中启动插件，开始使用其功能",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "status": "active",
+      "is_violation": false,
+      "id": "oh-my-hermes",
+      "added": "2026-09-15"
+    },
+    {
+      "name": "Unit4-Gaia-Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于浏览器自动化操作的网页Agent",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## Unit4-Gaia-Agent 使用教程\n\n### 1. 安装与启动\n1. 下载 Unit4-Gaia-Agent 安装包。\n2. 解压安装包并运行启动程序。\n3. 确认浏览器插件已成功安装。\n\n### 2. 创建任务\n1. 打开浏览器插件界面。\n2. 点击创建新任务。\n3. 选择任务类型，如数据采集或表单填写。\n\n### 3. 编排步骤\n1. 在任务编辑器中，拖拽所需步骤到工作区。\n2. 设置每个步骤的参数，如目标网页、数据字段等。\n3. 预览并保存编排好的任务。\n\n### 4. 运行与监控\n1. 点击运行任务。\n2. 观察任务执行状态。\n3. 任务完成后，导出结果数据。",
+      "url": "https://huggingface.co/spaces/rushirajesh/Unit4-Gaia-Agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "unit4-gaia-agent",
+      "added": "2026-09-15"
+    },
+    {
+      "name": "OzBrain",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "共享知识，赋能AI与团队协作",
+      "tags": [
+        "AI协作",
+        "知识共享",
+        "团队协作",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "团队知识管理",
+        "AI辅助工作",
+        "知识库构建"
+      ],
+      "tutorial": "## OzBrain 使用教程\n\n1. 下载并安装 OzBrain 浏览器插件。\n2. 登录您的账户，开始使用知识共享功能。\n3. 将您的重要信息或知识片段拖拽到插件中，进行标注和分享。\n4. 通过插件与其他团队成员进行知识交流，实现团队协作。\n5. 利用OzBrain的搜索功能快速查找所需知识。",
+      "url": "https://www.producthunt.com/products/ozbrain",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ozbrain",
+      "added": "2026-09-15"
+    },
+    {
+      "name": "Web Search Agents by Nimble",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化的网页搜索与检索代理",
+      "tags": [
+        "自动化",
+        "搜索",
+        "检索",
+        "网页"
+      ],
+      "scenarios": [
+        "数据采集",
+        "市场调研",
+        "信息监控"
+      ],
+      "tutorial": "## 使用 Web Search Agents by Nimble 进行网页搜索与检索\n\n1. 注册并登录 Nimble 平台。\n2. 在 Nimble 中创建一个新的搜索代理。\n3. 设置搜索代理的参数，如关键词、搜索深度等。\n4. 启动搜索代理，Nimble 将自动进行网页搜索并检索相关信息。\n5. 查看搜索结果，并下载或导出所需数据。",
+      "url": "https://www.producthunt.com/products/nimbleway",
+      "status": "dead",
+      "is_violation": false,
+      "id": "web-search-agents-by-nimble",
+      "added": "2026-09-15"
+    },
+    {
+      "name": "Naoma AI Demo Agent V2",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将网站流量转化为预约的合格会议",
+      "tags": [
+        "网站流量转化",
+        "预约管理",
+        "会议自动化"
+      ],
+      "scenarios": [
+        "在线营销",
+        "销售自动化",
+        "客户关系管理"
+      ],
+      "tutorial": "## Naoma AI Demo Agent V2 使用教程\n\n### 1. 安装与配置\n\n1. 访问 Naoma AI Demo Agent V2 官网下载安装包。\n2. 根据提示完成安装，并配置相关参数。\n3. 确保网络连接正常，以便进行数据传输。\n\n### 2. 创建任务\n\n1. 打开 Naoma AI Demo Agent V2，点击创建新任务。\n2. 输入任务名称和描述，选择目标网站和关键词。\n3. 设置触发条件和预约规则，如时间、地点等。\n\n### 3. 监控与优化\n\n1. 查看任务执行情况，包括预约成功数、失败原因等。\n2. 根据反馈调整任务设置，优化预约效果。\n3. 定期检查系统运行状态，确保稳定运行。",
+      "url": "https://www.producthunt.com/products/naoma",
+      "status": "dead",
+      "is_violation": false,
+      "id": "naoma-ai-demo-agent-v2",
+      "added": "2026-09-15"
     }
   ],
   "changelog": [
@@ -7371,6 +7506,19 @@
         "open-code-review",
         "cognitive-agent-evaluator",
         "freeagent"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-15",
+      "added": [
+        "Agent-Reach",
+        "oh-my-hermes",
+        "Unit4-Gaia-Agent",
+        "OzBrain",
+        "Web Search Agents by Nimble",
+        "Naoma AI Demo Agent V2"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

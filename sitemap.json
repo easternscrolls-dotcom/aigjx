@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T20:01:17.941Z",
+  "generatedAt": "2026-09-14T21:12:42.007Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1566,6 +1566,36 @@
       "url": "https://aiagent.72tool.com/tools/freeagent.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-reach.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/oh-my-hermes.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/unit4-gaia-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ozbrain.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/web-search-agents-by-nimble.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/naoma-ai-demo-agent-v2.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1596,7 +1626,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 306,
+    "totalAgents": 312,
     "byCategory": [
       {
         "id": "local",
@@ -1606,7 +1636,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 244
+        "count": 250
       },
       {
         "id": "workflow",
@@ -1624,6 +1654,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 146
+    "deadLinks": 149
   }
 }
