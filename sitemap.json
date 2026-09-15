@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T21:12:42.007Z",
+  "generatedAt": "2026-09-15T20:41:51.930Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1596,6 +1596,56 @@
       "url": "https://aiagent.72tool.com/tools/naoma-ai-demo-agent-v2.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/librechat.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/asc.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pi.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/duol-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gfhub-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentic-document-redaction.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/is-team.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/buddy-ai-access-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/multimodal-agents-by-sierra.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openai-agents-api.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1626,7 +1676,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 312,
+    "totalAgents": 322,
     "byCategory": [
       {
         "id": "local",
@@ -1636,7 +1686,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 250
+        "count": 260
       },
       {
         "id": "workflow",
@@ -1654,6 +1704,6 @@
         "count": 11
       }
     ],
-    "deadLinks": 149
+    "deadLinks": 153
   }
 }

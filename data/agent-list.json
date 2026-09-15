@@ -6965,6 +6965,231 @@
       "is_violation": false,
       "id": "naoma-ai-demo-agent-v2",
       "added": "2026-09-15"
+    },
+    {
+      "name": "LibreChat",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源 ChatGPT 克隆，支持多模型切换与消息搜索。",
+      "tags": [
+        "ChatGPT",
+        "AI 模型",
+        "消息搜索",
+        "开源"
+      ],
+      "scenarios": [
+        "聊天机器人",
+        "客服系统",
+        "数据分析"
+      ],
+      "tutorial": "## 使用 LibreChat 进行基础操作\n1. 下载并安装 LibreChat。\n2. 打开软件，创建一个新的聊天会话。\n3. 在聊天框中输入问题或命令。\n4. 软件将自动调用相应的 AI 模型进行回复。\n5. 使用搜索功能查找历史消息。\n## 模型切换\n1. 在设置中找到模型切换选项。\n2. 选择你想要使用的 AI 模型。\n3. 重启软件以应用新的模型设置。\n## 安全多用户认证\n1. 在设置中启用多用户认证。\n2. 设置用户名和密码。\n3. 用户通过认证后可以独立使用软件。",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "status": "active",
+      "is_violation": false,
+      "id": "librechat",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "ASC",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速Android反编译工具，适用于移动研究人员",
+      "tags": [
+        "Android",
+        "反编译",
+        "移动研究"
+      ],
+      "scenarios": [
+        "移动应用分析",
+        "安全研究",
+        "逆向工程"
+      ],
+      "tutorial": "## ASC 使用教程\n\n### 1. 安装 ASC\n\n- 下载 ASC 安装包。\n- 解压安装包到本地目录。\n- 运行 ASC.exe 启动程序。\n\n### 2. 加载 APK 文件\n\n- 在 ASC 界面中选择 'File' > 'Open APK'。\n- 选择要反编译的 APK 文件。\n\n### 3. 开始反编译\n\n- 点击 'Decompile' 按钮，开始反编译过程。\n\n### 4. 查看反编译结果\n\n- 反编译完成后，可以在 'Decompiled' 选项卡中查看反编译的代码。\n\n### 5. 保存反编译结果\n\n- 选择 'File' > 'Save Decompile' 保存反编译结果。",
+      "url": "https://github.com/MG1937/ASC",
+      "status": "active",
+      "is_violation": false,
+      "id": "asc",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "pi",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "统一LLM API，智能代理工具包",
+      "tags": [
+        "AI代理",
+        "LLM API",
+        "TUI",
+        "CLI"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "代码辅助",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用pi工具包进行智能代理操作\n1. 安装pi工具包\n   - 使用pip安装：`pip install pi`\n2. 创建智能代理\n   - 使用pi命令行工具创建代理：`pi agent create --name my_agent`\n3. 编写代理逻辑\n   - 使用Python编写代理逻辑：`def my_agent(context):\n       return 'Hello, World!'`\n4. 运行代理\n   - 启动代理：`pi agent run --name my_agent`\n5. 与LLM交互\n   - 通过API与LLM进行交互：`llm = pi.LLM('gpt-3.5-turbo')\n   response = llm.complete(prompt='What is your name?')\n   print(response.choices[0].text)`",
+      "url": "https://github.com/earendil-works/pi",
+      "status": "active",
+      "is_violation": false,
+      "id": "pi",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "duol-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## 使用 Duol-Agent 进行网页自动化\n\n### 1. 安装 Duol-Agent\n\n从 [Duol-Agent 官网](https://duol-agent.com) 下载并安装最新版本的 Duol-Agent。\n\n### 2. 打开网页\n\n启动 Duol-Agent，打开需要自动化的网页。\n\n### 3. 创建任务\n\n在 Duol-Agent 中，点击创建新任务，选择要自动化的操作类型，如点击、输入、滚动等。\n\n### 4. 编排任务\n\n使用拖拽方式编排任务流程，设置任务执行条件。\n\n### 5. 运行任务\n\n点击运行按钮，Duol-Agent 将按照编排的流程自动执行任务。\n\n### 6. 查看结果\n\n任务完成后，查看执行结果，如有需要可进行调试。",
+      "url": "https://huggingface.co/spaces/Mapmaven/duol-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "duol-agent",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "gfhub-agents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Hugging Face 代理工具，支持浏览器网页自动化。",
+      "tags": [
+        "网页自动化",
+        "Hugging Face",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 gfhub-agents 进行网页自动化\n\n1. 下载并安装 [gfhub-agents](https://github.com/huggingface/gfhub-agents)\n2. 打开浏览器，访问目标网页\n3. 使用 gfhub-agents 的 API 或命令行工具模拟用户操作\n4. 编写脚本以自动化执行任务，如点击、填写表单等\n5. 运行脚本并监控自动化过程",
+      "url": "https://huggingface.co/spaces/arthuralb22/gfhub-agents",
+      "status": "active",
+      "is_violation": false,
+      "id": "gfhub-agents",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "agentic_document_redaction",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动文档内容编辑与遮蔽工具",
+      "tags": [
+        "文档编辑",
+        "内容遮蔽",
+        "自动化处理"
+      ],
+      "scenarios": [
+        "文档审查",
+        "数据脱敏",
+        "隐私保护"
+      ],
+      "tutorial": "## 使用Agentic_document_redaction进行文档编辑与遮蔽\n1. 导入文档：将需要编辑或遮蔽的文档上传至Agentic_document_redaction平台。\n2. 选择编辑或遮蔽区域：使用鼠标或键盘选择文档中需要编辑或遮蔽的内容。\n3. 应用编辑或遮蔽：点击工具栏上的相应按钮，对选定的内容进行编辑或遮蔽。\n4. 保存结果：编辑或遮蔽完成后，保存修改后的文档。\n5. 下载文档：下载编辑或遮蔽后的文档。",
+      "url": "https://huggingface.co/spaces/seanpedrickcase/agentic_document_redaction",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentic-document-redaction",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "is.team",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理加入会议，如同团队成员",
+      "tags": [
+        "AI代理",
+        "会议协作",
+        "智能助手"
+      ],
+      "scenarios": [
+        "在线会议",
+        "团队协作",
+        "远程工作"
+      ],
+      "tutorial": "## 使用 is.team 进行会议协作\n\n1. 注册并登录 is.team\n\n2. 创建一个新的会议或加入已有的会议\n\n3. 在会议中邀请 AI 代理加入，代理将作为团队成员参与讨论\n\n4. 通过语音或文字与 AI 代理互动，获取信息或执行任务\n\n5. 会议结束后，查看 AI 代理的总结报告",
+      "url": "https://www.producthunt.com/products/is-team",
+      "status": "dead",
+      "is_violation": false,
+      "id": "is-team",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "Buddy AI Access (MCP)",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "增强网页代理功能，提升数据获取能力",
+      "tags": [
+        "AI",
+        "网页代理",
+        "数据采集",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "RPA应用"
+      ],
+      "tutorial": "## Buddy AI Access (MCP) 使用教程\n\n### 1. 安装与配置\n\n1. 访问 [Buddy AI Access (MCP) 官网](https://www.producthunt.com/products/buddy) 下载安装包。\n2. 按照提示完成安装和配置。\n3. 配置好代理服务器和相应的认证信息。\n\n### 2. 创建任务\n\n1. 打开 Buddy AI Access (MCP) 软件。\n2. 点击创建新任务。\n3. 输入目标网址，设置抓取的数据类型和频率。\n\n### 3. 运行任务\n\n1. 点击运行任务按钮。\n2. 观察任务进度，确保数据采集成功。\n3. 下载采集到的数据。\n\n### 4. 数据处理\n\n1. 使用 Buddy AI Access (MCP) 内置的数据处理工具进行数据清洗和分析。\n2. 可导出数据到其他格式，如 CSV、Excel 等。",
+      "url": "https://www.producthunt.com/products/buddy",
+      "status": "dead",
+      "is_violation": false,
+      "id": "buddy-ai-access-mcp",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "Multimodal Agents by Sierra",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多模态AI代理，语音、文本和视觉交互",
+      "tags": [
+        "AI代理",
+        "多模态",
+        "语音交互",
+        "文本交互"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "多渠道客户服务",
+        "交互式内容生成"
+      ],
+      "tutorial": "## 使用Multimodal Agents by Sierra教程\n\n1. 下载并安装Multimodal Agents by Sierra\n   - 访问官网下载最新版本，按照安装指南完成安装。\n\n2. 创建新代理\n   - 打开软件，点击创建新代理，输入代理名称。\n\n3. 配置交互模式\n   - 选择语音、文本或视觉交互模式，根据需求配置相应的参数。\n\n4. 编写交互逻辑\n   - 使用可视化编辑器编写代理的交互逻辑，包括对话流程和响应内容。\n\n5. 测试代理\n   - 运行代理，进行测试，确保交互流程符合预期。\n\n6. 部署代理\n   - 将代理部署到服务器或云平台，使其可以对外提供服务。",
+      "url": "https://www.producthunt.com/products/sierra",
+      "status": "dead",
+      "is_violation": false,
+      "id": "multimodal-agents-by-sierra",
+      "added": "2026-09-16"
+    },
+    {
+      "name": "OpenAI Agents API",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "基于 OpenAI Codex 的云端网页代理",
+      "tags": [
+        "AI",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## 使用 OpenAI Agents API 进行网页自动化\n\n1. 注册 OpenAI 账户并获取 API 密钥\n\n2. 在你的项目中引入 OpenAI Agents API\n\n3. 使用 API 密钥进行身份验证\n\n4. 创建一个代理任务，指定目标网页和操作步骤\n\n5. 发送请求并获取代理执行结果",
+      "url": "https://www.producthunt.com/products/openai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openai-agents-api",
+      "added": "2026-09-16"
     }
   ],
   "changelog": [
@@ -7519,6 +7744,23 @@
         "OzBrain",
         "Web Search Agents by Nimble",
         "Naoma AI Demo Agent V2"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-16",
+      "added": [
+        "LibreChat",
+        "ASC",
+        "pi",
+        "duol-agent",
+        "gfhub-agents",
+        "agentic_document_redaction",
+        "is.team",
+        "Buddy AI Access (MCP)",
+        "Multimodal Agents by Sierra",
+        "OpenAI Agents API"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
