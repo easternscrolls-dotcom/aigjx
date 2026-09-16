@@ -7190,6 +7190,208 @@
       "is_violation": false,
       "id": "openai-agents-api",
       "added": "2026-09-16"
+    },
+    {
+      "name": "security-audit-skill",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多阶段安全审计的编码代理技能，提供机器可读的验证结果",
+      "tags": [
+        "安全审计",
+        "自动化",
+        "机器可读"
+      ],
+      "scenarios": [
+        "网页安全检测",
+        "代码审查",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 security-audit-skill 进行安全审计\n\n1. 下载并安装 security-audit-skill\n   - 访问 GitHub 仓库下载最新版本\n   - 按照安装指南完成安装\n\n2. 配置审计参数\n   - 设置审计目标网站或代码库\n   - 定义审计规则和标准\n\n3. 运行审计任务\n   - 启动审计过程\n   - 查看审计进度和结果\n\n4. 分析审计报告\n   - 查看机器可读的审计结果\n   - 识别潜在的安全风险",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "status": "active",
+      "is_violation": false,
+      "id": "security-audit-skill",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "WeKnora",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源LLM知识平台，将原始文档转换为可查询的RAG、自主推理代理和自维护维基。",
+      "tags": [
+        "知识管理",
+        "LLM",
+        "文档处理"
+      ],
+      "scenarios": [
+        "知识库构建",
+        "信息检索",
+        "文档自动化"
+      ],
+      "tutorial": "## 使用WeKnora进行知识管理\n1. 上传文档：将需要管理的文档上传至WeKnora平台。\n2. 文档处理：WeKnora会对文档进行预处理，包括文本提取、清洗和结构化。\n3. 查询与推理：用户可以通过自然语言查询文档，WeKnora会返回相关的文档片段，并支持推理功能。\n4. 维护与更新：WeKnora支持用户对知识库进行维护和更新，确保知识库的时效性和准确性。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "status": "active",
+      "is_violation": false,
+      "id": "weknora",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "cline",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动编码助手，支持SDK、IDE插件或CLI工具",
+      "tags": [
+        "自动编码",
+        "IDE插件",
+        "CLI工具"
+      ],
+      "scenarios": [
+        "代码辅助",
+        "开发效率提升",
+        "自动化编程"
+      ],
+      "tutorial": "## 使用Cline进行自动编码\n\n1. 下载并安装Cline\n   - 访问Cline的GitHub页面，下载适用于您操作系统的安装包。\n   - 按照官方文档完成安装。\n\n2. 配置IDE插件\n   - 在您的IDE中搜索并安装Cline插件。\n   - 根据插件设置向导完成配置。\n\n3. 使用CLI进行编码\n   - 打开命令行工具，输入`cline`查看可用命令。\n   - 使用`cline --help`获取命令帮助。\n\n4. 编写代码\n   - 在IDE中编写代码，Cline将自动提供代码补全、错误检查等功能。\n   - 使用CLI编写代码，Cline将根据您的输入提供相应的代码建议。",
+      "url": "https://github.com/cline/cline",
+      "status": "active",
+      "is_violation": false,
+      "id": "cline",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "Search-Agent-Test",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页搜索Agent",
+      "tags": [
+        "搜索引擎",
+        "网页搜索",
+        "Hugging Face"
+      ],
+      "scenarios": [
+        "网页内容搜索",
+        "数据采集",
+        "信息检索"
+      ],
+      "tutorial": "## 使用Search-Agent-Test进行网页搜索\n1. 确保已安装Hugging Face库。\n2. 使用Search-Agent-Test API进行搜索请求。\n3. 解析返回的搜索结果。\n4. 根据需要处理搜索结果数据。",
+      "url": "https://huggingface.co/spaces/AhmedAlaa47/Search-Agent-Test",
+      "status": "active",
+      "is_violation": false,
+      "id": "search-agent-test",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "agents-den",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## agents-den 使用教程\n\n### 1. 安装与启动\n\n1. 下载 agents-den 安装包。\n2. 解压安装包并运行启动程序。\n3. 打开浏览器，访问 agents-den 的网页版界面。\n\n### 2. 创建任务\n\n1. 在 agents-den 界面中，点击 '创建任务' 按钮。\n2. 选择要自动化的网页或表单。\n3. 设置任务参数，如目标元素、操作类型等。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮开始自动化任务。\n2. 在监控界面中查看任务执行情况。\n3. 如有需要，可实时调整任务参数。\n\n### 4. 保存与分享\n\n1. 任务完成后，点击 '保存' 按钮保存任务。\n2. 可将任务分享给他人或团队使用。",
+      "url": "https://huggingface.co/spaces/MrVolts/agents-den",
+      "status": "active",
+      "is_violation": false,
+      "id": "agents-den",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "Weave Router 2.0",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "订阅式编程代理路由器，自动化网页操作",
+      "tags": [
+        "自动化",
+        "代理",
+        "路由",
+        "订阅"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Weave Router 2.0 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Weave Router 官网](https://www.producthunt.com/products/weave) 进行注册。\n2. 使用注册的邮箱和密码登录账号。\n\n### 2. 创建新项目\n\n1. 登录后，点击页面上的 '+' 创建新项目。\n2. 输入项目名称，选择项目类型，点击 '创建'。\n\n### 3. 编写代理代码\n\n1. 在项目页面，选择 '代码' 选项卡。\n2. 使用提供的编程语言编写代理代码。\n3. 保存代码。\n\n### 4. 运行代理\n\n1. 在项目页面，点击 '运行' 按钮。\n2. 观察代理的运行状态和输出结果。\n\n### 5. 查看日志\n\n1. 在项目页面，点击 '日志' 选项卡。\n2. 查看代理的运行日志，以便调试和优化。",
+      "url": "https://www.producthunt.com/products/weave",
+      "status": "dead",
+      "is_violation": false,
+      "id": "weave-router-2-0",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "Appwrite 2.0",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "开源云平台，为智能体和开发者提供支持",
+      "tags": [
+        "云平台",
+        "开源",
+        "智能体",
+        "开发者"
+      ],
+      "scenarios": [
+        "智能体开发",
+        "开发者工具",
+        "云服务"
+      ],
+      "tutorial": "## Appwrite 2.0 使用教程\n\n1. 注册账号\n\n   访问 [Appwrite 官网](https://www.appwrite.io/)，注册一个账号并登录。\n\n2. 创建项目\n\n   登录后，点击左侧菜单的 'Projects'，然后点击 'Create Project' 创建一个新的项目。\n\n3. 配置环境\n\n   在项目设置中，配置数据库、存储和其他服务，以满足你的应用需求。\n\n4. 集成服务\n\n   使用 Appwrite 提供的 SDK 或 API 集成所需的服务，如身份验证、数据库、存储等。\n\n5. 开发应用\n\n   使用 Appwrite 的 API 和 SDK 开发你的应用，无需管理基础设施。\n\n6. 部署应用\n\n   完成开发后，将应用部署到 Appwrite 平台，即可开始使用。",
+      "url": "https://www.producthunt.com/products/appwrite",
+      "status": "dead",
+      "is_violation": false,
+      "id": "appwrite-2-0",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "Convo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 协同助手，助力销售",
+      "tags": [
+        "AI",
+        "销售",
+        "协同",
+        "自动化"
+      ],
+      "scenarios": [
+        "销售自动化",
+        "客户管理",
+        "邮件回复"
+      ],
+      "tutorial": "## Convo 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Convo 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 Convo。\n\n### 2. 创建对话\n\n1. 在 Convo 主界面，点击创建对话按钮。\n2. 选择对话类型，如邮件回复、客户咨询等。\n3. 输入对话内容，并设置相关参数。\n\n### 3. 查看对话记录\n\n1. 在对话列表中，点击对应的对话。\n2. 查看对话历史记录，包括对话内容、时间等。\n\n### 4. 个性化设置\n\n1. 在设置菜单中，可以根据个人喜好调整界面布局。\n2. 设置自动化规则，如自动回复、定时发送邮件等。",
+      "url": "https://www.producthunt.com/products/convo-7",
+      "status": "dead",
+      "is_violation": false,
+      "id": "convo",
+      "added": "2026-09-17"
+    },
+    {
+      "name": "ZeroClick",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI代理产品销售平台",
+      "tags": [
+        "AI代理",
+        "产品销售",
+        "自动化"
+      ],
+      "scenarios": [
+        "电商销售",
+        "产品推广",
+        "客户服务"
+      ],
+      "tutorial": "## 使用ZeroClick进行产品销售\n\n1. 注册并登录ZeroClick平台\n2. 创建新的销售策略，设置产品信息和目标市场\n3. 选择合适的AI代理模板，进行个性化配置\n4. 上传产品图片和描述，设置价格和促销信息\n5. 启动销售策略，ZeroClick将自动将产品信息推送给AI代理\n6. 监控销售数据和客户反馈，优化销售策略",
+      "url": "https://www.producthunt.com/products/zeroclick",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zeroclick",
+      "added": "2026-09-17"
     }
   ],
   "changelog": [
@@ -7761,6 +7963,22 @@
         "Buddy AI Access (MCP)",
         "Multimodal Agents by Sierra",
         "OpenAI Agents API"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-17",
+      "added": [
+        "security-audit-skill",
+        "WeKnora",
+        "cline",
+        "Search-Agent-Test",
+        "agents-den",
+        "Weave Router 2.0",
+        "Appwrite 2.0",
+        "Convo",
+        "ZeroClick"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
