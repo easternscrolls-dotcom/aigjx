@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T20:40:47.650Z",
+  "generatedAt": "2026-09-17T20:48:10.535Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1691,6 +1691,66 @@
       "url": "https://aiagent.72tool.com/tools/zeroclick.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/browserskill.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/octop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/coder.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/e-invoicing-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/smart-city-planner-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/modaal-for-android.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/novasynth-by-noveum.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/text-agent-store.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/s-roll.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/analytiics.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bitrise-remote-dev-environments.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1721,22 +1781,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 331,
+    "totalAgents": 343,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 21
+        "count": 22
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 268
+        "count": 278
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 21
+        "count": 22
       },
       {
         "id": "crossborder",
@@ -1749,6 +1809,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 157
+    "deadLinks": 164
   }
 }

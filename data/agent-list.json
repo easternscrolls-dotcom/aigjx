@@ -7392,6 +7392,273 @@
       "is_violation": false,
       "id": "zeroclick",
       "added": "2026-09-17"
+    },
+    {
+      "name": "BrowserSkill",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理使用真实登录浏览器，无需中断工作",
+      "tags": [
+        "自动化",
+        "浏览器扩展",
+        "AI代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装扩展\n\n1. 访问 [BrowserSkill GitHub 仓库](https://github.com/your-username/BrowserSkill) 并下载扩展。\n2. 在你的浏览器中安装该扩展。\n\n### 2. 配置代理\n\n1. 打开扩展设置，配置你的代理服务器信息。\n2. 确保代理设置正确无误。\n\n### 3. 编写脚本\n\n1. 使用 CLI 命令行工具编写自动化脚本。\n2. 脚本中调用扩展功能，如打开网页、登录等。\n\n### 4. 运行脚本\n\n1. 在命令行中运行脚本。\n2. 观察扩展在浏览器中的操作。",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "status": "active",
+      "is_violation": false,
+      "id": "browserskill",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "Octop",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能自托管AI助手，支持多用户和多代理。",
+      "tags": [
+        "AI助手",
+        "多用户",
+        "自托管"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Octop进行AI助手配置\n1. 下载并安装Octop。\n2. 打开Octop，创建一个新的AI代理。\n3. 配置代理的参数，如语言、行为等。\n4. 将代理部署到你的服务器上。\n5. 通过Web界面或API与代理交互。\n## 创建多用户环境\n1. 在Octop中设置用户权限。\n2. 为每个用户分配不同的代理。\n3. 管理用户和代理的访问权限。\n## 自托管与扩展\n1. 选择合适的服务器进行部署。\n2. 配置服务器环境，确保Octop运行稳定。\n3. 根据需要扩展功能，如添加新的AI模型。",
+      "url": "https://github.com/TencentCloud/Octop",
+      "status": "active",
+      "is_violation": false,
+      "id": "octop",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "coder",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开发者与代理的安全环境",
+      "tags": [
+        "开发者工具",
+        "安全",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "自动化测试脚本",
+        "开发者辅助"
+      ],
+      "tutorial": "## 使用Coder进行自动化测试\n\n### 1. 安装Coder\n从GitHub下载Coder的安装包，按照说明进行安装。\n\n### 2. 创建测试脚本\n在Coder中创建一个新的测试脚本，选择合适的测试框架。\n\n### 3. 编写测试用例\n在脚本中编写测试用例，使用Coder提供的API进行网页操作。\n\n### 4. 运行测试\n运行测试脚本，查看测试结果。\n\n### 5. 调试与优化\n根据测试结果进行调试和优化，提高测试效率。",
+      "url": "https://github.com/coder/coder",
+      "status": "active",
+      "is_violation": false,
+      "id": "coder",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "e-invoicing-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化电子发票处理浏览器Agent",
+      "tags": [
+        "发票处理",
+        "自动化",
+        "电子发票"
+      ],
+      "scenarios": [
+        "财务自动化",
+        "发票管理",
+        "企业内部流程"
+      ],
+      "tutorial": "## e-invoicing-agent 使用教程\n\n### 1. 安装与配置\n1. 下载并安装e-invoicing-agent。\n2. 配置浏览器扩展，允许其访问发票页面。\n3. 在扩展设置中配置发票识别规则。\n\n### 2. 发票识别\n1. 打开包含电子发票的网页。\n2. 启用e-invoicing-agent扩展。\n3. 系统自动识别并提取发票信息。\n\n### 3. 数据导出\n1. 将识别的发票信息导出为常用格式。\n2. 可导出至电子表格或数据库。\n\n### 4. 集成与自动化\n1. 将e-invoicing-agent集成到现有工作流程中。\n2. 实现发票处理的自动化。",
+      "url": "https://huggingface.co/spaces/ANUS211/e-invoicing-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "e-invoicing-agent",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "smart-city-planner-agents",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "智能城市规划工作流Agent，可视化编排城市规划流程。",
+      "tags": [
+        "城市规划",
+        "工作流",
+        "可视化",
+        "智能"
+      ],
+      "scenarios": [
+        "城市规划管理",
+        "城市基础设施规划",
+        "智慧城市建设"
+      ],
+      "tutorial": "## 使用Smart-City-Planner-Agents进行城市规划\n1. **数据准备**：收集城市地理信息、人口数据、基础设施数据等。\n2. **流程设计**：使用可视化界面设计城市规划流程，包括数据导入、处理、分析和可视化展示。\n3. **模型训练**：根据收集的数据训练相应的城市规划模型。\n4. **流程执行**：运行工作流，自动执行规划流程，生成规划报告。\n5. **结果评估**：评估规划结果，根据反馈调整模型和流程。",
+      "url": "https://huggingface.co/spaces/prashanthi08/smart-city-planner-agents",
+      "status": "active",
+      "is_violation": false,
+      "id": "smart-city-planner-agents",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "Modaal for Android",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨平台应用发布工具，支持Swift和Kotlin。",
+      "tags": [
+        "跨平台",
+        "Swift",
+        "Kotlin",
+        "应用发布"
+      ],
+      "scenarios": [
+        "移动应用开发",
+        "跨平台发布",
+        "开发者工具"
+      ],
+      "tutorial": "## Modaal for Android 使用教程\n\n1. 下载并安装 Modaal for Android。\n2. 创建一个新的项目，选择 Swift 或 Kotlin 作为开发语言。\n3. 在项目中配置 Modaal SDK，按照文档进行初始化。\n4. 使用 Modaal 提供的 API 进行应用发布和商店管理。\n5. 测试应用，确保一切功能正常。\n6. 将应用发布到 Google Play 和 Apple App Store。",
+      "url": "https://www.producthunt.com/products/modaal-ai-agent-for-ios-android-native",
+      "status": "dead",
+      "is_violation": false,
+      "id": "modaal-for-android",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "NovaSynth by Noveum",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端语音测试平台，模拟真实通话场景。",
+      "tags": [
+        "语音测试",
+        "模拟通话",
+        "云端服务"
+      ],
+      "scenarios": [
+        "语音助手测试",
+        "客服系统测试",
+        "语音应用开发"
+      ],
+      "tutorial": "## NovaSynth by Noveum 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [NovaSynth by Noveum](https://www.producthunt.com/products/novasynth-by-noveum) 官网。\n2. 点击 'Sign Up' 或 'Log In' 进行注册或登录。\n3. 使用邮箱或社交媒体账号完成注册或登录流程。\n\n### 2. 创建测试\n\n1. 登录后，进入 'Create Test' 页面。\n2. 选择测试类型，如语音识别或语音合成。\n3. 设置测试参数，如语音样本、测试时长等。\n\n### 3. 运行测试\n\n1. 点击 'Run Test' 开始测试。\n2. 系统将自动模拟真实通话场景进行测试。\n3. 测试完成后，查看测试结果。\n\n### 4. 分析结果\n\n1. 测试结果将显示在页面上。\n2. 分析测试结果，优化语音应用。",
+      "url": "https://www.producthunt.com/products/novasynth-by-noveum",
+      "status": "dead",
+      "is_violation": false,
+      "id": "novasynth-by-noveum",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "Text Agent Store",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理市场，支持文本交互",
+      "tags": [
+        "AI代理",
+        "文本交互",
+        "市场",
+        "开源"
+      ],
+      "scenarios": [
+        "聊天机器人开发",
+        "客服自动化",
+        "数据收集"
+      ],
+      "tutorial": "## 使用Text Agent Store教程\n\n1. 访问Text Agent Store官网\n\n   打开浏览器，输入Text Agent Store官网地址，进入平台。\n\n2. 浏览AI代理\n\n   在官网上浏览各种可文本交互的AI代理，了解其功能和特点。\n\n3. 选择并测试代理\n\n   选择一个合适的AI代理，通过文本进行交互测试，确保其符合需求。\n\n4. 集成到应用\n\n   将选定的AI代理集成到您的应用中，实现文本交互功能。",
+      "url": "https://www.producthunt.com/products/text-agent-store",
+      "status": "dead",
+      "is_violation": false,
+      "id": "text-agent-store",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "S-Roll",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将长视频剪辑成片段的浏览器网页Agent",
+      "tags": [
+        "视频剪辑",
+        "自动化",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "视频编辑",
+        "内容创作",
+        "社交媒体管理"
+      ],
+      "tutorial": "## S-Roll 使用教程\n\n1. 下载并安装 S-Roll 插件\n\n2. 打开浏览器，访问需要剪辑的视频页面\n\n3. 点击 S-Roll 插件图标，选择视频片段\n\n4. 设置剪辑参数，如开始时间、结束时间等\n\n5. 点击剪辑按钮，生成剪辑后的视频片段",
+      "url": "https://www.producthunt.com/products/s-roll",
+      "status": "dead",
+      "is_violation": false,
+      "id": "s-roll",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "Analytiics",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "通过编码代理设置网页和产品分析",
+      "tags": [
+        "数据分析",
+        "网页分析",
+        "产品分析"
+      ],
+      "scenarios": [
+        "网站流量分析",
+        "用户行为追踪",
+        "产品性能监控"
+      ],
+      "tutorial": "## 安装与分析设置\n1. 访问 Analytiics 官网下载并安装。\n2. 创建一个新的分析项目，配置相关参数，如域名、用户ID等。\n3. 将生成的代码片段嵌入到网页中，启动分析。\n## 数据查看与分析\n1. 登录 Analytiics 控制台，查看实时数据。\n2. 通过筛选和图表分析用户行为和产品性能。\n3. 定期查看报告，优化网站和产品。",
+      "url": "https://www.producthunt.com/products/analytiics",
+      "status": "dead",
+      "is_violation": false,
+      "id": "analytiics",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "Bitrise Remote Dev Environments",
+      "category": "local",
+      "type": "open-source",
+      "summary": "云端Mac环境，支持本地开发部署",
+      "tags": [
+        "云端开发",
+        "Mac环境",
+        "本地部署"
+      ],
+      "scenarios": [
+        "开发者远程协作",
+        "私有化部署",
+        "本地环境模拟"
+      ],
+      "tutorial": "## 小节标题\n\nBitrise Remote Dev Environments 是一款云端Mac环境工具，允许开发者在云端创建和管理Mac开发环境，并将其部署到本地进行实际开发。\n\n### 上手步骤\n\n1. 注册Bitrise账户并创建项目\n2. 在项目中配置远程Mac环境\n3. 将远程环境连接到本地开发机器\n4. 在本地环境中进行开发和测试\n\n通过这种方式，开发者可以避免在本地机器上安装和配置复杂的Mac环境，同时确保开发环境的一致性和可移植性。",
+      "url": "https://www.producthunt.com/products/bitrise",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bitrise-remote-dev-environments",
+      "added": "2026-09-18"
+    },
+    {
+      "name": "QAgent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理自动化质量保证工具",
+      "tags": [
+        "自动化测试",
+        "AI 代理",
+        "质量保证"
+      ],
+      "scenarios": [
+        "AI 代理测试",
+        "自动化测试流程",
+        "软件质量监控"
+      ],
+      "tutorial": "## QAgent 使用教程\n\n1. 下载并安装 QAgent。\n2. 创建一个新的测试项目，并配置测试环境和代理。\n3. 编写测试脚本，使用 QAgent 提供的 API 进行自动化测试。\n4. 运行测试脚本，查看测试结果。\n5. 根据测试结果进行调试和优化。",
+      "url": "https://www.producthunt.com/products/qagent-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qagent",
+      "added": "2026-09-18"
     }
   ],
   "changelog": [
@@ -7979,6 +8246,25 @@
         "Appwrite 2.0",
         "Convo",
         "ZeroClick"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-18",
+      "added": [
+        "BrowserSkill",
+        "Octop",
+        "coder",
+        "e-invoicing-agent",
+        "smart-city-planner-agents",
+        "Modaal for Android",
+        "NovaSynth by Noveum",
+        "Text Agent Store",
+        "S-Roll",
+        "Analytiics",
+        "Bitrise Remote Dev Environments",
+        "QAgent"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
