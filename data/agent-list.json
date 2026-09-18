@@ -7659,6 +7659,205 @@
       "is_violation": false,
       "id": "qagent",
       "added": "2026-09-18"
+    },
+    {
+      "name": "tradingview-mcp",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI辅助的TradingView图表分析，实现个人工作流程自动化",
+      "tags": [
+        "AI分析",
+        "图表工具",
+        "工作流自动化"
+      ],
+      "scenarios": [
+        "股票分析",
+        "外汇交易",
+        "技术指标分析"
+      ],
+      "tutorial": "## 使用TradingView-MCP进行AI辅助图表分析\n\n1. 下载并安装TradingView桌面版\n\n2. 在TradingView中创建或打开一个图表\n\n3. 从TradingView插件市场安装tradingview-mcp插件\n\n4. 在插件设置中配置Claude Code API密钥\n\n5. 选择要分析的图表和技术指标\n\n6. 启动AI分析，插件将自动生成分析报告",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "status": "active",
+      "is_violation": false,
+      "id": "tradingview-mcp",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "viabilidadedevendas",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需代码",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据抓取",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## 使用viabilidadedevendas进行网页自动化\n\n1. **安装工具**\n   - 下载并安装viabilidadedevendas。\n\n2. **配置环境**\n   - 配置浏览器环境，确保能够运行网页自动化脚本。\n\n3. **编写脚本**\n   - 使用提供的API编写自动化脚本，实现网页操作。\n\n4. **运行脚本**\n   - 运行脚本，观察自动化操作过程。\n\n5. **调试与优化**\n   - 根据需要调试脚本，优化自动化流程。",
+      "url": "https://huggingface.co/spaces/VemBrincarComAGente/viabilidadedevendas",
+      "status": "active",
+      "is_violation": false,
+      "id": "viabilidadedevendas",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "arxiv-agent-lab",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于网页的自动操作工具，支持自动填表、数据采集。",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "网页测试"
+      ],
+      "tutorial": "## 使用 Arxiv-Agent-Lab 进行网页自动化\n\n### 1. 安装与启动\n1. 下载并安装 Arxiv-Agent-Lab。\n2. 打开软件，启动浏览器插件。\n\n### 2. 配置代理\n1. 在插件设置中配置代理服务器信息。\n2. 确保代理设置正确无误。\n\n### 3. 编写自动化脚本\n1. 在脚本编辑器中编写自动化脚本。\n2. 使用提供的 API 和函数进行网页操作。\n\n### 4. 运行脚本\n1. 保存并运行脚本。\n2. 观察脚本执行结果。\n\n### 5. 调试与优化\n1. 如果脚本执行不正常，进行调试。\n2. 根据需要优化脚本。",
+      "url": "https://huggingface.co/spaces/Kesline/arxiv-agent-lab",
+      "status": "active",
+      "is_violation": false,
+      "id": "arxiv-agent-lab",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "Projet_VGR_Agentique",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "网页测试"
+      ],
+      "tutorial": "## Projet_VGR_Agentique 使用教程\n\n### 1. 安装与配置\n1. 下载并安装Projet_VGR_Agentique。\n2. 配置浏览器扩展，确保其与你的浏览器兼容。\n3. 打开Projet_VGR_Agentique，进行必要的账户设置。\n\n### 2. 创建任务\n1. 在Projet_VGR_Agentique中创建新任务。\n2. 选择目标网页，设置抓取的数据字段。\n3. 配置任务执行的时间间隔和频率。\n\n### 3. 运行与监控\n1. 启动任务，Projet_VGR_Agentique将自动执行抓取。\n2. 监控任务执行状态，确保数据抓取准确无误。\n3. 保存抓取的数据，进行后续分析或处理。\n\n### 4. 数据处理\n1. 导出抓取的数据，进行格式转换或分析。\n2. 使用Projet_VGR_Agentique提供的工具进行数据清洗和整理。\n3. 将处理后的数据用于业务决策或报告。",
+      "url": "https://huggingface.co/spaces/Mavigal/Projet_VGR_Agentique",
+      "status": "active",
+      "is_violation": false,
+      "id": "projet-vgr-agentique",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "ProductBridge",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI原生客户支持与反馈代理",
+      "tags": [
+        "AI客服",
+        "客户反馈",
+        "支持工具"
+      ],
+      "scenarios": [
+        "电商客服",
+        "在线服务",
+        "客户关系管理"
+      ],
+      "tutorial": "## ProductBridge 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [ProductBridge 官网](https://www.productbridge.com/) 并注册账户。\n2. 使用注册信息登录系统。\n\n### 2. 创建工作流\n\n1. 在仪表板上点击“创建工作流”按钮。\n2. 选择合适的模板或从零开始设计。\n3. 拖放元素来构建工作流，如自动回复、收集反馈等。\n\n### 3. 配置设置\n\n1. 在工作流设置中配置邮件、聊天等渠道。\n2. 设置触发条件和自动化规则。\n\n### 4. 测试与部署\n\n1. 在测试环境中运行工作流，确保一切正常。\n2. 将工作流部署到生产环境。\n\n### 5. 监控与优化\n\n1. 查看工作流运行报告和客户反馈。\n2. 根据数据优化工作流以提高效率。",
+      "url": "https://www.producthunt.com/products/productbridge",
+      "status": "dead",
+      "is_violation": false,
+      "id": "productbridge",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "M9R",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多人AI编码空间，支持网页自动化",
+      "tags": [
+        "AI编码",
+        "多人协作",
+        "网页自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "AI开发",
+        "代码测试"
+      ],
+      "tutorial": "## M9R使用教程\n\n1. 注册并登录M9R平台。\n2. 创建一个新的AI编码空间，邀请团队成员加入。\n3. 在空间中编写代码，M9R将自动执行并展示结果。\n4. 使用内置的调试工具进行代码调试。\n5. 与团队成员实时沟通，协作完成项目。",
+      "url": "https://www.producthunt.com/products/m9r",
+      "status": "dead",
+      "is_violation": false,
+      "id": "m9r",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "Makersclaw 2.0",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "企业代理运营操作系统",
+      "tags": [
+        "企业协作",
+        "工作流管理",
+        "自动化"
+      ],
+      "scenarios": [
+        "企业内部协作",
+        "跨部门工作流管理",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Makersclaw 2.0 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Makersclaw 2.0 官网，点击注册按钮。\n2. 填写注册信息，包括用户名、邮箱和密码。\n3. 完成验证后，登录系统。\n\n### 2. 创建工作流\n\n1. 在首页点击创建工作流按钮。\n2. 选择工作流类型，如审批流程、数据收集等。\n3. 使用拖拽方式添加步骤，如任务分配、条件分支等。\n\n### 3. 配置工作流\n\n1. 为每个步骤配置具体参数，如任务描述、截止日期等。\n2. 设置通知和提醒，确保团队成员及时响应。\n\n### 4. 运行与监控\n\n1. 启动工作流，开始自动化执行。\n2. 在监控面板查看工作流状态和进度。\n\n### 5. 优化与迭代\n\n1. 根据反馈调整工作流配置。\n2. 不断优化流程，提高工作效率。",
+      "url": "https://www.producthunt.com/products/makersclaw",
+      "status": "dead",
+      "is_violation": false,
+      "id": "makersclaw-2-0",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "Sider Omni Sidebar",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为Mac应用提供智能侧边栏",
+      "tags": [
+        "Mac",
+        "侧边栏",
+        "应用增强",
+        "自动化"
+      ],
+      "scenarios": [
+        "日常办公",
+        "软件开发",
+        "内容创作"
+      ],
+      "tutorial": "## Sider Omni Sidebar 使用教程\n\n### 1. 安装Sider Omni Sidebar\n\n- 访问Sider官网下载Sider Omni Sidebar安装包。\n- 双击安装包，按照提示完成安装。\n\n### 2. 打开Sider Omni Sidebar\n\n- 打开Mac应用，在菜单栏找到Sider图标，点击打开。\n\n### 3. 配置侧边栏\n\n- 在Sider侧边栏中，你可以添加或删除工具栏，调整布局。\n- 通过拖拽，将常用工具或应用快捷方式添加到侧边栏。\n\n### 4. 使用侧边栏\n\n- 在侧边栏中点击工具或应用快捷方式，即可快速访问。\n- 你可以根据需要调整侧边栏的透明度、位置等设置。",
+      "url": "https://www.producthunt.com/products/sider-omni",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sider-omni-sidebar",
+      "added": "2026-09-19"
+    },
+    {
+      "name": "Toone",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "构建复杂可靠的AI代理工作流与常规流程",
+      "tags": [
+        "AI工作流",
+        "自动化",
+        "流程管理"
+      ],
+      "scenarios": [
+        "企业自动化",
+        "业务流程优化",
+        "AI代理开发"
+      ],
+      "tutorial": "## Toone使用教程\n\n### 1. 创建工作流\n1. 登录Toone平台，点击创建新工作流。\n2. 选择合适的模板或从零开始设计。\n3. 使用可视化拖拽工具添加步骤和组件。\n\n### 2. 配置工作流\n1. 在工作流编辑器中，配置每个步骤的参数和设置。\n2. 设置触发条件和执行逻辑。\n3. 保存并测试工作流。\n\n### 3. 部署工作流\n1. 在平台中选择部署目标环境。\n2. 点击部署按钮，工作流将自动部署到指定环境。\n3. 监控工作流运行状态。\n\n### 4. 管理与优化\n1. 定期检查工作流运行日志，确保流程稳定。\n2. 根据业务需求调整工作流配置。\n3. 优化工作流性能，提高效率。",
+      "url": "https://www.producthunt.com/products/toone",
+      "status": "dead",
+      "is_violation": false,
+      "id": "toone",
+      "added": "2026-09-19"
     }
   ],
   "changelog": [
@@ -8265,6 +8464,22 @@
         "Analytiics",
         "Bitrise Remote Dev Environments",
         "QAgent"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-19",
+      "added": [
+        "tradingview-mcp",
+        "viabilidadedevendas",
+        "arxiv-agent-lab",
+        "Projet_VGR_Agentique",
+        "ProductBridge",
+        "M9R",
+        "Makersclaw 2.0",
+        "Sider Omni Sidebar",
+        "Toone"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

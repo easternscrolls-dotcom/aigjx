@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T20:48:10.535Z",
+  "generatedAt": "2026-09-18T20:12:48.187Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1751,6 +1751,51 @@
       "url": "https://aiagent.72tool.com/tools/qagent.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tradingview-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/viabilidadedevendas.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/arxiv-agent-lab.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/projet-vgr-agentique.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/productbridge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/m9r.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/makersclaw-2-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sider-omni-sidebar.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/toone.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1781,7 +1826,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 343,
+    "totalAgents": 352,
     "byCategory": [
       {
         "id": "local",
@@ -1791,12 +1836,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 278
+        "count": 285
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 22
+        "count": 24
       },
       {
         "id": "crossborder",
@@ -1809,6 +1854,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 164
+    "deadLinks": 169
   }
 }
