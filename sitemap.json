@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:12:48.187Z",
+  "generatedAt": "2026-09-19T19:48:02.609Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1796,6 +1796,46 @@
       "url": "https://aiagent.72tool.com/tools/toone.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/higgsfield.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/needle.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nour-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/auditagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bolt-forge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/holon.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/contextsbase-backlog-for-coding-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/eggshell.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1826,17 +1866,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 352,
+    "totalAgents": 360,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 22
+        "count": 23
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 285
+        "count": 292
       },
       {
         "id": "workflow",
@@ -1854,6 +1894,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 169
+    "deadLinks": 173
   }
 }

@@ -7858,6 +7858,185 @@
       "is_violation": false,
       "id": "toone",
       "added": "2026-09-19"
+    },
+    {
+      "name": "higgsfield",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "高容错、可扩展的GPU编排和机器学习框架",
+      "tags": [
+        "GPU",
+        "机器学习",
+        "模型训练",
+        "大规模参数"
+      ],
+      "scenarios": [
+        "大规模模型训练",
+        "高性能计算",
+        "数据科学"
+      ],
+      "tutorial": "## Higgsfield 使用教程\n\n1. 下载并安装 Higgsfield：\n   - 访问 Higgsfield 官网下载最新版本。\n   - 按照安装指南完成安装。\n\n2. 配置 GPU 环境：\n   - 确保您的系统已安装必要的 GPU 驱动程序。\n   - 在 Higgsfield 中配置您的 GPU 设备。\n\n3. 创建新项目：\n   - 打开 Higgsfield 并创建一个新的项目。\n   - 选择合适的模型架构和参数设置。\n\n4. 训练模型：\n   - 将数据集导入到项目中。\n   - 开始训练模型，监控训练进度。\n\n5. 模型评估与优化：\n   - 使用测试数据集评估模型性能。\n   - 根据评估结果调整模型参数，优化模型。",
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "status": "active",
+      "is_violation": false,
+      "id": "higgsfield",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "needle",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为小型设备提供自动化基础模型，适用于手机、可穿戴设备等。",
+      "tags": [
+        "自动化",
+        "模型",
+        "小型设备"
+      ],
+      "scenarios": [
+        "手机应用开发",
+        "可穿戴设备开发",
+        "智能家居"
+      ],
+      "tutorial": "## 使用 Needle 进行自动化\n\n1. 下载并安装 Needle\n\n2. 打开 Needle 并创建一个新的项目\n\n3. 选择目标设备（如手机、可穿戴设备等）\n\n4. 设计自动化流程，包括点击、滑动等操作\n\n5. 预览并测试自动化流程\n\n6. 部署到目标设备",
+      "url": "https://github.com/cactus-compute/needle",
+      "status": "active",
+      "is_violation": false,
+      "id": "needle",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "Nour_agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## Nour_agent 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Nour_agent 安装包。\n2. 解压安装包并运行 Nour_agent。\n3. 确保浏览器已安装相应的插件或扩展程序。\n\n### 2. 创建任务\n\n1. 在 Nour_agent 中创建一个新的任务。\n2. 选择要自动化的网页元素和操作。\n3. 设置任务执行的条件和频率。\n\n### 3. 运行与监控\n\n1. 运行创建的任务。\n2. 监控任务执行状态和结果。\n3. 根据需要调整任务设置。\n\n### 4. 保存与分享\n\n1. 保存任务以供后续使用。\n2. 将任务分享给其他用户或团队。",
+      "url": "https://huggingface.co/spaces/Trabelsie50/Nour_agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "nour-agent",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "AuditAgent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页审查工具，无需代码",
+      "tags": [
+        "网页审查",
+        "自动化",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网站内容审核",
+        "网络监控",
+        "数据抓取"
+      ],
+      "tutorial": "## 使用AuditAgent进行网页审查\n1. 下载并安装AuditAgent。\n2. 打开AuditAgent，选择需要审查的网页。\n3. 设置审查规则，如关键词过滤、图片审查等。\n4. 运行审查任务，AuditAgent将自动审查网页内容。\n5. 查看审查结果，根据需要调整审查规则。",
+      "url": "https://huggingface.co/spaces/Awais1290/AuditAgent",
+      "status": "active",
+      "is_violation": false,
+      "id": "auditagent",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "Bolt Forge",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源模型，高效网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "开源"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## Bolt Forge 使用教程\n\n1. 下载并安装 Bolt Forge\n\n2. 打开 Bolt Forge，选择创建新的任务\n\n3. 在任务编辑器中，选择需要自动化的网页元素\n\n4. 设置自动化操作，如点击、填写表单等\n\n5. 预览并运行任务，确保自动化流程正确\n\n6. 保存任务并定时执行或手动触发",
+      "url": "https://www.producthunt.com/products/bolt-new",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bolt-forge",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "Holon",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 网页自动化助手，无需代码操作网页",
+      "tags": [
+        "AI",
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化任务"
+      ],
+      "tutorial": "## Holon 使用教程\n\n### 1. 安装与启动\n1. 访问 Holon 官网下载并安装最新版本。\n2. 打开软件，进行简单的账户注册或登录。\n3. 首次启动时，软件会进行初始化配置。\n\n### 2. 创建任务\n1. 在主界面点击 '创建任务'。\n2. 选择任务类型，如网页爬取、表单填写等。\n3. 输入目标网页地址和相关参数。\n\n### 3. 编排任务\n1. 在任务编辑器中，通过拖拽组件来编排任务流程。\n2. 设置每个组件的参数和动作。\n3. 预览任务执行效果。\n\n### 4. 运行与监控\n1. 点击 '运行' 按钮开始执行任务。\n2. 在监控界面查看任务执行状态和日志。\n3. 如有异常，可暂停或终止任务。",
+      "url": "https://www.producthunt.com/products/holon-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "holon",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "ContextsBase - Backlog for Coding Agents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "从聊天提示到AI待办事项平台。",
+      "tags": [
+        "AI",
+        "待办事项",
+        "聊天",
+        "自动化"
+      ],
+      "scenarios": [
+        "聊天机器人开发",
+        "AI项目管理",
+        "自动化任务管理"
+      ],
+      "tutorial": "## 使用ContextsBase - Backlog for Coding Agents教程\n\n1. 下载并安装ContextsBase。\n2. 打开软件，创建一个新的项目。\n3. 在项目中创建聊天提示，并设置相应的AI模型。\n4. 添加待办事项，并配置自动执行规则。\n5. 查看并管理待办事项，监控AI模型的执行情况。\n\n## 小节标题\n\n1. 创建项目\n2. 设置聊天提示\n3. 添加待办事项\n4. 监控执行情况",
+      "url": "https://www.producthunt.com/products/contextsbase",
+      "status": "dead",
+      "is_violation": false,
+      "id": "contextsbase-backlog-for-coding-agents",
+      "added": "2026-09-20"
+    },
+    {
+      "name": "Eggshell",
+      "category": "local",
+      "type": "open-source",
+      "summary": "AI 代理本地记忆库，节省算力",
+      "tags": [
+        "AI",
+        "本地存储",
+        "算力优化"
+      ],
+      "scenarios": [
+        "AI模型训练",
+        "数据复用",
+        "算力管理"
+      ],
+      "tutorial": "## Eggshell 使用教程\n\n1. 下载并安装 Eggshell\n\n   - 访问 Eggshell 官网下载最新版本。\n   - 按照安装指南完成安装。\n\n2. 配置 Eggshell\n\n   - 打开 Eggshell 配置文件，设置本地存储路径。\n   - 配置 Eggshell 与你的 AI 代理的连接方式。\n\n3. 使用 Eggshell\n\n   - 在你的 AI 代理代码中调用 Eggshell API。\n   - 利用 Eggshell 存储和复用数据，减少算力消耗。\n\n4. 监控 Eggshell\n\n   - 定期检查 Eggshell 的运行状态。\n   - 分析 Eggshell 的使用情况，优化配置。",
+      "url": "https://www.producthunt.com/products/eggshell-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "eggshell",
+      "added": "2026-09-20"
     }
   ],
   "changelog": [
@@ -8480,6 +8659,21 @@
         "Makersclaw 2.0",
         "Sider Omni Sidebar",
         "Toone"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-20",
+      "added": [
+        "higgsfield",
+        "needle",
+        "Nour_agent",
+        "AuditAgent",
+        "Bolt Forge",
+        "Holon",
+        "ContextsBase - Backlog for Coding Agents",
+        "Eggshell"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
