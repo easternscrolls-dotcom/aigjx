@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T19:48:02.609Z",
+  "generatedAt": "2026-09-20T19:59:56.573Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1836,6 +1836,26 @@
       "url": "https://aiagent.72tool.com/tools/eggshell.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-native.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bi-multiagent-hub.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/morsa-signals.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pushary.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1866,7 +1886,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 360,
+    "totalAgents": 364,
     "byCategory": [
       {
         "id": "local",
@@ -1876,12 +1896,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 292
+        "count": 295
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 24
+        "count": 25
       },
       {
         "id": "crossborder",
@@ -1894,6 +1914,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 173
+    "deadLinks": 175
   }
 }

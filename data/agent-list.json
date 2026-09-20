@@ -8037,6 +8037,95 @@
       "is_violation": false,
       "id": "eggshell",
       "added": "2026-09-20"
+    },
+    {
+      "name": "agent-native",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建网页自动化应用的框架",
+      "tags": [
+        "自动化",
+        "网页应用",
+        "框架"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## agent-native 使用教程\n\n### 1. 安装\n\n1. 下载 agent-native 的源代码。\n2. 使用 npm 或 yarn 进行安装：\n   ```bash\n   npm install agent-native\n   ```\n\n### 2. 创建项目\n\n1. 在项目目录中创建一个 JavaScript 文件，例如 `app.js`。\n2. 引入 agent-native：\n   ```javascript\n   const Agent = require('agent-native');\n   ```\n\n### 3. 编写脚本\n\n1. 创建一个 Agent 实例：\n   ```javascript\n   const agent = new Agent();\n   ```\n2. 添加任务：\n   ```javascript\n   agent.addTask('open', 'https://example.com');\n   ```\n\n### 4. 运行\n\n1. 在命令行中运行脚本：\n   ```bash\n   node app.js\n   ```\n\n以上步骤展示了如何使用 agent-native 创建一个简单的网页自动化应用。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-native",
+      "added": "2026-09-21"
+    },
+    {
+      "name": "bi-multiagent-hub",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持多智能体协同操作。",
+      "tags": [
+        "自动化",
+        "多智能体",
+        "网页操作"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用bi-multiagent-hub进行网页自动化\n1. 下载并安装bi-multiagent-hub。\n2. 打开bi-multiagent-hub，创建一个新的项目。\n3. 在项目中添加智能体，配置智能体的行为和交互逻辑。\n4. 编写智能体的脚本，实现自动化操作。\n5. 运行项目，观察智能体在网页上的操作。",
+      "url": "https://huggingface.co/spaces/nvikou/bi-multiagent-hub",
+      "status": "active",
+      "is_violation": false,
+      "id": "bi-multiagent-hub",
+      "added": "2026-09-21"
+    },
+    {
+      "name": "Morsa Signals",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "开发者工具的 GTM 和 AI 可视化工作流",
+      "tags": [
+        "GTM",
+        "AI",
+        "工作流",
+        "开发者"
+      ],
+      "scenarios": [
+        "开发者工具集成",
+        "自动化测试",
+        "性能监控"
+      ],
+      "tutorial": "## Morsa Signals 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Morsa Signals 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录到 Morsa Signals 平台。\n\n### 2. 创建工作流\n\n1. 在首页点击创建工作流按钮。\n2. 选择合适的工作流模板，或从空白工作流开始。\n3. 拖拽所需的 GTM 和 AI 组件到工作流中，配置参数。\n\n### 3. 部署与监控\n\n1. 完成工作流配置后，点击部署按钮。\n2. 在监控页面查看工作流运行状态和性能数据。\n3. 如有需要，可随时调整工作流配置。",
+      "url": "https://www.producthunt.com/products/morsa-signals",
+      "status": "dead",
+      "is_violation": false,
+      "id": "morsa-signals",
+      "added": "2026-09-21"
+    },
+    {
+      "name": "Pushary",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac系统通知栏快捷访问工具",
+      "tags": [
+        "Mac",
+        "快捷访问",
+        "通知栏"
+      ],
+      "scenarios": [
+        "日常办公",
+        "应用启动",
+        "文件管理"
+      ],
+      "tutorial": "## Pushary使用教程\n\n1. 下载并安装Pushary应用。\n2. 打开Pushary，点击左上角的 '+' 号添加需要快捷访问的应用或文件。\n3. 在添加的应用或文件上点击右键，选择 'Set Shortcut' 设置快捷键。\n4. 按下设置的快捷键，即可快速打开应用或文件。\n5. 可以通过拖动应用或文件到Pushary窗口中，添加更多快捷访问项。",
+      "url": "https://www.producthunt.com/products/pushary",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pushary",
+      "added": "2026-09-21"
     }
   ],
   "changelog": [
@@ -8674,6 +8763,17 @@
         "Holon",
         "ContextsBase - Backlog for Coding Agents",
         "Eggshell"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-21",
+      "added": [
+        "agent-native",
+        "bi-multiagent-hub",
+        "Morsa Signals",
+        "Pushary"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
