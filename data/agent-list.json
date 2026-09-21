@@ -8126,6 +8126,206 @@
       "is_violation": false,
       "id": "pushary",
       "added": "2026-09-21"
+    },
+    {
+      "name": "Arcjet",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "运行时保障AI代理安全",
+      "tags": [
+        "AI代理",
+        "安全",
+        "运行时"
+      ],
+      "scenarios": [
+        "AI代理安全防护",
+        "自动化测试",
+        "安全审计"
+      ],
+      "tutorial": "## 安装与配置\n1. 访问Arcjet官网，注册账号并登录。\n2. 创建一个新的项目，配置项目参数。\n3. 将AI代理部署到Arcjet平台，设置安全策略。\n## 使用Arcjet进行安全监控\n1. 在Arcjet平台中，选择需要监控的AI代理。\n2. 设置监控规则，如异常行为检测、访问控制等。\n3. 查看监控结果，及时处理安全事件。\n## 安全事件响应\n1. 当检测到安全事件时，Arcjet会自动发出警报。\n2. 根据警报信息，进行事件调查和响应。\n3. 修复安全问题，并更新安全策略。",
+      "url": "https://www.producthunt.com/products/arcjet",
+      "status": "dead",
+      "is_violation": false,
+      "id": "arcjet",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "Refoid",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "自动化应用商店退款响应与结果追踪",
+      "tags": [
+        "退款管理",
+        "自动化",
+        "应用商店"
+      ],
+      "scenarios": [
+        "电商运营",
+        "应用开发者",
+        "客户服务"
+      ],
+      "tutorial": "## 使用 Refoid 进行退款响应自动化\n\n### 1. 注册与登录\n\n1. 访问 Refoid 官网并注册账户。\n2. 使用注册的邮箱和密码登录系统。\n\n### 2. 创建退款响应模板\n\n1. 在 Refoid 中创建一个新的退款响应模板。\n2. 输入退款理由和回复内容。\n\n### 3. 连接应用商店API\n\n1. 在 Refoid 中配置应用商店的API接入信息。\n2. 确保API认证信息正确无误。\n\n### 4. 自动化退款流程\n\n1. 设置触发条件，例如订单状态变更。\n2. 当条件满足时，Refoid 将自动发送退款响应。\n\n### 5. 跟踪结果\n\n1. 查看每个退款请求的处理状态。\n2. 分析退款结果，优化响应策略。",
+      "url": "https://www.producthunt.com/products/refoid-decline-unreasonable-refunds",
+      "status": "dead",
+      "is_violation": false,
+      "id": "refoid",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "Superset Mobile",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "随身携带的编程代理",
+      "tags": [
+        "移动端",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "移动设备自动化操作",
+        "网页数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Superset Mobile 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 Superset Mobile 应用。\n2. 打开应用，进行账户登录或注册。\n3. 登录后，应用将自动启动。\n\n### 2. 创建任务\n\n1. 点击 '+' 按钮创建新任务。\n2. 选择任务类型，如网页自动化、数据采集等。\n3. 设置任务参数，如目标网页、操作步骤等。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 应用会实时显示任务进度和状态。\n3. 任务完成后，可查看执行结果。\n\n### 4. 保存与分享\n\n1. 完成任务后，可保存任务以备后续使用。\n2. 可将任务分享给他人或团队。",
+      "url": "https://www.producthunt.com/products/superset-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "superset-mobile",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "CC",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "共享代理，帮助家庭成员保持同步",
+      "tags": [
+        "同步",
+        "家庭",
+        "共享"
+      ],
+      "scenarios": [
+        "家庭通讯",
+        "团队协作",
+        "远程工作"
+      ],
+      "tutorial": "## CC 使用教程\n\n1. 下载并安装 CC 软件。\n2. 创建一个新的共享代理账户，并邀请家庭成员加入。\n3. 在家庭成员的设备上安装 CC 客户端，并登录相同的账户。\n4. 开始使用 CC 进行文件共享、消息传递和实时通讯。\n5. 通过设置，可以控制共享的内容和权限。",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cc",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "Gradio Workflow",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "连接节点构建 AI 流程，Hugging Face 驱动",
+      "tags": [
+        "AI 流程",
+        "Hugging Face",
+        "节点连接",
+        "云服务"
+      ],
+      "scenarios": [
+        "AI 模型部署",
+        "数据科学项目",
+        "自动化工作流"
+      ],
+      "tutorial": "## 使用 Gradio Workflow 构建 AI 流程\n\n### 1. 创建项目\n\n1. 访问 Gradio Workflow 官网并注册账户。\n2. 创建一个新的项目。\n3. 为项目命名并选择合适的配置。\n\n### 2. 添加节点\n\n1. 在项目界面，点击 '添加节点'。\n2. 从提供的节点库中选择所需的组件，如模型加载、数据预处理等。\n3. 将选中的节点拖拽到画布上。\n\n### 3. 配置节点\n\n1. 双击节点，进入配置界面。\n2. 根据需要调整参数，如模型路径、数据格式等。\n3. 确认配置无误后，点击 '保存'。\n\n### 4. 连接节点\n\n1. 使用鼠标点击并拖拽线连接节点之间的输入输出端口。\n2. 确保数据流从输入节点流向输出节点。\n\n### 5. 运行流程\n\n1. 点击流程启动按钮，开始运行 AI 流程。\n2. 观察流程运行状态，确保所有节点按预期工作。\n\n### 6. 保存与分享\n\n1. 流程运行完成后，可以将其保存为模板。\n2. 可以通过分享链接与他人共享你的流程。",
+      "url": "https://www.producthunt.com/products/gradio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gradio-workflow",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "PostSider",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "面向人类和智能体的社交媒体日程安排平台",
+      "tags": [
+        "社交媒体",
+        "日程安排",
+        "自动化"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "内容发布",
+        "团队协作"
+      ],
+      "tutorial": "## PostSider 使用教程\n\n1. 注册并登录\n   - 访问PostSider官网，注册账号并登录。\n2. 创建新计划\n   - 在首页点击创建新计划，填写计划名称和描述。\n3. 添加社交媒体账号\n   - 在计划设置中，添加您要管理的社交媒体账号。\n4. 设置发布时间\n   - 选择要发布的内容，设置发布时间，并选择相应的社交媒体账号。\n5. 预览和发布\n   - 预览内容，确认无误后，点击发布。\n6. 监控和分析\n   - 在分析页面查看发布效果，优化内容策略。",
+      "url": "https://www.producthunt.com/products/postsider",
+      "status": "dead",
+      "is_violation": false,
+      "id": "postsider",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "Sai",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "命令式计算机编队，网页自动化操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "计算机编队"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线任务管理"
+      ],
+      "tutorial": "## Sai 使用教程\n\n1. 注册并登录Sai平台\n\n2. 创建一个新的任务，选择需要自动化的网页和操作\n\n3. 使用Sai提供的可视化界面设置任务细节，如点击、填写表单等\n\n4. 预览并测试任务，确保自动化流程无误\n\n5. 启动任务，Sai将自动执行所有步骤",
+      "url": "https://www.producthunt.com/products/simular",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sai",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "Jev",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速、结构化的AI决策软件自动化工具",
+      "tags": [
+        "AI决策",
+        "自动化",
+        "软件工具"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Jev 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [Jev 官网](https://www.producthunt.com/products/jev-2) 下载并安装 Jev。\n2. 运行 Jev 应用程序。\n\n### 2. 创建新项目\n\n1. 在 Jev 中点击 '新建项目'。\n2. 输入项目名称并选择项目类型。\n3. 点击 '创建'。\n\n### 3. 编写自动化脚本\n\n1. 在项目编辑器中，使用 Jev 的可视化界面拖拽组件来构建自动化流程。\n2. 设置每个组件的参数和条件。\n3. 保存并测试脚本。\n\n### 4. 运行与监控\n\n1. 点击 '运行' 按钮执行自动化任务。\n2. 在监控面板中查看任务执行状态和日志。\n\n### 5. 保存与分享\n\n1. 完成任务后，保存项目。\n2. 可以将项目分享给其他用户或团队。",
+      "url": "https://www.producthunt.com/products/jev-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "jev",
+      "added": "2026-09-22"
+    },
+    {
+      "name": "AppGrowthKit",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化App Store截图，提升应用曝光",
+      "tags": [
+        "App Store",
+        "截图",
+        "自动化",
+        "曝光"
+      ],
+      "scenarios": [
+        "App推广",
+        "应用优化",
+        "用户体验"
+      ],
+      "tutorial": "## 使用AppGrowthKit进行App Store截图自动化\n1. 注册并登录AppGrowthKit平台\n2. 创建新的项目，选择截图模板和风格\n3. 上传你的App截图，设置自动化参数\n4. 启动自动化任务，AppGrowthKit将自动生成不同尺寸和风格的截图\n5. 下载生成的截图，用于App Store优化",
+      "url": "https://www.producthunt.com/products/appgrowthkit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "appgrowthkit",
+      "added": "2026-09-22"
     }
   ],
   "changelog": [
@@ -8774,6 +8974,22 @@
         "bi-multiagent-hub",
         "Morsa Signals",
         "Pushary"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-22",
+      "added": [
+        "Arcjet",
+        "Refoid",
+        "Superset Mobile",
+        "CC",
+        "Gradio Workflow",
+        "PostSider",
+        "Sai",
+        "Jev",
+        "AppGrowthKit"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

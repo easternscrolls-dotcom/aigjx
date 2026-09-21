@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:59:56.573Z",
+  "generatedAt": "2026-09-21T21:27:02.647Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1856,6 +1856,51 @@
       "url": "https://aiagent.72tool.com/tools/pushary.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/arcjet.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/refoid.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/superset-mobile.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cc.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gradio-workflow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/postsider.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/jev.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/appgrowthkit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1886,7 +1931,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 364,
+    "totalAgents": 373,
     "byCategory": [
       {
         "id": "local",
@@ -1896,12 +1941,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 295
+        "count": 302
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 25
+        "count": 27
       },
       {
         "id": "crossborder",
@@ -1914,6 +1959,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 175
+    "deadLinks": 184
   }
 }
