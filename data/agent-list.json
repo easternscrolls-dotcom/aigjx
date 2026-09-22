@@ -8326,6 +8326,317 @@
       "is_violation": false,
       "id": "appgrowthkit",
       "added": "2026-09-22"
+    },
+    {
+      "name": "univer",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 办公自动化工具，集成多种文档格式处理",
+      "tags": [
+        "AI 办公",
+        "文档处理",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "数据管理",
+        "日常办公"
+      ],
+      "tutorial": "## Univer 使用教程\n\n1. 下载并安装 Univer\n\n   - 访问 Univer 的 GitHub 仓库下载最新版本。\n   - 按照安装指南完成安装。\n\n2. 创建新项目\n\n   - 打开 Univer，选择创建新项目。\n   - 输入项目名称并选择文档类型（如表格、文档等）。\n\n3. 编辑文档\n\n   - 在编辑器中，你可以使用丰富的编辑工具进行文档编辑。\n   - 支持多种文档格式，如 Excel、Word、PPT 等。\n\n4. 导入和导出数据\n\n   - 支持从本地文件或网络链接导入数据。\n   - 可以导出文档为多种格式，如 PDF、Excel 等。\n\n5. 集成 AI 功能\n\n   - 利用 Univer 内置的 AI 功能，如自动摘要、翻译等。\n   - 提高工作效率，节省时间。",
+      "url": "https://github.com/dream-num/univer",
+      "status": "active",
+      "is_violation": false,
+      "id": "univer",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "ax",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源的Google代理编排运行时",
+      "tags": [
+        "Google",
+        "代理",
+        "编排",
+        "运行时"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## ax使用教程\n\n### 1. 安装ax\n\n首先，您需要安装ax。可以通过以下命令进行安装：\n\n```bash\nnpm install ax\n```\n\n### 2. 创建代理脚本\n\n创建一个新的JavaScript文件，例如`example.ax.js`，并编写您的代理脚本。以下是一个简单的示例：\n\n```javascript\nconst ax = require('ax');\n\nax.create('example', () => {\n  console.log('Hello, world!');\n});\n```\n\n### 3. 运行代理脚本\n\n在命令行中，运行以下命令来执行您的代理脚本：\n\n```bash\nax run example.ax.js\n```\n\n### 4. 观察输出\n\n您的代理脚本应该会在控制台输出'Hello, world!'。",
+      "url": "https://github.com/google/ax",
+      "status": "active",
+      "is_violation": false,
+      "id": "ax",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "treg",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，社区协作开发",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "社区协作"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## treg 使用教程\n\n### 1. 安装与启动\n\n1. 下载 treg：从 [GitHub](https://github.com) 下载 treg 的最新版本。\n2. 安装依赖：根据系统环境安装必要的依赖库。\n3. 启动 treg：运行 treg 的启动脚本，开始使用。\n\n### 2. 创建新任务\n\n1. 打开 treg：在浏览器中打开 treg 的界面。\n2. 创建任务：点击创建新任务按钮，输入任务名称和描述。\n3. 编写脚本：使用 treg 提供的脚本语言编写自动化任务脚本。\n\n### 3. 运行与调试\n\n1. 运行任务：点击运行按钮，启动自动化任务。\n2. 查看日志：在日志窗口查看任务执行情况。\n3. 调试：根据日志信息进行调试，优化脚本。\n\n### 4. 保存与分享\n\n1. 保存任务：完成任务后，保存任务以便下次使用。\n2. 分享任务：将任务分享到社区，与其他用户交流。",
+      "url": "https://github.com/superdesigndev/treg",
+      "status": "active",
+      "is_violation": false,
+      "id": "treg",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "mlebench-aq04-agent-deepseek-20260922",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "深度学习模型性能评估工具",
+      "tags": [
+        "性能评估",
+        "深度学习",
+        "模型比较"
+      ],
+      "scenarios": [
+        "模型性能测试",
+        "学术研究",
+        "工业应用"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载模型\n   - 访问 Hugging Face 官网，搜索并下载所需的深度学习模型。\n2. 安装依赖\n   - 根据模型要求，安装相应的依赖库。\n3. 运行评估\n   - 使用 mlebench-aq04-agent-deepseek 工具运行模型性能评估。\n4. 分析结果\n   - 查看评估结果，分析模型性能。",
+      "url": "https://huggingface.co/spaces/jzshared/mlebench-aq04-agent-deepseek-20260922",
+      "status": "active",
+      "is_violation": false,
+      "id": "mlebench-aq04-agent-deepseek-20260922",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "First_agent_template2",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## First_agent_template2 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 First_agent_template2。\n2. 打开应用程序，启动浏览器。\n3. 输入目标网页地址，点击“打开”按钮。\n\n### 2. 设置自动化任务\n\n1. 在浏览器中定位到需要自动化的元素。\n2. 点击“添加操作”按钮，选择操作类型（如点击、输入）。\n3. 设置操作参数，如点击位置、输入内容。\n\n### 3. 运行与监控\n\n1. 点击“运行”按钮，开始执行自动化任务。\n2. 观察任务执行过程，确保自动化流程正确。\n3. 任务完成后，点击“停止”按钮。\n\n### 4. 保存与分享\n\n1. 完成任务后，点击“保存”按钮，保存自动化脚本。\n2. 可以将脚本分享给他人或用于后续任务。",
+      "url": "https://huggingface.co/spaces/omerfish/First_agent_template2",
+      "status": "active",
+      "is_violation": false,
+      "id": "first-agent-template2",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "Plane Agents",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "分配任务给AI代理，如同团队协作",
+      "tags": [
+        "AI代理",
+        "任务分配",
+        "工作流"
+      ],
+      "scenarios": [
+        "企业内部协作",
+        "项目管理",
+        "自动化工作"
+      ],
+      "tutorial": "## Plane Agents 使用教程\n\n### 1. 创建代理\n\n1. 登录 Plane Agents 平台。\n2. 点击左侧菜单中的 '创建代理'。\n3. 输入代理名称和描述，选择合适的AI模型。\n4. 点击 '创建'。\n\n### 2. 分配任务\n\n1. 在代理列表中找到刚刚创建的代理。\n2. 点击代理名称，进入代理详情页面。\n3. 在 '任务' 选项卡中，点击 '添加任务'。\n4. 输入任务描述，设置任务参数，点击 '提交'。\n\n### 3. 监控任务\n\n1. 返回代理列表，查看代理状态。\n2. 点击代理名称，进入代理详情页面。\n3. 在 '任务' 选项卡中，查看任务执行进度和结果。\n\n### 4. 优化代理\n\n1. 根据任务执行结果，对代理进行优化。\n2. 在代理详情页面，点击 '编辑代理'。\n3. 调整AI模型参数或任务设置，点击 '保存'。",
+      "url": "https://www.producthunt.com/products/planehq",
+      "status": "dead",
+      "is_violation": false,
+      "id": "plane-agents",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "Prowler Cloud",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 云安全卫士，自动检测与防御安全威胁",
+      "tags": [
+        "AI安全",
+        "云安全",
+        "自动化检测"
+      ],
+      "scenarios": [
+        "云平台安全监控",
+        "安全漏洞检测",
+        "安全事件响应"
+      ],
+      "tutorial": "## Prowler Cloud 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Prowler Cloud 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录到 Prowler Cloud 平台。\n\n### 2. 创建安全策略\n\n1. 在平台首页，点击创建安全策略。\n2. 根据需求配置安全策略，包括检测规则、报警设置等。\n3. 保存并启用策略。\n\n### 3. 检测与监控\n\n1. 系统自动开始检测云平台的安全状况。\n2. 在监控界面查看检测结果，包括安全漏洞、异常行为等。\n3. 根据检测结果采取相应的安全措施。\n\n### 4. 报警与通知\n\n1. 当检测到安全威胁时，系统会自动发送报警通知。\n2. 设置接收报警通知的方式，如邮件、短信等。\n3. 及时处理报警，保障云平台安全。",
+      "url": "https://www.producthunt.com/products/prowler",
+      "status": "dead",
+      "is_violation": false,
+      "id": "prowler-cloud",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "WeWeb MCP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI构建应用，用户保持控制权。",
+      "tags": [
+        "AI应用构建",
+        "自动化",
+        "用户控制"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## WeWeb MCP 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [WeWeb MCP 官网](https://www.weweb.io/) 进行注册。\n2. 使用邮箱验证并登录账号。\n\n### 2. 创建新项目\n\n1. 在控制台点击 '创建项目'。\n2. 输入项目名称并选择模板。\n3. 点击 '创建'。\n\n### 3. 编写代码\n\n1. 在代码编辑器中编写你的应用逻辑。\n2. 使用 WeWeb 提供的 API 进行交互。\n3. 保存代码。\n\n### 4. 预览与部署\n\n1. 点击 '预览' 查看应用效果。\n2. 对应用进行调试和优化。\n3. 点击 '部署' 将应用上线。",
+      "url": "https://www.producthunt.com/products/weweb-io",
+      "status": "dead",
+      "is_violation": false,
+      "id": "weweb-mcp",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "PixelCrew",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理团队设计，生产级设计工具",
+      "tags": [
+        "AI设计",
+        "自动化设计",
+        "网页设计"
+      ],
+      "scenarios": [
+        "网页设计",
+        "UI/UX设计",
+        "产品原型制作"
+      ],
+      "tutorial": "## 使用PixelCrew进行设计\n\n1. 访问PixelCrew官网并注册账号。\n2. 选择或上传您想要设计的网页或产品原型。\n3. 使用AI代理团队提供的工具和模板开始设计。\n4. 通过拖拽和编辑工具调整设计元素。\n5. 预览设计效果，并可实时调整。\n6. 完成设计后，下载或分享设计文件。",
+      "url": "https://www.producthunt.com/products/pixelcrew",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pixelcrew",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "SereneDB",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "超快搜索与分析数据库，支持Agentic AI",
+      "tags": [
+        "数据库",
+        "搜索",
+        "分析",
+        "AI"
+      ],
+      "scenarios": [
+        "数据检索",
+        "智能分析",
+        "AI应用"
+      ],
+      "tutorial": "## SereneDB 使用教程\n\n1. 注册并登录SereneDB平台\n\n2. 创建一个新的数据库实例\n\n3. 上传或导入数据到数据库\n\n4. 使用内置的搜索与分析工具进行数据查询和分析\n\n5. 配置Agentic AI进行智能分析",
+      "url": "https://www.producthunt.com/products/serenedb-krummelanke",
+      "status": "dead",
+      "is_violation": false,
+      "id": "serenedb",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "Clueprint",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "监控Mac上代理的运行状态",
+      "tags": [
+        "监控",
+        "Mac",
+        "代理",
+        "状态"
+      ],
+      "scenarios": [
+        "Mac使用监控",
+        "代理管理",
+        "系统维护"
+      ],
+      "tutorial": "## Clueprint 使用教程\n\n1. 下载并安装Clueprint\n   - 访问Clueprint官网下载最新版本，按照提示完成安装。\n2. 打开Clueprint\n   - 双击桌面图标或从菜单栏启动Clueprint应用。\n3. 查看代理状态\n   - Clueprint会自动检测并显示所有正在运行的代理及其状态。\n4. 管理代理\n   - 可以通过Clueprint界面暂停、启动或关闭代理。\n5. 定期检查\n   - 定期打开Clueprint检查代理状态，确保系统稳定运行。",
+      "url": "https://www.producthunt.com/products/clueprint",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clueprint",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "Contextberg",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地AI代理内存服务",
+      "tags": [
+        "AI代理",
+        "内存服务",
+        "本地部署"
+      ],
+      "scenarios": [
+        "个人研究",
+        "企业内部应用",
+        "数据管理"
+      ],
+      "tutorial": "## 使用Contextberg进行本地AI代理内存服务\n1. 下载并安装Contextberg软件。\n2. 配置本地网络环境，确保MCP（Memory Control Protocol）服务正常运行。\n3. 创建一个新的AI代理实例，配置其内存服务参数。\n4. 通过MCP接口与AI代理进行交互，实现内存数据的存储和检索。\n5. 对AI代理进行测试，确保内存服务功能正常。",
+      "url": "https://www.producthunt.com/products/contextberg",
+      "status": "dead",
+      "is_violation": false,
+      "id": "contextberg",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "ResumeContext",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为编码代理提供共享内存。",
+      "tags": [
+        "共享内存",
+        "编码代理",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "代码开发辅助",
+        "自动化测试",
+        "数据共享"
+      ],
+      "tutorial": "## 使用 ResumeContext 教程\n\n1. 安装扩展\n   - 访问 [ResumeContext](https://www.producthunt.com/products/resumecontext) 并安装浏览器扩展。\n2. 配置代理\n   - 在扩展设置中配置你的代理服务器信息。\n3. 创建共享内存\n   - 在扩展中创建一个新的共享内存区域，并设置权限。\n4. 使用共享内存\n   - 在你的代码中通过 ResumeContext API 访问共享内存区域。\n5. 监控和调试\n   - 使用扩展提供的工具监控共享内存的使用情况。",
+      "url": "https://www.producthunt.com/products/resumecontext",
+      "status": "dead",
+      "is_violation": false,
+      "id": "resumecontext",
+      "added": "2026-09-23"
+    },
+    {
+      "name": "Fez",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "团队协作的AI代理，共同决策",
+      "tags": [
+        "AI代理",
+        "团队协作",
+        "决策支持"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Fez使用教程\n\n### 1. 安装Fez\n\n从[Fez官网](https://www.producthunt.com/products/fez-2)下载并安装Fez客户端。\n\n### 2. 创建代理\n\n打开Fez客户端，点击创建新的代理，填写相关信息并保存。\n\n### 3. 配置任务\n\n为代理配置任务，包括目标网页、操作步骤等。\n\n### 4. 运行代理\n\n点击运行按钮，Fez代理将自动执行任务。\n\n### 5. 查看结果\n\n任务完成后，查看代理执行结果，并进行必要的调整。",
+      "url": "https://www.producthunt.com/products/fez-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "fez",
+      "added": "2026-09-23"
     }
   ],
   "changelog": [
@@ -8990,6 +9301,27 @@
         "Sai",
         "Jev",
         "AppGrowthKit"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-23",
+      "added": [
+        "univer",
+        "ax",
+        "treg",
+        "mlebench-aq04-agent-deepseek-20260922",
+        "First_agent_template2",
+        "Plane Agents",
+        "Prowler Cloud",
+        "WeWeb MCP",
+        "PixelCrew",
+        "SereneDB",
+        "Clueprint",
+        "Contextberg",
+        "ResumeContext",
+        "Fez"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

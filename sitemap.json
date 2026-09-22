@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:27:02.647Z",
+  "generatedAt": "2026-09-22T20:43:40.415Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1901,6 +1901,76 @@
       "url": "https://aiagent.72tool.com/tools/appgrowthkit.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/univer.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ax.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/treg.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mlebench-aq04-agent-deepseek-20260922.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/first-agent-template2.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/plane-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/prowler-cloud.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/weweb-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pixelcrew.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/serenedb.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clueprint.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/contextberg.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/resumecontext.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/fez.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -1931,22 +2001,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 373,
+    "totalAgents": 387,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 23
+        "count": 24
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 302
+        "count": 314
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 27
+        "count": 28
       },
       {
         "id": "crossborder",
@@ -1959,6 +2029,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 184
+    "deadLinks": 193
   }
 }
