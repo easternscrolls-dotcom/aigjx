@@ -8637,6 +8637,183 @@
       "is_violation": false,
       "id": "fez",
       "added": "2026-09-23"
+    },
+    {
+      "name": "harness-sdk",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建并控制生产级AI代理，开源SDK支持Python和TypeScript。",
+      "tags": [
+        "AI代理",
+        "Python",
+        "TypeScript",
+        "开源"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用harness-sdk构建AI代理\n\n### 1. 安装SDK\n\n首先，确保你已经安装了Python和Node.js环境。然后，使用pip安装harness-sdk:\n\n```bash\npip install harness-sdk\n```\n\n### 2. 创建代理\n\n使用harness-sdk创建一个新的代理实例，并定义其行为。\n\n```python\nfrom harness import Agent\n\nagent = Agent('my_agent')\nagent.add_behavior('click', 'button')\nagent.add_behavior('fill', 'input', 'value')\nagent.run()\n```\n\n### 3. 部署代理\n\n将代理部署到服务器或云平台，使其可以在任何地方运行。\n\n```python\nagent.deploy('my_server')\n```\n\n### 4. 监控与维护\n\n使用harness-sdk提供的工具监控代理的运行状态，并进行必要的维护。\n\n```python\nagent.monitor()\nagent.update_behavior('click', 'button', 'click_me')\n```",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "status": "active",
+      "is_violation": false,
+      "id": "harness-sdk",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "PanWatch",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "A股/港股/美股实时监控，自托管AI盯盘助手",
+      "tags": [
+        "股票监控",
+        "AI分析",
+        "实时数据"
+      ],
+      "scenarios": [
+        "股票交易",
+        "投资分析",
+        "市场监控"
+      ],
+      "tutorial": "## PanWatch 使用教程\n\n### 1. 安装与启动\n1. 下载 PanWatch 并安装。\n2. 打开 PanWatch，进行账户登录。\n3. 选择需要监控的股票市场（A股、港股、美股）。\n\n### 2. 监控设置\n1. 在监控设置中，添加需要关注的股票。\n2. 设置价格预警、交易提醒等。\n3. 选择推送渠道，如邮件、短信等。\n\n### 3. 数据分析\n1. PanWatch 会实时分析股票数据。\n2. 查看智能分析报告，了解市场动态。\n3. 根据分析结果调整投资策略。\n\n### 4. 持仓管理\n1. 查看持仓详情。\n2. 进行买卖操作。\n3. 监控持仓表现。",
+      "url": "https://github.com/TNT-Likely/PanWatch",
+      "status": "active",
+      "is_violation": false,
+      "id": "panwatch",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "Jyoti-Agent-RJS",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，实现网页操作自动化",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化填表"
+      ],
+      "tutorial": "## Jyoti-Agent-RJS 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 Jyoti-Agent-RJS。\n2. 打开浏览器，访问目标网页。\n3. 启动 Jyoti-Agent-RJS，连接到浏览器。\n\n### 2. 创建任务\n\n1. 在 Jyoti-Agent-RJS 中创建新任务。\n2. 选择目标网页元素，如按钮、输入框等。\n3. 设置操作类型，如点击、输入等。\n\n### 3. 运行与调试\n\n1. 运行任务，观察自动化操作。\n2. 如有错误，进行调试，调整操作步骤。\n3. 保存并重复使用任务。",
+      "url": "https://huggingface.co/spaces/Shivlal6660/Jyoti-Agent-RJS",
+      "status": "active",
+      "is_violation": false,
+      "id": "jyoti-agent-rjs",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "Qwen-Image-2.1-workflow",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "可视化工作流构建，连接SaaS自动化流程",
+      "tags": [
+        "工作流",
+        "自动化",
+        "SaaS连接"
+      ],
+      "scenarios": [
+        "企业内部流程自动化",
+        "数据集成",
+        "业务流程优化"
+      ],
+      "tutorial": "## Qwen-Image-2.1-workflow 使用教程\n\n### 1. 创建工作流\n- 登录Qwen-Image平台\n- 点击创建工作流\n- 选择模板或从零开始\n\n### 2. 添加步骤\n- 在工作流编辑器中，拖拽所需步骤到画布\n- 配置步骤参数\n\n### 3. 连接SaaS\n- 选择需要连接的SaaS服务\n- 输入认证信息\n- 配置数据流向\n\n### 4. 预览与测试\n- 预览工作流运行效果\n- 点击测试运行，确保流程无误\n\n### 5. 部署与监控\n- 部署工作流到生产环境\n- 监控工作流运行状态",
+      "url": "https://huggingface.co/spaces/DraconicDragon/Qwen-Image-2.1-workflow",
+      "status": "active",
+      "is_violation": false,
+      "id": "qwen-image-2-1-workflow",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "Solid",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "拥有独立电脑、账户和预算的智能代理。",
+      "tags": [
+        "智能代理",
+        "自动化",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Solid 使用教程\n\n### 1. 安装 Solid\n\n1. 访问 [Solid 官网](https://www.producthunt.com/products/solid-3) 下载并安装 Solid 扩展。\n2. 打开浏览器，进入扩展设置，启用 Solid。\n\n### 2. 创建代理\n\n1. 在 Solid 扩展中点击 '+' 创建新的代理。\n2. 输入代理名称，设置电脑、账户和预算信息。\n\n### 3. 编写脚本\n\n1. 在代理详情页，选择要执行的脚本类型（如 JavaScript）。\n2. 编写脚本代码，实现自动化任务。\n\n### 4. 运行代理\n\n1. 点击 '运行' 按钮启动代理。\n2. 观察代理执行结果，确保任务完成无误。",
+      "url": "https://www.producthunt.com/products/solid-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "solid",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "Naise AI",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动执行营销任务的浏览器网页Agent",
+      "tags": [
+        "营销自动化",
+        "浏览器扩展",
+        "AI营销"
+      ],
+      "scenarios": [
+        "在线营销",
+        "广告投放",
+        "客户关系管理"
+      ],
+      "tutorial": "## Naise AI 使用教程\n\n1. 注册并登录Naise AI平台\n\n2. 创建一个新的营销任务，选择目标网站和营销策略\n\n3. 设置任务参数，如触发条件、执行频率等\n\n4. 预览任务执行效果，确认无误后启动任务\n\n5. 查看任务执行日志，监控营销效果",
+      "url": "https://www.producthunt.com/products/naise-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "naise-ai",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "Koreshield",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI支持代理提供安全和证据支持",
+      "tags": [
+        "AI安全",
+        "代理支持",
+        "证据管理"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "数据安全审计",
+        "AI模型监控"
+      ],
+      "tutorial": "## Koreshield 使用教程\n\n### 1. 安装 Koreshield\n\n1. 访问 Koreshield 官网下载最新版本。\n2. 根据操作系统选择合适的安装包。\n3. 运行安装包完成安装。\n\n### 2. 配置 Koreshield\n\n1. 打开 Koreshield 应用程序。\n2. 输入您的许可证密钥（如有）。\n3. 配置您的代理设置，确保数据传输安全。\n\n### 3. 创建AI支持代理\n\n1. 在 Koreshield 中创建新的代理。\n2. 选择代理类型和配置参数。\n3. 设置代理的权限和访问控制。\n\n### 4. 监控和审计\n\n1. 查看代理的日志和活动记录。\n2. 分析数据以识别潜在的安全威胁。\n3. 生成报告以供审计和合规性检查。",
+      "url": "https://www.producthunt.com/products/koreshield",
+      "status": "dead",
+      "is_violation": false,
+      "id": "koreshield",
+      "added": "2026-09-24"
+    },
+    {
+      "name": "AgentScore",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "每日评分，监测智能代理性能提升",
+      "tags": [
+        "智能代理",
+        "性能监测",
+        "工作流"
+      ],
+      "scenarios": [
+        "智能客服",
+        "自动化测试",
+        "数据监控"
+      ],
+      "tutorial": "## AgentScore 使用教程\n\n1. 下载并安装 AgentScore\n\n2. 配置智能代理并开始运行\n\n3. 每日查看 AgentScore 评分，分析代理性能\n\n4. 根据评分调整代理策略或模型",
+      "url": "https://www.producthunt.com/products/latitude-4",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agentscore",
+      "added": "2026-09-24"
     }
   ],
   "changelog": [
@@ -9322,6 +9499,21 @@
         "Contextberg",
         "ResumeContext",
         "Fez"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-24",
+      "added": [
+        "harness-sdk",
+        "PanWatch",
+        "Jyoti-Agent-RJS",
+        "Qwen-Image-2.1-workflow",
+        "Solid",
+        "Naise AI",
+        "Koreshield",
+        "AgentScore"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

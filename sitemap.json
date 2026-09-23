@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:43:40.415Z",
+  "generatedAt": "2026-09-23T20:53:27.668Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -1971,6 +1971,46 @@
       "url": "https://aiagent.72tool.com/tools/fez.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/harness-sdk.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/panwatch.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/jyoti-agent-rjs.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qwen-image-2-1-workflow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/solid.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/naise-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/koreshield.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentscore.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2001,7 +2041,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 387,
+    "totalAgents": 395,
     "byCategory": [
       {
         "id": "local",
@@ -2011,12 +2051,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 314
+        "count": 320
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 28
+        "count": 30
       },
       {
         "id": "crossborder",
@@ -2029,6 +2069,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 193
+    "deadLinks": 197
   }
 }
