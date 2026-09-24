@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:53:27.668Z",
+  "generatedAt": "2026-09-24T20:58:29.254Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2011,6 +2011,41 @@
       "url": "https://aiagent.72tool.com/tools/agentscore.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hindsight.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-001.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/noan.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/intellagents-io.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/opencontroller-by-lyzr.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/autonomous-product-delivery.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/maximem-synap.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2041,7 +2076,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 395,
+    "totalAgents": 402,
     "byCategory": [
       {
         "id": "local",
@@ -2051,12 +2086,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 320
+        "count": 325
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 30
+        "count": 32
       },
       {
         "id": "crossborder",
@@ -2069,6 +2104,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 197
+    "deadLinks": 203
   }
 }

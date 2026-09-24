@@ -1837,7 +1837,7 @@
       ],
       "tutorial": "## 使用 BUSCADOR_VENTAS_AGENTES 进行网页自动化\n\n### 1. 安装与配置\n\n1. 下载并安装 BUSCADOR_VENTAS_AGENTES。\n2. 打开软件，进行必要的配置，如设置代理、选择目标网页等。\n\n### 2. 编写自动化脚本\n\n1. 在脚本编辑器中，使用提供的脚本语言编写自动化操作步骤。\n2. 可以设置条件判断、循环等逻辑，实现复杂操作。\n\n### 3. 运行与调试\n\n1. 运行脚本，观察自动化操作是否按预期执行。\n2. 如有错误，进行调试，修改脚本直至正确执行。\n\n### 4. 保存与分享\n\n1. 保存自动化脚本，以便后续使用。\n2. 可将脚本分享给其他用户，实现团队协作。",
       "url": "https://huggingface.co/spaces/OBAMACARE2026/BUSCADOR_VENTAS_AGENTES",
-      "status": "active",
+      "status": "dead",
       "is_violation": false,
       "id": "buscador-ventas-agentes",
       "added": "2026-08-19"
@@ -8814,6 +8814,161 @@
       "is_violation": false,
       "id": "agentscore",
       "added": "2026-09-24"
+    },
+    {
+      "name": "hindsight",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页Agent，自动操作网页，无需代码",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Hindsight 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 Hindsight。\n2. 打开 Hindsight 并启动浏览器。\n3. 在浏览器中打开目标网页。\n\n### 2. 记录操作\n\n1. 在网页上执行需要自动化的操作。\n2. 点击 Hindsight 的录制按钮，开始录制操作。\n3. 完成操作后，停止录制。\n\n### 3. 播放与调试\n\n1. 点击播放按钮，查看录制的结果。\n2. 如有错误，进行调试。\n3. 保存并导出自动化脚本。\n\n### 4. 应用脚本\n\n1. 将导出的脚本应用到实际业务中。\n2. 观察自动化效果，优化脚本。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "status": "active",
+      "is_violation": false,
+      "id": "hindsight",
+      "added": "2026-09-25"
+    },
+    {
+      "name": "Agent_001",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## Agent_001 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Agent_001 安装包。\n2. 解压安装包并运行 Agent_001。\n3. 确保浏览器已开启自动化模式。\n\n### 2. 创建任务\n\n1. 在 Agent_001 中创建新任务。\n2. 选择目标网页和操作类型（如点击、填写表单等）。\n3. 设置操作参数和条件。\n\n### 3. 运行与监控\n\n1. 运行创建的任务。\n2. 监控任务执行状态和日志。\n3. 根据需要调整任务设置。\n\n### 4. 保存与导出\n\n1. 完成任务后，保存任务配置。\n2. 可导出任务日志和结果数据。",
+      "url": "https://huggingface.co/spaces/Saba012/Agent_001",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-001",
+      "added": "2026-09-25"
+    },
+    {
+      "name": "NOAN",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的事实层，简化网页交互",
+      "tags": [
+        "AI",
+        "代理",
+        "网页交互",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## NOAN 使用教程\n\n### 1. 安装与配置\n1. 访问 [NOAN 官网](https://www.producthunt.com/products/noan-2) 下载 NOAN。\n2. 按照提示完成安装。\n3. 配置代理服务器，确保 NOAN 可以访问目标网页。\n\n### 2. 创建代理\n1. 打开 NOAN 软件，点击 '创建代理'。\n2. 输入代理名称，选择目标网页，点击 '创建'。\n\n### 3. 编写脚本\n1. 在代理编辑器中，使用 NOAN 提供的 API 编写脚本。\n2. 脚本可以包括网页导航、数据采集、条件判断等操作。\n\n### 4. 运行与调试\n1. 点击 '运行' 按钮执行脚本。\n2. 观察输出结果，如有错误，进行调试。",
+      "url": "https://www.producthunt.com/products/noan-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "noan",
+      "added": "2026-09-25"
+    },
+    {
+      "name": "IntellAgents.io",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能AI代理，自动处理通话、聊天和私信",
+      "tags": [
+        "AI代理",
+        "自动化客服",
+        "多平台支持"
+      ],
+      "scenarios": [
+        "在线客服",
+        "客户服务自动化",
+        "社交媒体管理"
+      ],
+      "tutorial": "## IntellAgents.io 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [IntellAgents.io](https://www.intellagents.io) 并注册账户。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建智能代理\n\n1. 在仪表板上点击 '创建代理'。\n2. 输入代理名称和描述。\n3. 选择要连接的平台（如Facebook、Slack等）。\n\n### 3. 编写对话脚本\n\n1. 在对话编辑器中，使用拖拽方式添加对话节点。\n2. 设置触发条件和回复内容。\n3. 测试对话流程，确保逻辑正确。\n\n### 4. 部署代理\n\n1. 在代理设置中，选择部署到目标平台。\n2. 点击 '部署' 按钮，完成部署。\n\n### 5. 监控与优化\n\n1. 在仪表板上查看代理的运行情况。\n2. 根据用户反馈和数据分析，优化对话脚本。",
+      "url": "https://www.producthunt.com/products/intellagents-io",
+      "status": "dead",
+      "is_violation": false,
+      "id": "intellagents-io",
+      "added": "2026-09-25"
+    },
+    {
+      "name": "Opencontroller by lyzr",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "统一管理所有代理的统一控制平面",
+      "tags": [
+        "自动化",
+        "工作流",
+        "代理管理"
+      ],
+      "scenarios": [
+        "企业内部自动化",
+        "跨部门协作",
+        "复杂流程管理"
+      ],
+      "tutorial": "## Opencontroller 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Opencontroller 安装包。\n2. 解压安装包并运行启动程序。\n3. 首次启动时，需要进行简单的配置，包括设置管理员账户和密码。\n\n### 2. 创建代理\n\n1. 在 Opencontroller 界面中，点击 '创建代理' 按钮。\n2. 输入代理名称和相关信息。\n3. 选择代理类型和配置参数。\n4. 点击 '创建' 按钮。\n\n### 3. 管理代理\n\n1. 在代理列表中，可以查看所有已创建的代理。\n2. 对代理进行编辑、删除等操作。\n3. 可以对代理进行监控，查看其运行状态和日志。\n\n### 4. 集成与扩展\n\n1. Opencontroller 支持多种集成方式，如 API、插件等。\n2. 可以根据需求，扩展 Opencontroller 的功能。",
+      "url": "https://www.producthunt.com/products/opencontroller-by-lyzr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "opencontroller-by-lyzr",
+      "added": "2026-09-25"
+    },
+    {
+      "name": "Autonomous Product Delivery",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "产品团队自动化交付平台",
+      "tags": [
+        "产品交付",
+        "自动化",
+        "团队协作"
+      ],
+      "scenarios": [
+        "产品迭代管理",
+        "供应链优化",
+        "跨部门协作"
+      ],
+      "tutorial": "## 使用Autonomous Product Delivery教程\n\n### 1. 注册与登录\n\n1. 访问Autonomous Product Delivery官网\n2. 点击注册，填写相关信息完成注册\n3. 使用注册的邮箱和密码登录系统\n\n### 2. 创建项目\n\n1. 在首页点击创建新项目\n2. 输入项目名称和描述\n3. 选择项目类型和目标平台\n\n### 3. 规划交付流程\n\n1. 使用拖拽式界面设计交付流程\n2. 添加任务、里程碑和依赖关系\n3. 设置提醒和通知\n\n### 4. 开始执行\n\n1. 点击开始执行按钮\n2. 观察项目进度和状态\n3. 根据需要调整流程和任务\n\n### 5. 分析与优化\n\n1. 查看项目报告和数据分析\n2. 根据反馈优化流程和策略\n3. 提升产品交付效率",
+      "url": "https://www.producthunt.com/products/autonomyai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "autonomous-product-delivery",
+      "added": "2026-09-25"
+    },
+    {
+      "name": "Maximem Synap",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理最快最准确的内存层",
+      "tags": [
+        "AI",
+        "内存优化",
+        "代理加速"
+      ],
+      "scenarios": [
+        "AI模型训练",
+        "数据加速处理",
+        "代理服务优化"
+      ],
+      "tutorial": "## Maximem Synap 使用教程\n\n1. 访问Maximem Synap官网\n   - 在浏览器中输入官网地址，进入Maximem Synap官网。\n2. 注册/登录账户\n   - 如果已有账户，直接登录；如果没有，则注册新账户。\n3. 选择服务计划\n   - 根据需求选择合适的服务计划，并完成支付。\n4. 配置内存设置\n   - 在控制面板中配置内存设置，确保与AI代理兼容。\n5. 集成到AI代理\n   - 将Maximem Synap集成到您的AI代理中，开始使用。\n6. 监控性能\n   - 使用提供的监控工具，实时监控内存使用情况和性能表现。",
+      "url": "https://www.producthunt.com/products/maximem-synap",
+      "status": "dead",
+      "is_violation": false,
+      "id": "maximem-synap",
+      "added": "2026-09-25"
     }
   ],
   "changelog": [
@@ -9516,6 +9671,20 @@
         "AgentScore"
       ],
       "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-25",
+      "added": [
+        "hindsight",
+        "Agent_001",
+        "NOAN",
+        "IntellAgents.io",
+        "Opencontroller by lyzr",
+        "Autonomous Product Delivery",
+        "Maximem Synap"
+      ],
+      "invalidated": 1,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
     }
   ]
