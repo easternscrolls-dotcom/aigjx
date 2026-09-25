@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:58:29.254Z",
+  "generatedAt": "2026-09-25T20:55:34.728Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2046,6 +2046,66 @@
       "url": "https://aiagent.72tool.com/tools/maximem-synap.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/paperclip.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/starnet.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bleetz-network.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lateron-v2-the-agentic-email-plaftform.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nexusaxi.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/fit-receipt.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/once-ui-2-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kaiku.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/jango.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kelam.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/jevforagents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/github-statistics-velocity-radar.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2076,27 +2136,27 @@
     }
   ],
   "stats": {
-    "totalAgents": 402,
+    "totalAgents": 414,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 24
+        "count": 25
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 325
+        "count": 334
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 32
+        "count": 33
       },
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 9
+        "count": 10
       },
       {
         "id": "tools",
@@ -2104,6 +2164,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 203
+    "deadLinks": 213
   }
 }

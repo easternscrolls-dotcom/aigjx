@@ -8969,6 +8969,275 @@
       "is_violation": false,
       "id": "maximem-synap",
       "added": "2026-09-25"
+    },
+    {
+      "name": "paperclip",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源工作代理管理应用",
+      "tags": [
+        "代理管理",
+        "自动化",
+        "开源"
+      ],
+      "scenarios": [
+        "企业内部自动化",
+        "网页自动化操作",
+        "数据采集"
+      ],
+      "tutorial": "## Paperclip 使用教程\n\n### 1. 安装 Paperclip\n\n1. 访问 [Paperclip GitHub 仓库](https://github.com/paperclipapp/paperclip) 并下载安装包。\n2. 解压安装包并运行安装脚本。\n3. 按照提示完成安装。\n\n### 2. 创建代理\n\n1. 打开 Paperclip 应用。\n2. 点击 '创建代理' 按钮。\n3. 输入代理名称和描述，选择代理类型。\n4. 点击 '创建'。\n\n### 3. 配置代理\n\n1. 在代理列表中找到刚刚创建的代理。\n2. 点击代理名称进入配置界面。\n3. 配置代理参数，如 URL、请求头等。\n4. 点击 '保存'。\n\n### 4. 运行代理\n\n1. 在代理列表中找到配置好的代理。\n2. 点击 '运行' 按钮。\n3. 观察代理运行状态和输出结果。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "status": "active",
+      "is_violation": false,
+      "id": "paperclip",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "starnet",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地化AI像素艺术工作站，支持自托管AI代理。",
+      "tags": [
+        "AI代理",
+        "像素艺术",
+        "本地部署"
+      ],
+      "scenarios": [
+        "个人创作",
+        "游戏开发",
+        "艺术教育"
+      ],
+      "tutorial": "## 星网(starnet)使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装starnet客户端。\n2. 运行客户端，启动你的像素艺术工作站。\n3. 输入你的密钥，开始使用。\n\n### 2. 创建代理\n\n1. 在客户端中点击创建代理。\n2. 选择代理类型和配置参数。\n3. 点击创建，等待代理启动。\n\n### 3. 监控与控制\n\n1. 在代理列表中查看代理状态。\n2. 通过控制台发送指令给代理。\n3. 监控代理的工作进度和结果。\n\n### 4. 保存与分享\n\n1. 完成工作后，保存你的像素艺术。\n2. 可以导出为常见格式，如PNG或GIF。\n3. 分享你的作品到社交媒体或论坛。",
+      "url": "https://github.com/androoAGI/starnet",
+      "status": "active",
+      "is_violation": false,
+      "id": "starnet",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "Bleetz Network",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "AI驱动的跨境投资与人才搜寻网络",
+      "tags": [
+        "AI",
+        "投资",
+        "人才搜寻",
+        "跨境"
+      ],
+      "scenarios": [
+        "跨境投资",
+        "人才招募",
+        "商业拓展"
+      ],
+      "tutorial": "## Bleetz Network 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Bleetz Network 官网](https://www.bleetz.com/) 并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 创建投资或人才需求\n\n1. 在首页点击 'Create New'，选择 'Investment' 或 'Scouting'。\n2. 填写相关信息，如项目描述、资金需求、人才要求等。\n3. 提交需求。\n\n### 3. 探索与联系\n\n1. 浏览其他用户发布的投资或人才需求。\n2. 对感兴趣的项目或人才发起联系。\n3. 通过平台进行沟通和交流。\n\n### 4. 管理我的项目\n\n1. 在个人中心查看和管理我的投资或人才需求。\n2. 跟踪项目进展和沟通记录。\n3. 更新项目状态或关闭项目。",
+      "url": "https://www.producthunt.com/products/bleetz-network",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bleetz-network",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "LaterOn v2: The agentic email plaftform",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "一键描述邮件任务，高效完成工作。",
+      "tags": [
+        "邮件自动化",
+        "任务管理",
+        "效率提升"
+      ],
+      "scenarios": [
+        "邮件营销",
+        "客户服务",
+        "日常办公"
+      ],
+      "tutorial": "## 使用 LaterOn v2 进行邮件自动化\n\n1. 注册并登录 LaterOn v2\n\n2. 创建一个新的邮件任务，填写邮件内容、收件人等信息\n\n3. 设置邮件发送时间或触发条件\n\n4. 保存并激活任务，LaterOn v2 将自动发送邮件\n\n5. 查看任务执行情况和效果",
+      "url": "https://www.producthunt.com/products/lateron-email",
+      "status": "dead",
+      "is_violation": false,
+      "id": "lateron-v2-the-agentic-email-plaftform",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "NexusAXI",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "自动化重复工作，提升效率",
+      "tags": [
+        "自动化",
+        "工作流",
+        "效率提升",
+        "云服务"
+      ],
+      "scenarios": [
+        "企业内部流程自动化",
+        "在线服务自动化",
+        "日常任务自动化"
+      ],
+      "tutorial": "## NexusAXI 使用教程\n\n### 1. 注册与登录\n\n1. 访问 NexusAXI 官网进行注册。\n2. 使用注册信息登录账户。\n3. 首次登录后，系统会引导你完成基础设置。\n\n### 2. 创建工作流\n\n1. 在工作流管理页面，点击创建新工作流。\n2. 选择工作流类型，如数据采集、邮件处理等。\n3. 按照提示配置工作流参数和步骤。\n\n### 3. 配置触发条件\n\n1. 设置工作流的触发条件，如定时执行、事件触发等。\n2. 确保触发条件符合实际需求。\n3. 保存配置。\n\n### 4. 测试与运行\n\n1. 在工作流管理页面，选择需要测试的工作流。\n2. 点击测试按钮，检查工作流是否按预期执行。\n3. 确认无误后，启动工作流进行自动化执行。",
+      "url": "https://www.producthunt.com/products/nexusaxi",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nexusaxi",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "Fit Receipt",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能适配助手，自动调用JEV服务",
+      "tags": [
+        "智能助手",
+        "适配服务",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "服务调用",
+        "数据处理"
+      ],
+      "tutorial": "## 使用Fit Receipt教程\n\n1. 下载并安装Fit Receipt插件\n\n2. 在目标网页上打开插件，配置JEV服务的调用参数\n\n3. 设置触发条件，如页面加载完成或特定元素出现\n\n4. 启动插件，自动执行适配和调用操作\n\n5. 查看调用结果和日志信息",
+      "url": "https://www.producthunt.com/products/fit-receipt",
+      "status": "dead",
+      "is_violation": false,
+      "id": "fit-receipt",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "Once UI 2.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建一致性的 React 应用，适用于开发者和 AI 代理",
+      "tags": [
+        "React",
+        "UI 组件",
+        "开发工具"
+      ],
+      "scenarios": [
+        "前端开发",
+        "AI 交互界面",
+        "跨平台应用"
+      ],
+      "tutorial": "## 使用 Once UI 2.0 创建 React 应用\n\n### 1. 安装 Once UI\n\n首先，确保你的开发环境已经安装了 Node.js 和 npm。然后，使用以下命令安装 Once UI：\n\n```bash\nnpm install @once/ui\n```\n\n### 2. 创建 React 应用\n\n使用 Create React App 创建一个新的 React 应用：\n\n```bash\nnpx create-react-app my-app\n```\n\n### 3. 引入 Once UI 组件\n\n在你的 React 应用的入口文件（通常是 `src/App.js`）中，引入 Once UI 的组件：\n\n```jsx\nimport React from 'react';\nimport { Button } from '@once/ui';\n\nfunction App() {\n  return (\n    <div>\n      <Button>点击我</Button>\n    </div>\n  );\n}\n\nexport default App;\n```\n\n### 4. 运行应用\n\n最后，运行你的应用：\n\n```bash\nnpm start\n```\n\n现在你应该能看到一个包含 Once UI 按钮的简单应用界面。",
+      "url": "https://www.producthunt.com/products/once-ui-for-figma",
+      "status": "dead",
+      "is_violation": false,
+      "id": "once-ui-2-0",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "Kaiku",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理友好的任务追踪器",
+      "tags": [
+        "任务追踪",
+        "AI 代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化日常任务",
+        "AI 代理协作",
+        "团队协作"
+      ],
+      "tutorial": "## Kaiku 使用教程\n\n### 1. 安装与登录\n\n1. 访问 [Kaiku 官网](https://www.producthunt.com/products/kaiku) 下载并安装 Kaiku。\n2. 使用您的账户登录 Kaiku。\n\n### 2. 创建任务\n\n1. 点击左侧菜单中的 '任务' 选项。\n2. 在弹出的表单中填写任务名称、描述和优先级。\n3. 点击 '创建' 按钮保存任务。\n\n### 3. 分配任务\n\n1. 在任务列表中找到需要分配的任务。\n2. 点击任务右侧的 '分配' 按钮。\n3. 选择合适的 AI 代理或团队成员，并设置截止日期。\n\n### 4. 跟踪进度\n\n1. 定期查看任务列表，了解任务进度。\n2. 可以通过任务详情页查看任务日志和更新。\n\n### 5. 完成任务\n\n1. 当任务完成后，点击任务右侧的 '完成' 按钮。\n2. 完成任务后，系统会自动更新任务状态并通知相关人员。",
+      "url": "https://www.producthunt.com/products/kaiku",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kaiku",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "Jango",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI模拟真实用户测试多用户应用",
+      "tags": [
+        "测试",
+        "AI",
+        "多用户",
+        "应用"
+      ],
+      "scenarios": [
+        "软件测试",
+        "用户体验",
+        "自动化测试"
+      ],
+      "tutorial": "## Jango 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Jango 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 Jango 平台。\n\n### 2. 创建测试项目\n\n1. 登录后，点击创建新项目，填写项目名称和描述。\n2. 选择测试类型，如功能测试、性能测试等。\n\n### 3. 添加测试用例\n\n1. 在项目页面，点击添加测试用例，填写测试用例的详细信息。\n2. 可选择使用 AI 代理模拟真实用户行为。\n\n### 4. 运行测试\n\n1. 点击运行测试，Jango 将自动执行测试用例。\n2. 测试完成后，查看测试报告，分析测试结果。\n\n### 5. 生成报告\n\n1. 测试报告生成后，可导出为 PDF 或其他格式。\n2. 分享报告给团队成员或客户。",
+      "url": "https://www.producthunt.com/products/jango",
+      "status": "dead",
+      "is_violation": false,
+      "id": "jango",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "Kelam",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动处理电话，解放你的时间。",
+      "tags": [
+        "电话管理",
+        "自动化",
+        "效率提升"
+      ],
+      "scenarios": [
+        "客服中心",
+        "销售团队",
+        "个人用户"
+      ],
+      "tutorial": "## 使用Kelam进行电话自动处理\n\n1. 注册并登录Kelam平台。\n2. 创建一个新的电话任务，设置通话目的和预期结果。\n3. 选择自动拨号和通话记录功能。\n4. 配置自动回复或转接选项。\n5. 测试并部署任务，监控通话效果。\n6. 定期审查通话数据和反馈，优化任务设置。",
+      "url": "https://www.producthunt.com/products/kelam",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kelam",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "JevForAgents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "探索真实的 Jev 代理构建、演示和模式",
+      "tags": [
+        "代理",
+        "构建",
+        "模式",
+        "探索"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## JevForAgents 使用教程\n\n1. 访问 JevForAgents 网站\n   - 打开浏览器，访问 JevForAgents 官方网站。\n\n2. 浏览代理构建\n   - 在网站上浏览各种 Jev 代理构建案例。\n\n3. 选择并下载\n   - 选择你感兴趣的代理构建，点击下载。\n\n4. 演示模式\n   - 下载后，可以查看演示模式，了解代理功能。\n\n5. 应用场景\n   - 根据你的需求，将代理应用于网页自动化、数据采集等场景。",
+      "url": "https://www.producthunt.com/products/jevforagents",
+      "status": "dead",
+      "is_violation": false,
+      "id": "jevforagents",
+      "added": "2026-09-26"
+    },
+    {
+      "name": "GitHub statistics · Velocity Radar",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "分析GitHub动态，包括私有仓库和AI代理",
+      "tags": [
+        "GitHub",
+        "统计",
+        "AI",
+        "私有仓库"
+      ],
+      "scenarios": [
+        "项目监控",
+        "开发者分析",
+        "团队协作"
+      ],
+      "tutorial": "## 使用GitHub statistics · Velocity Radar教程\n\n1. 访问官网\n   访问 [GitHub statistics · Velocity Radar](https://www.producthunt.com/products/github-statistics-velocity-radar) 官网，注册账号并登录。\n\n2. 创建项目\n   在官网上创建一个新的项目，选择合适的配置和权限设置。\n\n3. 添加仓库\n   将你的GitHub仓库添加到项目中，选择需要监控的仓库。\n\n4. 配置监控\n   设置监控参数，如时间范围、统计指标等，启动监控。\n\n5. 查看报告\n   监控完成后，查看生成的统计报告，分析项目动态和趋势。",
+      "url": "https://www.producthunt.com/products/github-statistics-velocity-radar",
+      "status": "dead",
+      "is_violation": false,
+      "id": "github-statistics-velocity-radar",
+      "added": "2026-09-26"
     }
   ],
   "changelog": [
@@ -9685,6 +9954,25 @@
         "Maximem Synap"
       ],
       "invalidated": 1,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-26",
+      "added": [
+        "paperclip",
+        "starnet",
+        "Bleetz Network",
+        "LaterOn v2: The agentic email plaftform",
+        "NexusAXI",
+        "Fit Receipt",
+        "Once UI 2.0",
+        "Kaiku",
+        "Jango",
+        "Kelam",
+        "JevForAgents",
+        "GitHub statistics · Velocity Radar"
+      ],
+      "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
     }
   ]
