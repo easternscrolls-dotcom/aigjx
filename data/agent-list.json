@@ -9238,6 +9238,164 @@
       "is_violation": false,
       "id": "github-statistics-velocity-radar",
       "added": "2026-09-26"
+    },
+    {
+      "name": "mobile-mcp",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "移动自动化与抓取的模型上下文协议服务器",
+      "tags": [
+        "移动自动化",
+        "抓取",
+        "模型上下文协议"
+      ],
+      "scenarios": [
+        "移动应用测试",
+        "数据采集",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装与配置\n\n1. 下载并安装 Mobile MCP 服务器。\n2. 配置服务器地址和端口。\n3. 启动服务器。\n\n### 2. 连接设备\n\n1. 打开设备开发者模式。\n2. 连接到 Mobile MCP 服务器。\n3. 在服务器上选择设备进行连接。\n\n### 3. 执行操作\n\n1. 选择要执行的操作（如点击、滑动等）。\n2. 在设备上执行所选操作。\n3. 观察操作结果。\n\n### 4. 数据抓取\n\n1. 选择数据抓取模块。\n2. 设置抓取参数。\n3. 开始抓取数据。\n4. 保存抓取结果。",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "status": "active",
+      "is_violation": false,
+      "id": "mobile-mcp",
+      "added": "2026-09-27"
+    },
+    {
+      "name": "openclaw-agent-suite",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "浏览器网页自动化工具，实现网页操作自动化",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "无代码"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## openclaw-agent-suite 使用教程\n\n### 1. 创建任务\n\n1. 打开 openclaw-agent-suite，点击 '新建任务'。\n2. 选择任务类型，如 '网页自动化'。\n3. 输入任务名称，点击 '下一步'。\n\n### 2. 编排步骤\n\n1. 在步骤编辑器中，选择需要的网页操作步骤，如 '点击按钮'、'输入文本' 等。\n2. 将步骤拖拽到工作区，并配置参数。\n3. 保存编排后的步骤。\n\n### 3. 运行与调试\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 观察任务执行过程，如有错误可进行调试。\n3. 任务执行完成后，可查看执行结果。",
+      "url": "https://huggingface.co/spaces/my-dev-agent/openclaw-agent-suite",
+      "status": "active",
+      "is_violation": false,
+      "id": "openclaw-agent-suite",
+      "added": "2026-09-27"
+    },
+    {
+      "name": "agentbrain-handoffs",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化助手，简化网页操作流程。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## AgentBrain-Handoffs 使用教程\n\n### 1. 安装与启动\n\n1. 下载 AgentBrain-Handoffs 安装包。\n2. 解压安装包并运行程序。\n3. 点击“新建项目”开始创建新的自动化任务。\n\n### 2. 创建任务\n\n1. 在“任务编辑器”中，选择需要操作的网页元素。\n2. 设置操作类型，如点击、输入等。\n3. 添加条件判断，使任务更加智能。\n\n### 3. 运行与调试\n\n1. 点击“运行”按钮，观察任务执行情况。\n2. 如有错误，可在“调试工具”中查看错误信息。\n3. 根据错误信息调整任务设置。\n\n### 4. 保存与分享\n\n1. 完成任务后，点击“保存”按钮。\n2. 可将任务分享给其他用户或团队。",
+      "url": "https://huggingface.co/spaces/willykeenan/agentbrain-handoffs",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentbrain-handoffs",
+      "added": "2026-09-27"
+    },
+    {
+      "name": "13-fault-tolerant-multi-agent-system",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持多代理故障容忍",
+      "tags": [
+        "自动化",
+        "多代理",
+        "网页操作",
+        "故障容忍"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装13-fault-tolerant-multi-agent-system。\n2. 运行程序，启动浏览器。\n\n### 2. 创建代理\n\n1. 在程序界面中点击创建代理。\n2. 输入代理名称和配置信息。\n3. 点击保存。\n\n### 3. 编写自动化脚本\n\n1. 使用提供的脚本编辑器编写自动化脚本。\n2. 脚本应包含代理操作指令，如打开网页、填写表单等。\n3. 保存脚本。\n\n### 4. 运行脚本\n\n1. 在程序界面中选择要运行的代理。\n2. 点击运行脚本。\n3. 观察代理执行过程和结果。",
+      "url": "https://huggingface.co/spaces/FlyingNunchucks/13-fault-tolerant-multi-agent-system",
+      "status": "active",
+      "is_violation": false,
+      "id": "13-fault-tolerant-multi-agent-system",
+      "added": "2026-09-27"
+    },
+    {
+      "name": "Hemory",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理可搜索记忆库",
+      "tags": [
+        "AI",
+        "记忆",
+        "搜索",
+        "代理"
+      ],
+      "scenarios": [
+        "AI客服",
+        "数据分析",
+        "内容管理"
+      ],
+      "tutorial": "## 使用Hemory教程\n\n### 1. 安装Hemory\n\n- 访问Hemory官网下载并安装最新版本。\n- 按照安装向导完成安装。\n\n### 2. 创建记忆库\n\n- 打开Hemory应用，点击创建新记忆库。\n- 输入记忆库名称和描述，点击创建。\n\n### 3. 添加记忆数据\n\n- 在记忆库中，点击添加数据。\n- 选择数据来源，如文本文件、网页等。\n- 上传数据或输入数据内容。\n\n### 4. 搜索记忆\n\n- 在搜索框中输入关键词。\n- Hemory将展示相关记忆内容。\n\n### 5. 管理记忆库\n\n- 点击记忆库名称，进入管理界面。\n- 可以编辑、删除或导出记忆数据。",
+      "url": "https://www.producthunt.com/products/hemory",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hemory",
+      "added": "2026-09-27"
+    },
+    {
+      "name": "Eclatira",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "集成任意堆栈的对话式视频代理",
+      "tags": [
+        "视频交互",
+        "对话式AI",
+        "集成化"
+      ],
+      "scenarios": [
+        "在线客服",
+        "虚拟客服",
+        "跨平台沟通"
+      ],
+      "tutorial": "## Eclatira 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Eclatira 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 Eclatira 平台。\n\n### 2. 创建代理\n\n1. 登录后，进入代理管理页面。\n2. 点击创建新代理，填写代理名称和配置相关参数。\n3. 选择合适的视频模板和交互流程。\n\n### 3. 集成到网站\n\n1. 获取 Eclatira 提供的集成代码。\n2. 将代码复制到您的网站中相应的位置。\n3. 测试代理是否正常工作。\n\n### 4. 管理与优化\n\n1. 进入代理管理页面，查看代理的运行数据和用户反馈。\n2. 根据反馈调整代理的交互流程和视频内容。\n3. 定期更新代理以保持最佳性能。",
+      "url": "https://www.producthunt.com/products/eclatira",
+      "status": "dead",
+      "is_violation": false,
+      "id": "eclatira",
+      "added": "2026-09-27"
+    },
+    {
+      "name": "WapiSender",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI驱动的WhatsApp自动化工具，可视化流程管理",
+      "tags": [
+        "WhatsApp",
+        "自动化",
+        "AI",
+        "消息发送"
+      ],
+      "scenarios": [
+        "社交媒体营销",
+        "客户服务",
+        "消息推送"
+      ],
+      "tutorial": "## WapiSender 使用教程\n\n### 1. 注册与登录\n\n1. 访问 WapiSender 官网进行注册。\n2. 使用邮箱验证并登录账户。\n3. 创建新的工作流项目。\n\n### 2. 创建工作流\n\n1. 在工作流编辑器中选择需要的操作节点。\n2. 拖拽节点到画布上，创建流程。\n3. 配置节点参数，如消息内容、发送时间等。\n\n### 3. 测试与运行\n\n1. 点击测试按钮，验证工作流是否按预期运行。\n2. 确认无误后，点击运行按钮启动自动化。\n3. 监控运行状态，确保自动化流程稳定运行。\n\n### 4. 管理与优化\n\n1. 定期检查工作流运行日志，分析性能。\n2. 根据反馈调整工作流配置，优化自动化效果。\n3. 更新节点功能，提升自动化能力。",
+      "url": "https://www.producthunt.com/products/wapisender",
+      "status": "dead",
+      "is_violation": false,
+      "id": "wapisender",
+      "added": "2026-09-27"
     }
   ],
   "changelog": [
@@ -9971,6 +10129,20 @@
         "Kelam",
         "JevForAgents",
         "GitHub statistics · Velocity Radar"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-27",
+      "added": [
+        "mobile-mcp",
+        "openclaw-agent-suite",
+        "agentbrain-handoffs",
+        "13-fault-tolerant-multi-agent-system",
+        "Hemory",
+        "Eclatira",
+        "WapiSender"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
