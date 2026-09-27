@@ -9396,6 +9396,74 @@
       "is_violation": false,
       "id": "wapisender",
       "added": "2026-09-27"
+    },
+    {
+      "name": "openrig",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多智能体集成，运行 Claude Code 和 Codex",
+      "tags": [
+        "多智能体",
+        "集成",
+        "代码",
+        "自然语言处理"
+      ],
+      "scenarios": [
+        "代码协作",
+        "智能客服",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 openrig 进行代码协作\n\n1. 下载并安装 openrig。\n2. 配置 Claude Code 和 Codex 的环境变量。\n3. 使用 openrig 创建一个新的项目。\n4. 在项目中编写代码，openrig 将自动调用 Claude Code 和 Codex 进行处理。\n5. 查看处理结果，并根据需要进行调整。",
+      "url": "https://github.com/mvschwarz/openrig",
+      "status": "active",
+      "is_violation": false,
+      "id": "openrig",
+      "added": "2026-09-28"
+    },
+    {
+      "name": "agente-auditoria_caae",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页审计工具，无需代码",
+      "tags": [
+        "网页审计",
+        "自动化",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网站安全检测",
+        "数据合规性检查",
+        "自动化测试"
+      ],
+      "tutorial": "## Agente-Auditoria_CAAE 使用教程\n\n### 1. 安装与配置\n\n1. 下载 Agente-Auditoria_CAAE。\n2. 解压文件并运行配置脚本。\n3. 配置代理服务器（如有需要）。\n\n### 2. 创建审计任务\n\n1. 打开 Agente-Auditoria_CAAE。\n2. 点击 '新建任务'。\n3. 输入目标网址和审计参数。\n\n### 3. 运行审计\n\n1. 点击 '运行审计'。\n2. 查看审计结果。\n3. 下载审计报告。\n\n### 4. 分析报告\n\n1. 分析审计报告中的问题。\n2. 根据问题进行修复。\n3. 重复审计以验证修复。",
+      "url": "https://huggingface.co/spaces/Yelenia98/agente-auditoria_caae",
+      "status": "active",
+      "is_violation": false,
+      "id": "agente-auditoria-caae",
+      "added": "2026-09-28"
+    },
+    {
+      "name": "Harmony",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "Slack和Teams内自动解决IT/HR工单的AI代理",
+      "tags": [
+        "AI代理",
+        "自动化工单",
+        "Slack集成",
+        "Teams集成"
+      ],
+      "scenarios": [
+        "企业IT支持",
+        "人力资源自动化",
+        "客户服务"
+      ],
+      "tutorial": "## 使用Harmony进行工单自动解决\n\n1. 注册并登录Harmony\n\n   访问Harmony官网，注册账号并登录。\n\n2. 配置Slack或Teams\n\n   在Harmony中配置你的Slack或Teams账户，以便接收和处理工单。\n\n3. 创建工单处理规则\n\n   根据你的需求，创建规则来自动识别和处理工单。\n\n4. 监控工单处理\n\n   查看Harmony自动处理的工单状态，确保流程顺畅。\n\n5. 调整和优化\n\n   根据处理效果，调整规则和策略，提高工单处理效率。",
+      "url": "https://www.producthunt.com/products/harmony-it",
+      "status": "dead",
+      "is_violation": false,
+      "id": "harmony",
+      "added": "2026-09-28"
     }
   ],
   "changelog": [
@@ -10143,6 +10211,16 @@
         "Hemory",
         "Eclatira",
         "WapiSender"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-28",
+      "added": [
+        "openrig",
+        "agente-auditoria_caae",
+        "Harmony"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

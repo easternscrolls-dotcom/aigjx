@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T20:24:44.247Z",
+  "generatedAt": "2026-09-27T20:36:35.223Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2141,6 +2141,21 @@
       "url": "https://aiagent.72tool.com/tools/wapisender.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openrig.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agente-auditoria-caae.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/harmony.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2171,7 +2186,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 421,
+    "totalAgents": 424,
     "byCategory": [
       {
         "id": "local",
@@ -2181,7 +2196,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 341
+        "count": 344
       },
       {
         "id": "workflow",
@@ -2199,6 +2214,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 216
+    "deadLinks": 217
   }
 }
