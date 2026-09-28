@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T20:36:35.223Z",
+  "generatedAt": "2026-09-28T22:47:20.065Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2156,6 +2156,41 @@
       "url": "https://aiagent.72tool.com/tools/harmony.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dgaf-governed-agent-proof.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/governed-agent-playground-test.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/vantage-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sayble.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/microsoft-copilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gencode.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/statable-analytics.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2186,7 +2221,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 424,
+    "totalAgents": 431,
     "byCategory": [
       {
         "id": "local",
@@ -2196,7 +2231,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 344
+        "count": 351
       },
       {
         "id": "workflow",
@@ -2214,6 +2249,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 217
+    "deadLinks": 222
   }
 }

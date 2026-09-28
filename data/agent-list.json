@@ -9464,6 +9464,161 @@
       "is_violation": false,
       "id": "harmony",
       "added": "2026-09-28"
+    },
+    {
+      "name": "dgaf-governed-agent-proof",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页Agent，实现自动操作网页。",
+      "tags": [
+        "网页自动化",
+        "Hugging Face",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "RPA应用"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装Hugging Face库。\n2. 导入dgaf-governed-agent-proof库。\n3. 创建一个Agent实例并指定目标网页。\n4. 使用Agent进行网页操作，如点击、填写表单等。\n5. 获取网页数据并进行分析。",
+      "url": "https://huggingface.co/spaces/Ndrorchestration/dgaf-governed-agent-proof",
+      "status": "active",
+      "is_violation": false,
+      "id": "dgaf-governed-agent-proof",
+      "added": "2026-09-29"
+    },
+    {
+      "name": "governed-agent-playground-test",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用Governed-Agent-Playground-Test进行网页自动化\n\n1. 安装Governed-Agent-Playground-Test\n   - 下载并安装Governed-Agent-Playground-Test。\n\n2. 创建新项目\n   - 打开Governed-Agent-Playground-Test，创建一个新的项目。\n\n3. 编写自动化脚本\n   - 使用内置的API编写自动化脚本，实现网页操作。\n\n4. 运行脚本\n   - 运行脚本，观察自动化操作过程。\n\n5. 保存和分享\n   - 保存自动化脚本，并分享给他人使用。",
+      "url": "https://huggingface.co/spaces/karthik006/governed-agent-playground-test",
+      "status": "active",
+      "is_violation": false,
+      "id": "governed-agent-playground-test",
+      "added": "2026-09-29"
+    },
+    {
+      "name": "vantage.ai",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "可视化监控与控制代码代理行为",
+      "tags": [
+        "代码监控",
+        "代理控制",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "开发辅助"
+      ],
+      "tutorial": "## 使用 vantage.ai 进行代码代理监控\n\n### 1. 注册与登录\n\n1. 访问 vantage.ai 官网并注册账号。\n2. 使用注册的邮箱和密码登录系统。\n\n### 2. 创建项目\n\n1. 在首页点击 '创建项目'。\n2. 输入项目名称并选择合适的代理类型。\n3. 点击 '创建'。\n\n### 3. 配置代理\n\n1. 在项目页面，点击 '配置代理'。\n2. 选择需要监控的代码代理。\n3. 设置监控参数，如日志级别、监控频率等。\n4. 点击 '保存配置'。\n\n### 4. 监控与控制\n\n1. 在项目页面，查看代理的实时监控数据。\n2. 通过控制台发送指令给代理，如暂停、继续等。\n3. 分析监控数据，优化代码代理行为。",
+      "url": "https://www.producthunt.com/products/vantage-ai-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "vantage-ai",
+      "added": "2026-09-29"
+    },
+    {
+      "name": "Sayble",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI电话助手，自动提示下一步说什么",
+      "tags": [
+        "AI",
+        "电话",
+        "助手",
+        "自动提示"
+      ],
+      "scenarios": [
+        "客户服务",
+        "销售谈判",
+        "电话会议"
+      ],
+      "tutorial": "## 使用Sayble进行电话沟通\n\n1. 注册并登录\n\n   访问Sayble官网，注册账户并登录。\n\n2. 创建新通话\n\n   在Sayble中创建一个新的通话，并选择通话类型（如客户服务、销售谈判等）。\n\n3. 开始通话\n\n   开始通话后，Sayble会根据对话内容自动提供下一步的说话建议。\n\n4. 保存通话记录\n\n   通话结束后，可以选择保存通话记录以便后续回顾。\n\n5. 优化对话\n\n   根据对话效果，可以调整Sayble的设置，以获得更准确的建议。",
+      "url": "https://www.producthunt.com/products/sayble",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sayble",
+      "added": "2026-09-29"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "专为工作打造的 AI 助手",
+      "tags": [
+        "AI 助手",
+        "工作效率",
+        "自动化"
+      ],
+      "scenarios": [
+        "办公自动化",
+        "数据整理",
+        "报告生成"
+      ],
+      "tutorial": "## 使用 Microsoft Copilot 的步骤\n\n1. 下载并安装 Microsoft Copilot\n\n2. 打开 Microsoft Office 应用程序，如 Word 或 Excel\n\n3. 在应用程序中，点击 'Copilot' 按钮，开始使用 AI 助手\n\n4. 输入你的任务或问题，Copilot 会提供相应的建议或自动执行任务\n\n5. 查看并使用 Copilot 提供的结果或自动生成的文档",
+      "url": "https://www.producthunt.com/products/microsoft-copilot",
+      "status": "dead",
+      "is_violation": false,
+      "id": "microsoft-copilot",
+      "added": "2026-09-29"
+    },
+    {
+      "name": "GenCode",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Genspark 超级应用内的编码代理",
+      "tags": [
+        "编码",
+        "自动化",
+        "超级应用"
+      ],
+      "scenarios": [
+        "代码生成",
+        "自动化开发",
+        "应用集成"
+      ],
+      "tutorial": "## GenCode 使用教程\n\n### 1. 安装 GenCode\n\n- 访问 Genspark 超级应用官网下载 GenCode。\n- 按照提示完成安装。\n\n### 2. 创建新项目\n\n- 打开 GenCode，选择创建新项目。\n- 输入项目名称和描述，点击创建。\n\n### 3. 编写代码\n\n- 在代码编辑器中编写代码。\n- 使用 GenCode 内置的编码助手功能，提高开发效率。\n\n### 4. 部署应用\n\n- 完成代码编写后，选择部署应用。\n- 配置部署参数，点击部署。\n\n### 5. 查看应用运行状态\n\n- 部署成功后，可以在应用管理页面查看应用运行状态。\n- 如有需要，可以进入应用详情进行调试。",
+      "url": "https://www.producthunt.com/products/genspark",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gencode",
+      "added": "2026-09-29"
+    },
+    {
+      "name": "Statable Analytics",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI代理构建的网页分析工具",
+      "tags": [
+        "数据分析",
+        "AI代理",
+        "网页分析"
+      ],
+      "scenarios": [
+        "网站流量分析",
+        "用户行为研究",
+        "数据可视化"
+      ],
+      "tutorial": "## 使用Statable Analytics进行网页分析\n1. 访问Statable Analytics官网，注册并登录账户。\n2. 选择或创建一个项目，并添加需要分析的网站。\n3. 设置分析参数，如时间范围、用户行为等。\n4. 查看分析结果，包括用户行为路径、页面停留时间等数据。\n5. 利用可视化工具，将分析结果以图表形式展示。",
+      "url": "https://www.producthunt.com/products/statable-analytics",
+      "status": "dead",
+      "is_violation": false,
+      "id": "statable-analytics",
+      "added": "2026-09-29"
     }
   ],
   "changelog": [
@@ -10221,6 +10376,20 @@
         "openrig",
         "agente-auditoria_caae",
         "Harmony"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-09-29",
+      "added": [
+        "dgaf-governed-agent-proof",
+        "governed-agent-playground-test",
+        "vantage.ai",
+        "Sayble",
+        "Microsoft Copilot",
+        "GenCode",
+        "Statable Analytics"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
