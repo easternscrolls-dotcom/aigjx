@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:47:20.065Z",
+  "generatedAt": "2026-09-29T21:42:04.521Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2191,6 +2191,51 @@
       "url": "https://aiagent.72tool.com/tools/statable-analytics.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openshell.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/audio8-asr-workflow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/luci-desktop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/shiphappens.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/imejis-io.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/semos-ai-manager-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ifixai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/iris.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/szept.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2221,7 +2266,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 431,
+    "totalAgents": 440,
     "byCategory": [
       {
         "id": "local",
@@ -2231,12 +2276,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 351
+        "count": 358
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 33
+        "count": 35
       },
       {
         "id": "crossborder",
@@ -2249,6 +2294,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 222
+    "deadLinks": 229
   }
 }
