@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T21:42:04.521Z",
+  "generatedAt": "2026-09-30T21:44:55.145Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2236,6 +2236,81 @@
       "url": "https://aiagent.72tool.com/tools/szept.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/codegraph.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentx.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rinkata.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bevell.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/crawlraven-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gitbot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ace-from-automat-workforce.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/evlat.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/overpath.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rxfilmstudio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/m-kay.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/flocker-agent-profiles.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-identity.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/styx.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/campfire.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2266,7 +2341,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 440,
+    "totalAgents": 455,
     "byCategory": [
       {
         "id": "local",
@@ -2276,12 +2351,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 358
+        "count": 372
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 35
+        "count": 36
       },
       {
         "id": "crossborder",
@@ -2294,6 +2369,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 229
+    "deadLinks": 242
   }
 }

@@ -9820,6 +9820,342 @@
       "is_violation": false,
       "id": "szept",
       "added": "2026-09-30"
+    },
+    {
+      "name": "codegraph",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "预索引代码知识图谱，自动同步代码变更，适用于 Claude Code 等代码助手",
+      "tags": [
+        "代码知识图谱",
+        "自动同步",
+        "代码助手"
+      ],
+      "scenarios": [
+        "代码开发辅助",
+        "代码知识检索",
+        "代码助手增强"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装 codegraph。\n2. 在代码编辑器中配置 codegraph 插件。\n3. 选择需要同步的代码库。\n4. codegraph 将自动索引代码知识图谱。\n5. 在代码编辑过程中，codegraph 将提供实时代码知识提示。",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "status": "active",
+      "is_violation": false,
+      "id": "codegraph",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "agentx",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## agentx 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 agentx。\n2. 打开 agentx 应用程序。\n3. 点击 '新建项目' 创建一个新的自动化任务。\n\n### 2. 编写自动化脚本\n\n1. 在脚本编辑器中，使用拖拽的方式添加网页操作步骤。\n2. 设置每个步骤的参数，如点击、输入等。\n3. 保存并测试脚本，确保自动化流程正确。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮启动自动化任务。\n2. 在监控窗口中查看任务执行情况。\n3. 如有需要，可以暂停或停止任务。\n\n### 4. 保存与分享\n\n1. 完成任务后，保存项目。\n2. 可以将项目分享给其他用户或团队。",
+      "url": "https://huggingface.co/spaces/ArtieAI/agentx",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentx",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Rinkata",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "团队AI代理的单一真相来源",
+      "tags": [
+        "AI协作",
+        "数据同步",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "数据管理",
+        "自动化流程"
+      ],
+      "tutorial": "## Rinkata 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Rinkata官网](https://www.rinkata.com) 并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 创建项目\n\n1. 在首页点击 '创建项目'。\n2. 输入项目名称，选择项目类型，点击 '创建'。\n\n### 3. 添加数据源\n\n1. 在项目设置中，点击 '添加数据源'。\n2. 选择数据源类型（如数据库、API等），填写相关配置信息。\n3. 点击 '测试连接'，确保数据源连接成功。\n\n### 4. 创建AI代理\n\n1. 在项目设置中，点击 '创建AI代理'。\n2. 选择代理类型，填写代理名称和描述。\n3. 设置代理参数，如数据源、任务类型等。\n4. 点击 '保存'。\n\n### 5. 运行代理\n\n1. 在项目设置中，点击 '运行代理'。\n2. 观察代理运行状态，确保数据同步和自动化流程正常。",
+      "url": "https://www.producthunt.com/products/rinkata",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rinkata",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Bevell",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "专注于CAD自动化，提升设计效率。",
+      "tags": [
+        "CAD",
+        "自动化",
+        "设计",
+        "效率"
+      ],
+      "scenarios": [
+        "工业设计",
+        "建筑设计",
+        "产品开发"
+      ],
+      "tutorial": "## Bevell使用教程\n\n1. 下载并安装Bevell插件\n\n2. 打开你的CAD软件，启动Bevell插件\n\n3. 选择需要自动化的CAD操作，如绘制、修改等\n\n4. 配置自动化参数，如操作顺序、参数值等\n\n5. 运行自动化任务，观察并调整结果",
+      "url": "https://www.producthunt.com/products/bevell",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bevell",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "CrawlRaven MCP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理助力 SEO 工作",
+      "tags": [
+        "SEO",
+        "AI 代理",
+        "网页爬取",
+        "数据分析"
+      ],
+      "scenarios": [
+        "网站内容优化",
+        "关键词研究",
+        "竞争对手分析"
+      ],
+      "tutorial": "## 使用 CrawlRaven MCP 进行 SEO 工作\n\n1. 注册并登录 CrawlRaven MCP\n\n2. 创建一个新的项目，输入目标网站 URL\n\n3. 选择爬取选项，如深度、频率等\n\n4. 启动爬取任务，等待结果\n\n5. 查看爬取结果，分析关键词密度、链接质量等数据\n\n6. 根据分析结果优化网站内容",
+      "url": "https://www.producthunt.com/products/crawlraven-mcp",
+      "status": "dead",
+      "is_violation": false,
+      "id": "crawlraven-mcp",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "GitBot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Git的自动化机器人，网页操作无需代码",
+      "tags": [
+        "Git",
+        "自动化",
+        "机器人",
+        "网页操作"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "持续集成"
+      ],
+      "tutorial": "## GitBot 使用教程\n\n### 1. 安装GitBot\n\n1. 访问 [GitBot 官网](https://www.producthunt.com/products/gitbot-2) 下载并安装GitBot。\n2. 打开GitBot，按照提示完成安装。\n\n### 2. 配置GitBot\n\n1. 打开GitBot，点击左侧菜单的“配置”选项。\n2. 在配置页面中，填写你的Git账户信息。\n3. 点击“保存”完成配置。\n\n### 3. 创建机器人\n\n1. 点击左侧菜单的“机器人”选项。\n2. 在机器人列表中，点击“创建机器人”按钮。\n3. 填写机器人名称和描述，选择触发条件，设置操作内容。\n4. 点击“保存”完成创建。\n\n### 4. 测试机器人\n\n1. 在机器人列表中，找到你刚刚创建的机器人。\n2. 点击“测试”按钮，查看机器人是否按照预期执行操作。\n\n## 注意事项\n\n- 确保你的Git账户信息正确无误。\n- 机器人操作内容需要符合你的实际需求。\n- 测试机器人时，请确保网络连接正常。",
+      "url": "https://www.producthunt.com/products/gitbot-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gitbot",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Ace from Automat Workforce",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动化工作助手，简化工作流程",
+      "tags": [
+        "自动化",
+        "工作助手",
+        "流程简化",
+        "云端服务"
+      ],
+      "scenarios": [
+        "日常办公自动化",
+        "数据采集",
+        "在线服务自动化"
+      ],
+      "tutorial": "## Ace from Automat Workforce 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Ace官网](https://www.automat.workforce/) 进行注册。\n2. 使用邮箱验证并登录。\n\n### 2. 创建工作流\n\n1. 在Ace控制台创建新的工作流。\n2. 选择合适的自动化任务模板。\n3. 配置任务参数，如目标网页、数据采集规则等。\n\n### 3. 运行与监控\n\n1. 点击运行工作流，Ace开始执行任务。\n2. 在控制台实时监控任务进度。\n3. 任务完成后，查看结果并导出数据。\n\n### 4. 个性化设置\n\n1. 根据需要调整工作流设置，如任务频率、通知等。\n2. 保存并应用设置。",
+      "url": "https://www.producthunt.com/products/ace-from-automat-workforce",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ace-from-automat-workforce",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Evlat",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能AI编码代理助手，自动识别并连接合适的AI编码代理。",
+      "tags": [
+        "AI编码",
+        "代理连接",
+        "智能助手"
+      ],
+      "scenarios": [
+        "代码开发",
+        "自动化测试",
+        "智能协作"
+      ],
+      "tutorial": "## Evlat使用教程\n\n### 1. 安装Evlat\n\n- 访问Evlat官网下载最新版本。\n- 根据操作系统选择合适的安装包进行安装。\n- 安装完成后，启动Evlat应用。\n\n### 2. 配置Evlat\n\n- 在Evlat设置中，配置你的开发环境变量和API密钥。\n- 选择你需要的AI编码代理，并配置相应的参数。\n\n### 3. 使用Evlat\n\n- 在你的代码编辑器中，使用Evlat提供的插件或扩展。\n- 当需要AI编码帮助时，点击插件或扩展，Evlat将自动识别并连接合适的AI编码代理。\n- 查看AI代理的代码建议，并根据需要进行修改。",
+      "url": "https://www.producthunt.com/products/evlat",
+      "status": "dead",
+      "is_violation": false,
+      "id": "evlat",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Overpath",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI团队协作工具，助力营收执行",
+      "tags": [
+        "AI协作",
+        "营收管理",
+        "团队协作"
+      ],
+      "scenarios": [
+        "销售团队管理",
+        "客户关系管理",
+        "市场活动策划"
+      ],
+      "tutorial": "## Overpath 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Overpath 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 Overpath。\n\n### 2. 创建团队\n\n1. 登录后，进入团队管理页面。\n2. 点击创建新团队，填写团队名称和描述。\n3. 邀请团队成员加入。\n\n### 3. 分配任务\n\n1. 在团队页面，创建新的任务或项目。\n2. 为团队成员分配任务，设置截止日期和优先级。\n3. 观察任务进度和成员协作情况。\n\n### 4. 沟通协作\n\n1. 在团队聊天功能中，与团队成员进行实时沟通。\n2. 使用文件共享功能，共享相关资料。\n3. 定期召开线上会议，讨论项目进展。",
+      "url": "https://www.producthunt.com/products/overpath-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "overpath",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "RxFilmStudio",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 助手制作与编辑产品视频",
+      "tags": [
+        "AI视频制作",
+        "产品营销",
+        "视频编辑"
+      ],
+      "scenarios": [
+        "产品展示",
+        "营销推广",
+        "内容创作"
+      ],
+      "tutorial": "## RxFilmStudio 使用教程\n\n### 1. 注册与登录\n\n1. 访问 RxFilmStudio 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录账号。\n\n### 2. 创建新项目\n\n1. 登录后，点击创建新项目按钮。\n2. 输入项目名称，选择视频类型，点击创建。\n\n### 3. 添加视频内容\n\n1. 在项目页面，点击添加视频内容。\n2. 上传视频素材或选择预设模板。\n3. 使用 AI 助手进行视频编辑，包括剪辑、添加文字、音乐等。\n\n### 4. 预览与导出\n\n1. 完成编辑后，点击预览按钮查看视频效果。\n2. 满意后，点击导出按钮，选择导出格式和分辨率。\n3. 下载导出的视频文件。",
+      "url": "https://www.producthunt.com/products/rxfilmstudio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rxfilmstudio",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "m’kay",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "手机端统一管理所有编码代理",
+      "tags": [
+        "自动化",
+        "编码",
+        "手机应用"
+      ],
+      "scenarios": [
+        "代码测试",
+        "自动化测试",
+        "远程控制"
+      ],
+      "tutorial": "## 使用m’kay进行自动化操作\n\n1. 下载并安装m’kay应用至您的手机\n2. 创建一个新的代理任务，选择需要自动化的操作\n3. 配置任务参数，如代理IP、端口等\n4. 点击“开始”按钮，m’kay将自动执行任务\n5. 查看任务执行结果，如有需要可进行调试",
+      "url": "https://www.producthunt.com/products/m-kay",
+      "status": "dead",
+      "is_violation": false,
+      "id": "m-kay",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Flocker Agent Profiles",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI协作网络个人资料页面",
+      "tags": [
+        "AI协作",
+        "个人资料",
+        "网络"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "知识共享"
+      ],
+      "tutorial": "## 使用Flocker Agent Profiles教程\n\n1. 注册并登录\n   - 访问Flocker Agent Profiles官网，注册账号并登录。\n\n2. 创建个人资料\n   - 在个人资料页面，填写个人信息，包括姓名、职位、联系方式等。\n\n3. 添加协作网络\n   - 在个人资料页面，添加团队成员或合作伙伴，建立协作网络。\n\n4. 开始协作\n   - 通过个人资料页面，与其他成员进行实时沟通和协作。\n\n5. 管理个人资料\n   - 定期更新个人资料，保持信息的准确性和时效性。",
+      "url": "https://www.producthunt.com/products/flocker-agent-profiles",
+      "status": "dead",
+      "is_violation": false,
+      "id": "flocker-agent-profiles",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Agent Identity",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI代理赋予真实身份、邮箱和电话",
+      "tags": [
+        "AI代理",
+        "身份认证",
+        "邮箱",
+        "电话"
+      ],
+      "scenarios": [
+        "自动化客服",
+        "虚拟助手",
+        "数据收集"
+      ],
+      "tutorial": "## 使用Agent Identity教程\n\n### 1. 注册账户\n\n1. 访问Agent Identity官网，点击注册按钮。\n2. 填写注册信息，包括邮箱和密码。\n3. 完成邮箱验证。\n\n### 2. 创建代理身份\n\n1. 登录账户后，进入代理管理界面。\n2. 点击创建新代理，填写代理信息，包括姓名、邮箱和电话。\n3. 设置代理的权限和访问权限。\n\n### 3. 配置代理\n\n1. 在代理配置界面，设置代理的邮箱和电话服务。\n2. 配置代理的响应规则和自动化任务。\n3. 测试代理功能，确保一切正常。\n\n### 4. 集成到应用\n\n1. 在你的应用中，通过API调用Agent Identity服务。\n2. 使用代理身份进行交互，如发送邮件、接收电话等。\n3. 监控代理的运行状态，确保其稳定运行。",
+      "url": "https://www.producthunt.com/products/agent-identity",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-identity",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Styx",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac 上的网页自动化开发环境",
+      "tags": [
+        "自动化",
+        "开发",
+        "Mac"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Styx 使用教程\n\n### 1. 安装 Styx\n\n1. 访问 [Styx 官网](https://www.producthunt.com/products/styx-2) 下载 Styx 安装包。\n2. 双击安装包，按照提示完成安装。\n\n### 2. 创建新项目\n\n1. 打开 Styx，点击 'File' > 'New Project' 创建新项目。\n2. 输入项目名称，选择项目保存路径，点击 'Create'。\n\n### 3. 编写脚本\n\n1. 在项目窗口中，选择 'Script' 文件。\n2. 使用 JavaScript 或 Python 编写自动化脚本。\n3. 保存脚本。\n\n### 4. 运行脚本\n\n1. 点击 'Run' 按钮运行脚本。\n2. 观察脚本执行结果。\n\n### 5. 调试脚本\n\n1. 如果脚本执行出错，可以使用调试工具进行调试。\n2. 点击 'Debug' 按钮进入调试模式。\n3. 逐步执行代码，观察变量值和程序执行流程。",
+      "url": "https://www.producthunt.com/products/styx-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "styx",
+      "added": "2026-10-01"
+    },
+    {
+      "name": "Campfire",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "共享工作空间，支持人类与代码代理交互",
+      "tags": [
+        "协作",
+        "代码",
+        "工作流"
+      ],
+      "scenarios": [
+        "团队协作",
+        "代码审查",
+        "项目管理"
+      ],
+      "tutorial": "## 使用 Campfire 进行团队协作\n\n1. 注册并登录 Campfire\n\n   访问 Campfire 官网，注册账户并登录。\n\n2. 创建或加入团队\n\n   在个人仪表盘中创建新的团队，或加入已有的团队。\n\n3. 创建聊天室\n\n   在团队中创建聊天室，用于讨论和协作。\n\n4. 发送消息和文件\n\n   在聊天室中发送文本消息、图片、文件等。\n\n5. 使用代码高亮\n\n   如果是代码讨论，可以使用 Campfire 内置的代码高亮功能，方便阅读和编辑代码。\n\n6. 邀请团队成员\n\n   通过分享链接或邀请码，邀请团队成员加入聊天室。",
+      "url": "https://www.producthunt.com/products/campfire-12",
+      "status": "dead",
+      "is_violation": false,
+      "id": "campfire",
+      "added": "2026-10-01"
     }
   ],
   "changelog": [
@@ -10607,6 +10943,28 @@
         "iFixAi",
         "Iris",
         "Szept"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-01",
+      "added": [
+        "codegraph",
+        "agentx",
+        "Rinkata",
+        "Bevell",
+        "CrawlRaven MCP",
+        "GitBot",
+        "Ace from Automat Workforce",
+        "Evlat",
+        "Overpath",
+        "RxFilmStudio",
+        "m’kay",
+        "Flocker Agent Profiles",
+        "Agent Identity",
+        "Styx",
+        "Campfire"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
