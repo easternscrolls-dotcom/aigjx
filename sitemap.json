@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:44:55.145Z",
+  "generatedAt": "2026-10-01T22:10:07.743Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2311,6 +2311,51 @@
       "url": "https://aiagent.72tool.com/tools/campfire.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentgaia.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/polylane.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sharecube.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/semitexa.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/monospace-from-directus.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/omnia-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/vitra-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dots-by-openai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/firetower.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2341,7 +2386,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 455,
+    "totalAgents": 464,
     "byCategory": [
       {
         "id": "local",
@@ -2351,17 +2396,17 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 372
+        "count": 379
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 36
+        "count": 37
       },
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 10
+        "count": 11
       },
       {
         "id": "tools",
@@ -2369,6 +2414,6 @@
         "count": 12
       }
     ],
-    "deadLinks": 242
+    "deadLinks": 250
   }
 }

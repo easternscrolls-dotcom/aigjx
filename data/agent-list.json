@@ -10156,6 +10156,207 @@
       "is_violation": false,
       "id": "campfire",
       "added": "2026-10-01"
+    },
+    {
+      "name": "AgentGAIA",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## AgentGAIA 使用教程\n\n### 1. 安装与启动\n1. 下载 AgentGAIA 安装包。\n2. 解压安装包并运行程序。\n3. 点击启动按钮，程序进入待命状态。\n\n### 2. 创建任务\n1. 在任务列表中点击新建任务。\n2. 选择任务类型，如网页数据采集。\n3. 输入目标网页地址和采集规则。\n\n### 3. 运行与监控\n1. 点击运行按钮，任务开始执行。\n2. 在监控窗口查看任务进度和结果。\n3. 任务完成后，可导出采集数据。\n\n### 4. 保存与分享\n1. 完成任务后，点击保存按钮。\n2. 可将任务分享给其他用户。",
+      "url": "https://huggingface.co/spaces/majiii/AgentGAIA",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentgaia",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Polylane",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI 生产力助手，自动修复生产问题",
+      "tags": [
+        "AI",
+        "自动化",
+        "生产监控",
+        "预防性维护"
+      ],
+      "scenarios": [
+        "生产环境监控",
+        "故障预防",
+        "自动化运维"
+      ],
+      "tutorial": "## Polylane 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Polylane 官网，注册账户并登录。\n2. 选择合适的订阅计划。\n\n### 2. 创建项目\n\n1. 在控制台中创建一个新的项目。\n2. 配置项目的基本参数，如名称、描述等。\n\n### 3. 配置监控\n\n1. 添加需要监控的生产环境或服务。\n2. 设置监控规则和阈值。\n\n### 4. 查看报告\n\n1. 定期查看监控报告，了解生产状态。\n2. 当出现问题时，系统会自动触发修复流程。\n\n### 5. 调整设置\n\n1. 根据需要调整监控规则和阈值。\n2. 优化项目设置，提高生产效率。",
+      "url": "https://www.producthunt.com/products/polylane",
+      "status": "dead",
+      "is_violation": false,
+      "id": "polylane",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "ShareCube",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "分享代理制作内容，获取精确行反馈",
+      "tags": [
+        "内容分享",
+        "反馈收集",
+        "协作工具"
+      ],
+      "scenarios": [
+        "团队协作",
+        "内容审核",
+        "创意交流"
+      ],
+      "tutorial": "## ShareCube 使用教程\n\n1. 注册并登录ShareCube平台。\n2. 创建一个新的分享项目，填写项目名称和描述。\n3. 上传你的代理制作内容，可以是图片、视频或文本。\n4. 设置分享权限，选择谁可以查看和提供反馈。\n5. 发布项目，邀请团队成员或外部人员参与。\n6. 收集反馈，查看团队成员对内容的评价和建议。\n7. 根据反馈进行内容调整和优化。",
+      "url": "https://www.producthunt.com/products/sharecube",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sharecube",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Semitexa",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI可检视的PHP框架",
+      "tags": [
+        "PHP",
+        "框架",
+        "AI",
+        "自动化"
+      ],
+      "scenarios": [
+        "网站开发",
+        "自动化测试",
+        "代码审查"
+      ],
+      "tutorial": "## 使用Semitexa进行PHP框架自动化检查\n\n### 1. 安装Semitexa\n\n首先，您需要在您的开发环境中安装Semitexa。您可以通过Composer来安装它。\n\n1. 打开终端或命令提示符。\n2. 输入以下命令：\n   ```bash\n   composer require semitexa/semitexa\n   ```\n\n### 2. 配置Semitexa\n\n安装完成后，您需要配置Semitexa以适应您的项目。\n\n1. 在您的项目根目录下创建一个`.semitexa.yml`文件。\n2. 在该文件中配置您的项目设置，例如框架版本、路径等。\n\n### 3. 运行检查\n\n配置完成后，您可以通过以下命令运行Semitexa进行代码检查：\n\n   ```bash\n   semitexa check\n   ```\n\n### 4. 查看结果\n\nSemitexa会输出检查结果，包括潜在的问题和建议。\n\n   ```bash\n   semitexa check --report\n   ```\n\n通过以上步骤，您可以使用Semitexa对PHP框架进行自动化检查。",
+      "url": "https://www.producthunt.com/products/semitexa",
+      "status": "dead",
+      "is_violation": false,
+      "id": "semitexa",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Monospace from Directus",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "统一管理API层，适用于所有应用、人员和代理",
+      "tags": [
+        "API管理",
+        "应用集成",
+        "代理服务"
+      ],
+      "scenarios": [
+        "跨平台应用开发",
+        "API自动化测试",
+        "服务端到端管理"
+      ],
+      "tutorial": "## 使用Monospace from Directus进行API管理\n\n### 1. 创建API项目\n1. 访问Directus管理后台，创建一个新的API项目。\n2. 配置项目的基本信息，如名称、描述等。\n3. 选择要管理的API资源。\n\n### 2. 配置API权限\n1. 在API项目中，设置不同角色的权限。\n2. 定义API的访问策略，如允许的HTTP方法、请求头等。\n3. 添加中间件以处理请求和响应。\n\n### 3. 测试API\n1. 使用内置的API测试工具，发送请求并验证响应。\n2. 检查API的响应是否符合预期。\n3. 调整配置，直到API表现满意。\n\n### 4. 部署API\n1. 将配置好的API部署到服务器。\n2. 使用Monospace进行API调用，确保一切运行正常。",
+      "url": "https://www.producthunt.com/products/directus",
+      "status": "dead",
+      "is_violation": false,
+      "id": "monospace-from-directus",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Omnia Agent",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "AI 地理信息工作助手，自动化地理信息处理",
+      "tags": [
+        "AI",
+        "地理信息",
+        "自动化"
+      ],
+      "scenarios": [
+        "地理信息处理",
+        "跨境电商",
+        "数据分析"
+      ],
+      "tutorial": "## Omnia Agent 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Omnia Agent 官网进行注册。\n2. 使用注册信息登录账户。\n3. 选择合适的订阅计划。\n\n### 2. 创建项目\n\n1. 在控制台中创建新项目。\n2. 输入项目名称和描述。\n3. 选择项目类型和配置参数。\n\n### 3. 配置任务\n\n1. 在项目中配置任务流程。\n2. 选择需要自动化的地理信息处理任务。\n3. 设置任务参数和触发条件。\n\n### 4. 运行与监控\n\n1. 运行配置好的任务。\n2. 监控任务执行状态和结果。\n3. 根据需要调整任务配置。",
+      "url": "https://www.producthunt.com/products/omnia-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "omnia-agent",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Vitra.ai",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能内容创建与本地化平台",
+      "tags": [
+        "内容创建",
+        "本地化",
+        "AI平台"
+      ],
+      "scenarios": [
+        "内容营销",
+        "多语言网站",
+        "全球化业务"
+      ],
+      "tutorial": "## Vitra.ai 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Vitra.ai 官网并注册账号。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建新项目\n\n1. 在首页点击 '创建新项目'。\n2. 输入项目名称和描述。\n3. 选择目标语言和地区。\n\n### 3. 内容生成\n\n1. 选择内容类型（如文章、视频等）。\n2. 使用 AI 工具生成内容草稿。\n3. 编辑和调整内容以满足需求。\n\n### 4. 本地化\n\n1. 选择需要本地化的语言。\n2. Vitra.ai 将自动翻译和调整内容。\n3. 审核并发布本地化内容。",
+      "url": "https://www.producthunt.com/products/vitra-ai-agentic-content-platform",
+      "status": "dead",
+      "is_violation": false,
+      "id": "vitra-ai",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Dots by OpenAI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "持续运行的智能代理，处理一切事务",
+      "tags": [
+        "智能代理",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Dots by OpenAI 进行网页自动化\n\n1. 注册并登录 Dots by OpenAI 平台。\n2. 创建一个新的代理项目，选择目标网页并设置代理行为。\n3. 使用拖拽式界面配置代理的交互逻辑，如点击、填写表单等。\n4. 预览并测试代理的行为，确保其符合预期。\n5. 部署代理，使其自动执行任务。",
+      "url": "https://www.producthunt.com/products/dots-by-openai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dots-by-openai",
+      "added": "2026-10-02"
+    },
+    {
+      "name": "Firetower",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端运行代码代理，随时随地访问",
+      "tags": [
+        "代码代理",
+        "远程访问",
+        "云端服务"
+      ],
+      "scenarios": [
+        "远程办公",
+        "自动化测试",
+        "数据采集"
+      ],
+      "tutorial": "## 使用Firetower进行代码代理操作\n\n1. 注册并登录Firetower平台。\n2. 创建一个新的代理项目，配置代理的运行环境和代码。\n3. 将代码部署到代理上，开始执行任务。\n4. 监控代理的运行状态，确保任务按预期执行。\n5. 根据需要调整配置，优化代理性能。",
+      "url": "https://www.producthunt.com/products/firetower",
+      "status": "dead",
+      "is_violation": false,
+      "id": "firetower",
+      "added": "2026-10-02"
     }
   ],
   "changelog": [
@@ -10965,6 +11166,22 @@
         "Agent Identity",
         "Styx",
         "Campfire"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-02",
+      "added": [
+        "AgentGAIA",
+        "Polylane",
+        "ShareCube",
+        "Semitexa",
+        "Monospace from Directus",
+        "Omnia Agent",
+        "Vitra.ai",
+        "Dots by OpenAI",
+        "Firetower"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
