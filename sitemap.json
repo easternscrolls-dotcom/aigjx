@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:10:07.743Z",
+  "generatedAt": "2026-10-02T21:38:24.340Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2356,6 +2356,61 @@
       "url": "https://aiagent.72tool.com/tools/firetower.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/caveman.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/noaa-ai-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/audryo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/weftcut.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/never-boring-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/finbar.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/communicate.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bambu-lab-r1.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/jarviscore.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/famulor.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cue-by-manus.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2386,7 +2441,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 464,
+    "totalAgents": 475,
     "byCategory": [
       {
         "id": "local",
@@ -2396,7 +2451,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 379
+        "count": 389
       },
       {
         "id": "workflow",
@@ -2411,9 +2466,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 12
+        "count": 13
       }
     ],
-    "deadLinks": 250
+    "deadLinks": 259
   }
 }

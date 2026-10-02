@@ -10357,6 +10357,240 @@
       "is_violation": false,
       "id": "firetower",
       "added": "2026-10-02"
+    },
+    {
+      "name": "caveman",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "使用原始语言减少代码量，提高效率的浏览器网页Agent。",
+      "tags": [
+        "代码优化",
+        "效率提升",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "代码重构",
+        "自动化测试",
+        "开发效率提升"
+      ],
+      "tutorial": "## 使用caveman进行代码优化\n\n1. 下载并安装caveman插件到你的浏览器中。\n2. 打开需要优化的代码页面，点击插件图标启动。\n3. 在插件界面中，输入你的原始代码，caveman会自动将其转换为更简洁的形式。\n4. 检查转换后的代码，确认无误后进行使用。\n5. 如有需要，可以调整插件设置以适应不同的代码风格。",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "status": "active",
+      "is_violation": false,
+      "id": "caveman",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "noaa_ai_agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "网页内容分析"
+      ],
+      "tutorial": "## 使用NOAA AI Agent进行网页自动化\n\n### 1. 安装和配置\n\n1. 下载并安装NOAA AI Agent。\n2. 在浏览器中安装相应的扩展程序。\n3. 配置代理服务器（如果需要）。\n\n### 2. 创建任务\n\n1. 打开NOAA AI Agent扩展程序。\n2. 选择要自动化的网页。\n3. 点击创建任务。\n\n### 3. 编写脚本\n\n1. 在脚本编辑器中编写自动化脚本。\n2. 使用内置函数进行网页操作，如点击、填写表单等。\n3. 保存脚本。\n\n### 4. 运行和监控\n\n1. 运行脚本。\n2. 监控脚本执行过程，确保自动化任务按预期进行。\n3. 根据需要调整脚本。",
+      "url": "https://huggingface.co/spaces/zangerhanger/noaa_ai_agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "noaa-ai-agent",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Audryo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化处理客户邮件的浏览器网页Agent",
+      "tags": [
+        "邮件处理",
+        "自动化",
+        "客户服务"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "邮件营销",
+        "客户关系管理"
+      ],
+      "tutorial": "## 使用Audryo自动化处理客户邮件\n\n1. 注册并登录Audryo平台\n\n2. 创建一个新的邮件处理流程，选择邮件接收方式（如IMAP/POP3）\n\n3. 配置邮件规则，如自动分类、标记、回复等\n\n4. 测试流程，确保邮件处理符合预期\n\n5. 部署流程，开始自动化处理客户邮件",
+      "url": "https://www.producthunt.com/products/audryo",
+      "status": "dead",
+      "is_violation": false,
+      "id": "audryo",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "WeftCut",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI驱动的开源视频编辑器",
+      "tags": [
+        "视频编辑",
+        "AI辅助",
+        "开源"
+      ],
+      "scenarios": [
+        "视频制作",
+        "内容创作",
+        "教育培训"
+      ],
+      "tutorial": "## 使用WeftCut进行视频编辑\n1. 下载并安装WeftCut：从官网下载并安装最新版本的WeftCut。\n2. 打开WeftCut：启动软件，进入主界面。\n3. 导入视频：点击'文件'菜单，选择'导入视频'，将需要编辑的视频文件导入到项目中。\n4. 编辑视频：使用软件提供的工具对视频进行剪辑、添加特效、调整音轨等操作。\n5. 预览效果：在编辑过程中，可以随时点击'播放'按钮预览视频效果。\n6. 导出视频：编辑完成后，点击'文件'菜单，选择'导出视频'，设置导出参数，将视频导出为所需格式。",
+      "url": "https://www.producthunt.com/products/weftcut",
+      "status": "dead",
+      "is_violation": false,
+      "id": "weftcut",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Never Boring AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 助手撰写 LinkedIn 文章，保持个人风格",
+      "tags": [
+        "AI写作",
+        "LinkedIn",
+        "社交媒体"
+      ],
+      "scenarios": [
+        "个人品牌建设",
+        "内容营销",
+        "职场社交"
+      ],
+      "tutorial": "## 使用 Never Boring AI 撰写 LinkedIn 文章\n\n1. 注册并登录 Never Boring AI\n2. 选择 LinkedIn 作为目标平台\n3. 输入文章主题和关键词\n4. 选择文章风格和语气\n5. 点击生成文章，进行编辑和发布",
+      "url": "https://www.producthunt.com/products/never-boring-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "never-boring-ai",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Finbar",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "金融投资研究自动化工具",
+      "tags": [
+        "投资研究",
+        "自动化",
+        "金融数据"
+      ],
+      "scenarios": [
+        "金融数据分析",
+        "投资策略研究",
+        "市场趋势分析"
+      ],
+      "tutorial": "## Finbar 使用教程\n\n1. 注册并登录 Finbar\n\n   访问 Finbar 官网，注册账号并登录。\n\n2. 选择研究项目\n\n   在首页选择您感兴趣的研究项目或市场领域。\n\n3. 查看数据和分析\n\n   Finbar 会自动收集相关数据，并生成分析报告，您可以查看并下载。\n\n4. 定制化研究\n\n   根据您的需求，定制化研究内容和数据源。\n\n5. 导出报告\n\n   将研究报告导出为 PDF 或其他格式，以便分享或存档。",
+      "url": "https://www.producthunt.com/products/finbar-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "finbar",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Communicate",
+      "category": "tools",
+      "type": "cloud-paid",
+      "summary": "<p>\n            AI support agents grounded in your knowledge",
+      "tags": [],
+      "scenarios": [],
+      "tutorial": "## 快速上手\n1. 访问官网了解功能与定价。\n2. 按官方文档完成注册与基础配置。\n3. 接入你的数据与场景，跑通第一个自动化任务。",
+      "url": "https://www.producthunt.com/products/communicate",
+      "status": "dead",
+      "is_violation": false,
+      "id": "communicate",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Bambu Lab R1",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化 CO2 激光切割浏览器网页 Agent",
+      "tags": [
+        "激光切割",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "工业自动化",
+        "3D 打印",
+        "工艺品制作"
+      ],
+      "tutorial": "## Bambu Lab R1 使用教程\n\n### 1. 安装 Bambu Lab R1\n\n- 下载 Bambu Lab R1 安装包。\n- 运行安装程序并按照提示完成安装。\n\n### 2. 配置激光切割机\n\n- 连接激光切割机到电脑。\n- 在 Bambu Lab R1 中选择相应的激光切割机型号。\n- 配置激光切割机的参数，如功率、速度等。\n\n### 3. 设计切割图案\n\n- 使用 Bambu Lab R1 内置的设计工具创建切割图案。\n- 导入或创建设计文件。\n\n### 4. 开始切割\n\n- 选择切割模式（如连续切割、轮廓切割等）。\n- 点击开始切割按钮，Bambu Lab R1 将自动控制激光切割机进行切割。\n\n### 5. 检查切割结果\n\n- 完成切割后，检查切割质量。\n- 如有需要，可调整参数或设计文件进行再次切割。",
+      "url": "https://www.producthunt.com/products/bambu-lab-r1",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bambu-lab-r1",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "JarvisCore",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建零信任网络中的网页Agent",
+      "tags": [
+        "网页自动化",
+        "网络Agent",
+        "零信任"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA应用"
+      ],
+      "tutorial": "## 使用JarvisCore进行网页自动化\n\n### 1. 安装与启动\n\n1. 下载并安装JarvisCore客户端。\n2. 打开客户端，创建一个新的Agent。\n3. 启动Agent，准备进行网页操作。\n\n### 2. 编写自动化脚本\n\n1. 在Agent中，选择要操作的网页。\n2. 使用JarvisCore提供的API编写自动化脚本。\n3. 脚本可以包括点击、填写表单、读取数据等操作。\n\n### 3. 运行与监控\n\n1. 运行自动化脚本，观察Agent的执行过程。\n2. 监控Agent的状态，确保自动化任务按预期执行。\n3. 如有需要，可以实时调整脚本参数。",
+      "url": "https://www.producthunt.com/products/jarviscore",
+      "status": "dead",
+      "is_violation": false,
+      "id": "jarviscore",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Famulor",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能WhatsApp电话助手，自动应答与跟进",
+      "tags": [
+        "AI电话助手",
+        "WhatsApp",
+        "自动化客服"
+      ],
+      "scenarios": [
+        "客户服务",
+        "销售支持",
+        "多语言沟通"
+      ],
+      "tutorial": "## Famulor 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Famulor 官网并注册账户。\n2. 使用邮箱或手机号完成注册。\n3. 登录账户，进入控制台。\n\n### 2. 配置WhatsApp\n\n1. 在控制台中添加WhatsApp号码。\n2. 配置自动回复和消息模板。\n3. 设置工作时间，以便自动应答。\n\n### 3. 创建自动化流程\n\n1. 选择要自动化的任务，如自动回复或消息发送。\n2. 设置触发条件，如特定关键词或时间。\n3. 配置流程动作，如发送消息或记录信息。\n\n### 4. 监控与优化\n\n1. 查看自动化流程的运行状态。\n2. 分析数据，优化回复内容。\n3. 根据需要调整配置，提高效率。",
+      "url": "https://www.producthunt.com/products/famulor-telephony-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "famulor",
+      "added": "2026-10-03"
+    },
+    {
+      "name": "Cue by Manus",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "个性化生活助手，一站式生活管理",
+      "tags": [
+        "生活助手",
+        "自动化",
+        "个性化"
+      ],
+      "scenarios": [
+        "日常事务管理",
+        "日程安排",
+        "信息收集"
+      ],
+      "tutorial": "## Cue by Manus 使用教程\n\n1. 下载并安装 Cue by Manus。\n2. 注册账户并登录。\n3. 配置你的个人代理，包括姓名、偏好等。\n4. 通过简单的对话界面，设置你的日常任务和提醒。\n5. 查看代理为你收集的信息和执行的任务。\n6. 定期检查代理的执行情况，调整设置以优化体验。",
+      "url": "https://www.producthunt.com/products/cue-by-manus",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cue-by-manus",
+      "added": "2026-10-03"
     }
   ],
   "changelog": [
@@ -11182,6 +11416,24 @@
         "Vitra.ai",
         "Dots by OpenAI",
         "Firetower"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-03",
+      "added": [
+        "caveman",
+        "noaa_ai_agent",
+        "Audryo",
+        "WeftCut",
+        "Never Boring AI",
+        "Finbar",
+        "Communicate",
+        "Bambu Lab R1",
+        "JarvisCore",
+        "Famulor",
+        "Cue by Manus"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
