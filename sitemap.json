@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T21:38:24.340Z",
+  "generatedAt": "2026-10-03T20:23:16.001Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2411,6 +2411,51 @@
       "url": "https://aiagent.72tool.com/tools/cue-by-manus.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cloudflare-os.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/production-agentic-rag-course.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/zoowork.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/notchware.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bmux.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kilo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cubicle.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-activity.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/singularity.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2441,22 +2486,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 475,
+    "totalAgents": 484,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 25
+        "count": 26
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 389
+        "count": 396
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 37
+        "count": 38
       },
       {
         "id": "crossborder",
@@ -2469,6 +2514,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 259
+    "deadLinks": 266
   }
 }

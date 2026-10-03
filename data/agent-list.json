@@ -10591,6 +10591,207 @@
       "is_violation": false,
       "id": "cue-by-manus",
       "added": "2026-10-03"
+    },
+    {
+      "name": "cloudflare-os",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "基于 Cloudflare Workers 的云端工作空间，构建文档、应用和运行代理。",
+      "tags": [
+        "云服务",
+        "工作空间",
+        "文档构建",
+        "应用开发"
+      ],
+      "scenarios": [
+        "云端文档协作",
+        "应用开发与测试",
+        "自动化工作流程"
+      ],
+      "tutorial": "## 使用 Cloudflare OS 创建文档\n1. 访问 Cloudflare OS 网站，注册并登录账户。\n2. 创建一个新的工作空间，选择所需的模板或从零开始。\n3. 使用内置编辑器开始编写文档，支持多种格式和协作功能。\n4. 保存文档并邀请团队成员进行协作。\n5. 发布文档，使其在云端可供访问和编辑。\n## 创建应用\n1. 在工作空间中创建一个新的应用项目。\n2. 选择应用类型，如网页应用、API 等。\n3. 使用可视化工具或代码编辑器进行开发。\n4. 集成 Cloudflare Workers 以增强功能。\n5. 部署应用并测试其功能。\n## 运行代理\n1. 在工作空间中创建代理项目。\n2. 配置代理逻辑，如数据抓取、自动化任务等。\n3. 集成第三方服务以扩展功能。\n4. 运行代理并监控其性能。\n5. 根据需要调整和优化代理设置。",
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "status": "active",
+      "is_violation": false,
+      "id": "cloudflare-os",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "production-agentic-rag-course",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作网页和数据处理",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据处理",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "数据录入"
+      ],
+      "tutorial": "## 生产级 Agentic-RAG 课程教程\n\n1. **安装 Agentic-RAG**\n   - 下载 Agentic-RAG 的源代码。\n   - 使用 pip 安装依赖库。\n   - 运行 setup.py 进行安装。\n\n2. **配置浏览器环境**\n   - 设置浏览器驱动程序路径。\n   - 配置浏览器选项，如无头模式。\n   - 创建一个浏览器实例。\n\n3. **编写自动化脚本**\n   - 使用 Python 编写脚本，调用 Agentic-RAG 的 API。\n   - 实现网页的打开、点击、填写表单等操作。\n   - 处理页面上的数据，如提取文本、图片等。\n\n4. **运行和测试**\n   - 运行脚本，观察自动化过程。\n   - 检查数据提取和操作的正确性。\n   - 调整脚本以满足需求。",
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "status": "active",
+      "is_violation": false,
+      "id": "production-agentic-rag-course",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "ZooWork",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI 代理交付平台，助力 FDE 和领域专家",
+      "tags": [
+        "AI 代理",
+        "专家协作",
+        "工作流管理"
+      ],
+      "scenarios": [
+        "专家咨询",
+        "知识共享",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 ZooWork 进行 AI 代理交付\n\n1. 注册并登录\n   - 访问 ZooWork 官网，注册账号并登录。\n\n2. 创建项目\n   - 在控制台创建一个新的项目，为你的 AI 代理定义工作范围。\n\n3. 添加专家\n   - 邀请领域专家加入项目，分配角色和权限。\n\n4. 配置工作流\n   - 使用可视化界面拖拽组件，构建自动化工作流程。\n\n5. 部署代理\n   - 将配置好的工作流部署为 AI 代理，开始自动化执行任务。\n\n6. 监控与优化\n   - 实时监控代理执行情况，根据反馈进行优化。",
+      "url": "https://www.producthunt.com/products/zoowork",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zoowork",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "Notchware",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "MacBook刘海区域音乐与AI助手提醒",
+      "tags": [
+        "音乐",
+        "AI",
+        "提醒",
+        "MacBook"
+      ],
+      "scenarios": [
+        "音乐播放提醒",
+        "AI助手通知"
+      ],
+      "tutorial": "## 使用Notchware教程\n\n1. 下载并安装Notchware应用。\n2. 打开应用，选择你喜欢的音乐和AI助手提醒功能。\n3. 配置提醒设置，如提醒时间、声音等。\n4. 将MacBook放置在合适的位置，确保刘海区域可以显示提醒。\n5. 当音乐播放或AI助手有新通知时，刘海区域会显示相应的提醒。",
+      "url": "https://www.producthunt.com/products/notchware",
+      "status": "dead",
+      "is_violation": false,
+      "id": "notchware",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "bmux",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器多路复用器，适用于智能代理时代",
+      "tags": [
+        "浏览器",
+        "多路复用",
+        "智能代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用bmux进行浏览器多路复用\n\n1. 下载并安装bmux：\n   - 访问[官网](https://www.producthunt.com/products/bmux)下载最新版本。\n   - 按照安装指南完成安装。\n\n2. 打开bmux并创建新项目：\n   - 打开bmux应用程序。\n   - 点击“新建项目”创建一个新的工作空间。\n\n3. 添加浏览器实例：\n   - 在项目设置中，添加新的浏览器实例。\n   - 选择浏览器类型（如Chrome、Firefox等）。\n\n4. 配置自动化任务：\n   - 使用bmux提供的可视化界面配置自动化任务。\n   - 设置任务触发条件、执行步骤等。\n\n5. 运行自动化任务：\n   - 点击“运行”按钮开始执行自动化任务。\n   - 观察任务执行状态和结果。",
+      "url": "https://www.producthunt.com/products/bmux",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bmux",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "Kilo",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地化健身教练助手",
+      "tags": [
+        "健身",
+        "健康",
+        "生活助手"
+      ],
+      "scenarios": [
+        "个人健康管理",
+        "健身指导",
+        "日常健康建议"
+      ],
+      "tutorial": "## Kilo 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Kilo 应用。\n2. 打开应用，按照提示完成安装。\n3. 启动应用，开始使用。\n\n### 2. 配置个人资料\n\n1. 在应用内填写个人基本信息，如年龄、体重等。\n2. 设置健身目标，如减脂、增肌等。\n3. 配置通知，以便接收健康建议和提醒。\n\n### 3. 使用健身计划\n\n1. 查看每日健身计划，包括锻炼内容、饮食建议等。\n2. 按照计划执行，记录锻炼情况。\n3. 定期查看健身进度，调整计划。\n\n### 4. 获取健康建议\n\n1. 在应用内提问，获取健康和健身建议。\n2. 查看历史记录，了解自己的健康状况。\n3. 根据建议调整生活方式。",
+      "url": "https://www.producthunt.com/products/kilo",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kilo",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "Cubicle",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 助手专属办公空间，读取设计",
+      "tags": [
+        "AI 助手",
+        "办公",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI 助手管理",
+        "自动化办公流程",
+        "数据读取"
+      ],
+      "tutorial": "## Cubicle 使用教程\n\n1. 注册并登录 Cubicle\n\n   - 访问 Cubicle 官网，注册账号并登录。\n\n2. 创建新项目\n\n   - 在 Cubicle 中创建一个新的项目，为你的 AI 助手设置专属办公空间。\n\n3. 添加数据源\n\n   - 将需要读取的数据源添加到项目中，例如网页、数据库等。\n\n4. 配置读取规则\n\n   - 设置读取规则，指定 AI 助手可以读取的数据范围和格式。\n\n5. 部署 AI 助手\n\n   - 将 AI 助手部署到 Cubicle 中，开始读取数据。\n\n6. 监控与维护\n\n   - 监控 AI 助手的运行状态，及时调整读取规则和配置。",
+      "url": "https://www.producthunt.com/products/cubicle-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cubicle",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "Agent Activity",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "监控AI代理行为",
+      "tags": [
+        "AI代理",
+        "行为监控",
+        "数据分析",
+        "性能优化"
+      ],
+      "scenarios": [
+        "AI代理开发",
+        "自动化测试",
+        "性能监控"
+      ],
+      "tutorial": "## Agent Activity 使用教程\n\n### 1. 安装Agent Activity\n从[官网](https://www.producthunt.com/products/agent-activity)下载Agent Activity，按照安装指南完成安装。\n\n### 2. 配置代理\n启动Agent Activity后，配置你的AI代理，使其与Agent Activity集成。\n\n### 3. 监控行为\nAgent Activity会自动记录代理的行为，包括操作步骤、耗时等。\n\n### 4. 分析报告\n查看生成的行为报告，分析代理的性能和效率，进行优化。",
+      "url": "https://www.producthunt.com/products/agent-activity",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-activity",
+      "added": "2026-10-04"
+    },
+    {
+      "name": "Singularity",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "并行运行 AI 编码代理，逐个处理任务",
+      "tags": [
+        "AI 编码",
+        "并行处理",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "开发协作"
+      ],
+      "tutorial": "## Singularity 使用教程\n\n### 1. 安装 Singularity\n\n首先，您需要在您的计算机上安装 Singularity。您可以从 [官方网站](https://www.producthunt.com/products/singularity-2?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed) 下载并按照说明进行安装。\n\n### 2. 创建代理\n\n安装完成后，您可以使用 Singularity 创建一个 AI 编码代理。这通常涉及到配置代理的参数和指定要执行的任务。\n\n### 3. 运行代理\n\n一旦代理创建完成，您可以通过 Singularity 的命令行界面启动它。这将开始并行处理您的任务。\n\n### 4. 监控进度\n\n在代理运行期间，您可以使用 Singularity 提供的监控工具来跟踪任务的进度和状态。\n\n### 5. 获取结果\n\n任务完成后，您可以从代理那里获取结果。这些结果可以用于进一步的分析或处理。",
+      "url": "https://www.producthunt.com/products/singularity-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "singularity",
+      "added": "2026-10-04"
     }
   ],
   "changelog": [
@@ -11434,6 +11635,22 @@
         "JarvisCore",
         "Famulor",
         "Cue by Manus"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-04",
+      "added": [
+        "cloudflare-os",
+        "production-agentic-rag-course",
+        "ZooWork",
+        "Notchware",
+        "bmux",
+        "Kilo",
+        "Cubicle",
+        "Agent Activity",
+        "Singularity"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
