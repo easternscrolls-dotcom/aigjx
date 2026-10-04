@@ -10792,6 +10792,163 @@
       "is_violation": false,
       "id": "singularity",
       "added": "2026-10-04"
+    },
+    {
+      "name": "autonomous-market-api",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需代码",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "信息提取"
+      ],
+      "tutorial": "## 使用 Autonomous-Market-API 进行网页自动化\n\n1. **安装库**\n   - 使用 pip 安装：`pip install autonomous-market-api`\n\n2. **初始化**\n   - 创建一个 API 实例：`api = AutonomousMarketAPI()`\n\n3. **设置目标网页**\n   - 使用 `api.set_url('https://example.com')` 设置目标网页\n\n4. **执行操作**\n   - 使用 `api.click('button_id')` 点击按钮\n   - 使用 `api.fill_form('form_id', {'field1': 'value1', 'field2': 'value2'})` 填写表单\n\n5. **获取数据**\n   - 使用 `api.get_text('selector')` 获取文本内容\n   - 使用 `api.get_attribute('selector', 'attribute')` 获取属性值\n\n6. **保存结果**\n   - 将获取的数据保存到文件或数据库中",
+      "url": "https://huggingface.co/spaces/AtharvaK0123/autonomous-market-api",
+      "status": "active",
+      "is_violation": false,
+      "id": "autonomous-market-api",
+      "added": "2026-10-05"
+    },
+    {
+      "name": "AgenticAI_Apps",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "浏览器网页自动化工具，实现网页操作自动化",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## AgenticAI_Apps 使用教程\n\n### 1. 注册与登录\n\n1. 访问 AgenticAI 官网，注册账号并登录。\n2. 在首页选择 'Apps' 选项卡，进入应用市场。\n3. 搜索或浏览找到 AgenticAI_Apps 应用。\n\n### 2. 创建任务\n\n1. 点击 AgenticAI_Apps 应用，进入应用详情页。\n2. 点击 'Create Task' 按钮，开始创建任务。\n3. 选择需要自动化的网页和操作类型。\n\n### 3. 配置参数\n\n1. 根据任务需求，配置相关参数，如等待时间、点击坐标等。\n2. 可视化编辑操作流程，拖拽添加步骤。\n3. 预览并保存配置。\n\n### 4. 运行与监控\n\n1. 点击 'Run' 按钮开始执行任务。\n2. 在任务管理页面监控任务执行状态。\n3. 任务完成后，可下载结果数据。",
+      "url": "https://huggingface.co/spaces/ChauraGK/AgenticAI_Apps",
+      "status": "active",
+      "is_violation": false,
+      "id": "agenticai-apps",
+      "added": "2026-10-05"
+    },
+    {
+      "name": "CoreSpeed",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式代理管理平台，满足代理所需应用、内存和工具。",
+      "tags": [
+        "代理管理",
+        "应用集成",
+        "性能优化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## CoreSpeed 使用教程\n\n### 1. 安装与启动\n\n1. 下载 CoreSpeed 并安装到您的设备上。\n2. 运行 CoreSpeed 并登录您的账户。\n3. 确保所有代理服务正常运行。\n\n### 2. 添加代理\n\n1. 点击左侧菜单中的 '代理' 选项。\n2. 点击 '添加代理' 按钮。\n3. 输入代理信息并保存。\n\n### 3. 配置代理\n\n1. 选择一个代理并点击 '编辑'。\n2. 在弹出的窗口中配置代理参数。\n3. 点击 '保存' 以应用更改。\n\n### 4. 使用代理\n\n1. 在需要使用代理的应用或网页中设置代理。\n2. 使用 CoreSpeed 的代理进行操作。\n\n## 注意事项\n\n- 确保您的代理服务正常运行。\n- 定期检查代理状态，确保其可用性。",
+      "url": "https://www.producthunt.com/products/corespeed",
+      "status": "dead",
+      "is_violation": false,
+      "id": "corespeed",
+      "added": "2026-10-05"
+    },
+    {
+      "name": "Sente",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "与您的编码代理对话，自动化网页操作",
+      "tags": [
+        "自动化",
+        "编码",
+        "网页操作",
+        "AI代理"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "网页数据采集"
+      ],
+      "tutorial": "## Sente 使用教程\n\n### 1. 安装 Sente\n\n- 访问 Sente 官网下载最新版本。\n- 按照提示完成安装。\n\n### 2. 创建新任务\n\n- 打开 Sente，点击 '新建任务'。\n- 输入任务名称和描述。\n\n### 3. 编写任务脚本\n\n- 在脚本编辑器中，使用 Sente 提供的语法编写任务脚本。\n- 脚本可以包括网页导航、元素操作、数据提取等。\n\n### 4. 运行任务\n\n- 点击 '运行' 按钮执行脚本。\n- 观察任务执行结果。\n\n### 5. 保存和分享\n\n- 完成任务后，可以保存任务脚本。\n- 可以将任务分享给其他用户。",
+      "url": "https://www.producthunt.com/products/sente-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sente",
+      "added": "2026-10-05"
+    },
+    {
+      "name": "Rival Workshop",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "技能管理书架应用，方便代理管理阅读过的技能",
+      "tags": [
+        "技能管理",
+        "书架应用",
+        "代理管理",
+        "阅读记录"
+      ],
+      "scenarios": [
+        "团队技能管理",
+        "个人学习记录",
+        "知识库建设"
+      ],
+      "tutorial": "## Rival Workshop 使用教程\n\n1. 下载并安装 Rival Workshop 应用。\n2. 打开应用，创建一个新的书架，用于存储你的技能和阅读记录。\n3. 在书架中添加技能，可以输入技能名称、描述和标签。\n4. 添加阅读记录，选择已添加的技能，并填写阅读信息，如阅读时间、心得体会等。\n5. 通过书架查看和管理你的技能和阅读记录，支持搜索和筛选功能。\n6. 定期更新你的技能和阅读记录，保持知识库的时效性。",
+      "url": "https://www.producthunt.com/products/rival-workshop",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rival-workshop",
+      "added": "2026-10-05"
+    },
+    {
+      "name": "Blume 2.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源文档框架，适用于人类和智能体",
+      "tags": [
+        "文档",
+        "框架",
+        "智能体",
+        "开源"
+      ],
+      "scenarios": [
+        "文档自动化",
+        "知识库管理",
+        "智能文档编辑"
+      ],
+      "tutorial": "## Blume 2.0 使用教程\n\n1. 下载并安装 Blume 2.0\n   - 访问 Blume 官网下载最新版本。\n   - 按照安装向导完成安装。\n\n2. 创建新文档\n   - 打开 Blume 2.0，点击 '新建文档'。\n   - 输入文档标题和描述，选择模板（如有）。\n\n3. 编辑文档\n   - 使用 Blume 2.0 内置编辑器进行文档编辑。\n   - 支持多种格式，如 Markdown、HTML 等。\n\n4. 预览和发布\n   - 完成编辑后，点击 '预览' 查看效果。\n   - 满意后，点击 '发布' 将文档上线。",
+      "url": "https://www.producthunt.com/products/blume-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "blume-2-0",
+      "added": "2026-10-05"
+    },
+    {
+      "name": "Sellio",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 助手驱动的共享邮箱客服系统",
+      "tags": [
+        "AI客服",
+        "共享邮箱",
+        "自动化回复"
+      ],
+      "scenarios": [
+        "电商客服",
+        "在线客服",
+        "客户服务自动化"
+      ],
+      "tutorial": "## Sellio 使用教程\n\n1. 注册并登录 Sellio\n\n   访问 Sellio 官网，注册并登录您的账户。\n\n2. 配置共享邮箱\n\n   在 Sellio 中设置您的共享邮箱，所有客服邮件将统一在此邮箱处理。\n\n3. 创建 AI 客服代理\n\n   使用 Sellio 的 AI 工具创建客服代理，配置自动回复规则和智能对话。\n\n4. 开始接收和处理邮件\n\n   客服邮件将自动分配给 AI 客服代理，实现自动化回复和问题解决。\n\n5. 监控和优化\n\n   查看客服代理的表现，根据需要调整回复策略和对话逻辑。",
+      "url": "https://www.producthunt.com/products/sellio-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sellio",
+      "added": "2026-10-05"
     }
   ],
   "changelog": [
@@ -11651,6 +11808,20 @@
         "Cubicle",
         "Agent Activity",
         "Singularity"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-05",
+      "added": [
+        "autonomous-market-api",
+        "AgenticAI_Apps",
+        "CoreSpeed",
+        "Sente",
+        "Rival Workshop",
+        "Blume 2.0",
+        "Sellio"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

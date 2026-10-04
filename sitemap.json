@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:23:16.001Z",
+  "generatedAt": "2026-10-04T20:40:54.974Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2456,6 +2456,41 @@
       "url": "https://aiagent.72tool.com/tools/singularity.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/autonomous-market-api.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agenticai-apps.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/corespeed.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sente.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rival-workshop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/blume-2-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sellio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2486,7 +2521,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 484,
+    "totalAgents": 491,
     "byCategory": [
       {
         "id": "local",
@@ -2496,7 +2531,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 396
+        "count": 403
       },
       {
         "id": "workflow",
@@ -2514,6 +2549,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 266
+    "deadLinks": 271
   }
 }
