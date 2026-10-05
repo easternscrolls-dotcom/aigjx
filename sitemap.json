@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T20:40:54.974Z",
+  "generatedAt": "2026-10-05T23:30:20.888Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2491,6 +2491,41 @@
       "url": "https://aiagent.72tool.com/tools/sellio.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/speechshield.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/crosswalk.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/devpit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/web-search-api.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/opengeni.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hyperframes-studio-desktop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/reviu.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2521,7 +2556,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 491,
+    "totalAgents": 498,
     "byCategory": [
       {
         "id": "local",
@@ -2531,7 +2566,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 403
+        "count": 409
       },
       {
         "id": "workflow",
@@ -2541,7 +2576,7 @@
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 11
+        "count": 12
       },
       {
         "id": "tools",
@@ -2549,6 +2584,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 271
+    "deadLinks": 278
   }
 }

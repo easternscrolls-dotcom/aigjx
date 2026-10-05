@@ -10949,6 +10949,162 @@
       "is_violation": false,
       "id": "sellio",
       "added": "2026-10-05"
+    },
+    {
+      "name": "SpeechShield",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "Mac 上的实时面试与会议助手",
+      "tags": [
+        "面试助手",
+        "会议助手",
+        "语音识别",
+        "Mac应用"
+      ],
+      "scenarios": [
+        "远程面试",
+        "在线会议",
+        "职业发展"
+      ],
+      "tutorial": "## 使用 SpeechShield 进行面试准备\n1. 下载并安装 SpeechShield。\n2. 打开应用，创建一个新的面试场景。\n3. 输入你的简历关键信息，让 SpeechShield 帮助你准备面试问题。\n4. 进行模拟面试，SpeechShield 会根据你的回答给出反馈和建议。\n5. 保存你的面试记录，以便后续回顾和改进。\n## 使用 SpeechShield 进行会议记录\n1. 在会议前，设置好 SpeechShield 的录音功能。\n2. 会议开始后，SpeechShield 会自动记录会议内容。\n3. 会议结束后，你可以查看和整理会议记录。\n4. SpeechShield 还支持语音识别，可以自动将语音转换为文字。",
+      "url": "https://www.producthunt.com/products/speechshield",
+      "status": "dead",
+      "is_violation": false,
+      "id": "speechshield",
+      "added": "2026-10-06"
+    },
+    {
+      "name": "crosswalk",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "为用户与代理提供第三空间，以邮箱为起点",
+      "tags": [
+        "用户代理",
+        "邮箱管理",
+        "跨境电商"
+      ],
+      "scenarios": [
+        "跨境电商沟通",
+        "多语言客服",
+        "邮件自动化"
+      ],
+      "tutorial": "## 使用 Crosswalk 教程\n\n1. 注册并登录\n\n   访问 [Crosswalk 官网](https://www.producthunt.com/products/crosswalk) 进行注册，并使用邮箱验证登录。\n\n2. 配置邮箱\n\n   在个人设置中，添加并配置你的邮箱账户，以便与代理进行通信。\n\n3. 创建代理\n\n   在管理界面创建新的代理，设置代理的权限和职责。\n\n4. 发送邮件\n\n   通过平台发送邮件给代理，邮件将自动转发到相应的邮箱地址。\n\n5. 监控与反馈\n\n   查看邮件发送状态和代理的反馈，确保沟通顺畅。",
+      "url": "https://www.producthunt.com/products/crosswalk",
+      "status": "dead",
+      "is_violation": false,
+      "id": "crosswalk",
+      "added": "2026-10-06"
+    },
+    {
+      "name": "devpit",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为 Claude Code 代理提供原生控制室",
+      "tags": [
+        "自动化",
+        "控制台",
+        "代理管理"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "网页操作"
+      ],
+      "tutorial": "## 使用 Devpit 进行自动化操作\n\n1. 安装 Devpit\n   - 访问 Devpit 官网下载安装包。\n   - 按照安装指南完成安装。\n\n2. 创建代理\n   - 打开 Devpit 控制台。\n   - 点击 '创建代理'，填写相关信息。\n   - 选择代理类型和配置参数。\n\n3. 编写脚本\n   - 使用 Devpit 提供的脚本编辑器编写自动化脚本。\n   - 脚本可以包括网页操作、数据采集等任务。\n\n4. 运行脚本\n   - 将编写好的脚本保存。\n   - 点击 '运行' 按钮执行脚本。\n\n5. 查看结果\n   - 观察控制台输出，查看脚本执行结果。",
+      "url": "https://www.producthunt.com/products/devpit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "devpit",
+      "added": "2026-10-06"
+    },
+    {
+      "name": "Web Search API",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为AI代理提供实时互联网数据访问",
+      "tags": [
+        "数据访问",
+        "AI代理",
+        "互联网数据"
+      ],
+      "scenarios": [
+        "搜索引擎优化",
+        "数据挖掘",
+        "智能客服"
+      ],
+      "tutorial": "## 使用Web Search API进行数据检索\n1. 注册并获取API密钥\n2. 在代码中引入API密钥\n3. 发送请求到API端点\n4. 解析返回的数据\n5. 使用数据进行分析或展示",
+      "url": "https://www.producthunt.com/products/cloudflare",
+      "status": "dead",
+      "is_violation": false,
+      "id": "web-search-api",
+      "added": "2026-10-06"
+    },
+    {
+      "name": "Opengeni",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速部署AI代理，构建智能基础设施",
+      "tags": [
+        "AI代理",
+        "智能基础设施",
+        "快速部署",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Opengeni 使用教程\n\n### 1. 安装 Opengeni\n\n前往 [Opengeni 官网](https://www.producthunt.com/products/opengeni) 下载并安装 Opengeni 扩展。\n\n### 2. 创建新代理\n\n在 Opengeni 扩展中，点击 '创建新代理'，选择代理类型和配置参数。\n\n### 3. 编写脚本\n\n使用 Opengeni 提供的脚本编辑器，编写你的代理脚本。\n\n### 4. 运行代理\n\n保存脚本并运行，Opengeni 将自动执行你的代理任务。",
+      "url": "https://www.producthunt.com/products/opengeni",
+      "status": "dead",
+      "is_violation": false,
+      "id": "opengeni",
+      "added": "2026-10-06"
+    },
+    {
+      "name": "HyperFrames Studio (Desktop)",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "专为智能体构建的视频编辑器",
+      "tags": [
+        "视频编辑",
+        "智能体",
+        "自动化"
+      ],
+      "scenarios": [
+        "视频内容制作",
+        "自动化视频编辑",
+        "智能视频处理"
+      ],
+      "tutorial": "## 使用 HyperFrames Studio (Desktop) 进行视频编辑\n\n1. **启动软件**：打开 HyperFrames Studio (Desktop)，选择一个项目模板或创建一个新的项目。\n2. **导入视频**：将需要编辑的视频文件导入到项目中。\n3. **编辑视频**：使用软件提供的工具对视频进行剪辑、添加特效、调整音轨等操作。\n4. **导出视频**：完成编辑后，导出视频文件到指定位置。\n5. **自动化处理**：利用软件的自动化功能，设置视频编辑的规则和参数，实现批量视频编辑。",
+      "url": "https://www.producthunt.com/products/heygen",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hyperframes-studio-desktop",
+      "added": "2026-10-06"
+    },
+    {
+      "name": "Reviu",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "代码审查应用，自动审查代理编写的代码",
+      "tags": [
+        "代码审查",
+        "自动化",
+        "代码质量"
+      ],
+      "scenarios": [
+        "代码审查流程",
+        "团队协作",
+        "持续集成"
+      ],
+      "tutorial": "## Reviu 使用教程\n\n### 1. 安装 Reviu\n\n从 [Reviu 官网](https://www.producthunt.com/products/reviu) 下载并安装 Reviu 软件。\n\n### 2. 配置项目\n\n打开 Reviu，选择一个项目，并配置相应的代码库信息。\n\n### 3. 开始审查\n\n选择要审查的代码文件，Reviu 将自动分析代码并提出审查建议。\n\n### 4. 查看审查结果\n\n审查完成后，查看审查结果，并根据建议进行代码优化。",
+      "url": "https://www.producthunt.com/products/reviu",
+      "status": "dead",
+      "is_violation": false,
+      "id": "reviu",
+      "added": "2026-10-06"
     }
   ],
   "changelog": [
@@ -11822,6 +11978,20 @@
         "Rival Workshop",
         "Blume 2.0",
         "Sellio"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-06",
+      "added": [
+        "SpeechShield",
+        "crosswalk",
+        "devpit",
+        "Web Search API",
+        "Opengeni",
+        "HyperFrames Studio (Desktop)",
+        "Reviu"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
