@@ -11105,6 +11105,272 @@
       "is_violation": false,
       "id": "reviu",
       "added": "2026-10-06"
+    },
+    {
+      "name": "rea",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "使用代理逆向工程任何事物，从应用行为到原生二进制。",
+      "tags": [
+        "逆向工程",
+        "自动化",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "应用分析",
+        "行为监控",
+        "安全审计"
+      ],
+      "tutorial": "## 使用rea进行逆向工程\n\n### 1. 安装rea\n\n首先，您需要从GitHub克隆rea项目或直接下载。\n\n```bash\ngit clone https://github.com/rea-project/rea\n```\n\n### 2. 配置代理\n\n在rea目录下，运行以下命令启动代理。\n\n```bash\n./rea\n```\n\n### 3. 捕获流量\n\n在目标应用中，将代理设置为系统代理。然后，您可以开始捕获流量。\n\n### 4. 分析数据\n\n使用rea提供的工具和分析功能来查看和解析捕获的数据。\n\n### 5. 生成报告\n\n根据分析结果，您可以生成详细的报告来了解应用的行为和结构。",
+      "url": "https://github.com/morluto/rea",
+      "status": "active",
+      "is_violation": false,
+      "id": "rea",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "diagram-design",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器内编辑图表设计工具",
+      "tags": [
+        "图表设计",
+        "编辑器",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "代码注释可视化",
+        "文档图表制作",
+        "数据可视化"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装 diagram-design 插件到浏览器。\n2. 在需要编辑图表的页面打开插件。\n3. 选择所需的图表类型，如流程图、思维导图等。\n4. 使用提供的工具和功能进行图表设计。\n5. 保存设计为 HTML 或 SVG 格式。",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "status": "active",
+      "is_violation": false,
+      "id": "diagram-design",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "ema-tts-turkish-workflow",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "土耳其语语音合成工作流",
+      "tags": [
+        "语音合成",
+        "土耳其语",
+        "工作流"
+      ],
+      "scenarios": [
+        "语音助手",
+        "自动语音生成",
+        "多语言应用"
+      ],
+      "tutorial": "## 使用 EMA-TTS-Turkish-Workflow 进行土耳其语语音合成\n1. **安装依赖**：\n   - 确保已安装 Python 环境。\n   - 使用 pip 安装 EMA-TTS-Turkish-Workflow。\n   ```bash\n   pip install ema-tts-turkish-workflow\n   ```\n2. **初始化模型**：\n   - 导入 EMA-TTS-Turkish-Workflow 库。\n   - 初始化模型。\n   ```python\n   from ema_tts_turkish_workflow import EMATTS\n   tts = EMATTS()\n   ```\n3. **生成语音**：\n   - 使用模型生成语音。\n   ```python\n   text = 'Merhaba, nasılsınız?'\n   audio = tts.text_to_audio(text)\n   ```\n4. **保存语音文件**：\n   - 将生成的语音保存为文件。\n   ```python\n   audio.save('hello_turkish.wav')\n   ```",
+      "url": "https://huggingface.co/spaces/akhaliq/ema-tts-turkish-workflow",
+      "status": "active",
+      "is_violation": false,
+      "id": "ema-tts-turkish-workflow",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "ruOS",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端桌面，AI 助手代劳",
+      "tags": [
+        "AI 助手",
+        "云端桌面",
+        "自动化"
+      ],
+      "scenarios": [
+        "远程办公",
+        "数据录入",
+        "自动化流程"
+      ],
+      "tutorial": "## ruOS 使用教程\n\n1. 注册并登录 ruOS 账户\n\n2. 创建一个新的工作空间，选择所需的 AI 代理和服务\n\n3. 配置代理的参数和任务，例如自动填写表格或收集数据\n\n4. 启动代理执行任务，监控进度和结果\n\n5. 保存和分享自动化流程，以便重复使用或与他人协作",
+      "url": "https://www.producthunt.com/products/ruos",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ruos",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "Banger",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 驱动的邮件自动化工具，提升客户保留率",
+      "tags": [
+        "邮件营销",
+        "客户保留",
+        "自动化"
+      ],
+      "scenarios": [
+        "营销自动化",
+        "客户关系管理",
+        "销售支持"
+      ],
+      "tutorial": "## Banger 使用教程\n\n### 1. 创建账户\n\n1. 访问 Banger 官网并注册账户。\n2. 完成邮箱验证。\n\n### 2. 设置邮件模板\n\n1. 在 Banger 中创建新的邮件模板。\n2. 使用可视化编辑器设计邮件内容。\n3. 保存模板。\n\n### 3. 自动化邮件发送\n\n1. 选择目标客户群体。\n2. 应用之前创建的邮件模板。\n3. 设置发送时间或触发条件。\n4. 启动自动化流程。\n\n### 4. 跟踪和分析\n\n1. 查看邮件发送状态。\n2. 分析邮件打开率和点击率。\n3. 优化邮件内容和策略。",
+      "url": "https://www.producthunt.com/products/banger-mail",
+      "status": "dead",
+      "is_violation": false,
+      "id": "banger",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "Extrovert",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "LinkedIn 自动拓展工具，简化人脉拓展流程",
+      "tags": [
+        "LinkedIn",
+        "人脉拓展",
+        "自动化",
+        "SaaS"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "人脉网络建设",
+        "销售自动化"
+      ],
+      "tutorial": "## 使用 Extrovert 进行 LinkedIn 自动拓展\n\n1. 注册并登录 Extrovert\n\n   - 访问 Extrovert 官网，注册账号并登录。\n\n2. 配置 LinkedIn 账号\n\n   - 在 Extrovert 中授权并连接您的 LinkedIn 账号。\n\n3. 创建拓展计划\n\n   - 设置拓展目标，如行业、职位等。\n\n4. 设计拓展消息\n\n   - 编写个性化的拓展消息模板。\n\n5. 启动拓展任务\n\n   - 点击启动，让 Extrovert 自动发送拓展消息。\n\n6. 监控拓展效果\n\n   - 查看拓展进度和效果，及时调整策略。",
+      "url": "https://www.producthunt.com/products/extrovert",
+      "status": "dead",
+      "is_violation": false,
+      "id": "extrovert",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "OrgComputers",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理工作空间，网页自动化操作",
+      "tags": [
+        "AI代理",
+        "网页自动化",
+        "工作流"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## 使用OrgComputers进行网页自动化\n\n1. 注册并登录\n   - 访问OrgComputers官网，注册账号并登录。\n\n2. 创建新项目\n   - 在控制台创建一个新的项目，为你的自动化任务命名。\n\n3. 设计自动化流程\n   - 使用拖拽式界面设计你的自动化流程，包括打开网页、填写表单、点击按钮等。\n\n4. 运行测试\n   - 运行你的自动化流程，检查是否按预期工作。\n\n5. 保存并部署\n   - 保存你的自动化任务，并可选择部署到服务器以实现持续运行。",
+      "url": "https://www.producthunt.com/products/orgcomputers",
+      "status": "dead",
+      "is_violation": false,
+      "id": "orgcomputers",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "Aster by AsterWise",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "智能模型路由，优化代码、代理和工作流",
+      "tags": [
+        "模型路由",
+        "工作流优化",
+        "智能代理"
+      ],
+      "scenarios": [
+        "复杂工作流管理",
+        "代码优化",
+        "自动化流程"
+      ],
+      "tutorial": "## 使用 Aster by AsterWise 进行智能模型路由\n\n### 1. 注册与登录\n\n1. 访问 [Aster by AsterWise 官网](https://www.producthunt.com/products/aster-by-asterwise) 进行注册。\n2. 使用注册信息登录账户。\n\n### 2. 创建项目\n\n1. 在控制台中点击 '创建项目'。\n2. 输入项目名称并选择项目类型。\n3. 点击 '创建'。\n\n### 3. 添加模型\n\n1. 在项目设置中找到 '模型管理'。\n2. 点击 '添加模型' 并选择要添加的模型。\n3. 配置模型参数并保存。\n\n### 4. 配置路由\n\n1. 在项目设置中找到 '路由配置'。\n2. 根据需求配置路由规则。\n3. 保存配置。\n\n### 5. 部署与监控\n\n1. 在项目设置中点击 '部署'。\n2. 查看部署状态和监控信息。\n3. 根据需要调整配置。",
+      "url": "https://www.producthunt.com/products/aster-by-asterwise",
+      "status": "dead",
+      "is_violation": false,
+      "id": "aster-by-asterwise",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "Awakado",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "保持Mac运行，AI代理工作不停",
+      "tags": [
+        "Mac",
+        "AI代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI模型训练",
+        "后台数据处理",
+        "自动化任务执行"
+      ],
+      "tutorial": "## 使用Awakado保持Mac运行\n\n1. 下载并安装Awakado应用。\n2. 打开Awakado，设置启动选项，确保在后台任务运行时保持Mac唤醒。\n3. 配置Awakado以在特定时间或事件触发时启动。\n4. 启动Awakado，并开始你的AI代理工作。\n5. 观察Mac保持唤醒状态，确保AI代理工作不受干扰。",
+      "url": "https://www.producthunt.com/products/awakado",
+      "status": "dead",
+      "is_violation": false,
+      "id": "awakado",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "AUDR by Chargebee",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "跟踪代理运行成本的开放标准",
+      "tags": [
+        "成本跟踪",
+        "代理管理",
+        "数据分析"
+      ],
+      "scenarios": [
+        "企业成本管理",
+        "数据分析与报告",
+        "业务流程优化"
+      ],
+      "tutorial": "## AUDR by Chargebee 使用教程\n\n### 1. 注册与登录\n1. 访问 [Chargebee官网](https://www.chargebee.com/) 并注册账户。\n2. 登录后，进入AUDR by Chargebee模块。\n3. 查看默认的跟踪设置和成本数据。\n\n### 2. 设置跟踪规则\n1. 在AUDR by Chargebee中，设置跟踪规则以监控特定代理的运行成本。\n2. 选择要跟踪的代理和成本类型（如CPU、内存、带宽等）。\n3. 定义跟踪频率和警报阈值。\n\n### 3. 分析报告\n1. AUDR by Chargebee会自动收集并分析代理的运行成本数据。\n2. 在报告中查看详细成本数据和趋势分析。\n3. 根据分析结果优化成本管理。\n\n### 4. 导出数据\n1. 如需进一步分析，可以导出成本数据到Excel或CSV格式。\n2. 使用导出的数据在第三方工具中进行更深入的分析。",
+      "url": "https://www.producthunt.com/products/chargebee",
+      "status": "dead",
+      "is_violation": false,
+      "id": "audr-by-chargebee",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "iphone-use",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端控制真实iPhone，无需API",
+      "tags": [
+        "AI",
+        "iPhone",
+        "自动化",
+        "远程控制"
+      ],
+      "scenarios": [
+        "移动应用测试",
+        "自动化测试",
+        "用户体验测试"
+      ],
+      "tutorial": "## 使用iPhone-use进行自动化测试\n\n1. 注册并登录iPhone-use平台。\n2. 创建一个新的测试项目，选择要控制的iPhone型号。\n3. 编写测试脚本，指定要执行的自动化操作。\n4. 部署脚本到iPhone，开始自动化测试。\n5. 查看测试结果，分析并优化测试脚本。",
+      "url": "https://www.producthunt.com/products/iphone-use",
+      "status": "dead",
+      "is_violation": false,
+      "id": "iphone-use",
+      "added": "2026-10-07"
+    },
+    {
+      "name": "Brnch",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "现代代码托管，适用于Agent时代",
+      "tags": [
+        "代码托管",
+        "协作",
+        "版本控制"
+      ],
+      "scenarios": [
+        "团队协作",
+        "代码版本管理",
+        "跨平台开发"
+      ],
+      "tutorial": "## Brnch使用教程\n\n### 1. 注册与登录\n\n1. 访问Brnch官网，点击注册按钮。\n2. 填写注册信息，包括用户名、邮箱和密码。\n3. 完成邮箱验证后登录。\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目。\n2. 输入项目名称和描述。\n3. 选择代码托管方式，如Git。\n4. 点击创建项目。\n\n### 3. 添加代码\n\n1. 将本地代码库克隆到Brnch项目目录。\n2. 在Brnch中添加文件和目录。\n3. 点击提交更改。\n\n### 4. 协作与分享\n\n1. 邀请团队成员加入项目。\n2. 分享项目链接，供他人查看和贡献代码。\n3. 查看团队成员的提交和评论。",
+      "url": "https://www.producthunt.com/products/brnch",
+      "status": "dead",
+      "is_violation": false,
+      "id": "brnch",
+      "added": "2026-10-07"
     }
   ],
   "changelog": [
@@ -11992,6 +12258,25 @@
         "Opengeni",
         "HyperFrames Studio (Desktop)",
         "Reviu"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-07",
+      "added": [
+        "rea",
+        "diagram-design",
+        "ema-tts-turkish-workflow",
+        "ruOS",
+        "Banger",
+        "Extrovert",
+        "OrgComputers",
+        "Aster by AsterWise",
+        "Awakado",
+        "AUDR by Chargebee",
+        "iphone-use",
+        "Brnch"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
