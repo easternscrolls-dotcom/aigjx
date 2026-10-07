@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:04:19.410Z",
+  "generatedAt": "2026-10-07T22:29:03.163Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2586,6 +2586,66 @@
       "url": "https://aiagent.72tool.com/tools/brnch.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cmux.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/databench-by-alkera.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/figma-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/velozity.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/devally-ai-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/proofsource.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/supademo-ai-demo-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/irisgo-for-solopreneurs.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ana-by-vertice.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/thalia.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/reika.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/postquel.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2616,22 +2676,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 510,
+    "totalAgents": 522,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 26
+        "count": 27
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 419
+        "count": 428
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 40
+        "count": 42
       },
       {
         "id": "crossborder",
@@ -2644,6 +2704,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 287
+    "deadLinks": 298
   }
 }
