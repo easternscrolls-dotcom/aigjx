@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T22:29:03.163Z",
+  "generatedAt": "2026-10-08T22:42:18.845Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2646,6 +2646,71 @@
       "url": "https://aiagent.72tool.com/tools/postquel.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/workflow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/markdoc.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/botbus.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clippo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clawcall.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kloudmate-2-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sineframe-m3.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/offstage.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openswarm.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentguard.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/semwright.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hallmonitor.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/termaxa.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2676,22 +2741,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 522,
+    "totalAgents": 535,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 27
+        "count": 28
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 428
+        "count": 438
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 42
+        "count": 44
       },
       {
         "id": "crossborder",
@@ -2704,6 +2769,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 298
+    "deadLinks": 310
   }
 }
