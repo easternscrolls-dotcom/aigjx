@@ -11929,6 +11929,296 @@
       "is_violation": false,
       "id": "termaxa",
       "added": "2026-10-09"
+    },
+    {
+      "name": "SwiftUI-Agent-Skill",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "SwiftUI 集成 Claude Code 和 Codex 等AI工具的网页Agent。",
+      "tags": [
+        "SwiftUI",
+        "AI工具",
+        "网页自动化"
+      ],
+      "scenarios": [
+        "AI代码生成",
+        "自动化测试",
+        "数据采集"
+      ],
+      "tutorial": "## SwiftUI-Agent-Skill 使用教程\n\n1. 下载并安装SwiftUI-Agent-Skill。\n2. 在项目中引入SwiftUI-Agent-Skill库。\n3. 配置 Claude Code 或 Codex API 密钥。\n4. 创建一个 SwiftUI View，使用 SwiftUI-Agent-Skill 进行 API 调用。\n5. 在 View 中展示 AI 工具返回的结果。\n\n## 小节标题\n\n1. 安装与配置\n\n1.1 下载SwiftUI-Agent-Skill。\n1.2 在项目中引入。\n1.3 配置 API 密钥。\n\n2. 创建 View\n\n2.1 创建 SwiftUI View。\n2.2 使用 SwiftUI-Agent-Skill 进行 API 调用。\n2.3 展示结果。\n\n3. 测试与调试\n\n3.1 运行项目。\n3.2 检查 AI 工具返回的结果。\n3.3 调试可能的问题。",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "status": "active",
+      "is_violation": false,
+      "id": "swiftui-agent-skill",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "Agente2",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页操作，无需编程",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据抓取",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## Agente2 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Agente2 安装包。\n2. 解压安装包并运行 Agente2。\n3. 点击“新建项目”开始创建你的自动化任务。\n\n### 2. 创建任务\n\n1. 选择“网页自动化”任务类型。\n2. 输入目标网页的 URL。\n3. 点击“下一步”，选择需要自动化的元素和操作。\n\n### 3. 编排动作\n\n1. 在动作列表中选择你需要的动作，如点击、输入、等待等。\n2. 设置动作的参数，如点击的元素、输入的内容等。\n3. 将动作拖拽到流程图中，按照逻辑顺序排列。\n\n### 4. 运行与调试\n\n1. 点击“运行”按钮，观察自动化任务执行情况。\n2. 如有错误，点击“调试”按钮，查看错误信息并进行修正。\n3. 保存并分享你的自动化任务。",
+      "url": "https://huggingface.co/spaces/Freitech/Agente2",
+      "status": "active",
+      "is_violation": false,
+      "id": "agente2",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "agentweave-workflow-studio",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "可视化工作流编排工具，连接SaaS，自动化业务流程。",
+      "tags": [
+        "工作流",
+        "自动化",
+        "SaaS连接",
+        "可视化"
+      ],
+      "scenarios": [
+        "企业内部自动化",
+        "跨系统数据同步",
+        "业务流程优化"
+      ],
+      "tutorial": "## agentweave-workflow-studio 使用教程\n\n### 1. 创建工作流\n- 登录agentweave-workflow-studio平台。\n- 点击'创建工作流'按钮，选择合适的模板或从零开始。\n- 设计工作流，通过拖拽组件来连接不同的SaaS服务。\n\n### 2. 配置参数\n- 在每个组件上双击，配置其参数和触发条件。\n- 设置数据源和目标，确保工作流能够正确处理数据。\n\n### 3. 预览和测试\n- 点击'预览'按钮，查看工作流运行结果。\n- 发现问题后，返回编辑界面进行修改。\n\n### 4. 部署和监控\n- 完成配置后，部署工作流。\n- 在监控面板中查看工作流运行状态和日志。",
+      "url": "https://huggingface.co/spaces/Hugdrigo/agentweave-workflow-studio",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentweave-workflow-studio",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "AgentInjectionBench",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持自动操作与数据采集",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## AgentInjectionBench 使用教程\n\n### 1. 安装与配置\n\n1. 下载 AgentInjectionBench 安装包。\n2. 解压安装包并运行配置脚本，设置浏览器驱动和代理服务器。\n3. 根据提示完成安装。\n\n### 2. 创建任务\n\n1. 打开 AgentInjectionBench，选择创建新任务。\n2. 输入任务名称和描述。\n3. 选择目标网页 URL。\n\n### 3. 编写脚本\n\n1. 在脚本编辑器中，使用内置的 API 编写自动化脚本。\n2. 使用 'click'、'type' 等命令进行网页操作。\n3. 使用 'get_text'、'get_attribute' 等命令采集数据。\n\n### 4. 运行与调试\n\n1. 点击运行按钮，执行自动化任务。\n2. 观察日志输出，检查任务执行情况。\n3. 如有错误，根据日志提示进行调试。",
+      "url": "https://huggingface.co/spaces/ppradyoth/AgentInjectionBench",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentinjectionbench",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "Zernio",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "产品与代理的营销基础设施",
+      "tags": [
+        "营销",
+        "产品",
+        "代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "产品推广",
+        "营销自动化",
+        "客户关系管理"
+      ],
+      "tutorial": "## Zernio 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Zernio 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 Zernio 平台。\n\n### 2. 创建营销活动\n\n1. 在平台首页，点击创建活动按钮。\n2. 选择活动类型，如邮件营销、社交媒体推广等。\n3. 配置活动参数，如目标受众、营销内容等。\n\n### 3. 活动监控与优化\n\n1. 活动创建后，可在活动管理页面查看活动状态和效果。\n2. 根据数据反馈，优化活动策略，提高转化率。\n\n### 4. 数据分析\n\n1. 在数据分析页面，查看营销活动的详细数据。\n2. 通过数据分析，了解用户行为，优化营销策略。",
+      "url": "https://www.producthunt.com/products/zernio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zernio",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "Busabase",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的通用系统记录",
+      "tags": [
+        "AI 代理",
+        "系统记录",
+        "自动化"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页自动化",
+        "RPA"
+      ],
+      "tutorial": "## Busabase 使用教程\n\n1. 注册并登录\n\n   访问 [Busabase 官网](https://www.producthunt.com/products/busabase) 注册账号并登录。\n\n2. 创建项目\n\n   在控制台中创建一个新的项目，为你的 AI 代理设置基础配置。\n\n3. 配置代理\n\n   在项目中配置你的代理，包括代理的名称、行为和触发条件。\n\n4. 测试代理\n\n   在测试环境中运行代理，确保其按照预期工作。\n\n5. 部署代理\n\n   将代理部署到生产环境，开始自动化任务。",
+      "url": "https://www.producthunt.com/products/busabase",
+      "status": "dead",
+      "is_violation": false,
+      "id": "busabase",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "Melete",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端个人智能代理与团队协作空间",
+      "tags": [
+        "智能代理",
+        "团队协作",
+        "云端服务"
+      ],
+      "scenarios": [
+        "团队协作",
+        "个人效率提升",
+        "云端数据处理"
+      ],
+      "tutorial": "## 使用 Melete 的基本步骤\n\n1. 注册与登录\n   - 访问 Melete 官网进行注册。\n   - 使用邮箱或社交媒体账号登录。\n\n2. 创建团队空间\n   - 在个人账户中创建一个新的团队空间。\n   - 邀请团队成员加入。\n\n3. 配置智能代理\n   - 在团队空间中配置智能代理的设置。\n   - 设置自动化任务和通知。\n\n4. 开始使用\n   - 使用智能代理进行日常任务自动化。\n   - 监控团队空间中的协作和进度。",
+      "url": "https://www.producthunt.com/products/melete",
+      "status": "dead",
+      "is_violation": false,
+      "id": "melete",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "OpenPilot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源桌面AI代理，支持自定义模型",
+      "tags": [
+        "AI代理",
+        "桌面应用",
+        "开源"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## OpenPilot 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 OpenPilot。\n2. 打开应用程序。\n3. 选择或导入你想要使用的模型。\n\n### 2. 配置模型\n\n1. 在设置中调整模型参数。\n2. 根据需要选择不同的模型预设。\n3. 保存配置。\n\n### 3. 运行代理\n\n1. 选择要运行的代理任务。\n2. 点击运行按钮。\n3. 观察代理的运行状态。\n\n### 4. 查看结果\n\n1. 任务完成后，查看结果。\n2. 根据需要调整模型或任务设置。\n3. 重复以上步骤以优化性能。",
+      "url": "https://www.producthunt.com/products/openpilot",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openpilot",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "AgentSDR",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI无线电接收器，浏览器使用",
+      "tags": [
+        "AI",
+        "无线电",
+        "数据采集",
+        "开源"
+      ],
+      "scenarios": [
+        "无线电爱好者",
+        "数据采集",
+        "科研教育"
+      ],
+      "tutorial": "## AgentSDR 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [AgentSDR 官网](https://www.producthunt.com/products/agentsdr) 下载 AgentSDR。\n2. 解压下载的文件包。\n3. 打开浏览器，访问解压后的文件夹中的网页文件，启动 AgentSDR。\n\n### 2. 配置接收器\n\n1. 在 AgentSDR 界面中，选择合适的接收器型号。\n2. 根据接收器型号，配置相应的参数，如频率、带宽等。\n3. 点击“连接”按钮，建立与接收器的连接。\n\n### 3. 接收信号\n\n1. 在 AgentSDR 界面中，选择需要接收的信号类型，如AM、FM、SSB等。\n2. 调整频率和带宽参数，以优化信号接收。\n3. 观察信号波形，分析信号特征。\n\n### 4. 数据保存\n\n1. 在 AgentSDR 界面中，选择“文件”菜单下的“保存数据”选项。\n2. 选择保存数据的格式和路径。\n3. 点击“保存”按钮，将接收到的数据保存到本地。",
+      "url": "https://www.producthunt.com/products/agentsdr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agentsdr",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "Ambiguous Workspace",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理与人类共用的生产力工具集",
+      "tags": [
+        "AI",
+        "生产力",
+        "自动化",
+        "多应用"
+      ],
+      "scenarios": [
+        "日常办公",
+        "团队协作",
+        "数据采集"
+      ],
+      "tutorial": "## Ambiguous Workspace 使用教程\n\n### 1. 安装与启动\n\n1. 访问 Ambiguous Workspace 官网下载并安装最新版本。\n2. 运行应用，首次启动会进行初始化设置。\n3. 按提示完成账户注册或登录。\n\n### 2. 应用选择\n\n1. 在主界面选择所需的应用程序。\n2. 应用将自动加载并准备使用。\n3. 可根据需要调整应用设置以适应个人需求。\n\n### 3. 数据交互\n\n1. 在应用中完成相关操作，如数据录入、编辑等。\n2. 数据将自动同步至云端，便于跨设备访问。\n3. 可与其他应用进行数据交互，实现自动化流程。\n\n### 4. 协作共享\n\n1. 邀请团队成员加入 Ambiguous Workspace。\n2. 共享应用和数据，协同完成工作。\n3. 支持实时沟通和协作，提高工作效率。",
+      "url": "https://www.producthunt.com/products/ambiguous-workspace",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ambiguous-workspace",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "OpenVids",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI对话式开源视频编辑器",
+      "tags": [
+        "视频编辑",
+        "AI交互",
+        "开源"
+      ],
+      "scenarios": [
+        "视频制作",
+        "内容创作",
+        "教育培训"
+      ],
+      "tutorial": "## 使用OpenVids进行视频编辑\n1. 打开OpenVids，选择一个视频文件进行编辑。\n2. 通过聊天与AI代理进行交互，选择视频剪辑、特效等编辑功能。\n3. AI代理会根据你的指令进行操作，实时展示编辑效果。\n4. 完成编辑后，导出视频文件。\n5. 可以通过AI代理进一步优化视频，如调整色彩、添加字幕等。",
+      "url": "https://www.producthunt.com/products/openvids",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openvids",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "OpenCharm",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI代理框架，为现有代理提供扩展",
+      "tags": [
+        "AI代理",
+        "开源",
+        "扩展"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## OpenCharm 使用教程\n\n1. 下载并安装 OpenCharm\n   - 访问 OpenCharm 官网下载最新版本\n   - 按照安装向导完成安装\n\n2. 配置 OpenCharm\n   - 打开 OpenCharm 并进行账户登录\n   - 配置代理服务器和API密钥\n\n3. 创建代理任务\n   - 在 OpenCharm 中创建新的代理任务\n   - 选择任务类型和目标网页\n   - 设置任务参数和执行条件\n\n4. 运行代理任务\n   - 点击运行按钮开始执行任务\n   - 查看任务日志和结果",
+      "url": "https://www.producthunt.com/products/opencharm",
+      "status": "dead",
+      "is_violation": false,
+      "id": "opencharm",
+      "added": "2026-10-10"
+    },
+    {
+      "name": "Cakie",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将屏幕录制转换为AI代理提示",
+      "tags": [
+        "AI",
+        "屏幕录制",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "AI训练数据生成",
+        "用户行为分析"
+      ],
+      "tutorial": "## 使用Cakie进行屏幕录制转换为AI代理提示\n\n1. **安装Cakie**\n   - 访问Cakie官网下载并安装最新版本。\n\n2. **录制屏幕**\n   - 打开Cakie，选择需要录制的屏幕区域。\n   - 开始录制屏幕操作。\n\n3. **生成提示**\n   - 录制完成后，Cakie会自动分析屏幕操作并生成相应的AI提示。\n   - 查看生成的提示，并进行必要的调整。\n\n4. **导出提示**\n   - 将生成的提示导出为文本或JSON格式，以便用于AI训练或分析。\n\n5. **使用提示**\n   - 将导出的提示用于AI代理，实现自动化操作或数据生成。",
+      "url": "https://www.producthunt.com/products/cakie-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cakie",
+      "added": "2026-10-10"
     }
   ],
   "changelog": [
@@ -12874,6 +13164,26 @@
         "Semwright",
         "Hallmonitor",
         "Termaxa"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-10",
+      "added": [
+        "SwiftUI-Agent-Skill",
+        "Agente2",
+        "agentweave-workflow-studio",
+        "AgentInjectionBench",
+        "Zernio",
+        "Busabase",
+        "Melete",
+        "OpenPilot",
+        "AgentSDR",
+        "Ambiguous Workspace",
+        "OpenVids",
+        "OpenCharm",
+        "Cakie"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

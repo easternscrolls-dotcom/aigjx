@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T22:42:18.845Z",
+  "generatedAt": "2026-10-09T22:04:02.381Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2711,6 +2711,71 @@
       "url": "https://aiagent.72tool.com/tools/termaxa.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/swiftui-agent-skill.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agente2.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentweave-workflow-studio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentinjectionbench.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/zernio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/busabase.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/melete.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openpilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentsdr.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ambiguous-workspace.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openvids.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/opencharm.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cakie.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2741,7 +2806,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 535,
+    "totalAgents": 548,
     "byCategory": [
       {
         "id": "local",
@@ -2751,12 +2816,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 438
+        "count": 450
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 44
+        "count": 45
       },
       {
         "id": "crossborder",
@@ -2769,6 +2834,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 310
+    "deadLinks": 319
   }
 }
