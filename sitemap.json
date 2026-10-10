@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T22:04:02.381Z",
+  "generatedAt": "2026-10-10T20:54:40.329Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2776,6 +2776,56 @@
       "url": "https://aiagent.72tool.com/tools/cakie.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/research-agent-platform.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/multi-agent-financial.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/crm-scoring-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/essaypilot-aiagent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentdock.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hypervibe.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gitglow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lune.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/microsoft-decision-1.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/api-claws-by-buda.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2806,7 +2856,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 548,
+    "totalAgents": 558,
     "byCategory": [
       {
         "id": "local",
@@ -2816,12 +2866,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 450
+        "count": 459
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 45
+        "count": 46
       },
       {
         "id": "crossborder",
@@ -2834,6 +2884,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 319
+    "deadLinks": 325
   }
 }
