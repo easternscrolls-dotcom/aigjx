@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:54:40.329Z",
+  "generatedAt": "2026-10-11T21:15:27.324Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2826,6 +2826,36 @@
       "url": "https://aiagent.72tool.com/tools/api-claws-by-buda.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openscreen-2.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hirekey.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agibot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/automations-in-perplexity-computer.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/farol.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/halo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2856,7 +2886,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 558,
+    "totalAgents": 564,
     "byCategory": [
       {
         "id": "local",
@@ -2866,7 +2896,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 459
+        "count": 465
       },
       {
         "id": "workflow",
@@ -2884,6 +2914,6 @@
         "count": 13
       }
     ],
-    "deadLinks": 325
+    "deadLinks": 331
   }
 }
