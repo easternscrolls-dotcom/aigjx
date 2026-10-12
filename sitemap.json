@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T21:15:27.324Z",
+  "generatedAt": "2026-10-12T23:58:48.188Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2856,6 +2856,41 @@
       "url": "https://aiagent.72tool.com/tools/halo.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/llama3-function-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/manifold-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cube-forms.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/excaliclaw.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dropstone-cli.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hexis-cloud.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/guilds-run.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2886,7 +2921,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 564,
+    "totalAgents": 571,
     "byCategory": [
       {
         "id": "local",
@@ -2896,12 +2931,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 465
+        "count": 470
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 46
+        "count": 47
       },
       {
         "id": "crossborder",
@@ -2911,9 +2946,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 13
+        "count": 14
       }
     ],
-    "deadLinks": 331
+    "deadLinks": 337
   }
 }
