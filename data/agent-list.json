@@ -12737,6 +12737,296 @@
       "is_violation": false,
       "id": "guilds-run",
       "added": "2026-10-13"
+    },
+    {
+      "name": "agent-course-final-assessment",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "RPA应用"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装与配置\n1. 下载并安装Hugging Face的Agent-Course-Final-Assessment工具。\n2. 配置浏览器插件，确保插件与浏览器兼容。\n3. 打开目标网页，启动工具进行自动化操作。\n\n### 2. 创建任务\n1. 在工具界面中创建新的任务。\n2. 选择需要自动化的网页元素和操作，如点击、填写表单等。\n3. 设置任务触发条件，如定时执行或特定事件触发。\n\n### 3. 运行与监控\n1. 运行创建的任务，观察自动化过程。\n2. 监控任务执行状态，确保自动化流程顺利进行。\n3. 根据需要调整任务设置，优化自动化效果。",
+      "url": "https://huggingface.co/spaces/aimazor/agent-course-final-assessment",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-course-final-assessment",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Articos MCP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "模拟买家反应，直观分析代理表现",
+      "tags": [
+        "模拟测试",
+        "用户反馈",
+        "数据分析"
+      ],
+      "scenarios": [
+        "用户体验测试",
+        "产品优化",
+        "市场调研"
+      ],
+      "tutorial": "## 使用 Articos MCP 进行模拟买家反应分析\n\n1. **注册与登录**\n   - 访问 Articos MCP 官网，注册账号并登录。\n\n2. **创建模拟测试**\n   - 在控制台创建新的模拟测试，设置测试参数和目标用户群体。\n\n3. **配置测试环境**\n   - 配置测试网页和环境变量，确保模拟测试的准确性。\n\n4. **启动测试**\n   - 启动模拟测试，观察模拟买家在测试环境中的行为和反应。\n\n5. **分析结果**\n   - 测试完成后，分析模拟买家的行为数据，优化产品或服务。",
+      "url": "https://www.producthunt.com/products/articos",
+      "status": "dead",
+      "is_violation": false,
+      "id": "articos-mcp",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Muse Wonder",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "Meta个人智能代理模型",
+      "tags": [
+        "人工智能",
+        "智能代理",
+        "Meta AI"
+      ],
+      "scenarios": [
+        "个人助手",
+        "智能客服",
+        "数据分析"
+      ],
+      "tutorial": "## Muse Wonder 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Muse Wonder 官网](https://www.producthunt.com/products/meta-ai) 进行注册。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建个人代理\n\n1. 登录后，点击创建新代理。\n2. 输入代理名称，选择模型类型，设置权限。\n\n### 3. 配置代理功能\n\n1. 在代理设置中，配置智能回复、数据分析等功能。\n2. 可自定义关键词和回复模板。\n\n### 4. 开始使用\n\n1. 将代理嵌入到个人网站或应用中。\n2. 通过代理与用户进行交互，收集数据。",
+      "url": "https://www.producthunt.com/products/meta-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "muse-wonder",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "OpenCode 2.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI编码代理，自动代码生成",
+      "tags": [
+        "AI编码",
+        "代码生成",
+        "自动化",
+        "开源"
+      ],
+      "scenarios": [
+        "代码开发",
+        "编程辅助",
+        "自动化测试"
+      ],
+      "tutorial": "## OpenCode 2.0 使用教程\n\n### 1. 安装与启动\n\n1. 下载 OpenCode 2.0 安装包。\n2. 双击安装包进行安装。\n3. 安装完成后，启动 OpenCode 2.0。\n\n### 2. 创建新项目\n\n1. 在 OpenCode 2.0 中点击 '新建项目'。\n2. 输入项目名称和描述。\n3. 选择编程语言和框架。\n4. 点击 '创建'。\n\n### 3. 生成代码\n\n1. 在项目页面，选择需要生成的代码类型。\n2. 输入相关参数和配置。\n3. 点击 '生成代码'。\n4. 代码生成完成后，可以下载或直接在项目中查看。\n\n### 4. 代码调试\n\n1. 在代码编辑器中，对生成的代码进行修改和调试。\n2. 使用内置的调试工具进行测试。\n3. 确保代码无误后，可以将其应用到实际项目中。",
+      "url": "https://www.producthunt.com/products/opencode",
+      "status": "dead",
+      "is_violation": false,
+      "id": "opencode-2-0",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Upsolve Row-Level Security",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理数据权限控制",
+      "tags": [
+        "数据权限",
+        "AI代理",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "数据安全防护",
+        "AI应用管理",
+        "浏览器自动化"
+      ],
+      "tutorial": "## 使用Upsolve Row-Level Security\n\n1. 安装扩展\n   在浏览器扩展商店搜索并安装Upsolve Row-Level Security扩展。\n\n2. 配置权限\n   打开扩展设置，配置数据权限规则，定义哪些数据可以被AI代理访问。\n\n3. 验证权限\n   使用AI代理尝试访问数据，验证权限设置是否生效。\n\n4. 监控日志\n   查看扩展日志，监控AI代理的数据访问行为。",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "upsolve-row-level-security",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "The Drive AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 助手，自动处理文件工作",
+      "tags": [
+        "AI",
+        "自动化",
+        "文件处理",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "文件管理",
+        "日常办公",
+        "数据整理"
+      ],
+      "tutorial": "## 使用 The Drive AI 的步骤\n\n1. 下载并安装 The Drive AI 扩展\n\n2. 打开浏览器，访问需要处理的文件页面\n\n3. 点击 The Drive AI 扩展图标，选择需要执行的操作，如文件整理、搜索等\n\n4. 按照提示完成操作，The Drive AI 将自动处理文件\n\n5. 检查处理结果，如有需要可进行进一步调整",
+      "url": "https://www.producthunt.com/products/the-drive-ai-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "the-drive-ai",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Scape",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于 macOS 构建自定义工具，编排智能代理舰队",
+      "tags": [
+        "自动化",
+        "代理",
+        "macOS"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Scape 使用教程\n\n### 1. 安装 Scape\n\n1. 访问 [Scape 官网](https://www.producthunt.com/products/scape-3) 下载最新版本。\n2. 按照提示完成安装。\n\n### 2. 创建代理\n\n1. 打开 Scape，点击 '创建代理'。\n2. 输入代理名称，选择 macOS 环境。\n3. 点击 '创建'。\n\n### 3. 编排任务\n\n1. 在代理列表中选中你创建的代理。\n2. 点击 '添加任务'，选择你需要自动化的网页或应用。\n3. 设置任务参数，如点击、输入等。\n\n### 4. 运行任务\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 观察任务执行状态，确保任务按预期进行。",
+      "url": "https://www.producthunt.com/products/scape-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "scape",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "OpenFlowKit 2",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "协作编辑的免费开源流程图工具",
+      "tags": [
+        "流程图",
+        "协作",
+        "开源"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "知识图谱"
+      ],
+      "tutorial": "## OpenFlowKit 2 使用教程\n\n1. 下载并安装 OpenFlowKit 2\n   - 访问 OpenFlowKit 官网下载最新版本。\n   - 按照安装向导完成安装。\n\n2. 创建新项目\n   - 打开 OpenFlowKit 2，点击 '新建项目'。\n   - 输入项目名称，选择项目类型。\n\n3. 编辑流程图\n   - 使用拖拽方式添加元素到画布。\n   - 通过连接线定义元素之间的关系。\n   - 使用属性面板调整元素样式。\n\n4. 共享项目\n   - 点击 '共享' 按钮，生成项目链接。\n   - 将链接分享给团队成员。\n\n5. 协同编辑\n   - 团队成员通过链接进入项目，即可开始编辑。\n   - 实时查看和编辑流程图。",
+      "url": "https://www.producthunt.com/products/openflowkit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openflowkit-2",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Xiryn",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地开源个人智能代理",
+      "tags": [
+        "智能代理",
+        "开源",
+        "本地化"
+      ],
+      "scenarios": [
+        "个人助理",
+        "自动化任务",
+        "数据管理"
+      ],
+      "tutorial": "## Xiryn 使用教程\n\n### 1. 安装 Xiryn\n\n1. 访问 [Xiryn 官网](https://www.producthunt.com/products/xiryn) 下载最新版本的 Xiryn。\n2. 根据操作系统选择合适的安装包，进行安装。\n3. 安装完成后，启动 Xiryn。\n\n### 2. 配置 Xiryn\n\n1. 在 Xiryn 的设置界面中，配置你的个人信息和偏好设置。\n2. 设置你的工作流和任务自动化规则。\n3. 可以添加自定义技能和插件以扩展功能。\n\n### 3. 使用 Xiryn\n\n1. 通过 Xiryn 的用户界面，创建新的任务或工作流。\n2. 设置任务触发条件和执行规则。\n3. 观察任务执行结果，并根据需要调整设置。",
+      "url": "https://www.producthunt.com/products/xiryn",
+      "status": "dead",
+      "is_violation": false,
+      "id": "xiryn",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "PostNitro for Agents",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 助手设计发布社交媒体内容",
+      "tags": [
+        "AI",
+        "社交媒体",
+        "内容创作",
+        "自动化"
+      ],
+      "scenarios": [
+        "社交媒体运营",
+        "内容营销",
+        "AI 营销"
+      ],
+      "tutorial": "## 使用 PostNitro for Agents 设计发布社交媒体内容\n\n1. 注册并登录 PostNitro for Agents\n\n2. 选择目标社交媒体平台\n\n3. 输入关键词或主题，AI 将生成相关内容建议\n\n4. 选择或编辑 AI 提供的内容，添加图片或视频\n\n5. 预览内容，确认无误后发布",
+      "url": "https://www.producthunt.com/products/postnitro",
+      "status": "dead",
+      "is_violation": false,
+      "id": "postnitro-for-agents",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Kai",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能会议与邮件助手，自动化处理日常事务",
+      "tags": [
+        "会议管理",
+        "邮件助手",
+        "自动化"
+      ],
+      "scenarios": [
+        "企业办公",
+        "个人效率提升",
+        "团队协作"
+      ],
+      "tutorial": "## Kai 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Kai 官网](https://www.producthunt.com/products/hirekai) 进行注册。\n2. 使用邮箱验证并登录。\n\n### 2. 配置会议助手\n\n1. 在设置中启用会议助手功能。\n2. 配置会议提醒、自动会议记录等设置。\n\n### 3. 配置邮件助手\n\n1. 连接您的邮箱账户。\n2. 设置自动回复、邮件分类等规则。\n\n### 4. 使用助手功能\n\n1. 自动接收会议提醒。\n2. 自动处理邮件回复。\n\n通过以上步骤，您就可以开始使用 Kai 来提高您的会议和邮件处理效率了。",
+      "url": "https://www.producthunt.com/products/hirekai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kai",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "Agent Craft",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "提升社交互动和潜在客户",
+      "tags": [
+        "社交互动",
+        "潜在客户",
+        "自动化",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "营销自动化",
+        "客户关系管理"
+      ],
+      "tutorial": "## Agent Craft 使用教程\n\n### 1. 安装插件\n\n1. 访问 [Agent Craft](https://www.producthunt.com/products/agent-craft) 官网。\n2. 点击页面上的 'Add to Chrome' 或 'Add to Firefox' 按钮，按照提示完成安装。\n\n### 2. 配置账户\n\n1. 打开浏览器扩展页面，找到 Agent Craft 插件。\n2. 点击 '登录' 或 '注册'，按照提示完成账户创建和登录。\n\n### 3. 创建任务\n\n1. 在插件中点击 '新建任务'。\n2. 选择要执行的操作，如 '发送消息'、'点赞' 等。\n3. 设置任务参数，如目标用户、消息内容等。\n\n### 4. 运行任务\n\n1. 点击 '运行' 按钮，开始执行任务。\n2. 观察任务进度，确保任务按预期执行。",
+      "url": "https://www.producthunt.com/products/agent-craft",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-craft",
+      "added": "2026-10-14"
+    },
+    {
+      "name": "CLI Manager",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "管理CLI代理的AI工具",
+      "tags": [
+        "AI",
+        "CLI",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化脚本管理",
+        "跨平台操作",
+        "命令行工具集成"
+      ],
+      "tutorial": "## CLI Manager 使用教程\n\n### 1. 安装 CLI Manager\n从 [Product Hunt](https://www.producthunt.com/products/cli-manager?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed) 下载 CLI Manager 安装包。\n\n### 2. 配置 CLI 代理\n在 CLI Manager 中添加你的 CLI 代理，设置相应的参数和权限。\n\n### 3. 创建任务\n定义任务流程，将 CLI 代理添加到任务中，设置执行条件。\n\n### 4. 运行任务\n启动任务，CLI Manager 将自动执行定义好的流程。",
+      "url": "https://www.producthunt.com/products/cli-manager",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cli-manager",
+      "added": "2026-10-14"
     }
   ],
   "changelog": [
@@ -13746,6 +14036,26 @@
         "Dropstone CLI",
         "Hexis Cloud",
         "guilds.run"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-14",
+      "added": [
+        "agent-course-final-assessment",
+        "Articos MCP",
+        "Muse Wonder",
+        "OpenCode 2.0",
+        "Upsolve Row-Level Security",
+        "The Drive AI",
+        "Scape",
+        "OpenFlowKit 2",
+        "Xiryn",
+        "PostNitro for Agents",
+        "Kai",
+        "Agent Craft",
+        "CLI Manager"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

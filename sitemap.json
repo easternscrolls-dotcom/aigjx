@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T23:58:48.188Z",
+  "generatedAt": "2026-10-13T22:09:40.786Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2891,6 +2891,71 @@
       "url": "https://aiagent.72tool.com/tools/guilds-run.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-course-final-assessment.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/articos-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/muse-wonder.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/opencode-2-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/upsolve-row-level-security.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/the-drive-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/scape.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openflowkit-2.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/xiryn.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/postnitro-for-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-craft.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cli-manager.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2921,17 +2986,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 571,
+    "totalAgents": 584,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 28
+        "count": 29
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 470
+        "count": 482
       },
       {
         "id": "workflow",
@@ -2949,6 +3014,6 @@
         "count": 14
       }
     ],
-    "deadLinks": 337
+    "deadLinks": 349
   }
 }
