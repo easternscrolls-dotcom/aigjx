@@ -13027,6 +13027,300 @@
       "is_violation": false,
       "id": "cli-manager",
       "added": "2026-10-14"
+    },
+    {
+      "name": "Acyclic",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "快速构建智能代理群，适用于各种工作流",
+      "tags": [
+        "代理",
+        "工作流",
+        "自动化",
+        "开源"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据处理",
+        "业务流程管理"
+      ],
+      "tutorial": "## Acyclic 使用教程\n\n### 1. 安装 Acyclic\n\n1. 访问 [Acyclic 官网](https://www.producthunt.com/products/acyclic) 下载最新版本。\n2. 根据操作系统选择合适的安装包，进行安装。\n3. 安装完成后，启动 Acyclic。\n\n### 2. 创建代理\n\n1. 在 Acyclic 中点击 '创建代理' 按钮。\n2. 输入代理名称，选择代理类型，设置相关参数。\n3. 点击 '创建' 按钮，完成代理创建。\n\n### 3. 编排工作流\n\n1. 在 Acyclic 中选择一个代理，点击 '编辑' 按钮。\n2. 使用可视化拖拽的方式，将不同的操作步骤连接起来，形成工作流。\n3. 保存并测试工作流，确保其正常运行。\n\n### 4. 部署工作流\n\n1. 在 Acyclic 中选择一个工作流，点击 '部署' 按钮。\n2. 设置部署参数，如执行时间、触发条件等。\n3. 点击 '部署' 按钮，完成工作流部署。",
+      "url": "https://www.producthunt.com/products/acyclic",
+      "status": "dead",
+      "is_violation": false,
+      "id": "acyclic",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Make0 Brain",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理间共享记忆存储",
+      "tags": [
+        "AI",
+        "记忆",
+        "共享",
+        "代理"
+      ],
+      "scenarios": [
+        "跨平台协作",
+        "数据同步",
+        "智能助手"
+      ],
+      "tutorial": "## 使用 Make0 Brain 的步骤\n\n1. 下载并安装 Make0 Brain\n\n2. 在你的 AI 代理中配置 Make0 Brain\n\n3. 将数据存储到 Make0 Brain\n\n4. 在其他 AI 代理中访问和同步数据\n\n5. 监控数据同步和共享状态",
+      "url": "https://www.producthunt.com/products/make0-brain",
+      "status": "dead",
+      "is_violation": false,
+      "id": "make0-brain",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Hindsight 1.0 + Memlake",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理开源记忆库，学习经验",
+      "tags": [
+        "AI",
+        "记忆库",
+        "代理",
+        "开源"
+      ],
+      "scenarios": [
+        "AI模型训练",
+        "数据增强",
+        "经验学习"
+      ],
+      "tutorial": "## Hindsight 1.0 + Memlake 使用教程\n\n### 1. 安装与配置\n\n1. 下载并安装 Hindsight 1.0 和 Memlake。\n2. 配置环境变量，确保命令行可以调用这两个工具。\n3. 创建一个新的项目目录，用于存放数据和模型。\n\n### 2. 数据准备\n\n1. 收集或生成用于训练的数据集。\n2. 使用 Memlake 将数据转换为适合 AI 代理学习的格式。\n3. 将数据存储在项目目录中。\n\n### 3. 训练模型\n\n1. 使用 Hindsight 1.0 训练模型，利用 Memlake 提供的记忆库。\n2. 调整模型参数，优化学习效果。\n3. 监控训练过程，确保模型稳定收敛。\n\n### 4. 模型评估\n\n1. 使用测试数据集评估模型性能。\n2. 分析模型的优势和不足。\n3. 根据评估结果调整模型或数据集。",
+      "url": "https://www.producthunt.com/products/vectorize",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hindsight-1-0-memlake",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "EditUI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "可视化操作UI，语音指令编程",
+      "tags": [
+        "UI自动化",
+        "语音编程",
+        "无代码"
+      ],
+      "scenarios": [
+        "网页元素操作",
+        "自动化测试",
+        "界面设计"
+      ],
+      "tutorial": "## 使用EditUI进行UI自动化操作\n1. 打开EditUI应用，选择要操作的网页。\n2. 使用鼠标点击网页元素，EditUI会自动识别并记录操作。\n3. 通过语音指令或拖拽方式，设置元素的修改内容，如文本、样式等。\n4. 点击运行，EditUI将按照设置自动执行操作。\n5. 查看操作结果，如有需要可进行调试。",
+      "url": "https://www.producthunt.com/products/editui",
+      "status": "dead",
+      "is_violation": false,
+      "id": "editui",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "SlashDocs by Razorpay",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自托管HTML协作层，支持网页自动化",
+      "tags": [
+        "协作",
+        "HTML",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页内容编辑",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用SlashDocs by Razorpay教程\n\n### 1. 安装与配置\n1. 访问SlashDocs官网下载并安装。\n2. 配置环境变量，确保SlashDocs正常运行。\n3. 创建一个新的HTML项目。\n\n### 2. 创建文档\n1. 在项目中创建一个新的HTML文件。\n2. 使用SlashDocs提供的编辑器进行编辑。\n3. 保存文件，查看效果。\n\n### 3. 集成自动化\n1. 使用SlashDocs的API进行自动化操作。\n2. 通过编写脚本实现自动化流程。\n3. 集成到现有的工作流中。\n\n### 4. 分享与协作\n1. 邀请团队成员加入项目。\n2. 共享编辑权限，协同工作。\n3. 查看版本历史，追踪变更。",
+      "url": "https://www.producthunt.com/products/razorpay",
+      "status": "dead",
+      "is_violation": false,
+      "id": "slashdocs-by-razorpay",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Retriever AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "免费AI浏览器代理，寻找线索、联系、申请工作",
+      "tags": [
+        "AI",
+        "浏览器代理",
+        "线索寻找",
+        "自动化联系"
+      ],
+      "scenarios": [
+        "市场调研",
+        "招聘自动化",
+        "客户关系管理"
+      ],
+      "tutorial": "## 使用Retriever AI进行线索寻找\n\n1. 注册并登录Retriever AI平台。\n2. 创建一个新的任务，选择要搜索的网站或关键词。\n3. 设置搜索条件，如行业、职位等。\n4. 启动搜索任务，Retriever AI将自动搜索相关线索。\n5. 查看搜索结果，选择合适的线索进行联系。\n\n## 自动化联系\n\n1. 在线索列表中，选择要自动联系的线索。\n2. 设置联系模板，如邮件或短信。\n3. 启动自动化联系任务，Retriever AI将自动发送联系信息。\n4. 跟踪联系进度，查看回复情况。\n\n## 申请工作\n\n1. 在搜索结果中，找到感兴趣的工作机会。\n2. 使用Retriever AI的申请功能，自动填写申请表。\n3. 提交申请，等待回复。",
+      "url": "https://www.producthunt.com/products/rtrvr-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "retriever-ai",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Elocuenti",
+      "category": "crossborder",
+      "type": "cloud-paid",
+      "summary": "通过 WhatsApp 和 AI 助手进行跨境销售",
+      "tags": [
+        "WhatsApp",
+        "AI",
+        "跨境电商",
+        "销售"
+      ],
+      "scenarios": [
+        "WhatsApp 跨境销售",
+        "AI 助手营销",
+        "多语言客服"
+      ],
+      "tutorial": "## Elocuenti 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Elocuenti 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱登录 Elocuenti 平台。\n\n### 2. 配置 WhatsApp\n\n1. 在 Elocuenti 平台上，找到 WhatsApp 配置页面。\n2. 输入 WhatsApp 账号信息，完成绑定。\n\n### 3. 设置 AI 助手\n\n1. 在平台上选择 AI 助手功能，进行配置。\n2. 设置自动回复、多语言支持等参数。\n\n### 4. 开始销售\n\n1. 在平台上创建产品列表，设置价格和描述。\n2. 通过 WhatsApp 和 AI 助手与客户沟通，完成销售。",
+      "url": "https://www.producthunt.com/products/elocuenti",
+      "status": "dead",
+      "is_violation": false,
+      "id": "elocuenti",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Exodus for Google Cloud Run",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "将任何应用升级至 Google Cloud Run，使用您的编码代理。",
+      "tags": [
+        "Google Cloud",
+        "Cloud Run",
+        "应用升级",
+        "编码代理"
+      ],
+      "scenarios": [
+        "云原生应用部署",
+        "自动化应用迁移",
+        "DevOps 工具集成"
+      ],
+      "tutorial": "## 使用 Exodus for Google Cloud Run 的教程\n\n### 1. 注册并登录\n\n1. 访问 [Exodus 官网](https://www.producthunt.com/products/exodus-by-elim-io) 并注册账户。\n2. 使用您的账户登录系统。\n\n### 2. 选择应用\n\n1. 在 Exodus 系统中，选择您想要升级到 Cloud Run 的应用。\n2. 点击 '升级到 Cloud Run' 按钮。\n\n### 3. 配置设置\n\n1. 根据提示配置应用的部署设置，如环境变量、内存限制等。\n2. 确认配置无误后，继续下一步。\n\n### 4. 部署应用\n\n1. 系统开始将应用部署到 Google Cloud Run。\n2. 部署完成后，您可以在 Google Cloud Run 中查看和管理您的应用。\n\n### 5. 监控与维护\n\n1. 使用 Google Cloud Run 的监控工具来跟踪应用的性能。\n2. 根据需要调整配置以优化应用表现。",
+      "url": "https://www.producthunt.com/products/exodus-by-elim-io",
+      "status": "dead",
+      "is_violation": false,
+      "id": "exodus-for-google-cloud-run",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "daily.dev for agents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "发现最新动态的浏览器网页Agent",
+      "tags": [
+        "动态发现",
+        "浏览器插件",
+        "信息聚合"
+      ],
+      "scenarios": [
+        "内容创作者",
+        "市场分析师",
+        "产品经理"
+      ],
+      "tutorial": "## 使用daily.dev for agents\n\n1. 下载并安装daily.dev插件到您的浏览器。\n2. 打开插件，浏览各种主题和领域的内容推荐。\n3. 选择感兴趣的内容，点击查看详细信息和讨论。\n4. 使用插件内置的分享和收藏功能，方便后续查看。\n5. 定期检查插件更新，获取最新功能。",
+      "url": "https://www.producthunt.com/products/daily-dev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "daily-dev-for-agents",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Table Canon",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动记录笔记，可搜索的历史记录，为GM提供准备想法。",
+      "tags": [
+        "笔记",
+        "历史记录",
+        "角色扮演游戏"
+      ],
+      "scenarios": [
+        "角色扮演游戏管理",
+        "内容创作",
+        "团队协作"
+      ],
+      "tutorial": "## Table Canon 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Table Canon 官网](https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory) 进行注册。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建新笔记\n\n1. 点击页面右上角的 '+' 按钮。\n2. 输入笔记标题和内容。\n3. 选择标签以便于搜索和管理。\n\n### 3. 搜索历史记录\n\n1. 在页面右上角输入框中输入关键词。\n2. 查看搜索结果，点击查看具体内容。\n\n### 4. 预备想法\n\n1. 在笔记中添加标签 'GM想法'。\n2. 定期查看这些标签下的笔记，获取灵感。",
+      "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory",
+      "status": "dead",
+      "is_violation": false,
+      "id": "table-canon",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "WriterzRoom",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为监管行业提供治理的多智能体AI内容",
+      "tags": [
+        "AI内容生成",
+        "多智能体",
+        "监管行业",
+        "内容治理"
+      ],
+      "scenarios": [
+        "内容审核",
+        "合规写作",
+        "智能客服"
+      ],
+      "tutorial": "## 使用WriterzRoom教程\n\n1. 注册并登录\n   - 访问WriterzRoom官网，注册账号并登录。\n\n2. 创建项目\n   - 在控制台创建一个新的项目，选择合适的行业和内容类型。\n\n3. 配置智能体\n   - 根据项目需求配置智能体，包括语言、风格和内容规范。\n\n4. 生成内容\n   - 启动智能体生成内容，可实时查看生成进度。\n\n5. 审核与修改\n   - 对生成的内容进行审核，如有需要可进行修改。",
+      "url": "https://www.producthunt.com/products/writerzroom",
+      "status": "dead",
+      "is_violation": false,
+      "id": "writerzroom",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Tiden",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "编码代理意图验证工具",
+      "tags": [
+        "意图验证",
+        "编码代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "AI 交互"
+      ],
+      "tutorial": "## Tiden 使用教程\n\n### 1. 安装 Tiden\n\n从 [Tiden 官网](https://www.producthunt.com/products/tiden) 下载并安装 Tiden 软件。\n\n### 2. 配置代理\n\n打开 Tiden，配置你的代理设置，包括代理服务器地址和端口。\n\n### 3. 创建意图验证任务\n\n在 Tiden 中创建一个新的意图验证任务，输入你想要验证的代码片段。\n\n### 4. 运行验证\n\n点击运行按钮，Tiden 将自动验证代码片段的意图。\n\n### 5. 查看结果\n\n验证完成后，查看结果并分析意图验证的准确性。",
+      "url": "https://www.producthunt.com/products/tiden",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tiden",
+      "added": "2026-10-15"
+    },
+    {
+      "name": "Reason",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "高效编码代理，提升开发效率",
+      "tags": [
+        "代码代理",
+        "开发效率",
+        "自动化",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "代码开发",
+        "自动化测试",
+        "团队协作"
+      ],
+      "tutorial": "## Reason 使用教程\n\n### 1. 安装 Reason\n\n1. 访问 [Reason 官网](https://www.producthunt.com/products/dereference-the-100x-ide) 下载 Reason 安装包。\n2. 按照提示完成安装。\n\n### 2. 配置 Reason\n\n1. 打开 Reason，进行账户登录。\n2. 根据个人需求配置插件和扩展。\n\n### 3. 开始使用 Reason\n\n1. 创建一个新的项目或打开一个现有项目。\n2. 使用 Reason 插件进行代码编写和调试。\n3. 查看实时反馈和优化建议。",
+      "url": "https://www.producthunt.com/products/dereference-the-100x-ide",
+      "status": "dead",
+      "is_violation": false,
+      "id": "reason",
+      "added": "2026-10-15"
     }
   ],
   "changelog": [
@@ -14056,6 +14350,26 @@
         "Kai",
         "Agent Craft",
         "CLI Manager"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-15",
+      "added": [
+        "Acyclic",
+        "Make0 Brain",
+        "Hindsight 1.0 + Memlake",
+        "EditUI",
+        "SlashDocs by Razorpay",
+        "Retriever AI",
+        "Elocuenti",
+        "Exodus for Google Cloud Run",
+        "daily.dev for agents",
+        "Table Canon",
+        "WriterzRoom",
+        "Tiden",
+        "Reason"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T22:09:40.786Z",
+  "generatedAt": "2026-10-14T21:09:21.108Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -2956,6 +2956,71 @@
       "url": "https://aiagent.72tool.com/tools/cli-manager.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/acyclic.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/make0-brain.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hindsight-1-0-memlake.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/editui.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/slashdocs-by-razorpay.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/retriever-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/elocuenti.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/exodus-for-google-cloud-run.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/daily-dev-for-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/table-canon.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/writerzroom.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tiden.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/reason.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -2986,7 +3051,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 584,
+    "totalAgents": 597,
     "byCategory": [
       {
         "id": "local",
@@ -2996,24 +3061,24 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 482
+        "count": 492
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 47
+        "count": 48
       },
       {
         "id": "crossborder",
         "name": "跨境商用 Agent",
-        "count": 12
+        "count": 13
       },
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 14
+        "count": 15
       }
     ],
-    "deadLinks": 349
+    "deadLinks": 362
   }
 }
