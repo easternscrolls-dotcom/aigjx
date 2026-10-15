@@ -13321,6 +13321,218 @@
       "is_violation": false,
       "id": "reason",
       "added": "2026-10-15"
+    },
+    {
+      "name": "xerj",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "XERJ is the new way for AI to search data. Its autoindex cap",
+      "tags": [],
+      "scenarios": [],
+      "tutorial": "## 快速上手\n1. 访问官网了解功能与定价。\n2. 按官方文档完成注册与基础配置。\n3. 接入你的数据与场景，跑通第一个自动化任务。",
+      "url": "https://github.com/xerj-org/xerj",
+      "status": "active",
+      "is_violation": false,
+      "id": "xerj",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "m365-relay",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于 Hugging Face 的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "Hugging Face"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## m365-relay 使用教程\n\n### 1. 安装与配置\n1. 下载并安装 m365-relay。\n2. 配置浏览器插件，确保插件已启用。\n3. 在 Hugging Face 平台注册账号并登录。\n\n### 2. 创建任务\n1. 打开 m365-relay 插件界面。\n2. 选择目标网页，点击 '添加任务'。\n3. 设置任务参数，如目标元素、操作类型等。\n\n### 3. 运行任务\n1. 点击 '运行' 按钮，开始执行任务。\n2. 观察任务进度，确保任务按预期执行。\n\n### 4. 查看结果\n1. 任务完成后，查看采集到的数据。\n2. 可导出数据至本地或上传至 Hugging Face 平台。",
+      "url": "https://huggingface.co/spaces/blueprintagentic/m365-relay",
+      "status": "active",
+      "is_violation": false,
+      "id": "m365-relay",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "Backdrop",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "构建适用于任何工作流程和行业的AI同事",
+      "tags": [
+        "AI协作",
+        "工作流自动化",
+        "行业适配"
+      ],
+      "scenarios": [
+        "企业内部协作",
+        "跨部门沟通",
+        "业务流程优化"
+      ],
+      "tutorial": "## Backdrop 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Backdrop官网](https://www.producthunt.com/products/backdrop) 进行注册。\n2. 使用邮箱验证并登录。\n\n### 2. 创建AI同事\n\n1. 在仪表盘中点击创建AI同事。\n2. 选择合适的工作流程和行业模板。\n3. 配置AI同事的参数和权限。\n\n### 3. 集成与测试\n\n1. 将AI同事集成到现有工作流程中。\n2. 进行测试以确保其功能正常。\n3. 根据反馈调整AI同事的设置。\n\n### 4. 运行与监控\n\n1. 启动AI同事并监控其运行状态。\n2. 通过仪表盘查看AI同事的工作进度和效果。\n3. 根据需要调整AI同事的配置。",
+      "url": "https://www.producthunt.com/products/backdrop",
+      "status": "dead",
+      "is_violation": false,
+      "id": "backdrop",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "SuperLocalMemory",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地化Agent内存管理工具",
+      "tags": [
+        "内存管理",
+        "本地化",
+        "Agent"
+      ],
+      "scenarios": [
+        "本地化应用开发",
+        "数据存储",
+        "内存优化"
+      ],
+      "tutorial": "## SuperLocalMemory 使用教程\n\n### 1. 安装与配置\n1. 下载 SuperLocalMemory 的最新版本。\n2. 解压文件并放置到项目目录中。\n3. 在项目中引入 SuperLocalMemory 的库文件。\n\n### 2. 初始化内存\n1. 在代码中创建 SuperLocalMemory 的实例。\n2. 调用实例的初始化方法，设置内存大小和存储路径。\n\n### 3. 使用内存\n1. 使用提供的 API 进行数据的存取操作。\n2. 确保在数据使用完毕后释放内存。\n\n### 4. 性能监控\n1. 使用内置的监控工具查看内存使用情况。\n2. 根据监控结果调整内存配置。",
+      "url": "https://www.producthunt.com/products/superlocalmemory-v2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "superlocalmemory",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "Lleverage",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "物理经济领域的自主后台办公系统",
+      "tags": [
+        "自动化",
+        "后台管理",
+        "工作流"
+      ],
+      "scenarios": [
+        "企业后台管理",
+        "业务流程自动化",
+        "跨部门协作"
+      ],
+      "tutorial": "## Lleverage 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Lleverage 官网，点击 '注册' 或使用已有账号登录。\n\n### 2. 创建工作流\n\n2. 在控制台选择 '创建工作流'，选择合适的模板或从零开始设计。\n\n### 3. 配置工作流\n\n3. 拖拽组件到画布，配置参数和逻辑，完成工作流设计。\n\n### 4. 部署与监控\n\n4. 部署工作流并监控运行状态，确保流程顺畅执行。",
+      "url": "https://www.producthunt.com/products/lleverage",
+      "status": "dead",
+      "is_violation": false,
+      "id": "lleverage",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "withHuman",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理人工审核层，开源",
+      "tags": [
+        "AI",
+        "审核",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI 生成内容审核",
+        "自动化工作流程"
+      ],
+      "tutorial": "## 使用 WithHuman 进行人工审核\n\n1. 注册并登录 WithHuman 平台\n\n2. 创建一个新的审核流程，选择 AI 代理和人工审核的步骤\n\n3. 配置审核规则和人工审核的响应时间\n\n4. 将审核流程集成到现有的 AI 代理系统中\n\n5. 监控审核流程并优化审核规则",
+      "url": "https://www.producthunt.com/products/withhuman",
+      "status": "dead",
+      "is_violation": false,
+      "id": "withhuman",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "OpenMuse",
+      "category": "local",
+      "type": "open-source",
+      "summary": "开源自托管个人助理，适用于各种应用场景",
+      "tags": [
+        "开源",
+        "个人助理",
+        "自托管",
+        "自动化"
+      ],
+      "scenarios": [
+        "个人助理",
+        "企业服务",
+        "自动化办公"
+      ],
+      "tutorial": "## OpenMuse 使用教程\n\n### 1. 安装与配置\n1. 下载 OpenMuse 安装包。\n2. 解压安装包并运行安装程序。\n3. 按照提示完成配置，包括设置数据库和用户权限。\n\n### 2. 创建新任务\n1. 登录 OpenMuse 控制台。\n2. 点击 '创建任务' 按钮。\n3. 输入任务名称和描述，选择任务类型和触发条件。\n\n### 3. 运行任务\n1. 点击 '运行任务' 按钮。\n2. 观察任务执行状态，确保任务按预期运行。\n\n### 4. 监控与维护\n1. 定期检查任务日志，确保系统稳定运行。\n2. 根据需要调整任务配置，优化性能。",
+      "url": "https://www.producthunt.com/products/copilotkit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openmuse",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "Navige",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能AI代理成本控制与支出管理",
+      "tags": [
+        "AI代理",
+        "成本控制",
+        "支出管理"
+      ],
+      "scenarios": [
+        "企业财务管理",
+        "成本分析",
+        "预算监控"
+      ],
+      "tutorial": "## Navige 使用教程\n\n### 1. 注册与登录\n\n1. 访问Navige官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录Navige平台。\n\n### 2. 创建代理\n\n1. 登录后，点击左侧菜单的'创建代理'按钮。\n2. 输入代理名称，选择代理类型，配置相关参数。\n3. 点击'创建'按钮，等待代理创建完成。\n\n### 3. 配置任务\n\n1. 在代理列表中找到刚刚创建的代理。\n2. 点击代理名称，进入代理详情页面。\n3. 在任务配置区域，添加需要执行的任务，如数据采集、自动化操作等。\n4. 点击'保存'按钮，保存任务配置。\n\n### 4. 运行与监控\n\n1. 在代理详情页面，点击'运行'按钮，启动代理任务。\n2. 在监控页面，实时查看代理运行状态和数据采集结果。\n3. 如有异常，可以暂停或停止任务。",
+      "url": "https://www.producthunt.com/products/navige",
+      "status": "dead",
+      "is_violation": false,
+      "id": "navige",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "Afterparty",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "会议成果自动化操作工具",
+      "tags": [
+        "自动化",
+        "会议",
+        "工作流"
+      ],
+      "scenarios": [
+        "会议管理",
+        "团队协作",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Afterparty 使用教程\n\n1. 注册并登录Afterparty平台。\n2. 创建一个新的工作流，选择要自动化的任务类型，如会议记录、任务分配等。\n3. 配置任务细节，如指定参与者、时间等。\n4. 设置触发条件，如会议结束后自动执行。\n5. 保存并启动工作流，Afterparty将自动执行配置的任务。",
+      "url": "https://www.producthunt.com/products/afterparty",
+      "status": "dead",
+      "is_violation": false,
+      "id": "afterparty",
+      "added": "2026-10-16"
+    },
+    {
+      "name": "Shrine",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为您的网页代理提供家园",
+      "tags": [
+        "网页代理",
+        "自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "网页操作自动化"
+      ],
+      "tutorial": "## Shrine 使用教程\n\n### 1. 安装 Shrine\n\n首先，您需要从 Shrine 的官方网站下载并安装 Shrine。\n\n1. 访问 [Shrine 官网](https://www.producthunt.com/products/shrine-2)\n2. 下载适合您操作系统的 Shrine 安装包\n3. 按照提示完成安装\n\n### 2. 创建代理\n\n安装完成后，打开 Shrine 并创建一个新的代理。\n\n1. 在 Shrine 界面中点击 '创建代理'\n2. 输入代理名称和描述\n3. 点击 '创建'\n\n### 3. 配置代理\n\n创建代理后，您需要配置代理以执行特定任务。\n\n1. 在代理详情页面中，选择您想要执行的任务类型\n2. 配置任务参数，如 URL、表单数据等\n3. 点击 '保存'\n\n### 4. 运行代理\n\n配置完成后，您可以运行代理以执行任务。\n\n1. 在代理详情页面中，点击 '运行'\n2. 观察代理执行任务并获取结果\n3. 如果需要，您可以暂停或停止代理",
+      "url": "https://www.producthunt.com/products/shrine-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "shrine",
+      "added": "2026-10-16"
     }
   ],
   "changelog": [
@@ -14370,6 +14582,23 @@
         "WriterzRoom",
         "Tiden",
         "Reason"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-16",
+      "added": [
+        "xerj",
+        "m365-relay",
+        "Backdrop",
+        "SuperLocalMemory",
+        "Lleverage",
+        "withHuman",
+        "OpenMuse",
+        "Navige",
+        "Afterparty",
+        "Shrine"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

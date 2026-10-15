@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:09:21.108Z",
+  "generatedAt": "2026-10-15T20:45:02.834Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3021,6 +3021,56 @@
       "url": "https://aiagent.72tool.com/tools/reason.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/xerj.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/m365-relay.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/backdrop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/superlocalmemory.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lleverage.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/withhuman.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openmuse.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/navige.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/afterparty.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/shrine.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3051,22 +3101,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 597,
+    "totalAgents": 607,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 29
+        "count": 31
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 492
+        "count": 496
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 48
+        "count": 51
       },
       {
         "id": "crossborder",
@@ -3076,9 +3126,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 15
+        "count": 16
       }
     ],
-    "deadLinks": 362
+    "deadLinks": 370
   }
 }
