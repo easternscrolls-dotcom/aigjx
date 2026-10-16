@@ -13533,6 +13533,341 @@
       "is_violation": false,
       "id": "shrine",
       "added": "2026-10-16"
+    },
+    {
+      "name": "AiSnsioAgents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于 Hugging Face 的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "网页内容管理"
+      ],
+      "tutorial": "## 使用 AiSnsioAgents 进行网页自动化\n\n### 1. 安装与配置\n\n1. 下载并安装 AiSnsioAgents。\n2. 配置浏览器插件，确保插件与浏览器兼容。\n3. 在插件中设置目标网页和自动化任务。\n\n### 2. 编写自动化脚本\n\n1. 使用提供的 API 和函数编写自动化脚本。\n2. 脚本应包含目标网页的定位、数据采集、操作等逻辑。\n3. 测试脚本，确保其按预期工作。\n\n### 3. 运行与监控\n\n1. 运行自动化任务。\n2. 监控任务执行状态，确保任务顺利完成。\n3. 根据需要调整脚本或配置。",
+      "url": "https://huggingface.co/spaces/AisnsioDev/AiSnsioAgents",
+      "status": "active",
+      "is_violation": false,
+      "id": "aisnsioagents",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "mlebench-aq04-agent-level30-lite14-gpt6-luna-medium-20261016",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端浏览器网页自动化工具，支持复杂操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "无代码"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 创建任务\n\n1. 登录mlebench-aq04-agent-level30-lite14-gpt6-luna-medium-20261016平台。\n2. 点击创建新任务。\n3. 选择任务类型，如网页数据采集或自动化测试。\n\n### 2. 编排步骤\n\n1. 在步骤编辑器中，拖拽所需操作到工作流。\n2. 设置操作参数，如目标网页、数据字段等。\n3. 保存编排好的步骤。\n\n### 3. 运行任务\n\n1. 在任务列表中找到已创建的任务。\n2. 点击运行任务。\n3. 观察任务执行状态，确保操作正确无误。\n\n### 4. 查看结果\n\n1. 任务完成后，查看采集到的数据或测试结果。\n2. 可导出数据到本地或上传到云端存储。",
+      "url": "https://huggingface.co/spaces/jzshared/mlebench-aq04-agent-level30-lite14-gpt6-luna-medium-20261016",
+      "status": "active",
+      "is_violation": false,
+      "id": "mlebench-aq04-agent-level30-lite14-gpt6-luna-medium-20261016",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Zero-Auth-Agent-Primitives",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "无需认证的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "无认证"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## 使用Zero-Auth-Agent-Primitives进行网页自动化\n\n### 1. 安装和配置\n\n1. 下载Zero-Auth-Agent-Primitives的源代码。\n2. 配置环境变量，确保Python环境已安装。\n3. 安装必要的依赖库，如selenium。\n\n### 2. 创建自动化脚本\n\n1. 导入Zero-Auth-Agent-Primitives库。\n2. 创建一个Agent实例。\n3. 使用Agent实例进行网页操作，如打开网页、点击按钮、填写表单。\n\n### 3. 运行和调试\n\n1. 运行脚本，观察Agent的行为。\n2. 根据需要调整脚本，优化自动化流程。\n3. 使用日志记录功能，方便调试和问题追踪。",
+      "url": "https://huggingface.co/spaces/macmacmacmac/Zero-Auth-Agent-Primitives",
+      "status": "active",
+      "is_violation": false,
+      "id": "zero-auth-agent-primitives",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Palomino",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "并行运行的超快工作空间",
+      "tags": [
+        "并行处理",
+        "工作流",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "任务自动化",
+        "流程优化"
+      ],
+      "tutorial": "## Palomino 使用教程\n\n1. 注册并登录Palomino平台。\n2. 创建一个新的工作空间，配置所需的并行任务和资源。\n3. 上传或导入任务脚本，设置任务执行参数。\n4. 启动工作空间，监控任务执行状态。\n5. 任务完成后，下载结果或查看报告。",
+      "url": "https://www.producthunt.com/products/palomino",
+      "status": "dead",
+      "is_violation": false,
+      "id": "palomino",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Dottr",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "合同起草、风险标记与签署",
+      "tags": [
+        "合同管理",
+        "自动化",
+        "风险控制"
+      ],
+      "scenarios": [
+        "合同起草",
+        "风险审查",
+        "电子签名"
+      ],
+      "tutorial": "## Dottr 使用教程\n\n### 1. 创建合同\n\n1. 登录Dottr平台。\n2. 选择合同类型，填写合同基本信息。\n3. 使用拖拽功能添加条款和条件。\n\n### 2. 风险标记\n\n1. 在合同内容中，对潜在风险进行标记。\n2. 设置风险等级和描述。\n3. 保存风险标记。\n\n### 3. 签署合同\n\n1. 发送合同给相关方。\n2. 设置签署流程和权限。\n3. 跟踪签署进度，直至合同签署完成。",
+      "url": "https://www.producthunt.com/products/dottr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dottr",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Tetriz Harness",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "团队学习成果转化为通用配置",
+      "tags": [
+        "团队协作",
+        "知识共享",
+        "工作流"
+      ],
+      "scenarios": [
+        "企业内部培训",
+        "知识管理",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 Tetriz Harness 教程\n\n### 1. 注册与登录\n\n1. 访问 Tetriz Harness 官网并注册账号。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建新项目\n\n1. 在首页点击 '创建新项目'。\n2. 输入项目名称并选择项目类型。\n3. 点击 '创建'。\n\n### 3. 添加团队成员\n\n1. 在项目设置中找到 '团队成员'。\n2. 输入团队成员的邮箱并邀请他们加入。\n3. 等待团队成员接受邀请。\n\n### 4. 创建知识库\n\n1. 在项目内点击 '创建知识库'。\n2. 选择知识库类型并填写相关信息。\n3. 点击 '创建'。\n\n### 5. 分享与协作\n\n1. 将知识库分享给团队成员。\n2. 在知识库中编辑和更新内容。\n3. 团队成员可以实时查看和协作。",
+      "url": "https://www.producthunt.com/products/tetriz-harness",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tetriz-harness",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Atelier",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 编码代理的工作室",
+      "tags": [
+        "AI 编码",
+        "代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码生成",
+        "自动化测试",
+        "开发辅助"
+      ],
+      "tutorial": "## Atelier 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Atelier 官网并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 创建项目\n\n1. 在首页点击创建新项目。\n2. 输入项目名称并选择项目类型。\n\n### 3. 编写代码\n\n1. 在代码编辑器中编写代码。\n2. 使用 Atelier 提供的 AI 功能辅助开发。\n\n### 4. 部署与运行\n\n1. 点击部署按钮，选择部署环境。\n2. 部署完成后，点击运行按钮测试代码。\n\n### 5. 查看结果\n\n1. 查看运行结果，根据需要调整代码。",
+      "url": "https://www.producthunt.com/products/atelier-9",
+      "status": "dead",
+      "is_violation": false,
+      "id": "atelier",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Neophyte",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理自动注册和入职产品",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "注册",
+        "入职"
+      ],
+      "scenarios": [
+        "产品测试",
+        "用户研究",
+        "自动化测试"
+      ],
+      "tutorial": "## Neophyte 使用教程\n\n### 1. 创建新代理\n\n1. 打开 Neophyte，点击 'New Agent' 创建一个新的AI代理。\n2. 输入代理名称和描述，点击 'Create'。\n\n### 2. 配置代理\n\n1. 在代理详情页，配置代理的登录信息，如用户名和密码。\n2. 设置代理的浏览器行为，如自动填写表单、点击按钮等。\n\n### 3. 运行代理\n\n1. 点击 'Run' 按钮开始运行代理。\n2. 观察代理的运行过程，确保其按照预期执行任务。\n\n### 4. 分析结果\n\n1. 运行完成后，查看代理的运行日志和结果。\n2. 根据需要调整代理配置，优化其行为。",
+      "url": "https://www.producthunt.com/products/neophyte",
+      "status": "dead",
+      "is_violation": false,
+      "id": "neophyte",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Parallax",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "集中管理所有运行中的编码代理。",
+      "tags": [
+        "自动化",
+        "代理管理",
+        "代码执行",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "网页自动化"
+      ],
+      "tutorial": "## Parallax 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Parallax 官网](https://www.producthunt.com/products/parallax-5) 进行注册。\n2. 使用注册信息登录账户。\n\n### 2. 创建新代理\n\n1. 在控制面板中点击 '创建代理'。\n2. 输入代理名称和配置参数。\n3. 点击 '创建'。\n\n### 3. 运行代理\n\n1. 选择已创建的代理。\n2. 点击 '运行' 开始执行任务。\n3. 观察代理执行状态。\n\n### 4. 监控与调试\n\n1. 在代理运行过程中，可以查看日志和监控状态。\n2. 如有错误，可进行调试和修正配置。",
+      "url": "https://www.producthunt.com/products/parallax-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "parallax",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Toad",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "指向任意您拥有的机器的代理。",
+      "tags": [
+        "网页代理",
+        "远程访问",
+        "自动化"
+      ],
+      "scenarios": [
+        "远程桌面访问",
+        "自动化测试",
+        "远程管理"
+      ],
+      "tutorial": "## Toad 使用教程\n\n1. 下载并安装 Toad。\n2. 打开 Toad 应用，输入您想要访问的机器的 IP 地址和端口。\n3. 点击连接，即可开始远程访问。\n4. 使用 Toad 的功能，如文件传输、远程桌面等。\n\n## 注意事项\n\n- 确保目标机器已开启远程访问服务。\n- 确保网络连接稳定。\n- 注意保护您的账户信息。",
+      "url": "https://www.producthunt.com/products/toad-4",
+      "status": "dead",
+      "is_violation": false,
+      "id": "toad",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Nemotron 3.5 Super VL",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "NVIDIA开源的多模态模型，用于专业网页Agent。",
+      "tags": [
+        "NVIDIA",
+        "多模态",
+        "网页Agent",
+        "开源"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Nemotron 3.5 Super VL进行网页自动化\n\n### 1. 安装Nemotron 3.5 Super VL\n\n- 下载Nemotron 3.5 Super VL安装包。\n- 按照安装指南完成安装。\n\n### 2. 配置Nemotron 3.5 Super VL\n\n- 打开Nemotron 3.5 Super VL应用程序。\n- 配置网络连接和代理设置（如果需要）。\n\n### 3. 创建自动化任务\n\n- 选择目标网页。\n- 使用拖拽方式创建自动化步骤，如点击、输入等。\n\n### 4. 运行和测试\n\n- 运行自动化任务。\n- 观察并测试自动化流程是否按预期执行。\n\n### 5. 保存和分享\n\n- 保存自动化任务。\n- 与团队成员分享或部署到生产环境。",
+      "url": "https://www.producthunt.com/products/nvidia",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nemotron-3-5-super-vl",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Agent Vault",
+      "category": "tools",
+      "type": "cloud-paid",
+      "summary": "为您的 Agent 提供超级能力",
+      "tags": [
+        "自动化",
+        "AI",
+        "代理管理"
+      ],
+      "scenarios": [
+        "代理监控",
+        "数据管理",
+        "自动化任务"
+      ],
+      "tutorial": "## Agent Vault 使用教程\n\n### 1. 创建代理账户\n\n1. 访问 Agent Vault 官网并注册账户。\n2. 完成注册后，进入控制台创建新的代理账户。\n3. 设置代理账户的基本信息，如名称、描述等。\n\n### 2. 配置代理任务\n\n1. 在控制台中，选择要配置的任务类型。\n2. 根据任务需求，配置任务参数，如目标网站、操作步骤等。\n3. 设置任务执行的时间表和频率。\n\n### 3. 监控任务执行\n\n1. 在控制台实时监控任务执行状态。\n2. 查看任务日志，了解任务执行详情。\n3. 如有异常，及时调整任务配置。\n\n### 4. 数据分析\n\n1. 分析任务执行结果，获取有价值的数据。\n2. 利用 Agent Vault 的数据分析功能，挖掘数据价值。\n3. 改进任务配置，提高工作效率。",
+      "url": "https://www.producthunt.com/products/agent-vault-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-vault",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Scalebrowser",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的浏览器能力",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据抓取",
+        "RPA"
+      ],
+      "tutorial": "## Scalebrowser 使用教程\n\n### 1. 安装 Scalebrowser\n\n- 访问 [Scalebrowser 官网](https://www.producthunt.com/products/scalebrowser) 下载最新版本。\n- 按照提示完成安装。\n\n### 2. 创建新任务\n\n- 打开 Scalebrowser，点击 '新建任务'。\n- 输入任务名称，选择任务类型（如网页抓取、自动化测试等）。\n\n### 3. 编写任务脚本\n\n- 在脚本编辑器中，使用 Scalebrowser 提供的 API 编写任务脚本。\n- 脚本可以包括网页访问、数据抓取、条件判断等操作。\n\n### 4. 运行任务\n\n- 点击 '运行' 按钮开始执行任务。\n- 观察任务执行状态，确保任务按预期执行。\n\n### 5. 查看结果\n\n- 任务完成后，查看抓取的数据或测试结果。\n- 如有需要，可以对脚本进行优化。",
+      "url": "https://www.producthunt.com/products/scalebrowser",
+      "status": "dead",
+      "is_violation": false,
+      "id": "scalebrowser",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "Harness by Autonomous",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "统一管理所有自动化任务",
+      "tags": [
+        "自动化",
+        "任务管理",
+        "工作流",
+        "云服务"
+      ],
+      "scenarios": [
+        "企业级自动化",
+        "团队协作",
+        "复杂工作流管理"
+      ],
+      "tutorial": "## 使用 Harness by Autonomous 进行自动化任务管理\n\n1. 注册并登录 Harness by Autonomous\n\n2. 创建一个新的工作流项目，并定义任务和步骤\n\n3. 配置任务执行的环境和资源\n\n4. 部署工作流并监控执行状态\n\n5. 根据需要调整和优化工作流",
+      "url": "https://www.producthunt.com/products/harness-by-autonomous",
+      "status": "dead",
+      "is_violation": false,
+      "id": "harness-by-autonomous",
+      "added": "2026-10-17"
+    },
+    {
+      "name": "BOSS Console",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "轻量级OS，为持续运行代理提供环境",
+      "tags": [
+        "代理",
+        "自动化",
+        "持续运行"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## BOSS Console 使用教程\n\n### 1. 安装与启动\n\n1. 下载 BOSS Console 安装包。\n2. 解压安装包并运行 BOSS Console。\n3. 确保所有依赖项已正确安装。\n\n### 2. 创建代理\n\n1. 在 BOSS Console 中点击 '创建代理'。\n2. 输入代理名称和描述。\n3. 选择代理类型和配置参数。\n\n### 3. 编写脚本\n\n1. 在代理编辑器中编写脚本。\n2. 使用内置的 API 和函数进行网页操作。\n3. 保存并测试脚本。\n\n### 4. 运行代理\n\n1. 在代理列表中选择要运行的代理。\n2. 点击 '运行' 按钮。\n3. 观察代理的运行状态和输出日志。",
+      "url": "https://www.producthunt.com/products/boss-console",
+      "status": "dead",
+      "is_violation": false,
+      "id": "boss-console",
+      "added": "2026-10-17"
     }
   ],
   "changelog": [
@@ -14599,6 +14934,28 @@
         "Navige",
         "Afterparty",
         "Shrine"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-17",
+      "added": [
+        "AiSnsioAgents",
+        "mlebench-aq04-agent-level30-lite14-gpt6-luna-medium-20261016",
+        "Zero-Auth-Agent-Primitives",
+        "Palomino",
+        "Dottr",
+        "Tetriz Harness",
+        "Atelier",
+        "Neophyte",
+        "Parallax",
+        "Toad",
+        "Nemotron 3.5 Super VL",
+        "Agent Vault",
+        "Scalebrowser",
+        "Harness by Autonomous",
+        "BOSS Console"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

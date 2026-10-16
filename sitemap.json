@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T20:45:02.834Z",
+  "generatedAt": "2026-10-16T20:18:42.595Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3071,6 +3071,81 @@
       "url": "https://aiagent.72tool.com/tools/shrine.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/aisnsioagents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mlebench-aq04-agent-level30-lite14-gpt6-luna-medium-20261016.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/zero-auth-agent-primitives.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/palomino.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dottr.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tetriz-harness.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/atelier.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/neophyte.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/parallax.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/toad.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nemotron-3-5-super-vl.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-vault.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/scalebrowser.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/harness-by-autonomous.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/boss-console.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3101,7 +3176,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 607,
+    "totalAgents": 622,
     "byCategory": [
       {
         "id": "local",
@@ -3111,12 +3186,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 496
+        "count": 506
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 51
+        "count": 55
       },
       {
         "id": "crossborder",
@@ -3126,9 +3201,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 16
+        "count": 17
       }
     ],
-    "deadLinks": 370
+    "deadLinks": 382
   }
 }
