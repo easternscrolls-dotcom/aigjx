@@ -3203,7 +3203,7 @@
       ],
       "tutorial": "## 使用 Agent-Artifacts 进行网页操作\n1. 访问 Hugging Face 官网，下载 Agent-Artifacts。\n2. 在浏览器中安装 Agent-Artifacts 扩展。\n3. 打开目标网页，使用扩展提供的工具进行操作。\n4. 通过配置文件定义操作步骤，如点击、填写表单等。\n5. 运行配置文件，观察网页操作结果。",
       "url": "https://huggingface.co/spaces/lvwerra/agent-artifacts",
-      "status": "active",
+      "status": "dead",
       "is_violation": false,
       "id": "agent-artifacts",
       "added": "2026-08-25"
@@ -13868,6 +13868,141 @@
       "is_violation": false,
       "id": "boss-console",
       "added": "2026-10-17"
+    },
+    {
+      "name": "orca",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端运行，多平台协作的智能代理管理平台",
+      "tags": [
+        "智能代理",
+        "云端协作",
+        "多平台支持"
+      ],
+      "scenarios": [
+        "团队协作",
+        "远程工作",
+        "代码代理管理"
+      ],
+      "tutorial": "## Orca 使用教程\n\n### 1. 注册与登录\n1. 访问 Orca 官网进行注册。\n2. 使用邮箱验证并登录账号。\n\n### 2. 创建代理\n1. 在 Orca 控制台中点击创建代理。\n2. 选择所需的代理类型，如 Grok Bot 或 Claude Code。\n3. 配置代理参数并保存。\n\n### 3. 运行代理\n1. 在代理列表中找到已创建的代理。\n2. 点击运行，开始执行代理任务。\n3. 查看代理运行状态和输出结果。\n\n### 4. 协作与共享\n1. 将代理分享给团队成员。\n2. 在团队项目中协作使用代理。\n3. 管理代理权限和访问控制。",
+      "url": "https://github.com/stablyai/orca",
+      "status": "active",
+      "is_violation": false,
+      "id": "orca",
+      "added": "2026-10-18"
+    },
+    {
+      "name": "gym-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码实现网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "Hugging Face"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动化测试",
+        "网页内容管理"
+      ],
+      "tutorial": "## 使用gym-agent进行网页自动化\n\n### 1. 安装与启动\n\n1. 下载并安装gym-agent。\n2. 打开gym-agent应用程序。\n3. 点击'新建项目'，创建一个新的自动化任务。\n\n### 2. 编写自动化脚本\n\n1. 在脚本编辑器中，选择要操作的网页元素。\n2. 设置元素的点击、输入等操作。\n3. 保存并运行脚本。\n\n### 3. 监控与调试\n\n1. 观察自动化任务执行过程。\n2. 如有错误，查看错误日志进行调试。\n3. 优化脚本，提高自动化效率。\n\n### 4. 部署与运行\n\n1. 将自动化任务部署到服务器。\n2. 定时运行或手动触发自动化任务。\n3. 查看任务执行结果。",
+      "url": "https://huggingface.co/spaces/koyohashi/gym-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "gym-agent",
+      "added": "2026-10-18"
+    },
+    {
+      "name": "Craft Agents",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "强大的浏览器网页Agent，提供优质用户体验",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "无代码"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "网页自动化测试"
+      ],
+      "tutorial": "## 使用Craft Agents进行网页自动化\n\n1. 注册并登录Craft Agents平台\n\n2. 创建一个新的Agent项目，选择目标网页\n\n3. 使用拖拽式界面设计自动化流程，如点击、填写表单等\n\n4. 预览并测试自动化流程，确保无误后部署\n\n5. 通过Craft Agents平台监控和运行自动化任务",
+      "url": "https://www.producthunt.com/products/craft-agents",
+      "status": "dead",
+      "is_violation": false,
+      "id": "craft-agents",
+      "added": "2026-10-18"
+    },
+    {
+      "name": "Step 5 Preview",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "提供600B大模型，训练用于长期运行的网页Agent",
+      "tags": [
+        "模型",
+        "训练",
+        "网页Agent"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Step 5 Preview 使用教程\n\n1. 访问 [Step 5 Preview](https://www.producthunt.com/products/step-3-5-flash?utm_campaign=producthunt-atom-posts-feed&utm_medium=rss-feed&utm_source=producthunt-atom-posts-feed) 官网\n2. 下载并安装 Step 5 Preview 软件\n3. 打开软件，选择需要训练的网页Agent\n4. 设置训练参数，如模型大小、训练时长等\n5. 点击开始训练，等待训练完成\n6. 训练完成后，查看训练结果，评估网页Agent的性能",
+      "url": "https://www.producthunt.com/products/step-3-5-flash",
+      "status": "dead",
+      "is_violation": false,
+      "id": "step-5-preview",
+      "added": "2026-10-18"
+    },
+    {
+      "name": "Notion: Context for your agents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理上下文切换，无需重复解释工作内容",
+      "tags": [
+        "AI 代理",
+        "工作流",
+        "自动化"
+      ],
+      "scenarios": [
+        "跨平台协作",
+        "团队沟通",
+        "自动化工作流程"
+      ],
+      "tutorial": "## 使用 Notion: Context for your agents 教程\n\n### 1. 安装 Notion\n\n1. 访问 Notion 官网并注册账号。\n2. 下载并安装 Notion 应用到您的设备上。\n3. 登录您的 Notion 账号，开始使用。\n\n### 2. 创建 AI 代理\n\n1. 在 Notion 中创建一个新的页面或文档。\n2. 在页面顶部，点击 '+' 号添加一个 AI 代理组件。\n3. 选择您想要使用的 AI 代理类型，如聊天机器人、任务管理器等。\n\n### 3. 配置 AI 代理\n\n1. 在 AI 代理组件中，填写相关信息，如代理名称、描述等。\n2. 配置代理的权限和功能，如自动回复、任务分配等。\n3. 保存配置。\n\n### 4. 使用 AI 代理\n\n1. 在 Notion 中，当需要使用 AI 代理时，只需点击相应的组件。\n2. AI 代理将自动执行您配置的任务，并更新页面内容。\n3. 您可以实时查看 AI 代理的工作进度和结果。",
+      "url": "https://www.producthunt.com/products/notion",
+      "status": "dead",
+      "is_violation": false,
+      "id": "notion-context-for-your-agents",
+      "added": "2026-10-18"
+    },
+    {
+      "name": "Ultracite v8",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代码检查与格式化工具，提升开发效率",
+      "tags": [
+        "代码检查",
+        "格式化",
+        "开发工具",
+        "自动化"
+      ],
+      "scenarios": [
+        "前端开发",
+        "后端开发",
+        "代码审查"
+      ],
+      "tutorial": "## 使用Ultracite v8进行代码检查与格式化\n\n### 1. 安装Ultracite v8\n\n- 访问Ultracite v8的官网或GitHub仓库下载安装包。\n- 根据操作系统选择合适的安装方式，如使用npm或pip进行安装。\n\n### 2. 配置编辑器插件\n\n- 在你的代码编辑器中搜索并安装Ultracite v8插件。\n- 确保插件已正确配置，并加载你的项目。\n\n### 3. 检查代码\n\n- 在编辑器中打开你的代码文件。\n- Ultracite v8会自动检查代码，并在侧边栏显示错误和警告信息。\n\n### 4. 格式化代码\n\n- 选择需要格式化的代码区域。\n- 使用编辑器中的快捷键或菜单命令调用Ultracite v8的格式化功能。\n\n### 5. 修复问题\n\n- 根据侧边栏的错误信息，修复代码中的问题。\n- 重复检查和格式化过程，直到所有问题得到解决。",
+      "url": "https://www.producthunt.com/products/ultracite",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ultracite-v8",
+      "added": "2026-10-18"
     }
   ],
   "changelog": [
@@ -14958,6 +15093,19 @@
         "BOSS Console"
       ],
       "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-18",
+      "added": [
+        "orca",
+        "gym-agent",
+        "Craft Agents",
+        "Step 5 Preview",
+        "Notion: Context for your agents",
+        "Ultracite v8"
+      ],
+      "invalidated": 1,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
     }
   ]

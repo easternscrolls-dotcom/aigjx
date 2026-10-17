@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:18:42.595Z",
+  "generatedAt": "2026-10-17T19:52:55.062Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3146,6 +3146,36 @@
       "url": "https://aiagent.72tool.com/tools/boss-console.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/orca.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gym-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/craft-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/step-5-preview.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/notion-context-for-your-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ultracite-v8.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3176,7 +3206,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 622,
+    "totalAgents": 628,
     "byCategory": [
       {
         "id": "local",
@@ -3186,7 +3216,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 506
+        "count": 512
       },
       {
         "id": "workflow",
@@ -3204,6 +3234,6 @@
         "count": 17
       }
     ],
-    "deadLinks": 382
+    "deadLinks": 387
   }
 }
