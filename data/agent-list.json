@@ -14003,6 +14003,97 @@
       "is_violation": false,
       "id": "ultracite-v8",
       "added": "2026-10-18"
+    },
+    {
+      "name": "identity-agent-demo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页身份验证自动化工具",
+      "tags": [
+        "身份验证",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页登录自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Identity-Agent-Demo 进行网页身份验证自动化\n\n### 1. 安装和配置\n\n1. 下载并安装 Identity-Agent-Demo。\n2. 配置浏览器插件，确保其与你的网页浏览器兼容。\n3. 打开目标网页，并启用插件。\n\n### 2. 创建任务\n\n1. 在插件界面中，选择创建新的任务。\n2. 输入用户名和密码，以及其他必要的身份验证信息。\n3. 设置任务触发条件，如页面加载完成或特定元素出现。\n\n### 3. 运行和监控\n\n1. 点击运行任务，插件将自动填写表单并提交。\n2. 监控任务执行过程，确保自动化流程无误。\n3. 检查任务结果，确保身份验证成功。",
+      "url": "https://huggingface.co/spaces/infinite-audience/identity-agent-demo",
+      "status": "active",
+      "is_violation": false,
+      "id": "identity-agent-demo",
+      "added": "2026-10-19"
+    },
+    {
+      "name": "Gravity Notes",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI协作笔记管理工具",
+      "tags": [
+        "笔记",
+        "AI",
+        "协作",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "团队协作",
+        "个人笔记管理",
+        "AI辅助写作"
+      ],
+      "tutorial": "## 使用Gravity Notes进行笔记管理\n1. 下载并安装Gravity Notes插件到您的浏览器。\n2. 打开浏览器，访问任何需要记录笔记的网页。\n3. 点击插件图标，开始创建或编辑笔记。\n4. 使用内置的AI功能，如自动摘要、关键词提取等，提升笔记效率。\n5. 将笔记同步到云端，方便团队成员共享和协作。",
+      "url": "https://www.producthunt.com/products/gravity-notes-for-mac",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gravity-notes",
+      "added": "2026-10-19"
+    },
+    {
+      "name": "shim-cli",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "查看编码代理发送的内容，隐藏敏感信息。",
+      "tags": [
+        "监控",
+        "安全",
+        "隐私",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "网页内容审查",
+        "数据安全监控",
+        "隐私保护"
+      ],
+      "tutorial": "## Shim-cli 使用教程\n\n### 1. 安装 Shim-cli\n\n首先，您需要在您的计算机上安装 Node.js 和 npm。然后，通过以下命令安装 Shim-cli:\n\n```bash\nnpm install -g shim-cli\n```\n\n### 2. 配置 Shim-cli\n\n安装完成后，您需要配置 Shim-cli，以连接到您的代理服务器。运行以下命令来配置您的代理设置：\n\n```bash\nshim-cli config\n```\n\n按照提示输入您的代理服务器地址和端口。\n\n### 3. 监控网页内容\n\n配置完成后，您可以使用以下命令来监控指定网页的内容：\n\n```bash\nshim-cli monitor <url>\n```\n\n这将启动一个监控任务，并显示代理发送的内容。\n\n### 4. 隐藏敏感信息\n\n如果您想隐藏某些敏感信息，可以使用以下命令来设置正则表达式匹配规则：\n\n```bash\nshim-cli rule add <regex> <replacement>\n```\n\n这将添加一个规则，用于在监控内容中替换匹配的敏感信息。\n\n注意：请确保您的正则表达式正确无误。",
+      "url": "https://www.producthunt.com/products/shim-cli",
+      "status": "dead",
+      "is_violation": false,
+      "id": "shim-cli",
+      "added": "2026-10-19"
+    },
+    {
+      "name": "Popcraft",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI生成视频、图像和音频的浏览器插件",
+      "tags": [
+        "AI生成",
+        "视频",
+        "图像",
+        "音频"
+      ],
+      "scenarios": [
+        "内容创作",
+        "社交媒体营销",
+        "教育演示"
+      ],
+      "tutorial": "## Popcraft 使用教程\n\n### 1. 安装插件\n\n1. 访问 [Popcraft 官网](https://www.producthunt.com/products/popcraft) 并点击 'Get It Now'。\n2. 在浏览器中安装 Popcraft 插件。\n\n### 2. 创建内容\n\n1. 打开需要生成内容的网页或应用。\n2. 点击浏览器中的 Popcraft 插件图标。\n3. 选择生成视频、图像或音频的选项。\n4. 根据提示输入相关参数，如风格、主题等。\n\n### 3. 生成并下载\n\n1. 点击 'Generate' 按钮。\n2. 等待生成完成。\n3. 点击 'Download' 下载生成的文件。\n\n### 4. 使用生成的文件\n\n1. 将生成的视频、图像或音频用于您的项目。\n2. 可以分享到社交媒体或用于其他用途。",
+      "url": "https://www.producthunt.com/products/popcraft",
+      "status": "dead",
+      "is_violation": false,
+      "id": "popcraft",
+      "added": "2026-10-19"
     }
   ],
   "changelog": [
@@ -15106,6 +15197,17 @@
         "Ultracite v8"
       ],
       "invalidated": 1,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-19",
+      "added": [
+        "identity-agent-demo",
+        "Gravity Notes",
+        "shim-cli",
+        "Popcraft"
+      ],
+      "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:52:55.062Z",
+  "generatedAt": "2026-10-18T19:52:35.001Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3176,6 +3176,26 @@
       "url": "https://aiagent.72tool.com/tools/ultracite-v8.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/identity-agent-demo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gravity-notes.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/shim-cli.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/popcraft.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3206,7 +3226,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 628,
+    "totalAgents": 632,
     "byCategory": [
       {
         "id": "local",
@@ -3216,7 +3236,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 512
+        "count": 516
       },
       {
         "id": "workflow",
@@ -3234,6 +3254,6 @@
         "count": 17
       }
     ],
-    "deadLinks": 387
+    "deadLinks": 390
   }
 }
