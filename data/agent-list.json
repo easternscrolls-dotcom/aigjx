@@ -14094,6 +14094,244 @@
       "is_violation": false,
       "id": "popcraft",
       "added": "2026-10-19"
+    },
+    {
+      "name": "headroom",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "压缩工具输出，减少LLM所需token，提升效率",
+      "tags": [
+        "压缩",
+        "LLM",
+        "输出优化",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "代码代理优化",
+        "日志压缩",
+        "文件压缩"
+      ],
+      "tutorial": "## 使用Headroom压缩工具\n\n1. 下载并安装Headroom库：\n   - 访问GitHub仓库下载Headroom库。\n   - 使用pip安装：`pip install headroom`\n\n2. 配置Headroom：\n   - 在你的项目中引入Headroom库。\n   - 配置压缩参数，如压缩比例和压缩类型。\n\n3. 使用Headroom压缩输出：\n   - 在代码中调用Headroom的压缩函数，对输出进行压缩。\n   - 例如：`compressed_output = headroom.compress(output)`\n\n4. 验证压缩效果：\n   - 检查压缩后的输出，确保信息完整性。\n   - 对比压缩前后的token数量，验证压缩效果。",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "status": "active",
+      "is_violation": false,
+      "id": "headroom",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Wally by Willow",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "学习您写作风格的浏览器网页Agent",
+      "tags": [
+        "写作辅助",
+        "AI写作",
+        "文本生成"
+      ],
+      "scenarios": [
+        "内容创作",
+        "写作辅助",
+        "学术研究"
+      ],
+      "tutorial": "## Wally by Willow 使用教程\n\n1. 注册并登录Wally by Willow平台。\n2. 在平台上创建一个新的文档或选择一个现有文档。\n3. 开始写作，Wally会实时学习您的写作风格。\n4. 使用Wally提供的建议和自动生成的文本来提高您的写作质量。\n5. 保存并分享您的作品。",
+      "url": "https://www.producthunt.com/products/willow-voice",
+      "status": "dead",
+      "is_violation": false,
+      "id": "wally-by-willow",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "walkai-talkai",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "语音交互式AI编程助手",
+      "tags": [
+        "AI编程",
+        "语音交互",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "在线编程协作",
+        "远程团队沟通",
+        "代码问题解答"
+      ],
+      "tutorial": "## 使用WalkAI-TalkAI进行AI编程助手交互\n1. 访问WalkAI-TalkAI官网下载并安装插件。\n2. 打开浏览器，进入在线编程平台或本地IDE。\n3. 点击插件图标，启动语音交互界面。\n4. 通过语音命令与AI编程助手进行交流，例如：'帮我分析这段代码的错误'。\n5. AI编程助手会根据你的指令进行分析，并给出建议或解决方案。",
+      "url": "https://www.producthunt.com/products/walkai-talkai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "walkai-talkai",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Starkomand",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "无限画布上运行AI编码代理",
+      "tags": [
+        "AI编码",
+        "无限画布",
+        "自动化",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "代码自动生成",
+        "网页自动化测试",
+        "AI辅助开发"
+      ],
+      "tutorial": "## 使用Starkomand进行AI编码代理的设置\n1. 访问Starkomand官网，下载并安装浏览器扩展。\n2. 打开浏览器扩展页面，点击'设置'，配置你的AI编码代理参数。\n3. 在无限画布上编写你的代码，Starkomand将自动执行并显示结果。\n4. 保存你的项目，并分享给你的团队或同事。",
+      "url": "https://www.producthunt.com/products/starkomand",
+      "status": "dead",
+      "is_violation": false,
+      "id": "starkomand",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "CrawlForge MCP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "集成31款网页工具的AI代理服务",
+      "tags": [
+        "AI代理",
+        "网页工具",
+        "自动化",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据抓取",
+        "RPA应用"
+      ],
+      "tutorial": "## 使用CrawlForge MCP进行网页自动化\n\n1. **安装CrawlForge MCP**\n   - 下载并安装CrawlForge MCP服务器。\n   - 运行服务器并配置网络设置。\n\n2. **配置代理**\n   - 在CrawlForge MCP中添加新的代理配置，设置代理的URL和端口。\n   - 配置代理的用户名和密码（如有）。\n\n3. **创建任务**\n   - 在CrawlForge MCP中创建一个新的任务，选择要自动化的网页或网站。\n   - 设置任务执行的频率和触发条件。\n\n4. **执行任务**\n   - 启动任务，CrawlForge MCP将自动执行网页操作，如点击、填写表单等。\n   - 查看任务执行结果和日志。\n\n5. **数据采集**\n   - 从执行结果中提取所需数据，如文本、图片等。\n   - 将数据导出或存储到数据库中。",
+      "url": "https://www.producthunt.com/products/crawlforge-mcp",
+      "status": "dead",
+      "is_violation": false,
+      "id": "crawlforge-mcp",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Lancetta",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能编码助手，适时调整编码策略",
+      "tags": [
+        "编码助手",
+        "智能决策",
+        "代码优化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "项目规划",
+        "团队协作"
+      ],
+      "tutorial": "## Lancetta 使用教程\n\n### 1. 安装 Lancetta\n\n- 访问 Lancetta 官网下载最新版本。\n- 根据操作系统选择合适的安装包进行安装。\n\n### 2. 配置 Lancetta\n\n- 打开 Lancetta，进行账户登录。\n- 配置个人偏好设置，如代码风格、通知等。\n\n### 3. 开始使用 Lancetta\n\n- 在编码过程中，Lancetta 会根据代码质量给出建议。\n- 点击建议，查看详细分析和改进建议。\n\n### 4. 优化代码\n\n- 根据Lancetta的建议，对代码进行优化。\n- 重复使用 Lancetta 进行代码审查，持续提升代码质量。",
+      "url": "https://www.producthunt.com/products/lancetta",
+      "status": "dead",
+      "is_violation": false,
+      "id": "lancetta",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "buddylist",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "与编码代理聊天，体验2005年的沟通方式",
+      "tags": [
+        "聊天",
+        "编码",
+        "代理",
+        "交互"
+      ],
+      "scenarios": [
+        "代码协作",
+        "团队沟通",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Buddylist 进行聊天\n\n1. 访问 [Buddylist 官网](https://www.producthunt.com/products/buddylist-2)\n2. 注册账号并登录\n3. 创建或加入一个聊天室\n4. 在聊天室内输入文本消息与编码代理进行交流\n5. 使用预设的聊天模板或自定义消息模板进行交互",
+      "url": "https://www.producthunt.com/products/buddylist-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "buddylist",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Point and Yap",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "屏幕指点点，语音交互控制网页",
+      "tags": [
+        "语音交互",
+        "网页自动化",
+        "自然语言处理"
+      ],
+      "scenarios": [
+        "网页内容搜索",
+        "在线客服",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Point and Yap 进行屏幕指点点语音交互\n\n1. 下载并安装 Point and Yap 软件。\n2. 打开软件，选择需要交互的网页或应用。\n3. 使用麦克风对屏幕进行指点点操作，软件会自动识别并执行相应的语音命令。\n4. 通过语音输入查询信息，软件会自动在网页上搜索并展示结果。\n5. 可以设置快捷命令，提高操作效率。",
+      "url": "https://www.producthunt.com/products/point-and-yap",
+      "status": "dead",
+      "is_violation": false,
+      "id": "point-and-yap",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Beam.win",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "跨设备运行AI代理",
+      "tags": [
+        "远程桌面",
+        "AI代理",
+        "跨平台"
+      ],
+      "scenarios": [
+        "远程协作",
+        "多设备操作",
+        "远程办公"
+      ],
+      "tutorial": "## Beam.win 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Beam.win 官网并注册账号。\n2. 使用注册的账号登录。\n\n### 2. 创建代理\n\n1. 在主界面点击创建代理。\n2. 选择需要运行的代理类型和应用。\n3. 设置代理的名称和配置。\n\n### 3. 连接到代理\n\n1. 在主界面选择已创建的代理。\n2. 点击连接，等待连接建立。\n3. 连接成功后，即可在另一台设备上操作应用。\n\n### 4. 断开连接\n\n1. 在连接状态下，点击断开连接。\n2. 代理连接断开，操作结束。",
+      "url": "https://www.producthunt.com/products/beam-win",
+      "status": "dead",
+      "is_violation": false,
+      "id": "beam-win",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Tori",
+      "category": "tools",
+      "type": "cloud-paid",
+      "summary": "<p>\n            The smartest AI support agent for customer s",
+      "tags": [],
+      "scenarios": [],
+      "tutorial": "## 快速上手\n1. 访问官网了解功能与定价。\n2. 按官方文档完成注册与基础配置。\n3. 接入你的数据与场景，跑通第一个自动化任务。",
+      "url": "https://www.producthunt.com/products/tori-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tori",
+      "added": "2026-10-20"
+    },
+    {
+      "name": "Beam",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "高效501B参数的网页Agent模型",
+      "tags": [
+        "网页Agent",
+        "模型",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页自动化操作",
+        "数据抓取",
+        "RPA"
+      ],
+      "tutorial": "## Beam使用教程\n\n1. 下载并安装Beam模型。\n2. 打开Beam界面，选择目标网页进行操作。\n3. 使用拖拽方式配置自动化任务，如自动填写表单、点击按钮等。\n4. 预览并运行任务，确保自动化流程正确无误。\n5. 保存并部署任务，实现网页自动化。",
+      "url": "https://www.producthunt.com/products/beam-13",
+      "status": "dead",
+      "is_violation": false,
+      "id": "beam",
+      "added": "2026-10-20"
     }
   ],
   "changelog": [
@@ -15206,6 +15444,24 @@
         "Gravity Notes",
         "shim-cli",
         "Popcraft"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-20",
+      "added": [
+        "headroom",
+        "Wally by Willow",
+        "walkai-talkai",
+        "Starkomand",
+        "CrawlForge MCP",
+        "Lancetta",
+        "buddylist",
+        "Point and Yap",
+        "Beam.win",
+        "Tori",
+        "Beam"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
