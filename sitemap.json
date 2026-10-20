@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:53:40.718Z",
+  "generatedAt": "2026-10-20T21:03:11.560Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3251,6 +3251,66 @@
       "url": "https://aiagent.72tool.com/tools/beam.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/harness.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/the-new-beings.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/esp-mosaico.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/runinfra.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mintlify-autopilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/todo-is.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lugh-xtudio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/composio-instant.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/exa-3-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sorcerer.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/praex.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/call4me.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3281,17 +3341,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 643,
+    "totalAgents": 655,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 31
+        "count": 32
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 526
+        "count": 536
       },
       {
         "id": "workflow",
@@ -3306,9 +3366,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 18
+        "count": 19
       }
     ],
-    "deadLinks": 400
+    "deadLinks": 412
   }
 }

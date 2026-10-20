@@ -14332,6 +14332,274 @@
       "is_violation": false,
       "id": "beam",
       "added": "2026-10-20"
+    },
+    {
+      "name": "Harness²",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动化网页操作，提升工作效率",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "效率提升",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Harness² 进行自动化操作\n1. 注册并登录 Harness² 平台。\n2. 创建一个新的自动化流程，选择目标网页和操作类型。\n3. 使用拖拽方式配置操作步骤，如点击、输入等。\n4. 预览并测试自动化流程，确保无误后保存。\n5. 定时运行或手动触发自动化流程。",
+      "url": "https://www.producthunt.com/products/harness-104",
+      "status": "dead",
+      "is_violation": false,
+      "id": "harness",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "The New Beings",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理休息时进行直播脱口秀",
+      "tags": [
+        "AI",
+        "直播",
+        "脱口秀",
+        "娱乐"
+      ],
+      "scenarios": [
+        "社交媒体互动",
+        "在线娱乐",
+        "内容创作"
+      ],
+      "tutorial": "## 使用 The New Beings 进行直播脱口秀\n\n1. 注册并登录 The New Beings 平台。\n2. 创建一个新的直播脱口秀节目，设置直播时间和主题。\n3. 在直播开始前，配置 AI 代理的角色和互动方式。\n4. 开始直播，AI 代理将根据预设的脚本和实时互动进行脱口秀表演。\n5. 直播结束后，可以查看直播回放和观众反馈。",
+      "url": "https://www.producthunt.com/products/the-new-beings",
+      "status": "dead",
+      "is_violation": false,
+      "id": "the-new-beings",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "ESP-Mosaico",
+      "category": "local",
+      "type": "open-source",
+      "summary": "模块化开发板，适用于智能体构建",
+      "tags": [
+        "开发板",
+        "模块化",
+        "智能体",
+        "开源"
+      ],
+      "scenarios": [
+        "智能硬件开发",
+        "物联网设备",
+        "教育项目"
+      ],
+      "tutorial": "## ESP-Mosaico 开发板使用教程\n\n### 1. 准备工作\n\n1. 获取 ESP-Mosaico 开发板和必要的开发工具，如 Arduino IDE。\n2. 连接开发板到电脑，确保驱动程序安装正确。\n3. 下载 ESP-Mosaico 的固件和库文件。\n\n### 2. 编写代码\n\n1. 在 Arduino IDE 中创建新的项目。\n2. 选择 ESP8266 或 ESP32 作为开发板类型。\n3. 编写代码以控制开发板的功能，如读取传感器数据或控制电机。\n\n### 3. 编译和上传\n\n1. 编译代码，确保没有错误。\n2. 上传编译后的固件到 ESP-Mosaico 开发板。\n3. 观察开发板上的指示灯或使用串口监视器查看输出。\n\n### 4. 测试和调试\n\n1. 测试开发板的功能，确保一切按预期工作。\n2. 如果遇到问题，检查代码和硬件连接，进行必要的调试。",
+      "url": "https://www.producthunt.com/products/esp-mosaico",
+      "status": "dead",
+      "is_violation": false,
+      "id": "esp-mosaico",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "RunInfra",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "为智能体构建的开放模型。",
+      "tags": [
+        "模型",
+        "智能体",
+        "开源"
+      ],
+      "scenarios": [
+        "智能体开发",
+        "模型集成",
+        "数据科学"
+      ],
+      "tutorial": "## 使用 RunInfra 的基本步骤\n1. 下载并安装 RunInfra。\n2. 创建一个新的项目，选择合适的模型。\n3. 配置模型参数，包括输入输出格式等。\n4. 上传数据集，开始训练模型。\n5. 模型训练完成后，进行评估和优化。\n6. 部署模型，使其可用于智能体。",
+      "url": "https://www.producthunt.com/products/runinfra",
+      "status": "dead",
+      "is_violation": false,
+      "id": "runinfra",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "Mintlify Autopilot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动更新文档的持续运行代理",
+      "tags": [
+        "文档",
+        "自动化",
+        "更新",
+        "代理"
+      ],
+      "scenarios": [
+        "文档维护",
+        "知识库管理",
+        "内容同步"
+      ],
+      "tutorial": "## Mintlify Autopilot 使用教程\n\n### 1. 安装 Mintlify Autopilot\n\n- 访问 Mintlify 官网下载并安装 Mintlify Autopilot。\n- 按照提示完成安装过程。\n\n### 2. 配置文档源\n\n- 打开 Mintlify Autopilot，选择添加新的文档源。\n- 输入文档源地址，如 GitHub 仓库或本地文件路径。\n- 配置文档源的基本信息，如标题、描述等。\n\n### 3. 设置更新规则\n\n- 在配置界面，设置文档更新的频率和触发条件。\n- 可以选择按时间或事件触发更新。\n- 设置完成后，保存配置。\n\n### 4. 监控文档更新\n\n- Mintlify Autopilot 会自动监控文档源的变化。\n- 当检测到更新时，会自动同步到目标位置。\n- 可以在 Mintlify Autopilot 中查看更新日志和状态。\n\n### 5. 集成到工作流\n\n- 将 Mintlify Autopilot 集成到现有的文档工作流中。\n- 可以通过 API 或命令行工具进行自动化操作。\n- 确保文档始终保持最新状态。",
+      "url": "https://www.producthunt.com/products/mintlify",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mintlify-autopilot",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "ToDo.is",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能待办事项助手，AI代劳完成任务",
+      "tags": [
+        "AI助手",
+        "待办事项",
+        "自动化"
+      ],
+      "scenarios": [
+        "个人日程管理",
+        "团队协作",
+        "日常任务自动化"
+      ],
+      "tutorial": "## 使用ToDo.is进行任务自动化\n\n1. 注册并登录ToDo.is账户\n\n2. 创建一个新的待办事项，并描述需要AI完成的任务\n\n3. 选择任务类型，如邮件发送、社交媒体更新等\n\n4. 设置任务触发条件，例如定时执行或基于特定事件\n\n5. 保存任务，ToDo.is的AI助手将自动执行任务",
+      "url": "https://www.producthunt.com/products/todo-is",
+      "status": "dead",
+      "is_violation": false,
+      "id": "todo-is",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "Lugh Xtudio",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI协作视频编辑平台",
+      "tags": [
+        "视频编辑",
+        "AI协作",
+        "在线工具"
+      ],
+      "scenarios": [
+        "视频制作",
+        "内容创作",
+        "团队协作"
+      ],
+      "tutorial": "## Lugh Xtudio 使用教程\n\n### 1. 注册与登录\n\n1. 访问Lugh Xtudio官网\n2. 点击注册，填写相关信息完成注册\n3. 使用注册的账号登录平台\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目\n2. 输入项目名称，选择项目类型\n3. 点击创建，进入项目编辑页面\n\n### 3. 编辑视频\n\n1. 在编辑页面，上传视频素材\n2. 使用AI工具进行视频剪辑、特效添加等操作\n3. 预览视频效果，满意后导出\n\n### 4. 分享与协作\n\n1. 点击分享按钮，生成分享链接\n2. 将链接发送给团队成员，实现协作编辑\n3. 成员登录后，可查看项目进度并进行编辑",
+      "url": "https://www.producthunt.com/products/lugh-xtudio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "lugh-xtudio",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "Composio Instant",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理支付工具，简化支付流程",
+      "tags": [
+        "AI代理",
+        "支付",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI代理开发",
+        "自动化支付流程"
+      ],
+      "tutorial": "## 使用Composio Instant教程\n\n1. 注册账户\n   - 访问Composio Instant官网，注册一个账户。\n2. 创建支付请求\n   - 登录后，创建一个新的支付请求，填写相关信息。\n3. 集成支付接口\n   - 将生成的支付接口代码集成到你的AI代理系统中。\n4. 自动支付\n   - 当AI代理需要支付时，系统将自动调用支付接口完成支付。",
+      "url": "https://www.producthunt.com/products/composio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "composio-instant",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "Exa 3.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能搜索，为AI代理提供更丰富数据，降低成本",
+      "tags": [
+        "AI搜索",
+        "数据丰富",
+        "成本降低",
+        "智能代理"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化搜索任务",
+        "智能客服"
+      ],
+      "tutorial": "## Exa 3.0 使用教程\n\n### 1. 安装与启动\n\n1. 访问Exa 3.0官网下载最新版本。\n2. 按照提示完成安装。\n3. 启动Exa 3.0应用。\n\n### 2. 配置搜索参数\n\n1. 在应用界面，设置搜索关键词和搜索范围。\n2. 选择合适的搜索结果排序方式。\n3. 点击“搜索”按钮开始搜索。\n\n### 3. 数据导出\n\n1. 搜索结果展示在界面中。\n2. 选择需要导出的数据。\n3. 点击“导出”按钮，选择导出格式和保存路径。\n\n### 4. 高级功能\n\n1. 使用高级搜索功能，如筛选、排序等。\n2. 定制搜索模板，提高搜索效率。\n3. 查看搜索历史和统计信息。",
+      "url": "https://www.producthunt.com/products/exa-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "exa-3-0",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "Sorcerer",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "模拟AI社区对'如果'的反应",
+      "tags": [
+        "AI模拟",
+        "社区互动",
+        "假设情景"
+      ],
+      "scenarios": [
+        "AI社区建设",
+        "创意生成",
+        "市场调研"
+      ],
+      "tutorial": "## 使用Sorcerer进行AI社区模拟\n\n1. 访问Sorcerer官网并注册账号\n2. 创建一个新的模拟项目，输入主题和假设情景\n3. 设置AI代理的角色和反应逻辑\n4. 启动模拟，观察AI社区的反应和互动\n5. 分析模拟结果，调整参数进行优化",
+      "url": "https://www.producthunt.com/products/sorcerer",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sorcerer",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "Praex",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于AI模型的独立运行代码代理",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "代码执行"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Praex使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装Praex软件。\n2. 打开软件，启动代理服务。\n\n### 2. 创建任务\n\n1. 在软件界面创建新的任务。\n2. 选择任务类型，如网页自动化、数据采集等。\n3. 配置任务参数，如目标网址、数据提取规则等。\n\n### 3. 运行任务\n\n1. 点击运行按钮，启动任务。\n2. 观察任务执行过程，确保任务按预期执行。\n\n### 4. 查看结果\n\n1. 任务完成后，查看执行结果。\n2. 根据需要调整任务配置，优化执行效果。",
+      "url": "https://www.producthunt.com/products/praex",
+      "status": "dead",
+      "is_violation": false,
+      "id": "praex",
+      "added": "2026-10-21"
+    },
+    {
+      "name": "call4me",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI代理提供电话呼叫和应答功能",
+      "tags": [
+        "AI电话",
+        "自动化",
+        "客服"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "电话营销",
+        "客户服务"
+      ],
+      "tutorial": "## 使用call4me进行电话呼叫和应答\n\n1. 注册并登录call4me账户\n\n2. 创建一个新的电话任务，输入电话号码和通话内容\n\n3. 设置通话时间和频率\n\n4. 启动电话任务，AI代理将自动进行呼叫和应答\n\n5. 监控通话记录和反馈",
+      "url": "https://www.producthunt.com/products/call4me",
+      "status": "dead",
+      "is_violation": false,
+      "id": "call4me",
+      "added": "2026-10-21"
     }
   ],
   "changelog": [
@@ -15462,6 +15730,25 @@
         "Beam.win",
         "Tori",
         "Beam"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-21",
+      "added": [
+        "Harness²",
+        "The New Beings",
+        "ESP-Mosaico",
+        "RunInfra",
+        "Mintlify Autopilot",
+        "ToDo.is",
+        "Lugh Xtudio",
+        "Composio Instant",
+        "Exa 3.0",
+        "Sorcerer",
+        "Praex",
+        "call4me"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
