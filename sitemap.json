@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:04:57.919Z",
+  "generatedAt": "2026-10-22T21:01:12.178Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3361,6 +3361,51 @@
       "url": "https://aiagent.72tool.com/tools/lea-by-leanaios.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/claude-howto.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/logistikforecastaiworkflow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/resend-inboxes.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/loom-record-for-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cutbay.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bits.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mistral-voxtral-3.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/claude-duet.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentic-cleanslop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3391,7 +3436,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 665,
+    "totalAgents": 674,
     "byCategory": [
       {
         "id": "local",
@@ -3401,12 +3446,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 545
+        "count": 552
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 56
+        "count": 58
       },
       {
         "id": "crossborder",
@@ -3419,6 +3464,6 @@
         "count": 19
       }
     ],
-    "deadLinks": 421
+    "deadLinks": 428
   }
 }
