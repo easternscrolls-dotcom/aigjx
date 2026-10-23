@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:01:12.178Z",
+  "generatedAt": "2026-10-23T20:50:28.874Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3406,6 +3406,46 @@
       "url": "https://aiagent.72tool.com/tools/agentic-cleanslop.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/daves-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/inyon.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/elevenlabs-realtime.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/movo-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/context-engine.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dotmd.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/termi-protocol.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/monish.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3436,7 +3476,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 674,
+    "totalAgents": 682,
     "byCategory": [
       {
         "id": "local",
@@ -3446,7 +3486,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 552
+        "count": 560
       },
       {
         "id": "workflow",
@@ -3464,6 +3504,6 @@
         "count": 19
       }
     ],
-    "deadLinks": 428
+    "deadLinks": 436
   }
 }

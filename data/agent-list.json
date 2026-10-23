@@ -2688,7 +2688,7 @@
       ],
       "tutorial": "## SAST-Recon-Agent 使用教程\n\n### 1. 安装与配置\n1. 下载 SAST-Recon-Agent。\n2. 解压文件并运行配置脚本。\n3. 配置代理服务器和目标网页地址。\n\n### 2. 扫描设置\n1. 选择扫描类型（如XSS、SQL注入等）。\n2. 设置扫描深度和频率。\n3. 启动扫描任务。\n\n### 3. 结果分析\n1. 查看扫描报告。\n2. 分析漏洞详情。\n3. 修复或报告漏洞。",
       "url": "https://huggingface.co/spaces/Mmossad2124/sast-recon-agent",
-      "status": "active",
+      "status": "dead",
       "is_violation": false,
       "id": "sast-recon-agent",
       "added": "2026-08-22"
@@ -15025,6 +15025,186 @@
       "is_violation": false,
       "id": "agentic-cleanslop",
       "added": "2026-10-23"
+    },
+    {
+      "name": "daves-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "表单自动化",
+        "自动化测试"
+      ],
+      "tutorial": "## daves-agent 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 daves-agent。\n2. 打开 daves-agent 应用程序。\n3. 点击 '新建项目' 创建一个新的自动化任务。\n\n### 2. 编写自动化脚本\n\n1. 在脚本编辑器中，使用拖拽的方式添加网页操作步骤。\n2. 设置每个步骤的参数，如点击、输入、等待等。\n3. 保存并测试脚本，确保自动化流程正确无误。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮开始执行自动化任务。\n2. 在监控窗口中查看任务执行状态。\n3. 如有需要，可以暂停或停止任务。\n\n### 4. 保存与分享\n\n1. 完成任务后，保存自动化脚本。\n2. 可以将脚本分享给其他用户或团队。",
+      "url": "https://huggingface.co/spaces/ElricDave/daves-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "daves-agent",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "Inyon",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "手机端控制编码代理",
+      "tags": [
+        "手机控制",
+        "编码代理",
+        "远程操作"
+      ],
+      "scenarios": [
+        "远程编码协作",
+        "自动化测试",
+        "代码审查"
+      ],
+      "tutorial": "## Inyon 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Inyon 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱登录 Inyon 平台。\n\n### 2. 创建代理\n\n1. 登录后，点击创建代理按钮。\n2. 输入代理名称，选择代理类型，配置相关参数。\n3. 点击创建，等待代理启动。\n\n### 3. 手机端操作\n\n1. 在手机端下载 Inyon 客户端。\n2. 使用相同账号登录。\n3. 选择需要控制的代理，开始操作。\n\n### 4. 代理配置\n\n1. 在 Inyon 平台，可以配置代理的各种参数，如代理语言、环境变量等。\n2. 保存配置后，代理会自动更新。",
+      "url": "https://www.producthunt.com/products/inyon",
+      "status": "dead",
+      "is_violation": false,
+      "id": "inyon",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "ElevenLabs Realtime",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "实时语音代理模型，快速生成音频",
+      "tags": [
+        "语音合成",
+        "实时响应",
+        "音频生成"
+      ],
+      "scenarios": [
+        "内容创作",
+        "客服自动化",
+        "语音交互"
+      ],
+      "tutorial": "## 使用ElevenLabs Realtime生成音频\n\n1. 访问ElevenLabs官网并注册账户。\n2. 登录账户后，选择“Realtime”服务。\n3. 在文本框中输入你想要合成的文本。\n4. 选择合适的语音模型和语言。\n5. 点击“生成音频”按钮，等待570ms后即可听到生成的音频。\n6. 你可以将生成的音频下载到本地或直接在网页上播放。",
+      "url": "https://www.producthunt.com/products/realtime-max-mini",
+      "status": "dead",
+      "is_violation": false,
+      "id": "elevenlabs-realtime",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "MOVO AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "移动端长视频智能代理",
+      "tags": [
+        "视频",
+        "智能",
+        "移动端"
+      ],
+      "scenarios": [
+        "视频内容创作",
+        "视频编辑",
+        "移动应用开发"
+      ],
+      "tutorial": "## MOVO AI 使用教程\n\n### 1. 注册与登录\n\n1. 访问 MOVO AI 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录 MOVO AI 平台。\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目，输入项目名称和描述。\n2. 选择项目类型，如视频编辑、内容创作等。\n\n### 3. 添加视频内容\n\n1. 在项目页面，点击添加视频按钮，上传您想要处理的视频文件。\n2. MOVO AI 会自动分析视频内容，并提供编辑建议。\n\n### 4. 编辑与导出\n\n1. 根据MOVO AI 的建议进行视频编辑，包括剪辑、添加特效等。\n2. 编辑完成后，点击导出按钮，选择导出格式和分辨率。\n\n### 5. 下载与分享\n\n1. 导出视频后，您可以在平台下载视频文件。\n2. 您还可以将视频分享到社交媒体或上传到视频平台。",
+      "url": "https://www.producthunt.com/products/movo-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "movo-ai",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "Context Engine",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理与团队成员共享记忆。",
+      "tags": [
+        "AI",
+        "记忆",
+        "协作",
+        "团队"
+      ],
+      "scenarios": [
+        "团队协作",
+        "知识管理",
+        "AI 代理集成"
+      ],
+      "tutorial": "## 使用 Context Engine 教程\n\n1. 2. 3.\n\n### 1. 注册与登录\n\n- 访问 Context Engine 官网并注册账号。\n- 使用邮箱验证并登录。\n\n### 2. 创建记忆库\n\n- 在控制台中创建一个新的记忆库。\n- 为记忆库命名并设置权限。\n\n### 3. 添加内容\n\n- 在记忆库中添加文本、图片或链接。\n- 可以设置内容的可见性和共享权限。\n\n### 4. 搜索与共享\n\n- 使用搜索功能查找所需信息。\n- 将记忆库内容共享给团队成员。",
+      "url": "https://www.producthunt.com/products/context-engine-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "context-engine",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "DotMD",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Markdown 规范审查工具，如代码审查般审查 Markdown 文件",
+      "tags": [
+        "Markdown",
+        "代码审查",
+        "规范检查",
+        "AI 辅助"
+      ],
+      "scenarios": [
+        "文档审查",
+        "代码协作",
+        "Markdown 生成"
+      ],
+      "tutorial": "## 使用 DotMD 进行 Markdown 规范审查\n\n1. 下载并安装 DotMD\n   - 访问 [DotMD 官网](https://www.producthunt.com/products/dotmd-3) 下载最新版本。\n   - 按照提示完成安装。\n\n2. 打开 Markdown 文件\n   - 使用 DotMD 打开您需要审查的 Markdown 文件。\n\n3. 检查规范\n   - DotMD 会自动检查文件中的 Markdown 规范问题，并以高亮显示。\n\n4. 修复问题\n   - 根据提示修复文件中的规范问题。\n\n5. 保存并提交\n   - 保存修改后的文件，并提交到您的代码库中。",
+      "url": "https://www.producthunt.com/products/dotmd-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dotmd",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "Termi Protocol",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "3D 观看 AI 代理编码并交接工作",
+      "tags": [
+        "AI 编码",
+        "3D 视觉",
+        "工作交接"
+      ],
+      "scenarios": [
+        "代码审查",
+        "AI 教育培训",
+        "软件开发协作"
+      ],
+      "tutorial": "## 使用 Termi Protocol 进行 AI 编码观察与交接\n\n### 1. 注册与登录\n\n1. 访问 Termi Protocol 官网并注册账号。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建项目\n\n1. 在个人中心创建一个新的项目。\n2. 输入项目名称和描述，选择合适的权限设置。\n\n### 3. 观察 AI 编码\n\n1. 在项目页面，选择 AI 代理进行编码。\n2. 通过 3D 视图实时观察 AI 的编码过程。\n\n### 4. 交接工作\n\n1. 当 AI 编码完成后，选择交接工作。\n2. 将工作分配给团队成员或保存为模板。\n\n### 5. 团队协作\n\n1. 与团队成员共享项目，进行实时协作。\n2. 通过聊天功能讨论编码细节。",
+      "url": "https://www.producthunt.com/products/termi-protocol",
+      "status": "dead",
+      "is_violation": false,
+      "id": "termi-protocol",
+      "added": "2026-10-24"
+    },
+    {
+      "name": "Monish",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "iPhone 锁屏上的 AI 代理",
+      "tags": [
+        "AI",
+        "iPhone",
+        "锁屏",
+        "代理"
+      ],
+      "scenarios": [
+        "日常提醒",
+        "信息推送",
+        "个性化服务"
+      ],
+      "tutorial": "## Monish 使用教程\n\n### 1. 安装 Monish\n\n从 App Store 下载并安装 Monish 应用。\n\n### 2. 配置代理\n\n打开 Monish，按照提示完成代理的配置。\n\n### 3. 设置任务\n\n在应用中创建新的任务，设置任务内容、触发条件等。\n\n### 4. 查看结果\n\n任务完成后，在锁屏上查看 AI 代理的执行结果。",
+      "url": "https://www.producthunt.com/products/monish",
+      "status": "dead",
+      "is_violation": false,
+      "id": "monish",
+      "added": "2026-10-24"
     }
   ],
   "changelog": [
@@ -16209,6 +16389,21 @@
         "Agentic CleanSlop"
       ],
       "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-24",
+      "added": [
+        "daves-agent",
+        "Inyon",
+        "ElevenLabs Realtime",
+        "MOVO AI",
+        "Context Engine",
+        "DotMD",
+        "Termi Protocol",
+        "Monish"
+      ],
+      "invalidated": 1,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
     }
   ]
