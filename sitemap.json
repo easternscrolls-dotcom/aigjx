@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T20:50:28.874Z",
+  "generatedAt": "2026-10-24T19:59:59.924Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3446,6 +3446,41 @@
       "url": "https://aiagent.72tool.com/tools/monish.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-toolkit-for-aws.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gemini-cli.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cindy.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/breaking-autonomous-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/taf-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/1password-for-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentvalley.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3476,7 +3511,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 682,
+    "totalAgents": 689,
     "byCategory": [
       {
         "id": "local",
@@ -3486,7 +3521,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 560
+        "count": 566
       },
       {
         "id": "workflow",
@@ -3501,9 +3536,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 19
+        "count": 20
       }
     ],
-    "deadLinks": 436
+    "deadLinks": 438
   }
 }
