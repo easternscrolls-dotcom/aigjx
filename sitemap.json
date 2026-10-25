@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T19:59:59.924Z",
+  "generatedAt": "2026-10-25T20:09:48.112Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3481,6 +3481,31 @@
       "url": "https://aiagent.72tool.com/tools/agentvalley.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/claude-seo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentgrid-io.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/git-flow-next.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/moli-by-lexmount.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/papermark-data-rooms.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3511,7 +3536,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 689,
+    "totalAgents": 694,
     "byCategory": [
       {
         "id": "local",
@@ -3521,12 +3546,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 566
+        "count": 570
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 58
+        "count": 59
       },
       {
         "id": "crossborder",
@@ -3539,6 +3564,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 438
+    "deadLinks": 442
   }
 }

@@ -15364,6 +15364,118 @@
       "is_violation": false,
       "id": "agentvalley",
       "added": "2026-10-25"
+    },
+    {
+      "name": "claude-seo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Claude SEO，通用SEO技能，覆盖技术SEO、E-E-A-T、结构化数据等，支持多种SEO工具和API。",
+      "tags": [
+        "SEO",
+        "数据分析",
+        "自动化",
+        "Google API"
+      ],
+      "scenarios": [
+        "网站SEO优化",
+        "内容营销",
+        "数据分析报告"
+      ],
+      "tutorial": "## Claude SEO 使用教程\n\n1. 下载并安装 Claude Code\n2. 在 Claude Code 中启用 claude-seo 插件\n3. 使用 Claude Code 的命令行或图形界面，选择 SEO 相关技能\n4. 输入需要分析或优化的网站或内容\n5. Claude SEO 将提供分析报告和建议\n6. 根据报告进行网站优化或内容调整",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "status": "active",
+      "is_violation": false,
+      "id": "claude-seo",
+      "added": "2026-10-26"
+    },
+    {
+      "name": "AgentGrid.io",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "共享人机工作空间，网页自动化助手",
+      "tags": [
+        "自动化",
+        "工作流",
+        "协作"
+      ],
+      "scenarios": [
+        "团队协作",
+        "网页自动化",
+        "数据采集"
+      ],
+      "tutorial": "## AgentGrid.io 使用教程\n\n### 1. 创建账号\n\n1. 访问 [AgentGrid.io](https://www.agentgrid.io) 并注册账号。\n2. 完成邮箱验证。\n\n### 2. 创建工作空间\n\n1. 登录后，点击左侧菜单的 '工作空间'。\n2. 点击 '创建工作空间'，填写名称并创建。\n\n### 3. 添加网页元素\n\n1. 在工作空间中，点击 '添加元素'。\n2. 选择网页元素类型，如按钮、输入框等。\n3. 在网页上选择对应的元素，并设置元素属性。\n\n### 4. 编写自动化脚本\n\n1. 在元素列表中，选择要操作的元素。\n2. 点击 '添加动作'，选择动作类型，如点击、输入等。\n3. 设置动作参数，如点击位置、输入内容等。\n\n### 5. 运行和测试\n\n1. 点击 '运行' 按钮开始执行自动化脚本。\n2. 观察执行结果，确保自动化流程正确无误。\n\n### 6. 保存和分享\n\n1. 完成测试后，点击 '保存' 按钮保存工作空间。\n2. 可以将工作空间分享给团队成员或同事。",
+      "url": "https://www.producthunt.com/products/agentgrid-io",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agentgrid-io",
+      "added": "2026-10-26"
+    },
+    {
+      "name": "git-flow-next",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "重构 Git 工作流，提升团队协作效率",
+      "tags": [
+        "Git",
+        "工作流",
+        "团队协作",
+        "代码管理"
+      ],
+      "scenarios": [
+        "软件开发团队",
+        "持续集成",
+        "版本控制"
+      ],
+      "tutorial": "## 使用 git-flow-next 的基本步骤\n\n1. 安装 git-flow-next\n\n   在终端中运行以下命令安装 git-flow-next:\n\n   ```bash\n   npm install -g git-flow-next\n   ```\n\n2. 初始化工作流\n\n   在你的 Git 仓库根目录下，运行以下命令初始化工作流:\n\n   ```bash\n   git flow init\n   ```\n\n3. 创建新功能\n\n   使用以下命令创建一个新功能分支:\n\n   ```bash\n   git flow feature start <feature-name>\n   ```\n\n4. 开发功能\n\n   在新创建的分支上开发你的功能。\n\n5. 完成功能并合并\n\n   完成功能后，使用以下命令将功能分支合并到 develop 分支，并创建一个 release 分支:\n\n   ```bash\n   git flow feature finish <feature-name>\n   ```\n\n6. 发布版本\n\n   将 release 分支合并到 master 分支，并创建一个 hotfix 分支进行修复:\n\n   ```bash\n   git flow release publish <release-name>\n   git flow release finish <release-name>\n   ```\n\n7. 热修复\n\n   如果需要修复 bug，使用以下命令创建一个 hotfix 分支并合并到 master 和 develop 分支:\n\n   ```bas",
+      "url": "https://www.producthunt.com/products/tower",
+      "status": "dead",
+      "is_violation": false,
+      "id": "git-flow-next",
+      "added": "2026-10-26"
+    },
+    {
+      "name": "Moli by Lexmount",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "快速无头浏览器，适用于代理",
+      "tags": [
+        "无头浏览器",
+        "代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Moli by Lexmount 使用教程\n\n1. 注册并登录\n   - 访问 [Lexmount官网](https://www.lexmount.com/)，注册并登录账户。\n2. 创建项目\n   - 在控制台中创建一个新的项目，配置项目参数。\n3. 编写脚本\n   - 使用Moli提供的API或命令行工具编写自动化脚本。\n4. 运行脚本\n   - 在项目中运行脚本，观察浏览器行为。\n5. 查看结果\n   - 脚本运行完成后，查看结果并分析。",
+      "url": "https://www.producthunt.com/products/lexmount-browser",
+      "status": "dead",
+      "is_violation": false,
+      "id": "moli-by-lexmount",
+      "added": "2026-10-26"
+    },
+    {
+      "name": "Papermark Data Rooms",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "快速搭建安全数据室，AI代理运行。",
+      "tags": [
+        "数据安全",
+        "AI代理",
+        "云服务"
+      ],
+      "scenarios": [
+        "企业数据管理",
+        "合规审查",
+        "在线协作"
+      ],
+      "tutorial": "## Papermark Data Rooms 使用教程\n\n1. 注册并登录\n   - 访问 Papermark 官网，注册账号并登录。\n\n2. 创建数据室\n   - 在控制面板中点击创建数据室，填写相关信息。\n\n3. 上传数据\n   - 选择需要上传的文件，点击上传。\n\n4. 设置权限\n   - 为不同用户设置不同的访问权限。\n\n5. 开始使用\n   - 数据室创建完成后，即可通过链接或邀请码分享给用户。",
+      "url": "https://www.producthunt.com/products/papermark-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "papermark-data-rooms",
+      "added": "2026-10-26"
     }
   ],
   "changelog": [
@@ -16575,6 +16687,18 @@
         "taf-agent",
         "1Password for Agents",
         "AgentValley"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-26",
+      "added": [
+        "claude-seo",
+        "AgentGrid.io",
+        "git-flow-next",
+        "Moli by Lexmount",
+        "Papermark Data Rooms"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
