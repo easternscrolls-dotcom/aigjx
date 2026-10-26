@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:09:48.112Z",
+  "generatedAt": "2026-10-26T22:08:40.538Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3506,6 +3506,71 @@
       "url": "https://aiagent.72tool.com/tools/papermark-data-rooms.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/skillspector.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openbot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/postiz-app.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/huashu-design.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/minimax-m3-1-flash.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/whoiscooking.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/surgepix.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/avp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/manyagents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tabsh.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-bridge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/vibeide.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/jobmate-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3536,17 +3601,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 694,
+    "totalAgents": 707,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 32
+        "count": 33
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 570
+        "count": 582
       },
       {
         "id": "workflow",
@@ -3564,6 +3629,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 442
+    "deadLinks": 451
   }
 }

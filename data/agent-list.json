@@ -15476,6 +15476,298 @@
       "is_violation": false,
       "id": "papermark-data-rooms",
       "added": "2026-10-26"
+    },
+    {
+      "name": "SkillSpector",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理技能安全扫描器，检测潜在风险。",
+      "tags": [
+        "安全扫描",
+        "AI代理",
+        "风险检测"
+      ],
+      "scenarios": [
+        "AI技能安全评估",
+        "代码安全审计",
+        "供应链安全"
+      ],
+      "tutorial": "## 使用SkillSpector进行AI技能安全扫描\n1. 下载并安装SkillSpector。\n2. 打开SkillSpector，选择要扫描的AI技能。\n3. 点击扫描按钮，等待扫描完成。\n4. 查看扫描报告，识别潜在的安全风险。\n5. 根据报告进行相应的安全加固。",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "status": "active",
+      "is_violation": false,
+      "id": "skillspector",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "openbot",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地AI助手工作空间，支持Codex、Claude、Grok等。",
+      "tags": [
+        "AI助手",
+        "桌面应用",
+        "工作空间",
+        "协作"
+      ],
+      "scenarios": [
+        "个人研究",
+        "团队协作",
+        "软件开发"
+      ],
+      "tutorial": "## OpenBot 使用教程\n\n### 1. 安装与启动\n1. 下载并安装 OpenBot。\n2. 打开应用程序，创建一个新的工作空间。\n3. 选择你想要运行的AI模型，如Codex或Claude。\n\n### 2. 创建任务队列\n1. 在工作空间中，点击添加任务按钮。\n2. 输入任务描述，设置优先级和截止日期。\n3. 点击保存，任务将被添加到任务队列。\n\n### 3. 文件共享\n1. 在工作空间中，点击文件共享按钮。\n2. 上传或选择你想要共享的文件。\n3. 分享链接给其他团队成员。\n\n### 4. 浏览器控制\n1. 在工作空间中，点击浏览器控制按钮。\n2. 使用内置浏览器进行网页浏览。\n3. 通过AI助手进行自动化操作。\n\n### 5. 代理协作\n1. 在工作空间中，添加其他团队成员。\n2. 与其他代理进行协作，共同完成任务。",
+      "url": "https://github.com/nightly-labs/openbot",
+      "status": "active",
+      "is_violation": false,
+      "id": "openbot",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "postiz-app",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "社交媒体日程安排利器",
+      "tags": [
+        "社交媒体",
+        "日程安排",
+        "自动化",
+        "付费"
+      ],
+      "scenarios": [
+        "社交媒体管理",
+        "内容发布",
+        "营销自动化"
+      ],
+      "tutorial": "## 使用 Postiz-app 进行社交媒体日程安排\n1. 注册并登录 Postiz-app\n2. 选择要管理的社交媒体平台\n3. 创建新的日程安排，设置发布时间\n4. 上传或选择要发布的内容\n5. 预览并确认发布\n6. 定期检查发布效果，调整日程",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "status": "active",
+      "is_violation": false,
+      "id": "postiz-app",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "huashu-design",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能设计助手，网页/原型/动画一键生成",
+      "tags": [
+        "设计",
+        "原型",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页设计",
+        "App 原型",
+        "演示文稿"
+      ],
+      "tutorial": "## Huashu Design 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [Huashu Design 官网](https://huashu-design.com) 并下载安装程序。\n2. 运行安装程序，按照提示完成安装。\n3. 启动 Huashu Design，开始使用。\n\n### 2. 创建新项目\n\n1. 在主界面点击“新建项目”按钮。\n2. 选择项目类型，如网页、App 原型等。\n3. 输入项目名称，点击“创建”按钮。\n\n### 3. 选择设计风格\n\n1. 在项目设置中，选择“设计风格”选项卡。\n2. 从84种风格库中选择合适的设计风格。\n3. 点击“应用”按钮，风格将应用到项目中。\n\n### 4. 生成设计\n\n1. 在项目页面，点击“生成设计”按钮。\n2. 选择生成类型，如网页、App 原型等。\n3. 点击“生成”按钮，设计将自动生成。\n\n### 5. 下载与分享\n\n1. 生成设计后，可以下载为多种格式，如HTML、PPTX等。\n2. 也可以将设计分享到社交媒体或发送给他人。",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "status": "active",
+      "is_violation": false,
+      "id": "huashu-design",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "MiniMax M3.1 Flash",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "快速且经济的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "网页测试"
+      ],
+      "tutorial": "## MiniMax M3.1 Flash 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [MiniMax 官网](https://www.minimax.com/) 进行注册。\n2. 使用注册信息登录账户。\n\n### 2. 创建新项目\n\n1. 在控制台中点击 '新建项目'。\n2. 输入项目名称并选择项目类型。\n\n### 3. 编写自动化脚本\n\n1. 使用可视化界面拖拽组件来创建自动化流程。\n2. 可根据需要添加条件判断和循环逻辑。\n\n### 4. 运行与测试\n\n1. 点击 '运行' 按钮开始执行自动化任务。\n2. 观察执行结果并进行调试。",
+      "url": "https://www.producthunt.com/products/minimax-4",
+      "status": "dead",
+      "is_violation": false,
+      "id": "minimax-m3-1-flash",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "WhoIsCooking",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "监控Mac上运行的AI代理并降温",
+      "tags": [
+        "AI监控",
+        "系统优化",
+        "Mac工具"
+      ],
+      "scenarios": [
+        "Mac系统管理",
+        "AI应用监控",
+        "性能优化"
+      ],
+      "tutorial": "## 使用WhoIsCooking\n\n1. 下载并安装WhoIsCooking应用。\n2. 打开应用，它会自动检测并显示当前运行在Mac上的AI代理。\n3. 通过点击对应的代理，可以查看其详细信息，包括资源使用情况。\n4. 如果某个代理占用过多资源，可以点击'Cool It Down'按钮来降低其性能，从而降低系统温度。\n5. 定期检查和调整，以保持系统稳定运行。",
+      "url": "https://www.producthunt.com/products/whoiscooking",
+      "status": "dead",
+      "is_violation": false,
+      "id": "whoiscooking",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "SurgePix",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI视觉编辑工具，支持层编辑，可调用Agent操作。",
+      "tags": [
+        "AI视觉",
+        "编辑工具",
+        "层编辑",
+        "Agent调用"
+      ],
+      "scenarios": [
+        "网页视觉内容编辑",
+        "AI图像处理",
+        "自动化图像编辑"
+      ],
+      "tutorial": "## SurgePix 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [SurgePix官网](https://www.surgepix.com) 进行注册。\n2. 使用注册的账号登录。\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目。\n2. 输入项目名称，选择合适的模板。\n\n### 3. 编辑图像\n\n1. 上传或导入图像。\n2. 使用工具栏中的功能编辑图像，如调整颜色、添加文字等。\n3. 保存编辑后的图像。\n\n### 4. 调用Agent\n\n1. 在编辑界面，找到Agent调用功能。\n2. 选择合适的Agent进行操作，如自动调整图像尺寸、生成图像变体等。\n3. 查看Agent操作结果。\n\n### 5. 下载与分享\n\n1. 完成编辑后，下载图像。\n2. 可以将图像分享到社交媒体或保存到本地。",
+      "url": "https://www.producthunt.com/products/surgepix",
+      "status": "dead",
+      "is_violation": false,
+      "id": "surgepix",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "AVP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编码代理的 Git 开源替代品",
+      "tags": [
+        "代码管理",
+        "AI 编码",
+        "开源工具"
+      ],
+      "scenarios": [
+        "代码版本控制",
+        "团队协作",
+        "AI 项目管理"
+      ],
+      "tutorial": "## AVP 使用教程\n\n### 1. 安装 AVP\n\n首先，访问 [AVP 官网](https://www.producthunt.com/products/avp) 下载并安装 AVP。\n\n### 2. 创建新项目\n\n安装完成后，打开 AVP 并创建一个新的代码库项目。\n\n### 3. 添加代码\n\n将您的代码文件添加到项目中，并使用 AVP 的版本控制功能进行管理。\n\n### 4. 提交更改\n\n当您完成代码更改后，使用 AVP 的提交功能记录您的更改。\n\n### 5. 分支管理\n\n使用 AVP 的分支功能来管理代码的不同版本。",
+      "url": "https://www.producthunt.com/products/avp",
+      "status": "dead",
+      "is_violation": false,
+      "id": "avp",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "ManyAgents",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多AI编码代理，单窗口管理",
+      "tags": [
+        "AI编码",
+        "自动化",
+        "Mac"
+      ],
+      "scenarios": [
+        "代码生成",
+        "自动化测试",
+        "团队协作"
+      ],
+      "tutorial": "## ManyAgents 使用教程\n\n### 1. 安装 ManyAgents\n\n- 访问 [ManyAgents 官网](https://www.producthunt.com/products/manyagents) 下载安装包。\n- 双击安装包，按照提示完成安装。\n\n### 2. 创建代理\n\n- 打开 ManyAgents 应用程序。\n- 点击 'New Agent' 创建新的代理。\n- 输入代理名称和配置信息。\n\n### 3. 配置代理\n\n- 在代理配置界面，设置代理的运行环境、代码库等参数。\n- 可以选择不同的 AI 编码模型和工具。\n\n### 4. 运行代理\n\n- 点击 'Run' 按钮启动代理。\n- 观察代理的运行状态和输出结果。\n\n### 5. 管理代理\n\n- 在代理列表中，可以查看和管理所有代理。\n- 可以暂停、停止或删除代理。",
+      "url": "https://www.producthunt.com/products/manyagents",
+      "status": "dead",
+      "is_violation": false,
+      "id": "manyagents",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "tabsh",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器内IDE操作代理",
+      "tags": [
+        "代理",
+        "浏览器",
+        "IDE",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Tabsh进行代理操作\n\n### 1. 创建代理实例\n\n1. 打开Tabsh，点击创建新代理。\n2. 输入代理名称和配置信息，如IP地址、端口等。\n3. 点击创建，等待代理启动。\n\n### 2. 连接到代理\n\n1. 在Tabsh中，选择刚刚创建的代理。\n2. 点击连接，等待连接成功。\n\n### 3. 操作代理\n\n1. 在Tabsh的IDE中编写JavaScript代码，实现对网页的操作。\n2. 运行代码，观察代理的行为。\n\n### 4. 断开连接\n\n1. 当操作完成或需要断开连接时，点击Tabsh中的断开按钮。\n2. 确认断开连接。",
+      "url": "https://www.producthunt.com/products/tabsh",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tabsh",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "AI Bridge",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac上所有AI编码代理，各就各位",
+      "tags": [
+        "AI",
+        "自动化",
+        "Mac",
+        "编程"
+      ],
+      "scenarios": [
+        "代码生成",
+        "自动化测试",
+        "开发辅助"
+      ],
+      "tutorial": "## AI Bridge 使用教程\n\n1. 下载并安装 AI Bridge\n\n2. 打开 AI Bridge，选择你需要的AI代理\n\n3. 配置代理参数，如语言、库等\n\n4. 开始使用AI代理进行代码生成或自动化任务\n\n5. 查看生成的代码或执行自动化任务结果",
+      "url": "https://www.producthunt.com/products/ai-bridge",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ai-bridge",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "VibeiDE",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "并行处理队列任务并审查结果",
+      "tags": [
+        "任务并行",
+        "结果审查",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据处理",
+        "RPA"
+      ],
+      "tutorial": "## 使用VibeiDE进行任务并行处理\n\n1. **安装VibeiDE**\n   - 访问VibeiDE官网下载并安装最新版本。\n\n2. **创建任务队列**\n   - 打开VibeiDE，点击“新建队列”创建一个新的任务队列。\n\n3. **添加任务**\n   - 在队列中添加需要并行处理的任务。\n\n4. **设置并行参数**\n   - 配置并行处理的线程数和执行顺序。\n\n5. **启动任务**\n   - 点击“启动”按钮，VibeiDE将并行执行任务队列中的任务。\n\n6. **审查结果**\n   - 任务完成后，审查每个任务的结果，确保无误。",
+      "url": "https://www.producthunt.com/products/vibeide",
+      "status": "dead",
+      "is_violation": false,
+      "id": "vibeide",
+      "added": "2026-10-27"
+    },
+    {
+      "name": "Jobmate AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 智能助手，优化求职搜索体验",
+      "tags": [
+        "求职",
+        "AI",
+        "搜索",
+        "助手"
+      ],
+      "scenarios": [
+        "简历优化",
+        "职位搜索",
+        "面试准备"
+      ],
+      "tutorial": "## 使用 Jobmate AI 进行求职搜索\n\n1. 访问 Jobmate AI 网站\n   打开浏览器，输入 Jobmate AI 的网址，进入官方网站。\n\n2. 注册/登录\n   如果是首次使用，需要注册账户；如果是已有用户，直接登录。\n\n3. 设置求职偏好\n   在个人设置中，填写你的求职偏好，如职位类型、行业、地点等。\n\n4. 使用 AI 辅助搜索\n   输入关键词，Jobmate AI 会根据你的偏好提供智能搜索结果。\n\n5. 查看职位详情\n   点击感兴趣的职位，查看详细描述和公司信息。\n\n6. 优化简历\n   Jobmate AI 可以根据职位要求，提供简历优化建议。",
+      "url": "https://www.producthunt.com/products/jobmate-ai-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "jobmate-ai",
+      "added": "2026-10-27"
     }
   ],
   "changelog": [
@@ -16699,6 +16991,26 @@
         "git-flow-next",
         "Moli by Lexmount",
         "Papermark Data Rooms"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-27",
+      "added": [
+        "SkillSpector",
+        "openbot",
+        "postiz-app",
+        "huashu-design",
+        "MiniMax M3.1 Flash",
+        "WhoIsCooking",
+        "SurgePix",
+        "AVP",
+        "ManyAgents",
+        "tabsh",
+        "AI Bridge",
+        "VibeiDE",
+        "Jobmate AI"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
