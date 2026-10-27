@@ -15768,6 +15768,141 @@
       "is_violation": false,
       "id": "jobmate-ai",
       "added": "2026-10-27"
+    },
+    {
+      "name": "aihfagent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页Agent，自动操作网页。",
+      "tags": [
+        "Hugging Face",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线服务管理"
+      ],
+      "tutorial": "## 使用aihfagent进行网页自动化\n1. 安装aihfagent库\n   - 使用pip安装：`pip install aihfagent`\n2. 配置环境\n   - 设置Hugging Face API密钥：`AIHF_API_KEY=your_api_key`\n3. 编写脚本\n   - 使用aihfagent库编写自动化脚本，例如：\n     ```python\n     from aihfagent import Agent\n     agent = Agent()\n     agent.open('https://www.example.com')\n     agent.fill_form({'username': 'user', 'password': 'pass'})\n     agent.click_button('login')\n     ```\n4. 运行脚本\n   - 执行脚本进行网页操作",
+      "url": "https://huggingface.co/spaces/frankwild123/aihfagent",
+      "status": "active",
+      "is_violation": false,
+      "id": "aihfagent",
+      "added": "2026-10-28"
+    },
+    {
+      "name": "pundit-copilot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化助手，无需代码实现网页操作",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "无代码"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用Pundit-Copilot进行网页自动化\n\n### 1. 安装Pundit-Copilot\n从[Hugging Face](https://huggingface.co/)下载Pundit-Copilot的浏览器插件，并安装到您的浏览器中。\n\n### 2. 配置Pundit-Copilot\n启动插件后，根据提示完成配置，包括选择目标浏览器和设置自动化任务的基本参数。\n\n### 3. 创建自动化任务\n在Pundit-Copilot的界面中，点击创建新任务，选择要自动化的网页元素，如按钮、输入框等，并设置相应的操作，如点击、输入等。\n\n### 4. 运行和测试\n完成任务设置后，点击运行按钮，Pundit-Copilot将按照您设置的步骤自动执行网页操作。测试自动化任务是否按预期工作。",
+      "url": "https://huggingface.co/spaces/hnam2501/pundit-copilot",
+      "status": "active",
+      "is_violation": false,
+      "id": "pundit-copilot",
+      "added": "2026-10-28"
+    },
+    {
+      "name": "Nuvio 5.0",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI 财务助手，自动化财务行政工作",
+      "tags": [
+        "AI 财务",
+        "自动化",
+        "财务助手",
+        "工作流"
+      ],
+      "scenarios": [
+        "企业财务行政",
+        "财务流程自动化",
+        "财务数据管理"
+      ],
+      "tutorial": "## Nuvio 5.0 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Nuvio 官网，点击注册按钮创建账户。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建工作流\n\n1. 在控制台选择创建新的工作流。\n2. 选择财务相关的模板或自定义流程。\n3. 配置流程参数，如数据源、操作步骤等。\n\n### 3. 配置 AI 助手\n\n1. 在工作流中添加 AI 助手模块。\n2. 配置助手的行为和响应规则。\n3. 测试助手的功能，确保其正确执行任务。\n\n### 4. 部署与监控\n\n1. 部署工作流，使其自动运行。\n2. 监控工作流的执行状态，确保流程稳定。\n3. 根据需要调整工作流配置。",
+      "url": "https://www.producthunt.com/products/nuvio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nuvio-5-0",
+      "added": "2026-10-28"
+    },
+    {
+      "name": "PulseDev",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动修复本地 UI 缺陷的 AI 代理",
+      "tags": [
+        "UI 自动化",
+        "AI 修复",
+        "本地开发"
+      ],
+      "scenarios": [
+        "前端开发",
+        "UI 测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 PulseDev 自动修复 UI 缺陷\n\n### 1. 安装 PulseDev\n从 [PulseDev 官网](https://www.producthunt.com/products/pulsedev) 下载并安装 PulseDev。\n\n### 2. 连接本地开发环境\n在 PulseDev 中连接您的本地开发环境，确保可以访问您的 UI 应用。\n\n### 3. 识别 UI 缺陷\n在本地 UI 应用上点击识别到的缺陷，PulseDev 将自动分析并尝试修复。\n\n### 4. 检查修复结果\n检查修复后的 UI，确认问题是否得到解决。如果需要，可以进一步调整修复策略。",
+      "url": "https://www.producthunt.com/products/pulsedev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pulsedev",
+      "added": "2026-10-28"
+    },
+    {
+      "name": "NINX",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "本地设备AI，连接工具，创意工作流",
+      "tags": [
+        "AI",
+        "工具连接",
+        "工作流"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## NINX使用教程\n\n### 1. 安装NINX\n\n- 下载NINX安装包。\n- 解压安装包并运行安装程序。\n- 按照提示完成安装。\n\n### 2. 创建工作流\n\n- 打开NINX软件。\n- 在左侧菜单中选择“工作流”选项。\n- 点击“新建工作流”按钮。\n\n### 3. 配置工作流\n\n- 在工作流编辑器中，拖拽所需的工具和组件到工作流中。\n- 配置每个组件的参数和设置。\n\n### 4. 运行工作流\n\n- 点击工作流编辑器上的“运行”按钮。\n- 观察工作流的运行状态和结果。",
+      "url": "https://www.producthunt.com/products/ninx-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ninx",
+      "added": "2026-10-28"
+    },
+    {
+      "name": "Paddock",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为您的代理提供计算机和沙盒",
+      "tags": [
+        "代理",
+        "沙盒",
+        "自动化",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Paddock 使用教程\n\n### 1. 安装 Paddock\n\n- 访问 [Paddock 官网](https://www.producthunt.com/products/paddock-2) 下载并安装 Paddock 浏览器扩展。\n\n### 2. 创建代理\n\n- 打开 Paddock 扩展，点击 'New Agent' 创建一个新的代理。\n\n### 3. 编写脚本\n\n- 在代理编辑器中，使用 JavaScript 或其他支持的语言编写您的自动化脚本。\n\n### 4. 运行代理\n\n- 点击 'Run' 按钮运行您的代理脚本，开始自动化任务。",
+      "url": "https://www.producthunt.com/products/paddock-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "paddock",
+      "added": "2026-10-28"
     }
   ],
   "changelog": [
@@ -17011,6 +17146,19 @@
         "AI Bridge",
         "VibeiDE",
         "Jobmate AI"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-28",
+      "added": [
+        "aihfagent",
+        "pundit-copilot",
+        "Nuvio 5.0",
+        "PulseDev",
+        "NINX",
+        "Paddock"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
