@@ -15903,6 +15903,296 @@
       "is_violation": false,
       "id": "paddock",
       "added": "2026-10-28"
+    },
+    {
+      "name": "impeccable",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助代码审查工具，提升代码质量",
+      "tags": [
+        "代码审查",
+        "AI 辅助",
+        "代码质量",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "前端开发",
+        "后端开发",
+        "代码审查流程"
+      ],
+      "tutorial": "## 使用 Impeccable 进行代码审查\n\n1. 安装插件\n   - 访问 [Impeccable 插件页面](https://example.com/impeccable-plugin) 并安装到您的浏览器。\n2. 配置项目\n   - 在项目中配置 Impeccable，设置代码风格和审查规则。\n3. 开始审查\n   - 在代码编辑器中，使用 Impeccable 插件进行代码审查。\n4. 查看报告\n   - Impeccable 会生成详细的审查报告，包括潜在问题和改进建议。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "status": "active",
+      "is_violation": false,
+      "id": "impeccable",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "agentic-forecasting",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页预测工具",
+      "tags": [
+        "预测",
+        "Hugging Face",
+        "浏览器插件",
+        "机器学习"
+      ],
+      "scenarios": [
+        "网页内容预测",
+        "用户行为分析",
+        "个性化推荐"
+      ],
+      "tutorial": "## Agentic-forecasting 使用教程\n\n### 1. 安装插件\n\n1. 访问 [Hugging Face 官网](https://huggingface.co/)，搜索并安装 Agentic-forecasting 插件。\n\n### 2. 配置插件\n\n1. 打开浏览器扩展程序页面，找到 Agentic-forecasting 插件并点击配置。\n\n### 3. 选择预测模型\n\n1. 在配置页面选择合适的预测模型，根据需要调整参数。\n\n### 4. 开始预测\n\n1. 在网页上点击 Agentic-forecasting 插件图标，即可开始预测。\n\n### 5. 分析结果\n\n1. 预测结果将显示在网页上，可以用于进一步分析和决策。",
+      "url": "https://huggingface.co/spaces/Chennzi/agentic-forecasting",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentic-forecasting",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "flux-dev-vs-krea-dev-comparison-workflow",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "比较 Flux 和 Krea 开发环境的低代码工作流工具",
+      "tags": [
+        "开发环境比较",
+        "低代码",
+        "工作流"
+      ],
+      "scenarios": [
+        "开发环境选择",
+        "技术决策支持",
+        "项目评估"
+      ],
+      "tutorial": "## 使用 Flux 和 Krea 开发环境比较工作流\n1. 准备工作\n   1. 安装 Flux 和 Krea 开发环境。\n   2. 确保网络连接稳定，以便访问 Hugging Face 的资源。\n2. 创建工作流\n   1. 打开工作流编辑器，选择 '比较工具' 模板。\n   2. 输入 Flux 和 Krea 的相关信息，如版本号、功能特点等。\n3. 配置工作流\n   1. 设置工作流的触发条件，例如定期运行或手动触发。\n   2. 配置输出格式，如生成报告或图表。\n4. 运行工作流\n   1. 点击运行按钮，启动工作流。\n   2. 查看工作流运行结果，分析比较数据。\n5. 优化与迭代\n   1. 根据比较结果调整工作流配置。\n   2. 重复运行工作流，直到达到满意的效果。",
+      "url": "https://huggingface.co/spaces/hmb/flux-dev-vs-krea-dev-comparison-workflow",
+      "status": "active",
+      "is_violation": false,
+      "id": "flux-dev-vs-krea-dev-comparison-workflow",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "agentpad",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## AgentPad 使用教程\n\n### 1. 安装 AgentPad\n从 [AgentPad 官网](https://www.agentpad.com) 下载并安装 AgentPad 浏览器插件。\n\n### 2. 创建新任务\n打开 AgentPad，点击 '新建任务'，选择要自动化的网页。\n\n### 3. 编写脚本\n使用 AgentPad 的可视化界面拖拽元素，创建自动化流程。\n\n### 4. 运行与测试\n运行脚本，观察自动化过程，根据需要调整脚本。",
+      "url": "https://huggingface.co/spaces/agentpad/agentpad",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentpad",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "ga3-invoice-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动处理发票数据的浏览器网页Agent",
+      "tags": [
+        "发票处理",
+        "数据采集",
+        "自动化"
+      ],
+      "scenarios": [
+        "财务数据处理",
+        "发票管理自动化",
+        "企业内部审计"
+      ],
+      "tutorial": "## 使用ga3-invoice-agent处理发票数据\n\n### 1. 安装与配置\n1. 下载并安装ga3-invoice-agent。\n2. 在浏览器中打开扩展程序页面，启用ga3-invoice-agent。\n3. 配置发票数据采集规则，如指定发票模板和关键字。\n\n### 2. 数据采集\n1. 访问包含发票数据的网页。\n2. 使用ga3-invoice-agent自动识别和提取发票信息。\n3. 检查提取的数据，确保准确无误。\n\n### 3. 数据处理\n1. 将提取的发票数据导入到财务系统中。\n2. 使用ga3-invoice-agent进行数据验证和清洗。\n3. 自动生成发票报告。\n\n### 4. 验证与优化\n1. 定期检查发票处理流程，确保自动化流程稳定运行。\n2. 根据实际需求调整采集规则和数据处理逻辑。\n3. 优化发票处理效率。",
+      "url": "https://huggingface.co/spaces/dkumaruk/ga3-invoice-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "ga3-invoice-agent",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "Dedica",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "检测网站是否适用于AI代理",
+      "tags": [
+        "AI检测",
+        "网站兼容性",
+        "自动化测试"
+      ],
+      "scenarios": [
+        "网站开发",
+        "用户体验优化",
+        "自动化测试"
+      ],
+      "tutorial": "## Dedica 使用教程\n\n1. 访问 Dedica 网站\n   - 访问 Dedica 官方网站，注册并登录账号。\n\n2. 输入网址\n   - 在 Dedica 的用户界面中输入您想要检测的网站网址。\n\n3. 运行检测\n   - 点击检测按钮，Dedica 将开始分析网站是否适合AI代理使用。\n\n4. 查看结果\n   - 检测完成后，Dedica 会提供一份详细的报告，包括网站兼容性、性能指标等信息。",
+      "url": "https://www.producthunt.com/products/dedica",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dedica",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "Tulu",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "面向中小企业的自动化营销操作与分析工具",
+      "tags": [
+        "营销自动化",
+        "数据分析",
+        "SMBs"
+      ],
+      "scenarios": [
+        "营销活动管理",
+        "客户数据分析",
+        "市场趋势分析"
+      ],
+      "tutorial": "## Tulu 使用教程\n\n1. 注册并登录Tulu平台\n\n2. 创建新的营销项目，设置目标市场和客户群体\n\n3. 选择合适的营销策略，如社交媒体广告、电子邮件营销等\n\n4. 配置自动化规则，如自动发送邮件、跟踪客户行为等\n\n5. 监控营销效果，分析数据并优化策略",
+      "url": "https://www.producthunt.com/products/tulu",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tulu",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "BotGauge",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代理信任层，提升网页自动化操作信任度",
+      "tags": [
+        "代理",
+        "信任",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## BotGauge 使用教程\n\n### 1. 安装 BotGauge\n\n- 访问 [BotGauge 官网](https://www.producthunt.com/products/botgauge-2) 下载安装包。\n- 按照提示完成安装。\n\n### 2. 创建代理\n\n- 打开 BotGauge 软件。\n- 点击 '创建代理' 按钮。\n- 输入代理名称，选择代理类型，设置相关参数。\n\n### 3. 配置代理行为\n\n- 在代理编辑器中，使用拖拽方式添加行为模块。\n- 配置每个模块的参数，如点击、输入、等待等。\n\n### 4. 运行代理\n\n- 点击 '运行' 按钮，开始执行代理任务。\n- 观察代理执行过程，确保任务按预期进行。\n\n### 5. 查看结果\n\n- 任务完成后，查看执行结果，分析代理行为。",
+      "url": "https://www.producthunt.com/products/botgauge-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "botgauge",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "Mudroom",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "在虚拟机中运行代码代理，像审查PR一样查看更改",
+      "tags": [
+        "代码代理",
+        "虚拟机",
+        "代码审查"
+      ],
+      "scenarios": [
+        "代码开发",
+        "团队协作",
+        "代码审查流程"
+      ],
+      "tutorial": "## 使用Mudroom进行代码代理运行与审查\n\n### 1. 创建虚拟机\n\n1. 在Mudroom中创建一个新的虚拟机实例。\n2. 配置虚拟机的操作系统和资源。\n3. 启动虚拟机。\n\n### 2. 部署代码代理\n\n1. 将你的代码代理部署到虚拟机中。\n2. 确保代码代理可以访问到必要的资源和数据。\n3. 运行代码代理进行测试。\n\n### 3. 查看更改\n\n1. 在Mudroom中创建一个Pull Request。\n2. 将代码代理的更改提交到Pull Request中。\n3. 通过Mudroom审查更改并提出反馈。\n\n### 4. 部署更改\n\n1. 一旦更改被接受，Mudroom将自动部署更改到生产环境。\n2. 查看部署结果，确保一切运行正常。",
+      "url": "https://www.producthunt.com/products/mudroom-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mudroom",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "Yardlet",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac端代码代理应用，简化代码操作",
+      "tags": [
+        "Mac",
+        "代码代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码自动化测试",
+        "开发效率提升",
+        "Mac应用增强"
+      ],
+      "tutorial": "## Yardlet 使用教程\n\n### 1. 安装Yardlet\n\n- 下载Yardlet安装包\n- 双击安装包进行安装\n- 安装完成后，启动Yardlet应用\n\n### 2. 配置代理\n\n- 在Yardlet应用中，选择“设置”菜单\n- 在“代理设置”中，输入代理服务器地址和端口\n- 点击“保存”按钮，完成代理配置\n\n### 3. 使用Yardlet\n\n- 在Mac应用中，打开需要代理的应用\n- 在应用中执行代码操作\n- Yardlet会自动执行代码，并返回结果",
+      "url": "https://www.producthunt.com/products/yardlet-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "yardlet",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "Zest",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一键操作网页，AI 助力开发",
+      "tags": [
+        "AI",
+        "自动化",
+        "开发工具"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Zest 进行网页自动化\n\n1. 打开 Zest 并选择目标网页\n2. 点击网页元素进行拖拽，创建自动化操作\n3. 设置触发条件，如鼠标点击、键盘输入等\n4. 运行自动化脚本，观察 AI 助手的操作\n5. 保存自动化流程，以便下次使用",
+      "url": "https://www.producthunt.com/products/zest-6",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zest",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "App Store Screenshots",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动设计应用商店截图",
+      "tags": [
+        "截图设计",
+        "应用推广",
+        "自动化工具"
+      ],
+      "scenarios": [
+        "应用发布",
+        "产品推广",
+        "用户体验"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [App Store Screenshots](https://www.producthunt.com/products/app-store-screenshots) 官网并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 选择模板\n\n1. 进入截图设计界面，选择合适的截图模板。\n2. 根据需要调整模板中的元素和布局。\n\n### 3. 上传应用信息\n\n1. 上传应用截图、图标等必要信息。\n2. 根据提示填写应用描述和关键词。\n\n### 4. 生成截图\n\n1. 点击生成按钮，系统将自动处理并生成应用截图。\n2. 下载生成的截图并用于应用商店发布。",
+      "url": "https://www.producthunt.com/products/app-store-screenshots",
+      "status": "dead",
+      "is_violation": false,
+      "id": "app-store-screenshots",
+      "added": "2026-10-29"
+    },
+    {
+      "name": "Agent Handshake by Fini",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能客服助手，自动回复客户问题",
+      "tags": [
+        "客服",
+        "自动回复",
+        "智能客服",
+        "网页操作"
+      ],
+      "scenarios": [
+        "在线客服",
+        "客户服务自动化",
+        "多渠道客服集成"
+      ],
+      "tutorial": "## Agent Handshake by Fini 使用教程\n\n### 1. 安装与配置\n1. 访问 [Agent Handshake by Fini](https://www.producthunt.com/products/fini-2) 官网下载并安装。\n2. 注册账户并登录，按照提示完成配置。\n3. 配置你的客服渠道，如网站聊天窗口、邮件等。\n\n### 2. 创建自动回复\n1. 在控制面板中，点击创建新的自动回复规则。\n2. 输入关键词或设置触发条件。\n3. 添加回复内容，可以是预设的回复模板或自定义文本。\n\n### 3. 测试与部署\n1. 在测试环境中测试自动回复功能，确保其正常工作。\n2. 确认无误后，将自动回复规则部署到生产环境。\n\n### 4. 监控与优化\n1. 定期检查自动回复的效果，收集用户反馈。\n2. 根据反馈调整回复内容，优化客服体验。",
+      "url": "https://www.producthunt.com/products/fini-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-handshake-by-fini",
+      "added": "2026-10-29"
     }
   ],
   "changelog": [
@@ -17159,6 +17449,26 @@
         "PulseDev",
         "NINX",
         "Paddock"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-29",
+      "added": [
+        "impeccable",
+        "agentic-forecasting",
+        "flux-dev-vs-krea-dev-comparison-workflow",
+        "agentpad",
+        "ga3-invoice-agent",
+        "Dedica",
+        "Tulu",
+        "BotGauge",
+        "Mudroom",
+        "Yardlet",
+        "Zest",
+        "App Store Screenshots",
+        "Agent Handshake by Fini"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
