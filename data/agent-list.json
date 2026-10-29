@@ -16193,6 +16193,275 @@
       "is_violation": false,
       "id": "agent-handshake-by-fini",
       "added": "2026-10-29"
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "将 Claude Code 打造为完整的游戏开发工作室",
+      "tags": [
+        "游戏开发",
+        "AI 辅助",
+        "工作流"
+      ],
+      "scenarios": [
+        "游戏开发",
+        "AI 工作流",
+        "团队协作"
+      ],
+      "tutorial": "## Claude-Code-Game-Studios 使用教程\n\n### 1. 创建项目\n\n1. 打开 Claude-Code-Game-Studios 平台。\n2. 点击 '创建新项目'，输入项目名称并选择项目类型。\n3. 点击 '创建'，进入项目设置页面。\n\n### 2. 配置 AI 代理\n\n1. 在项目设置页面，点击 'AI 代理' 标签。\n2. 选择需要的 AI 代理，配置其参数和技能。\n3. 点击 '保存'，AI 代理配置完成。\n\n### 3. 工作流编排\n\n1. 在项目设置页面，点击 '工作流' 标签。\n2. 使用拖拽方式创建工作流节点。\n3. 配置节点参数，连接节点以创建工作流。\n4. 点击 '预览'，检查工作流运行效果。\n\n### 4. 部署与监控\n\n1. 在项目设置页面，点击 '部署' 标签。\n2. 选择部署环境，设置部署参数。\n3. 点击 '部署'，开始部署项目。\n4. 在 '监控' 标签页查看项目运行状态。",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "status": "active",
+      "is_violation": false,
+      "id": "claude-code-game-studios",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "AgentCore",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码。",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## AgentCore 使用教程\n\n### 1. 安装 AgentCore\n从 [AgentCore 官网](https://www.agentcore.com) 下载并安装 AgentCore。\n\n### 2. 创建新任务\n打开 AgentCore，点击 '创建新任务'，选择任务类型。\n\n### 3. 编排任务\n使用可视化拖拽的方式编排任务流程，如点击、输入等。\n\n### 4. 运行任务\n点击 '运行' 按钮开始执行任务。\n\n### 5. 查看结果\n任务完成后，查看执行结果。",
+      "url": "https://huggingface.co/spaces/Subham12r/AgentCore",
+      "status": "active",
+      "is_violation": false,
+      "id": "agentcore",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "IFTTT.ai",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "轻松自动化任何事务",
+      "tags": [
+        "自动化",
+        "工作流",
+        "任务调度"
+      ],
+      "scenarios": [
+        "日常任务自动化",
+        "业务流程优化",
+        "跨平台集成"
+      ],
+      "tutorial": "## IFTTT.ai 使用教程\n\n### 1. 创建账户\n\n1. 访问 [IFTTT.ai 官网](https://ifttt.ai/) 并注册账户。\n2. 登录后，您将进入个人仪表板。\n\n### 2. 创建 Applet\n\n1. 点击 'Create' 创建一个新的 Applet。\n2. 选择触发器（如 'New email arrives'）和操作（如 'Send a notification'）。\n3. 配置触发器和操作的具体参数。\n\n### 3. 测试 Applet\n\n1. 点击 'Test' 检查 Applet 是否按预期工作。\n2. 如果测试成功，您就可以启用 Applet。\n\n### 4. 管理和监控\n\n1. 在仪表板中查看所有 Applet 的状态。\n2. 编辑或删除不需要的 Applet。",
+      "url": "https://www.producthunt.com/products/ifttt",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ifttt-ai",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "Intrascope 2.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能模型路由的AI浏览器代理",
+      "tags": [
+        "AI代理",
+        "浏览器扩展",
+        "智能路由",
+        "应用集成"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Intrascope 2.0 使用教程\n\n### 1. 安装Intrascope 2.0\n\n1. 访问Intrascope 2.0官网下载安装包。\n2. 按照提示完成安装。\n\n### 2. 配置代理设置\n\n1. 打开Intrascope 2.0，进入设置界面。\n2. 在代理设置中，选择合适的代理模式。\n3. 输入代理服务器地址和端口。\n\n### 3. 创建智能模型路由\n\n1. 在模型路由设置中，选择要路由的应用。\n2. 设置模型参数，如权重、优先级等。\n3. 保存设置。\n\n### 4. 使用Intrascope 2.0\n\n1. 打开需要代理的网页。\n2. Intrascope 2.0会自动根据配置的路由模型进行操作。\n3. 观察并调整设置，以达到最佳效果。",
+      "url": "https://www.producthunt.com/products/intrascope-app",
+      "status": "dead",
+      "is_violation": false,
+      "id": "intrascope-2-0",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "Gologin Cloud Browser",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端浏览器，AI 代理与复杂网站交互",
+      "tags": [
+        "AI 代理",
+        "云端浏览器",
+        "网站交互",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "网页自动化"
+      ],
+      "tutorial": "## Gologin Cloud Browser 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Gologin Cloud Browser 官网，注册账号并登录。\n2. 选择合适的订阅计划，进行支付。\n\n### 2. 创建代理\n\n1. 登录后，点击创建代理按钮。\n2. 输入代理名称，选择浏览器类型和地区。\n3. 点击创建，等待代理生成。\n\n### 3. 使用代理\n\n1. 在网页中输入代理地址和端口。\n2. 使用代理进行网页操作，如登录、填写表单等。\n\n### 4. 管理代理\n\n1. 在代理列表中，可以查看和管理已创建的代理。\n2. 可以编辑、删除或重启代理。",
+      "url": "https://www.producthunt.com/products/gologin",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gologin-cloud-browser",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "AutoShelf 2.6",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "Mac上文件夹自动化工具，通过条件规则自动处理文件。",
+      "tags": [
+        "自动化",
+        "Mac",
+        "文件夹",
+        "规则"
+      ],
+      "scenarios": [
+        "文件管理自动化",
+        "日常任务自动化",
+        "工作流程优化"
+      ],
+      "tutorial": "## AutoShelf 2.6 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [AutoShelf 官网](https://www.producthunt.com/products/autoshelf) 下载并安装 AutoShelf。\n2. 打开应用，开始配置自动化规则。\n\n### 2. 创建规则\n\n1. 点击 '+' 创建新规则。\n2. 选择触发条件，如文件类型、文件大小等。\n3. 设置操作，如移动文件、重命名文件等。\n\n### 3. 测试规则\n\n1. 点击 'Test Rule' 测试规则是否按预期执行。\n2. 确认无误后，点击 'Save' 保存规则。\n\n### 4. 规则管理\n\n1. 在规则列表中，可以编辑或删除规则。\n2. 可以设置规则优先级，确保规则按顺序执行。\n\n通过以上步骤，您可以使用 AutoShelf 自动化处理 Mac 上的文件夹，提高工作效率。",
+      "url": "https://www.producthunt.com/products/autoshelf",
+      "status": "dead",
+      "is_violation": false,
+      "id": "autoshelf-2-6",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "TopAgent",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI 助手驱动 B2B 活动参与",
+      "tags": [
+        "AI",
+        "B2B",
+        "活动管理",
+        "自动化"
+      ],
+      "scenarios": [
+        "B2B 活动管理",
+        "客户参与度提升",
+        "自动化营销"
+      ],
+      "tutorial": "## TopAgent 使用教程\n\n### 1. 注册与登录\n\n1. 访问 TopAgent 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录系统。\n\n### 2. 创建活动\n\n1. 在首页点击创建活动，填写活动名称、时间、地点等基本信息。\n2. 选择合适的 AI 助手模板，配置活动相关的自动化流程。\n\n### 3. 配置 AI 助手\n\n1. 在活动详情页，点击配置 AI 助手，选择合适的对话模板和回复策略。\n2. 设置 AI 助手的触发条件，如活动开始前、活动进行中等。\n\n### 4. 活动监控与优化\n\n1. 活动开始后，实时监控 AI 助手的运行情况，查看参与数据。\n2. 根据参与数据，优化 AI 助手的对话模板和回复策略。",
+      "url": "https://www.producthunt.com/products/topmessage",
+      "status": "dead",
+      "is_violation": false,
+      "id": "topagent",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "Radar",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "无需AI SRE，Radar助您轻松管理Agent。",
+      "tags": [
+        "自动化",
+        "AI管理",
+        "Agent工具"
+      ],
+      "scenarios": [
+        "网站监控",
+        "数据采集",
+        "自动化测试"
+      ],
+      "tutorial": "## Radar使用教程\n\n1. 注册并登录Radar平台。\n2. 创建一个新的Agent项目，配置所需参数。\n3. 在项目中添加任务，如网页爬取、数据提取等。\n4. 设置触发条件，如定时执行或事件触发。\n5. 查看执行结果，并根据需要调整配置。",
+      "url": "https://www.producthunt.com/products/radar-7",
+      "status": "dead",
+      "is_violation": false,
+      "id": "radar",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "JIMMY",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "本地PC运行的AI代理，自动操作网页",
+      "tags": [
+        "AI代理",
+        "网页自动化",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线任务处理"
+      ],
+      "tutorial": "## JIMMY 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 JIMMY。\n2. 打开 JIMMY 应用程序。\n3. 点击 '新建代理' 创建一个新的代理任务。\n\n### 2. 配置代理任务\n\n1. 在 '任务名称' 输入框中输入任务名称。\n2. 在 '目标网页' 输入框中输入需要自动操作的网页地址。\n3. 选择需要自动化的操作，如点击、填写表单等。\n\n### 3. 运行与监控\n\n1. 点击 '运行' 按钮开始执行任务。\n2. 在 '日志' 窗口中监控任务执行情况。\n3. 任务完成后，点击 '停止' 按钮结束任务。\n\n### 4. 保存与分享\n\n1. 任务执行完成后，可以保存任务以供以后使用。\n2. 可以将任务分享给其他用户。",
+      "url": "https://www.producthunt.com/products/jimmy",
+      "status": "dead",
+      "is_violation": false,
+      "id": "jimmy",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "Flatbread",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "分享整个代理运行过程，而非截图",
+      "tags": [
+        "代理运行",
+        "分享",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "网页监控"
+      ],
+      "tutorial": "## 使用 Flatbread 进行自动化操作\n\n1. 安装 Flatbread\n   - 访问 [Flatbread 官网](https://www.producthunt.com/products/flatbread) 下载并安装 Flatbread。\n2. 创建新任务\n   - 打开 Flatbread，点击 'New Task' 创建一个新的自动化任务。\n3. 编写脚本\n   - 使用 Flatbread 提供的脚本语言编写自动化脚本，实现所需功能。\n4. 运行任务\n   - 编写完成后，点击 'Run' 运行任务，观察运行结果。\n5. 保存与分享\n   - 任务运行成功后，可以保存任务并分享给他人。",
+      "url": "https://www.producthunt.com/products/flatbread",
+      "status": "dead",
+      "is_violation": false,
+      "id": "flatbread",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "MAO",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "多智能体协作编排工具，跨平台网页自动化",
+      "tags": [
+        "自动化",
+        "协作",
+        "网页",
+        "智能体"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## MAO 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 MAO 软件。\n2. 打开 MAO 软件，创建一个新的项目。\n3. 启动 MAO 运行环境。\n\n### 2. 创建智能体\n\n1. 在项目中添加新的智能体。\n2. 配置智能体的参数，如名称、类型等。\n3. 设置智能体的行为，如点击、输入等。\n\n### 3. 编排任务\n\n1. 将智能体拖拽到编排区域。\n2. 使用拖拽方式连接智能体，形成任务流。\n3. 设置任务流的参数，如执行顺序、条件等。\n\n### 4. 运行与监控\n\n1. 运行编排好的任务流。\n2. 监控任务流的执行状态。\n3. 根据需要调整智能体或任务流配置。",
+      "url": "https://www.producthunt.com/products/mao-multi-agentic-orchestration-tool",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mao",
+      "added": "2026-10-30"
+    },
+    {
+      "name": "AssemblyAI",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为语音代理构建的语音合成工具",
+      "tags": [
+        "语音合成",
+        "语音代理",
+        "文本转语音"
+      ],
+      "scenarios": [
+        "智能客服",
+        "语音助手",
+        "语音交互应用"
+      ],
+      "tutorial": "## 使用 AssemblyAI 进行文本转语音\n\n1. 注册并登录 AssemblyAI 平台\n\n2. 创建一个新的项目，选择文本转语音服务\n\n3. 上传文本内容或直接在平台上输入文本\n\n4. 选择合适的语音模型和语言\n\n5. 点击生成语音，下载或直接嵌入到应用中",
+      "url": "https://www.producthunt.com/products/assemblyai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "assemblyai",
+      "added": "2026-10-30"
     }
   ],
   "changelog": [
@@ -17469,6 +17738,25 @@
         "Zest",
         "App Store Screenshots",
         "Agent Handshake by Fini"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-30",
+      "added": [
+        "Claude-Code-Game-Studios",
+        "AgentCore",
+        "IFTTT.ai",
+        "Intrascope 2.0",
+        "Gologin Cloud Browser",
+        "AutoShelf 2.6",
+        "TopAgent",
+        "Radar",
+        "JIMMY",
+        "Flatbread",
+        "MAO",
+        "AssemblyAI"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
