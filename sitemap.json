@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T22:14:47.413Z",
+  "generatedAt": "2026-10-30T21:48:58.778Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3726,6 +3726,26 @@
       "url": "https://aiagent.72tool.com/tools/assemblyai.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ilse.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/fastbrowse.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/speakon-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/faylee.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3756,7 +3776,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 738,
+    "totalAgents": 742,
     "byCategory": [
       {
         "id": "local",
@@ -3766,7 +3786,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 607
+        "count": 611
       },
       {
         "id": "workflow",
@@ -3784,6 +3804,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 473
+    "deadLinks": 477
   }
 }

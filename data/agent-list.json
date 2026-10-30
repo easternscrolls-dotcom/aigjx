@@ -16462,6 +16462,96 @@
       "is_violation": false,
       "id": "assemblyai",
       "added": "2026-10-30"
+    },
+    {
+      "name": "ilse",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代码自动生成工具，点对应用程序即可改写代码",
+      "tags": [
+        "AI代码",
+        "自动化",
+        "代码生成",
+        "开发工具"
+      ],
+      "scenarios": [
+        "前端开发",
+        "后端开发",
+        "代码维护"
+      ],
+      "tutorial": "## 使用 ilse 进行代码自动生成\n\n1. 下载并安装 ilse\n\n   访问 [ilse 官网](https://www.producthunt.com/products/ilse) 下载安装程序。\n2. 打开你的应用程序\n\n   打开你想要修改代码的应用程序，确保它处于活动状态。\n3. 启动 ilse\n\n   运行 ilse，它会自动识别你的应用程序并开始分析代码。\n4. 选择代码修改选项\n\n   ilse 会提供一系列的代码修改选项，你可以选择你想要的修改方式。\n5. 应用修改\n\n   选择完成后，ilse 会自动生成并应用新的代码。",
+      "url": "https://www.producthunt.com/products/ilse",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ilse",
+      "added": "2026-10-31"
+    },
+    {
+      "name": "fastbrowse",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速开源浏览器网页Agent",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "网页自动化"
+      ],
+      "tutorial": "## 快速浏览上手指南\n\n1. 下载并安装Fastbrowse\n\n2. 打开Fastbrowse，创建一个新的任务\n\n3. 在任务中配置目标网页和操作步骤\n\n4. 运行任务，观察自动化操作结果\n\n5. 保存和分享你的自动化任务",
+      "url": "https://www.producthunt.com/products/fastbrowse",
+      "status": "dead",
+      "is_violation": false,
+      "id": "fastbrowse",
+      "added": "2026-10-31"
+    },
+    {
+      "name": "SpeakON Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "语音转工作自动化工具",
+      "tags": [
+        "语音识别",
+        "自动化",
+        "工作流"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "数据录入",
+        "语音指令控制"
+      ],
+      "tutorial": "## 使用 SpeakON Agent 进行语音转工作自动化\n\n1. **安装 SpeakON Agent**\n   - 访问 [SpeakON Agent 官网](https://www.producthunt.com/products/speakon) 下载并安装 SpeakON Agent。\n\n2. **配置语音识别**\n   - 在 SpeakON Agent 中配置语音识别引擎，支持多种语音识别服务。\n\n3. **设置工作流**\n   - 创建新的工作流，定义语音识别后的操作，如发送邮件、填写表单等。\n\n4. **测试与优化**\n   - 运行测试工作流，根据反馈调整配置和流程，确保自动化工作准确无误。\n\n5. **部署与应用**\n   - 将配置好的工作流部署到生产环境，实现语音转工作的自动化。",
+      "url": "https://www.producthunt.com/products/speakon",
+      "status": "dead",
+      "is_violation": false,
+      "id": "speakon-agent",
+      "added": "2026-10-31"
+    },
+    {
+      "name": "Faylee",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动修复代码中的 Bug",
+      "tags": [
+        "代码检测",
+        "自动化修复",
+        "开发辅助"
+      ],
+      "scenarios": [
+        "前端开发",
+        "后端开发",
+        "代码审查"
+      ],
+      "tutorial": "## Faylee 使用教程\n\n### 1. 安装 Faylee\n\n从 [Faylee 官网](https://www.producthunt.com/products/faylee) 下载并安装 Faylee。\n\n### 2. 配置项目\n\n打开 Faylee，选择你的项目，并配置相应的代码库信息。\n\n### 3. 开始检测\n\n点击检测按钮，Faylee 将自动扫描代码中的 Bug。\n\n### 4. 修复 Bug\n\nFaylee 会提供修复建议，你可以根据这些建议手动修复 Bug。\n\n### 5. 持续监控\n\nFaylee 会持续监控代码库，一旦发现新的 Bug，会立即通知你。",
+      "url": "https://www.producthunt.com/products/faylee",
+      "status": "dead",
+      "is_violation": false,
+      "id": "faylee",
+      "added": "2026-10-31"
     }
   ],
   "changelog": [
@@ -17757,6 +17847,17 @@
         "Flatbread",
         "MAO",
         "AssemblyAI"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-10-31",
+      "added": [
+        "ilse",
+        "fastbrowse",
+        "SpeakON Agent",
+        "Faylee"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
