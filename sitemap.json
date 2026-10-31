@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T21:48:58.778Z",
+  "generatedAt": "2026-10-31T20:48:47.263Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3746,6 +3746,36 @@
       "url": "https://aiagent.72tool.com/tools/faylee.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/orkas.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/telemetry-dev.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/spaceo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/backenly.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/github-copilot-fusion.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pluto-door.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3776,17 +3806,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 742,
+    "totalAgents": 748,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 33
+        "count": 34
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 611
+        "count": 616
       },
       {
         "id": "workflow",
@@ -3804,6 +3834,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 477
+    "deadLinks": 482
   }
 }

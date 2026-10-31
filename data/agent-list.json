@@ -16552,6 +16552,142 @@
       "is_violation": false,
       "id": "faylee",
       "added": "2026-10-31"
+    },
+    {
+      "name": "Orkas",
+      "category": "local",
+      "type": "open-source",
+      "summary": "本地开源AI团队工具，桌面自动化助手",
+      "tags": [
+        "AI",
+        "自动化",
+        "任务管理",
+        "多代理"
+      ],
+      "scenarios": [
+        "个人效率提升",
+        "团队协作",
+        "项目管理"
+      ],
+      "tutorial": "## Orkas使用教程\n\n### 1. 安装Orkas\n\n1. 访问Orkas官网下载对应操作系统的安装包。\n2. 运行安装包并按照提示完成安装。\n3. 启动Orkas应用。\n\n### 2. 创建项目\n\n1. 在Orkas应用中点击 '+' 创建新项目。\n2. 输入项目名称并选择项目类型。\n3. 点击 '创建' 完成项目创建。\n\n### 3. 配置代理\n\n1. 在项目中点击 '添加代理'。\n2. 选择要添加的代理类型，如 '任务代理' 或 '自动化代理'。\n3. 配置代理参数，如任务内容、执行时间等。\n4. 点击 '保存' 完成配置。\n\n### 4. 运行项目\n\n1. 在项目中点击 '运行' 按钮。\n2. Orkas将按照配置的代理执行任务。\n3. 查看执行结果和日志。",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "status": "active",
+      "is_violation": false,
+      "id": "orkas",
+      "added": "2026-11-01"
+    },
+    {
+      "name": "telemetry.dev",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的 LLM 可观测性工具",
+      "tags": [
+        "AI",
+        "可观测性",
+        "代理",
+        "LLM"
+      ],
+      "scenarios": [
+        "AI 模型监控",
+        "代理性能分析",
+        "数据收集与可视化"
+      ],
+      "tutorial": "## 使用 Telemetry.dev 进行 AI 代理的 LLM 可观测性\n\n### 1. 注册与登录\n\n1. 访问 [Telemetry.dev](https://www.producthunt.com/products/telemetry-dev) 官网。\n2. 点击 'Sign Up' 进行注册。\n3. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建项目\n\n1. 登录后，点击右上角的 '+' 创建新项目。\n2. 输入项目名称和描述。\n3. 选择项目类型和配置参数。\n\n### 3. 配置代理\n\n1. 在项目设置中，选择 'AI Agents' 选项卡。\n2. 添加新的代理或选择现有代理。\n3. 配置代理的 LLM 模型和相关参数。\n\n### 4. 监控与分析\n\n1. 在 'Monitoring' 选项卡中查看代理的实时性能数据。\n2. 使用图表和仪表板进行数据可视化。\n3. 分析数据以优化代理性能。",
+      "url": "https://www.producthunt.com/products/telemetry-dev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "telemetry-dev",
+      "added": "2026-11-01"
+    },
+    {
+      "name": "SpaceO",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI代理在Mac上提供独立屏幕",
+      "tags": [
+        "AI代理",
+        "Mac",
+        "屏幕",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "自动化办公",
+        "AI应用开发"
+      ],
+      "tutorial": "## SpaceO使用教程\n\n### 1. 安装SpaceO\n\n1. 访问SpaceO官网下载最新版本。\n2. 双击安装包，按照提示完成安装。\n3. 打开SpaceO应用，开始使用。\n\n### 2. 创建新代理\n\n1. 点击左侧菜单栏的 '+' 按钮。\n2. 输入代理名称，选择操作系统和屏幕分辨率。\n3. 点击 '创建' 按钮。\n\n### 3. 配置代理\n\n1. 在代理列表中找到刚刚创建的代理。\n2. 双击代理，进入配置界面。\n3. 根据需求配置代理参数，如鼠标、键盘等。\n\n### 4. 运行代理\n\n1. 在代理列表中找到配置好的代理。\n2. 点击 '运行' 按钮。\n3. 观察代理在Mac上的操作。",
+      "url": "https://www.producthunt.com/products/spaceo",
+      "status": "dead",
+      "is_violation": false,
+      "id": "spaceo",
+      "added": "2026-11-01"
+    },
+    {
+      "name": "Backenly",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编码代理的自主后端服务",
+      "tags": [
+        "AI 编码",
+        "后端服务",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码生成",
+        "自动化测试",
+        "开发辅助"
+      ],
+      "tutorial": "## 使用 Backenly 进行 AI 编码代理的设置\n\n1. 注册并登录 Backenly 账户\n\n2. 创建一个新的项目，选择 AI 编码代理所需的编程语言和框架\n\n3. 配置代理的输入和输出参数，例如 API 调用和数据处理逻辑\n\n4. 上传代码模板或直接编写代码逻辑\n\n5. 启动代理，Backenly 将自动处理代码生成和执行",
+      "url": "https://www.producthunt.com/products/backenly-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "backenly",
+      "added": "2026-11-01"
+    },
+    {
+      "name": "GitHub Copilot Fusion",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI编程助手，智能代码推荐与组合",
+      "tags": [
+        "AI编程",
+        "代码助手",
+        "智能推荐",
+        "代码组合"
+      ],
+      "scenarios": [
+        "代码开发",
+        "代码优化",
+        "代码生成"
+      ],
+      "tutorial": "## 使用GitHub Copilot Fusion进行AI编程\n\n1. 注册并登录GitHub账户\n\n2. 在GitHub项目中启用Copilot Fusion\n\n3. 编写代码时，Copilot Fusion会自动提供代码建议\n\n4. 选择合适的代码建议并应用，提高开发效率\n\n5. 通过Copilot Fusion的设置，自定义代码风格和偏好",
+      "url": "https://www.producthunt.com/products/github-copilot-fusion",
+      "status": "dead",
+      "is_violation": false,
+      "id": "github-copilot-fusion",
+      "added": "2026-11-01"
+    },
+    {
+      "name": "Pluto Door",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助 SSH 客户端，为每台服务器提供桌面环境",
+      "tags": [
+        "SSH",
+        "AI",
+        "远程桌面"
+      ],
+      "scenarios": [
+        "远程服务器管理",
+        "自动化任务执行",
+        "跨平台访问"
+      ],
+      "tutorial": "## 使用 Pluto Door 进行 SSH 连接与桌面操作\n\n1. 下载并安装 Pluto Door 客户端。\n2. 在客户端中添加新的 SSH 连接，输入服务器地址、用户名和密码。\n3. 点击连接后，Pluto Door 将自动建立 SSH 连接。\n4. 连接成功后，您将看到一个虚拟桌面，可以像使用本地电脑一样操作服务器。\n5. 使用 AI 代理功能，可以自动完成一些重复性任务，如文件传输、命令执行等。\n\n## 高级功能\n\n1. 配置代理设置，以优化连接速度和安全性。\n2. 使用快捷键进行快速操作，如复制粘贴、截图等。\n3. 通过拖拽方式自定义桌面布局，提高工作效率。\n4. 使用 AI 代理进行自动化任务，如定时备份、系统监控等。",
+      "url": "https://www.producthunt.com/products/pluto-door",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pluto-door",
+      "added": "2026-11-01"
     }
   ],
   "changelog": [
@@ -17858,6 +17994,19 @@
         "fastbrowse",
         "SpeakON Agent",
         "Faylee"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-01",
+      "added": [
+        "Orkas",
+        "telemetry.dev",
+        "SpaceO",
+        "Backenly",
+        "GitHub Copilot Fusion",
+        "Pluto Door"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
