@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T21:31:09.742Z",
+  "generatedAt": "2026-11-03T00:13:34.262Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3826,6 +3826,46 @@
       "url": "https://aiagent.72tool.com/tools/modelpeers.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-desktop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/beacon-sh.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-inbox.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cedric-ai-for-meetings.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/display-1-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clayzo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/linkly-ai-clipper.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/redu-cloud.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3856,7 +3896,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 758,
+    "totalAgents": 766,
     "byCategory": [
       {
         "id": "local",
@@ -3866,7 +3906,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 625
+        "count": 633
       },
       {
         "id": "workflow",
@@ -3884,6 +3924,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 489
+    "deadLinks": 496
   }
 }

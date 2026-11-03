@@ -16914,6 +16914,186 @@
       "is_violation": false,
       "id": "modelpeers",
       "added": "2026-11-02"
+    },
+    {
+      "name": "agent-desktop",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的 CLI 计算机使用工具",
+      "tags": [
+        "AI 代理",
+        "命令行",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装 Agent-Desktop\n从 [GitHub](https://github.com/agent-hub/agent-desktop) 下载并安装 Agent-Desktop。\n\n### 2. 创建新任务\n启动 Agent-Desktop 后，创建一个新的任务，选择合适的代理和命令行操作。\n\n### 3. 配置参数\n配置任务所需的参数，如 URL、数据格式等。\n\n### 4. 运行任务\n点击运行按钮，Agent-Desktop 将自动执行任务并输出结果。",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-desktop",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "beacon.sh",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源自优化的AI编码代理内存",
+      "tags": [
+        "AI编码",
+        "开源",
+        "内存优化",
+        "代理"
+      ],
+      "scenarios": [
+        "代码辅助",
+        "自动化测试",
+        "AI开发"
+      ],
+      "tutorial": "## beacon.sh 使用教程\n\n### 1. 安装与配置\n1. 下载 beacon.sh 并解压到本地目录。\n2. 打开终端，进入 beacon.sh 目录。\n3. 运行 `./install.sh` 命令进行安装。\n4. 按照提示完成配置。\n\n### 2. 使用示例\n1. 在代码编辑器中打开 beacon.sh。\n2. 输入代码，beacon.sh 将自动提供代码补全和建议。\n3. 使用快捷键调用 beacon.sh 的功能，如代码格式化、代码检查等。\n\n### 3. 高级功能\n1. 通过配置文件自定义 beacon.sh 的行为。\n2. 使用 beacon.sh 的插件扩展功能。\n3. 与其他工具集成，如版本控制、代码审查等。",
+      "url": "https://www.producthunt.com/products/asymptotelabs",
+      "status": "dead",
+      "is_violation": false,
+      "id": "beacon-sh",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "Agent Inbox",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为代理提供邮箱、Slack 和 Telegram 联系方式管理",
+      "tags": [
+        "邮箱管理",
+        "Slack",
+        "Telegram",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化客服",
+        "团队沟通",
+        "数据收集"
+      ],
+      "tutorial": "## 使用 Agent Inbox 教程\n\n### 1. 注册账户\n\n1. 访问 Agent Inbox 官网并注册一个账户。\n2. 完成注册流程，获取登录凭证。\n\n### 2. 配置邮箱\n\n1. 登录 Agent Inbox，进入邮箱配置页面。\n2. 输入你的邮箱地址和授权码，完成邮箱绑定。\n\n### 3. 设置Slack和Telegram\n\n1. 在设置页面找到Slack和Telegram配置选项。\n2. 输入你的Slack用户名和Telegram账号信息，完成配置。\n\n### 4. 使用Agent Inbox\n\n1. 在你的浏览器中安装 Agent Inbox 插件。\n2. 通过插件发送邮件、Slack 消息或Telegram消息。\n3. Agent Inbox 会自动处理消息，并同步到你的邮箱和聊天工具中。",
+      "url": "https://www.producthunt.com/products/agent-inbox",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-inbox",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "Cedric AI for Meetings",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 会议助手，自动演示幻灯片并参会",
+      "tags": [
+        "AI",
+        "会议",
+        "自动化",
+        "演示"
+      ],
+      "scenarios": [
+        "在线会议",
+        "远程演示",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 Cedric AI for Meetings 进行会议自动化\n\n1. 注册并登录 Cedric AI for Meetings\n\n2. 创建一个新的会议任务，输入会议链接和你的幻灯片\n\n3. 配置 Cedric AI 的行为，包括自动演示幻灯片和回答常见问题\n\n4. 设置会议开始时间，Cedric AI 将在指定时间自动启动并参与会议\n\n5. 检查会议记录和反馈，优化 Cedric AI 的表现",
+      "url": "https://www.producthunt.com/products/cedric",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cedric-ai-for-meetings",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "Display 1.0",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "一站式文档和应用程序创建平台",
+      "tags": [
+        "文档创建",
+        "应用程序开发",
+        "跨平台"
+      ],
+      "scenarios": [
+        "团队协作",
+        "个人项目",
+        "企业应用"
+      ],
+      "tutorial": "## Display 使用教程\n\n1. 注册并登录\n\n   访问 Display 官网，注册账号并登录。\n\n2. 创建新项目\n\n   在首页点击 '创建新项目'，选择项目类型并填写项目信息。\n\n3. 添加组件\n\n   在项目编辑器中，拖拽所需组件到画布上。\n\n4. 编排和配置\n\n   对组件进行布局和配置，设置交互逻辑。\n\n5. 预览和发布\n\n   预览项目效果，满意后点击发布，即可在线访问或下载。\n\n6. 管理项目\n\n   在项目列表中，可以查看和管理所有项目。",
+      "url": "https://www.producthunt.com/products/display-dev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "display-1-0",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "Clayzo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "使用代码代理创建动画和动态设计",
+      "tags": [
+        "动画",
+        "动态设计",
+        "代码",
+        "网页"
+      ],
+      "scenarios": [
+        "网页动画制作",
+        "交互式设计",
+        "创意展示"
+      ],
+      "tutorial": "## 使用Clayzo创建动画教程\n\n### 1. 创建项目\n\n1. 访问Clayzo官网并注册账户。\n2. 创建一个新的项目，选择合适的模板或从空白开始。\n\n### 2. 编写代码\n\n1. 在代码编辑器中，使用JavaScript编写动画逻辑。\n2. 利用Clayzo提供的API和组件库，实现动画效果。\n\n### 3. 预览和调整\n\n1. 保存代码后，预览动画效果。\n2. 根据需要调整参数和代码，优化动画表现。\n\n### 4. 发布\n\n1. 满意动画效果后，发布到你的网页或平台。\n2. 分享你的作品，展示你的创意。",
+      "url": "https://www.producthunt.com/products/clayzo",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clayzo",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "Linkly AI Clipper",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "便捷网页内容Markdown剪辑器",
+      "tags": [
+        "网页剪辑",
+        "Markdown",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "内容整理",
+        "笔记记录",
+        "知识管理"
+      ],
+      "tutorial": "## 使用Linkly AI Clipper进行网页内容剪辑\n\n1. 安装插件\n   - 访问浏览器插件商店，搜索并安装Linkly AI Clipper插件。\n2. 启用插件\n   - 打开浏览器扩展设置，启用Linkly AI Clipper。\n3. 选择内容\n   - 在网页上选中您想要剪辑的内容。\n4. 剪辑内容\n   - 点击插件图标，选择Markdown格式进行剪辑。\n5. 保存内容\n   - 剪辑后的内容将自动保存到您的笔记或剪贴板中。",
+      "url": "https://www.producthunt.com/products/linkly-ai-clipper",
+      "status": "dead",
+      "is_violation": false,
+      "id": "linkly-ai-clipper",
+      "added": "2026-11-03"
+    },
+    {
+      "name": "redu.cloud",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "以代理速度运行机器，而非人类速度。",
+      "tags": [
+        "自动化",
+        "速度提升",
+        "效率工具"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据处理",
+        "RPA"
+      ],
+      "tutorial": "## 使用redu.cloud进行网页自动化\n\n1. 注册并登录redu.cloud平台。\n2. 创建一个新的自动化任务，选择目标网页。\n3. 使用拖拽式界面设计自动化流程，如点击、输入等。\n4. 设置触发条件，如定时执行或特定事件。\n5. 测试并保存自动化任务。\n6. 定期检查任务执行情况，确保自动化流程正常运行。",
+      "url": "https://www.producthunt.com/products/redu-cloud",
+      "status": "dead",
+      "is_violation": false,
+      "id": "redu-cloud",
+      "added": "2026-11-03"
     }
   ],
   "changelog": [
@@ -18250,6 +18430,21 @@
         "Click",
         "Embage",
         "Modelpeers"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-03",
+      "added": [
+        "agent-desktop",
+        "beacon.sh",
+        "Agent Inbox",
+        "Cedric AI for Meetings",
+        "Display 1.0",
+        "Clayzo",
+        "Linkly AI Clipper",
+        "redu.cloud"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
