@@ -17094,6 +17094,299 @@
       "is_violation": false,
       "id": "redu-cloud",
       "added": "2026-11-03"
+    },
+    {
+      "name": "Multi-Agent-Debate",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于浏览器的多智能体辩论系统",
+      "tags": [
+        "辩论",
+        "智能体",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "在线辩论平台",
+        "教育辅助工具",
+        "虚拟角色互动"
+      ],
+      "tutorial": "## 使用Multi-Agent-Debate进行辩论\n1. 下载并安装Multi-Agent-Debate插件到您的浏览器。\n2. 访问辩论平台或创建一个新的辩论话题。\n3. 使用插件中的智能体功能，选择不同的辩论角色和立场。\n4. 通过插件界面与智能体进行互动，构建辩论论点。\n5. 观看智能体之间的辩论，或参与其中以提升互动体验。",
+      "url": "https://huggingface.co/spaces/omidpvh/Multi-Agent-Debate",
+      "status": "active",
+      "is_violation": false,
+      "id": "multi-agent-debate",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "AgentKit by Scalekit",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化生产代理的MCP网关",
+      "tags": [
+        "自动化",
+        "代理",
+        "网关"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## AgentKit by Scalekit 使用教程\n\n1. 下载并安装 AgentKit by Scalekit。\n2. 打开软件，创建一个新的代理任务。\n3. 在任务设置中配置目标网页和所需操作，如点击、填写表单等。\n4. 保存并运行任务，AgentKit by Scalekit 将自动执行操作。\n5. 查看任务执行结果，并进行必要的调整。",
+      "url": "https://www.producthunt.com/products/scalekit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agentkit-by-scalekit",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Teamily AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "个人智能代理，团队与人在一个消息应用中",
+      "tags": [
+        "AI",
+        "社交",
+        "团队协作",
+        "消息应用"
+      ],
+      "scenarios": [
+        "团队沟通",
+        "项目管理",
+        "日常交流"
+      ],
+      "tutorial": "## 使用Teamily AI教程\n\n1. 注册并登录\n\n   访问Teamily AI官网，注册账号并登录。\n\n2. 创建团队\n\n   在个人中心，点击创建团队，填写团队信息并邀请成员。\n\n3. 添加成员\n\n   在团队页面，邀请团队成员加入，并设置权限。\n\n4. 发送消息\n\n   在聊天界面，输入消息内容，点击发送即可。\n\n5. 使用AI功能\n\n   在聊天界面，点击AI按钮，选择AI功能，如翻译、摘要等。",
+      "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
+      "status": "dead",
+      "is_violation": false,
+      "id": "teamily-ai",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "One Roof",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "低代码工作流构建平台，掌控工作流构建。",
+      "tags": [
+        "工作流",
+        "自动化",
+        "低代码"
+      ],
+      "scenarios": [
+        "企业内部工作流自动化",
+        "业务流程优化",
+        "跨部门协作"
+      ],
+      "tutorial": "## One Roof 使用教程\n\n1. 注册并登录\n   - 访问 One Roof 官网，注册账号并登录。\n\n2. 创建工作流\n   - 在首页点击创建工作流，选择合适的模板或从零开始设计。\n\n3. 设计工作流\n   - 使用可视化拖拽工具，将不同的操作节点拖入工作流中。\n\n4. 配置节点\n   - 对每个节点进行配置，如设置触发条件、执行动作等。\n\n5. 预览和测试\n   - 预览工作流效果，进行测试确保无误。\n\n6. 部署运行\n   - 部署工作流并运行，实现自动化操作。",
+      "url": "https://www.producthunt.com/products/one-roof",
+      "status": "dead",
+      "is_violation": false,
+      "id": "one-roof",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "asklog",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "手机端控制编码代理，便捷问答。",
+      "tags": [
+        "编码助手",
+        "手机控制",
+        "问答系统"
+      ],
+      "scenarios": [
+        "代码开发",
+        "远程协作",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 AskLog 进行问答控制\n1. 下载并安装 AskLog 应用到您的手机。\n2. 在您的编码代理环境中启动 AskLog 服务。\n3. 使用手机向代理发送问题或指令。\n4. 观察代理在您的设备上执行任务。\n5. 通过手机实时接收代理的反馈和结果。",
+      "url": "https://www.producthunt.com/products/asklog",
+      "status": "dead",
+      "is_violation": false,
+      "id": "asklog",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Scrawl",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "可视化展示问题给AI代理",
+      "tags": [
+        "AI",
+        "可视化",
+        "问题展示",
+        "代理"
+      ],
+      "scenarios": [
+        "AI问题调试",
+        "用户交互",
+        "技术支持"
+      ],
+      "tutorial": "## Scrawl 使用教程\n\n### 1. 创建代理\n\n- 打开Scrawl网站\n- 点击创建新的代理\n- 输入代理名称和描述\n- 点击创建\n\n### 2. 配置代理\n\n- 在代理详情页面，配置代理参数\n- 设置代理的访问权限和权限级别\n- 点击保存\n\n### 3. 使用代理\n\n- 在需要使用代理的场景中，选择Scrawl代理\n- 输入需要展示的问题信息\n- 点击提交\n\n### 4. 查看结果\n\n- Scrawl将展示问题信息给AI代理\n- 查看代理的处理结果",
+      "url": "https://www.producthunt.com/products/scrawl-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "scrawl",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Infino AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助的搜索、向量和 SQL 查询工具",
+      "tags": [
+        "AI",
+        "搜索",
+        "向量",
+        "SQL"
+      ],
+      "scenarios": [
+        "数据查询",
+        "数据分析",
+        "自动化搜索"
+      ],
+      "tutorial": "## 使用 Infino AI 进行搜索和查询\n\n1. 打开 Infino AI 并选择合适的搜索模式。\n2. 输入您想要搜索的关键词或查询语句。\n3. 系统将自动分析您的查询并返回相关的结果。\n4. 使用向量搜索功能，您可以更精确地定位数据。\n5. 通过 SQL 查询，您可以执行复杂的查询操作。\n\n## 高级功能\n\n1. 调整搜索参数，如向量维度、相似度阈值等。\n2. 使用 SQL 查询进行数据筛选和聚合。\n3. 将查询结果导出为 Parquet 格式。",
+      "url": "https://www.producthunt.com/products/infino-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "infino-ai",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Wavefunction",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "轻量级开源Mac代码Agent",
+      "tags": [
+        "代码",
+        "Mac",
+        "开源",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码开发辅助",
+        "自动化测试",
+        "Mac应用开发"
+      ],
+      "tutorial": "## Wavefunction使用教程\n\n### 1. 安装Wavefunction\n\n- 下载Wavefunction安装包。\n- 打开安装包并按照提示完成安装。\n\n### 2. 配置Wavefunction\n\n- 打开Wavefunction应用。\n- 根据提示配置你的开发环境。\n\n### 3. 编写代码\n\n- 在Wavefunction编辑器中编写代码。\n- 使用快捷键或菜单栏命令执行代码。\n\n### 4. 运行和调试\n\n- 运行代码并查看结果。\n- 使用调试工具定位和修复错误。",
+      "url": "https://www.producthunt.com/products/wavefunction",
+      "status": "dead",
+      "is_violation": false,
+      "id": "wavefunction",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "MachineMail",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理真实邮箱服务，内置信任机制",
+      "tags": [
+        "AI代理",
+        "邮箱服务",
+        "自动化",
+        "信任"
+      ],
+      "scenarios": [
+        "AI客服",
+        "数据收集",
+        "邮件自动化"
+      ],
+      "tutorial": "## 使用MachineMail教程\n\n1. 注册并登录\n\n   访问MachineMail官网，注册账户并登录。\n\n2. 创建邮箱\n\n   在账户管理页面，创建一个新的邮箱用于AI代理。\n\n3. 配置代理\n\n   在代理设置中，配置邮件接收、发送和处理规则。\n\n4. 集成到应用\n\n   通过API或SDK将MachineMail集成到您的AI应用中。\n\n5. 监控与维护\n\n   查看邮件处理日志，确保代理正常工作。",
+      "url": "https://www.producthunt.com/products/machinemail",
+      "status": "dead",
+      "is_violation": false,
+      "id": "machinemail",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Testifly",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "零提示自动AI测试，无需维护。",
+      "tags": [
+        "AI测试",
+        "自动化",
+        "网页测试"
+      ],
+      "scenarios": [
+        "网页功能测试",
+        "回归测试",
+        "性能测试"
+      ],
+      "tutorial": "## Testifly 使用教程\n\n1. **安装Testifly插件**\n   - 打开浏览器扩展商店，搜索Testifly并安装。\n\n2. **选择测试页面**\n   - 在需要测试的网页上点击Testifly插件图标，选择“开始测试”。\n\n3. **设置测试参数**\n   - 根据需要设置测试参数，如测试频率、测试数据等。\n\n4. **运行测试**\n   - 点击“运行测试”按钮，Testifly将自动执行测试。\n\n5. **查看测试结果**\n   - 测试完成后，查看Testifly插件中的测试结果，包括错误信息和性能数据。",
+      "url": "https://www.producthunt.com/products/testifly-launch",
+      "status": "dead",
+      "is_violation": false,
+      "id": "testifly",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Hookdeck Inspect",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "免费 webhook 测试工具，适用于网页 Agent。",
+      "tags": [
+        "webhook",
+        "测试",
+        "自动化",
+        "网页"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "API 集成",
+        "数据监控"
+      ],
+      "tutorial": "## Hookdeck Inspect 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Hookdeck Inspect 官网并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 创建 Webhook\n\n1. 在个人仪表盘中点击 'Create Webhook'。\n2. 输入 Webhook URL 和选择触发事件。\n3. 点击 'Create' 创建 Webhook。\n\n### 3. 测试 Webhook\n\n1. 在仪表盘中找到刚刚创建的 Webhook。\n2. 点击 'Test' 进行测试。\n3. 查看测试结果，确保 Webhook 正常工作。\n\n### 4. 集成到 Agent\n\n1. 在 Agent 配置中添加 Webhook 集成。\n2. 使用 Hookdeck Inspect 提供的 URL 和密钥进行配置。\n3. 测试 Agent 是否能够正确接收 Webhook 事件。",
+      "url": "https://www.producthunt.com/products/hookdeck",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hookdeck-inspect",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "Synter Canvas",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "跨平台广告投放AI代理",
+      "tags": [
+        "广告投放",
+        "AI代理",
+        "多平台",
+        "自动化"
+      ],
+      "scenarios": [
+        "广告营销",
+        "品牌推广",
+        "流量获取"
+      ],
+      "tutorial": "## Synter Canvas 使用教程\n\n1. 注册并登录Synter Canvas平台。\n2. 创建一个新的广告投放项目，选择目标平台和广告类型。\n3. 使用平台提供的AI工具设计广告内容和创意。\n4. 设置广告预算和投放时间，开始投放。\n5. 监控广告效果，根据数据调整投放策略。",
+      "url": "https://www.producthunt.com/products/synter-canvas",
+      "status": "dead",
+      "is_violation": false,
+      "id": "synter-canvas",
+      "added": "2026-11-04"
+    },
+    {
+      "name": "nana",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Windows 上的单终端代码代理",
+      "tags": [
+        "代码",
+        "代理",
+        "Windows"
+      ],
+      "scenarios": [
+        "代码开发",
+        "自动化测试",
+        "脚本编写"
+      ],
+      "tutorial": "## Nana 使用教程\n\n### 1. 安装 Nana\n\n1. 访问 [Nana 官网](https://www.producthunt.com/products/nana-2) 下载最新版本的 Nana。\n2. 运行安装程序，按照提示完成安装。\n\n### 2. 配置 Nana\n\n1. 打开 Nana，点击左上角的设置图标。\n2. 在设置菜单中选择 '配置'，然后根据需要配置你的环境变量和插件。\n\n### 3. 使用 Nana\n\n1. 在 Nana 的终端中输入你的代码命令。\n2. Nana 将自动执行你的命令并显示结果。\n\n### 4. 插件管理\n\n1. 在设置菜单中选择 '插件'，你可以安装和管理各种插件来扩展 Nana 的功能。",
+      "url": "https://www.producthunt.com/products/nana-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nana",
+      "added": "2026-11-04"
     }
   ],
   "changelog": [
@@ -18445,6 +18738,26 @@
         "Clayzo",
         "Linkly AI Clipper",
         "redu.cloud"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-04",
+      "added": [
+        "Multi-Agent-Debate",
+        "AgentKit by Scalekit",
+        "Teamily AI",
+        "One Roof",
+        "asklog",
+        "Scrawl",
+        "Infino AI",
+        "Wavefunction",
+        "MachineMail",
+        "Testifly",
+        "Hookdeck Inspect",
+        "Synter Canvas",
+        "nana"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

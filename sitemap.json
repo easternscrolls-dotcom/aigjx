@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:13:34.262Z",
+  "generatedAt": "2026-11-03T22:44:10.597Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3866,6 +3866,71 @@
       "url": "https://aiagent.72tool.com/tools/redu-cloud.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/multi-agent-debate.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentkit-by-scalekit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/teamily-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/one-roof.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/asklog.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/scrawl.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/infino-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/wavefunction.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/machinemail.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/testifly.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hookdeck-inspect.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/synter-canvas.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nana.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3896,7 +3961,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 766,
+    "totalAgents": 779,
     "byCategory": [
       {
         "id": "local",
@@ -3906,12 +3971,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 633
+        "count": 645
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 66
+        "count": 67
       },
       {
         "id": "crossborder",
@@ -3924,6 +3989,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 496
+    "deadLinks": 508
   }
 }
