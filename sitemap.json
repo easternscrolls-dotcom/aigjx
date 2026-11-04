@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T22:44:10.597Z",
+  "generatedAt": "2026-11-04T23:01:21.275Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -3931,6 +3931,46 @@
       "url": "https://aiagent.72tool.com/tools/nana.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/auto-ontology.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pr-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kmd-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/render-sandboxes.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openmail.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qualitylayer.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hira.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/orphex-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -3961,7 +4001,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 779,
+    "totalAgents": 787,
     "byCategory": [
       {
         "id": "local",
@@ -3971,7 +4011,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 645
+        "count": 653
       },
       {
         "id": "workflow",
@@ -3989,6 +4029,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 508
+    "deadLinks": 513
   }
 }

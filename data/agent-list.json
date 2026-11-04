@@ -17387,6 +17387,183 @@
       "is_violation": false,
       "id": "nana",
       "added": "2026-11-04"
+    },
+    {
+      "name": "auto-ontology",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建语义推理层，提升AI解释性",
+      "tags": [
+        "Python",
+        "语义推理",
+        "AI"
+      ],
+      "scenarios": [
+        "数据检索",
+        "AI工作流"
+      ],
+      "tutorial": "## 使用Auto Ontology构建语义推理层\n1. 安装Auto Ontology\n   使用pip安装：`pip install auto-ontology`\n2. 导入数据\n   导入你的数据集，可以是CSV、JSON或数据库格式。\n3. 创建本体\n   定义实体、关系和属性，构建你的本体模型。\n4. 查询和推理\n   使用定义的查询语言进行查询，获取推理结果。\n5. 集成到工作流\n   将推理结果集成到你的LLM或agent工作流中。",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "status": "active",
+      "is_violation": false,
+      "id": "auto-ontology",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "pr-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源代码审查工具，自动处理PR。",
+      "tags": [
+        "代码审查",
+        "PR管理",
+        "开源工具",
+        "自动化"
+      ],
+      "scenarios": [
+        "开源项目代码审查",
+        "团队协作",
+        "持续集成"
+      ],
+      "tutorial": "## PR Agent 使用教程\n\n### 1. 安装与配置\n\n1. 下载 PR Agent 的源代码。\n2. 在本地环境中安装必要的依赖库。\n3. 配置好代码仓库的访问权限。\n\n### 2. 运行 PR Agent\n\n1. 在命令行中运行 PR Agent 的启动脚本。\n2. 确保所有配置正确无误。\n3. PR Agent 将自动监控代码仓库中的PR。\n\n### 3. 查看审查结果\n\n1. PR Agent 会自动生成审查报告。\n2. 在代码仓库中查看生成的审查报告。\n3. 根据审查结果进行代码修改。",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "pr-agent",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "kmd-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "在线表单填写"
+      ],
+      "tutorial": "## kmd-agent 使用教程\n\n### 1. 安装与启动\n1. 下载并安装 kmd-agent。\n2. 打开 kmd-agent，启动浏览器。\n3. 输入目标网址，点击“开始”按钮。\n\n### 2. 添加操作步骤\n1. 在操作步骤面板中，选择需要的操作类型，如“点击”、“输入”等。\n2. 在网页上选择目标元素，点击“添加”按钮。\n3. 设置操作参数，如点击次数、输入内容等。\n\n### 3. 运行与调试\n1. 点击“运行”按钮，kmd-agent 将按照设置的步骤自动操作网页。\n2. 观察操作结果，如有错误，返回上一步进行调试。\n3. 调试完成后，保存操作流程。\n\n### 4. 保存与导出\n1. 完成操作后，点击“保存”按钮，将操作流程保存到本地。\n2. 可将操作流程导出为可执行文件，方便分享和重复使用。",
+      "url": "https://huggingface.co/spaces/Chernov22/kmd-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "kmd-agent",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "Render Sandboxes",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为每个代理提供虚拟电脑",
+      "tags": [
+        "虚拟化",
+        "自动化",
+        "代理管理"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "远程操作"
+      ],
+      "tutorial": "## 使用 Render Sandboxes 进行自动化操作\n1. 注册并登录 Render Sandboxes 平台。\n2. 创建一个新的沙箱实例，选择所需的配置和操作系统。\n3. 配置沙箱的启动脚本，定义自动化任务或脚本。\n4. 启动沙箱并监控其执行过程。\n5. 查看执行结果并进行必要的调整。",
+      "url": "https://www.producthunt.com/products/render",
+      "status": "dead",
+      "is_violation": false,
+      "id": "render-sandboxes",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "OpenMail",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为AI代理赋予邮箱身份",
+      "tags": [
+        "AI代理",
+        "邮箱",
+        "自动化"
+      ],
+      "scenarios": [
+        "邮件发送",
+        "自动化营销",
+        "客户服务"
+      ],
+      "tutorial": "## OpenMail 使用教程\n\n### 1. 注册账户\n\n1. 访问 [OpenMail 官网](https://www.openmail.com/) 并注册一个账户。\n2. 完成邮箱验证流程。\n\n### 2. 创建代理邮箱\n\n1. 登录 OpenMail 账户。\n2. 点击 '创建代理邮箱' 按钮。\n3. 输入邮箱名称和选择邮箱类型。\n\n### 3. 配置代理\n\n1. 在代理设置中，配置SMTP服务器信息。\n2. 设置发送者信息，包括姓名和邮箱地址。\n3. 配置邮件签名。\n\n### 4. 发送邮件\n\n1. 在 OpenMail 中编写邮件内容。\n2. 选择代理邮箱发送。\n3. 点击发送，邮件将自动通过代理邮箱发送。",
+      "url": "https://www.producthunt.com/products/openmail",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openmail",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "QualityLayer",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能编码助手，提升软件质量",
+      "tags": [
+        "代码审查",
+        "自动化测试",
+        "软件开发"
+      ],
+      "scenarios": [
+        "代码质量监控",
+        "自动化测试流程",
+        "持续集成"
+      ],
+      "tutorial": "## 使用 QualityLayer 进行代码审查\n\n1. 注册并登录 QualityLayer 平台。\n2. 创建一个新的项目，并添加你的代码仓库。\n3. QualityLayer 会自动分析代码，并提供质量报告。\n4. 根据报告进行代码优化和修复。\n5. 定期运行 QualityLayer 以持续监控代码质量。",
+      "url": "https://www.producthunt.com/products/qualitylayer",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qualitylayer",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "Hira",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "免费个人求职助手",
+      "tags": [
+        "求职",
+        "自动化",
+        "工作搜索"
+      ],
+      "scenarios": [
+        "简历优化",
+        "职位搜索",
+        "面试准备"
+      ],
+      "tutorial": "## Hira 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Hira 官网并注册账号。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建求职资料\n\n1. 填写个人基本信息和求职意向。\n2. 上传简历和照片。\n\n### 3. 搜索职位\n\n1. 使用关键词搜索合适的职位。\n2. 浏览职位详情，筛选合适的职位。\n\n### 4. 应用职位\n\n1. 选择合适的职位，填写申请信息。\n2. 提交申请，等待回复。",
+      "url": "https://www.producthunt.com/products/hira",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hira",
+      "added": "2026-11-05"
+    },
+    {
+      "name": "Orphex MCP",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "统一管理数字营销栈的浏览器网页Agent",
+      "tags": [
+        "数字营销",
+        "营销自动化",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "营销活动管理",
+        "广告投放优化",
+        "客户关系管理"
+      ],
+      "tutorial": "## Orphex MCP 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Orphex MCP 官网，注册账号并登录。\n2. 在首页选择合适的营销工具或服务。\n3. 根据提示完成账户设置。\n\n### 2. 工具选择与配置\n\n1. 在左侧菜单中选择所需工具或服务。\n2. 根据需求配置相关参数，如目标受众、预算等。\n3. 保存配置并预览效果。\n\n### 3. 运行与监控\n\n1. 点击运行按钮开始执行营销活动。\n2. 在监控面板实时查看活动进展和效果。\n3. 根据反馈调整策略，优化营销效果。\n\n### 4. 数据分析与报告\n\n1. 查看详细的数据分析报告，了解营销活动的效果。\n2. 下载报告或导出数据，用于进一步分析。\n3. 根据分析结果调整营销策略。",
+      "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
+      "status": "dead",
+      "is_violation": false,
+      "id": "orphex-mcp",
+      "added": "2026-11-05"
     }
   ],
   "changelog": [
@@ -18758,6 +18935,21 @@
         "Hookdeck Inspect",
         "Synter Canvas",
         "nana"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-05",
+      "added": [
+        "auto-ontology",
+        "pr-agent",
+        "kmd-agent",
+        "Render Sandboxes",
+        "OpenMail",
+        "QualityLayer",
+        "Hira",
+        "Orphex MCP"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
