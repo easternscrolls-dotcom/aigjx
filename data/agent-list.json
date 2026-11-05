@@ -17564,6 +17564,296 @@
       "is_violation": false,
       "id": "orphex-mcp",
       "added": "2026-11-05"
+    },
+    {
+      "name": "agent-browser",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理浏览器自动化 CLI",
+      "tags": [
+        "自动化",
+        "浏览器",
+        "AI 代理"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装 Agent-Browser\n\n首先，您需要安装 Agent-Browser。可以通过以下命令进行安装：\n\n```bash\nnpm install -g agent-browser\n```\n\n### 2. 创建新任务\n\n安装完成后，您可以使用以下命令创建一个新的任务：\n\n```bash\nagent-browser create my-task\n```\n\n### 3. 编写任务脚本\n\n在创建的任务目录中，编写您的任务脚本。脚本应包含您希望自动化的操作，例如点击、输入等。\n\n### 4. 运行任务\n\n编写完脚本后，您可以使用以下命令运行任务：\n\n```bash\ncd my-task\nagent-browser run\n```\n\n### 5. 查看结果\n\n任务运行完成后，您可以在控制台查看结果或查看生成的报告。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-browser",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "quant-trading-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "量化交易浏览器网页Agent，自动执行交易策略。",
+      "tags": [
+        "量化交易",
+        "自动交易",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "股票交易",
+        "期货交易",
+        "外汇交易"
+      ],
+      "tutorial": "## 使用Quant-Trading-Agent进行量化交易\n\n1. 下载并安装Quant-Trading-Agent插件到您的浏览器。\n2. 在您的交易平台上配置好交易账户和API密钥。\n3. 使用插件提供的可视化界面设计您的交易策略。\n4. 将策略保存并启动，Agent将自动执行您的交易策略。\n5. 监控交易执行情况，根据市场变化调整策略。",
+      "url": "https://huggingface.co/spaces/PeopleNw/quant-trading-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "quant-trading-agent",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Glasshand",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "模拟真实iPhone和Mac操作",
+      "tags": [
+        "模拟",
+        "iPhone",
+        "Mac",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "应用测试",
+        "用户体验测试"
+      ],
+      "tutorial": "## 使用Glasshand进行自动化测试\n\n1. 注册并登录Glasshand平台\n\n2. 创建一个新的测试项目，选择要模拟的设备（iPhone或Mac）\n\n3. 设计测试脚本，使用Glasshand提供的API进行操作\n\n4. 运行测试脚本，观察测试结果\n\n5. 分析测试结果，优化测试脚本",
+      "url": "https://www.producthunt.com/products/glasshand",
+      "status": "dead",
+      "is_violation": false,
+      "id": "glasshand",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Clocknext",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "AI 代理定价与计费基础设施",
+      "tags": [
+        "AI",
+        "计费",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI 服务定价",
+        "计费自动化",
+        "企业服务"
+      ],
+      "tutorial": "## Clocknext 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Clocknext 官网并注册账号。\n2. 使用注册的邮箱和密码登录系统。\n3. 首次登录后，系统会引导你完成基础设置。\n\n### 2. 创建计费模型\n\n1. 在仪表盘中点击 '创建计费模型'。\n2. 输入模型名称和描述。\n3. 选择计费策略，如按时间、按使用量等。\n4. 设置计费参数，如价格、折扣等。\n\n### 3. 配置计费规则\n\n1. 在计费模型页面，点击 '添加规则'。\n2. 设置规则条件，如用户类型、服务类型等。\n3. 配置规则动作，如自动计费、发送通知等。\n\n### 4. 集成与测试\n\n1. 将计费模型集成到你的 AI 代理系统中。\n2. 进行测试，确保计费流程正确无误。\n3. 根据测试结果调整计费模型和规则。",
+      "url": "https://www.producthunt.com/products/clocknext",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clocknext",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Wingmen",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "基于意图数据的智能营销助手",
+      "tags": [
+        "营销",
+        "数据驱动",
+        "自动化"
+      ],
+      "scenarios": [
+        "营销自动化",
+        "客户关系管理",
+        "销售线索跟进"
+      ],
+      "tutorial": "## 使用Wingmen进行营销自动化\n1. 注册并登录Wingmen平台。\n2. 创建一个新的营销活动，选择目标受众和营销渠道。\n3. 使用意图数据来优化你的营销策略。\n4. 设置自动化的邮件和社交媒体消息。\n5. 监控活动效果并调整策略。",
+      "url": "https://www.producthunt.com/products/wingmen",
+      "status": "dead",
+      "is_violation": false,
+      "id": "wingmen",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Zerg Client",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "终端面板驱动的编码代理工具",
+      "tags": [
+        "自动化",
+        "编码",
+        "代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "代码生成",
+        "终端操作"
+      ],
+      "tutorial": "## 使用 Zerg Client 进行终端面板自动化\n\n1. 下载并安装 Zerg Client\n\n2. 打开 Zerg Client 并连接到终端服务器\n\n3. 创建一个新的终端面板，并配置所需的命令和参数\n\n4. 使用 Zerg Client 的可视化界面来拖拽和连接不同的命令和操作\n\n5. 运行面板并监控终端面板的输出结果",
+      "url": "https://www.producthunt.com/products/zerg",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zerg-client",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "FounderMail",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云上邮件服务，私有化部署",
+      "tags": [
+        "邮件服务",
+        "私有化",
+        "云平台"
+      ],
+      "scenarios": [
+        "团队协作",
+        "客户服务",
+        "自动化邮件管理"
+      ],
+      "tutorial": "## FounderMail 使用教程\n\n1. 注册并登录\n   - 访问 FounderMail 官网，注册账号并登录。\n2. 配置域名\n   - 在 FounderMail 控制台中配置你的 Cloudflare 域名。\n3. 创建邮箱\n   - 在控制台中创建个人或团队邮箱。\n4. 发送邮件\n   - 使用 FounderMail 的邮件编辑器发送邮件。\n5. 邮件管理\n   - 使用标签、文件夹等功能管理收件箱。",
+      "url": "https://www.producthunt.com/products/foundermail-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "foundermail",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Bridge",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "适用于智能代理时代的视频会议解决方案",
+      "tags": [
+        "视频会议",
+        "智能代理",
+        "远程协作"
+      ],
+      "scenarios": [
+        "远程会议",
+        "团队协作",
+        "在线培训"
+      ],
+      "tutorial": "## 使用Bridge进行视频会议\n\n1. 注册并登录Bridge账户\n\n2. 创建或加入会议\n\n3. 开始视频会议，与团队成员进行实时沟通\n\n4. 使用会议工具，如屏幕共享、白板等\n\n5. 会议结束后，查看会议记录和统计信息",
+      "url": "https://www.producthunt.com/products/meetonbridge",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bridge",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Living Brain",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "高效互操作的记忆层，为智能体AI提供支持",
+      "tags": [
+        "AI",
+        "记忆层",
+        "智能体",
+        "开源"
+      ],
+      "scenarios": [
+        "智能客服",
+        "数据分析",
+        "内容生成"
+      ],
+      "tutorial": "## 使用Living Brain进行AI记忆层搭建\n1. 访问Living Brain官网，注册并登录账户。\n2. 创建一个新的记忆层项目，填写项目名称和描述。\n3. 在项目中配置记忆库，选择合适的存储方式和索引策略。\n4. 上传或导入数据，设置数据格式和结构。\n5. 配置记忆层的行为规则，如查询响应、更新策略等。\n6. 测试记忆层功能，确保数据存储和查询正确无误。\n7. 将记忆层集成到你的AI应用中，实现智能记忆功能。",
+      "url": "https://www.producthunt.com/products/chatandbuild",
+      "status": "dead",
+      "is_violation": false,
+      "id": "living-brain",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Rainbrand",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为代理提供品牌层服务",
+      "tags": [
+        "品牌管理",
+        "代理服务",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "品牌推广",
+        "市场分析",
+        "用户互动"
+      ],
+      "tutorial": "## Rainbrand 使用教程\n\n1. 下载并安装 Rainbrand 插件\n\n2. 打开浏览器，访问目标网站\n\n3. 在插件中配置品牌信息，如品牌名称、描述等\n\n4. 点击插件按钮，Rainbrand 将自动展示品牌信息\n\n5. 监控用户互动，分析市场反馈",
+      "url": "https://www.producthunt.com/products/rainbrand",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rainbrand",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "MCPCore",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "零代码构建和托管MCP服务器",
+      "tags": [
+        "MCP服务器",
+        "工作流",
+        "云服务"
+      ],
+      "scenarios": [
+        "MCP服务器自动化",
+        "云托管服务",
+        "无代码工作流"
+      ],
+      "tutorial": "## MCPCore 使用教程\n\n### 1. 注册账户\n\n1. 访问 [MCPCore 官网](https://www.producthunt.com/products/mcpcore) 并注册一个账户。\n2. 完成注册流程后，登录您的账户。\n\n### 2. 创建工作流\n\n1. 在控制台中，点击 '创建工作流' 按钮。\n2. 选择您要构建的服务器类型和配置选项。\n3. 设置工作流的参数和触发条件。\n\n### 3. 部署工作流\n\n1. 审查工作流设置，确保无误。\n2. 点击 '部署' 按钮，开始构建和托管您的MCP服务器。\n\n### 4. 监控和管理\n\n1. 在控制台查看工作流的运行状态和日志。\n2. 根据需要调整工作流设置或重新部署。",
+      "url": "https://www.producthunt.com/products/mcpcore",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mcpcore",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Okapi",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动修复API变更的浏览器网页Agent",
+      "tags": [
+        "API",
+        "自动化",
+        "修复",
+        "浏览器"
+      ],
+      "scenarios": [
+        "API维护",
+        "自动化测试",
+        "代码管理"
+      ],
+      "tutorial": "## Okapi 使用教程\n\n### 1. 安装 Okapi\n\n首先，访问 [Okapi 官网](https://www.producthunt.com/products/okapi-2) 下载 Okapi 浏览器插件或扩展。\n\n### 2. 配置 Okapi\n\n安装完成后，打开 Okapi，根据提示完成配置，包括选择要监控的 API 和设置断点等。\n\n### 3. 监控 API 变更\n\nOkapi 会自动监控所选 API 的变更，并在发现变更时提供修复建议。\n\n### 4. 应用修复\n\n根据 Okapi 提供的修复建议，手动或自动应用修复方案，确保 API 正常运行。",
+      "url": "https://www.producthunt.com/products/okapi-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "okapi",
+      "added": "2026-11-06"
+    },
+    {
+      "name": "Cosyra",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "手机端启动和操控机器上的代理",
+      "tags": [
+        "手机控制",
+        "代理管理",
+        "远程操作",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "远程任务执行",
+        "数据采集"
+      ],
+      "tutorial": "## 使用Cosyra进行远程操作\n1. 下载并安装Cosyra应用至您的手机。\n2. 在手机上注册账户并登录。\n3. 在应用中添加您需要控制的机器，输入机器的IP地址和端口。\n4. 通过手机界面启动或停止机器上的代理任务。\n5. 观察任务执行状态，实时监控并调整操作。",
+      "url": "https://www.producthunt.com/products/cosyra",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cosyra",
+      "added": "2026-11-06"
     }
   ],
   "changelog": [
@@ -18950,6 +19240,26 @@
         "QualityLayer",
         "Hira",
         "Orphex MCP"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-06",
+      "added": [
+        "agent-browser",
+        "quant-trading-agent",
+        "Glasshand",
+        "Clocknext",
+        "Wingmen",
+        "Zerg Client",
+        "FounderMail",
+        "Bridge",
+        "Living Brain",
+        "Rainbrand",
+        "MCPCore",
+        "Okapi",
+        "Cosyra"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
