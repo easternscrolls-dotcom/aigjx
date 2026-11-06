@@ -17854,6 +17854,365 @@
       "is_violation": false,
       "id": "cosyra",
       "added": "2026-11-06"
+    },
+    {
+      "name": "Meshia",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化研究实验室，网页自动化操作工具",
+      "tags": [
+        "自动化",
+        "研究",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## Meshia 使用教程\n\n### 1. 安装 Meshia\n\n1. 访问 Meshia 官网下载最新版本。\n2. 根据操作系统选择合适的安装包进行安装。\n3. 安装完成后，启动 Meshia 应用程序。\n\n### 2. 创建新项目\n\n1. 在 Meshia 主界面点击 '新建项目'。\n2. 输入项目名称，选择项目类型（如网页自动化）。\n3. 点击 '创建'。\n\n### 3. 编写自动化脚本\n\n1. 在项目编辑器中，使用拖拽方式添加网页元素。\n2. 设置元素的操作（如点击、输入）。\n3. 保存并运行脚本，查看自动化效果。\n\n### 4. 调试与优化\n\n1. 如果脚本运行不正常，可以在编辑器中查看错误信息。\n2. 根据错误信息调整脚本逻辑。\n3. 重复测试，直到脚本运行正常。",
+      "url": "https://www.producthunt.com/products/meshia",
+      "status": "dead",
+      "is_violation": false,
+      "id": "meshia",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Chronos DB",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "适用于自主AI时代的数据库，支持浏览器操作",
+      "tags": [
+        "数据库",
+        "AI",
+        "浏览器"
+      ],
+      "scenarios": [
+        "数据存储",
+        "AI应用",
+        "浏览器插件"
+      ],
+      "tutorial": "## Chronos DB 使用教程\n\n1. 下载并安装 Chronos DB 插件\n\n2. 打开浏览器，访问需要操作的数据页面\n\n3. 点击 Chronos DB 插件图标，选择数据库操作\n\n4. 根据提示进行数据查询、修改等操作\n\n5. 完成操作后，关闭插件",
+      "url": "https://www.producthunt.com/products/chronos-db",
+      "status": "dead",
+      "is_violation": false,
+      "id": "chronos-db",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "axel.md",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "终端环境下的Agent编排工具，适用于Rex",
+      "tags": [
+        "Agent编排",
+        "终端工具",
+        "Rex"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Axel 使用教程\n\n### 1. 安装Axel\n\n首先，您需要在您的终端环境中安装Axel。您可以通过以下命令进行安装：\n\n```bash\nnpm install -g axel.md\n```\n\n### 2. 创建Agent\n\n安装完成后，您可以使用以下命令创建一个新的Agent：\n\n```bash\naxel.md create my-agent\n```\n\n### 3. 配置Agent\n\n创建Agent后，您需要配置它的行为。您可以使用以下命令查看Agent的配置文件：\n\n```bash\ntaxel.md config my-agent\n```\n\n### 4. 运行Agent\n\n配置完成后，您可以使用以下命令运行Agent：\n\n```bash\naxel.md run my-agent\n```\n\n这样，您的Agent就会按照您配置的行为在终端环境中执行任务了。",
+      "url": "https://www.producthunt.com/products/axel-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "axel-md",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Alysis Code",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI编码助手，自动代码生成",
+      "tags": [
+        "AI编码",
+        "代码生成",
+        "开源",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "代码开发",
+        "编程辅助",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用Alysis Code进行代码生成\n\n1. 下载并安装Alysis Code插件到您的浏览器。\n2. 打开您的代码编辑器或IDE，并启动Alysis Code插件。\n3. 在代码编辑器中输入您需要生成的代码片段。\n4. 使用Alysis Code的AI功能，选择生成代码的类型和参数。\n5. 插件将自动生成代码，并插入到您的代码编辑器中。\n6. 检查生成的代码是否符合需求，进行必要的修改。",
+      "url": "https://www.producthunt.com/products/alysis-code",
+      "status": "dead",
+      "is_violation": false,
+      "id": "alysis-code",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "crystl",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "专为AI编码代理设计的多任务终端，macOS专用",
+      "tags": [
+        "多任务",
+        "终端",
+        "AI编码",
+        "macOS"
+      ],
+      "scenarios": [
+        "AI开发",
+        "代码编写",
+        "多窗口管理"
+      ],
+      "tutorial": "## 使用Crystl进行多任务终端操作\n1. 下载并安装Crystl\n2. 打开Crystl，配置你的工作环境\n3. 创建多个终端窗口，以同时运行不同的任务\n4. 使用快捷键切换和管理终端窗口\n5. 配置环境变量和别名，提高效率",
+      "url": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+      "status": "dead",
+      "is_violation": false,
+      "id": "crystl",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Koltrix",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "掌控您的邮件栈，由您控制的代理运行。",
+      "tags": [
+        "邮件管理",
+        "自动化",
+        "代理"
+      ],
+      "scenarios": [
+        "邮件自动化处理",
+        "邮件营销",
+        "客户服务"
+      ],
+      "tutorial": "## Koltrix 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Koltrix 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱登录 Koltrix 平台。\n\n### 2. 创建代理\n\n1. 登录后，进入代理管理页面。\n2. 点击创建代理，填写代理名称和配置信息。\n3. 点击保存，完成代理创建。\n\n### 3. 配置邮件栈\n\n1. 进入邮件栈配置页面。\n2. 添加您的邮箱账户，配置收发邮件设置。\n3. 设置自动化规则，如自动回复、邮件分类等。\n\n### 4. 使用代理\n\n1. 在邮件栈中，选择您创建的代理。\n2. 发送邮件或执行自动化任务。\n3. 观察代理执行结果。",
+      "url": "https://www.producthunt.com/products/koltrix",
+      "status": "dead",
+      "is_violation": false,
+      "id": "koltrix",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Wonder Dev View",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "并行运行多个 Claude Code 和 Codex 代理",
+      "tags": [
+        "并行代理",
+        "代码运行",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码开发",
+        "自动化测试",
+        "数据处理"
+      ],
+      "tutorial": "## 使用 Wonder Dev View 进行并行代理操作\n\n1. 下载并安装 Wonder Dev View 软件。\n2. 打开软件，创建一个新的代理配置文件。\n3. 在配置文件中添加 Claude Code 和 Codex 代理的详细信息，包括代理地址、端口等。\n4. 设置代理的运行参数，如并发数、超时时间等。\n5. 点击运行按钮，开始并行运行代理。\n6. 监控代理的运行状态，确保所有代理都在正常工作。",
+      "url": "https://www.producthunt.com/products/wonder-dev-view",
+      "status": "dead",
+      "is_violation": false,
+      "id": "wonder-dev-view",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Rankfender v3.0",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "SEO/GEO搜索引擎优化操作系统，适用于人和AI代理",
+      "tags": [
+        "SEO",
+        "GEO",
+        "搜索引擎优化",
+        "AI代理"
+      ],
+      "scenarios": [
+        "搜索引擎优化",
+        "地理定位优化",
+        "AI辅助营销"
+      ],
+      "tutorial": "## Rankfender v3.0 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Rankfender 官网，点击注册按钮创建账户。\n2. 使用邮箱或社交媒体账号完成注册。\n3. 登录账户，进入 Rankfender 操作界面。\n\n### 2. 创建项目\n\n1. 在主界面点击创建项目按钮。\n2. 输入项目名称，选择相关设置，点击创建。\n3. 项目创建成功后，进入项目详情页。\n\n### 3. 配置SEO设置\n\n1. 在项目详情页，点击SEO设置选项卡。\n2. 根据需求配置关键词、描述、标题等SEO元素。\n3. 保存设置，Rankfender 将自动优化搜索引擎排名。\n\n### 4. 查看报告\n\n1. 在项目详情页，点击报告选项卡。\n2. 查看SEO优化报告，了解优化效果。\n3. 根据报告调整SEO策略，持续优化。",
+      "url": "https://www.producthunt.com/products/rankfender",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rankfender-v3-0",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Tobira Site Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将网站转化为AI销售代理",
+      "tags": [
+        "AI代理",
+        "网站转化",
+        "自动化销售"
+      ],
+      "scenarios": [
+        "在线商店自动化",
+        "电子商务平台",
+        "销售自动化"
+      ],
+      "tutorial": "## 使用Tobira Site Agent教程\n\n### 1. 注册与登录\n\n1. 访问Tobira Site Agent官网，注册账号并登录。\n2. 创建一个新的项目，输入项目名称和描述。\n\n### 2. 配置网站\n\n1. 在项目中添加你的网站URL。\n2. 配置销售参数，如产品价格、库存等。\n3. 设置自动化销售规则。\n\n### 3. 集成AI代理\n\n1. 选择或创建一个AI代理。\n2. 将AI代理与你的网站连接。\n3. 配置代理的销售策略。\n\n### 4. 测试与部署\n\n1. 在测试环境中运行，确保一切正常。\n2. 将配置部署到生产环境。\n3. 监控销售数据，优化销售策略。",
+      "url": "https://www.producthunt.com/products/tobira-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tobira-site-agent",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Pressure",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "双代理辩论工具，提供不同观点讨论",
+      "tags": [
+        "辩论",
+        "讨论",
+        "观点",
+        "代理"
+      ],
+      "scenarios": [
+        "在线讨论平台",
+        "教育论坛",
+        "社交网络"
+      ],
+      "tutorial": "## 使用 Pressure 进行辩论\n\n1. 打开 Pressure 网站，选择一个话题进行辩论。\n2. 系统会自动分配两个代理，分别代表不同的观点。\n3. 观察两个代理的辩论过程，并参与其中，发表自己的观点。\n4. 辩论结束后，系统会根据辩论结果给出评分。",
+      "url": "https://www.producthunt.com/products/pressure",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pressure",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "AgentTM",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编程代理的时间旅行调试工具",
+      "tags": [
+        "AI调试",
+        "代码调试",
+        "自动化",
+        "时间旅行"
+      ],
+      "scenarios": [
+        "AI代码开发",
+        "代码审查",
+        "调试工具"
+      ],
+      "tutorial": "## AgentTM 使用教程\n\n### 1. 安装 AgentTM\n\n- 访问 [AgentTM 官网](https://www.producthunt.com/products/agenttm) 下载 AgentTM 安装包。\n- 根据操作系统选择合适的安装包进行安装。\n\n### 2. 配置调试环境\n\n- 打开 AgentTM，配置调试环境参数，包括调试的代码库、调试器类型等。\n- 确保所有配置正确无误。\n\n### 3. 开始调试\n\n- 选择需要调试的代码片段。\n- 点击开始调试按钮，AgentTM 将自动进行调试。\n\n### 4. 分析调试结果\n\n- 调试完成后，分析调试结果，找出代码中的错误。\n- 根据调试结果进行代码修复。",
+      "url": "https://www.producthunt.com/products/agenttm",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agenttm",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Kivo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac应用设备内语音输入助手",
+      "tags": [
+        "语音输入",
+        "Mac应用",
+        "AI助手"
+      ],
+      "scenarios": [
+        "Mac用户语音输入需求",
+        "提高工作效率"
+      ],
+      "tutorial": "## Kivo 使用教程\n\n### 1. 安装Kivo\n\n1. 访问Kivo官网下载最新版本。\n2. 运行安装程序，按照提示完成安装。\n3. 安装完成后，在Mac系统偏好设置中找到Kivo，进行配置。\n\n### 2. 配置Kivo\n\n1. 打开Kivo设置，选择要使用的语音输入服务。\n2. 配置语音输入的快捷键或触发词。\n3. 确保麦克风权限已开启。\n\n### 3. 使用Kivo\n\n1. 在任何Mac应用中，按下配置的快捷键或触发词。\n2. 开始说话，Kivo将实时将语音转换为文本。\n3. 完成输入后，点击应用中的文本输入框，即可看到转换后的文本。",
+      "url": "https://www.producthunt.com/products/kivo-4",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kivo",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "OpenVisio",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "团队AI编码代理的统一工作空间",
+      "tags": [
+        "AI编码",
+        "团队协作",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "团队协作",
+        "代码生成"
+      ],
+      "tutorial": "## OpenVisio 使用教程\n\n### 1. 注册与登录\n\n1. 访问 OpenVisio 官网，点击 '注册' 或使用已有账号登录。\n\n### 2. 创建项目\n\n1. 登录后，点击 '新建项目' 创建一个新的工作空间。\n\n### 3. 添加代理\n\n1. 在项目设置中，添加团队成员的代理，授权他们访问项目。\n\n### 4. 编写代码\n\n1. 使用 OpenVisio 提供的编辑器编写代码，支持多种编程语言。\n\n### 5. 运行与调试\n\n1. 点击 '运行' 按钮执行代码，查看结果并进行调试。",
+      "url": "https://www.producthunt.com/products/openvisio",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openvisio",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Letterpress-1",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一键安装自动化网站增长工具",
+      "tags": [
+        "自动化",
+        "网站增长",
+        "SEO"
+      ],
+      "scenarios": [
+        "网站SEO优化",
+        "内容发布管理",
+        "用户增长策略"
+      ],
+      "tutorial": "## Letterpress-1 使用教程\n\n1. 下载并安装Letterpress-1\n\n2. 配置你的网站信息和SEO策略\n\n3. 启动自动化任务，Letterpress-1将自动执行SEO优化和内容发布\n\n4. 监控网站增长和SEO排名变化",
+      "url": "https://www.producthunt.com/products/letterpress-1",
+      "status": "dead",
+      "is_violation": false,
+      "id": "letterpress-1",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "LiveShortly",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "实时监控、引导、分享和批准您的编码代理",
+      "tags": [
+        "实时监控",
+        "编码代理",
+        "代码审查",
+        "协作工具"
+      ],
+      "scenarios": [
+        "团队协作",
+        "代码审查流程",
+        "远程工作"
+      ],
+      "tutorial": "## 使用 LiveShortly 进行实时编码监控\n\n1. 注册并登录 LiveShortly\n\n   访问 [LiveShortly官网](https://www.liveshortly.com/)，注册账户并登录。\n\n2. 创建新项目\n\n   在控制面板中，点击“创建新项目”并填写项目信息。\n\n3. 邀请团队成员\n\n   在项目设置中，邀请团队成员加入项目，并分配权限。\n\n4. 开始实时监控\n\n   在项目页面，选择要监控的代码片段，开始实时监控。\n\n5. 观看和指导\n\n   观看团队成员的编码过程，实时提供反馈和指导。\n\n6. 分享和批准\n\n   在监控过程中，可以分享屏幕给团队成员，并在代码完成后进行批准。",
+      "url": "https://www.producthunt.com/products/liveshortly",
+      "status": "dead",
+      "is_violation": false,
+      "id": "liveshortly",
+      "added": "2026-11-07"
+    },
+    {
+      "name": "Thunderduck Inc.",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "模块化数据仓库，为数据团队提供高效数据管理",
+      "tags": [
+        "数据仓库",
+        "数据管理",
+        "团队协作",
+        "云服务"
+      ],
+      "scenarios": [
+        "数据集成",
+        "数据分析",
+        "团队协作"
+      ],
+      "tutorial": "## Thunderduck Inc. 使用教程\n\n1. 注册并登录\n   - 访问 [Thunderduck Inc. 官网](https://www.producthunt.com/products/thunderduck-inc) 进行注册。\n   - 使用注册信息登录账户。\n\n2. 创建数据仓库\n   - 在控制台选择创建新的数据仓库。\n   - 按照提示填写数据仓库的名称和配置信息。\n\n3. 上传数据\n   - 选择数据源，可以是本地文件、数据库或云存储服务。\n   - 上传数据到数据仓库中。\n\n4. 数据分析\n   - 使用内置的数据分析工具进行数据查询和分析。\n   - 创建数据报告和可视化图表。\n\n5. 分享与协作\n   - 与团队成员共享数据仓库。\n   - 设置权限，控制团队成员的访问权限。",
+      "url": "https://www.producthunt.com/products/thunderduck-inc",
+      "status": "dead",
+      "is_violation": false,
+      "id": "thunderduck-inc",
+      "added": "2026-11-07"
     }
   ],
   "changelog": [
@@ -19260,6 +19619,29 @@
         "MCPCore",
         "Okapi",
         "Cosyra"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-07",
+      "added": [
+        "Meshia",
+        "Chronos DB",
+        "axel.md",
+        "Alysis Code",
+        "crystl",
+        "Koltrix",
+        "Wonder Dev View",
+        "Rankfender v3.0",
+        "Tobira Site Agent",
+        "Pressure",
+        "AgentTM",
+        "Kivo",
+        "OpenVisio",
+        "Letterpress-1",
+        "LiveShortly",
+        "Thunderduck Inc."
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

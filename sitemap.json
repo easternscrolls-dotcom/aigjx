@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:04:28.784Z",
+  "generatedAt": "2026-11-06T22:35:09.231Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4036,6 +4036,86 @@
       "url": "https://aiagent.72tool.com/tools/cosyra.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/meshia.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/chronos-db.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/axel-md.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/alysis-code.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/crystl.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/koltrix.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/wonder-dev-view.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rankfender-v3-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tobira-site-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pressure.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agenttm.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kivo.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openvisio.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/letterpress-1.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/liveshortly.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/thunderduck-inc.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4066,7 +4146,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 800,
+    "totalAgents": 816,
     "byCategory": [
       {
         "id": "local",
@@ -4076,7 +4156,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 664
+        "count": 680
       },
       {
         "id": "workflow",
@@ -4094,6 +4174,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 524
+    "deadLinks": 540
   }
 }
