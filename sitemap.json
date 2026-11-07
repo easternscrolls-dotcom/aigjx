@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T22:35:09.231Z",
+  "generatedAt": "2026-11-07T21:14:30.749Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4116,6 +4116,16 @@
       "url": "https://aiagent.72tool.com/tools/thunderduck-inc.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/astryx.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/instagram-edits-for-desktop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4146,7 +4156,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 816,
+    "totalAgents": 818,
     "byCategory": [
       {
         "id": "local",
@@ -4156,7 +4166,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 680
+        "count": 682
       },
       {
         "id": "workflow",
@@ -4174,6 +4184,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 540
+    "deadLinks": 541
   }
 }

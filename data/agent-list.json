@@ -18213,6 +18213,50 @@
       "is_violation": false,
       "id": "thunderduck-inc",
       "added": "2026-11-07"
+    },
+    {
+      "name": "astryx",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源可定制设计系统，支持Agent应用",
+      "tags": [
+        "设计系统",
+        "开源",
+        "Agent支持"
+      ],
+      "scenarios": [
+        "网页设计",
+        "UI开发",
+        "自动化测试"
+      ],
+      "tutorial": "## Astryx 使用教程\n\n### 1. 安装与配置\n1. 下载Astryx源码。\n2. 解压到本地目录。\n3. 配置环境变量，确保命令行可以访问Astryx。\n\n### 2. 创建项目\n1. 在命令行中运行 `astryx new my-project` 创建新项目。\n2. 进入项目目录。\n3. 运行 `npm install` 安装依赖。\n\n### 3. 开发与测试\n1. 使用代码编辑器打开项目。\n2. 根据需求修改样式和功能。\n3. 运行 `npm run serve` 启动开发服务器。\n\n### 4. 部署\n1. 生成生产环境代码。\n2. 将代码部署到服务器或云平台。",
+      "url": "https://github.com/meta/astryx",
+      "status": "active",
+      "is_violation": false,
+      "id": "astryx",
+      "added": "2026-11-08"
+    },
+    {
+      "name": "Instagram Edits for Desktop",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 助手的 Instagram 视频编辑器",
+      "tags": [
+        "视频编辑",
+        "AI 优化",
+        "社交媒体"
+      ],
+      "scenarios": [
+        "社交媒体内容制作",
+        "视频编辑优化",
+        "个人品牌建设"
+      ],
+      "tutorial": "## Instagram Edits for Desktop 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Instagram Edits for Desktop 官网](https://www.instagram.com/) 并注册账号。\n2. 使用 Instagram 账号登录。\n\n### 2. 选择编辑功能\n\n1. 登录后，点击页面上的视频编辑图标进入编辑界面。\n2. 选择你想要编辑的视频文件。\n\n### 3. 使用 AI 功能\n\n1. 选择 AI 优化选项，系统将自动分析视频并提供优化建议。\n2. 根据建议调整视频的亮度、对比度、饱和度等参数。\n\n### 4. 保存与分享\n\n1. 完成编辑后，点击保存按钮。\n2. 将编辑后的视频分享到 Instagram 或其他社交媒体平台。",
+      "url": "https://www.producthunt.com/products/instagram",
+      "status": "dead",
+      "is_violation": false,
+      "id": "instagram-edits-for-desktop",
+      "added": "2026-11-08"
     }
   ],
   "changelog": [
@@ -19642,6 +19686,15 @@
         "Letterpress-1",
         "LiveShortly",
         "Thunderduck Inc."
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-08",
+      "added": [
+        "astryx",
+        "Instagram Edits for Desktop"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
