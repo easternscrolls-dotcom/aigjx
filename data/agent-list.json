@@ -18257,6 +18257,73 @@
       "is_violation": false,
       "id": "instagram-edits-for-desktop",
       "added": "2026-11-08"
+    },
+    {
+      "name": "AXL",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 产品创始人 GTM 伙伴，提供 1200+ 动作。",
+      "tags": [
+        "GTM",
+        "AI",
+        "自动化",
+        "产品营销"
+      ],
+      "scenarios": [
+        "产品推广",
+        "市场调研",
+        "用户反馈收集"
+      ],
+      "tutorial": "## AXL 使用教程\n\n### 1. 注册与登录\n\n1. 访问 AXL 官网，点击注册按钮。\n2. 填写注册信息，包括邮箱和密码。\n3. 完成邮箱验证后登录。\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目。\n2. 输入项目名称和描述。\n3. 选择项目类型和目标市场。\n\n### 3. 添加动作\n\n1. 在项目页面，点击添加动作。\n2. 选择所需的动作类型，如发送邮件、社交媒体发布等。\n3. 配置动作参数，如收件人、内容等。\n\n### 4. 预览与运行\n\n1. 完成动作配置后，点击预览按钮查看效果。\n2. 确认无误后，点击运行按钮启动自动化流程。\n\n### 5. 监控与优化\n\n1. 在项目页面，查看自动化流程的运行状态。\n2. 根据反馈调整动作配置，优化自动化流程。",
+      "url": "https://www.producthunt.com/products/axl-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "axl",
+      "added": "2026-11-09"
+    },
+    {
+      "name": "NoMac",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "按分钟计费的个人Mac虚拟机，无需订阅",
+      "tags": [
+        "虚拟机",
+        "Mac",
+        "按需付费"
+      ],
+      "scenarios": [
+        "远程工作",
+        "开发测试",
+        "创意设计"
+      ],
+      "tutorial": "## NoMac 使用教程\n\n1. 注册账号\n   - 访问 NoMac 官网，点击 'Sign Up' 注册账号。\n   - 填写相关信息，完成注册。\n\n2. 选择虚拟机配置\n   - 登录账号后，选择合适的虚拟机配置，包括处理器、内存、存储等。\n   - 根据需求调整配置，确认无误后点击 'Start'。\n\n3. 连接到虚拟机\n   - 虚拟机启动后，使用提供的链接或客户端连接到虚拟机。\n   - 输入用户名和密码登录。\n\n4. 开始使用\n   - 登录后即可开始使用个人Mac虚拟机，享受Mac操作系统的所有功能。\n   - 使用完毕后，虚拟机会自动保存状态，下次使用时可以快速恢复。",
+      "url": "https://www.producthunt.com/products/nomac",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nomac",
+      "added": "2026-11-09"
+    },
+    {
+      "name": "Agent Clan",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "手势控制 Claude Code 和 Codex 代理",
+      "tags": [
+        "手势控制",
+        "代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Agent Clan 进行自动化操作\n\n1. **安装 Agent Clan**\n   - 访问 [Agent Clan 官网](https://www.producthunt.com/products/agent-clan) 下载并安装 Agent Clan。\n\n2. **创建代理**\n   - 打开 Agent Clan，点击 'New Agent' 创建一个新的代理。\n\n3. **配置手势**\n   - 在代理设置中，配置所需的手势动作，例如点击、拖拽等。\n\n4. **绑定操作**\n   - 将配置好的手势绑定到具体的网页操作，如填写表单、点击按钮等。\n\n5. **运行代理**\n   - 启动代理，Agent Clan 将根据配置的手势自动执行网页操作。",
+      "url": "https://www.producthunt.com/products/agent-clan",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agent-clan",
+      "added": "2026-11-09"
     }
   ],
   "changelog": [
@@ -19695,6 +19762,16 @@
       "added": [
         "astryx",
         "Instagram Edits for Desktop"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-09",
+      "added": [
+        "AXL",
+        "NoMac",
+        "Agent Clan"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
