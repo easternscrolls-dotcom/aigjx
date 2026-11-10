@@ -18571,6 +18571,429 @@
       "is_violation": false,
       "id": "voyager",
       "added": "2026-11-10"
+    },
+    {
+      "name": "Unit_3_Agentic_RAG",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于 Hugging Face 的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Unit_3_Agentic_RAG 进行网页自动化\n\n1. 安装依赖\n   - 使用 pip 安装依赖：\n     ```bash\n     pip install unit3-agentic-rag\n     ```\n\n2. 创建脚本\n   - 创建一个新的 Python 文件，例如 `web_automation.py`。\n\n3. 编写自动化代码\n   - 导入所需的库：\n     ```python\n     from unit3_agentic_rag import AgenticRAG\n     ```\n   - 创建 AgenticRAG 对象并设置目标网页：\n     ```python\n     rag = AgenticRAG(url='https://example.com')\n     ```\n   - 执行自动化任务：\n     ```python\n     rag.fill_form({'username': 'user', 'password': 'pass'})\n     rag.click_button('submit')\n     ```\n\n4. 运行脚本\n   - 在命令行中运行脚本：\n     ```bash\n     python web_automation.py\n     ```\n\n5. 检查结果\n   - 检查网页是否按预期进行了操作。",
+      "url": "https://huggingface.co/spaces/chadrian/Unit_3_Agentic_RAG",
+      "status": "active",
+      "is_violation": false,
+      "id": "unit-3-agentic-rag",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "TK by Medium",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "构建最佳思考的智能笔记",
+      "tags": [
+        "笔记",
+        "思考",
+        "智能",
+        "协作"
+      ],
+      "scenarios": [
+        "个人知识管理",
+        "团队协作",
+        "创意生成"
+      ],
+      "tutorial": "## 使用TK by Medium\n\n### 1. 创建账户\n\n1. 访问 [TK by Medium](https://www.producthunt.com/products/medium) 官网。\n2. 点击 'Sign Up' 创建账户。\n3. 遵循提示完成注册流程。\n\n### 2. 创建新笔记\n\n1. 登录账户后，点击 'New Notebook' 创建新的笔记。\n2. 输入笔记标题和内容。\n3. 使用内置工具添加图片、链接等元素。\n\n### 3. 分享与协作\n\n1. 完成笔记后，点击 'Share' 与他人分享。\n2. 设置权限，允许他人编辑或仅查看。\n3. 通过链接或邀请码邀请团队成员加入。\n\n### 4. 导出与备份\n\n1. 点击 'Export' 导出笔记为 PDF 或其他格式。\n2. 定期备份，确保数据安全。",
+      "url": "https://www.producthunt.com/products/medium",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tk-by-medium",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Latch.ai",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "自动化复杂会计工作，无需指令",
+      "tags": [
+        "会计",
+        "自动化",
+        "财务",
+        "AI"
+      ],
+      "scenarios": [
+        "财务数据处理",
+        "会计流程自动化",
+        "财务报告生成"
+      ],
+      "tutorial": "## Latch.ai 使用教程\n\n1. 注册并登录\n   - 访问Latch.ai官网，注册账号并登录。\n\n2. 创建项目\n   - 在仪表板上创建一个新的项目，选择会计相关的任务类型。\n\n3. 配置任务\n   - 根据提示配置任务参数，如数据源、目标格式等。\n\n4. 运行任务\n   - 点击运行按钮，系统将自动处理会计工作。\n\n5. 查看结果\n   - 任务完成后，查看生成的财务报告或数据。",
+      "url": "https://www.producthunt.com/products/latch-ai-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "latch-ai",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Kata Send",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI代理冷邮件基础设施",
+      "tags": [
+        "邮件营销",
+        "自动化",
+        "AI代理"
+      ],
+      "scenarios": [
+        "营销自动化",
+        "客户关系管理",
+        "销售漏斗管理"
+      ],
+      "tutorial": "## 使用Kata Send进行冷邮件发送\n\n1. 注册并登录Kata Send账户\n\n2. 创建新的邮件活动，填写邮件模板和目标收件人列表\n\n3. 配置发送策略，如发送时间、频率等\n\n4. 预览邮件内容，确保无误后启动发送\n\n5. 监控发送进度和效果，优化邮件内容",
+      "url": "https://www.producthunt.com/products/kata-send",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kata-send",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Ownkube",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一键部署应用，无需代码",
+      "tags": [
+        "应用部署",
+        "自动化",
+        "AI 辅助"
+      ],
+      "scenarios": [
+        "软件开发",
+        "项目管理",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 Ownkube 部署应用\n\n1. 注册并登录 Ownkube 平台。\n2. 创建一个新的项目，并选择相应的应用模板。\n3. 使用自然语言描述你想要部署的应用，例如 '部署一个博客应用'。\n4. Ownkube 会根据你的描述自动部署应用，并提供部署状态和访问链接。\n5. 部署完成后，你可以通过提供的链接访问你的应用。",
+      "url": "https://www.producthunt.com/products/ownkube",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ownkube",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Alsona",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "将购买信号转化为预约销售通话的AI代理",
+      "tags": [
+        "AI代理",
+        "销售",
+        "购买信号",
+        "预约通话"
+      ],
+      "scenarios": [
+        "销售自动化",
+        "客户关系管理",
+        "营销活动"
+      ],
+      "tutorial": "## Alsona 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Alsona 官网并注册账号。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建代理\n\n1. 在控制台选择创建新的AI代理。\n2. 输入代理名称和配置相关参数。\n3. 选择触发购买信号的规则。\n\n### 3. 配置通话预约\n\n1. 设置预约通话的时间模板。\n2. 配置通话前的自动邮件提醒。\n3. 添加通话记录到CRM系统。\n\n### 4. 监控与优化\n\n1. 查看代理的运行状态和通话数据。\n2. 根据数据调整代理的配置和规则。\n3. 定期检查销售团队的反馈，优化代理效果。",
+      "url": "https://www.producthunt.com/products/alsona",
+      "status": "dead",
+      "is_violation": false,
+      "id": "alsona",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "ZUS",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI原生IDE，智能代码协作与审查",
+      "tags": [
+        "AI编程",
+        "代码审查",
+        "协作工具"
+      ],
+      "scenarios": [
+        "团队协作",
+        "代码审查流程",
+        "智能编程辅助"
+      ],
+      "tutorial": "## ZUS使用教程\n\n### 1. 注册与登录\n\n1. 访问ZUS官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录ZUS平台。\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目。\n2. 输入项目名称，选择项目模板，点击创建。\n\n### 3. 添加团队成员\n\n1. 在项目设置中，点击添加成员。\n2. 输入团队成员的邮箱，选择角色权限，点击添加。\n\n### 4. 开始协作\n\n1. 成员间可以开始编写代码，ZUS会自动进行代码审查。\n2. 代码审查完成后，可以提出修改建议或直接合并代码。",
+      "url": "https://www.producthunt.com/products/zus-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "zus",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Levo",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能清理Mac设备",
+      "tags": [
+        "Mac",
+        "清理",
+        "AI"
+      ],
+      "scenarios": [
+        "日常维护",
+        "系统优化",
+        "数据安全"
+      ],
+      "tutorial": "## 使用Levo进行Mac设备清理\n\n1. 下载并安装Levo应用。\n2. 打开Levo，授权应用访问Mac文件系统。\n3. 选择需要清理的文件类型，如缓存、临时文件等。\n4. 点击清理按钮，Levo将自动删除选定的文件。\n5. 查看清理报告，确认清理效果。",
+      "url": "https://www.producthunt.com/products/levo-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "levo",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Seldon",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "模拟用户行为进行质量检测的浏览器网页Agent",
+      "tags": [
+        "行为模拟",
+        "质量检测",
+        "用户行为",
+        "浏览器自动化"
+      ],
+      "scenarios": [
+        "网页测试",
+        "用户体验分析",
+        "自动化测试"
+      ],
+      "tutorial": "## Seldon 使用教程\n\n### 1. 安装Seldon\n\nSeldon可以通过以下命令进行安装：\n\n```bash\npip install seldon\n```\n\n### 2. 创建模拟用户行为\n\n使用Seldon创建模拟用户行为，可以通过以下命令：\n\n```python\nfrom seldon import Seldon\n\ns = Seldon()\ns.create_behavior('user_behavior', 'user1', 'click', 'button1')\n```\n\n### 3. 运行模拟\n\n运行模拟用户行为，可以通过以下命令：\n\n```python\ns.run_behavior('user_behavior', 'user1')\n```\n\n### 4. 分析结果\n\n模拟完成后，可以分析结果以了解用户行为：\n\n```python\nresults = s.get_behavior_results('user_behavior', 'user1')\ns.print_behavior_results(results)\n```",
+      "url": "https://www.producthunt.com/products/seldon",
+      "status": "dead",
+      "is_violation": false,
+      "id": "seldon",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Inspo by Context.dev",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为代码代理提供真实网站灵感",
+      "tags": [
+        "网站灵感",
+        "代码辅助",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "前端开发",
+        "网页设计",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用Inspo by Context.dev\n\n1. 安装插件\n   在你的浏览器中安装Inspo by Context.dev插件。\n\n2. 选择网站\n   访问你想要获取灵感的网站。\n\n3. 启用插件\n   在网站上启用Inspo插件，它会自动分析页面并提供灵感。\n\n4. 查看灵感\n   插件会显示相关的代码片段和设计灵感，你可以根据这些信息进行开发或设计。\n\n5. 保存灵感\n   如果你喜欢某个灵感，可以将其保存到你的收藏中，方便以后查看。",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "inspo-by-context-dev",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "OpenVibe",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编码代理的真实终端画布",
+      "tags": [
+        "AI 编码",
+        "终端模拟",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "AI 代码生成",
+        "自动化测试工具"
+      ],
+      "tutorial": "## OpenVibe 使用教程\n\n### 1. 安装与启动\n\n1. 访问 OpenVibe 官网下载最新版本。\n2. 安装完成后，启动 OpenVibe 软件。\n3. 首次启动时，软件将进行初始化配置。\n\n### 2. 创建新项目\n\n1. 在主界面点击 '新建项目' 按钮。\n2. 输入项目名称并选择项目类型。\n3. 点击 '创建' 按钮完成项目创建。\n\n### 3. 编写代码\n\n1. 在项目编辑器中，使用提供的代码模板或手动编写代码。\n2. 代码支持多种编程语言，如 Python、JavaScript 等。\n3. 保存代码并预览效果。\n\n### 4. 运行与调试\n\n1. 点击 '运行' 按钮执行代码。\n2. 观察运行结果，如有错误，进行调试。\n3. 调试完成后，保存修改并重新运行。",
+      "url": "https://www.producthunt.com/products/openvibe-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openvibe",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "openring",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源语音AI代理，无平台费用",
+      "tags": [
+        "语音AI",
+        "开源",
+        "自动化"
+      ],
+      "scenarios": [
+        "语音交互",
+        "客服自动化",
+        "智能客服"
+      ],
+      "tutorial": "## Openring 使用教程\n\n### 1. 安装与配置\n1. 访问 Openring 官网下载并安装 Openring。\n2. 配置网络连接，确保网络畅通。\n3. 注册 Openring 账号，完成基本设置。\n\n### 2. 创建语音代理\n1. 在 Openring 管理后台，点击创建新的语音代理。\n2. 输入代理名称，选择合适的语音模型。\n3. 配置代理的响应逻辑和交互流程。\n\n### 3. 部署与测试\n1. 将创建好的语音代理部署到服务器或本地环境。\n2. 通过语音输入进行测试，确保代理能够正确响应。\n3. 根据测试结果调整配置，优化代理性能。",
+      "url": "https://www.producthunt.com/products/openring",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openring",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Billing MCP By SubscriptionFlow",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "开源AI订阅计费代理，自动化订阅计费流程",
+      "tags": [
+        "AI",
+        "订阅计费",
+        "自动化"
+      ],
+      "scenarios": [
+        "订阅管理",
+        "计费自动化",
+        "财务流程"
+      ],
+      "tutorial": "## 使用Billing MCP By SubscriptionFlow教程\n\n### 1. 安装与配置\n\n1. 下载Billing MCP By SubscriptionFlow。\n2. 解压文件并运行安装脚本。\n3. 按照提示完成配置，包括数据库连接、API密钥等。\n\n### 2. 创建订阅计划\n\n1. 登录系统。\n2. 进入订阅计划管理界面。\n3. 点击新建，填写订阅计划信息，如名称、价格、周期等。\n\n### 3. 配置计费规则\n\n1. 在计费规则管理界面，设置计费周期、计费方式等。\n2. 可根据需要添加折扣、优惠券等。\n\n### 4. 自动化计费流程\n\n1. 系统会根据订阅计划自动生成账单。\n2. 用户支付后，系统会自动更新订阅状态。\n\n### 5. 监控与报告\n\n1. 查看计费报告，了解订阅情况。\n2. 监控系统运行状态，确保计费流程稳定。",
+      "url": "https://www.producthunt.com/products/subscriptionflow-ai-billing-mcp",
+      "status": "dead",
+      "is_violation": false,
+      "id": "billing-mcp-by-subscriptionflow",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Operum",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "构建AI产品团队的专家工作流",
+      "tags": [
+        "AI工作流",
+        "产品团队",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI产品开发",
+        "团队协作",
+        "工作流程优化"
+      ],
+      "tutorial": "## 使用Operum构建AI产品团队工作流\n1. **创建工作流**：登录Operum，点击创建新工作流，选择合适的模板或从零开始设计。\n2. **添加AI组件**：在工作流中添加AI组件，如自然语言处理、图像识别等，以实现特定功能。\n3. **配置参数**：根据需求配置AI组件的参数，如训练数据、模型选择等。\n4. **测试与迭代**：运行工作流进行测试，根据结果调整配置和组件，直至达到预期效果。\n5. **部署与监控**：将工作流部署到生产环境，并实时监控其运行状态，确保稳定运行。",
+      "url": "https://www.producthunt.com/products/operum",
+      "status": "dead",
+      "is_violation": false,
+      "id": "operum",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "ForAgent",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理间私密通话",
+      "tags": [
+        "AI通话",
+        "代理通信",
+        "隐私保护"
+      ],
+      "scenarios": [
+        "客服系统",
+        "智能客服",
+        "跨平台沟通"
+      ],
+      "tutorial": "## ForAgent 使用教程\n\n1. 注册并登录\n\n   访问 [ForAgent 官网](https://www.producthunt.com/products/foragent) 进行注册，并完成登录流程。\n\n2. 创建代理\n\n   在个人账户中创建新的AI代理，并配置相应的权限和设置。\n\n3. 配置通话\n\n   为代理配置电话号码，并设置通话权限，确保代理可以拨打和接听电话。\n\n4. 进行通话\n\n   通过代理发起通话，与其他AI代理或真实用户进行沟通。\n\n5. 监控与报告\n\n   查看通话记录和报告，分析通话数据，优化服务。",
+      "url": "https://www.producthunt.com/products/foragent",
+      "status": "dead",
+      "is_violation": false,
+      "id": "foragent",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "RunThru",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "验证代码Pull Request工作效果的视频证明工具",
+      "tags": [
+        "代码验证",
+        "视频证明",
+        "Pull Request"
+      ],
+      "scenarios": [
+        "代码审查",
+        "团队协作",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用RunThru进行代码Pull Request验证\n\n1. 准备工作\n   - 确保你的代码库已经配置了RunThru。\n   - 准备好要验证的Pull Request。\n\n2. 创建验证任务\n   - 在RunThru中创建一个新的验证任务。\n   - 选择要验证的Pull Request。\n   - 配置验证参数，如测试环境等。\n\n3. 运行验证\n   - 点击运行验证，RunThru将自动执行测试并生成视频证明。\n\n4. 查看结果\n   - 验证完成后，查看视频证明，确认代码工作效果。",
+      "url": "https://www.producthunt.com/products/runthru",
+      "status": "dead",
+      "is_violation": false,
+      "id": "runthru",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "HitPay Agentic Discovery",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理助力店铺搜索与购买",
+      "tags": [
+        "AI代理",
+        "店铺搜索",
+        "购买辅助"
+      ],
+      "scenarios": [
+        "电商平台优化",
+        "在线商店推广",
+        "用户行为分析"
+      ],
+      "tutorial": "## 使用HitPay Agentic Discovery教程\n\n1. 注册并登录HitPay Agentic Discovery平台。\n2. 创建一个新的AI代理项目，填写店铺信息和目标市场。\n3. 配置AI代理的行为规则，如搜索关键词、购买流程等。\n4. 测试AI代理的效果，根据反馈调整配置。\n5. 部署AI代理，使其自动执行搜索和购买任务。",
+      "url": "https://www.producthunt.com/products/hitpay-agentic-discovery",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hitpay-agentic-discovery",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Willder",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "同步应用、代理和团队的上下文层",
+      "tags": [
+        "同步",
+        "应用",
+        "团队",
+        "上下文"
+      ],
+      "scenarios": [
+        "跨应用协作",
+        "团队沟通",
+        "自动化流程"
+      ],
+      "tutorial": "## 使用 Willder 进行应用同步\n\n1. 注册并登录 Willder 账户。\n2. 创建一个新的上下文层，命名并添加相关应用和代理。\n3. 将团队成员添加到上下文层，并设置权限。\n4. 在上下文层中，通过拖拽的方式连接应用和代理，实现数据同步。\n5. 监控上下文层的运行状态，确保数据同步的准确性。",
+      "url": "https://www.producthunt.com/products/willder-with-will-wield-the-wilder",
+      "status": "dead",
+      "is_violation": false,
+      "id": "willder",
+      "added": "2026-11-11"
+    },
+    {
+      "name": "Co-Review",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "阅读由代理构建的整个仓库",
+      "tags": [
+        "代码审查",
+        "协作",
+        "开源"
+      ],
+      "scenarios": [
+        "代码审查流程",
+        "团队协作",
+        "开源项目管理"
+      ],
+      "tutorial": "## Co-Review 使用教程\n\n1. 下载并安装 Co-Review\n   - 访问 Co-Review 官网下载最新版本。\n   - 按照提示完成安装。\n\n2. 创建项目\n   - 打开 Co-Review 并创建一个新的项目。\n   - 输入项目名称和描述。\n\n3. 添加仓库\n   - 在项目中添加需要审查的仓库。\n   - 输入仓库地址和访问权限。\n\n4. 开始审查\n   - Co-Review 会自动读取仓库内容，并展示在界面上。\n   - 与团队成员一起进行代码审查。\n\n5. 提交反馈\n   - 对代码提出反馈意见。\n   - 选择合适的标签和优先级。",
+      "url": "https://www.producthunt.com/products/co-review",
+      "status": "dead",
+      "is_violation": false,
+      "id": "co-review",
+      "added": "2026-11-11"
     }
   ],
   "changelog": [
@@ -20037,6 +20460,32 @@
         "Dageno AI 2.0",
         "Databox CLI",
         "Voyager"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-11",
+      "added": [
+        "Unit_3_Agentic_RAG",
+        "TK by Medium",
+        "Latch.ai",
+        "Kata Send",
+        "Ownkube",
+        "Alsona",
+        "ZUS",
+        "Levo",
+        "Seldon",
+        "Inspo by Context.dev",
+        "OpenVibe",
+        "openring",
+        "Billing MCP By SubscriptionFlow",
+        "Operum",
+        "ForAgent",
+        "RunThru",
+        "HitPay Agentic Discovery",
+        "Willder",
+        "Co-Review"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
