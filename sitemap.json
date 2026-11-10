@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:29:26.034Z",
+  "generatedAt": "2026-11-10T01:00:27.419Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4141,6 +4141,61 @@
       "url": "https://aiagent.72tool.com/tools/agent-clan.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gbrain.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/daily-stock-analysis.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ha-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sofia-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gaia-agent-final.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/alfred-agents-course.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/starpath-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/watchflows.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dageno-ai-2-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/databox-cli.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/voyager.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4171,7 +4226,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 821,
+    "totalAgents": 832,
     "byCategory": [
       {
         "id": "local",
@@ -4181,12 +4236,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 685
+        "count": 695
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 69
+        "count": 70
       },
       {
         "id": "crossborder",
@@ -4199,6 +4254,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 544
+    "deadLinks": 548
   }
 }

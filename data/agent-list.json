@@ -18324,6 +18324,253 @@
       "is_violation": false,
       "id": "agent-clan",
       "added": "2026-11-09"
+    },
+    {
+      "name": "gbrain",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持OpenClaw/Hermes Agent。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "OpenClaw",
+        "Hermes"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "RPA应用"
+      ],
+      "tutorial": "## 使用Gbrain进行网页自动化\n\n### 1. 安装Gbrain\n从GitHub下载Gbrain源码，解压后运行安装脚本。\n\n### 2. 配置浏览器插件\n访问Garry的插件页面，下载并安装对应的浏览器插件。\n\n### 3. 编写自动化脚本\n使用JavaScript编写自动化脚本，通过插件发送命令到Gbrain。\n\n### 4. 运行自动化任务\n启动Gbrain，运行编写的脚本，实现网页自动化操作。",
+      "url": "https://github.com/garrytan/gbrain",
+      "status": "active",
+      "is_violation": false,
+      "id": "gbrain",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "daily_stock_analysis",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "LLM 驱动股票智能分析，多源数据实时监控。",
+      "tags": [
+        "股票分析",
+        "智能决策",
+        "数据监控"
+      ],
+      "scenarios": [
+        "股票市场分析",
+        "投资决策支持",
+        "实时新闻推送"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装daily_stock_analysis工具。\n2. 配置市场数据源和新闻源，确保数据实时更新。\n3. 设置决策看板，自定义分析指标和图表。\n4. 启用自动推送功能，定时接收分析报告。\n5. 每日查看推送的决策看板，进行投资决策。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "status": "active",
+      "is_violation": false,
+      "id": "daily-stock-analysis",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "ha-mcp",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化配置 Home Assistant，支持 Claude、ChatGPT 等AI助手。",
+      "tags": [
+        "自动化",
+        "智能家居",
+        "AI助手",
+        "Home Assistant"
+      ],
+      "scenarios": [
+        "智能家居自动化",
+        "AI助手集成",
+        "Home Assistant 配置"
+      ],
+      "tutorial": "## 使用 ha-mcp 自动化配置 Home Assistant\n\n1. 安装 ha-mcp\n   - 使用 pip 安装：`pip install ha-mcp`\n\n2. 配置 Home Assistant\n   - 在 Home Assistant 配置文件中添加 ha-mcp 服务\n\n3. 集成 AI 助手\n   - 通过 ha-mcp 配置 Claude 或 ChatGPT API\n\n4. 自动化任务\n   - 使用 ha-mcp 创建自动化任务，如定时开关灯、调节温度等",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "status": "active",
+      "is_violation": false,
+      "id": "ha-mcp",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "sofia-ai",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "在线服务管理"
+      ],
+      "tutorial": "## Sofia-AI 使用教程\n\n### 1. 安装与配置\n1. 下载Sofia-AI安装包。\n2. 解压安装包并运行配置脚本。\n3. 根据提示完成环境配置。\n\n### 2. 创建新任务\n1. 打开Sofia-AI界面。\n2. 点击创建新任务按钮。\n3. 输入任务名称和描述。\n\n### 3. 编写脚本\n1. 在脚本编辑器中编写自动化脚本。\n2. 使用内置函数进行网页操作和数据采集。\n3. 保存并测试脚本。\n\n### 4. 运行任务\n1. 在任务列表中选择要运行的任务。\n2. 点击运行按钮。\n3. 观察任务执行结果。",
+      "url": "https://huggingface.co/spaces/conalep-agente/sofia-ai",
+      "status": "active",
+      "is_violation": false,
+      "id": "sofia-ai",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "gaia-agent-final",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Gaia-Agent-Final 进行网页自动化\n\n1. 安装 Gaia-Agent-Final\n   - 下载并安装 Gaia-Agent-Final。\n\n2. 创建新任务\n   - 打开 Gaia-Agent-Final，创建一个新的任务。\n\n3. 编写自动化脚本\n   - 使用拖拽式界面或编写脚本，定义自动化流程。\n\n4. 运行任务\n   - 运行任务，观察网页操作过程。\n\n5. 保存和分享\n   - 保存自动化任务，与他人分享。",
+      "url": "https://huggingface.co/spaces/girish93/gaia-agent-final",
+      "status": "active",
+      "is_violation": false,
+      "id": "gaia-agent-final",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "alfred-agents-course",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，实现网页操作自动化。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## Alfred Agents 使用教程\n\n### 1. 安装 Alfred\n\n1. 下载并安装 Alfred\n2. 打开 Alfred 并进行基本设置\n3. 确保 Alfred 的 Workflow 功能已启用\n\n### 2. 安装 Alfred Agents\n\n1. 在 Alfred 中搜索 'Alfred Agents'\n2. 选择合适的 Alfred Agents 并安装\n3. 重启 Alfred 以应用更改\n\n### 3. 创建新 Agent\n\n1. 在 Alfred 中点击 '+' 创建新 Agent\n2. 选择 'Browser' 类型的 Agent\n3. 配置 Agent 的参数，如 URL、操作等\n\n### 4. 运行 Agent\n\n1. 在 Alfred 中输入 Agent 的关键词\n2. 观察 Agent 执行网页操作\n3. 检查操作结果",
+      "url": "https://huggingface.co/spaces/SystemReset/alfred-agents-course",
+      "status": "active",
+      "is_violation": false,
+      "id": "alfred-agents-course",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "starpath-ai",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 驱动的浏览器网页自动化工具",
+      "tags": [
+        "AI",
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "业务流程自动化"
+      ],
+      "tutorial": "## 星际路径 AI 使用教程\n\n### 1. 安装与启动\n1. 下载并安装星际路径 AI。\n2. 打开应用程序，创建一个新的项目。\n3. 选择目标网页，开始自动化操作。\n\n### 2. 设置自动化任务\n1. 在项目中添加网页元素。\n2. 设置元素的操作，如点击、输入等。\n3. 保存并运行任务。\n\n### 3. 监控与调试\n1. 查看任务运行日志。\n2. 调整操作步骤，优化自动化流程。\n3. 保存修改并重新运行任务。",
+      "url": "https://huggingface.co/spaces/tianyuer/starpath-ai",
+      "status": "active",
+      "is_violation": false,
+      "id": "starpath-ai",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "Watchflows",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "Mac上的可视化AI自动化工具",
+      "tags": [
+        "自动化",
+        "AI",
+        "Mac",
+        "工作流"
+      ],
+      "scenarios": [
+        "日常办公自动化",
+        "项目管理",
+        "数据流程自动化"
+      ],
+      "tutorial": "## 使用Watchflows进行自动化\n\n1. 下载并安装Watchflows应用\n\n2. 打开应用，创建一个新的流程\n\n3. 使用拖拽方式添加步骤，如发送邮件、处理数据等\n\n4. 配置每个步骤的参数，如邮件内容、数据处理规则等\n\n5. 点击运行流程，Watchflows将自动执行所有步骤\n\n6. 查看流程执行结果，并进行必要的调整",
+      "url": "https://www.producthunt.com/products/watchflows",
+      "status": "dead",
+      "is_violation": false,
+      "id": "watchflows",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "Dageno AI 2.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI推荐竞争对手，助力优化营销策略",
+      "tags": [
+        "AI推荐",
+        "竞争对手分析",
+        "营销优化"
+      ],
+      "scenarios": [
+        "营销策略优化",
+        "市场分析",
+        "竞争情报收集"
+      ],
+      "tutorial": "## 使用Dageno AI 2.0进行竞争对手分析\n1. 访问Dageno AI 2.0官网，注册并登录账号。\n2. 在首页选择“竞争对手分析”功能，输入目标竞争对手的网站或关键词。\n3. 系统自动分析竞争对手的营销策略和用户反馈，生成分析报告。\n4. 根据报告内容，调整自己的营销策略，提升竞争力。\n5. 定期使用Dageno AI 2.0进行竞争对手分析，保持市场竞争力。",
+      "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dageno-ai-2-0",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "Databox CLI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "终端中的智能数据分析平台",
+      "tags": [
+        "数据分析",
+        "终端工具",
+        "数据可视化"
+      ],
+      "scenarios": [
+        "数据分析任务自动化",
+        "数据监控",
+        "终端数据分析"
+      ],
+      "tutorial": "## Databox CLI 使用教程\n\n### 1. 安装 Databox CLI\n\n首先，您需要安装 Databox CLI。在终端中运行以下命令进行安装：\n\n```bash\nnpm install -g databox-cli\n```\n\n### 2. 配置数据源\n\n安装完成后，您需要配置数据源。在终端中运行以下命令：\n\n```bash\ndbx source add\n```\n按照提示输入数据源的相关信息。\n\n### 3. 运行数据分析\n\n配置好数据源后，您可以使用以下命令运行数据分析：\n\n```bash\ndbx query run\n```\n您将看到数据分析的结果在终端中实时输出。\n\n### 4. 保存和分析结果\n\n如果需要保存分析结果，可以使用以下命令：\n\n```bash\ndbx query save\n```\n然后，您可以使用 Databox CLI 的其他命令对保存的结果进行分析和可视化。",
+      "url": "https://www.producthunt.com/products/databox",
+      "status": "dead",
+      "is_violation": false,
+      "id": "databox-cli",
+      "added": "2026-11-10"
+    },
+    {
+      "name": "Voyager",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能文件浏览器，导航工作环境",
+      "tags": [
+        "文件管理",
+        "工作流",
+        "自动化"
+      ],
+      "scenarios": [
+        "文件搜索",
+        "工作流程管理",
+        "团队协作"
+      ],
+      "tutorial": "## Voyager 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [Voyager 官网](https://www.producthunt.com/products/vygr) 下载安装包。\n2. 按照提示完成安装。\n3. 启动 Voyager 并配置您的文件路径。\n\n### 2. 文件浏览\n\n1. 在左侧导航栏选择您想要浏览的文件目录。\n2. 使用搜索框快速查找文件。\n3. 双击文件进行打开或编辑。\n\n### 3. 工作流自动化\n\n1. 使用拖拽功能创建新的工作流。\n2. 将文件操作步骤添加到工作流中，如复制、移动、重命名等。\n3. 保存并运行工作流，自动化您的文件管理任务。\n\n### 4. 团队协作\n\n1. 邀请团队成员加入 Voyager。\n2. 共享文件目录和工作流。\n3. 观察团队成员的文件操作和自动化工作流。",
+      "url": "https://www.producthunt.com/products/vygr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "voyager",
+      "added": "2026-11-10"
     }
   ],
   "changelog": [
@@ -19772,6 +20019,24 @@
         "AXL",
         "NoMac",
         "Agent Clan"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-10",
+      "added": [
+        "gbrain",
+        "daily_stock_analysis",
+        "ha-mcp",
+        "sofia-ai",
+        "gaia-agent-final",
+        "alfred-agents-course",
+        "starpath-ai",
+        "Watchflows",
+        "Dageno AI 2.0",
+        "Databox CLI",
+        "Voyager"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
