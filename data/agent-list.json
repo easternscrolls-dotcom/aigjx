@@ -18994,6 +18994,162 @@
       "is_violation": false,
       "id": "co-review",
       "added": "2026-11-11"
+    },
+    {
+      "name": "gemini-research-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页Agent，自动操作网页。",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化测试",
+        "信息提取"
+      ],
+      "tutorial": "## Gemini Research Agent 使用教程\n\n### 1. 安装与配置\n1. 下载并安装 Gemini Research Agent。\n2. 配置浏览器扩展，允许自动化操作。\n3. 在浏览器中打开目标网页。\n\n### 2. 编写自动化脚本\n1. 打开 Gemini Research Agent 的脚本编辑器。\n2. 使用内置的网页操作API编写脚本。\n3. 保存并运行脚本。\n\n### 3. 脚本调试\n1. 观察脚本执行结果。\n2. 根据需要调整脚本参数或逻辑。\n3. 重复测试直到脚本满足需求。",
+      "url": "https://huggingface.co/spaces/pingminus/gemini-research-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "gemini-research-agent",
+      "added": "2026-11-12"
+    },
+    {
+      "name": "Skillbox",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI技能库，同步至每个Agent",
+      "tags": [
+        "AI技能",
+        "同步",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Skillbox 使用教程\n\n### 1. 安装Skillbox\n\n1. 访问Skillbox官网下载安装包。\n2. 按照提示完成安装。\n3. 打开浏览器，在扩展程序管理中启用Skillbox。\n\n### 2. 创建技能\n\n1. 在Skillbox中点击创建新技能。\n2. 选择技能类型，如数据采集、网页操作等。\n3. 设置技能参数，如目标网页、数据字段等。\n\n### 3. 同步技能\n\n1. 点击同步按钮，将技能同步至所有Agent。\n2. 观察同步状态，确保所有Agent都成功接收技能。\n\n### 4. 监控技能运行\n\n1. 在Skillbox中查看技能运行状态。\n2. 查看日志，了解技能运行详情。\n3. 如有异常，可进行调试和优化。",
+      "url": "https://www.producthunt.com/products/skillbox-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "skillbox",
+      "added": "2026-11-12"
+    },
+    {
+      "name": "Stiro",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "SaaS 用户入门与成功管理助手",
+      "tags": [
+        "AI",
+        "SaaS",
+        "客户成功",
+        "用户入门"
+      ],
+      "scenarios": [
+        "SaaS 产品运营",
+        "客户关系管理",
+        "用户增长"
+      ],
+      "tutorial": "## Stiro 使用教程\n\n1. 注册并登录\n   - 访问 Stiro 官网，注册账号并登录。\n\n2. 创建项目\n   - 在控制台创建一个新的项目，选择相应的 SaaS 产品。\n\n3. 配置AI助手\n   - 设置AI助手的语言、风格和知识库，以便更好地服务用户。\n\n4. 集成到SaaS产品\n   - 将Stiro集成到您的SaaS产品中，通过API或插件实现。\n\n5. 监控与优化\n   - 监控AI助手的表现，根据用户反馈进行优化。",
+      "url": "https://www.producthunt.com/products/stiro",
+      "status": "dead",
+      "is_violation": false,
+      "id": "stiro",
+      "added": "2026-11-12"
+    },
+    {
+      "name": "Relay",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理文档交互平台，实现文档的发送与接收",
+      "tags": [
+        "文档交互",
+        "AI 代理",
+        "知识共享"
+      ],
+      "scenarios": [
+        "企业内部文档共享",
+        "远程协作",
+        "知识管理"
+      ],
+      "tutorial": "## Relay 使用教程\n\n1. 注册并登录\n\n   访问 Relay 官网，注册账户并登录。\n\n2. 创建文档\n\n   在 Relay 中创建一个新的文档，并添加所需内容。\n\n3. 发送文档\n\n   选择文档，点击发送按钮，选择接收者并添加上下文信息。\n\n4. 接收文档\n\n   在 Relay 中接收文档，查看并回复。\n\n5. 文档管理\n\n   在个人文档库中管理所有发送和接收的文档。",
+      "url": "https://www.producthunt.com/products/relaytoai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "relay",
+      "added": "2026-11-12"
+    },
+    {
+      "name": "CALL-E",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI电话代理电话线，自动处理电话交互",
+      "tags": [
+        "AI电话",
+        "自动交互",
+        "客服",
+        "自动化"
+      ],
+      "scenarios": [
+        "客户服务",
+        "电话营销",
+        "业务流程自动化"
+      ],
+      "tutorial": "## 使用CALL-E进行电话交互\n\n1. 注册并登录CALL-E平台\n\n2. 创建一个新的电话代理项目，配置电话号码和交互流程\n\n3. 设计交互流程，包括语音识别、语音合成、条件分支等\n\n4. 测试电话代理，确保其能够正确处理电话交互\n\n5. 部署电话代理，开始自动处理电话交互",
+      "url": "https://www.producthunt.com/products/call-e",
+      "status": "dead",
+      "is_violation": false,
+      "id": "call-e",
+      "added": "2026-11-12"
+    },
+    {
+      "name": "Nod by n8n",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源个人网页Agent，拥有独立计算机",
+      "tags": [
+        "网页自动化",
+        "RPA",
+        "开源"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "自动化测试"
+      ],
+      "tutorial": "## Nod by n8n 使用教程\n\n### 1. 安装Nod by n8n\n\n- 访问Nod by n8n官网下载安装包。\n- 根据操作系统选择合适的安装方式，如Docker、Windows安装包等。\n\n### 2. 配置Nod by n8n\n\n- 运行Nod by n8n后，按照提示完成初始配置。\n- 配置网络连接，确保Nod by n8n可以访问互联网。\n\n### 3. 创建工作流程\n\n- 在Nod by n8n中，点击创建新的工作流程。\n- 选择需要自动化的网页或应用，配置相应的操作步骤。\n\n### 4. 运行和监控\n\n- 运行创建的工作流程，Nod by n8n将自动执行操作。\n- 监控工作流程的运行状态，确保自动化任务按预期执行。",
+      "url": "https://www.producthunt.com/products/n8n-io",
+      "status": "dead",
+      "is_violation": false,
+      "id": "nod-by-n8n",
+      "added": "2026-11-12"
+    },
+    {
+      "name": "Mitra MCP",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为AI代理提供个人电话线接入",
+      "tags": [
+        "AI代理",
+        "电话接入",
+        "自动化"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "电话营销",
+        "客户服务"
+      ],
+      "tutorial": "## Mitra MCP 使用教程\n\n### 1. 注册与登录\n\n1. 访问Mitra MCP官网，注册账户并登录。\n2. 在个人账户中配置电话线路和权限。\n\n### 2. 创建AI代理\n\n1. 在MCP控制台中创建新的AI代理。\n2. 配置代理的语音识别和语音合成功能。\n\n### 3. 配置电话线路\n\n1. 将个人电话线路与AI代理关联。\n2. 设置电话线路的接听规则和自动回复。\n\n### 4. 测试与部署\n\n1. 进行电话线路和AI代理的测试。\n2. 确保一切运行正常后，部署AI代理到生产环境。",
+      "url": "https://www.producthunt.com/products/mitra-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mitra-mcp",
+      "added": "2026-11-12"
     }
   ],
   "changelog": [
@@ -20486,6 +20642,20 @@
         "HitPay Agentic Discovery",
         "Willder",
         "Co-Review"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-12",
+      "added": [
+        "gemini-research-agent",
+        "Skillbox",
+        "Stiro",
+        "Relay",
+        "CALL-E",
+        "Nod by n8n",
+        "Mitra MCP"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

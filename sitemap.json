@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:43:58.420Z",
+  "generatedAt": "2026-11-11T23:52:38.437Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4291,6 +4291,41 @@
       "url": "https://aiagent.72tool.com/tools/co-review.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gemini-research-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/skillbox.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/stiro.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/relay.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/call-e.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nod-by-n8n.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mitra-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4321,7 +4356,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 851,
+    "totalAgents": 858,
     "byCategory": [
       {
         "id": "local",
@@ -4331,12 +4366,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 712
+        "count": 718
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 72
+        "count": 73
       },
       {
         "id": "crossborder",
@@ -4349,6 +4384,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 566
+    "deadLinks": 572
   }
 }
