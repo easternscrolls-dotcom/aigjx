@@ -19150,6 +19150,385 @@
       "is_violation": false,
       "id": "mitra-mcp",
       "added": "2026-11-12"
+    },
+    {
+      "name": "modern-web-guidance-src",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "保持编码代理与最新网页最佳实践同步",
+      "tags": [
+        "前端开发",
+        "最佳实践",
+        "代码规范"
+      ],
+      "scenarios": [
+        "前端开发规范检查",
+        "代码审查",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 Modern-Web-Guidance-Src 教程\n\n1. 下载与安装\n   - 访问 [GitHub](https://github.com/your-repo/modern-web-guidance-src) 下载项目源码。\n   - 在本地环境中安装 Node.js 和 npm。\n   - 运行 `npm install` 安装依赖。\n\n2. 运行工具\n   - 在项目根目录下运行 `node index.js` 启动工具。\n   - 工具将自动分析当前项目中的代码，并提供最佳实践建议。\n\n3. 查看报告\n   - 工具运行完成后，会在控制台输出分析报告。\n   - 报告中包含不符合最佳实践的代码片段和建议的改进方法。\n\n4. 代码改进\n   - 根据报告中的建议，对代码进行相应的改进。\n   - 重复步骤 2 和 3，直到所有代码都符合最佳实践。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "status": "active",
+      "is_violation": false,
+      "id": "modern-web-guidance-src",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "qwen-code",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "终端内AI编码助手，自动代码生成",
+      "tags": [
+        "AI编码",
+        "代码生成",
+        "终端工具",
+        "开源"
+      ],
+      "scenarios": [
+        "代码开发",
+        "编程辅助",
+        "自动化编码"
+      ],
+      "tutorial": "## 使用Qwen-Code进行代码生成\n1. 打开终端并运行 `qwen-code` 命令启动工具。\n2. 输入你需要的编程语言和代码类型，例如 `python function`。\n3. 工具将自动生成相应的代码框架。\n4. 根据需要修改和扩展生成的代码。\n5. 保存并使用生成的代码。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "status": "active",
+      "is_violation": false,
+      "id": "qwen-code",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "agent-farm",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于浏览器的网页自动化工具",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## agent-farm 使用教程\n\n### 1. 安装与启动\n\n1. 下载并安装 agent-farm。\n2. 运行 agent-farm 应用程序。\n3. 打开一个新的浏览器窗口。\n\n### 2. 创建任务\n\n1. 在 agent-farm 中创建一个新的任务。\n2. 选择要自动化的网页元素。\n3. 设置操作步骤，如点击、输入等。\n\n### 3. 运行与监控\n\n1. 运行创建的任务。\n2. 监控任务执行过程，确保自动化流程正确。\n3. 保存并重复使用任务。",
+      "url": "https://huggingface.co/spaces/bring-back-clippy/agent-farm",
+      "status": "active",
+      "is_violation": false,
+      "id": "agent-farm",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Plurai Simulation",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "模拟世界，提升智能体运行效率",
+      "tags": [
+        "模拟",
+        "智能体",
+        "效率提升"
+      ],
+      "scenarios": [
+        "智能体训练",
+        "模拟测试"
+      ],
+      "tutorial": "## Plurai Simulation 使用教程\n\n1. 下载并安装 Plurai Simulation 软件。\n2. 创建一个新的模拟项目，设置模拟环境和智能体参数。\n3. 上传你的智能体模型到模拟环境中。\n4. 运行模拟，观察智能体的行为和性能。\n5. 根据模拟结果调整智能体参数或模型，重复步骤3-4，直到达到满意的效果。",
+      "url": "https://www.producthunt.com/products/plurai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "plurai-simulation",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Spacefast by Automattic",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为AI代理提供构建、运行和部署的平台",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "云服务"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Spacefast by Automattic教程\n\n### 1. 注册与登录\n\n1. 访问Spacefast官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录到Spacefast平台。\n\n### 2. 创建新项目\n\n1. 登录后，点击左侧菜单栏的'创建项目'按钮。\n2. 输入项目名称，选择项目类型，点击'创建'。\n\n### 3. 配置代理\n\n1. 在项目页面，点击'添加代理'按钮。\n2. 选择代理类型，填写代理信息，点击'保存'。\n\n### 4. 运行代理\n\n1. 在代理配置完成后，点击'运行'按钮。\n2. 观察代理运行状态，确保一切正常。\n\n### 5. 查看结果\n\n1. 代理运行完成后，可以在项目页面查看运行结果。\n2. 如有需要，可以导出结果数据。",
+      "url": "https://www.producthunt.com/products/spacefast-by-automattic",
+      "status": "dead",
+      "is_violation": false,
+      "id": "spacefast-by-automattic",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Omnigraph",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源图数据库，为AI代理提供支持",
+      "tags": [
+        "图数据库",
+        "AI代理",
+        "开源"
+      ],
+      "scenarios": [
+        "数据存储",
+        "AI应用开发",
+        "网络爬虫"
+      ],
+      "tutorial": "## 使用Omnigraph进行图数据库操作\n1. 下载并安装Omnigraph\n2. 创建一个新的图数据库实例\n3. 使用图查询语言（如Gremlin）进行数据操作\n4. 添加节点和边来构建图结构\n5. 执行查询以检索数据",
+      "url": "https://www.producthunt.com/products/omnigraph",
+      "status": "dead",
+      "is_violation": false,
+      "id": "omnigraph",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Neura HQ",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为消费者品牌提供智能对话店面",
+      "tags": [
+        "对话界面",
+        "消费者品牌",
+        "智能客服"
+      ],
+      "scenarios": [
+        "电商平台客服",
+        "品牌客户服务",
+        "在线咨询"
+      ],
+      "tutorial": "## Neura HQ 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Neura HQ 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录系统。\n\n### 2. 创建对话界面\n\n1. 在控制台中，点击创建对话界面按钮。\n2. 选择合适的模板或自定义设计界面布局。\n3. 设置对话逻辑和回复内容。\n\n### 3. 集成到网站\n\n1. 获取提供的嵌入代码。\n2. 将代码复制到你的网站中相应的位置。\n3. 测试对话界面是否正常工作。\n\n### 4. 管理与优化\n\n1. 查看对话数据，分析用户交互。\n2. 根据数据优化对话逻辑和回复内容。\n3. 定期更新对话界面，保持用户体验。",
+      "url": "https://www.producthunt.com/products/neura-4",
+      "status": "dead",
+      "is_violation": false,
+      "id": "neura-hq",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Toki Matter",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能代理，提升事务效率",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "事务管理"
+      ],
+      "scenarios": [
+        "日常办公自动化",
+        "客户服务",
+        "数据采集"
+      ],
+      "tutorial": "## 使用Toki Matter进行事务管理\n\n1. 注册并登录Toki Matter平台。\n2. 创建一个新的任务，输入任务详情和目标。\n3. 选择合适的AI代理来执行任务，如邮件发送、数据收集等。\n4. 设置任务触发条件和执行时间。\n5. 监控任务进度，根据需要调整设置。\n6. 完成任务后，查看结果并进行后续处理。",
+      "url": "https://www.producthunt.com/products/toki-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "toki-matter",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Insight7 Voice AI Agents",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI语音客服，自动拨打电话与客户沟通",
+      "tags": [
+        "AI语音",
+        "客服",
+        "自动拨号",
+        "客户服务"
+      ],
+      "scenarios": [
+        "客户服务自动化",
+        "销售跟进",
+        "市场调研"
+      ],
+      "tutorial": "## 使用Insight7 Voice AI Agents教程\n\n1. 注册并登录\n\n   访问Insight7官网，注册账号并登录。\n\n2. 创建语音代理\n\n   在控制面板中，点击创建新的语音代理，填写相关信息并设置。\n\n3. 配置通话脚本\n\n   设计通话脚本，包括问候语、问题提问等。\n\n4. 测试与部署\n\n   在测试环境中测试语音代理的表现，确认无误后部署到生产环境。\n\n5. 监控与优化\n\n   持续监控语音代理的表现，根据反馈进行优化。",
+      "url": "https://www.producthunt.com/products/insight7",
+      "status": "dead",
+      "is_violation": false,
+      "id": "insight7-voice-ai-agents",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "three.dev",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理失败检测工具，提前发现潜在问题。",
+      "tags": [
+        "AI代理",
+        "失败检测",
+        "性能监控",
+        "用户体验"
+      ],
+      "scenarios": [
+        "AI代理开发",
+        "用户体验优化",
+        "产品测试"
+      ],
+      "tutorial": "## 三步上手 three.dev\n\n1. 1. 部署 three.dev\n   - 访问 three.dev 官网下载并安装。\n   - 按照提示完成安装过程。\n\n2. 2. 配置 AI 代理\n   - 在 three.dev 中配置你的 AI 代理。\n   - 设置代理的运行环境和参数。\n\n3. 3. 运行测试\n   - 启动 three.dev 进行测试。\n   - 观察测试结果，分析 AI 代理的失败原因。",
+      "url": "https://www.producthunt.com/products/three-dev",
+      "status": "dead",
+      "is_violation": false,
+      "id": "three-dev",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Sluice",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "Mac上多代理同时运行的构建空间",
+      "tags": [
+        "Mac",
+        "代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "自动化任务"
+      ],
+      "tutorial": "## Sluice 使用教程\n\n### 1. 注册与登录\n\n1. 访问Sluice官网，注册账号并登录。\n2. 选择合适的订阅计划。\n\n### 2. 创建代理\n\n1. 在Sluice控制台中，点击创建新的代理。\n2. 设置代理名称和配置参数。\n3. 点击创建，等待代理启动。\n\n### 3. 运行任务\n\n1. 在Sluice中创建或导入任务。\n2. 选择要运行的代理。\n3. 点击运行，监控任务执行情况。\n\n### 4. 查看报告\n\n1. 任务完成后，查看任务报告。\n2. 分析报告结果，优化任务设置。",
+      "url": "https://www.producthunt.com/products/sluice-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "sluice",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "CanyonOS",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式平台，助力扩展您的智能应用",
+      "tags": [
+        "智能应用",
+        "平台",
+        "扩展"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## CanyonOS 使用教程\n\n### 1. 安装与启动\n\n1. 访问CanyonOS官网下载最新版本。\n2. 根据系统提示完成安装。\n3. 启动CanyonOS，准备开始配置。\n\n### 2. 创建新项目\n\n1. 在主界面点击创建新项目。\n2. 输入项目名称，选择项目类型。\n3. 点击创建，进入项目配置界面。\n\n### 3. 配置任务\n\n1. 在项目配置界面，选择需要自动化的任务类型。\n2. 根据任务需求，配置相关参数和设置。\n3. 保存配置，预览任务执行效果。\n\n### 4. 运行与监控\n\n1. 点击运行按钮，开始执行自动化任务。\n2. 在监控界面查看任务执行状态和日志。\n3. 如有异常，及时调整配置。",
+      "url": "https://www.producthunt.com/products/canyon-code",
+      "status": "dead",
+      "is_violation": false,
+      "id": "canyonos",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Customer.io Fall Release",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "通过智能实验实现更精准的营销",
+      "tags": [
+        "营销自动化",
+        "用户行为分析",
+        "个性化推荐"
+      ],
+      "scenarios": [
+        "电商营销",
+        "用户留存",
+        "客户关系管理"
+      ],
+      "tutorial": "## 使用Customer.io Fall Release进行智能营销\n\n1. 注册并登录Customer.io平台\n\n2. 创建一个新的营销活动，选择目标受众和营销渠道\n\n3. 设计个性化的营销邮件或推送通知\n\n4. 使用Agent-recommended experiments功能，根据用户行为推荐实验方案\n\n5. 设置实验参数，如实验组、控制组、实验时间等\n\n6. 启动实验，并监控实验结果\n\n7. 根据实验结果调整营销策略",
+      "url": "https://www.producthunt.com/products/customer-io",
+      "status": "dead",
+      "is_violation": false,
+      "id": "customer-io-fall-release",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Crossfade",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "在 Figma 中设计，让编码代理实现。",
+      "tags": [
+        "Figma",
+        "设计协作",
+        "代码生成",
+        "自动化"
+      ],
+      "scenarios": [
+        "UI/UX 设计",
+        "前端开发",
+        "团队协作"
+      ],
+      "tutorial": "## 使用 Crossfade 进行设计到代码的转换\n1. 打开 Figma 文件并设计你的界面。\n2. 在 Crossfade 中导入你的 Figma 文件。\n3. 选择你想要转换的组件或页面。\n4. 点击转换按钮，Crossfade 将自动生成对应的代码。\n5. 检查生成的代码，并根据需要进行调整。",
+      "url": "https://www.producthunt.com/products/crossfade",
+      "status": "dead",
+      "is_violation": false,
+      "id": "crossfade",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Gnista",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "运行更多编码代理，无需手动监控",
+      "tags": [
+        "自动化",
+        "代码代理",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "开发辅助"
+      ],
+      "tutorial": "## 使用Gnista进行自动化代码审查\n\n1. 安装Gnista浏览器扩展\n\n   访问Gnista官网下载并安装浏览器扩展。\n2. 配置代理规则\n\n   在Gnista扩展中配置你想要自动化的代码审查规则。\n3. 运行代理\n\n   启动Gnista代理，它会自动运行并监控你的代码更改。\n4. 查看结果\n\n   代理运行后，你可以在Gnista扩展中查看审查结果和建议。",
+      "url": "https://www.producthunt.com/products/gnista",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gnista",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Oxagen",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代理共享与维护上下文",
+      "tags": [
+        "代理",
+        "上下文管理",
+        "共享",
+        "浏览器扩展"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据同步",
+        "团队协作"
+      ],
+      "tutorial": "## Oxagen 使用教程\n\n### 1. 安装 Oxagen\n\n1. 访问 Oxagen 官网下载并安装 Oxagen 扩展。\n2. 打开浏览器，进入 Oxagen 扩展页面，点击安装。\n\n### 2. 创建代理\n\n1. 在 Oxagen 扩展页面，点击 '创建代理' 按钮。\n2. 输入代理名称和描述，设置上下文共享选项。\n3. 点击 '创建' 按钮。\n\n### 3. 分享上下文\n\n1. 在需要共享上下文的页面，点击 Oxagen 扩展图标。\n2. 选择要共享的代理，点击 '共享上下文' 按钮。\n3. 其他团队成员可以接收并查看共享的上下文。\n\n### 4. 维护上下文\n\n1. 在 Oxagen 扩展页面，点击 '代理管理'。\n2. 选择对应的代理，点击 '编辑' 按钮。\n3. 更新代理设置或上下文信息。",
+      "url": "https://www.producthunt.com/products/oxagen",
+      "status": "dead",
+      "is_violation": false,
+      "id": "oxagen",
+      "added": "2026-11-13"
+    },
+    {
+      "name": "Offstage Cloud",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端 macOS 沙盒，AI 代理按需服务",
+      "tags": [
+        "沙盒",
+        "AI",
+        "云端",
+        "macOS"
+      ],
+      "scenarios": [
+        "AI 代理开发",
+        "浏览器自动化",
+        "安全测试"
+      ],
+      "tutorial": "## Offstage Cloud 使用教程\n\n1. 注册并登录 Offstage Cloud\n\n   访问 Offstage Cloud 官网，注册账户并登录。\n\n2. 创建新沙盒\n\n   在控制台中，点击创建新沙盒，选择所需的 macOS 版本和环境配置。\n\n3. 部署 AI 代理\n\n   将你的 AI 代理代码上传到沙盒中，并配置相应的环境变量。\n\n4. 运行测试\n\n   在沙盒中运行你的 AI 代理，进行测试和调试。\n\n5. 保存和分享\n\n   测试通过后，保存沙盒状态，并分享给团队成员或客户。",
+      "url": "https://www.producthunt.com/products/offstage-cloud",
+      "status": "dead",
+      "is_violation": false,
+      "id": "offstage-cloud",
+      "added": "2026-11-13"
     }
   ],
   "changelog": [
@@ -20656,6 +21035,30 @@
         "CALL-E",
         "Nod by n8n",
         "Mitra MCP"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-13",
+      "added": [
+        "modern-web-guidance-src",
+        "qwen-code",
+        "agent-farm",
+        "Plurai Simulation",
+        "Spacefast by Automattic",
+        "Omnigraph",
+        "Neura HQ",
+        "Toki Matter",
+        "Insight7 Voice AI Agents",
+        "three.dev",
+        "Sluice",
+        "CanyonOS",
+        "Customer.io Fall Release",
+        "Crossfade",
+        "Gnista",
+        "Oxagen",
+        "Offstage Cloud"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

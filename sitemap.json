@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T23:52:38.437Z",
+  "generatedAt": "2026-11-12T23:01:30.194Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4326,6 +4326,91 @@
       "url": "https://aiagent.72tool.com/tools/mitra-mcp.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/modern-web-guidance-src.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qwen-code.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agent-farm.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/plurai-simulation.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/spacefast-by-automattic.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/omnigraph.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/neura-hq.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/toki-matter.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/insight7-voice-ai-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/three-dev.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/sluice.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/canyonos.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/customer-io-fall-release.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/crossfade.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gnista.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/oxagen.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/offstage-cloud.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4356,7 +4441,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 858,
+    "totalAgents": 875,
     "byCategory": [
       {
         "id": "local",
@@ -4366,7 +4451,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 718
+        "count": 735
       },
       {
         "id": "workflow",
@@ -4384,6 +4469,6 @@
         "count": 20
       }
     ],
-    "deadLinks": 572
+    "deadLinks": 586
   }
 }
