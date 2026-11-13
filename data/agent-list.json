@@ -19529,6 +19529,161 @@
       "is_violation": false,
       "id": "offstage-cloud",
       "added": "2026-11-13"
+    },
+    {
+      "name": "plannotator",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "一站式管理代理工作空间，高效协作与反馈",
+      "tags": [
+        "项目管理",
+        "团队协作",
+        "代码审查"
+      ],
+      "scenarios": [
+        "团队代码审查",
+        "项目管理协作",
+        "自动化反馈"
+      ],
+      "tutorial": "## 使用 Plannotator 教程\n\n### 1. 创建项目\n1. 登录 Plannotator 平台。\n2. 点击 '创建新项目'，填写项目信息。\n3. 选择项目模板或自定义设置。\n\n### 2. 添加团队成员\n1. 在项目设置中，点击 '添加成员'。\n2. 输入团队成员的邮箱地址，邀请他们加入项目。\n3. 等待成员接受邀请。\n\n### 3. 上传代码\n1. 在项目页面，点击 '上传代码'。\n2. 选择本地代码文件或直接粘贴代码。\n3. 等待代码上传完成。\n\n### 4. 代码审查\n1. 在代码列表中，选择需要审查的代码。\n2. 点击 '开始审查'。\n3. 在审查区域进行标注和评论。\n\n### 5. 分享与反馈\n1. 完成审查后，点击 '分享'。\n2. 选择分享方式，如邮件或链接。\n3. 将反馈发送给团队成员或代理。",
+      "url": "https://github.com/backnotprop/plannotator",
+      "status": "active",
+      "is_violation": false,
+      "id": "plannotator",
+      "added": "2026-11-14"
+    },
+    {
+      "name": "automation",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化网页操作，无需代码",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化测试",
+        "表单填写"
+      ],
+      "tutorial": "## 使用 Automation 进行网页自动化操作\n1. 下载并安装 Automation。\n2. 打开 Automation，选择目标网页。\n3. 使用拖拽方式录制操作步骤。\n4. 保存并运行自动化脚本。\n5. 观察自动化操作结果。",
+      "url": "https://huggingface.co/spaces/neomkit/automation",
+      "status": "active",
+      "is_violation": false,
+      "id": "automation",
+      "added": "2026-11-14"
+    },
+    {
+      "name": "qorqbot",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "企业工作主动式代理",
+      "tags": [
+        "自动化",
+        "工作流",
+        "业务流程"
+      ],
+      "scenarios": [
+        "企业内部自动化",
+        "客户服务",
+        "数据采集"
+      ],
+      "tutorial": "## Qorqbot 使用教程\n\n### 1. 安装 Qorqbot\n\n- 访问 [Qorqbot 官网](https://www.qorqbot.com) 下载最新版本。\n- 解压下载的文件包。\n- 运行安装程序，按照提示完成安装。\n\n### 2. 创建工作流\n\n- 打开 Qorqbot 软件。\n- 在左侧菜单中选择“工作流”选项卡。\n- 点击“新建工作流”按钮，选择工作流类型。\n- 拖拽组件到画布上，配置组件参数。\n\n### 3. 运行工作流\n\n- 点击工作流画布上的“运行”按钮。\n- 观察工作流运行状态，确保流程正确执行。\n- 如果需要，可以暂停或停止工作流。\n\n### 4. 监控与维护\n\n- 定期检查工作流运行日志，确保系统稳定。\n- 根据业务需求调整工作流配置。\n- 及时更新 Qorqbot 软件到最新版本。",
+      "url": "https://www.producthunt.com/products/qorqbot",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qorqbot",
+      "added": "2026-11-14"
+    },
+    {
+      "name": "Filament by Galaxy",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "终端或Agent快速移动数据，开源工具",
+      "tags": [
+        "数据迁移",
+        "终端工具",
+        "开源"
+      ],
+      "scenarios": [
+        "数据同步",
+        "自动化操作",
+        "跨平台数据传输"
+      ],
+      "tutorial": "## Filament by Galaxy 使用教程\n\n1. 安装 Filament\n\n   - 使用包管理器安装 Filament，例如在 Ubuntu 上使用 apt-get 安装。\n\n2. 配置连接\n\n   - 使用 Filament 的配置文件设置数据源和目标位置。\n\n3. 运行迁移\n\n   - 通过命令行运行迁移任务，监控进度。\n\n4. 验证结果\n\n   - 检查数据是否已成功迁移到目标位置。",
+      "url": "https://www.producthunt.com/products/galaxy",
+      "status": "dead",
+      "is_violation": false,
+      "id": "filament-by-galaxy",
+      "added": "2026-11-14"
+    },
+    {
+      "name": "Expo Simulators",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "专为代理构建的云模拟器",
+      "tags": [
+        "模拟器",
+        "代理",
+        "云服务"
+      ],
+      "scenarios": [
+        "代理服务测试",
+        "云服务开发",
+        "产品演示"
+      ],
+      "tutorial": "## 使用 Expo Simulators 进行模拟\n\n1. 访问 [Expo Simulators](https://www.producthunt.com/products/expo)\n2. 注册账号并登录\n3. 选择或创建一个新的模拟环境\n4. 配置模拟参数和设置\n5. 启动模拟器并开始测试\n\n## 高级功能\n1. 导入自定义数据\n2. 配置网络模拟\n3. 监控模拟过程\n4. 导出测试结果",
+      "url": "https://www.producthunt.com/products/expo",
+      "status": "dead",
+      "is_violation": false,
+      "id": "expo-simulators",
+      "added": "2026-11-14"
+    },
+    {
+      "name": "Gemini 4 Hydrogen",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速为开发者构建网页代理",
+      "tags": [
+        "自动化",
+        "代理",
+        "开发"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Gemini 4 Hydrogen 使用教程\n\n### 1. 安装与启动\n\n1. 下载 Gemini 4 Hydrogen 安装包。\n2. 解压安装包并运行 Gemini 4 Hydrogen。\n3. 等待程序启动完成。\n\n### 2. 创建新代理\n\n1. 在主界面点击 '创建新代理'。\n2. 输入代理名称并选择代理类型。\n3. 点击 '创建'。\n\n### 3. 配置代理\n\n1. 在代理详情页面，配置代理参数，如 URL、请求头等。\n2. 点击 '保存'。\n\n### 4. 运行代理\n\n1. 在代理列表中找到刚才创建的代理。\n2. 点击 '运行'。\n3. 观察代理运行状态。\n\n### 5. 查看结果\n\n1. 在代理详情页面，查看代理运行日志。\n2. 分析代理运行结果。",
+      "url": "https://www.producthunt.com/products/gemini-6",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gemini-4-hydrogen",
+      "added": "2026-11-14"
+    },
+    {
+      "name": "Aven App Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 引导用户使用应用",
+      "tags": [
+        "AI引导",
+        "应用导航",
+        "用户体验"
+      ],
+      "scenarios": [
+        "移动应用优化",
+        "用户行为分析",
+        "应用教程"
+      ],
+      "tutorial": "## 安装与配置\n1. 访问 [Aven App Agent 官网](https://www.producthunt.com/products/aven-app-agent) 下载最新版本。\n2. 安装并启动应用，按照提示完成初始设置。\n3. 选择你想要引导的用户操作，设置相应的AI引导步骤。\n\n## 创建引导流程\n1. 在编辑器中，拖拽不同的操作节点到工作区。\n2. 设置每个节点的具体操作，如点击、滑动等。\n3. 调整节点顺序，创建完整的引导流程。\n\n## 预览与发布\n1. 点击预览按钮，检查引导流程是否流畅。\n2. 满意后，发布到你的应用中，让用户体验AI引导。\n\n## 持续优化\n1. 收集用户反馈，优化引导流程。\n2. 定期更新AI模型，提升引导效果。",
+      "url": "https://www.producthunt.com/products/aven-app-agent",
+      "status": "dead",
+      "is_violation": false,
+      "id": "aven-app-agent",
+      "added": "2026-11-14"
     }
   ],
   "changelog": [
@@ -21059,6 +21214,20 @@
         "Gnista",
         "Oxagen",
         "Offstage Cloud"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-14",
+      "added": [
+        "plannotator",
+        "automation",
+        "qorqbot",
+        "Filament by Galaxy",
+        "Expo Simulators",
+        "Gemini 4 Hydrogen",
+        "Aven App Agent"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

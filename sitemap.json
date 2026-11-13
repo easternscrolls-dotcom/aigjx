@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T23:01:30.194Z",
+  "generatedAt": "2026-11-13T23:02:20.406Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4411,6 +4411,41 @@
       "url": "https://aiagent.72tool.com/tools/offstage-cloud.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/plannotator.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/automation.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qorqbot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/filament-by-galaxy.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/expo-simulators.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gemini-4-hydrogen.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/aven-app-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4441,7 +4476,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 875,
+    "totalAgents": 882,
     "byCategory": [
       {
         "id": "local",
@@ -4451,7 +4486,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 735
+        "count": 741
       },
       {
         "id": "workflow",
@@ -4466,9 +4501,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 20
+        "count": 21
       }
     ],
-    "deadLinks": 586
+    "deadLinks": 591
   }
 }
