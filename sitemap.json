@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T23:02:20.406Z",
+  "generatedAt": "2026-11-14T21:50:14.979Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4446,6 +4446,41 @@
       "url": "https://aiagent.72tool.com/tools/aven-app-agent.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ag-ui.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/loopforge.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gaia-agents-final.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/antelog.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hiringnow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kokonut-ui.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dex-semantics.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4476,7 +4511,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 882,
+    "totalAgents": 889,
     "byCategory": [
       {
         "id": "local",
@@ -4486,12 +4521,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 741
+        "count": 747
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 73
+        "count": 74
       },
       {
         "id": "crossborder",
@@ -4504,6 +4539,6 @@
         "count": 21
       }
     ],
-    "deadLinks": 591
+    "deadLinks": 595
   }
 }

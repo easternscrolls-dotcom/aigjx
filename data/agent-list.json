@@ -19684,6 +19684,160 @@
       "is_violation": false,
       "id": "aven-app-agent",
       "added": "2026-11-14"
+    },
+    {
+      "name": "ag-ui",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将智能代理引入前端应用，实现人机交互。",
+      "tags": [
+        "前端交互",
+        "智能代理",
+        "协议"
+      ],
+      "scenarios": [
+        "Web应用开发",
+        "用户界面设计",
+        "人机交互"
+      ],
+      "tutorial": "## AG-UI 使用教程\n\n### 1. 安装AG-UI\n\n首先，从AG-UI的GitHub仓库克隆或下载源代码。\n\n1. 打开终端。\n2. 输入 `git clone https://github.com/your-username/ag-ui.git` 并回车。\n3. 进入克隆的目录 `cd ag-ui`。\n\n### 2. 配置项目\n\n根据你的项目需求，配置AG-UI的参数和插件。\n\n1. 编辑 `config.json` 文件。\n2. 设置代理的URL、端口等信息。\n3. 选择合适的插件以扩展功能。\n\n### 3. 集成到前端应用\n\n将AG-UI的代码集成到你的前端项目中。\n\n1. 在你的HTML文件中引入AG-UI的JavaScript库。\n2. 初始化AG-UI实例。\n3. 使用AG-UI提供的API与代理进行交互。\n\n### 4. 测试与部署\n\n在本地或服务器上测试你的应用，确保AG-UI与人机交互功能正常。\n\n1. 在浏览器中打开你的应用。\n2. 检查交互功能是否按预期工作。\n3. 部署到生产环境。",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "status": "active",
+      "is_violation": false,
+      "id": "ag-ui",
+      "added": "2026-11-15"
+    },
+    {
+      "name": "LoopForge",
+      "category": "workflow",
+      "type": "local-offline",
+      "summary": "本地部署的代码代理工作流编排工具",
+      "tags": [
+        "工作流",
+        "代码代理",
+        "本地部署"
+      ],
+      "scenarios": [
+        "代码助手集成",
+        "自动化开发流程",
+        "本地工作流管理"
+      ],
+      "tutorial": "## LoopForge 使用教程\n\n### 1. 安装 LoopForge\n从 [LoopForge 官网](https://loopforge.io) 下载并安装 LoopForge 软件。\n\n### 2. 创建新工作流\n打开 LoopForge，点击 '创建新工作流'，选择合适的模板或从零开始。\n\n### 3. 添加代码代理\n在编辑器中，拖放 CodeBuddy, Codex 或 Claude Code 组件到工作流中。\n\n### 4. 编写脚本\n为每个代码代理编写脚本，以定义其行为和逻辑。\n\n### 5. 设置人工审批门\n在关键步骤添加人工审批门，确保代码变更经过审核。\n\n### 6. 运行工作流\n保存并运行工作流，监控其执行状态。",
+      "url": "https://github.com/Tencent/LoopForge",
+      "status": "active",
+      "is_violation": false,
+      "id": "loopforge",
+      "added": "2026-11-15"
+    },
+    {
+      "name": "gaia-agents-final",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于Hugging Face的浏览器网页自动化工具",
+      "tags": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "网页测试"
+      ],
+      "tutorial": "## 使用gaia-agents-final进行网页自动化\n\n### 1. 安装与配置\n\n1. 下载并安装Hugging Face的Gaia Agents库。\n2. 配置浏览器插件，确保Gaia Agents可以与浏览器交互。\n\n### 2. 创建自动化任务\n\n1. 打开Gaia Agents界面，创建一个新的任务。\n2. 选择目标网页，并设置自动化流程的起始点和结束点。\n\n### 3. 编写自动化脚本\n\n1. 使用Gaia Agents提供的API编写自动化脚本。\n2. 脚本可以包括点击、填写表单、读取数据等操作。\n\n### 4. 运行与测试\n\n1. 运行自动化任务，观察执行结果。\n2. 根据需要调整脚本，确保自动化流程正确无误。",
+      "url": "https://huggingface.co/spaces/mehmetfatihdogan/gaia-agents-final",
+      "status": "active",
+      "is_violation": false,
+      "id": "gaia-agents-final",
+      "added": "2026-11-15"
+    },
+    {
+      "name": "Antelog",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "防止AI编码代理泄露或破坏数据",
+      "tags": [
+        "AI安全",
+        "数据保护",
+        "编码代理"
+      ],
+      "scenarios": [
+        "AI编码安全",
+        "数据泄露防护",
+        "代码审查"
+      ],
+      "tutorial": "## 使用Antelog进行数据保护\n1. 注册并登录Antelog平台。\n2. 创建一个新的项目，并配置相关的数据保护规则。\n3. 将AI编码代理集成到项目中，确保所有操作都在规则范围内。\n4. 监控AI编码代理的运行状态，及时发现问题并采取措施。\n5. 定期更新数据保护规则，以适应新的安全需求。",
+      "url": "https://www.producthunt.com/products/antelog",
+      "status": "dead",
+      "is_violation": false,
+      "id": "antelog",
+      "added": "2026-11-15"
+    },
+    {
+      "name": "HiringNow",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI招聘代理，提前寻找并申请工作。",
+      "tags": [
+        "AI",
+        "招聘",
+        "自动化"
+      ],
+      "scenarios": [
+        "招聘流程自动化",
+        "简历筛选",
+        "职位申请"
+      ],
+      "tutorial": "## 使用HiringNow进行职位申请\n1. 注册并登录HiringNow账户。\n2. 在设置中配置你的求职偏好和简历信息。\n3. HiringNow将自动搜索匹配的职位。\n4. 选择感兴趣的职位，系统将自动填写申请表并提交。\n5. 查看申请状态和后续沟通。",
+      "url": "https://www.producthunt.com/products/hiringnow",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hiringnow",
+      "added": "2026-11-15"
+    },
+    {
+      "name": "Kokonut UI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源 AI 代理 UI 组件",
+      "tags": [
+        "UI组件",
+        "AI代理",
+        "开源"
+      ],
+      "scenarios": [
+        "网页设计",
+        "交互开发",
+        "AI应用界面"
+      ],
+      "tutorial": "## Kokonut UI 使用教程\n\n1. 下载与安装\n   - 访问 [Kokonut UI 官网](https://www.producthunt.com/products/kokonutui) 下载最新版本的 Kokonut UI。\n   - 解压下载的文件到本地项目目录中。\n\n2. 引入组件\n   - 在你的 HTML 文件中引入 Kokonut UI 的 CSS 文件。\n   - 在你的 JavaScript 文件中引入 Kokonut UI 的 JavaScript 文件。\n\n3. 使用组件\n   - 在你的 HTML 中使用 Kokonut UI 的组件标签，例如 `<k-button>`。\n   - 根据需要设置组件的属性和事件。\n\n4. 集成到 AI 代理\n   - 将组件集成到你的 AI 代理项目中。\n   - 使用组件来创建用户界面元素。\n\n5. 测试与部署\n   - 在本地环境中测试你的 AI 代理和 UI 组件。\n   - 部署到生产环境。",
+      "url": "https://www.producthunt.com/products/kokonutui",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kokonut-ui",
+      "added": "2026-11-15"
+    },
+    {
+      "name": "Dex Semantics",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能分析，降低错误率25%",
+      "tags": [
+        "数据分析",
+        "错误减少",
+        "智能工具"
+      ],
+      "scenarios": [
+        "数据清洗",
+        "报告生成",
+        "业务分析"
+      ],
+      "tutorial": "## 使用Dex Semantics进行智能分析\n\n1. 注册并登录Dex Semantics平台。\n2. 创建一个新的分析项目，并上传需要分析的数据集。\n3. 选择合适的分析模型，配置参数，开始分析。\n4. 查看分析结果，Dex Semantics会自动识别错误并给出优化建议。\n5. 下载分析报告，或将其集成到其他系统中。",
+      "url": "https://www.producthunt.com/products/dex-by-exmergo",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dex-semantics",
+      "added": "2026-11-15"
     }
   ],
   "changelog": [
@@ -21228,6 +21382,20 @@
         "Expo Simulators",
         "Gemini 4 Hydrogen",
         "Aven App Agent"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-15",
+      "added": [
+        "ag-ui",
+        "LoopForge",
+        "gaia-agents-final",
+        "Antelog",
+        "HiringNow",
+        "Kokonut UI",
+        "Dex Semantics"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
