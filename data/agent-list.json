@@ -19838,6 +19838,152 @@
       "is_violation": false,
       "id": "dex-semantics",
       "added": "2026-11-15"
+    },
+    {
+      "name": "stitch-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "与 Stitch MCP 服务器兼容的 Agent 技能库",
+      "tags": [
+        "技能库",
+        "Agent",
+        "Stitch MCP"
+      ],
+      "scenarios": [
+        "自动化网页操作",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用 Stitch Skills 的基本步骤\n1. 安装 Stitch Skills\n   - 使用 npm 或 yarn 安装 Stitch Skills 库：\n     ```bash\n     npm install @stitch/skills\n     \nyarn add @stitch/skills\n     ```\n2. 配置 Stitch MCP 服务器\n   - 确保你的 Stitch MCP 服务器已正确配置并运行。\n3. 创建技能实例\n   - 使用以下代码创建一个技能实例：\n     ```javascript\n     const skills = require('@stitch/skills');\n     const mySkill = new skills.MySkill();\n     ```\n4. 使用技能\n   - 通过技能实例调用方法，实现自动化功能：\n     ```javascript\n     mySkill.someMethod().then(result => console.log(result));\n     ```",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "stitch-skills",
+      "added": "2026-11-16"
+    },
+    {
+      "name": "SkillEvaluator",
+      "category": "local",
+      "type": "open-source",
+      "summary": "Multi-tier framework for evaluating AI agent skills with qua",
+      "tags": [],
+      "scenarios": [],
+      "tutorial": "## 快速上手\n1. 访问官网了解功能与定价。\n2. 按官方文档完成注册与基础配置。\n3. 接入你的数据与场景，跑通第一个自动化任务。",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "status": "active",
+      "is_violation": false,
+      "id": "skillevaluator",
+      "added": "2026-11-16"
+    },
+    {
+      "name": "auto-eda-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动网页数据提取与分析工具",
+      "tags": [
+        "数据提取",
+        "网页分析",
+        "RPA"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化报表生成",
+        "数据可视化"
+      ],
+      "tutorial": "## 使用auto-eda-agent进行网页数据提取\n\n1. 下载并安装auto-eda-agent。\n2. 打开网页，使用auto-eda-agent的浏览器插件进行数据选择。\n3. 设置数据提取规则，包括字段、格式等。\n4. 运行提取任务，获取所需数据。\n5. 对提取的数据进行进一步分析或处理。",
+      "url": "https://huggingface.co/spaces/Atharva1999/auto-eda-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "auto-eda-agent",
+      "added": "2026-11-16"
+    },
+    {
+      "name": "aws-poster-agent",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "云端浏览器自动化工具，支持网页操作与数据采集",
+      "tags": [
+        "自动化",
+        "数据采集",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据抓取",
+        "RPA"
+      ],
+      "tutorial": "## AWS-Poster-Agent 使用教程\n\n1. 注册并登录 AWS-Poster-Agent 平台\n\n2. 创建一个新的项目，选择目标浏览器和环境配置\n\n3. 设计自动化流程，包括页面访问、元素定位、数据提取等\n\n4. 预览并运行自动化脚本，验证流程正确性\n\n5. 保存并部署自动化任务，设置定时执行或触发条件",
+      "url": "https://huggingface.co/spaces/shardulkolekar/aws-poster-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "aws-poster-agent",
+      "added": "2026-11-16"
+    },
+    {
+      "name": "endurance-copilot",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "浏览器网页自动化助手，支持复杂任务。",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Endurance Copilot 进行自动化操作\n1. 注册并登录 Endurance Copilot 平台。\n2. 创建一个新的任务，选择目标网页和操作类型。\n3. 配置任务参数，如点击、输入、等待等。\n4. 运行任务，观察自动化操作过程。\n5. 保存并重复使用配置好的任务。",
+      "url": "https://huggingface.co/spaces/jedelsb1/endurance-copilot",
+      "status": "active",
+      "is_violation": false,
+      "id": "endurance-copilot",
+      "added": "2026-11-16"
+    },
+    {
+      "name": "Pixel Office",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "像素艺术风格的AI代理团队管理工具",
+      "tags": [
+        "AI代理",
+        "团队管理",
+        "像素艺术"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化办公"
+      ],
+      "tutorial": "## 使用Pixel Office进行AI代理团队管理\n\n1. 注册并登录\n   - 访问Pixel Office官网，注册账号并登录。\n\n2. 创建团队\n   - 在控制面板中，点击创建新团队，填写团队信息并设置权限。\n\n3. 添加AI代理\n   - 在团队管理页面，点击添加AI代理，选择代理类型并配置参数。\n\n4. 分配任务\n   - 为AI代理分配任务，如邮件管理、日程安排等。\n\n5. 监控与报告\n   - 实时监控AI代理的工作状态，查看报告了解团队效率。",
+      "url": "https://www.producthunt.com/products/pixel-office-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pixel-office",
+      "added": "2026-11-16"
+    },
+    {
+      "name": "ByteAsk Cloud Agents",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "在大型代码库中查找问题，通过 Slack 发送修复。",
+      "tags": [
+        "代码搜索",
+        "Slack 集成",
+        "自动化修复"
+      ],
+      "scenarios": [
+        "代码审查",
+        "团队协作",
+        "问题追踪"
+      ],
+      "tutorial": "## 使用 ByteAsk Cloud Agents 的步骤\n1. 2. 3.\n\n## 小节标题\n1. **配置 Slack 集成**\n   - 登录 ByteAsk Cloud Agents 账户。\n   - 在设置中找到 Slack 集成选项。\n   - 按照指引完成 Slack 应用授权。\n\n2. **创建代码搜索任务**\n   - 在 ByteAsk Cloud Agents 中创建新任务。\n   - 选择要搜索的代码库和关键词。\n   - 设置搜索范围和优先级。\n\n3. **接收修复结果**\n   - 任务完成后，相关修复信息会自动发送到 Slack 集群。\n   - 在 Slack 中查看修复建议和代码更改。",
+      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+      "status": "dead",
+      "is_violation": false,
+      "id": "byteask-cloud-agents",
+      "added": "2026-11-16"
     }
   ],
   "changelog": [
@@ -21396,6 +21542,20 @@
         "HiringNow",
         "Kokonut UI",
         "Dex Semantics"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-16",
+      "added": [
+        "stitch-skills",
+        "SkillEvaluator",
+        "auto-eda-agent",
+        "aws-poster-agent",
+        "endurance-copilot",
+        "Pixel Office",
+        "ByteAsk Cloud Agents"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T21:50:14.979Z",
+  "generatedAt": "2026-11-15T22:18:09.297Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4481,6 +4481,41 @@
       "url": "https://aiagent.72tool.com/tools/dex-semantics.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/stitch-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/skillevaluator.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/auto-eda-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/aws-poster-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/endurance-copilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pixel-office.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/byteask-cloud-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4511,17 +4546,17 @@
     }
   ],
   "stats": {
-    "totalAgents": 889,
+    "totalAgents": 896,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 34
+        "count": 35
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 747
+        "count": 753
       },
       {
         "id": "workflow",
@@ -4539,6 +4574,6 @@
         "count": 21
       }
     ],
-    "deadLinks": 595
+    "deadLinks": 597
   }
 }
