@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T22:18:09.297Z",
+  "generatedAt": "2026-11-17T01:21:11.282Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4516,6 +4516,81 @@
       "url": "https://aiagent.72tool.com/tools/byteask-cloud-agents.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/paper-orchestra.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ffmpeg-skill.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/final-agent-gaia.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/boost-space-agentos.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ui-sdk-by-vercel.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/chatgpt-wallet.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/stateweave.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/degla-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openframe.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/docsy.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/bytevoice.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/puffin.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/zode.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/nexus.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agentwatch.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4546,22 +4621,22 @@
     }
   ],
   "stats": {
-    "totalAgents": 896,
+    "totalAgents": 911,
     "byCategory": [
       {
         "id": "local",
         "name": "本地开源 Agent 框架",
-        "count": 35
+        "count": 36
       },
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 753
+        "count": 765
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 74
+        "count": 75
       },
       {
         "id": "crossborder",
@@ -4571,9 +4646,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 21
+        "count": 22
       }
     ],
-    "deadLinks": 597
+    "deadLinks": 609
   }
 }
