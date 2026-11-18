@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:21:11.282Z",
+  "generatedAt": "2026-11-18T00:15:48.919Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4591,6 +4591,71 @@
       "url": "https://aiagent.72tool.com/tools/agentwatch.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/travel-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rankspot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gatherhq-agent-research.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hako.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/infaiw.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lasso.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pinecall.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/glass-page.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/versine.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/agents-api-by-recall-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/polyroom.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/pushr.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/appxiom.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4621,7 +4686,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 911,
+    "totalAgents": 924,
     "byCategory": [
       {
         "id": "local",
@@ -4631,7 +4696,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 765
+        "count": 778
       },
       {
         "id": "workflow",
@@ -4649,6 +4714,6 @@
         "count": 22
       }
     ],
-    "deadLinks": 609
+    "deadLinks": 621
   }
 }

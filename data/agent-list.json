@@ -20316,6 +20316,297 @@
       "is_violation": false,
       "id": "agentwatch",
       "added": "2026-11-17"
+    },
+    {
+      "name": "travel-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，简化旅行预订流程",
+      "tags": [
+        "旅行",
+        "自动化",
+        "预订"
+      ],
+      "scenarios": [
+        "在线旅行预订",
+        "酒店搜索",
+        "航班查询"
+      ],
+      "tutorial": "## 使用 travel-agent 进行旅行预订\n1. 打开 travel-agent 并选择目的地和出行日期。\n2. 系统自动搜索相关酒店和航班信息。\n3. 选择满意的酒店或航班，系统自动完成预订。\n4. 查收预订确认信息，确保无误。",
+      "url": "https://huggingface.co/spaces/LuizaRMarnet/travel-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "travel-agent",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "RankSpot",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "按需付费的SEO和AI搜索执行层，适用于代理商",
+      "tags": [
+        "SEO",
+        "AI搜索",
+        "代理商工具"
+      ],
+      "scenarios": [
+        "搜索引擎优化",
+        "搜索结果分析",
+        "关键词研究"
+      ],
+      "tutorial": "## RankSpot 使用教程\n\n1. 注册并登录RankSpot平台\n\n2. 创建新的SEO项目，输入目标关键词和目标网站\n\n3. 选择需要分析的搜索引擎和地区\n\n4. 点击开始分析，RankSpot将自动执行SEO和AI搜索任务\n\n5. 查看分析结果，包括关键词排名、搜索流量等数据\n\n6. 根据分析结果调整SEO策略，优化网站内容",
+      "url": "https://www.producthunt.com/products/rankspot",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rankspot",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "GatherHQ Agent Research",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动代理完成调查问卷",
+      "tags": [
+        "自动化",
+        "调查",
+        "问卷",
+        "代理"
+      ],
+      "scenarios": [
+        "市场调研",
+        "数据收集",
+        "用户反馈"
+      ],
+      "tutorial": "## 使用GatherHQ Agent Research进行自动调查\n\n1. 注册并登录GatherHQ Agent Research平台。\n2. 在平台上选择需要完成的调查问卷。\n3. 配置代理参数，如代理IP、代理端口等。\n4. 启动代理，让代理自动完成调查问卷。\n5. 查看调查结果和分析报告。",
+      "url": "https://www.producthunt.com/products/gatherhq-agent-research",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gatherhq-agent-research",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Hako",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac 上的编程代理，随身携带",
+      "tags": [
+        "Mac",
+        "编程",
+        "代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Hako 使用教程\n\n### 1. 安装 Hako\n\n1. 访问 Hako 官网下载最新版本。\n2. 双击安装包，按照提示完成安装。\n3. 打开 Hako，开始使用。\n\n### 2. 创建新代理\n\n1. 点击 '新建代理' 按钮。\n2. 输入代理名称，选择代理类型。\n3. 点击 '创建'。\n\n### 3. 编写代理脚本\n\n1. 在编辑器中编写代理脚本。\n2. 使用 Hako 提供的 API 和函数。\n3. 保存脚本。\n\n### 4. 运行代理\n\n1. 点击 '运行' 按钮。\n2. 观察代理执行过程。\n3. 检查结果。",
+      "url": "https://www.producthunt.com/products/hako",
+      "status": "dead",
+      "is_violation": false,
+      "id": "hako",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "infaiw",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器侧翼代理，委托工作并执行审批脚本",
+      "tags": [
+        "自动化",
+        "代理",
+        "脚本"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用教程\n\n1. 下载并安装Infaiw插件到您的浏览器。\n2. 打开目标网页，选择需要自动化的元素或操作。\n3. 在Infaiw插件中编写审批脚本，定义自动化流程。\n4. 运行脚本，观察自动化执行结果。\n5. 根据需要调整脚本，优化自动化流程。",
+      "url": "https://www.producthunt.com/products/infaiw",
+      "status": "dead",
+      "is_violation": false,
+      "id": "infaiw",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Lasso",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI辅助的屏幕绘图工具",
+      "tags": [
+        "绘图",
+        "AI",
+        "屏幕",
+        "Mac"
+      ],
+      "scenarios": [
+        "在线会议演示",
+        "创意设计",
+        "远程协作"
+      ],
+      "tutorial": "## Lasso 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [Lasso 官网](https://www.producthunt.com/products/lasso-11) 下载并安装 Lasso。\n2. 打开 Lasso 应用程序。\n\n### 2. 创建绘图\n\n1. 点击界面上的画笔图标开始绘图。\n2. 使用鼠标或触控板进行绘制。\n\n### 3. 使用AI功能\n\n1. 完成绘图后，点击 AI 图标。\n2. 选择 AI 识别或建议功能。\n3. AI 将分析您的绘图并提供反馈或建议。\n\n### 4. 保存与分享\n\n1. 点击保存按钮保存您的作品。\n2. 您可以通过邮件、社交媒体等方式分享您的作品。",
+      "url": "https://www.producthunt.com/products/lasso-11",
+      "status": "dead",
+      "is_violation": false,
+      "id": "lasso",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Pinecall",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源语音AI代理平台，自动操作网页",
+      "tags": [
+        "AI",
+        "语音",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "客服自动化",
+        "语音交互"
+      ],
+      "tutorial": "## Pinecall 使用教程\n\n### 1. 安装Pinecall\n\n1. 访问Pinecall官网下载最新版本。\n2. 解压下载的文件包。\n3. 将解压后的文件夹放置在本地服务器上。\n\n### 2. 配置Pinecall\n\n1. 打开Pinecall配置文件，编辑相关参数。\n2. 设置代理服务器（如有需要）。\n3. 保存并关闭配置文件。\n\n### 3. 运行Pinecall\n\n1. 打开命令行工具。\n2. 切换到Pinecall文件夹。\n3. 输入命令启动Pinecall。\n\n### 4. 使用Pinecall\n\n1. 通过网页界面或API接口发送请求。\n2. Pinecall根据配置自动执行任务。\n3. 查看任务执行结果。",
+      "url": "https://www.producthunt.com/products/pinecall",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pinecall",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Glass Page",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "代理工作评价平台",
+      "tags": [
+        "评价",
+        "代理",
+        "工作"
+      ],
+      "scenarios": [
+        "代理工作评价",
+        "工作质量监控",
+        "用户反馈收集"
+      ],
+      "tutorial": "## 使用 Glass Page 进行代理工作评价\n\n1. 访问 Glass Page 网站\n   打开浏览器，输入 Glass Page 的网址，进入网站首页。\n\n2. 创建评价\n   在首页找到创建评价的入口，填写相关信息，包括评价内容、评分等。\n\n3. 发布评价\n   完成评价内容后，点击发布，评价即可公开展示。\n\n4. 查看评价\n   进入个人中心，查看自己发布的评价和他人对自己的评价。",
+      "url": "https://www.producthunt.com/products/glass-page",
+      "status": "dead",
+      "is_violation": false,
+      "id": "glass-page",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Versine",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为代理商提供AI转账服务，类似Venmo。",
+      "tags": [
+        "AI转账",
+        "代理商",
+        "金融科技"
+      ],
+      "scenarios": [
+        "代理商财务管理",
+        "在线支付处理",
+        "跨平台转账"
+      ],
+      "tutorial": "## 使用Versine进行AI转账\n\n1. 注册并登录Versine账户。\n2. 配置你的支付信息，包括银行账户或信用卡。\n3. 选择接收或发送资金的代理商。\n4. 输入转账金额和备注信息。\n5. 点击发送或接收按钮完成交易。\n6. 查看交易记录和交易详情。",
+      "url": "https://www.producthunt.com/products/versine",
+      "status": "dead",
+      "is_violation": false,
+      "id": "versine",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Agents API by Recall.ai",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能会议助手，自动化会议参与",
+      "tags": [
+        "会议自动化",
+        "智能助手",
+        "AI 会议",
+        "会议助手"
+      ],
+      "scenarios": [
+        "在线会议管理",
+        "团队协作",
+        "远程工作"
+      ],
+      "tutorial": "## 使用 Agents API by Recall.ai 进行会议自动化\n\n### 1. 注册并创建代理\n1. 访问 [Recall.ai](https://www.producthunt.com/products/recall-ai) 官网注册账号。\n2. 创建一个新的代理，配置代理的权限和角色。\n\n### 2. 配置会议信息\n1. 在代理设置中，添加需要自动参与的会议链接和会议ID。\n2. 设置代理的登录凭证，确保代理可以登录到会议平台。\n\n### 3. 编写自动化脚本\n1. 使用Recall.ai提供的API文档，编写自动化脚本。\n2. 脚本中包含会议登录、参与会议、记录会议内容等操作。\n\n### 4. 部署并测试\n1. 将脚本部署到Recall.ai平台。\n2. 进行测试，确保代理可以成功参与会议并执行脚本任务。\n\n### 5. 定时任务\n1. 设置定时任务，让代理自动参与定期会议。\n2. 监控代理运行状态，确保自动化流程稳定运行。",
+      "url": "https://www.producthunt.com/products/recall-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agents-api-by-recall-ai",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "polyroom",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI协作平台，团队决策",
+      "tags": [
+        "AI协作",
+        "团队决策",
+        "自动化工作"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化流程"
+      ],
+      "tutorial": "## Polyroom 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Polyroom 官网](https://www.polyroom.com/) 并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 创建项目\n\n1. 登录后，点击 'Create Project' 创建新项目。\n2. 输入项目名称和描述，选择项目类型。\n\n### 3. 添加团队成员\n\n1. 在项目设置中，点击 'Add Team Members'。\n2. 输入团队成员的邮箱，邀请他们加入项目。\n\n### 4. 配置AI代理\n\n1. 在项目设置中，选择 'AI Agents'。\n2. 添加或配置AI代理以执行特定任务。\n\n### 5. 触发自动化流程\n\n1. 在项目设置中，设置触发条件。\n2. 当条件满足时，AI代理将自动执行任务。",
+      "url": "https://www.producthunt.com/products/polyroom",
+      "status": "dead",
+      "is_violation": false,
+      "id": "polyroom",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "pushr",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "无需代码发送iPhone推送通知",
+      "tags": [
+        "推送",
+        "iPhone",
+        "自动化",
+        "通知"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "用户通知",
+        "营销活动"
+      ],
+      "tutorial": "## 使用Pushr发送iPhone推送通知\n\n1. 注册并登录Pushr账户\n\n2. 创建一个新的应用并获取API密钥\n\n3. 在你的脚本或服务器中，使用API密钥发送推送通知\n\n4. 配置推送内容，包括消息和目标设备\n\n5. 测试推送通知，确保一切正常工作",
+      "url": "https://www.producthunt.com/products/pushr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pushr",
+      "added": "2026-11-18"
+    },
+    {
+      "name": "Appxiom",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 编码代理的上下文层，检测和修复 bug",
+      "tags": [
+        "AI 编码",
+        "bug 修复",
+        "代码检测",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码审查",
+        "自动化测试",
+        "持续集成"
+      ],
+      "tutorial": "## Appxiom 使用教程\n\n### 1. 安装 Appxiom\n\n- 访问 [Appxiom 官网](https://www.producthunt.com/products/appxiom) 下载最新版本。\n- 按照提示完成安装。\n\n### 2. 配置项目\n\n- 打开 Appxiom，选择项目类型。\n- 配置项目参数，如代码路径、分支等。\n\n### 3. 开始检测\n\n- 点击 '开始检测' 按钮。\n- Appxiom 将自动分析代码，检测潜在问题。\n\n### 4. 修复问题\n\n- 检测完成后，查看问题列表。\n- 根据提示进行修复。\n\n### 5. 持续监控\n\n- 定期运行检测，确保代码质量。",
+      "url": "https://www.producthunt.com/products/appxiom",
+      "status": "dead",
+      "is_violation": false,
+      "id": "appxiom",
+      "added": "2026-11-18"
     }
   ],
   "changelog": [
@@ -21910,6 +22201,26 @@
         "Zode",
         "Nexus",
         "AgentWatch"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-18",
+      "added": [
+        "travel-agent",
+        "RankSpot",
+        "GatherHQ Agent Research",
+        "Hako",
+        "infaiw",
+        "Lasso",
+        "Pinecall",
+        "Glass Page",
+        "Versine",
+        "Agents API by Recall.ai",
+        "polyroom",
+        "pushr",
+        "Appxiom"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
