@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T00:15:48.919Z",
+  "generatedAt": "2026-11-18T23:47:00.982Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4656,6 +4656,106 @@
       "url": "https://aiagent.72tool.com/tools/appxiom.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/appwrite.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/lean-multiagent-explorer.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/s-space.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ody-ai-business-phone.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/waldo-by-wherobots.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/incredible-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-canvas.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/soreqen-code.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mermaid-flow.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kadeep-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/linkbit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qwen4-max.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dippr.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/microsoft-iq.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/beacon.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/urun.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/worldinmotion.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/vanira.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/dream-by-smart-jelly.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ui-verify.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4686,7 +4786,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 924,
+    "totalAgents": 944,
     "byCategory": [
       {
         "id": "local",
@@ -4696,12 +4796,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 778
+        "count": 795
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 75
+        "count": 77
       },
       {
         "id": "crossborder",
@@ -4711,9 +4811,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 22
+        "count": 23
       }
     ],
-    "deadLinks": 621
+    "deadLinks": 639
   }
 }

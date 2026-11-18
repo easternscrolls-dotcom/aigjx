@@ -20607,6 +20607,450 @@
       "is_violation": false,
       "id": "appxiom",
       "added": "2026-11-18"
+    },
+    {
+      "name": "appwrite",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "云原生开源平台，提供一站式后端服务",
+      "tags": [
+        "云服务",
+        "后端",
+        "开源"
+      ],
+      "scenarios": [
+        "移动应用后端",
+        "Web应用后端",
+        "全栈开发"
+      ],
+      "tutorial": "## appwrite 使用教程\n\n### 1. 注册账户\n\n1. 访问 [appwrite官网](https://appwrite.io/) 并注册一个账户。\n2. 创建一个新的项目。\n\n### 2. 配置数据库\n\n1. 在项目中选择“数据库”服务。\n2. 创建一个新的数据库集合和文档。\n\n### 3. 集成身份验证\n\n1. 在项目中选择“身份验证”服务。\n2. 创建一个新的用户并设置密码。\n3. 在应用中集成身份验证API。\n\n### 4. 部署应用\n\n1. 在项目中选择“函数”服务。\n2. 创建一个新的函数并编写代码。\n3. 部署函数并测试。\n\n### 5. 使用其他服务\n\nappwrite还提供存储、消息传递、实时通信等服务，您可以根据需要集成使用。",
+      "url": "https://github.com/appwrite/appwrite",
+      "status": "active",
+      "is_violation": false,
+      "id": "appwrite",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "lean-multiagent-explorer",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化探索工具",
+      "tags": [
+        "自动化",
+        "网页探索",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页内容抓取",
+        "数据自动化处理",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 Lean Multiagent Explorer 进行网页自动化探索\n\n### 1. 安装与启动\n1. 下载并安装 Lean Multiagent Explorer。\n2. 打开软件，选择需要探索的网页。\n\n### 2. 配置代理\n1. 在设置中配置代理服务器，以便进行网络请求。\n2. 确保代理设置正确无误。\n\n### 3. 开始探索\n1. 点击开始探索按钮，软件将自动进行网页元素识别和交互。\n2. 观察并分析探索结果。\n\n### 4. 数据导出\n1. 将探索结果导出为所需的格式，如 JSON 或 CSV。\n2. 使用导出的数据进行分析或进一步处理。",
+      "url": "https://huggingface.co/spaces/KimberlyFigueroa01/lean-multiagent-explorer",
+      "status": "active",
+      "is_violation": false,
+      "id": "lean-multiagent-explorer",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "S.Space",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "团队与AI代理一体化工作空间",
+      "tags": [
+        "AI协作",
+        "工作空间",
+        "团队管理",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化流程"
+      ],
+      "tutorial": "## S.Space 使用教程\n\n1. 注册并登录\n   - 访问 [S.Space官网](https://www.s-space.com) 进行注册。\n   - 使用邮箱和密码完成登录。\n\n2. 创建团队\n   - 在个人中心，点击创建新团队。\n   - 输入团队名称和描述，添加团队成员。\n\n3. 添加AI代理\n   - 在团队设置中，选择添加AI代理。\n   - 选择合适的AI代理类型，配置参数。\n\n4. 开始协作\n   - 在工作空间中，团队成员可以共享任务、讨论和协作。\n   - AI代理将自动处理分配的任务。\n\n5. 监控与报告\n   - 查看团队活动报告，监控项目进度。\n   - 调整团队设置以优化协作流程。",
+      "url": "https://www.producthunt.com/products/s-space",
+      "status": "dead",
+      "is_violation": false,
+      "id": "s-space",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Ody Ai Business Phone",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "共享工作空间与管理型AI代理",
+      "tags": [
+        "AI电话",
+        "工作空间",
+        "自动化"
+      ],
+      "scenarios": [
+        "客户服务",
+        "销售支持",
+        "业务流程自动化"
+      ],
+      "tutorial": "## Ody Ai Business Phone 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [Ody Ai Business Phone 官网](https://www.producthunt.com/products/ody-ai-business-phone) 并注册账户。\n2. 使用注册信息登录系统。\n\n### 2. 创建工作空间\n\n1. 登录后，点击 '创建工作空间'。\n2. 输入工作空间名称和描述，然后点击 '创建'。\n\n### 3. 添加AI代理\n\n1. 在工作空间页面，点击 '添加AI代理'。\n2. 选择代理类型，配置相关设置，然后点击 '保存'。\n\n### 4. 配置电话流程\n\n1. 在AI代理设置中，配置电话流程，包括自动接听、转接、录音等。\n2. 测试电话流程，确保一切正常。\n\n### 5. 监控与优化\n\n1. 查看AI代理的通话记录和性能数据。\n2. 根据数据优化AI代理的设置和流程。",
+      "url": "https://www.producthunt.com/products/ody-ai-business-phone",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ody-ai-business-phone",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Waldo by Wherobots",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI空间数据加速工程",
+      "tags": [
+        "AI",
+        "空间数据",
+        "工程加速"
+      ],
+      "scenarios": [
+        "数据可视化",
+        "工程管理",
+        "空间分析"
+      ],
+      "tutorial": "## Waldo by Wherobots 使用教程\n\n1. 下载并安装 Waldo by Wherobots。\n2. 打开软件，选择需要处理的空间数据。\n3. 使用AI工具进行数据分析和可视化。\n4. 保存并导出分析结果。\n\n## 小节标题\n\n1. 数据导入\n   - 选择文件类型和路径导入数据。\n2. 数据预处理\n   - 对数据进行清洗和格式化。\n3. 数据分析\n   - 利用AI工具进行空间数据分析。\n4. 可视化\n   - 将分析结果以图表形式展示。",
+      "url": "https://www.producthunt.com/products/waldo-by-wherobots",
+      "status": "dead",
+      "is_violation": false,
+      "id": "waldo-by-wherobots",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Incredible Agents",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "快速语音AI，可查看屏幕并运行代理",
+      "tags": [
+        "AI语音",
+        "屏幕操作",
+        "自动化代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "客服自动化"
+      ],
+      "tutorial": "## 使用Incredible Agents进行自动化操作\n\n1. 注册并登录Incredible Agents平台。\n2. 创建一个新的代理项目，选择合适的代理模板。\n3. 在代理设置中，配置语音识别和屏幕操作参数。\n4. 通过拖拽方式添加自动化任务，如点击、填写表单等。\n5. 测试代理流程，确保自动化操作无误。\n6. 部署代理到生产环境，开始自动化工作。",
+      "url": "https://www.producthunt.com/products/incredible",
+      "status": "dead",
+      "is_violation": false,
+      "id": "incredible-agents",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "AI Canvas",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理界面设计系统，打造酷炫界面",
+      "tags": [
+        "AI设计",
+        "界面构建",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页设计",
+        "用户体验优化",
+        "产品原型制作"
+      ],
+      "tutorial": "## AI Canvas 使用教程\n\n### 1. 创建新项目\n\n1. 打开 AI Canvas，点击 '新建项目'。\n2. 输入项目名称，选择合适的模板或从空白开始。\n3. 点击 '创建'。\n\n### 2. 设计界面\n\n1. 在左侧工具栏选择设计元素，如按钮、文本框等。\n2. 将元素拖放到画布上，调整大小和位置。\n3. 使用属性面板修改元素样式，如颜色、字体等。\n\n### 3. 添加交互\n\n1. 选择元素，点击 '交互' 标签。\n2. 选择交互类型，如点击、鼠标悬停等。\n3. 设置交互效果，如显示提示信息、跳转页面等。\n\n### 4. 预览和导出\n\n1. 点击 '预览' 按钮查看设计效果。\n2. 对设计满意后，点击 '导出' 生成可用的界面代码。",
+      "url": "https://www.producthunt.com/products/ai-canvas-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ai-canvas",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "SoreQen Code",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动检测代码质量的浏览器插件",
+      "tags": [
+        "代码检测",
+        "浏览器插件",
+        "自动工具",
+        "代码质量"
+      ],
+      "scenarios": [
+        "代码审查",
+        "开发辅助",
+        "持续集成"
+      ],
+      "tutorial": "## SoreQen Code 使用教程\n\n### 1. 安装插件\n\n1. 访问 SoreQen Code 的官方网站或 Product Hunt 页面下载插件。\n2. 打开浏览器扩展程序设置，添加下载的插件。\n\n### 2. 配置插件\n\n1. 在浏览器中打开插件界面，根据需要配置检测规则和选项。\n2. 可以设置检测频率和错误提示方式。\n\n### 3. 使用插件\n\n1. 在浏览器中打开需要检测的代码页面。\n2. 插件会自动分析代码，并在页面底部显示检测结果。\n3. 根据检测结果进行代码优化。",
+      "url": "https://www.producthunt.com/products/soreqen-code",
+      "status": "dead",
+      "is_violation": false,
+      "id": "soreqen-code",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Mermaid Flow",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "可视化工作流构建工具",
+      "tags": [
+        "工作流",
+        "可视化",
+        "自动化"
+      ],
+      "scenarios": [
+        "企业内部流程自动化",
+        "跨部门协作",
+        "日常任务自动化"
+      ],
+      "tutorial": "## Mermaid Flow 使用教程\n\n### 1. 创建工作流\n- 登录 Mermaid Flow 平台\n- 点击 '创建新工作流'\n- 选择工作流模板或从空白开始\n\n### 2. 拖拽组件\n- 从左侧组件库拖拽所需组件到画布\n- 例如：条件分支、循环、数据存储等\n\n### 3. 配置组件\n- 双击组件进行配置\n- 设置参数、触发条件等\n\n### 4. 预览与测试\n- 点击 '预览' 按钮查看工作流运行效果\n- 进行测试确保工作流正确执行\n\n### 5. 部署运行\n- 确认无误后，点击 '部署' 使工作流上线运行",
+      "url": "https://www.producthunt.com/products/mermaid-chart",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mermaid-flow",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "KaDeep AI",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能问答与本地化，助力产品全球发布",
+      "tags": [
+        "智能问答",
+        "本地化",
+        "国际化"
+      ],
+      "scenarios": [
+        "产品发布决策",
+        "多语言内容管理",
+        "国际化市场分析"
+      ],
+      "tutorial": "## KaDeep AI 使用教程\n\n1. 注册并登录KaDeep AI平台\n\n2. 创建一个新的项目，并选择合适的模型进行配置\n\n3. 上传需要分析的内容，如产品描述、用户评论等\n\n4. 选择目标语言进行本地化分析\n\n5. 查看分析结果，包括语言质量、文化适应性等\n\n6. 根据分析结果调整产品内容，确保国际化发布成功",
+      "url": "https://www.producthunt.com/products/kadeep-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "kadeep-ai",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "LinkBit",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理使用的免费 URL 缩短服务",
+      "tags": [
+        "URL 缩短",
+        "AI 代理",
+        "API"
+      ],
+      "scenarios": [
+        "社交媒体分享",
+        "数据采集",
+        "自动化链接管理"
+      ],
+      "tutorial": "## 使用 LinkBit 缩短 URL\n\n1. 访问 LinkBit 网站\n   打开 LinkBit 官网，注册并登录账户。\n\n2. 创建新链接\n   在网站首页，点击 'Create New Link' 按钮。\n\n3. 输入长链接\n   在弹出的表单中，粘贴您想要缩短的长链接。\n\n4. 生成缩略链接\n   点击 'Shorten' 按钮，系统将自动生成缩略链接。\n\n5. 获取 API 密钥\n   如果需要使用 API，请前往设置页面获取您的 API 密钥。\n\n6. 分享或使用缩略链接\n   您可以将生成的缩略链接分享到社交媒体或用于其他用途。",
+      "url": "https://www.producthunt.com/products/linkbit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "linkbit",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Qwen4-Max",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "长运行代理工作新旗舰",
+      "tags": [
+        "代理",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Qwen4-Max进行网页自动化\n\n1. 安装Qwen4-Max\n   - 下载Qwen4-Max安装包\n   - 按照安装向导完成安装\n\n2. 创建新项目\n   - 打开Qwen4-Max\n   - 点击创建新项目\n   - 输入项目名称并保存\n\n3. 编写自动化脚本\n   - 在项目编辑器中编写自动化脚本\n   - 使用Qwen4-Max提供的API进行网页操作\n\n4. 运行脚本\n   - 点击运行按钮\n   - 观察自动化过程\n\n5. 保存和分享\n   - 保存自动化脚本\n   - 分享给他人使用",
+      "url": "https://www.producthunt.com/products/qwen3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qwen4-max",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Dippr",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "一键式数据平台，轻松获取所需数据",
+      "tags": [
+        "数据平台",
+        "自动化",
+        "AI"
+      ],
+      "scenarios": [
+        "数据采集",
+        "市场调研",
+        "业务分析"
+      ],
+      "tutorial": "## 使用Dippr进行数据获取\n1. 注册并登录Dippr平台\n2. 选择所需的数据源和类型\n3. 输入查询提示词\n4. 点击获取数据\n5. 下载或导出数据结果",
+      "url": "https://www.producthunt.com/products/dippr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dippr",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Microsoft IQ",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "为AI代理提供业务理解共享",
+      "tags": [
+        "AI",
+        "业务理解",
+        "共享知识"
+      ],
+      "scenarios": [
+        "企业协作",
+        "知识管理",
+        "AI培训"
+      ],
+      "tutorial": "## 使用Microsoft IQ的步骤\n1. 2. 3.\n\n### 1. 注册并登录\n在Microsoft IQ官网注册账号，完成登录。\n\n### 2. 创建业务知识库\n根据您的业务需求，创建一个知识库，并邀请团队成员加入。\n\n### 3. 上传和共享知识\n将业务相关的文档、数据等上传到知识库，并设置共享权限。\n\n### 4. 查询和利用知识\n团队成员可以通过搜索功能查询所需知识，提高工作效率。",
+      "url": "https://www.producthunt.com/products/microsoft-365",
+      "status": "dead",
+      "is_violation": false,
+      "id": "microsoft-iq",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Beacon",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "将已登录的浏览器环境赋予AI代理",
+      "tags": [
+        "AI代理",
+        "浏览器环境",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA应用"
+      ],
+      "tutorial": "## Beacon使用教程\n\n### 1. 安装Beacon\n\n从[Beacon官网](https://www.producthunt.com/products/beacon-26)下载并安装Beacon。\n\n### 2. 配置浏览器环境\n\n启动Beacon，选择你想要赋予AI代理的浏览器，并配置相应的登录信息。\n\n### 3. 创建代理任务\n\n在Beacon中创建新的代理任务，设置任务的目标网页和操作步骤。\n\n### 4. 运行代理任务\n\n点击运行按钮，Beacon将按照设定的步骤自动操作浏览器。\n\n### 5. 查看结果\n\n任务完成后，查看代理操作的结果，包括网页截图、数据采集等。",
+      "url": "https://www.producthunt.com/products/beacon-26",
+      "status": "dead",
+      "is_violation": false,
+      "id": "beacon",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "uRun",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "语音和视频智能代理实时决策工具",
+      "tags": [
+        "语音识别",
+        "视频分析",
+        "智能决策"
+      ],
+      "scenarios": [
+        "客服自动化",
+        "智能客服",
+        "数据分析"
+      ],
+      "tutorial": "## 使用uRun进行语音和视频智能代理实时决策\n\n### 1. 注册与登录\n\n1. 访问uRun官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录uRun平台。\n\n### 2. 创建代理\n\n1. 在平台首页，点击创建代理按钮。\n2. 输入代理名称，选择语音和视频识别模型，设置参数。\n3. 点击创建，等待代理生成。\n\n### 3. 配置决策规则\n\n1. 在代理详情页，点击决策规则配置。\n2. 根据业务需求，设置规则条件、动作和优先级。\n3. 保存配置。\n\n### 4. 部署与监控\n\n1. 在代理详情页，点击部署按钮，将代理部署到服务器。\n2. 在监控页面，实时查看代理运行状态和数据。\n\n### 5. 数据分析\n\n1. 在数据分析页面，查看语音和视频数据统计。\n2. 根据分析结果，优化决策规则。",
+      "url": "https://www.producthunt.com/products/urun",
+      "status": "dead",
+      "is_violation": false,
+      "id": "urun",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "worldinmotion",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理间加密消息传递工具",
+      "tags": [
+        "加密",
+        "AI",
+        "消息传递",
+        "跨供应商"
+      ],
+      "scenarios": [
+        "AI 通信",
+        "跨平台协作",
+        "数据安全"
+      ],
+      "tutorial": "## 使用 WorldInMotion 教程\n\n1. 注册与登录\n\n   访问 WorldInMotion 官网，注册账户并登录。\n\n2. 创建新消息\n\n   在主界面，点击创建新消息，填写接收者信息及消息内容。\n\n3. 发送消息\n\n   点击发送按钮，消息将加密后传递给接收者。\n\n4. 查看消息\n\n   在接收端，登录后查看收到的加密消息。\n\n5. 安全性设置\n\n   在设置中，可以调整加密算法和消息生命周期等安全参数。",
+      "url": "https://www.producthunt.com/products/worldinmotion",
+      "status": "dead",
+      "is_violation": false,
+      "id": "worldinmotion",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Vanira",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "多模态AI代理基础设施，语音、视频交互",
+      "tags": [
+        "AI代理",
+        "多模态",
+        "语音交互",
+        "视频交互"
+      ],
+      "scenarios": [
+        "智能客服",
+        "在线教育",
+        "远程会议"
+      ],
+      "tutorial": "## Vanira使用教程\n\n### 1. 注册与登录\n\n1. 访问Vanira官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱或手机号登录账号。\n\n### 2. 创建项目\n\n1. 登录后，点击创建项目按钮，输入项目名称和描述。\n2. 选择项目类型，如语音交互、视频交互等。\n\n### 3. 配置代理\n\n1. 在项目设置中，选择代理类型，如语音代理、视频代理等。\n2. 配置代理参数，如语音识别语言、视频编码格式等。\n\n### 4. 部署代理\n\n1. 完成配置后，点击部署按钮，将代理部署到服务器。\n2. 部署成功后，代理即可开始工作。\n\n### 5. 监控与维护\n\n1. 在项目监控页面，可以查看代理的运行状态和性能数据。\n2. 如有需要，可以对代理进行升级或维护。",
+      "url": "https://www.producthunt.com/products/vanira",
+      "status": "dead",
+      "is_violation": false,
+      "id": "vanira",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "Dream by Smart Jelly",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "智能夜间任务代理，自动化处理日常任务",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "任务处理"
+      ],
+      "scenarios": [
+        "日常任务自动化",
+        "夜间工作流程管理",
+        "跨平台任务执行"
+      ],
+      "tutorial": "## Dream by Smart Jelly 使用教程\n\n1. 注册并登录Dream by Smart Jelly平台。\n2. 创建一个新的任务，选择需要自动化的任务类型。\n3. 设置任务的触发条件和执行时间，例如夜间执行。\n4. 添加任务细节，如数据源、操作步骤等。\n5. 保存并启动任务，Dream by Smart Jelly将自动在指定时间执行任务。\n6. 查看任务执行结果，进行必要的调整。",
+      "url": "https://www.producthunt.com/products/smart-jelly",
+      "status": "dead",
+      "is_violation": false,
+      "id": "dream-by-smart-jelly",
+      "added": "2026-11-19"
+    },
+    {
+      "name": "UI Verify",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化视觉测试工具，提升网页Agent测试效率",
+      "tags": [
+        "自动化测试",
+        "视觉验证",
+        "网页Agent"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "UI自动化测试",
+        "代码质量监控"
+      ],
+      "tutorial": "## UI Verify 使用教程\n\n### 1. 安装 UI Verify\n\n- 访问 [UI Verify 官网](https://www.producthunt.com/products/ui-verify) 下载最新版本。\n- 解压下载的文件，运行安装程序。\n\n### 2. 创建测试项目\n\n- 打开 UI Verify，点击 '新建项目'。\n- 输入项目名称，选择测试环境，点击 '创建'。\n\n### 3. 编写测试脚本\n\n- 在项目编辑器中，使用可视化界面拖拽元素进行测试。\n- 设置测试条件，如元素存在、文本匹配等。\n\n### 4. 运行测试\n\n- 点击 '运行' 按钮，UI Verify 将自动执行测试脚本。\n- 查看测试结果，根据需要调整测试脚本。\n\n### 5. 生成测试报告\n\n- 测试完成后，点击 '生成报告'。\n- 选择报告格式，如 PDF 或 HTML，点击 '生成'。",
+      "url": "https://www.producthunt.com/products/ui-verify",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ui-verify",
+      "added": "2026-11-19"
     }
   ],
   "changelog": [
@@ -22221,6 +22665,33 @@
         "polyroom",
         "pushr",
         "Appxiom"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-19",
+      "added": [
+        "appwrite",
+        "lean-multiagent-explorer",
+        "S.Space",
+        "Ody Ai Business Phone",
+        "Waldo by Wherobots",
+        "Incredible Agents",
+        "AI Canvas",
+        "SoreQen Code",
+        "Mermaid Flow",
+        "KaDeep AI",
+        "LinkBit",
+        "Qwen4-Max",
+        "Dippr",
+        "Microsoft IQ",
+        "Beacon",
+        "uRun",
+        "worldinmotion",
+        "Vanira",
+        "Dream by Smart Jelly",
+        "UI Verify"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
