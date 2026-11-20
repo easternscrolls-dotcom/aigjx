@@ -21295,6 +21295,250 @@
       "is_violation": false,
       "id": "testsprite-4-0",
       "added": "2026-11-20"
+    },
+    {
+      "name": "tinytldr",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为网页Agent提供模板",
+      "tags": [
+        "模板",
+        "网页",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用tinytldr进行网页自动化\n\n1. 下载并安装tinytldr：\n   - 访问官网下载最新版本。\n   - 按照提示完成安装。\n\n2. 创建新模板：\n   - 打开tinytldr，点击创建新模板。\n   - 输入模板名称和描述。\n\n3. 编写自动化脚本：\n   - 使用提供的API编写自动化脚本。\n   - 脚本可以包括点击、输入、等待等操作。\n\n4. 运行测试：\n   - 点击运行按钮，测试脚本是否按预期执行。\n   - 检查结果并调整脚本。",
+      "url": "https://www.producthunt.com/products/tinytldr",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tinytldr",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "Volcano",
+      "category": "tools",
+      "type": "open-source",
+      "summary": "Kong 自愈代理云服务",
+      "tags": [
+        "自愈",
+        "代理",
+        "云服务",
+        "Kong"
+      ],
+      "scenarios": [
+        "服务网格",
+        "API 管理平台",
+        "微服务架构"
+      ],
+      "tutorial": "## Volcano 使用教程\n\n### 1. 安装 Volcano\n\nVolcano 是一个开源的 Kubernetes 工作负载调度器，用于在 Kubernetes 上运行和调度批处理作业。\n\n1. 下载 Volcano 的 release 版本。\n2. 解压下载的文件。\n3. 将 Volcano 的二进制文件复制到 Kubernetes 节点的 /usr/local/bin 目录下。\n4. 使用 kubectl 命令行工具安装 Volcano。\n\n### 2. 创建一个批处理作业\n\n在 Kubernetes 中创建一个批处理作业，可以使用以下 YAML 文件作为示例。\n\n```yaml\napiVersion: batch/v1\nkind: Job\nmetadata:\n  name: volcano-example\nspec:\n  template:\n    spec:\n      containers:\n      - name: volcano-example\n        image: nginx\n        command: [\"/bin/sh\", \"-c\", \"echo Hello World! && sleep 10\" ]\n```\n\n### 3. 运行批处理作业\n\n使用以下命令运行批处理作业。\n\n```bash\nkubectl apply -f volcano-example.yaml\n```\n\n### 4. 查看作业状态\n\n使用以下命令查看作业状态。\n\n```bash\nkubectl get jobs\n```",
+      "url": "https://www.producthunt.com/products/volcano-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "volcano",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "Mailpipe",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "本地AI代理CLI草稿Apple Mail回复",
+      "tags": [
+        "邮件",
+        "AI代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "邮件回复自动化",
+        "邮件管理",
+        "AI辅助"
+      ],
+      "tutorial": "## 使用Mailpipe草稿Apple Mail回复\n\n1. 安装Mailpipe：\n   - 访问Mailpipe官网下载并安装。\n   - 确保你的Apple Mail客户端已更新至最新版本。\n\n2. 配置Mailpipe：\n   - 打开Mailpipe，输入你的Apple Mail账户信息进行登录。\n   - 配置AI代理，选择你想要使用的AI模型。\n\n3. 草稿回复：\n   - 在Apple Mail中打开你想要回复的邮件。\n   - 点击Mailpipe的快捷键或菜单项，开始草稿回复。\n   - Mailpipe将自动生成回复草稿，你可以进行编辑后发送。\n\n4. 检查与优化：\n   - 在发送邮件前，仔细检查回复内容，确保无误。\n   - 根据需要调整AI代理的设置，优化回复质量。",
+      "url": "https://www.producthunt.com/products/mailpipe-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mailpipe",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "UndoGuard",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理撤销快捷键",
+      "tags": [
+        "AI",
+        "撤销",
+        "自动化"
+      ],
+      "scenarios": [
+        "网页操作撤销",
+        "数据恢复",
+        "错误修正"
+      ],
+      "tutorial": "## UndoGuard 使用教程\n\n### 1. 安装与启动\n\n1. 访问 [UndoGuard 官网](https://www.producthunt.com/products/undoguard) 下载并安装 UndoGuard。\n2. 启动 UndoGuard 应用程序。\n\n### 2. 配置设置\n\n1. 在 UndoGuard 中进行个人配置，如撤销操作的时间间隔等。\n2. 根据需要调整设置以适应不同的工作环境。\n\n### 3. 使用 UndoGuard\n\n1. 在网页操作过程中，UndoGuard 会自动记录操作。\n2. 当需要撤销操作时，只需按下快捷键 Ctrl+Z，即可撤销上一步操作。\n3. UndoGuard 还支持撤销多步操作，方便进行错误修正。\n\n### 4. 保存与退出\n\n1. 完成操作后，保存设置。\n2. 关闭 UndoGuard 应用程序。",
+      "url": "https://www.producthunt.com/products/undoguard",
+      "status": "dead",
+      "is_violation": false,
+      "id": "undoguard",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "Veryfi Thinking Mode",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI智能审核与修正发票数据",
+      "tags": [
+        "AI审核",
+        "发票处理",
+        "数据修正"
+      ],
+      "scenarios": [
+        "财务审计",
+        "发票管理",
+        "数据核对"
+      ],
+      "tutorial": "## 使用Veryfi Thinking Mode教程\n\n1. 注册并登录\n   - 访问Veryfi官网，注册账户并登录。\n\n2. 上传发票\n   - 在主页选择上传发票，可以选择从邮箱、云存储或手动输入。\n\n3. AI审核\n   - Veryfi的AI代理将自动审核发票数据，并显示审核结果。\n\n4. 数据修正\n   - 如有错误，可手动修正或选择AI建议的修正方案。\n\n5. 下载报告\n   - 审核完成后，下载报告以供进一步使用。",
+      "url": "https://www.producthunt.com/products/veryfi",
+      "status": "dead",
+      "is_violation": false,
+      "id": "veryfi-thinking-mode",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "Badya",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 语言沉浸式学习助手",
+      "tags": [
+        "语言学习",
+        "AI 教学工具",
+        "沉浸式体验"
+      ],
+      "scenarios": [
+        "在线教育",
+        "个人语言学习",
+        "语言教学辅助"
+      ],
+      "tutorial": "## Badya 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Badya 官网，点击 '注册' 或使用社交媒体账号登录。\n\n### 2. 选择学习语言\n\n1. 登录后，选择你想要学习的语言。\n\n### 3. 开始学习\n\n1. 根据你的水平，选择合适的学习内容。\n\n### 4. 沉浸式学习\n\n1. Badya 会提供真实内容，让你在语境中学习语言。\n\n### 5. 进度跟踪\n\n1. 查看你的学习进度和成果。",
+      "url": "https://www.producthunt.com/products/badya-ai-language-immersion",
+      "status": "dead",
+      "is_violation": false,
+      "id": "badya",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "Memanto Cloud",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能记忆辅助，提升工作效能",
+      "tags": [
+        "记忆增强",
+        "工作辅助",
+        "智能工具"
+      ],
+      "scenarios": [
+        "日常办公",
+        "数据分析",
+        "研究学习"
+      ],
+      "tutorial": "## Memanto Cloud 使用教程\n\n### 1. 注册与登录\n\n1. 访问Memanto Cloud官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱和密码登录Memanto Cloud。\n\n### 2. 创建记忆库\n\n1. 登录后，点击创建记忆库按钮，输入记忆库名称和描述。\n2. 选择合适的记忆库类型，如笔记、图片、文档等。\n\n### 3. 添加内容\n\n1. 在记忆库中，点击添加内容按钮，上传或创建所需内容。\n2. 可对内容进行编辑、分类和标签管理。\n\n### 4. 搜索与检索\n\n1. 使用搜索框，输入关键词快速查找记忆库中的内容。\n2. 可通过标签、分类等方式进行筛选和排序。\n\n### 5. 导出与分享\n\n1. 将记忆库中的内容导出为多种格式，如PDF、Word等。\n2. 可将记忆库分享给他人，方便协作。",
+      "url": "https://www.producthunt.com/products/memanto-by-moorcheh",
+      "status": "dead",
+      "is_violation": false,
+      "id": "memanto-cloud",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "tensorViz",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "PyTorch模型可视化工具，助你洞察模型内部结构",
+      "tags": [
+        "PyTorch",
+        "模型可视化",
+        "神经网络",
+        "机器学习"
+      ],
+      "scenarios": [
+        "神经网络调试",
+        "模型解释",
+        "教学演示"
+      ],
+      "tutorial": "## tensorViz使用教程\n\n### 1. 安装tensorViz\n\n首先，确保你的Python环境中已安装PyTorch。\n\n```bash\npip install tensorviz\n```\n\n### 2. 导入tensorViz\n\n在你的Python脚本中导入tensorViz库。\n\n```python\nimport tensorviz\n```\n\n### 3. 创建可视化对象\n\n使用tensorViz创建一个可视化对象。\n\n```python\nviz = tensorviz.TensorViz() \n```\n\n### 4. 可视化模型\n\n将你的PyTorch模型传递给可视化对象，即可生成模型的可视化。\n\n```python\nviz.visualize(model)\n```\n\n### 5. 显示可视化结果\n\n最后，使用matplotlib显示可视化结果。\n\n```python\nimport matplotlib.pyplot as plt\nplt.imshow(viz.plot(), cmap='gray')\nplt.show()\n```",
+      "url": "https://www.producthunt.com/products/tensorviz",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tensorviz",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "aiteam.space",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI团队协作平台，每个代理拥有独立电脑",
+      "tags": [
+        "AI协作",
+        "团队管理",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "自动化工作"
+      ],
+      "tutorial": "## 使用 Aiteam.space 的基本步骤\n1. 注册并登录 Aiteam.space\n2. 创建一个新的团队项目\n3. 邀请团队成员加入项目\n4. 配置每个代理的独立电脑环境\n5. 开始使用 AI 代理进行自动化任务\n6. 监控任务进度和结果",
+      "url": "https://www.producthunt.com/products/aiteam-space",
+      "status": "dead",
+      "is_violation": false,
+      "id": "aiteam-space",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "InteraOne",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源的智能客服替代方案",
+      "tags": [
+        "客服",
+        "AI",
+        "开源"
+      ],
+      "scenarios": [
+        "在线客服",
+        "客户服务自动化",
+        "客户关系管理"
+      ],
+      "tutorial": "## InteraOne 使用教程\n\n### 1. 安装与配置\n1. 访问 InteraOne 官网下载并安装软件。\n2. 配置必要的参数，如 API 密钥、客服机器人等。\n3. 将 InteraOne 集成到您的网站或应用程序中。\n\n### 2. 创建智能客服\n1. 在 InteraOne 中创建新的客服机器人。\n2. 设计对话流程，包括常见问题和自动回复。\n3. 测试并优化客服机器人的性能。\n\n### 3. 监控与维护\n1. 查看客服机器人的使用数据和性能指标。\n2. 定期更新对话内容和机器人技能。\n3. 确保客服机器人能够处理各种客户咨询。",
+      "url": "https://www.producthunt.com/products/interaone",
+      "status": "dead",
+      "is_violation": false,
+      "id": "interaone",
+      "added": "2026-11-21"
+    },
+    {
+      "name": "Docker",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "基于信任构建，适用于智能代理时代",
+      "tags": [
+        "容器化",
+        "自动化",
+        "部署"
+      ],
+      "scenarios": [
+        "Web自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Docker 使用教程\n\n### 1. 安装 Docker\n\n1. 下载 Docker 安装包\n2. 运行安装命令\n3. 验证安装\n\n### 2. 创建容器\n\n1. 使用 `docker run` 命令创建容器\n2. 指定镜像和容器名称\n3. 启动容器\n\n### 3. 与容器交互\n\n1. 使用 `docker exec` 命令进入容器\n2. 执行容器内的命令\n3. 查看容器日志\n\n### 4. 管理容器\n\n1. 使用 `docker ps` 查看运行中的容器\n2. 使用 `docker stop` 停止容器\n3. 使用 `docker rm` 删除容器",
+      "url": "https://www.producthunt.com/products/docker",
+      "status": "dead",
+      "is_violation": false,
+      "id": "docker",
+      "added": "2026-11-21"
     }
   ],
   "changelog": [
@@ -22954,6 +23198,24 @@
         "Rezora IO",
         "Adside",
         "TestSprite 4.0"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-21",
+      "added": [
+        "tinytldr",
+        "Volcano",
+        "Mailpipe",
+        "UndoGuard",
+        "Veryfi Thinking Mode",
+        "Badya",
+        "Memanto Cloud",
+        "tensorViz",
+        "aiteam.space",
+        "InteraOne",
+        "Docker"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
