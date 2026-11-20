@@ -21051,6 +21051,250 @@
       "is_violation": false,
       "id": "ui-verify",
       "added": "2026-11-19"
+    },
+    {
+      "name": "firecrawl",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代理知识库，通过API搜索、抓取550+数据源。",
+      "tags": [
+        "数据抓取",
+        "API",
+        "知识库"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化数据获取",
+        "智能代理开发"
+      ],
+      "tutorial": "## 使用Firecrawl进行数据抓取\n1. 注册并获取API密钥\n   - 访问Firecrawl官网，注册账号并获取API密钥。\n2. 选择数据源\n   - 在Firecrawl平台上选择需要抓取的数据源。\n3. 配置抓取参数\n   - 设置抓取频率、数据格式等参数。\n4. 开始抓取\n   - 点击开始抓取，Firecrawl将自动执行抓取任务。\n5. 数据处理\n   - 抓取完成后，可以在Firecrawl平台上查看和处理数据。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "status": "active",
+      "is_violation": false,
+      "id": "firecrawl",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "app-store-compliance",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "避免应用商店常见拒绝，提供合规检查和截止日期跟踪。",
+      "tags": [
+        "应用商店合规",
+        "AI 编码",
+        "隐私安全"
+      ],
+      "scenarios": [
+        "应用发布前检查",
+        "合规性维护",
+        "AI 代码辅助"
+      ],
+      "tutorial": "## 使用 app-store-compliance 工具教程\n\n1. 下载并安装工具：从 GitHub 下载 app-store-compliance 工具，并按照说明进行安装。\n2. 打开工具：启动工具，选择需要检查的应用。\n3. 检查合规性：工具将自动分析应用，并提供合规性报告。\n4. 修复问题：根据报告中的建议，修复应用中的问题。\n5. 再次检查：修复后，再次使用工具检查应用，确保所有问题已解决。",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "status": "active",
+      "is_violation": false,
+      "id": "app-store-compliance",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "opensre",
+      "category": "workflow",
+      "type": "open-source",
+      "summary": "开源 CI/CD 可靠性代理",
+      "tags": [
+        "CI/CD",
+        "自动化",
+        "开源"
+      ],
+      "scenarios": [
+        "持续集成",
+        "持续部署",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 OpenSRE 进行 CI/CD 自动化\n\n1. **安装 OpenSRE**\n   - 下载 OpenSRE 安装包\n   - 解压并运行安装脚本\n\n2. **配置项目**\n   - 在项目根目录创建 `openSRE.yml` 配置文件\n   - 配置构建步骤、测试步骤等\n\n3. **触发构建**\n   - 通过 Git 提交触发构建\n   - 手动触发构建\n\n4. **查看结果**\n   - 查看构建日志\n   - 查看测试结果",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "status": "active",
+      "is_violation": false,
+      "id": "opensre",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "hermes_agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "浏览器网页自动化工具，支持无代码操作网页",
+      "tags": [
+        "网页自动化",
+        "RPA",
+        "数据采集"
+      ],
+      "scenarios": [
+        "网页数据抓取",
+        "自动化表单填写",
+        "网页测试"
+      ],
+      "tutorial": "## Hermes Agent 使用教程\n\n### 1. 安装与启动\n1. 下载并安装Hermes Agent。\n2. 打开软件，启动浏览器插件。\n\n### 2. 创建任务\n1. 在插件中点击创建新任务。\n2. 选择要操作的网页和操作类型（如点击、输入等）。\n\n### 3. 编排流程\n1. 使用拖拽方式将操作步骤拖入工作区。\n2. 调整操作顺序和参数设置。\n\n### 4. 运行与监控\n1. 点击运行任务，监控任务执行情况。\n2. 查看执行日志和结果。",
+      "url": "https://huggingface.co/spaces/agentxortron/hermes_agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "hermes-agent",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "Teaflask",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "无需后端更改，提升应用智能助手",
+      "tags": [
+        "AI",
+        "Copilot",
+        "App",
+        "Improvement"
+      ],
+      "scenarios": [
+        "应用智能化",
+        "用户体验优化",
+        "自动化助手"
+      ],
+      "tutorial": "## Teaflask 使用教程\n\n### 1. 安装 Teaflask\n\n从 [Teaflask 官网](https://www.producthunt.com/products/teaflask) 下载并安装 Teaflask。\n\n### 2. 配置 Teaflask\n\n打开 Teaflask，根据提示完成配置，包括 API 密钥等。\n\n### 3. 集成到应用\n\n将 Teaflask 集成到你的应用中，通过 API 调用实现智能助手功能。\n\n### 4. 测试与优化\n\n测试 Teaflask 的功能，根据反馈进行优化。",
+      "url": "https://www.producthunt.com/products/teaflask",
+      "status": "dead",
+      "is_violation": false,
+      "id": "teaflask",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "Netlify Server",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "运行 WebSocket、多人游戏应用和长期运行代理",
+      "tags": [
+        "WebSocket",
+        "多人游戏",
+        "长期运行代理"
+      ],
+      "scenarios": [
+        "Web 应用开发",
+        "游戏开发",
+        "后台服务"
+      ],
+      "tutorial": "## 使用 Netlify Server 进行 WebSocket 开发\n\n1. 注册 Netlify 账号并创建一个新的项目。\n2. 在项目中配置 WebSocket 服务，Netlify 提供了简单的配置界面。\n3. 编写 WebSocket 服务器端代码，可以使用 Node.js 等语言。\n4. 部署项目到 Netlify，WebSocket 服务将自动启动。\n5. 在客户端通过 WebSocket API 连接到服务器，进行通信。",
+      "url": "https://www.producthunt.com/products/netlify",
+      "status": "dead",
+      "is_violation": false,
+      "id": "netlify-server",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "Tecla",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "基于待办事项列表的主动式AI代理",
+      "tags": [
+        "AI代理",
+        "待办事项",
+        "工作流"
+      ],
+      "scenarios": [
+        "团队协作",
+        "项目管理",
+        "日常任务管理"
+      ],
+      "tutorial": "## 使用Tecla进行任务管理\n1. 创建待办事项列表\n   - 在Tecla中创建一个新的待办事项列表。\n   - 输入任务名称和描述。\n2. 分配任务优先级\n   - 为每个任务设置优先级，以便优先处理重要任务。\n3. 自动化任务提醒\n   - 设置任务提醒，确保不会错过截止日期。\n4. 跟踪任务进度\n   - 查看任务完成情况，实时更新进度。\n5. 团队协作\n   - 与团队成员共享待办事项列表，协同完成任务。",
+      "url": "https://www.producthunt.com/products/tecla-3",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tecla",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "Source",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为网页代理提供数据层，驱动数据管道",
+      "tags": [
+        "数据层",
+        "代理",
+        "数据管道"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化数据传输",
+        "数据驱动决策"
+      ],
+      "tutorial": "## Source 使用教程\n\n1. 注册并登录 Source 平台\n\n2. 创建一个新的数据层项目，并配置数据源和目标管道\n\n3. 在网页上添加 Source 插件，开始收集数据\n\n4. 监控数据层，确保数据正确传输到目标管道\n\n5. 分析数据，优化数据层配置",
+      "url": "https://www.producthunt.com/products/source-public-beta",
+      "status": "dead",
+      "is_violation": false,
+      "id": "source",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "Rezora IO",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "快速搭建AI语音客服",
+      "tags": [
+        "AI客服",
+        "语音助手",
+        "Shopify",
+        "自动化"
+      ],
+      "scenarios": [
+        "电商客服",
+        "客户服务",
+        "电话营销"
+      ],
+      "tutorial": "## 使用Rezora IO搭建AI语音客服\n\n### 1. 注册并登录\n\n1. 访问Rezora IO官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱登录到Rezora IO平台。\n\n### 2. 创建新项目\n\n1. 在平台首页，点击创建新项目按钮。\n2. 输入项目名称，选择合适的模板，点击创建。\n\n### 3. 配置AI语音\n\n1. 在项目设置中，找到AI语音配置选项。\n2. 选择合适的语音模型，调整语音参数，预听效果。\n3. 保存配置。\n\n### 4. 设置触发条件\n\n1. 在触发条件设置中，定义客户何时触发AI语音服务。\n2. 设置触发条件，如客户提问、特定时间段等。\n3. 保存设置。\n\n### 5. 测试与部署\n\n1. 在测试环境中，模拟客户对话，检查AI语音服务是否正常。\n2. 确认无误后，将AI语音服务部署到生产环境。\n\n### 6. 监控与优化\n\n1. 查看客服数据，分析客户对话，优化AI语音模型。\n2. 定期检查系统运行状态，确保服务稳定。",
+      "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
+      "status": "dead",
+      "is_violation": false,
+      "id": "rezora-io",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "Adside",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能管理付费广告",
+      "tags": [
+        "广告管理",
+        "AI代理",
+        "付费推广"
+      ],
+      "scenarios": [
+        "广告投放优化",
+        "广告效果分析",
+        "广告自动化"
+      ],
+      "tutorial": "## Adside 使用教程\n\n1. 注册并登录 Adside\n\n2. 创建广告账户并设置广告目标\n\n3. 上传广告素材并设置广告预算\n\n4. 启动广告投放并监控效果\n\n5. 根据数据调整广告策略",
+      "url": "https://www.producthunt.com/products/adside",
+      "status": "dead",
+      "is_violation": false,
+      "id": "adside",
+      "added": "2026-11-20"
+    },
+    {
+      "name": "TestSprite 4.0",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动检测网页问题，确保网站稳定运行",
+      "tags": [
+        "网页检测",
+        "自动化测试",
+        "性能监控"
+      ],
+      "scenarios": [
+        "网站开发",
+        "网站维护",
+        "用户体验优化"
+      ],
+      "tutorial": "## TestSprite 4.0 使用教程\n\n### 1. 安装与启动\n\n1. 下载 TestSprite 4.0 安装包。\n2. 解压安装包并运行 TestSprite 应用程序。\n3. 确保浏览器已安装 TestSprite 插件。\n\n### 2. 创建测试任务\n\n1. 在 TestSprite 应用程序中点击 '新建任务'。\n2. 输入测试任务的名称和描述。\n3. 选择测试的网页和测试环境。\n\n### 3. 运行测试\n\n1. 点击 '运行测试' 按钮。\n2. 测试过程开始，等待测试完成。\n3. 测试完成后，查看测试报告。\n\n### 4. 分析报告\n\n1. 测试报告会显示测试结果和问题详情。\n2. 根据报告分析问题原因并修复。\n3. 重复测试直到问题解决。",
+      "url": "https://www.producthunt.com/products/testsprite",
+      "status": "dead",
+      "is_violation": false,
+      "id": "testsprite-4-0",
+      "added": "2026-11-20"
     }
   ],
   "changelog": [
@@ -22692,6 +22936,24 @@
         "Vanira",
         "Dream by Smart Jelly",
         "UI Verify"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-20",
+      "added": [
+        "firecrawl",
+        "app-store-compliance",
+        "opensre",
+        "hermes_agent",
+        "Teaflask",
+        "Netlify Server",
+        "Tecla",
+        "Source",
+        "Rezora IO",
+        "Adside",
+        "TestSprite 4.0"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"

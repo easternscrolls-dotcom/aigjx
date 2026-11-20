@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T23:47:00.982Z",
+  "generatedAt": "2026-11-20T00:02:56.241Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4756,6 +4756,61 @@
       "url": "https://aiagent.72tool.com/tools/ui-verify.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/firecrawl.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/app-store-compliance.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/opensre.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hermes-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/teaflask.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/netlify-server.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tecla.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/source.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rezora-io.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/adside.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/testsprite-4-0.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4786,7 +4841,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 944,
+    "totalAgents": 955,
     "byCategory": [
       {
         "id": "local",
@@ -4796,12 +4851,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 795
+        "count": 804
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 77
+        "count": 79
       },
       {
         "id": "crossborder",
@@ -4814,6 +4869,6 @@
         "count": 23
       }
     ],
-    "deadLinks": 639
+    "deadLinks": 646
   }
 }
