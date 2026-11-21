@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T23:32:18.700Z",
+  "generatedAt": "2026-11-21T22:38:22.201Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4866,6 +4866,56 @@
       "url": "https://aiagent.72tool.com/tools/docker.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/partselect-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-cv-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gaia-course-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ai-context-flow-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/waitfeed.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gitroots.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/publicit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openvorld.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/shipyard.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/stitch-loop.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4896,7 +4946,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 966,
+    "totalAgents": 976,
     "byCategory": [
       {
         "id": "local",
@@ -4906,12 +4956,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 814
+        "count": 822
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 79
+        "count": 81
       },
       {
         "id": "crossborder",
@@ -4924,6 +4974,6 @@
         "count": 24
       }
     ],
-    "deadLinks": 657
+    "deadLinks": 664
   }
 }
