@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T22:38:22.201Z",
+  "generatedAt": "2026-11-22T22:59:48.239Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4916,6 +4916,41 @@
       "url": "https://aiagent.72tool.com/tools/stitch-loop.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/multi-agent-ai-microsoft-chess.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/stroke-copilot.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/multi-agent-ai-langgraph-chess.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/hermes-sqtm-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/webless-agents.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/teaserkit.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/omi-cli.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4946,7 +4981,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 976,
+    "totalAgents": 983,
     "byCategory": [
       {
         "id": "local",
@@ -4956,7 +4991,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 822
+        "count": 828
       },
       {
         "id": "workflow",
@@ -4971,9 +5006,9 @@
       {
         "id": "tools",
         "name": "Agent 配套辅助工具",
-        "count": 24
+        "count": 25
       }
     ],
-    "deadLinks": 664
+    "deadLinks": 667
   }
 }
