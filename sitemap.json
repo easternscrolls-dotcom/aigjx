@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:59:48.239Z",
+  "generatedAt": "2026-11-24T03:38:28.153Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4951,6 +4951,31 @@
       "url": "https://aiagent.72tool.com/tools/omi-cli.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/kyc-aml-guardrailed-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/replit-missions.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/gauth-personal-study-agent.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/plango.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/mobile-agent-testers.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -4981,7 +5006,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 983,
+    "totalAgents": 988,
     "byCategory": [
       {
         "id": "local",
@@ -4991,7 +5016,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 828
+        "count": 833
       },
       {
         "id": "workflow",
@@ -5009,6 +5034,6 @@
         "count": 25
       }
     ],
-    "deadLinks": 667
+    "deadLinks": 671
   }
 }

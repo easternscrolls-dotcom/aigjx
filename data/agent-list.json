@@ -21913,6 +21913,117 @@
       "is_violation": false,
       "id": "omi-cli",
       "added": "2026-11-23"
+    },
+    {
+      "name": "kyc-aml-guardrailed-agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化KYC/AML合规性检查的浏览器网页Agent",
+      "tags": [
+        "合规性",
+        "自动化",
+        "KYC",
+        "AML"
+      ],
+      "scenarios": [
+        "金融风控",
+        "合规审计",
+        "反洗钱"
+      ],
+      "tutorial": "## 使用教程\n\n### 1. 安装与配置\n1. 下载并安装kyc-aml-guardrailed-agent。\n2. 配置浏览器插件，确保插件与你的工作流程兼容。\n3. 设置API密钥，用于数据传输和验证。\n\n### 2. 创建检查任务\n1. 在插件中创建新的检查任务。\n2. 选择需要检查的账户或交易。\n3. 设置检查参数，如时间范围、交易类型等。\n\n### 3. 运行与监控\n1. 启动检查任务。\n2. 监控任务进度和结果。\n3. 根据检查结果采取相应措施。\n\n### 4. 结果分析\n1. 查看检查报告。\n2. 分析潜在风险。\n3. 生成合规性报告。",
+      "url": "https://huggingface.co/spaces/johnlau13168/kyc-aml-guardrailed-agent",
+      "status": "active",
+      "is_violation": false,
+      "id": "kyc-aml-guardrailed-agent",
+      "added": "2026-11-24"
+    },
+    {
+      "name": "Replit Missions",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 代理团队协作预算管理",
+      "tags": [
+        "AI 代理",
+        "团队协作",
+        "预算管理"
+      ],
+      "scenarios": [
+        "项目管理",
+        "团队协作",
+        "预算控制"
+      ],
+      "tutorial": "## Replit Missions 使用教程\n\n### 1. 创建项目\n\n1. 访问 Replit Missions 网站，注册或登录账号。\n2. 点击 'Create a new project' 创建一个新的项目。\n3. 输入项目名称和描述，设置预算。\n\n### 2. 添加 AI 代理\n\n1. 在项目设置中，点击 'Add AI Agent'。\n2. 选择合适的 AI 代理类型，设置参数。\n3. 点击 'Save' 保存设置。\n\n### 3. 协调团队\n\n1. 在项目界面，查看团队成员和任务分配。\n2. 通过聊天功能与团队成员沟通。\n3. 跟踪项目进度和预算使用情况。\n\n### 4. 项目管理\n\n1. 在项目管理界面，查看项目详情和统计。\n2. 生成报告，分析项目绩效。\n3. 根据需要调整预算和任务分配。",
+      "url": "https://www.producthunt.com/products/replit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "replit-missions",
+      "added": "2026-11-24"
+    },
+    {
+      "name": "Gauth Personal Study Agent",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI学习助手，记录学习难点",
+      "tags": [
+        "AI学习",
+        "个性化学习",
+        "学习助手"
+      ],
+      "scenarios": [
+        "在线教育平台",
+        "个人学习管理",
+        "学习资源推荐"
+      ],
+      "tutorial": "## 使用Gauth Personal Study Agent进行个性化学习\n1. 注册并登录Gauth Personal Study Agent平台。\n2. 选择或创建一个学习课程，开始学习。\n3. 平台会自动记录你在学习过程中遇到的难点。\n4. 定期查看学习报告，了解自己的学习进度和难点。\n5. 根据报告调整学习计划，针对性地解决学习难点。",
+      "url": "https://www.producthunt.com/products/gauth-ai-course",
+      "status": "dead",
+      "is_violation": false,
+      "id": "gauth-personal-study-agent",
+      "added": "2026-11-24"
+    },
+    {
+      "name": "Plango",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理夜间安全工作",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "夜间工作"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "夜间监控"
+      ],
+      "tutorial": "## Plango 使用教程\n\n### 1. 安装 Plango\n\n1. 访问 Plango 官网下载最新版本。\n2. 根据操作系统选择合适的安装包。\n3. 运行安装包完成安装。\n\n### 2. 创建 AI 代理\n\n1. 打开 Plango 软件，点击创建新代理。\n2. 输入代理名称和描述。\n3. 选择代理运行的时间段。\n\n### 3. 配置任务\n\n1. 在代理详情页，点击添加任务。\n2. 选择任务类型，如网页自动化、数据采集等。\n3. 配置任务参数，如目标网址、数据提取规则等。\n\n### 4. 运行代理\n\n1. 点击运行按钮，启动代理。\n2. 观察代理运行状态，确保任务正常执行。\n3. 代理运行结束后，可以查看任务结果。",
+      "url": "https://www.producthunt.com/products/plango",
+      "status": "dead",
+      "is_violation": false,
+      "id": "plango",
+      "added": "2026-11-24"
+    },
+    {
+      "name": "Mobile Agent Testers",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "免费开源AI代理，手机端测试应用",
+      "tags": [
+        "AI代理",
+        "应用测试",
+        "开源"
+      ],
+      "scenarios": [
+        "移动应用测试",
+        "自动化测试",
+        "用户体验优化"
+      ],
+      "tutorial": "## 使用Mobile Agent Testers进行应用测试\n1. 下载并安装Mobile Agent Testers。\n2. 打开应用，选择要测试的应用并启动。\n3. 观察Mobile Agent Testers在手机上模拟用户操作。\n4. 收集测试数据，分析应用性能和用户体验。\n5. 根据测试结果进行应用优化。",
+      "url": "https://www.producthunt.com/products/mobile-agent-testers",
+      "status": "dead",
+      "is_violation": false,
+      "id": "mobile-agent-testers",
+      "added": "2026-11-24"
     }
   ],
   "changelog": [
@@ -23621,6 +23732,18 @@
         "Webless Agents",
         "TeaserKit",
         "Omi CLI"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-24",
+      "added": [
+        "kyc-aml-guardrailed-agent",
+        "Replit Missions",
+        "Gauth Personal Study Agent",
+        "Plango",
+        "Mobile Agent Testers"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
