@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:38:28.153Z",
+  "generatedAt": "2026-11-25T01:46:26.013Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -4976,6 +4976,36 @@
       "url": "https://aiagent.72tool.com/tools/mobile-agent-testers.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/viktor-code.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/cullman.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/granular-build.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/scribase-mcp-server.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/clam-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/fleetify.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -5006,7 +5036,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 988,
+    "totalAgents": 994,
     "byCategory": [
       {
         "id": "local",
@@ -5016,12 +5046,12 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 833
+        "count": 838
       },
       {
         "id": "workflow",
         "name": "低代码工作流 Agent",
-        "count": 81
+        "count": 82
       },
       {
         "id": "crossborder",
@@ -5034,6 +5064,6 @@
         "count": 25
       }
     ],
-    "deadLinks": 671
+    "deadLinks": 677
   }
 }

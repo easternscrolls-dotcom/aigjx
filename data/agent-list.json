@@ -22024,6 +22024,140 @@
       "is_violation": false,
       "id": "mobile-agent-testers",
       "added": "2026-11-24"
+    },
+    {
+      "name": "Viktor Code",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "智能代码助手，了解您的公司代码库。",
+      "tags": [
+        "代码助手",
+        "智能搜索",
+        "代码理解"
+      ],
+      "scenarios": [
+        "代码库管理",
+        "团队协作",
+        "代码搜索优化"
+      ],
+      "tutorial": "## 使用Viktor Code教程\n\n1. 下载并安装Viktor Code。\n2. 登录您的代码库账户，授权Viktor Code访问您的代码库。\n3. 在Viktor Code中搜索您需要的代码或功能。\n4. Viktor Code将提供相关的代码片段和文档。\n5. 您可以根据需要进一步编辑或使用这些代码。",
+      "url": "https://www.producthunt.com/products/viktor",
+      "status": "dead",
+      "is_violation": false,
+      "id": "viktor-code",
+      "added": "2026-11-25"
+    },
+    {
+      "name": "Cullman",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "快速语音代理评估工具，从模拟到生产",
+      "tags": [
+        "语音代理",
+        "评估",
+        "模拟",
+        "生产"
+      ],
+      "scenarios": [
+        "语音识别评估",
+        "语音合成测试",
+        "语音交互系统"
+      ],
+      "tutorial": "## Cullman 使用教程\n\n### 1. 安装 Cullman\n\n从 [Cullman 官网](https://www.producthunt.com/products/cullman) 下载并安装 Cullman。\n\n### 2. 配置语音模型\n\n在 Cullman 中选择合适的语音模型，进行配置。\n\n### 3. 模拟测试\n\n使用模拟数据对配置的语音模型进行测试，观察语音输出效果。\n\n### 4. 生产环境部署\n\n将测试通过的语音模型部署到生产环境中，进行实际应用。",
+      "url": "https://www.producthunt.com/products/cullman",
+      "status": "dead",
+      "is_violation": false,
+      "id": "cullman",
+      "added": "2026-11-25"
+    },
+    {
+      "name": "Granular.Build",
+      "category": "workflow",
+      "type": "cloud-paid",
+      "summary": "可视化构建AI代理工作空间",
+      "tags": [
+        "AI代理",
+        "工作流",
+        "可视化"
+      ],
+      "scenarios": [
+        "自动化工作流程",
+        "AI代理管理",
+        "业务流程优化"
+      ],
+      "tutorial": "## Granular.Build 使用教程\n\n### 1. 创建工作空间\n\n1. 访问 Granular.Build 官网并注册账号。\n2. 登录后，点击创建新工作空间。\n3. 输入工作空间名称并选择合适的配置。\n\n### 2. 添加AI代理\n\n1. 在工作空间中，点击添加AI代理。\n2. 选择所需的AI代理类型，如聊天机器人、数据采集器等。\n3. 配置代理的参数和规则。\n\n### 3. 编排工作流\n\n1. 将AI代理拖拽到工作流编辑器中。\n2. 使用拖拽方式连接代理，创建工作流。\n3. 设置工作流的触发条件和执行顺序。\n\n### 4. 部署和监控\n\n1. 完成工作流配置后，点击部署。\n2. 监控工作流的运行状态，确保其按预期执行。\n3. 如有必要，可以随时调整工作流配置。",
+      "url": "https://www.producthunt.com/products/granular-build",
+      "status": "dead",
+      "is_violation": false,
+      "id": "granular-build",
+      "added": "2026-11-25"
+    },
+    {
+      "name": "Scribase MCP Server",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "为代码代理提供Postgres后端服务",
+      "tags": [
+        "数据库",
+        "后端",
+        "代理"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Scribase MCP Server\n\n1. 下载并安装Scribase MCP Server。\n2. 配置数据库连接信息，确保代码代理可以访问。\n3. 在代码代理中设置数据库连接，使用Scribase提供的API进行数据库操作。\n4. 通过代码代理执行数据库查询、更新等操作。\n5. 监控数据库性能，确保服务稳定运行。",
+      "url": "https://www.producthunt.com/products/scribase",
+      "status": "dead",
+      "is_violation": false,
+      "id": "scribase-mcp-server",
+      "added": "2026-11-25"
+    },
+    {
+      "name": "Clam AI",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 协助邮箱安全共享",
+      "tags": [
+        "邮箱",
+        "AI",
+        "安全",
+        "共享"
+      ],
+      "scenarios": [
+        "企业内部沟通",
+        "团队协作",
+        "个人隐私保护"
+      ],
+      "tutorial": "## Clam AI 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Clam AI 官网，点击注册按钮，使用邮箱或社交媒体账号注册。\n2. 注册成功后，使用邮箱验证并登录。\n\n### 2. 配置邮箱\n\n1. 登录后，选择需要与 Clam AI 共享的邮箱账户。\n2. 按照提示完成邮箱配置，包括授权 Clam AI 访问邮箱权限。\n\n### 3. 使用 AI 功能\n\n1. 在邮箱界面，Clam AI 会自动识别邮件内容并提供安全建议。\n2. 可以通过 AI 功能进行邮件分类、自动回复等操作。\n\n### 4. 安全设置\n\n1. 在设置中，可以调整 Clam AI 的安全级别和功能。\n2. 确保邮箱数据的安全性和隐私保护。",
+      "url": "https://www.producthunt.com/products/clam-ai",
+      "status": "dead",
+      "is_violation": false,
+      "id": "clam-ai",
+      "added": "2026-11-25"
+    },
+    {
+      "name": "Fleetify",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开源AI编码代理指挥中心",
+      "tags": [
+        "AI代理",
+        "开源",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "数据采集",
+        "网页自动化"
+      ],
+      "tutorial": "## 使用Fleetify进行AI编码代理的配置\n\n1. 下载并安装Fleetify客户端。\n2. 打开客户端，创建一个新的代理项目。\n3. 在项目中配置代理的参数，如代理类型、端口等。\n4. 编写或导入你的AI编码脚本。\n5. 运行代理项目，监控代理的执行情况。\n\n## 小节标题\n\n1. 创建代理项目\n2. 配置代理参数\n3. 编写AI编码脚本\n4. 运行代理项目",
+      "url": "https://www.producthunt.com/products/fleetify",
+      "status": "dead",
+      "is_violation": false,
+      "id": "fleetify",
+      "added": "2026-11-25"
     }
   ],
   "changelog": [
@@ -23744,6 +23878,19 @@
         "Gauth Personal Study Agent",
         "Plango",
         "Mobile Agent Testers"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-25",
+      "added": [
+        "Viktor Code",
+        "Cullman",
+        "Granular.Build",
+        "Scribase MCP Server",
+        "Clam AI",
+        "Fleetify"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
