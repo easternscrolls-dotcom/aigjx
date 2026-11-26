@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:46:26.013Z",
+  "generatedAt": "2026-11-26T01:22:58.034Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -5006,6 +5006,76 @@
       "url": "https://aiagent.72tool.com/tools/fleetify.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/digital-marketing-agent-skills.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/aisplaining-agent-edition.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/qube.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/coderabbit-verify.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/openeight.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/tendeck.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/memoryworks.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/vibecode-surf.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/koed.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/canva-mcp.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/continual-arc.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/statefold.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/snag-by-parallel.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/peerband.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -5036,7 +5106,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 994,
+    "totalAgents": 1008,
     "byCategory": [
       {
         "id": "local",
@@ -5046,7 +5116,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 838
+        "count": 852
       },
       {
         "id": "workflow",
@@ -5064,6 +5134,6 @@
         "count": 25
       }
     ],
-    "deadLinks": 677
+    "deadLinks": 689
   }
 }

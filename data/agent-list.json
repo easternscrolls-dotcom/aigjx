@@ -22158,6 +22158,320 @@
       "is_violation": false,
       "id": "fleetify",
       "added": "2026-11-25"
+    },
+    {
+      "name": "digital-marketing-agent-skills",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动操作网页，实现数字营销自动化",
+      "tags": [
+        "数字营销",
+        "自动化",
+        "网页操作",
+        "Hugging Face"
+      ],
+      "scenarios": [
+        "社交媒体营销",
+        "广告投放",
+        "数据分析"
+      ],
+      "tutorial": "## 使用 Digital Marketing Agent Skills 进行数字营销自动化\n\n### 1. 安装和配置\n\n1. 下载并安装 Hugging Face 的客户端。\n2. 注册 Hugging Face 账户并创建一个新的项目。\n3. 在项目中添加 Digital Marketing Agent Skills。\n\n### 2. 创建任务\n\n1. 在 Hugging Face 客户端中，选择 Digital Marketing Agent Skills。\n2. 设置任务参数，如目标网页、操作类型等。\n3. 点击 'Run' 开始执行任务。\n\n### 3. 监控和调整\n\n1. 查看任务执行进度和结果。\n2. 根据需要调整任务参数。\n3. 保存和分享任务设置。\n\n### 4. 数据分析\n\n1. 导出任务执行数据。\n2. 使用数据分析工具进行深入分析。\n3. 根据分析结果优化营销策略。",
+      "url": "https://huggingface.co/spaces/lensetek/digital-marketing-agent-skills",
+      "status": "active",
+      "is_violation": false,
+      "id": "digital-marketing-agent-skills",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "aisplaining-agent-edition",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 辅助的网页自动化工具，简化网页操作。",
+      "tags": [
+        "AI",
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## 使用 aisplaining-agent-edition 进行网页自动化\n\n### 1. 安装与配置\n\n1. 下载 aisplaining-agent-edition 的安装包。\n2. 解压安装包并运行配置脚本，设置环境变量。\n3. 连接到目标网页，进行初步的页面布局分析。\n\n### 2. 编写自动化脚本\n\n1. 使用提供的脚本编辑器，编写自动化任务脚本。\n2. 脚本中可使用预定义的函数进行页面元素定位和操作。\n3. 保存并运行脚本，测试自动化效果。\n\n### 3. 调试与优化\n\n1. 根据测试结果，对脚本进行调试和优化。\n2. 考虑异常处理和错误日志记录，提高脚本稳定性。\n3. 重复测试，确保自动化流程无误。\n\n### 4. 部署与监控\n\n1. 将脚本部署到服务器或本地环境。\n2. 设置监控，确保自动化任务正常运行。\n3. 定期检查日志，及时处理异常。",
+      "url": "https://huggingface.co/spaces/mantas1-beep/aisplaining-agent-edition",
+      "status": "active",
+      "is_violation": false,
+      "id": "aisplaining-agent-edition",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Qube",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "面向所有人的AI代理",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## Qube 使用教程\n\n### 1. 安装Qube\n\n- 访问 [Qube官网](https://www.producthunt.com/products/qube-6) 下载最新版本。\n- 按照提示完成安装。\n\n### 2. 创建新任务\n\n- 打开Qube，点击创建新任务。\n- 选择任务类型，如网页自动化。\n\n### 3. 编写任务脚本\n\n- 使用Qube提供的可视化编辑器编写任务脚本。\n- 可以设置自动化流程，如点击按钮、填写表单等。\n\n### 4. 运行任务\n\n- 点击运行按钮，Qube将自动执行任务。\n- 查看任务执行结果。",
+      "url": "https://www.producthunt.com/products/qube-6",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qube",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "CodeRabbit Verify",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动测试应用，提升代码质量",
+      "tags": [
+        "AI",
+        "自动化测试",
+        "代码审查",
+        "持续集成"
+      ],
+      "scenarios": [
+        "持续集成流程",
+        "代码审查",
+        "应用测试"
+      ],
+      "tutorial": "## 使用 CodeRabbit Verify 进行应用测试\n\n1. 2. 3.\n\n1. **配置项目**\n   - 在项目中安装 CodeRabbit Verify。\n   - 配置测试环境，包括测试服务器和数据库。\n\n2. **编写测试用例**\n   - 使用 CodeRabbit Verify 提供的 API 或命令行工具编写测试用例。\n   - 确保测试用例覆盖关键功能点。\n\n3. **集成到 CI/CD 流程**\n   - 将测试用例集成到持续集成/持续部署 (CI/CD) 流程中。\n   - 每次代码提交或合并请求时自动运行测试用例。\n\n4. **分析测试结果**\n   - 查看测试结果，分析代码质量。\n   - 及时修复发现的问题。",
+      "url": "https://www.producthunt.com/products/coderabbit",
+      "status": "dead",
+      "is_violation": false,
+      "id": "coderabbit-verify",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "OpenEight",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的确定性控制层",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "控制层"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "网页交互",
+        "数据采集"
+      ],
+      "tutorial": "## OpenEight 使用教程\n\n### 1. 安装与配置\n\n1. 访问 [OpenEight 官网](https://www.producthunt.com/products/openeight) 下载最新版本。\n2. 按照提示完成安装。\n3. 配置好相关环境变量和依赖库。\n\n### 2. 创建代理\n\n1. 打开 OpenEight，点击 '创建代理'。\n2. 输入代理名称和描述。\n3. 选择合适的代理类型和配置参数。\n\n### 3. 编写脚本\n\n1. 在脚本编辑器中编写自动化脚本。\n2. 使用 OpenEight 提供的 API 和函数进行操作。\n3. 保存并测试脚本。\n\n### 4. 运行代理\n\n1. 点击 '运行' 按钮启动代理。\n2. 观察代理的运行状态和输出结果。\n3. 根据需要调整脚本和配置。",
+      "url": "https://www.producthunt.com/products/openeight",
+      "status": "dead",
+      "is_violation": false,
+      "id": "openeight",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Tendeck",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "Mac上运行Claude Code和Codex代理",
+      "tags": [
+        "Mac",
+        "代理",
+        "代码",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码开发",
+        "自动化测试",
+        "Mac应用管理"
+      ],
+      "tutorial": "## Tendeck使用教程\n\n### 1. 下载与安装\n\n1. 访问Tendeck官网下载最新版本。\n2. 按照提示完成安装。\n\n### 2. 创建代理\n\n1. 打开Tendeck应用。\n2. 点击创建新的代理。\n3. 输入代理名称，选择Claude Code或Codex作为代理类型。\n4. 点击保存。\n\n### 3. 运行代理\n\n1. 在代理列表中找到刚刚创建的代理。\n2. 点击运行按钮，开始运行代理。\n\n### 4. 监控与控制\n\n1. 在运行界面中，可以实时查看代理的运行状态。\n2. 如有需要，可以暂停或停止代理的运行。",
+      "url": "https://www.producthunt.com/products/tendeck",
+      "status": "dead",
+      "is_violation": false,
+      "id": "tendeck",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "MemoryWorks",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理的团队记忆库",
+      "tags": [
+        "AI",
+        "记忆",
+        "团队协作"
+      ],
+      "scenarios": [
+        "团队知识管理",
+        "AI 代理训练",
+        "知识共享"
+      ],
+      "tutorial": "## MemoryWorks 使用教程\n\n### 1. 注册与登录\n\n1. 访问 MemoryWorks 官网并注册账号。\n2. 使用邮箱验证并登录系统。\n\n### 2. 创建记忆库\n\n1. 在首页点击创建新的记忆库。\n2. 输入记忆库名称和描述，选择隐私设置。\n\n### 3. 添加内容\n\n1. 在记忆库页面，点击添加内容。\n2. 上传文档、图片或输入文本内容。\n3. 添加标签以便分类和搜索。\n\n### 4. 搜索与分享\n\n1. 使用搜索框查找所需信息。\n2. 将记忆库内容分享给团队成员。\n3. 设置权限控制谁可以查看和编辑内容。",
+      "url": "https://www.producthunt.com/products/memoryworks",
+      "status": "dead",
+      "is_violation": false,
+      "id": "memoryworks",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "VibeCode.surf",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "AI 编程编辑器，构建、运行和测试应用",
+      "tags": [
+        "AI 编程",
+        "代码编辑",
+        "应用开发"
+      ],
+      "scenarios": [
+        "Web 应用开发",
+        "自动化测试",
+        "代码优化"
+      ],
+      "tutorial": "## VibeCode.surf 使用教程\n\n### 1. 注册与登录\n\n1. 访问 [VibeCode.surf 官网](https://www.vibecode.surf) 进行注册。\n2. 使用邮箱或社交媒体账号登录。\n\n### 2. 创建新项目\n\n1. 登录后，点击 'New Project' 创建新项目。\n2. 输入项目名称和描述，选择编程语言。\n\n### 3. 编写代码\n\n1. 在代码编辑器中编写代码。\n2. VibeCode.surf 支持多种编程语言，如 Python、JavaScript 等。\n\n### 4. 运行和测试\n\n1. 编写完代码后，点击 'Run' 运行应用。\n2. 使用内置的测试功能进行测试，确保应用功能正常。\n\n### 5. 部署应用\n\n1. 测试通过后，可以将应用部署到服务器或云平台。\n2. VibeCode.surf 支持多种部署选项，如 Heroku、AWS 等。",
+      "url": "https://www.producthunt.com/products/vibecode-surf",
+      "status": "dead",
+      "is_violation": false,
+      "id": "vibecode-surf",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Koed",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "超级加速的网页Agent，自动操作网页",
+      "tags": [
+        "自动化",
+        "网页操作",
+        "RPA"
+      ],
+      "scenarios": [
+        "数据采集",
+        "网页测试",
+        "自动化测试"
+      ],
+      "tutorial": "## Koed 使用教程\n\n### 1. 安装 Koed\n\n- 访问 Koed 官网下载最新版本。\n- 根据操作系统选择合适的安装包进行安装。\n\n### 2. 创建新项目\n\n- 打开 Koed，点击创建新项目。\n- 输入项目名称，选择项目类型。\n\n### 3. 编写脚本\n\n- 在 Koed 编辑器中编写脚本，实现网页操作逻辑。\n- 使用 Koed 提供的 API 进行网页元素定位和操作。\n\n### 4. 运行脚本\n\n- 点击运行按钮，观察脚本执行过程。\n- 检查脚本执行结果，确保网页操作正确无误。\n\n### 5. 保存和分享\n\n- 保存项目，以便后续使用。\n- 将项目分享给其他用户，共同协作。",
+      "url": "https://www.producthunt.com/products/koed",
+      "status": "dead",
+      "is_violation": false,
+      "id": "koed",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Canva MCP",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "将任何AI代理转变为创意强大工具",
+      "tags": [
+        "AI创意",
+        "网页设计",
+        "自动化"
+      ],
+      "scenarios": [
+        "在线设计协作",
+        "创意内容生成",
+        "营销素材制作"
+      ],
+      "tutorial": "## 使用Canva MCP进行创意设计\n\n1. 注册并登录Canva MCP平台\n\n2. 选择或上传设计模板，开始编辑\n\n3. 利用AI工具自动生成创意元素，如图片、文字等\n\n4. 通过拖拽和编辑，定制化设计内容\n\n5. 保存并导出设计成果",
+      "url": "https://www.producthunt.com/products/canva",
+      "status": "dead",
+      "is_violation": false,
+      "id": "canva-mcp",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Continual-ARC",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "强化学习浏览器自动化工具",
+      "tags": [
+        "强化学习",
+        "浏览器自动化",
+        "机器学习"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "自动化测试"
+      ],
+      "tutorial": "## Continual-ARC 使用教程\n\n### 1. 安装 Continual-ARC\n\n从 [GitHub](https://github.com/ContinualLearningProject/Continual-ARC) 下载 Continual-ARC 源代码，并按照 README 文件中的说明进行安装。\n\n### 2. 配置环境\n\n确保您的系统已安装 Python 和必要的依赖库，如 TensorFlow 或 PyTorch。\n\n### 3. 创建项目\n\n在 Continual-ARC 中创建一个新的项目，选择合适的强化学习算法和浏览器自动化脚本。\n\n### 4. 训练模型\n\n运行训练脚本，开始训练模型。模型将学习在浏览器中执行自动化任务。\n\n### 5. 验证和测试\n\n完成训练后，验证模型在浏览器中的表现，并进行必要的调整。",
+      "url": "https://www.producthunt.com/products/unify-5",
+      "status": "dead",
+      "is_violation": false,
+      "id": "continual-arc",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Statefold",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "离线运行，自动执行任务的浏览器代理",
+      "tags": [
+        "自动化",
+        "代理",
+        "离线工作"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## 使用Statefold进行自动化任务\n\n1. 下载并安装Statefold。\n2. 打开Statefold，创建一个新的代理项目。\n3. 在代理项目中，添加需要自动化的网页元素和操作步骤。\n4. 设置代理的触发条件，例如定时执行或特定事件触发。\n5. 运行代理，观察其执行结果。\n6. 根据需要调整代理设置，优化自动化流程。",
+      "url": "https://www.producthunt.com/products/statefold-2",
+      "status": "dead",
+      "is_violation": false,
+      "id": "statefold",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "Snag by Parallel",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "智能比价助手，帮你找到最佳产品优惠。",
+      "tags": [
+        "比价",
+        "智能助手",
+        "产品优惠",
+        "浏览器插件"
+      ],
+      "scenarios": [
+        "电商购物",
+        "价格比较",
+        "消费者决策"
+      ],
+      "tutorial": "## Snag by Parallel 使用教程\n\n### 1. 安装插件\n\n1. 访问 [Product Hunt](https://www.producthunt.com/products/snag) 并点击 'Add to Chrome' 或 'Add to Firefox' 安装 Snag 插件。\n\n### 2. 配置账户\n\n1. 安装插件后，在浏览器中打开任何电商网站。\n2. 点击插件图标，按照提示完成账户配置。\n\n### 3. 搜索产品\n\n1. 在电商网站上找到你感兴趣的产品。\n2. 点击插件图标，Snag 将自动搜索该产品的最佳价格。\n\n### 4. 比较价格\n\n1. Snag 会显示该产品的不同来源的价格。\n2. 选择最适合你的价格并购买。",
+      "url": "https://www.producthunt.com/products/snag",
+      "status": "dead",
+      "is_violation": false,
+      "id": "snag-by-parallel",
+      "added": "2026-11-26"
+    },
+    {
+      "name": "PeerBand",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "跨地域连接编码代理",
+      "tags": [
+        "代理",
+        "编码",
+        "远程",
+        "连接"
+      ],
+      "scenarios": [
+        "远程编码协作",
+        "多地域开发团队协作",
+        "代码审查"
+      ],
+      "tutorial": "## PeerBand 使用教程\n\n### 1. 注册与登录\n\n1. 访问PeerBand官网，注册账号并登录。\n2. 完成邮箱验证，确保账户安全。\n\n### 2. 创建代理\n\n1. 在个人中心，点击创建代理。\n2. 输入代理名称和描述，选择代理类型和地域。\n3. 点击创建，等待代理启动。\n\n### 3. 连接代理\n\n1. 在项目设置中，选择PeerBand作为代理服务。\n2. 输入代理名称和密码，点击连接。\n3. 连接成功后，即可在项目中使用代理进行操作。\n\n### 4. 管理代理\n\n1. 在个人中心，可以查看和管理所有代理。\n2. 可以编辑代理设置，如修改名称、描述、类型和地域。\n3. 可以删除不再需要的代理。",
+      "url": "https://www.producthunt.com/products/peerband",
+      "status": "dead",
+      "is_violation": false,
+      "id": "peerband",
+      "added": "2026-11-26"
     }
   ],
   "changelog": [
@@ -23891,6 +24205,27 @@
         "Scribase MCP Server",
         "Clam AI",
         "Fleetify"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-26",
+      "added": [
+        "digital-marketing-agent-skills",
+        "aisplaining-agent-edition",
+        "Qube",
+        "CodeRabbit Verify",
+        "OpenEight",
+        "Tendeck",
+        "MemoryWorks",
+        "VibeCode.surf",
+        "Koed",
+        "Canva MCP",
+        "Continual-ARC",
+        "Statefold",
+        "Snag by Parallel",
+        "PeerBand"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
