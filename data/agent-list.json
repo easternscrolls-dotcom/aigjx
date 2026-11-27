@@ -22472,6 +22472,273 @@
       "is_violation": false,
       "id": "peerband",
       "added": "2026-11-26"
+    },
+    {
+      "name": "WhipDesk",
+      "category": "browser",
+      "type": "cloud-paid",
+      "summary": "手机控制AI编码代理",
+      "tags": [
+        "AI编码",
+        "手机控制",
+        "自动化"
+      ],
+      "scenarios": [
+        "自动化测试",
+        "代码审查",
+        "开发辅助"
+      ],
+      "tutorial": "## 使用WhipDesk进行AI编码代理控制\n\n### 1. 注册与登录\n\n1. 访问WhipDesk官网并注册账号。\n2. 使用邮箱验证并登录。\n\n### 2. 创建代理\n\n1. 在控制台选择创建新的AI编码代理。\n2. 输入代理名称和配置参数。\n\n### 3. 配置任务\n\n1. 选择需要执行的编码任务。\n2. 设置任务参数和执行条件。\n\n### 4. 监控与控制\n\n1. 通过手机APP实时监控代理执行情况。\n2. 可远程控制代理的暂停、继续和停止。",
+      "url": "https://www.producthunt.com/products/whipdesk",
+      "status": "dead",
+      "is_violation": false,
+      "id": "whipdesk",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "ExtraOrbital",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开放数据库、存储桶和AI密钥的浏览器网页Agent",
+      "tags": [
+        "数据库",
+        "存储",
+        "AI"
+      ],
+      "scenarios": [
+        "数据采集",
+        "自动化操作",
+        "网页管理"
+      ],
+      "tutorial": "## 使用ExtraOrbital进行数据采集\n\n1. 注册并登录ExtraOrbital账户。\n2. 在数据库列表中找到目标数据库，点击进入。\n3. 选择所需的数据表，点击“导出”按钮。\n4. 在导出设置中选择导出格式和存储位置。\n5. 点击“导出”开始下载数据。\n\n## 使用ExtraOrbital进行存储管理\n\n1. 在存储桶列表中找到目标存储桶，点击进入。\n2. 上传或选择需要存储的文件。\n3. 设置文件权限和存储分类。\n4. 点击“上传”完成存储。\n\n## 使用ExtraOrbital进行AI密钥管理\n\n1. 在AI密钥列表中找到目标密钥，点击进入。\n2. 查看密钥详情，包括密钥ID、密钥类型和权限。\n3. 如需修改密钥，点击“编辑”按钮。\n4. 保存修改后，密钥将更新。",
+      "url": "https://www.producthunt.com/products/extraorbital-deleted-1365752",
+      "status": "dead",
+      "is_violation": false,
+      "id": "extraorbital",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Claude-Mem Cloud Sync",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨设备同步AI代理记忆",
+      "tags": [
+        "跨设备",
+        "AI代理",
+        "记忆同步"
+      ],
+      "scenarios": [
+        "跨平台协作",
+        "个人助理同步"
+      ],
+      "tutorial": "## 使用Claude-Mem Cloud Sync同步AI代理记忆\n\n1. 注册并登录Claude-Mem Cloud Sync服务。\n2. 在你的设备上安装Claude-Mem客户端。\n3. 配置你的AI代理以使用Claude-Mem服务。\n4. 在不同设备间切换时，AI代理的记忆将自动同步。\n5. 确保所有设备上客户端的配置保持一致。",
+      "url": "https://www.producthunt.com/products/claude-mem",
+      "status": "dead",
+      "is_violation": false,
+      "id": "claude-mem-cloud-sync",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Chunkify",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "开发者与AI代理的视频流API",
+      "tags": [
+        "视频流",
+        "API",
+        "开发者",
+        "AI代理"
+      ],
+      "scenarios": [
+        "视频内容分发",
+        "直播流处理",
+        "视频监控"
+      ],
+      "tutorial": "## 使用Chunkify进行视频流处理\n\n1. 注册并登录Chunkify平台\n\n2. 创建一个新的视频流项目，选择视频源和输出格式\n\n3. 配置视频流的参数，如分辨率、码率等\n\n4. 启动视频流，Chunkify将自动处理视频流并输出到指定位置\n\n5. 监控视频流的状态，确保视频流正常传输",
+      "url": "https://www.producthunt.com/products/chunkify",
+      "status": "dead",
+      "is_violation": false,
+      "id": "chunkify",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Remora",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI 代理长期记忆层，强化网页交互记忆",
+      "tags": [
+        "AI",
+        "记忆",
+        "代理",
+        "长期记忆"
+      ],
+      "scenarios": [
+        "网页自动化",
+        "数据采集",
+        "智能客服"
+      ],
+      "tutorial": "## Remora 使用教程\n\n### 1. 安装 Remora\n\n首先，访问 Remora 的官网下载并安装 Remora 扩展或插件，具体步骤如下：\n\n1. 访问 Remora 官网下载对应的浏览器插件。\n2. 打开浏览器，进入扩展程序页面，点击 '加载已解压的扩展程序'，选择下载的 Remora 文件。\n\n### 2. 配置 Remora\n\n安装完成后，在浏览器中打开 Remora，进行以下配置：\n\n1. 配置 Remora 的记忆参数，如记忆容量、记忆时长等。\n2. 设置 Remora 的触发条件，例如在特定网页或操作时激活记忆功能。\n\n### 3. 使用 Remora\n\n在浏览网页时，Remora 会自动记录相关信息，并在需要时调用记忆数据。例如，在填写表单时，Remora 可以自动填充之前输入过的信息。\n\n### 4. 管理记忆\n\n在 Remora 的设置中，可以查看和管理所有记忆数据，包括删除或修改不正确的记忆内容。",
+      "url": "https://www.producthunt.com/products/remora-6",
+      "status": "dead",
+      "is_violation": false,
+      "id": "remora",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Pax by Pydantic",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "插件式代码编写Agent，无需编写代码",
+      "tags": [
+        "代码生成",
+        "插件化",
+        "自动化"
+      ],
+      "scenarios": [
+        "代码开发",
+        "自动化测试",
+        "代码审查"
+      ],
+      "tutorial": "## Pax by Pydantic 使用教程\n\n### 1. 安装Pax\n\n首先，您需要在您的开发环境中安装Pax。\n\n1. 打开终端或命令提示符。\n2. 输入以下命令进行安装：\n   ```bash\n   pip install pax\n   ```\n\n### 2. 创建一个新项目\n\n在安装Pax后，您可以创建一个新的项目。\n\n1. 在终端中，切换到您想要创建项目的目录。\n2. 输入以下命令创建新项目：\n   ```bash\n   pax new my_project\n   ```\n\n### 3. 添加插件\n\nPax允许您添加各种插件来扩展其功能。\n\n1. 在项目目录中，找到`plugins`文件夹。\n2. 将您想要添加的插件复制到该文件夹中。\n3. 在Pax配置文件中，添加插件的路径。\n\n### 4. 编写代码\n\n现在，您可以使用Pax编写代码。\n\n1. 在项目目录中，打开Pax编辑器。\n2. 使用插件编写代码。\n3. 保存并运行代码。",
+      "url": "https://www.producthunt.com/products/pydantic",
+      "status": "dead",
+      "is_violation": false,
+      "id": "pax-by-pydantic",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Bifura",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI视角查看网站，助您优化用户体验",
+      "tags": [
+        "网站分析",
+        "用户体验",
+        "AI辅助"
+      ],
+      "scenarios": [
+        "网站优化",
+        "用户体验测试",
+        "产品迭代"
+      ],
+      "tutorial": "## Bifura 使用教程\n\n### 1. 注册与登录\n\n1. 访问 Bifura 官网，点击注册按钮，填写相关信息完成注册。\n2. 使用注册的邮箱登录 Bifura 平台。\n\n### 2. 创建项目\n\n1. 登录后，点击创建新项目，输入项目名称和描述。\n2. 选择项目类型，如网站分析或用户体验测试。\n\n### 3. 添加网站\n\n1. 在项目页面，点击添加网站，输入要分析的网站 URL。\n2. 设置分析参数，如分析时间段、用户行为等。\n\n### 4. 开始分析\n\n1. 点击开始分析按钮，Bifura 将自动分析网站。\n2. 分析完成后，查看分析报告，了解网站性能和用户体验问题。\n\n### 5. 优化建议\n\n1. 根据分析报告，对网站进行优化。\n2. 重复分析，观察优化效果。",
+      "url": "https://www.producthunt.com/products/bifura",
+      "status": "dead",
+      "is_violation": false,
+      "id": "bifura",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Ottante",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "AI代理工作检查工具，Mac端使用",
+      "tags": [
+        "AI代理",
+        "工作检查",
+        "Mac",
+        "自动化"
+      ],
+      "scenarios": [
+        "AI代理管理",
+        "工作流程监控",
+        "效率提升"
+      ],
+      "tutorial": "## Ottante 使用教程\n\n### 1. 安装 Ottante\n\n- 访问 Ottante 官网下载最新版本。\n- 双击安装包，按照提示完成安装。\n\n### 2. 配置 Ottante\n\n- 打开 Ottante，点击左上角的设置图标。\n- 在设置界面中，配置你的 AI 代理账户信息。\n\n### 3. 检查 AI 代理工作\n\n- 在 Ottante 主界面，选择对应的 AI 代理。\n- 查看代理的工作记录和结果。\n\n### 4. 分析与优化\n\n- 分析 AI 代理的工作效率。\n- 根据分析结果，优化代理工作流程。",
+      "url": "https://www.producthunt.com/products/ottante",
+      "status": "dead",
+      "is_violation": false,
+      "id": "ottante",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "DeskFleet",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "跨团队机器运行编码代理",
+      "tags": [
+        "团队协作",
+        "代码代理",
+        "自动化"
+      ],
+      "scenarios": [
+        "团队开发协作",
+        "代码测试",
+        "自动化测试"
+      ],
+      "tutorial": "## DeskFleet 使用教程\n\n### 1. 安装 DeskFleet\n\n1. 访问 DeskFleet 官网下载安装包。\n2. 根据操作系统选择合适的安装包进行安装。\n3. 安装完成后，启动 DeskFleet 服务。\n\n### 2. 配置代理\n\n1. 在 DeskFleet 界面中，点击添加代理。\n2. 输入代理的名称和描述。\n3. 选择代理运行的环境和配置参数。\n4. 点击保存。\n\n### 3. 运行代理\n\n1. 在 DeskFleet 界面中，选择要运行的代理。\n2. 点击运行按钮。\n3. 观察代理的运行状态。\n\n### 4. 监控与日志\n\n1. 在 DeskFleet 界面中，查看代理的运行日志。\n2. 监控代理的性能和资源使用情况。\n3. 根据需要调整代理的配置。",
+      "url": "https://www.producthunt.com/products/deskfleet",
+      "status": "dead",
+      "is_violation": false,
+      "id": "deskfleet",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "Monton",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "自动化代理处理代理机构的繁忙工作",
+      "tags": [
+        "AI代理",
+        "自动化",
+        "网页操作"
+      ],
+      "scenarios": [
+        "网页数据采集",
+        "自动化表单填写",
+        "RPA"
+      ],
+      "tutorial": "## Monton 使用教程\n\n### 1. 安装 Monton\n\n- 访问 Monton 官网下载安装包。\n- 根据操作系统选择合适的安装包进行安装。\n\n### 2. 创建任务\n\n- 打开 Monton 软件，点击创建新任务。\n- 输入任务名称和描述。\n- 选择需要自动化的网页或表单。\n\n### 3. 编排动作\n\n- 在任务编辑器中，拖拽动作模块到工作流中。\n- 设置每个动作的参数，如填写表单字段、点击按钮等。\n\n### 4. 运行任务\n\n- 点击运行按钮，Monton 将自动执行任务。\n- 查看任务执行结果，如有错误可进行调试。",
+      "url": "https://www.producthunt.com/products/monton",
+      "status": "dead",
+      "is_violation": false,
+      "id": "monton",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "QA.tech MCP",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "IDE变更验证，自动化测试助手",
+      "tags": [
+        "IDE",
+        "自动化测试",
+        "代码验证",
+        "开源"
+      ],
+      "scenarios": [
+        "持续集成",
+        "代码审查",
+        "开发测试"
+      ],
+      "tutorial": "## 使用QA.tech MCP进行IDE变更验证\n\n1. 安装QA.tech MCP插件\n   - 在你的IDE中搜索并安装QA.tech MCP插件。\n2. 配置测试环境\n   - 根据你的项目需求配置测试环境参数。\n3. 监控代码变更\n   - 启用代码变更监控，QA.tech MCP将自动检测IDE中的代码变更。\n4. 运行测试\n   - 当代码变更时，QA.tech MCP将自动运行测试用例，确保代码质量。\n5. 查看测试结果\n   - 测试完成后，查看测试结果，及时发现问题并进行修复。",
+      "url": "https://www.producthunt.com/products/qa-tech",
+      "status": "dead",
+      "is_violation": false,
+      "id": "qa-tech-mcp",
+      "added": "2026-11-27"
+    },
+    {
+      "name": "AgentDE",
+      "category": "browser",
+      "type": "open-source",
+      "summary": "Mac 环境下集中管理网页自动化代理",
+      "tags": [
+        "Mac",
+        "自动化",
+        "代理管理"
+      ],
+      "scenarios": [
+        "网页自动化测试",
+        "数据采集",
+        "RPA"
+      ],
+      "tutorial": "## AgentDE 使用教程\n\n### 1. 安装 AgentDE\n\n下载 AgentDE 安装包，按照提示完成安装。\n\n### 2. 创建新代理\n\n打开 AgentDE，点击 '新建代理'，输入代理名称并设置相关参数。\n\n### 3. 编写代理脚本\n\n在编辑器中编写代理脚本，使用内置的 API 进行网页操作。\n\n### 4. 运行代理\n\n点击 '运行' 按钮启动代理，观察代理执行过程。\n\n### 5. 查看结果\n\n代理执行完成后，查看结果并保存日志。",
+      "url": "https://www.producthunt.com/products/agentde",
+      "status": "dead",
+      "is_violation": false,
+      "id": "agentde",
+      "added": "2026-11-27"
     }
   ],
   "changelog": [
@@ -24226,6 +24493,25 @@
         "Statefold",
         "Snag by Parallel",
         "PeerBand"
+      ],
+      "invalidated": 0,
+      "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
+    },
+    {
+      "date": "2026-11-27",
+      "added": [
+        "WhipDesk",
+        "ExtraOrbital",
+        "Claude-Mem Cloud Sync",
+        "Chunkify",
+        "Remora",
+        "Pax by Pydantic",
+        "Bifura",
+        "Ottante",
+        "DeskFleet",
+        "Monton",
+        "QA.tech MCP",
+        "AgentDE"
       ],
       "invalidated": 0,
       "note": "每日自动爬取：GitHub Trending + Hugging Face + ProductHunt RSS + Firecrawl 多源采集；智谱 GLM-4-Flash 分类 + 4 大分类差异化文案生成 + 灰色/翻墙内容 AI 违规检测；新增工具链接校验 + 每日旋转复检失效标记"
