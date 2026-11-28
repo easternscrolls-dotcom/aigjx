@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T01:19:48.343Z",
+  "generatedAt": "2026-11-28T00:51:34.598Z",
   "baseUrl": "https://aiagent.72tool.com",
   "pages": [
     {
@@ -5136,6 +5136,26 @@
       "url": "https://aiagent.72tool.com/tools/agentde.html",
       "priority": "0.7",
       "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/rag-gita.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/depost-ai.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/ploid.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
+    },
+    {
+      "url": "https://aiagent.72tool.com/tools/contral.html",
+      "priority": "0.7",
+      "changefreq": "weekly"
     }
   ],
   "categories": [
@@ -5166,7 +5186,7 @@
     }
   ],
   "stats": {
-    "totalAgents": 1020,
+    "totalAgents": 1024,
     "byCategory": [
       {
         "id": "local",
@@ -5176,7 +5196,7 @@
       {
         "id": "browser",
         "name": "浏览器网页 Agent",
-        "count": 864
+        "count": 868
       },
       {
         "id": "workflow",
@@ -5194,6 +5214,6 @@
         "count": 25
       }
     ],
-    "deadLinks": 701
+    "deadLinks": 704
   }
 }
